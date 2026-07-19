@@ -29,3 +29,27 @@ HN_MAX_PER_QUERY = 15
 
 # 超过这么多天的旧条目不再保留在 events.json 里，避免文件无限膨胀
 MAX_AGE_DAYS = 120
+
+# 公司/机构标签：命中别名（大小写不敏感的子串匹配）就打上对应标签
+# 别名要选足够specific的写法，避免"Figure"这种词跟论文里的"figure 1"之类误命中
+ENTITIES = {
+    "Tesla Optimus": ["tesla optimus", "optimus robot"],
+    "Figure AI": ["figure ai", "figure 02", "figure03", "figure 03"],
+    "1X Technologies": ["1x technologies", "1x neo robot", "1x's neo"],
+    "Unitree": ["unitree"],
+    "Boston Dynamics": ["boston dynamics"],
+    "Physical Intelligence": ["physical intelligence"],
+    "Agility Robotics": ["agility robotics", "digit robot"],
+    "Sanctuary AI": ["sanctuary ai"],
+    "Apptronik": ["apptronik"],
+    "Google DeepMind": ["deepmind"],
+    "NVIDIA": ["nvidia"],
+    "Skild AI": ["skild ai"],
+    "Covariant": ["covariant"],
+    "OpenAI": ["openai"],
+    "Meta AI": ["meta ai", "meta fair"],
+    "UBTech": ["ubtech"],
+    "AgiBot 智元": ["agibot"],
+    "Fourier Intelligence": ["fourier intelligence"],
+    "Galbot": ["galbot"],
+}

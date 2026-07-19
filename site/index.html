@@ -10,14 +10,33 @@
   <header class="topbar">
     <div class="topbar-inner">
       <h1>具身智能大事纪</h1>
-      <p class="subtitle">自动汇总 arXiv 论文、机器人公司博客与社区讨论 · <span id="updated-at">加载中…</span></p>
+      <p class="subtitle">自动汇总 arXiv 论文、机器人公司博客与社区讨论</p>
+      <div id="stats" class="stats"></div>
     </div>
   </header>
 
   <main class="container">
     <div class="controls">
       <input id="search" type="search" placeholder="搜索标题或摘要…" autocomplete="off" />
-      <div id="source-filters" class="source-filters"></div>
+
+      <div class="filter-row">
+        <span class="filter-label">时间</span>
+        <div id="range-filters" class="chip-row"></div>
+      </div>
+
+      <div class="filter-row">
+        <span class="filter-label">来源</span>
+        <div id="source-filters" class="chip-row"></div>
+        <div class="chip-actions">
+          <button id="source-all" class="text-btn">全选</button>
+          <button id="source-none" class="text-btn">清空</button>
+        </div>
+      </div>
+
+      <div class="filter-row" id="tag-row" hidden>
+        <span class="filter-label">公司/机构</span>
+        <div id="tag-filters" class="chip-row"></div>
+      </div>
     </div>
 
     <div id="empty-state" class="empty-state" hidden>没有匹配的条目。</div>

@@ -90,6 +90,15 @@ def matches_keywords(*texts):
     return any(kw in joined for kw in sources.KEYWORDS)
 
 
+def tag_entities(*texts):
+    joined = " ".join(texts).lower()
+    return sorted(
+        name
+        for name, aliases in sources.ENTITIES.items()
+        if any(alias in joined for alias in aliases)
+    )
+
+
 def fetch_rss(feed):
     print(f"[rss] fetching {feed['name']}...", file=sys.stderr)
     try:
@@ -189,6 +198,8 @@ def main():
 
     cutoff = (datetime.now(timezone.utc).date() - timedelta(days=sources.MAX_AGE_DAYS)).isoformat()
     merged = [e for e in by_id.values() if e["date"] >= cutoff]
+    for e in merged:
+        e["tags"] = tag_entities(e["title"], e["summary"])
     merged.sort(key=lambda e: (e["date"], e["source"]), reverse=True)
 
     DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
