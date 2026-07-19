@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: "17 1 * * *" # 每天 UTC 01:17（北京时间 09:17）跑一次
   workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths-ignore:
+      - "site/data/events.json" # 避免 bot 自己提交数据又触发一次 push
 
 permissions:
   contents: write
@@ -15,8 +19,11 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  update-data:
+  build-and-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -36,14 +43,6 @@ jobs:
           git diff --staged --quiet || git commit -m "chore: update events data"
           git push
 
-  deploy:
-    needs: update-data
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
