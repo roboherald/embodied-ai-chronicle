@@ -499,6 +499,12 @@ body {
   white-space: nowrap;
 }
 
+.badge-new {
+  background: rgba(57, 135, 229, 0.18);
+  color: var(--accent);
+  font-weight: 600;
+}
+
 .tag-pill {
   font-size: 0.7rem;
   padding: 2px 8px;

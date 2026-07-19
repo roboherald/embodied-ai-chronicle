@@ -193,6 +193,12 @@ async function init() {
   });
 }
 
+function isRecent(dateStr) {
+  const today = new Date().toISOString().slice(0, 10);
+  const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
+  return dateStr === today || dateStr === yesterday;
+}
+
 function currentCompanyFromHash() {
   const raw = location.hash.replace(/^#/, "");
   const params = new URLSearchParams(raw);
@@ -829,6 +835,12 @@ function renderCard(item) {
 
   const meta = document.createElement("div");
   meta.className = "card-meta";
+  if (isRecent(item.date)) {
+    const newBadge = document.createElement("span");
+    newBadge.className = "badge badge-new";
+    newBadge.textContent = "🆕 新";
+    meta.appendChild(newBadge);
+  }
   const badge = document.createElement("span");
   badge.className = "badge";
   badge.textContent = item.source;
