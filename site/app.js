@@ -31,10 +31,17 @@ const BOOKMARK_KEY = "eac_bookmarks";
 const VISITED_KEY = "eac_visited";
 const LIKED_KEY = "eac_liked";
 
+// 不用 AbortSignal.timeout（微信内置浏览器等老 WebView 上没有这个 API，直接抛错导致点击静默失效）
+function fetchWithTimeout(url, options = {}, ms = 8000) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), ms);
+  return fetch(url, { ...options, signal: controller.signal }).finally(() => clearTimeout(timer));
+}
+
 async function loadAllLikeCounts() {
   const counts = new Map();
   try {
-    const res = await fetch(`${LIKES_API_BASE}/counts`, { signal: AbortSignal.timeout(8000) });
+    const res = await fetchWithTimeout(`${LIKES_API_BASE}/counts`);
     const data = await res.json();
     for (const [id, count] of Object.entries(data.counts || {})) counts.set(id, count);
   } catch {
@@ -507,11 +514,10 @@ async function handleLikeClick(btn) {
   const isLiking = !state.liked.has(id);
   btn.disabled = true;
   try {
-    const res = await fetch(`${LIKES_API_BASE}/like`, {
+    const res = await fetchWithTimeout(`${LIKES_API_BASE}/like`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ id, action: isLiking ? "up" : "down" }),
-      signal: AbortSignal.timeout(8000),
     });
     const data = await res.json();
     const count = data.count ?? "";
