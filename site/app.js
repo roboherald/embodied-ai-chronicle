@@ -583,18 +583,25 @@ async function loadLikeCount(btn) {
 
 async function handleLikeClick(btn) {
   const id = btn.dataset.id;
-  if (state.liked.has(id)) return;
+  const isLiking = !state.liked.has(id);
   btn.disabled = true;
   try {
-    const res = await fetch(`${COUNTER_BASE}/${COUNTER_NAMESPACE}/${id}/up`);
+    const res = await fetch(`${COUNTER_BASE}/${COUNTER_NAMESPACE}/${id}/${isLiking ? "up" : "down"}`);
     const data = await res.json();
     const count = data.count ?? "";
     btn.querySelector(".count").textContent = count;
     setCachedLikeCount(id, count);
     likeCountCache.set(id, Promise.resolve(count));
-    state.liked.add(id);
+    if (isLiking) {
+      state.liked.add(id);
+      btn.classList.add("active");
+      btn.title = "再点一次取消";
+    } else {
+      state.liked.delete(id);
+      btn.classList.remove("active");
+      btn.title = "";
+    }
     saveIdSet(LIKED_KEY, state.liked);
-    btn.classList.add("active");
   } catch {
     // 网络失败就静默放弃，不影响其它功能
   } finally {
@@ -670,6 +677,7 @@ function renderCard(item) {
   likeBtn.className = "icon-btn" + (state.liked.has(item.id) ? " active" : "");
   likeBtn.dataset.id = item.id;
   likeBtn.innerHTML = `👍 有用 <span class="count">…</span>`;
+  likeBtn.title = state.liked.has(item.id) ? "再点一次取消" : "";
   likeBtn.addEventListener("click", () => handleLikeClick(likeBtn));
   actions.appendChild(likeBtn);
   observeLikeButton(likeBtn);
