@@ -1,0 +1,930 @@
+[
+  {
+    "id": "b7cf9ccd25c4e487",
+    "title": "Palm Garden AI develops Coherence Guard relational decision layer for human-facing robots",
+    "url": "https://www.therobotreport.com/palm-garden-ai-develops-coherence-guard-relational-decision-layer-human-facing-robots/",
+    "source": "The Robot Report",
+    "date": "2026-07-18",
+    "summary": "Palm Garden AI is developing a hardware-agnostic software layer, including Coherence Guard, for human-robot interaction and relationships. The post Palm Garden AI develops Coherence Guard relational decision layer for human-facing robots appeared first on The Robot Report ."
+  },
+  {
+    "id": "814c2d1fb817ae6a",
+    "title": "Founder of Maximo discusses how robotics is accelerating solar construction",
+    "url": "https://www.therobotreport.com/transforming-solar-construction-through-robotics-deise-yumi-asami-maximo/",
+    "source": "The Robot Report",
+    "date": "2026-07-17",
+    "summary": "Maximo founder Deise Yumi Asami discusses the process of automating solar construction with robotics. The post Founder of Maximo discusses how robotics is accelerating solar construction appeared first on The Robot Report ."
+  },
+  {
+    "id": "4f08eaf322c9232a",
+    "title": "Weave Robotics launches Isaac, its first mobile humanoid robot",
+    "url": "https://www.therobotreport.com/weave-robotics-launches-isaac-first-mobile-humanoid-robot/",
+    "source": "The Robot Report",
+    "date": "2026-07-17",
+    "summary": "Weave Robotics has listed the features of its Isaac wheeled bimanual manipulator robot for household and office use. The post Weave Robotics launches Isaac, its first mobile humanoid robot appeared first on The Robot Report ."
+  },
+  {
+    "id": "14783f9428c07d67",
+    "title": "With new funding, Monumental plans to bring its construction robots to the U.S.",
+    "url": "https://www.therobotreport.com/with-new-funding-monumental-plans-bring-construction-robots-u-s/",
+    "source": "The Robot Report",
+    "date": "2026-07-17",
+    "summary": "Monumental acts as a subcontractor during construction tasks. Contractors pay the company for finished walls rather than for robots. The post With new funding, Monumental plans to bring its construction robots to the U.S. appeared first on The Robot Report ."
+  },
+  {
+    "id": "7cbd6083bb1cfe8b",
+    "title": "This Graduate Student Equips NASA’s Robots With Assembly Skills",
+    "url": "https://spectrum.ieee.org/graduate-student-nasas-robots-assembly",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-07-17",
+    "summary": "Like many engineers, Sarah Downs says she knew she wanted to pursue a STEM career from a young age. As a teenager, she discovered robotics through her Tulsa, Okla., middle school’s First Lego League team, and she fell in love with the field, she says. Downs participated in the i…"
+  },
+  {
+    "id": "ff19c3ff464faea5",
+    "title": "Video Friday: Your Robot Surgeon Will See You Now",
+    "url": "https://spectrum.ieee.org/video-friday-robotic-surgery",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-07-17",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Summer School on Multi-Robot Syste…"
+  },
+  {
+    "id": "2a21e49a82730e7c",
+    "title": "Fear of humanoid robots spurs human workers to strike at Hyundai auto factory",
+    "url": "https://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory/",
+    "source": "Hacker News",
+    "date": "2026-07-17",
+    "summary": "34 points, https://news.ycombinator.com/item?id=48950620"
+  },
+  {
+    "id": "745c16e5b4b25039",
+    "title": "RoboTTT: Context Scaling for Robot Policies",
+    "url": "https://arxiv.org/abs/2607.15275v1",
+    "source": "arXiv",
+    "date": "2026-07-16",
+    "summary": "Recent robot foundation models operate with single-step or short-history visuomotor context. We introduce Test-Time-Training Robot Policies (RoboTTT), a robot model and training recipe that scale visuomotor context to 8K timesteps, three orders of magnitude beyond state-of-the-a…"
+  },
+  {
+    "id": "d4a902eca97d21c2",
+    "title": "BadWAM: When World-Action Models Dream Right but Act Wrong",
+    "url": "https://arxiv.org/abs/2607.15207v1",
+    "source": "arXiv",
+    "date": "2026-07-16",
+    "summary": "World-action models (WAMs) are emerging as a promising foundation for embodied control: rather than predicting actions alone, they learn representations that couple action generation with future world prediction. This coupling is often viewed as a source of robustness, interpret…"
+  },
+  {
+    "id": "da899d6d3c58d9d2",
+    "title": "Scaling Behavior Foundation Model for Humanoid Robots",
+    "url": "https://arxiv.org/abs/2607.15163v1",
+    "source": "arXiv",
+    "date": "2026-07-16",
+    "summary": "Humanoid control requires natural whole-body coordination, precise real-time responses to control signals, and robust generalization across diverse environmental contexts, making it a cornerstone for generalist embodied agents. Behavior Foundation Models (BFMs) have recently eme…"
+  },
+  {
+    "id": "6f0819d0c1a50b86",
+    "title": "DriftWorld: Fast World Modeling through Drifting",
+    "url": "https://arxiv.org/abs/2607.15065v1",
+    "source": "arXiv",
+    "date": "2026-07-16",
+    "summary": "Predictive world models enable robots to plan by imagining the outcomes of their actions, but their value for control hinges on generating many rollouts quickly. This creates a bottleneck for diffusion-based world models: multistep sampling makes each rollout expensive, limiting…"
+  },
+  {
+    "id": "42718436a23246e2",
+    "title": "SUFLECA: Scaling Up Feature Learning for CAD-to-image Alignment",
+    "url": "https://arxiv.org/abs/2607.15058v1",
+    "source": "arXiv",
+    "date": "2026-07-16",
+    "summary": "CAD-to-image alignment aims to estimate an object's 9D pose (rotation, translation, and anisotropic scale) from a single RGB image, enabling applications in robotics and augmented reality. Recent zero-shot methods use visual foundation models to match image regions to CAD models…"
+  },
+  {
+    "id": "1dcfc7f7ee77de24",
+    "title": "Learning Agile Navigation in Crowded Environments for Quadruped Robots",
+    "url": "https://arxiv.org/abs/2607.15036v1",
+    "source": "arXiv",
+    "date": "2026-07-16",
+    "summary": "Navigating dynamic and crowded environments presents significant challenges for quadruped robots due to severe sensor occlusion and unpredictable human motion. Existing approaches face a trade-off: model-based methods, such as Velocity Obstacles (VO), theoretically guarantee saf…"
+  },
+  {
+    "id": "1c041d47b743b6f7",
+    "title": "CosFly-VLA: A Spatially Aware Vision-Language-Action Model for UAV Tracking",
+    "url": "https://arxiv.org/abs/2607.15004v1",
+    "source": "arXiv",
+    "date": "2026-07-16",
+    "summary": "Dynamic target tracking is essential for Unmanned Aerial Vehicles (UAVs) operating in complex urban environments, where both the target and the camera viewpoint change continuously. Existing Vision-Language-Action (VLA) policies can track visible targets effectively, but their p…"
+  },
+  {
+    "id": "6dcdca6cea76399e",
+    "title": "AeroAct: Action-Centered World-Action Models for Language-Conditioned Quadrotor Flight",
+    "url": "https://arxiv.org/abs/2607.14997v1",
+    "source": "arXiv",
+    "date": "2026-07-16",
+    "summary": "Language-conditioned quadrotor flight requires a policy to ground semantic goals, anticipate the visual consequences of ego-motion, and output control references that remain smooth and dynamically executable under rapidly changing first-person views. Existing aerial vision-langu…"
+  },
+  {
+    "id": "2bc18a530ef09acd",
+    "title": "Towards Human-like Physical Intelligence: LifelongVision-Language-Action Learning for Robotic Manipulation",
+    "url": "https://arxiv.org/abs/2607.14852v1",
+    "source": "arXiv",
+    "date": "2026-07-16",
+    "summary": "Similar to the natural capabilities of humans to sequentially learn new tasks, robots with Vision-Language-Action (VLA) models should possess lifelong learning ability to learn a new task when deployed in open-world environments. However, most recently proposed lifelong learning…"
+  },
+  {
+    "id": "da8387d985f9d99e",
+    "title": "KineFuse: Kinematic-Aware Haptic Fusion for In-Hand Occluded-Object Pose Tracking",
+    "url": "https://arxiv.org/abs/2607.14842v1",
+    "source": "arXiv",
+    "date": "2026-07-16",
+    "summary": "Dexterous in-hand manipulation requires continuous 6D pose tracking, yet the manipulating fingers inevitably occlude the object from the camera. We study how to structure the sparse haptic signals already available on multi-fingered hands, including proprioception, proximal forc…"
+  },
+  {
+    "id": "598f6d166c5e900d",
+    "title": "Hybrid Rigid-Soft Robotic Gripper with Shape Adaptation, Uniform Force Distribution, and Self-Locking Capabilities",
+    "url": "https://arxiv.org/abs/2607.14730v1",
+    "source": "arXiv",
+    "date": "2026-07-16",
+    "summary": "Conventional robotic grippers face a significant challenge in agricultural automation: the trade-off between compliant, adaptive grasping, pressure balancing among all joints, and high load capacity, often at the cost of high energy consumption. This paper presents a novel hybri…"
+  },
+  {
+    "id": "a94751671334a66b",
+    "title": "BridgeFlow: Fast and Robust SE(2)-Equivariant Motion Planning with Flow Matching",
+    "url": "https://arxiv.org/abs/2607.14725v1",
+    "source": "arXiv",
+    "date": "2026-07-16",
+    "summary": "In robotic motion planning, equivariance to rigid body transformations is crucial for robust spatial generalization. However, current learning-based planners face a critical dilemma: they either lack inherent equivariance, treating transformed tasks as novel scenarios, or enforc…"
+  },
+  {
+    "id": "d022aff92afe5853",
+    "title": "Reinforcement Learning for the Full Strawberry Harvesting Process: Obstacle Separation, Detachment, and Placement",
+    "url": "https://arxiv.org/abs/2607.14708v1",
+    "source": "arXiv",
+    "date": "2026-07-16",
+    "summary": "Severe occlusions and deformable plant structures introduce complex contact dynamics that challenge robotic strawberry harvesting. A policy-driven reinforcement learning (RL) framework with heuristic phase coordination was developed, in which obstacle separation, fruit detachmen…"
+  },
+  {
+    "id": "7f323c8dea94f298",
+    "title": "Lights, Camera, Malfunction: When Illumination Robustness Leaves VLA Models Blind to Color",
+    "url": "https://arxiv.org/abs/2607.14698v1",
+    "source": "arXiv",
+    "date": "2026-07-16",
+    "summary": "Vision-Language-Action (VLA) models have emerged as a powerful paradigm for general-purpose robot manipulation; however, their transition to real-world environments reveals vulnerabilities to minor environmental perturbations. We propose FLARE, an optimized physical spotlight at…"
+  },
+  {
+    "id": "403f0d85a187588c",
+    "title": "Reflex: Real-Time VLA Control through Streaming Inference",
+    "url": "https://arxiv.org/abs/2607.14695v1",
+    "source": "arXiv",
+    "date": "2026-07-16",
+    "summary": "Flow matching Vision-Language-Action (VLA) models promise precise continuous control, but their iterative denoising nature introduces fundamental incompatibilities with real-time robotics: global timestep injection invalidates KV-caching, forcing a choice between slow $O(N^2)$ r…"
+  },
+  {
+    "id": "d1cf1a6d123eaee9",
+    "title": "NavCMPO: Critic-Guided MeanFlow Policy Optimization for Adaptive Navigation",
+    "url": "https://arxiv.org/abs/2607.14643v1",
+    "source": "arXiv",
+    "date": "2026-07-16",
+    "summary": "End-to-end diffusion-based policies have demonstrated strong performance in mapless visual navigation, but their iterative denoising process introduces substantial inference latency, while behavior cloning limits performance to the quality of expert demonstrations. We present Na…"
+  },
+  {
+    "id": "e986ef89aae72848",
+    "title": "Action QFormer: Structured Representation Shaping under Action Supervision in Vision-Language-Action Models",
+    "url": "https://arxiv.org/abs/2607.14635v1",
+    "source": "arXiv",
+    "date": "2026-07-16",
+    "summary": "Action supervision in vision-language-action (VLA) models is often treated as a downstream objective for learning action prediction. In this paper, we study it instead as a force that shapes inherited multimodal representations. We show that this shaping has a dual effect: it is…"
+  },
+  {
+    "id": "e0343d3af3a8c4e2",
+    "title": "Representation-Aligned Tactile Grounding for Contact-Rich Robotic Manipulation",
+    "url": "https://arxiv.org/abs/2607.14609v1",
+    "source": "arXiv",
+    "date": "2026-07-16",
+    "summary": "Tactile-enhanced vision-language-action (VLA) policies have been introduced for contact-rich manipulation, where critical interaction states are often hidden from vision. Future tactile prediction is a promising way to use touch because it turns tactile outcomes into supervision…"
+  },
+  {
+    "id": "30898a15b4151c56",
+    "title": "SoftNav: Injecting 3D Scene Tokens into VLMs for Embodied Navigation",
+    "url": "https://arxiv.org/abs/2607.14586v1",
+    "source": "arXiv",
+    "date": "2026-07-16",
+    "summary": "In goal-directed embodied navigation, where an agent must locate a specified target in an unseen environment, 3D scene understanding and navigation reasoning must work in concert. Current approaches transmit 3D scene information to vision-language models (VLMs) through text, sug…"
+  },
+  {
+    "id": "8c6f2768c2a75691",
+    "title": "Beyond Implicit Force: Evaluating Explicit Force-Torque Proxies in Action Chunking with Transformers",
+    "url": "https://arxiv.org/abs/2607.14578v1",
+    "source": "arXiv",
+    "date": "2026-07-16",
+    "summary": "Contact-rich manipulation requires policies to infer interaction state from signals that are often weakly observable through vision and kinematics alone. Action Chunking with Transformers (ACT) has shown strong performance in fine-grained manipulation, but many deployments colle…"
+  },
+  {
+    "id": "b27855772ab6f973",
+    "title": "SafeRelBench: A Spatial-Relation-Aware Benchmark for Process-Level Safety in VLM-Driven Embodied Agents",
+    "url": "https://arxiv.org/abs/2607.14543v1",
+    "source": "arXiv",
+    "date": "2026-07-16",
+    "summary": "Vision-language models (VLMs) are increasingly used as the reasoning backbone of embodied agents, enabling robots to interpret visual scenes, follow language instructions, and plan multi-step actions. In household environments, however, safety depends not only on recognizing obj…"
+  },
+  {
+    "id": "4f144e67e6829982",
+    "title": "Safe Execution of RL Policies Via Acceleration-Based CBF-QP Constraint Enforcement for Real-World Robotic Deployments",
+    "url": "https://arxiv.org/abs/2607.14488v1",
+    "source": "arXiv",
+    "date": "2026-07-16",
+    "summary": "Reinforcement Learning (RL) has demonstrated remarkable capabilities for solving complex robotic control problems, but its lack of safety guarantees severely limits deployment on hardware. In particular, as legged robots and manipulators often operate near safety-critical bounda…"
+  },
+  {
+    "id": "af936438b994d408",
+    "title": "MIDAS Hand: Modular low-Impedance Direct-drive Anthropomorphic Sensing Hand",
+    "url": "https://arxiv.org/abs/2607.14487v1",
+    "source": "arXiv",
+    "date": "2026-07-16",
+    "summary": "Dexterous manipulation is limited not only by algorithms but by a shortage of accessible hand hardware that combines human-scale morphology, ease of manufacturing or maintenance, tactile sensing, and practical cost. Existing dexterous hands tend to optimize some of these propert…"
+  },
+  {
+    "id": "389890ddd67e2e96",
+    "title": "Active Real-World Factor-Based Evaluation for Generalist Robot Policies",
+    "url": "https://arxiv.org/abs/2607.14439v1",
+    "source": "arXiv",
+    "date": "2026-07-16",
+    "summary": "Generalist robot manipulation policies trained on large, diverse datasets have shown remarkable promise across a wide range of tasks. However, rigorously evaluating these policies remains a fundamental challenge. Real-world performance depends on a large combinatorial space of t…"
+  },
+  {
+    "id": "b6a4ff3f53a78e7e",
+    "title": "TerraFirma raises $115M to build robotic infrastructure for construction",
+    "url": "https://www.therobotreport.com/terrafirma-raises-115m-build-robotic-infrastructure-construction/",
+    "source": "The Robot Report",
+    "date": "2026-07-16",
+    "summary": "TerraFirma has developed a platform that combines AI-enabled software, a remote command-and-control center, and retrofitted heavy machinery. The post TerraFirma raises $115M to build robotic infrastructure for construction appeared first on The Robot Report ."
+  },
+  {
+    "id": "e73176df709f1161",
+    "title": "Xpanner rolls out X1 Panel Lift for automated solar panel installation",
+    "url": "https://www.therobotreport.com/xpanner-rolls-out-x1-panel-lift-automated-solar-panel-installation/",
+    "source": "The Robot Report",
+    "date": "2026-07-16",
+    "summary": "X1 Panel Lift uses existing excavators and a single workflow so solar installation crews can focus on alignment, fastening, and quality. The post Xpanner rolls out X1 Panel Lift for automated solar panel installation appeared first on The Robot Report ."
+  },
+  {
+    "id": "ac3dfdab9ac8ca80",
+    "title": "Lockheed Martin taps Machina’s robots for mission-critical missile parts",
+    "url": "https://www.therobotreport.com/lockheed-martin-taps-machinas-robots-for-mission-critical-missile-parts/",
+    "source": "The Robot Report",
+    "date": "2026-07-16",
+    "summary": "Machina Labs secured a Lockheed Martin contract to qualify robotically formed metal components for the JASSM missile program. The post Lockheed Martin taps Machina’s robots for mission-critical missile parts appeared first on The Robot Report ."
+  },
+  {
+    "id": "9d62699b319a5080",
+    "title": "How to Make an Invisible Drone",
+    "url": "https://spectrum.ieee.org/invisible-spinning-drone",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-07-16",
+    "summary": "There are many words that I would never, ever use to describe a drone. Stealthy. Subtle. Whatever the opposite of obnoxious is. Much of this is because of the giant angry bee sound that drones tend to make, but it’s also the way that they look in flight: With uncannily linear mo…"
+  },
+  {
+    "id": "63cb97e8c9bbbbf7",
+    "title": "An offline approach to fNIRS-guided reinforcement learning for robot behavior",
+    "url": "https://arxiv.org/abs/2607.14393v1",
+    "source": "arXiv",
+    "date": "2026-07-15",
+    "summary": "Human-in-the-loop Reinforcement Learning has become a popular approach to training, finetuning, and aligning robot behavior with user preferences. Our paper explores the feasibility of using brain signals via functional near-infrared spectroscopy (fNIRS) to modulate robot learni…"
+  },
+  {
+    "id": "12fa95c7b8470fac",
+    "title": "DiMaS: Distribution Matching for Steering Vision-Language-Action Models",
+    "url": "https://arxiv.org/abs/2607.14280v1",
+    "source": "arXiv",
+    "date": "2026-07-15",
+    "summary": "Flow-matching-based vision-language-action (VLA) models have emerged as powerful policies for robotic manipulation, yet a critical capability remains underexplored: fine-grained behavioral control, the ability to govern how a robot performs a task by intervening on its internal…"
+  },
+  {
+    "id": "cf77be12441f77d6",
+    "title": "MEMORA: Embodied Action Memory from Egocentric Videos for Reasoning and Planning",
+    "url": "https://arxiv.org/abs/2607.14252v1",
+    "source": "arXiv",
+    "date": "2026-07-15",
+    "summary": "Long-horizon robot planning requires more than predicting what actions will do next; it also requires memory of the embodied experience that makes future goals interpretable. People do not plan from the present scene alone: they draw on remembered places, object-state changes, p…"
+  },
+  {
+    "id": "541dbfc672db8ab4",
+    "title": "Never Too Late for Force: Accelerating VLA Post-Training with Reactive Force Injection",
+    "url": "https://arxiv.org/abs/2607.14236v1",
+    "source": "arXiv",
+    "date": "2026-07-15",
+    "summary": "Pretrained vision-language-action (VLA) policies provide strong language-conditioned manipulation knowledge, but they remain largely vision-driven and can struggle once manipulation enters contact states where the scene is occluded, depth is ambiguous, or small force errors push…"
+  },
+  {
+    "id": "e21aa9fdbb8fee90",
+    "title": "Zero2Skill: Bootstrapping Robot Skills through Autonomous Data Collection, Training, and Deployment",
+    "url": "https://arxiv.org/abs/2607.14047v2",
+    "source": "arXiv",
+    "date": "2026-07-15",
+    "summary": "Autonomous data collection governs the volume and quality of real-world trajectories for manipulation policy learning. Existing pipelines reduce human effort via self-resetting, VLM verification, or language-guided correction, yet episode-scoped fixes must be reissued whenever t…"
+  },
+  {
+    "id": "c1b0db8a5caf288f",
+    "title": "Industrial Dexterity Benchmark: A Hardware-Software Benchmarking Platform for Industrial Dexterous Manipulation",
+    "url": "https://arxiv.org/abs/2607.14021v1",
+    "source": "arXiv",
+    "date": "2026-07-15",
+    "summary": "Dexterous manipulation remains a critical bottleneck in industrial automation; tasks such as cable routing, connector insertion, and precision assembly still rely heavily on manual labor despite decades of robotics research. This work presents a progression from classical, modul…"
+  },
+  {
+    "id": "83ec281edf180516",
+    "title": "Walden Robotics launches at $1.1B valuation for general-purpose robots",
+    "url": "https://www.therobotreport.com/walden-robotics-launches-1-1b-valuation-general-purpose-robots/",
+    "source": "The Robot Report",
+    "date": "2026-07-15",
+    "summary": "Leading technology companies have invested in Walden Robotics, which emerged from stealth as it develops full-stack physical AI. The post Walden Robotics launches at $1.1B valuation for general-purpose robots appeared first on The Robot Report ."
+  },
+  {
+    "id": "24d53caa88d5fd01",
+    "title": "Agility outlines six recommendations for U.S. humanoid robot policies",
+    "url": "https://www.therobotreport.com/agility-outlines-six-recommendations-for-u-s-humanoid-robot-policies/",
+    "source": "The Robot Report",
+    "date": "2026-07-15",
+    "summary": "Peggy Johnson, CEO of Agility, said the U.S. needs a policy framework that can strengthen what's already working for the humanoid industry. The post Agility outlines six recommendations for U.S. humanoid robot policies appeared first on The Robot Report ."
+  },
+  {
+    "id": "5a34f2d10d1f56c4",
+    "title": "Vicarious Surgical board seeks to dissolve company",
+    "url": "https://www.therobotreport.com/vicarious-surgical-board-seeks-to-dissolve-company/",
+    "source": "The Robot Report",
+    "date": "2026-07-15",
+    "summary": "The board is asking shareholders to approve their plan to dissolve and liquidate the business at a special meeting scheduled for July 21, but said it can not predict how much (if anything) investors would recover or when. The post Vicarious Surgical board seeks to dissolve compa…"
+  },
+  {
+    "id": "2376ea56c3696c30",
+    "title": "Icarus Robotics uses KULR technology to power JOY free-flying space robot",
+    "url": "https://www.therobotreport.com/icarus-robotics-uses-kulr-technology-to-power-joy-free-flying-space-robot/",
+    "source": "The Robot Report",
+    "date": "2026-07-15",
+    "summary": "Under the agreement, KULR will supply its KULR ONE Space battery systems to power JOY’s onboard systems on the ISS. The post Icarus Robotics uses KULR technology to power JOY free-flying space robot appeared first on The Robot Report ."
+  },
+  {
+    "id": "dc5abc6a592c6cf0",
+    "title": "NVIDIA Introduces New Jetson Thor Computers to Advance Mainstream Robotics and Edge AI",
+    "url": "https://blogs.nvidia.com/blog/jetson-thor-robotics-edge-ai-agent/",
+    "source": "NVIDIA Blog",
+    "date": "2026-07-15",
+    "summary": "General-purpose robots and autonomous machines are moving from research labs to real-world mass-market deployment, creating demand for compact, power-efficient AI supercomputers capable of running foundation models at the edge. To meet that need, NVIDIA today introduced the T300…"
+  },
+  {
+    "id": "0b816fffcc50ecdc",
+    "title": "NVIDIA and Japan Bring Full-Stack AI and Robotics to Every Industry",
+    "url": "https://blogs.nvidia.com/blog/japan-ecosystem-2026/",
+    "source": "NVIDIA Blog",
+    "date": "2026-07-15",
+    "summary": "Home to leading manufacturers, robotics pioneers, infrastructure builders and iconic gaming companies, of course, Japan is one of the world’s centers of AI — building across the full stack with NVIDIA technologies. This week NVIDIA and its partners in Japan are showcasing the AI…"
+  },
+  {
+    "id": "dae144e800f0c22c",
+    "title": "The Fight over Humanoid Robots Has Shut Down a Car Factory for the First Time",
+    "url": "https://www.wsj.com/business/autos/the-fight-over-humanoid-robots-has-shut-down-a-car-factory-for-the-first-time-d45ac3e1",
+    "source": "Hacker News",
+    "date": "2026-07-15",
+    "summary": "3 points, https://news.ycombinator.com/item?id=48924863"
+  },
+  {
+    "id": "352dc4c462512c3e",
+    "title": "Key to Humanoid Progress: Managing the Power Behind the Robots",
+    "url": "https://www.therobotreport.com/key-to-humanoid-progress-managing-the-power-behind-the-robots/",
+    "source": "The Robot Report",
+    "date": "2026-07-14",
+    "summary": "Murata Power Solutions' John Quinlan on how advanced robotics converts, distributes and controls on-board power from battery to actuator. The post Key to Humanoid Progress: Managing the Power Behind the Robots appeared first on The Robot Report ."
+  },
+  {
+    "id": "d45254fd5b45e7f8",
+    "title": "NVIDIA shares how to evaluate general-purpose robot policies for real-world deployment",
+    "url": "https://www.therobotreport.com/nvidia-shares-how-evaluate-general-purpose-robot-policies-real-world-deployment/",
+    "source": "The Robot Report",
+    "date": "2026-07-14",
+    "summary": "RoboLab research powers NVIDIA Isaac Lab-Arena, an open-source simulation framework for large-scale policy setup and evaluation. The post NVIDIA shares how to evaluate general-purpose robot policies for real-world deployment appeared first on The Robot Report ."
+  },
+  {
+    "id": "31f4af5ab2d730d8",
+    "title": "Rural NY School District Will Be One of First to Bring Humanoid Robot into Class",
+    "url": "https://nysfocus.com/2026/07/14/new-york-humanoid-robot-teacher-salamanca-school-district",
+    "source": "Hacker News",
+    "date": "2026-07-14",
+    "summary": "3 points, https://news.ycombinator.com/item?id=48911203"
+  },
+  {
+    "id": "4894bc6f8e68cc31",
+    "title": "Ondas acquires DZYNE for $875.8M, expanding its defense capabilities",
+    "url": "https://www.therobotreport.com/ondas-acquires-dzyne-875-8m-expanding-its-defense-capabilities/",
+    "source": "The Robot Report",
+    "date": "2026-07-13",
+    "summary": "DZYNE Technologies specializes in long-endurance autonomous aircraft, counter-drone systems, and autonomous effects. The post Ondas acquires DZYNE for $875.8M, expanding its defense capabilities appeared first on The Robot Report ."
+  },
+  {
+    "id": "27149a199d2c6d1e",
+    "title": "Yaskawa America gets information security certification",
+    "url": "https://www.therobotreport.com/yaskawa-america-gets-information-seccurity-certification/",
+    "source": "The Robot Report",
+    "date": "2026-07-13",
+    "summary": "Yaskawa America said that independent ISO/IEC 27001:2022 certification shows its focus on protecting customer information. The post Yaskawa America gets information security certification appeared first on The Robot Report ."
+  },
+  {
+    "id": "b0ce4fdc4c7eb432",
+    "title": "Building a Foundation Stack for General-Purpose Robots",
+    "url": "https://spectrum.ieee.org/x-square-robot-embodied-ai-stack",
+    "source": "Hacker News",
+    "date": "2026-07-13",
+    "summary": "1 points, https://news.ycombinator.com/item?id=48895121"
+  },
+  {
+    "id": "025493a5b12b4c7b",
+    "title": "LingBot-Video: An open-source MoE video foundation model for embodied AI",
+    "url": "https://github.com/robbyant/lingbot-video",
+    "source": "Hacker News",
+    "date": "2026-07-13",
+    "summary": "1 points, https://news.ycombinator.com/item?id=48893161"
+  },
+  {
+    "id": "66188580349f59ed",
+    "title": "Empowering India’s next generation of innovators with ATL Saathi",
+    "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
+    "source": "Google DeepMind",
+    "date": "2026-07-13",
+    "summary": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs."
+  },
+  {
+    "id": "b100cfdac1fcd45f",
+    "title": "Surgeons Use Teleoperated Humanoid Robots to Perform Live Surgery",
+    "url": "https://today.ucsd.edu/story/surgeons-use-teleoperated-humanoid-robots-to-perform-live-surgery-a-world-first",
+    "source": "Hacker News",
+    "date": "2026-07-11",
+    "summary": "4 points, https://news.ycombinator.com/item?id=48870031"
+  },
+  {
+    "id": "6d65e9a1cde1430f",
+    "title": "Video Friday: A World Cup for Robots",
+    "url": "https://spectrum.ieee.org/video-friday-robot-world-cup",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-07-10",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos , collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. RSS 2026 : 13–17 July 2026, SYDNE…"
+  },
+  {
+    "id": "c1fa51f65a335557",
+    "title": "Ground Robots Inherit the Kill Zone",
+    "url": "https://spectrum.ieee.org/ukraine-ground-drones",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-07-10",
+    "summary": "Borys Drozhak has a vision: a front line almost free of humans, patrolled by flying drones and ground robots, and continuously monitored by AI-controlled sensor networks. And it’s not a pipe dream. Ukrainian roboticists have made major strides in that direction over the past fou…"
+  },
+  {
+    "id": "f74433da2b342ec2",
+    "title": "Humanoid robots perform first teleoperated surgery on pigs [video]",
+    "url": "https://www.youtube.com/watch?v=Qp0eiQL6vB8",
+    "source": "Hacker News",
+    "date": "2026-07-10",
+    "summary": "2 points, https://news.ycombinator.com/item?id=48860948"
+  },
+  {
+    "id": "7870ac828419384b",
+    "title": "Show HN: Zero2Robot – free, open source interactive textbook for robot learning",
+    "url": "https://zero2robot.com/",
+    "source": "Hacker News",
+    "date": "2026-07-10",
+    "summary": "1 points, https://news.ycombinator.com/item?id=48855965"
+  },
+  {
+    "id": "a8afd579ee1e1985",
+    "title": "Show HN: Virena, a minimal vision-language-action robot model you can read",
+    "url": "https://github.com/BuceaGeorgia/VIRENA",
+    "source": "Hacker News",
+    "date": "2026-07-09",
+    "summary": "2 points, https://news.ycombinator.com/item?id=48845348"
+  },
+  {
+    "id": "fbe5464e4eefbc92",
+    "title": "NVIDIA and Hugging Face Bring New Models and Frameworks to LeRobot for the Open Robotics Community",
+    "url": "https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics/",
+    "source": "NVIDIA Blog",
+    "date": "2026-07-07",
+    "summary": "Open source AI has shown how quickly developers can innovate when models, data and tools are shared. Robotics has the same opportunity, but advancements in physical AI development can still be gated by costly and fragmented resources, from large datasets and robot foundation mod…"
+  },
+  {
+    "id": "a9723771177ea764",
+    "title": "IEEE Honors Robotics Pioneer Toshio Fukuda",
+    "url": "https://spectrum.ieee.org/ieee-honors-toshio-fukuda",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-07-07",
+    "summary": "Toshio Fukuda has been blazing trails for most of his career. He is considered to be one of the most prolific scholars in robotics , writing more than 2,000 research papers and authoring several books on the field. He’s an influential figure thanks to his pioneering work develop…"
+  },
+  {
+    "id": "0a1d2bd6cc12857b",
+    "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
+    "url": "https://huggingface.co/blog/lerobot-release-v060",
+    "source": "Hugging Face Blog",
+    "date": "2026-07-07",
+    "summary": ""
+  },
+  {
+    "id": "943d2548a43c58fe",
+    "title": "Are Humanoid Robots Ready to Be Deployed?",
+    "url": "https://www.newyorker.com/magazine/2026/07/06/are-humanoid-robots-ready-to-be-deployed",
+    "source": "Hacker News",
+    "date": "2026-07-07",
+    "summary": "2 points, https://news.ycombinator.com/item?id=48813582"
+  },
+  {
+    "id": "74066ac3bb80ad46",
+    "title": "Humanoid Robots in Japan Risk Losing Legacy to China",
+    "url": "https://spectrum.ieee.org/humanoid-robots-japan",
+    "source": "Hacker News",
+    "date": "2026-07-06",
+    "summary": "3 points, https://news.ycombinator.com/item?id=48803714"
+  },
+  {
+    "id": "3b6a72e3ac48f89c",
+    "title": "China wants to solve the hardest problem in robotics – making hands",
+    "url": "https://www.theguardian.com/technology/ng-interactive/2026/jul/06/china-dextrous-robotic-hands-humanoid",
+    "source": "Hacker News",
+    "date": "2026-07-06",
+    "summary": "8 points, https://news.ycombinator.com/item?id=48801533"
+  },
+  {
+    "id": "5c49751f49a26386",
+    "title": "The Quest to Make Humanoid Robots Safe Enough for Humans",
+    "url": "https://www.wsj.com/tech/the-quest-to-make-humanoid-robots-safe-enough-for-humans-4887c123",
+    "source": "Hacker News",
+    "date": "2026-07-04",
+    "summary": "3 points, https://news.ycombinator.com/item?id=48789922"
+  },
+  {
+    "id": "a0f8faefadf53138",
+    "title": "AI Humanoid Robot Companions",
+    "url": "https://www.reuters.com/technology/chinas-ubtech-launches-ai-powered-lifelike-companion-robots-2026-07-02/",
+    "source": "Hacker News",
+    "date": "2026-07-04",
+    "summary": "3 points, https://news.ycombinator.com/item?id=48786101"
+  },
+  {
+    "id": "7ffaf37eef08c770",
+    "title": "Video Friday: An Earthbound Mars Rover for the Moon",
+    "url": "https://spectrum.ieee.org/video-friday-nasa-lunar-rover",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-07-03",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. RSS 2026 : 13–17 July 2026, SYDNEY…"
+  },
+  {
+    "id": "b37ef2463e61cab2",
+    "title": "Embodied.cpp: A Portable Inference Runtime of Embodied AI Models",
+    "url": "https://arxiv.org/abs/2607.02501",
+    "source": "Hacker News",
+    "date": "2026-07-03",
+    "summary": "1 points, https://news.ycombinator.com/item?id=48774455"
+  },
+  {
+    "id": "302cb2bdacd042af",
+    "title": "New humanoid robots from China look like creepy pop star action figures",
+    "url": "https://www.theregister.com/ai-and-ml/2026/07/02/new-humanoid-robots-from-china-look-like-creepy-pop-star-action-figures-complete-with-slightly-dodgy-lip-synch/5265490",
+    "source": "Hacker News",
+    "date": "2026-07-02",
+    "summary": "4 points, https://news.ycombinator.com/item?id=48764851"
+  },
+  {
+    "id": "94a42c7b1741395f",
+    "title": "OctoSense: Self-Supervised Learning for Multimodal Robot Perception",
+    "url": "https://abisulco.com/octosense/",
+    "source": "Hacker News",
+    "date": "2026-07-02",
+    "summary": "1 points, https://news.ycombinator.com/item?id=48763431"
+  },
+  {
+    "id": "d83437cb061453ab",
+    "title": "How Jaiveer Singh Is Helping Robots — and Developers — Move Faster",
+    "url": "https://blogs.nvidia.com/blog/nvidia-life-jaiveer-singh/",
+    "source": "NVIDIA Blog",
+    "date": "2026-06-30",
+    "summary": "When Jaiveer Singh talks about robots, he doesn’t begin with spectacle. He begins with infrastructure: the boards inside machines, the software that lets developers see through a robot’s cameras and the engineering required before a robot can leave a demo floor to do something u…"
+  },
+  {
+    "id": "c7647a58e27b3a4b",
+    "title": "The Humanoid That Pays to Stand Still – Robotics",
+    "url": "https://atomsfrontier.substack.com/p/the-humanoid-that-pays-to-stand-still",
+    "source": "Hacker News",
+    "date": "2026-06-30",
+    "summary": "2 points, https://news.ycombinator.com/item?id=48732387"
+  },
+  {
+    "id": "6036b8497c602eca",
+    "title": "China's humanoid robots captivated the world, a rental market shows their limits",
+    "url": "https://www.cnn.com/2026/06/30/tech/china-humanoid-robot-ai-rental-intl-hnk-dst",
+    "source": "Hacker News",
+    "date": "2026-06-30",
+    "summary": "3 points, https://news.ycombinator.com/item?id=48731998"
+  },
+  {
+    "id": "9cf6193eed202101",
+    "title": "South Korea to spend $1T on more memory chip production and humanoid robots",
+    "url": "https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/",
+    "source": "Hacker News",
+    "date": "2026-06-29",
+    "summary": "260 points, https://news.ycombinator.com/item?id=48726102"
+  },
+  {
+    "id": "560a9bbf66d2d390",
+    "title": "Video Friday: Give Robots a Hand",
+    "url": "https://spectrum.ieee.org/video-friday-robot-grippers",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-06-26",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. RSS 2026 : 13–17 July 2026, SYDNEY…"
+  },
+  {
+    "id": "5f4a5fd631573962",
+    "title": "A Web-Scale Data Engine for Video-to-Action Robot Learning",
+    "url": "https://huggingface.co/spaces/Rice-RobotPI-Lab/EgoInfinity",
+    "source": "Hacker News",
+    "date": "2026-06-20",
+    "summary": "1 points, https://news.ycombinator.com/item?id=48608172"
+  },
+  {
+    "id": "dee73451952779c0",
+    "title": "Video Friday: Do Robots Even Need Legs?",
+    "url": "https://spectrum.ieee.org/video-friday-agentic-ai-robot",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-06-19",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. RSS 2026 : 13–17 July 2026, SYDNEY…"
+  },
+  {
+    "id": "7be125b55e044a0a",
+    "title": "What Amazon’s Astro Taught Me About Giving Robots a Soul",
+    "url": "https://spectrum.ieee.org/amazon-astro-robot-sound",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-06-19",
+    "summary": "In 2018, Amazon brought me in as the lead UX Sound Designer for Astro, its first consumer home robot . Astro used cameras and other sensors to map and navigate your home and workplace , and could proactively patrol, check up on loved ones, and transport small items using its bui…"
+  },
+  {
+    "id": "10489dc2667f8f7e",
+    "title": "The Secret to Marathon-Winning Humanoid Robots",
+    "url": "https://spectrum.ieee.org/china-humanoid-robot-marathon",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-06-17",
+    "summary": "On 19 April 2026, the Honor Lightning humanoid robot ran a half-marathon in 50 minutes and 26 seconds , beating the human world record by 7 minutes and the best robot time from 2025 by almost 2 hours. How did Honor do it? Is there some magical technology or technique that unlock…"
+  },
+  {
+    "id": "c7b6e0d15e340e1a",
+    "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
+    "url": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
+    "source": "Hugging Face Blog",
+    "date": "2026-06-17",
+    "summary": ""
+  },
+  {
+    "id": "30202ae9848b0f79",
+    "title": "Visual Language Models Train Robots to Read Human Emotions",
+    "url": "https://spectrum.ieee.org/robot-emotions-visual-language-models",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-06-13",
+    "summary": "This article is part of our exclusive IEEE Journal Watch series in partnership with IEEE Xplore. As robots advance in terms of dexterity and other physical capabilities , it becomes more likely that humans may find themselves working alongside them. If that happens, how will rob…"
+  },
+  {
+    "id": "caa49fb084322fa5",
+    "title": "Award-Winning Researcher Trains Robots to Make Educated Guesses",
+    "url": "https://spectrum.ieee.org/researcher-trains-robots-to-guess",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-06-12",
+    "summary": "Yen-Ling Kuo always wanted to understand how things worked. When she was growing up in Taiwan, reading the story of Michael Faraday in elementary school piqued her curiosity about the natural world. During that time, she was introduced to Logo , a computer program with a turtle…"
+  },
+  {
+    "id": "89829a396777579c",
+    "title": "Video Friday: Robotic Motion Discovery Reveals Unusual Behaviors",
+    "url": "https://spectrum.ieee.org/video-friday-humanoid-loco-manipulation",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-06-12",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. RSS 2026 : 13–17 July 2026, SYDNEY…"
+  },
+  {
+    "id": "f62e702d9fac137b",
+    "title": "Defining Autonomy for Wellness Robots in Senior Care",
+    "url": "https://content.knowledgehub.wiley.com/wellness-robots-and-the-path-to-full-autonomy-a-new-paradigm-in-ai-powered-senior-care/",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-06-11",
+    "summary": "An examination of how socially assistive wellness robots could support the seven dimensions of senior wellness, and how a framework can measure their autonomy. What Attendees will Learn Why the senior care crisis exceeds incremental automation. Demographic pressure, workforce sh…"
+  },
+  {
+    "id": "74219547799f21d8",
+    "title": "Beyond Dexterity: Why Contact May Define the Next Era of Robotics",
+    "url": "https://spectrum.ieee.org/agilink-contact-intelligence-robot-manipulation",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-06-09",
+    "summary": "This article is brought to you by AGILINK . Throughout the exhibition hall at the 2026 IEEE International Conference on Robotics (ICRA), in Vienna, one demonstration seemed to attract a disproportionate amount of attention. Two robotic hands were making a balloon dog. Slowly and…"
+  },
+  {
+    "id": "3f705e5bcc540c57",
+    "title": "How JPL Keeps the 13-Year-Old Curiosity Rover Doing Science",
+    "url": "https://spectrum.ieee.org/curiosity-rover-jpl-mars-science",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-06-09",
+    "summary": "Thirteen years ago last August, I was camped out in NASA’s Jet Propulsion Laboratory press room in Pasadena, Calif., waiting to see whether the Curiosity rover would survive its descent and skycrane-assisted landing on the surface of Mars. It did, and it was awesome . Since then…"
+  },
+  {
+    "id": "89b36a5b3c5b5938",
+    "title": "Powering the future of robotics in Europe",
+    "url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/",
+    "source": "Google DeepMind",
+    "date": "2026-06-09",
+    "summary": ""
+  },
+  {
+    "id": "91592bee4e67ba1f",
+    "title": "Ask HN: Does robotics capabilities research accelerate AGI timelines?",
+    "url": "https://news.ycombinator.com/item?id=48421508",
+    "source": "Hacker News",
+    "date": "2026-06-06",
+    "summary": "8 points, https://news.ycombinator.com/item?id=48421508"
+  },
+  {
+    "id": "072fbd4dea1fa1e0",
+    "title": "Video Friday: Watch This Running Robot Not Fall Down Stairs",
+    "url": "https://spectrum.ieee.org/video-friday-humanoid-robot-running",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-06-05",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. RSS 2026 : 13–17 July 2026, SYDNEY…"
+  },
+  {
+    "id": "68507e5d907fcda6",
+    "title": "Qwen-VLA: Vision-Language-Action Modeling Across Tasks, Environments, and Robots",
+    "url": "https://www.dcard.tw/f/relationship/p/255790583?cid=d3500548-d505-400c-8906-1449999188de",
+    "source": "Hacker News",
+    "date": "2026-06-01",
+    "summary": "3 points, https://news.ycombinator.com/item?id=48351442"
+  },
+  {
+    "id": "cbe1e5c4290162d4",
+    "title": "This DIY Bipedal Robot Used Pneumatic “Air-Muscles” Instead of Motors",
+    "url": "https://spectrum.ieee.org/shadow-walker-biped-humanoid-robot",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-05-31",
+    "summary": "In 1987, Richard Greenhill , a British photographer who was fascinated by (but had no actual training in) robotics, decided he wanted to build a life-size humanoid that could do useful things, like carrying luggage. He was working at a startup called Intergalactic Robots, but he…"
+  },
+  {
+    "id": "379fe22de98e93cd",
+    "title": "Video Friday: Extreme Omnidirectional Robot",
+    "url": "https://spectrum.ieee.org/video-friday-rabona-soccer",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-05-29",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. ICRA 2026 : 1–5 June 2026, VIENNA…"
+  },
+  {
+    "id": "1f044e1aabe9db4c",
+    "title": "Embodied Cognition and Agentic AI",
+    "url": "https://lemire.me/blog/2026/05/28/embodied-cognition-and-agentic-ai/",
+    "source": "Hacker News",
+    "date": "2026-05-29",
+    "summary": "4 points, https://news.ycombinator.com/item?id=48325218"
+  },
+  {
+    "id": "55ccda70fe1c3d7c",
+    "title": "Continual Harness: A reset-free self-improving harness for embodied agents",
+    "url": "https://sethkarten.ai/continual-harness/",
+    "source": "Hacker News",
+    "date": "2026-05-23",
+    "summary": "2 points, https://news.ycombinator.com/item?id=48248536"
+  },
+  {
+    "id": "29789aee003147f1",
+    "title": "Video Friday: Atlas Versus a Fridge",
+    "url": "https://spectrum.ieee.org/video-friday-humanoid-robot-learning",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-05-22",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. ICRA 2026 : 1–5 June 2026, VIENNA…"
+  },
+  {
+    "id": "751e0ee3c4700133",
+    "title": "Open-Source Software Is Starting to Help Robots Think",
+    "url": "https://spectrum.ieee.org/open-source-robot-ai-platforms",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-05-21",
+    "summary": "When a group of academics started making open-source robotics hardware , a generation of roboticists got years of their lives back. Now, the bigger challenge is getting robots to think—and that’s starting to be open sourced too. The shift is still early, but companies including…"
+  },
+  {
+    "id": "94f53bf678bae484",
+    "title": "The Future of Physical AI Isn’t Smarter Robots, It’s Smarter Interfaces",
+    "url": "https://spectrum.ieee.org/wetour-robotics-physical-ai-human-interfaces",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-05-21",
+    "summary": "This sponsored article is brought to you by Wetour Robotics . A field technician on a wind turbine, harness clipped, both hands on a wrench, needs to send a command to the diagnostic device hanging at her belt. A logistics worker on a loading dock, gloves on, eyes on the pallet,…"
+  },
+  {
+    "id": "3e9149973c8ea5e6",
+    "title": "Will Robotics Have a ChatGPT Moment?",
+    "url": "https://spectrum.ieee.org/robotics-ai-breakthrough",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-05-20",
+    "summary": "Over the next few decades, billions of autonomous, AI-powered robots will work alongside people in factories, perform tedious tasks in warehouses, care for the elderly, assist in unsafe disaster areas , deliver packages and food to our doorsteps, and eventually help out in our h…"
+  },
+  {
+    "id": "f6e70e1efd7033da",
+    "title": "Robots Could Turn E-Waste Into a Source of Legacy Chips",
+    "url": "https://spectrum.ieee.org/e-waste-recycling-robots-ram",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-05-19",
+    "summary": "Electronic waste is moving up on regulatory agendas in 2026. New European waste-shipment rules, expanded recycling fees on products with non-removable batteries in California, and an e-waste import ban in Malaysia, for example, are all increasing pressure to recover more value b…"
+  },
+  {
+    "id": "fa304b1a6925eae3",
+    "title": "Home Robot Safety Is All About Relationships",
+    "url": "https://spectrum.ieee.org/domestic-humanoid-robot-safety-standards",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-05-19",
+    "summary": "The International Organization for Standardization (ISO) is updating its 12-year-old safety requirements for personal care robots . A lot has happened since the last revision, both on the technology side and with researchers’ understanding of safety for humans collaborating with…"
+  },
+  {
+    "id": "53fb2796fe06daf8",
+    "title": "What Makes a Job Dull, Dirty, or Dangerous?",
+    "url": "https://spectrum.ieee.org/dull-dirty-dangerous-robots",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-05-18",
+    "summary": "For years, the field of robotics has used the terms “dull, dirty, and dangerous” (DDD) to describe the types of tasks or jobs where robots might be useful—by doing work that’s undesirable for people. A classic example of a DDD job is one of “repetitive physical labor on a steami…"
+  },
+  {
+    "id": "6456a22c2d332e88",
+    "title": "Agentic AI for Robot Teams",
+    "url": "https://events.bizzabo.com/867156",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-05-18",
+    "summary": "This presentation highlights recent efforts at the Johns Hopkins Applied Physics Laboratory to advance agentic AI for collaborative robotic teams. It begins by framing the core challenges of enabling autonomy, coordination, and adaptability across heterogeneous systems, then int…"
+  },
+  {
+    "id": "efebf34851466e05",
+    "title": "Stera: Open-Source Infra That Turns iPhones into Spatial Data for World Models",
+    "url": "https://news.ycombinator.com/item?id=48160091",
+    "source": "Hacker News",
+    "date": "2026-05-16",
+    "summary": "2 points, https://news.ycombinator.com/item?id=48160091"
+  },
+  {
+    "id": "fc2eab91a2c19980",
+    "title": "How robots are learning to walk – Marco Hutter, ETH Zürich [video]",
+    "url": "https://www.youtube.com/watch?v=Wmn7uPLFXm8",
+    "source": "Hacker News",
+    "date": "2026-05-15",
+    "summary": "1 points, https://news.ycombinator.com/item?id=48146338"
+  },
+  {
+    "id": "ac776eb55de0ec7f",
+    "title": "A new data layer for robot learning",
+    "url": "https://rerun.io/blog/data-layer-for-robot-learning",
+    "source": "Hacker News",
+    "date": "2026-05-14",
+    "summary": "3 points, https://news.ycombinator.com/item?id=48140185"
+  },
+  {
+    "id": "2d71c36d4a9fd623",
+    "title": "Embodied AI with Claude, Raspberry Pi and Arduino",
+    "url": "https://github.com/harshaneo17/agentic_arduino",
+    "source": "Hacker News",
+    "date": "2026-05-05",
+    "summary": "1 points, https://news.ycombinator.com/item?id=48026230"
+  },
+  {
+    "id": "dd9960c90c4006ce",
+    "title": "The Data Layer Tax for Robot Learning",
+    "url": "https://rerun.io/blog/data-layer-tax",
+    "source": "Hacker News",
+    "date": "2026-04-30",
+    "summary": "7 points, https://news.ycombinator.com/item?id=47961506"
+  },
+  {
+    "id": "1e0186c931989bc3",
+    "title": "FlashDrive: Flash Vision-Language-Action Inference for Autonomous Driving",
+    "url": "https://z-lab.ai/projects/flashdrive/",
+    "source": "Hacker News",
+    "date": "2026-04-23",
+    "summary": "1 points, https://news.ycombinator.com/item?id=47871495"
+  },
+  {
+    "id": "8aa8d9c2824844ce",
+    "title": "FastStair: Learning to Run Up Stairs with Humanoid Robots",
+    "url": "https://npcliu.github.io/FastStair/",
+    "source": "Hacker News",
+    "date": "2026-04-19",
+    "summary": "1 points, https://news.ycombinator.com/item?id=47825760"
+  },
+  {
+    "id": "4df32f9394272a35",
+    "title": "Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning",
+    "url": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
+    "source": "Google DeepMind",
+    "date": "2026-04-13",
+    "summary": "Gemini Robotics ER 1.6: Enhancing spatial reasoning and multi-view understanding for autonomous robotics."
+  },
+  {
+    "id": "0a019d352667c76c",
+    "title": "Show HN: PhAIL – Real-robot benchmark for AI models",
+    "url": "https://phail.ai",
+    "source": "Hacker News",
+    "date": "2026-03-31",
+    "summary": "21 points, https://news.ycombinator.com/item?id=47589797"
+  },
+  {
+    "id": "00bfbe617a50c1d0",
+    "title": "Protecting people from harmful manipulation",
+    "url": "https://deepmind.google/blog/protecting-people-from-harmful-manipulation/",
+    "source": "Google DeepMind",
+    "date": "2026-03-25",
+    "summary": "Google DeepMind researches AI's harmful manipulation risks across areas like finance and health, leading to new safety measures."
+  }
+]

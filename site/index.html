@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>具身智能大事纪</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <h1>具身智能大事纪</h1>
+      <p class="subtitle">自动汇总 arXiv 论文、机器人公司博客与社区讨论 · <span id="updated-at">加载中…</span></p>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="controls">
+      <input id="search" type="search" placeholder="搜索标题或摘要…" autocomplete="off" />
+      <div id="source-filters" class="source-filters"></div>
+    </div>
+
+    <div id="empty-state" class="empty-state" hidden>没有匹配的条目。</div>
+    <div id="timeline" class="timeline"></div>
+  </main>
+
+  <footer class="footer">
+    <p>数据来源：arXiv · Boston Dynamics · The Robot Report · IEEE Spectrum · Google DeepMind · NVIDIA Blog · Hugging Face Blog · Hacker News</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

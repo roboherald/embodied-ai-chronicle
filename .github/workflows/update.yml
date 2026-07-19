@@ -1,0 +1,52 @@
+name: Update embodied AI chronicle
+
+on:
+  schedule:
+    - cron: "17 1 * * *" # 每天 UTC 01:17（北京时间 09:17）跑一次
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - run: python scraper/fetch.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "embodied-ai-chronicle-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add site/data/events.json
+          git diff --staged --quiet || git commit -m "chore: update events data"
+          git push
+
+  deploy:
+    needs: update-data
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4
