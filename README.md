@@ -34,7 +34,7 @@ cd site && python3 -m http.server 8000   # 然后浏览器打开 http://localhos
 - 趋势图表：近 8 周条目数、各来源条目分布，可切换成表格视图（无障碍/复制数据用）。
 - 收藏与已读：点击"收藏"或点开标题都会记到浏览器 `localStorage`，仅本机/本浏览器生效，换设备不同步。
 - "有用"点赞：访客共享的计数，接的是免费的 [CounterAPI](https://counterapi.dev/)，同一条目所有人看到的数字是一样的（`localStorage` 只是软限制，防止自己重复点，不是强校验）。
-- 评论区：底部有一个全站反馈区，每条新闻卡片下也有独立的"💬 评论"按钮（点开才会加载），都接的是 [giscus](https://giscus.app/)（基于 GitHub Discussions），需要你手动开通，见下文。每条新闻的评论会在仓库 Discussions 里自动开一个对应的帖子，条目越多帖子也会越多。
+- 评论区：底部有一个全站反馈区，每条新闻卡片下也有独立的"💬 评论"按钮，都接的是 [giscus](https://giscus.app/)（基于 GitHub Discussions），需要你手动开通，见下文。giscus 一个页面只能同时存在一个评论框，所以这些入口共用同一个评论区组件——点开一处会把它"借走"并加载对应的帖子，之前那处会自动收起，需要时再点一次对应按钮重新加载即可。每条新闻的评论会在仓库 Discussions 里自动开一个对应的帖子，条目越多帖子也会越多。
 - 飞书推送：每次抓到新内容会给配置好的飞书机器人发一条摘要，需要你手动配置 webhook，见下文。
 - 本周热点榜：按点赞数取本周 Top 10，全是 0 赞的时候会显示提示文案而不是空白。
 - 公司主页：点新闻卡片上的公司/机构标签会跳到 `#company=公司名`，显示该公司的相关条目数、最早出现日期、最活跃来源，并自动套用标签筛选；地址栏这个 hash 可以直接分享。
@@ -70,7 +70,7 @@ cd site && python3 -m http.server 8000   # 然后浏览器打开 http://localhos
 1. 仓库 Settings → General → Features，勾选启用 "Discussions"。
 2. 访问 [giscus.app](https://giscus.app/zh-CN)，把仓库地址填进去，安装 giscus 这个 GitHub App 并授权访问该仓库。
 3. 按页面提示选好"页面 ↔️ discussion 映射关系"（随便选一种，比如 URL）、分类（建议新建一个专门的分类，比如 "Announcements" 或新建 "网站反馈"）、主题选深色（跟网站配色一致，比如 `dark` 或 `dark_dimmed`）。
-4. 页面底部会生成一段 `<script>` 代码，把它发给我（或者直接贴进 `site/index.html` 里 `<div id="giscus-container"></div>` 的位置），就能用了。
+4. 页面底部会生成一段 `<script>` 代码，把里面的 `data-repo` / `data-repo-id` / `data-category` / `data-category-id` 这几个值发给我（或者直接改 `site/app.js` 开头的 `GISCUS_CONFIG` 对象），就能用了——不用直接贴 `<script>` 标签，代码里是动态生成的（同一时间只加载一处评论框）。
 
 ## 可以加的下一步
 

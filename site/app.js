@@ -27,10 +27,57 @@ const RANGES = [
 
 const COUNTER_NAMESPACE = "embodied-chronicle";
 const COUNTER_BASE = "https://api.counterapi.dev/v1";
+const LIKE_CACHE_TTL_MS = 10 * 60 * 1000; // CounterAPI 免费额度有限，10 分钟内不重复请求同一个 id
 
 const BOOKMARK_KEY = "eac_bookmarks";
 const VISITED_KEY = "eac_visited";
 const LIKED_KEY = "eac_liked";
+
+function getCachedLikeCount(id) {
+  try {
+    const raw = sessionStorage.getItem(`eac_likecount_${id}`);
+    if (!raw) return null;
+    const { count, ts } = JSON.parse(raw);
+    if (Date.now() - ts > LIKE_CACHE_TTL_MS) return null;
+    return count;
+  } catch {
+    return null;
+  }
+}
+function setCachedLikeCount(id, count) {
+  try {
+    sessionStorage.setItem(`eac_likecount_${id}`, JSON.stringify({ count, ts: Date.now() }));
+  } catch {
+    // sessionStorage 不可用（如隐私模式）就放弃缓存，不影响功能
+  }
+}
+
+// CounterAPI 免费额度请求数很有限，用一个小并发队列 + 请求去重来避免同一次刷新打满额度
+function createRequestQueue(concurrency, delayMs) {
+  let active = 0;
+  const queue = [];
+  function runNext() {
+    if (active >= concurrency || queue.length === 0) return;
+    active++;
+    const { task, resolve, reject } = queue.shift();
+    task()
+      .then(resolve, reject)
+      .finally(() => {
+        active--;
+        setTimeout(runNext, delayMs);
+      });
+  }
+  return {
+    push(task) {
+      return new Promise((resolve, reject) => {
+        queue.push({ task, resolve, reject });
+        runNext();
+      });
+    },
+  };
+}
+const likeRequestQueue = createRequestQueue(3, 150);
+const likeCountCache = new Map(); // id -> Promise<number|null>，同一次页面加载内去重
 
 function loadIdSet(key) {
   try {
@@ -110,6 +157,13 @@ async function init() {
     document.getElementById("insights-table").hidden = !state.showTable;
     if (state.showTable) renderInsightsTable();
   });
+  document.getElementById("feedback-toggle").addEventListener("click", () => {
+    document.querySelectorAll(".card-comments").forEach((p) => (p.hidden = true));
+    document.querySelectorAll(".card-actions .icon-btn.active").forEach((b) => {
+      if (b.textContent.includes("评论")) b.classList.remove("active");
+    });
+    mountGiscus(document.getElementById("giscus-container"), null);
+  });
 }
 
 function currentCompanyFromHash() {
@@ -156,15 +210,32 @@ function renderCompanyHeader() {
   }
 }
 
-async function fetchLikeCount(id) {
-  try {
-    const res = await fetch(`${COUNTER_BASE}/${COUNTER_NAMESPACE}/${id}`);
-    if (res.status === 400) return 0;
-    const data = await res.json();
-    return data.count ?? 0;
-  } catch {
-    return null;
+function fetchLikeCount(id) {
+  if (likeCountCache.has(id)) return likeCountCache.get(id);
+  const cached = getCachedLikeCount(id);
+  if (cached !== null) {
+    const p = Promise.resolve(cached);
+    likeCountCache.set(id, p);
+    return p;
   }
+  const p = likeRequestQueue.push(async () => {
+    try {
+      const res = await fetch(`${COUNTER_BASE}/${COUNTER_NAMESPACE}/${id}`);
+      if (res.status === 400) {
+        setCachedLikeCount(id, 0);
+        return 0;
+      }
+      if (!res.ok) return null; // 比如 429 触发限流，先不缓存，下次再试
+      const data = await res.json();
+      const count = data.count ?? 0;
+      setCachedLikeCount(id, count);
+      return count;
+    } catch {
+      return null;
+    }
+  });
+  likeCountCache.set(id, p);
+  return p;
 }
 
 async function renderHotList() {
@@ -506,17 +577,8 @@ function observeLikeButton(btn) {
 
 async function loadLikeCount(btn) {
   const id = btn.dataset.id;
-  try {
-    const res = await fetch(`${COUNTER_BASE}/${COUNTER_NAMESPACE}/${id}`);
-    if (res.status === 400) {
-      btn.querySelector(".count").textContent = "0";
-      return;
-    }
-    const data = await res.json();
-    btn.querySelector(".count").textContent = data.count ?? 0;
-  } catch {
-    btn.querySelector(".count").textContent = "–";
-  }
+  const count = await fetchLikeCount(id);
+  btn.querySelector(".count").textContent = count === null ? "–" : count;
 }
 
 async function handleLikeClick(btn) {
@@ -526,7 +588,10 @@ async function handleLikeClick(btn) {
   try {
     const res = await fetch(`${COUNTER_BASE}/${COUNTER_NAMESPACE}/${id}/up`);
     const data = await res.json();
-    btn.querySelector(".count").textContent = data.count ?? "";
+    const count = data.count ?? "";
+    btn.querySelector(".count").textContent = count;
+    setCachedLikeCount(id, count);
+    likeCountCache.set(id, Promise.resolve(count));
     state.liked.add(id);
     saveIdSet(LIKED_KEY, state.liked);
     btn.classList.add("active");
@@ -612,17 +677,24 @@ function renderCard(item) {
   const commentPanel = document.createElement("div");
   commentPanel.className = "card-comments";
   commentPanel.hidden = true;
-  let commentsLoaded = false;
 
   const commentBtn = document.createElement("button");
   commentBtn.className = "icon-btn";
   commentBtn.textContent = "💬 评论";
   commentBtn.addEventListener("click", () => {
-    commentPanel.hidden = !commentPanel.hidden;
-    commentBtn.classList.toggle("active", !commentPanel.hidden);
-    if (!commentPanel.hidden && !commentsLoaded) {
-      commentsLoaded = true;
-      loadArticleGiscus(commentPanel, item.id);
+    const opening = commentPanel.hidden;
+    if (opening) {
+      document.querySelectorAll(".card-comments").forEach((p) => {
+        if (p !== commentPanel) p.hidden = true;
+      });
+      document.querySelectorAll(".card-actions .icon-btn.active").forEach((b) => {
+        if (b !== commentBtn && b.textContent.includes("评论")) b.classList.remove("active");
+      });
+    }
+    commentPanel.hidden = !opening;
+    commentBtn.classList.toggle("active", opening);
+    if (opening) {
+      mountGiscus(commentPanel, item.id);
     }
   });
   actions.appendChild(commentBtn);
@@ -633,16 +705,28 @@ function renderCard(item) {
   return card;
 }
 
-function loadArticleGiscus(container, term) {
+// giscus 同一页面只支持一个实例，所以全站只维护一个共享的 widget，
+// 谁申请就把它搬到谁的容器里重新加载（会丢弃之前那处的评论框）。
+let activeGiscusContainer = null;
+function mountGiscus(container, term) {
+  if (activeGiscusContainer && activeGiscusContainer !== container) {
+    activeGiscusContainer.innerHTML = "";
+  }
+  container.innerHTML = "";
   const script = document.createElement("script");
   script.src = "https://giscus.app/client.js";
   script.setAttribute("data-repo", GISCUS_CONFIG.repo);
   script.setAttribute("data-repo-id", GISCUS_CONFIG.repoId);
   script.setAttribute("data-category", GISCUS_CONFIG.category);
   script.setAttribute("data-category-id", GISCUS_CONFIG.categoryId);
-  script.setAttribute("data-mapping", "specific");
-  script.setAttribute("data-term", term);
-  script.setAttribute("data-strict", "1");
+  if (term) {
+    script.setAttribute("data-mapping", "specific");
+    script.setAttribute("data-term", term);
+    script.setAttribute("data-strict", "1");
+  } else {
+    script.setAttribute("data-mapping", "pathname");
+    script.setAttribute("data-strict", "0");
+  }
   script.setAttribute("data-reactions-enabled", "1");
   script.setAttribute("data-emit-metadata", "0");
   script.setAttribute("data-input-position", "bottom");
@@ -652,6 +736,7 @@ function loadArticleGiscus(container, term) {
   script.crossOrigin = "anonymous";
   script.async = true;
   container.appendChild(script);
+  activeGiscusContainer = container;
 }
 
 init();

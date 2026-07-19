@@ -80,25 +80,9 @@
 
     <section id="feedback" class="feedback">
       <h2>反馈 / 讨论</h2>
-      <p class="feedback-hint">用 GitHub 账号登录后可以留言、点反应表情。</p>
-      <div id="giscus-container">
-        <script src="https://giscus.app/client.js"
-                data-repo="roboherald/embodied-ai-chronicle"
-                data-repo-id="R_kgDOTdDP2A"
-                data-category="General"
-                data-category-id="DIC_kwDOTdDP2M4DBgr5"
-                data-mapping="pathname"
-                data-strict="0"
-                data-reactions-enabled="1"
-                data-emit-metadata="0"
-                data-input-position="bottom"
-                data-theme="dark_dimmed"
-                data-lang="zh-CN"
-                data-loading="lazy"
-                crossorigin="anonymous"
-                async>
-        </script>
-      </div>
+      <p class="feedback-hint">用 GitHub 账号登录后可以留言、点反应表情。同一时间只能展开一处评论区（点新闻卡片的"评论"会把这里的评论区借走，再点一次这个按钮就能拿回来）。</p>
+      <button id="feedback-toggle" class="text-btn">展开评论区</button>
+      <div id="giscus-container"></div>
     </section>
   </main>
 
