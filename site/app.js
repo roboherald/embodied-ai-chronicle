@@ -523,6 +523,90 @@ function dateToPercent(dateStr, range) {
   return ((d - min) / (max - min)) * 100;
 }
 
+function milestoneTooltipLines(m) {
+  return [
+    { text: m.date, cls: "topic-tooltip-date" },
+    { text: m.title, cls: "topic-tooltip-title" },
+    ...(m.description ? [{ text: m.description, cls: "topic-tooltip-desc" }] : []),
+  ];
+}
+
+// interactive=false 时纯展示（主页紧凑行）：不挂悬浮卡、不能点。
+// interactive=true 时（弹出面板内）：可悬浮看提示卡、可点击跳到原文。
+function renderTopicMarks(track, events, milestones, range, color, { interactive, showLabels }) {
+  events.forEach((e) => {
+    const tick = document.createElement(interactive ? "a" : "div");
+    tick.className = "topic-tick";
+    tick.style.left = `${dateToPercent(e.date, range)}%`;
+    if (interactive) {
+      tick.href = e.url;
+      tick.target = "_blank";
+      tick.rel = "noopener noreferrer";
+      const showTip = () =>
+        showTopicTooltip(tick, [
+          { text: `${e.date} · ${e.source}`, cls: "topic-tooltip-date" },
+          { text: e.title, cls: "topic-tooltip-title" },
+        ]);
+      tick.addEventListener("mouseenter", showTip);
+      tick.addEventListener("focus", showTip);
+      tick.addEventListener("mouseleave", hideTopicTooltip);
+      tick.addEventListener("blur", hideTopicTooltip);
+    }
+    track.appendChild(tick);
+  });
+
+  milestones.forEach((m, i) => {
+    const pct = dateToPercent(m.date, range);
+
+    const dot = document.createElement(interactive ? "a" : "div");
+    dot.className = "topic-milestone-dot";
+    dot.style.left = `${pct}%`;
+    dot.style.background = color;
+    if (interactive) {
+      dot.href = m.url;
+      dot.target = "_blank";
+      dot.rel = "noopener noreferrer";
+      const showTip = () => showTopicTooltip(dot, milestoneTooltipLines(m));
+      dot.addEventListener("mouseenter", showTip);
+      dot.addEventListener("focus", showTip);
+      dot.addEventListener("mouseleave", hideTopicTooltip);
+      dot.addEventListener("blur", hideTopicTooltip);
+    }
+    track.appendChild(dot);
+
+    if (showLabels) {
+      const labelEl = document.createElement(interactive ? "a" : "span");
+      labelEl.className = "topic-milestone-label";
+      labelEl.style.left = `${pct}%`;
+      labelEl.style.top = MILESTONE_LABEL_BANDS[i % MILESTONE_LABEL_BANDS.length];
+      labelEl.textContent = m.title;
+      if (interactive) {
+        labelEl.href = m.url;
+        labelEl.target = "_blank";
+        labelEl.rel = "noopener noreferrer";
+        const showTip = () => showTopicTooltip(labelEl, milestoneTooltipLines(m));
+        labelEl.addEventListener("mouseenter", showTip);
+        labelEl.addEventListener("focus", showTip);
+        labelEl.addEventListener("mouseleave", hideTopicTooltip);
+        labelEl.addEventListener("blur", hideTopicTooltip);
+      }
+      track.appendChild(labelEl);
+    }
+  });
+}
+
+function renderAxisTicks(container, range) {
+  container.innerHTML = "";
+  container.classList.add("topic-timeline-axis-track");
+  [range.min, range.max].forEach((d) => {
+    const tick = document.createElement("span");
+    tick.className = "topic-axis-tick";
+    tick.style.left = `${dateToPercent(d, range)}%`;
+    tick.textContent = d;
+    container.appendChild(tick);
+  });
+}
+
 function renderTopicTimeline() {
   const rowsWrap = document.getElementById("topic-timeline-rows");
   const axisWrap = document.getElementById("topic-timeline-axis");
@@ -553,70 +637,15 @@ function renderTopicTimeline() {
     const label = document.createElement("button");
     label.className = "topic-row-label";
     label.innerHTML = `<span class="dot" style="background:${color}"></span>${topic}<span class="topic-row-count">(${events.length})</span>`;
-    label.title = `查看「${topic}」研究方向脉络`;
-    label.addEventListener("click", () => {
-      location.hash = `topic=${encodeURIComponent(topic)}`;
-    });
+    label.title = `点击查看「${topic}」完整脉络（可缩放/拖动）`;
+    label.addEventListener("click", () => openTopicModal(topic));
     row.appendChild(label);
 
     const track = document.createElement("div");
     track.className = "topic-row-track";
-
-    events.forEach((e) => {
-      const tick = document.createElement("a");
-      tick.className = "topic-tick";
-      tick.style.left = `${dateToPercent(e.date, range)}%`;
-      tick.href = e.url;
-      tick.target = "_blank";
-      tick.rel = "noopener noreferrer";
-      const showTip = () =>
-        showTopicTooltip(tick, [
-          { text: `${e.date} · ${e.source}`, cls: "topic-tooltip-date" },
-          { text: e.title, cls: "topic-tooltip-title" },
-        ]);
-      tick.addEventListener("mouseenter", showTip);
-      tick.addEventListener("focus", showTip);
-      tick.addEventListener("mouseleave", hideTopicTooltip);
-      tick.addEventListener("blur", hideTopicTooltip);
-      track.appendChild(tick);
-    });
-
-    milestones.forEach((m, i) => {
-      const pct = dateToPercent(m.date, range);
-      const showTip = (target) => () =>
-        showTopicTooltip(target, [
-          { text: m.date, cls: "topic-tooltip-date" },
-          { text: m.title, cls: "topic-tooltip-title" },
-          ...(m.description ? [{ text: m.description, cls: "topic-tooltip-desc" }] : []),
-        ]);
-
-      const dot = document.createElement("a");
-      dot.className = "topic-milestone-dot";
-      dot.style.left = `${pct}%`;
-      dot.style.background = color;
-      dot.href = m.url;
-      dot.target = "_blank";
-      dot.rel = "noopener noreferrer";
-      dot.addEventListener("mouseenter", showTip(dot));
-      dot.addEventListener("focus", showTip(dot));
-      dot.addEventListener("mouseleave", hideTopicTooltip);
-      dot.addEventListener("blur", hideTopicTooltip);
-      track.appendChild(dot);
-
-      const labelEl = document.createElement("a");
-      labelEl.className = "topic-milestone-label";
-      labelEl.style.left = `${pct}%`;
-      labelEl.style.top = MILESTONE_LABEL_BANDS[i % MILESTONE_LABEL_BANDS.length];
-      labelEl.href = m.url;
-      labelEl.target = "_blank";
-      labelEl.rel = "noopener noreferrer";
-      labelEl.textContent = m.title;
-      labelEl.addEventListener("mouseenter", showTip(labelEl));
-      labelEl.addEventListener("focus", showTip(labelEl));
-      labelEl.addEventListener("mouseleave", hideTopicTooltip);
-      labelEl.addEventListener("blur", hideTopicTooltip);
-      track.appendChild(labelEl);
-    });
+    track.title = `点击查看「${topic}」完整脉络（可缩放/拖动）`;
+    track.addEventListener("click", () => openTopicModal(topic));
+    renderTopicMarks(track, events, milestones, range, color, { interactive: false, showLabels: false });
 
     row.appendChild(track);
     rowsWrap.appendChild(row);
@@ -624,16 +653,156 @@ function renderTopicTimeline() {
 
   const axisSpacer = document.createElement("div");
   const axisTrack = document.createElement("div");
-  axisTrack.className = "topic-timeline-axis-track";
-  [range.min, range.max].forEach((d) => {
-    const tick = document.createElement("span");
-    tick.className = "topic-axis-tick";
-    tick.style.left = `${dateToPercent(d, range)}%`;
-    tick.textContent = d;
-    axisTrack.appendChild(tick);
+  renderAxisTicks(axisTrack, range);
+  axisWrap.append(axisSpacer, axisTrack);
+}
+
+let topicModalEl = null;
+let topicModalState = { zoom: 1, dragging: false, startX: 0, startScrollLeft: 0 };
+
+function ensureTopicModal() {
+  if (topicModalEl) return topicModalEl;
+
+  const backdrop = document.createElement("div");
+  backdrop.className = "topic-modal-backdrop";
+  backdrop.hidden = true;
+
+  const panel = document.createElement("div");
+  panel.className = "topic-modal-panel";
+
+  const header = document.createElement("div");
+  header.className = "topic-modal-header";
+
+  const title = document.createElement("h3");
+
+  const actions = document.createElement("div");
+  actions.className = "topic-modal-actions";
+
+  const zoomOutBtn = document.createElement("button");
+  zoomOutBtn.className = "text-btn";
+  zoomOutBtn.textContent = "－";
+  zoomOutBtn.title = "缩小";
+  zoomOutBtn.addEventListener("click", () => setTopicModalZoom(topicModalState.zoom / 1.5));
+
+  const zoomResetBtn = document.createElement("button");
+  zoomResetBtn.className = "text-btn";
+  zoomResetBtn.textContent = "重置";
+  zoomResetBtn.addEventListener("click", () => setTopicModalZoom(1));
+
+  const zoomInBtn = document.createElement("button");
+  zoomInBtn.className = "text-btn";
+  zoomInBtn.textContent = "＋";
+  zoomInBtn.title = "放大";
+  zoomInBtn.addEventListener("click", () => setTopicModalZoom(topicModalState.zoom * 1.5));
+
+  const viewListLink = document.createElement("a");
+  viewListLink.className = "text-btn";
+  viewListLink.textContent = "在「最新」中查看相关新闻 →";
+  viewListLink.href = "#";
+
+  const closeBtn = document.createElement("button");
+  closeBtn.className = "text-btn";
+  closeBtn.textContent = "✕ 关闭";
+  closeBtn.addEventListener("click", closeTopicModal);
+
+  actions.append(zoomOutBtn, zoomResetBtn, zoomInBtn, viewListLink, closeBtn);
+  header.append(title, actions);
+
+  const viewport = document.createElement("div");
+  viewport.className = "topic-modal-viewport";
+
+  const inner = document.createElement("div");
+  inner.className = "topic-modal-inner";
+
+  const track = document.createElement("div");
+  track.className = "topic-row-track topic-modal-track";
+
+  const axis = document.createElement("div");
+  axis.className = "topic-modal-axis";
+
+  inner.append(track, axis);
+  viewport.appendChild(inner);
+  panel.append(header, viewport);
+  backdrop.appendChild(panel);
+  document.body.appendChild(backdrop);
+
+  backdrop.addEventListener("click", (e) => {
+    if (e.target === backdrop) closeTopicModal();
   });
-  axisWrap.appendChild(axisSpacer);
-  axisWrap.appendChild(axisTrack);
+
+  viewport.addEventListener("mousedown", (e) => {
+    topicModalState.dragging = true;
+    topicModalState.startX = e.clientX;
+    topicModalState.startScrollLeft = viewport.scrollLeft;
+    viewport.classList.add("dragging");
+  });
+  window.addEventListener("mousemove", (e) => {
+    if (!topicModalState.dragging) return;
+    viewport.scrollLeft = topicModalState.startScrollLeft - (e.clientX - topicModalState.startX);
+  });
+  window.addEventListener("mouseup", () => {
+    topicModalState.dragging = false;
+    viewport.classList.remove("dragging");
+  });
+  viewport.addEventListener(
+    "wheel",
+    (e) => {
+      if (!e.ctrlKey && !e.metaKey) return; // 按住 Ctrl/⌘ 滚轮缩放，避免和普通滚动冲突
+      e.preventDefault();
+      setTopicModalZoom(topicModalState.zoom * (e.deltaY < 0 ? 1.15 : 1 / 1.15));
+    },
+    { passive: false }
+  );
+
+  topicModalEl = { backdrop, panel, title, viewport, inner, track, axis, viewListLink };
+  return topicModalEl;
+}
+
+function setTopicModalZoom(zoom) {
+  topicModalState.zoom = Math.max(1, Math.min(8, zoom));
+  if (!topicModalEl) return;
+  const width = topicModalEl.viewport.clientWidth * topicModalState.zoom;
+  topicModalEl.inner.style.width = `${width}px`;
+}
+
+function handleTopicModalKeydown(e) {
+  if (e.key === "Escape") closeTopicModal();
+}
+
+function openTopicModal(topic) {
+  const modal = ensureTopicModal();
+  const color = TOPIC_COLORS[topic];
+  const events = state.events
+    .filter((e) => (e.topics || []).includes(topic))
+    .sort((a, b) => (a.date < b.date ? -1 : 1));
+  const milestones = state.milestones
+    .filter((m) => m.topic === topic)
+    .sort((a, b) => (a.date < b.date ? -1 : 1));
+  const range = timelineDateRange();
+
+  modal.title.innerHTML = `<span class="dot" style="background:${color}"></span>${topic}<span class="topic-row-count">（${events.length} 条相关内容 · ${milestones.length} 个里程碑）</span>`;
+  modal.track.innerHTML = "";
+  renderTopicMarks(modal.track, events, milestones, range, color, { interactive: true, showLabels: true });
+  renderAxisTicks(modal.axis, range);
+
+  modal.viewListLink.onclick = (e) => {
+    e.preventDefault();
+    closeTopicModal();
+    location.hash = `topic=${encodeURIComponent(topic)}`;
+  };
+
+  modal.backdrop.hidden = false;
+  document.body.style.overflow = "hidden";
+  setTopicModalZoom(1);
+  document.addEventListener("keydown", handleTopicModalKeydown);
+}
+
+function closeTopicModal() {
+  if (!topicModalEl) return;
+  topicModalEl.backdrop.hidden = true;
+  document.body.style.overflow = "";
+  document.removeEventListener("keydown", handleTopicModalKeydown);
+  hideTopicTooltip();
 }
 
 function renderTopicTimelineTable() {

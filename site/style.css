@@ -699,6 +699,11 @@ body {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
+  cursor: pointer;
+}
+
+.topic-row-track:hover {
+  border-color: var(--accent);
 }
 
 .topic-row-track::before {
@@ -721,11 +726,14 @@ body {
   opacity: 0.55;
   transform: translate(-50%, -50%);
   display: block;
+}
+
+.topic-modal-track .topic-tick {
   cursor: pointer;
 }
 
-.topic-tick:hover,
-.topic-tick:focus-visible {
+.topic-modal-track .topic-tick:hover,
+.topic-modal-track .topic-tick:focus-visible {
   background: var(--text);
   opacity: 1;
   transform: translate(-50%, -50%) scale(1.8);
@@ -734,17 +742,21 @@ body {
 .topic-milestone-dot {
   position: absolute;
   top: 50%;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
+  width: 9px;
+  height: 9px;
+  border-radius: 3px;
   border: 2px solid var(--surface);
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) rotate(45deg);
+  display: block;
+}
+
+.topic-modal-track .topic-milestone-dot {
   cursor: pointer;
 }
 
-.topic-milestone-dot:hover,
-.topic-milestone-dot:focus-visible {
-  transform: translate(-50%, -50%) scale(1.3);
+.topic-modal-track .topic-milestone-dot:hover,
+.topic-modal-track .topic-milestone-dot:focus-visible {
+  transform: translate(-50%, -50%) rotate(45deg) scale(1.4);
 }
 
 .topic-milestone-label {
@@ -758,6 +770,7 @@ body {
   border-radius: 4px;
   padding: 1px 6px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .topic-milestone-label:hover,
@@ -769,7 +782,7 @@ body {
 .topic-tooltip {
   position: fixed;
   transform: translate(-50%, -100%);
-  z-index: 30;
+  z-index: 150;
   max-width: 260px;
   background: var(--surface);
   border: 1px solid var(--border);
@@ -820,4 +833,91 @@ body {
   font-size: 0.72rem;
   color: var(--text-muted);
   margin: 6px 0 0;
+}
+
+.topic-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.topic-modal-panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  width: min(960px, 100%);
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.topic-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--gridline);
+  flex-wrap: wrap;
+}
+
+.topic-modal-header h3 {
+  margin: 0;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.topic-modal-header h3 .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex: 0 0 auto;
+}
+
+.topic-modal-header .topic-row-count {
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  font-weight: 400;
+}
+
+.topic-modal-actions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.topic-modal-viewport {
+  overflow-x: auto;
+  overflow-y: hidden;
+  cursor: grab;
+  padding: 24px 16px 16px;
+  flex: 1;
+  user-select: none;
+}
+
+.topic-modal-viewport.dragging {
+  cursor: grabbing;
+}
+
+.topic-modal-inner {
+  position: relative;
+  min-width: 100%;
+}
+
+.topic-modal-track {
+  height: 220px;
+}
+
+.topic-modal-axis {
+  margin-top: 8px;
 }
