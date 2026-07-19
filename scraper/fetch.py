@@ -3,6 +3,7 @@
 
 import hashlib
 import json
+import os
 import re
 import sys
 import xml.etree.ElementTree as ET
@@ -18,6 +19,8 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA_PATH = ROOT / "site" / "data" / "events.json"
 TIMEOUT = 20
 HEADERS = {"User-Agent": "embodied-ai-chronicle/0.1 (personal news aggregator)"}
+SITE_URL = "https://roboherald.github.io/embodied-ai-chronicle/"
+FEISHU_DIGEST_LIMIT = 20
 
 ATOM_NS = {"atom": "http://www.w3.org/2005/Atom"}
 
@@ -182,6 +185,29 @@ def load_existing():
     return []
 
 
+def notify_feishu(new_items):
+    webhook = os.environ.get("FEISHU_WEBHOOK_URL")
+    if not webhook or not new_items:
+        return
+    lines = [f"具身智能大事纪：新增 {len(new_items)} 条"]
+    for e in new_items[:FEISHU_DIGEST_LIMIT]:
+        lines.append(f"[{e['source']}] {e['title']}\n{e['url']}")
+    if len(new_items) > FEISHU_DIGEST_LIMIT:
+        lines.append(f"...等共 {len(new_items)} 条")
+    lines.append(SITE_URL)
+    text = "\n\n".join(lines)
+    try:
+        resp = requests.post(
+            webhook,
+            json={"msg_type": "text", "content": {"text": text}},
+            timeout=TIMEOUT,
+        )
+        resp.raise_for_status()
+        print("[feishu] notification sent", file=sys.stderr)
+    except Exception as exc:  # noqa: BLE001 - 推送失败不应影响抓取流程
+        print(f"[feishu] notify failed: {exc}", file=sys.stderr)
+
+
 def main():
     fresh = fetch_arxiv()
     for feed in sources.RSS_FEEDS:
@@ -191,9 +217,11 @@ def main():
     existing = load_existing()
     by_id = {e["id"]: e for e in existing}
     added = 0
+    new_items = []
     for e in fresh:
         if e["id"] not in by_id:
             added += 1
+            new_items.append(e)
         by_id[e["id"]] = e  # 新抓的数据覆盖旧的，其余字段不变
 
     cutoff = (datetime.now(timezone.utc).date() - timedelta(days=sources.MAX_AGE_DAYS)).isoformat()
@@ -208,6 +236,7 @@ def main():
         f"[done] {len(merged)} events total ({added} new), written to {DATA_PATH}",
         file=sys.stderr,
     )
+    notify_feishu(new_items)
 
 
 if __name__ == "__main__":

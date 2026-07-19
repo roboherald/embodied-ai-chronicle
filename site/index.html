@@ -16,6 +16,24 @@
   </header>
 
   <main class="container">
+    <section id="insights" class="insights">
+      <div class="insights-head">
+        <h2>趋势</h2>
+        <button id="table-toggle" class="text-btn">切换表格视图</button>
+      </div>
+      <div id="insights-charts" class="insights-grid">
+        <div class="chart-card">
+          <h3>近 8 周条目数</h3>
+          <div id="weekly-chart"></div>
+        </div>
+        <div class="chart-card">
+          <h3>各来源条目分布</h3>
+          <div id="source-chart"></div>
+        </div>
+      </div>
+      <div id="insights-table" class="insights-table" hidden></div>
+    </section>
+
     <div class="controls">
       <input id="search" type="search" placeholder="搜索标题或摘要…" autocomplete="off" />
 
@@ -37,10 +55,23 @@
         <span class="filter-label">公司/机构</span>
         <div id="tag-filters" class="chip-row"></div>
       </div>
+
+      <div class="filter-row">
+        <span class="filter-label"></span>
+        <div class="chip-row">
+          <button id="bookmark-filter" class="chip">⭐ 只看收藏</button>
+        </div>
+      </div>
     </div>
 
     <div id="empty-state" class="empty-state" hidden>没有匹配的条目。</div>
     <div id="timeline" class="timeline"></div>
+
+    <section id="feedback" class="feedback">
+      <h2>反馈 / 讨论</h2>
+      <p class="feedback-hint">用 GitHub 账号登录后可以留言、点反应表情。</p>
+      <div id="giscus-container"></div>
+    </section>
   </main>
 
   <footer class="footer">

@@ -17,12 +17,35 @@ const RANGES = [
   { key: "30d", label: "最近 30 天" },
 ];
 
+const COUNTER_NAMESPACE = "embodied-chronicle";
+const COUNTER_BASE = "https://api.counterapi.dev/v1";
+
+const BOOKMARK_KEY = "eac_bookmarks";
+const VISITED_KEY = "eac_visited";
+const LIKED_KEY = "eac_liked";
+
+function loadIdSet(key) {
+  try {
+    return new Set(JSON.parse(localStorage.getItem(key) || "[]"));
+  } catch {
+    return new Set();
+  }
+}
+function saveIdSet(key, set) {
+  localStorage.setItem(key, JSON.stringify([...set]));
+}
+
 const state = {
   events: [],
   activeSources: new Set(),
   activeTags: new Set(),
   activeRange: "all",
   query: "",
+  bookmarksOnly: false,
+  bookmarks: loadIdSet(BOOKMARK_KEY),
+  visited: loadIdSet(VISITED_KEY),
+  liked: loadIdSet(LIKED_KEY),
+  showTable: false,
 };
 
 async function init() {
@@ -35,6 +58,7 @@ async function init() {
   renderRangeFilters();
   renderSourceFilters();
   renderTagFilters();
+  renderInsights();
   render();
 
   document.getElementById("search").addEventListener("input", (e) => {
@@ -50,6 +74,17 @@ async function init() {
     state.activeSources = new Set();
     syncChipClasses("source-filters", state.activeSources);
     render();
+  });
+  document.getElementById("bookmark-filter").addEventListener("click", (e) => {
+    state.bookmarksOnly = !state.bookmarksOnly;
+    e.currentTarget.classList.toggle("active", state.bookmarksOnly);
+    render();
+  });
+  document.getElementById("table-toggle").addEventListener("click", () => {
+    state.showTable = !state.showTable;
+    document.getElementById("insights-charts").hidden = state.showTable;
+    document.getElementById("insights-table").hidden = !state.showTable;
+    if (state.showTable) renderInsightsTable();
   });
 }
 
@@ -151,6 +186,119 @@ function renderTagFilters() {
     });
 }
 
+function weeklyBuckets() {
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  const weeks = [];
+  for (let i = 7; i >= 0; i--) {
+    const end = new Date(today);
+    end.setDate(end.getDate() - i * 7);
+    const start = new Date(end);
+    start.setDate(start.getDate() - 6);
+    weeks.push({ start, end, count: 0 });
+  }
+  for (const e of state.events) {
+    const d = new Date(e.date + "T00:00:00Z");
+    for (const w of weeks) {
+      if (d >= w.start && d <= w.end) {
+        w.count++;
+        break;
+      }
+    }
+  }
+  return weeks;
+}
+
+function renderInsights() {
+  const weeks = weeklyBuckets();
+  const maxCount = Math.max(1, ...weeks.map((w) => w.count));
+  const weeklyWrap = document.getElementById("weekly-chart");
+  weeklyWrap.innerHTML = "";
+  const bar = document.createElement("div");
+  bar.className = "bar-chart";
+  weeks.forEach((w) => {
+    const col = document.createElement("div");
+    col.className = "bar-col";
+    const value = document.createElement("div");
+    value.className = "bar-value";
+    value.textContent = w.count;
+    const b = document.createElement("div");
+    b.className = "bar";
+    b.style.height = `${Math.max(2, (w.count / maxCount) * 100)}px`;
+    b.title = `${w.start.toISOString().slice(0, 10)} ~ ${w.end.toISOString().slice(0, 10)}: ${w.count} 条`;
+    const label = document.createElement("div");
+    label.className = "bar-label";
+    label.textContent = `${w.end.getMonth() + 1}/${w.end.getDate()}`;
+    col.appendChild(value);
+    col.appendChild(b);
+    col.appendChild(label);
+    bar.appendChild(col);
+  });
+  weeklyWrap.appendChild(bar);
+
+  const sourceCounts = new Map();
+  for (const e of state.events) {
+    sourceCounts.set(e.source, (sourceCounts.get(e.source) || 0) + 1);
+  }
+  const sorted = [...sourceCounts.entries()].sort((a, b) => b[1] - a[1]);
+  const maxSource = Math.max(1, ...sorted.map(([, c]) => c));
+  const sourceWrap = document.getElementById("source-chart");
+  sourceWrap.innerHTML = "";
+  const list = document.createElement("div");
+  list.className = "hbar-list";
+  sorted.forEach(([source, count]) => {
+    const row = document.createElement("div");
+    row.className = "hbar-row";
+    const label = document.createElement("div");
+    label.className = "hbar-label";
+    label.textContent = source;
+    const track = document.createElement("div");
+    track.className = "hbar-track";
+    const fill = document.createElement("div");
+    fill.className = "hbar-fill";
+    fill.style.width = `${Math.max(2, (count / maxSource) * 100)}%`;
+    fill.style.background = SOURCE_COLORS[source] || FALLBACK_COLOR;
+    track.appendChild(fill);
+    const value = document.createElement("div");
+    value.className = "hbar-value";
+    value.textContent = count;
+    row.appendChild(label);
+    row.appendChild(track);
+    row.appendChild(value);
+    list.appendChild(row);
+  });
+  sourceWrap.appendChild(list);
+}
+
+function renderInsightsTable() {
+  const weeks = weeklyBuckets();
+  const sourceCounts = new Map();
+  for (const e of state.events) {
+    sourceCounts.set(e.source, (sourceCounts.get(e.source) || 0) + 1);
+  }
+  const wrap = document.getElementById("insights-table");
+  wrap.innerHTML = "";
+
+  const t1 = document.createElement("table");
+  t1.innerHTML =
+    "<thead><tr><th>周区间(截至)</th><th>条目数</th></tr></thead><tbody>" +
+    weeks
+      .map((w) => `<tr><td>${w.end.toISOString().slice(0, 10)}</td><td>${w.count}</td></tr>`)
+      .join("") +
+    "</tbody>";
+  wrap.appendChild(t1);
+
+  const t2 = document.createElement("table");
+  t2.innerHTML =
+    "<thead><tr><th>来源</th><th>条目数</th></tr></thead><tbody>" +
+    [...sourceCounts.entries()]
+      .sort((a, b) => b[1] - a[1])
+      .map(([s, c]) => `<tr><td>${s}</td><td>${c}</td></tr>`)
+      .join("") +
+    "</tbody>";
+  wrap.appendChild(t2);
+}
+
 function syncChipClasses(containerId, activeSet) {
   document.querySelectorAll(`#${containerId} .chip`).forEach((chip) => {
     chip.classList.toggle("active", activeSet.has(chip.dataset.value));
@@ -173,6 +321,7 @@ function filteredEvents() {
     if (!state.activeSources.has(e.source)) return false;
     if (cutoff && e.date < cutoff) return false;
     if (state.activeTags.size && !(e.tags || []).some((t) => state.activeTags.has(t))) return false;
+    if (state.bookmarksOnly && !state.bookmarks.has(e.id)) return false;
     if (!state.query) return true;
     const haystack = `${e.title} ${e.summary}`.toLowerCase();
     return haystack.includes(state.query);
@@ -216,9 +365,60 @@ function render() {
   }
 }
 
+let likeObserver = null;
+function observeLikeButton(btn) {
+  if (!likeObserver) {
+    likeObserver = new IntersectionObserver(
+      (entries, obs) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            loadLikeCount(entry.target);
+            obs.unobserve(entry.target);
+          }
+        }
+      },
+      { rootMargin: "200px" }
+    );
+  }
+  likeObserver.observe(btn);
+}
+
+async function loadLikeCount(btn) {
+  const id = btn.dataset.id;
+  try {
+    const res = await fetch(`${COUNTER_BASE}/${COUNTER_NAMESPACE}/${id}`);
+    if (res.status === 400) {
+      btn.querySelector(".count").textContent = "0";
+      return;
+    }
+    const data = await res.json();
+    btn.querySelector(".count").textContent = data.count ?? 0;
+  } catch {
+    btn.querySelector(".count").textContent = "–";
+  }
+}
+
+async function handleLikeClick(btn) {
+  const id = btn.dataset.id;
+  if (state.liked.has(id)) return;
+  btn.disabled = true;
+  try {
+    const res = await fetch(`${COUNTER_BASE}/${COUNTER_NAMESPACE}/${id}/up`);
+    const data = await res.json();
+    btn.querySelector(".count").textContent = data.count ?? "";
+    state.liked.add(id);
+    saveIdSet(LIKED_KEY, state.liked);
+    btn.classList.add("active");
+  } catch {
+    // 网络失败就静默放弃，不影响其它功能
+  } finally {
+    btn.disabled = false;
+  }
+}
+
 function renderCard(item) {
   const card = document.createElement("article");
-  card.className = "card";
+  card.className = "card" + (state.visited.has(item.id) ? " visited" : "");
   card.style.setProperty("--card-color", SOURCE_COLORS[item.source] || FALLBACK_COLOR);
 
   const meta = document.createElement("div");
@@ -241,6 +441,11 @@ function renderCard(item) {
   link.target = "_blank";
   link.rel = "noopener noreferrer";
   link.textContent = item.title;
+  link.addEventListener("click", () => {
+    state.visited.add(item.id);
+    saveIdSet(VISITED_KEY, state.visited);
+    card.classList.add("visited");
+  });
   card.appendChild(link);
 
   if (item.summary) {
@@ -249,6 +454,37 @@ function renderCard(item) {
     summary.textContent = item.summary;
     card.appendChild(summary);
   }
+
+  const actions = document.createElement("div");
+  actions.className = "card-actions";
+
+  const bookmarkBtn = document.createElement("button");
+  bookmarkBtn.className = "icon-btn" + (state.bookmarks.has(item.id) ? " active" : "");
+  bookmarkBtn.textContent = state.bookmarks.has(item.id) ? "⭐ 已收藏" : "☆ 收藏";
+  bookmarkBtn.addEventListener("click", () => {
+    if (state.bookmarks.has(item.id)) {
+      state.bookmarks.delete(item.id);
+      bookmarkBtn.classList.remove("active");
+      bookmarkBtn.textContent = "☆ 收藏";
+      if (state.bookmarksOnly) render();
+    } else {
+      state.bookmarks.add(item.id);
+      bookmarkBtn.classList.add("active");
+      bookmarkBtn.textContent = "⭐ 已收藏";
+    }
+    saveIdSet(BOOKMARK_KEY, state.bookmarks);
+  });
+  actions.appendChild(bookmarkBtn);
+
+  const likeBtn = document.createElement("button");
+  likeBtn.className = "icon-btn" + (state.liked.has(item.id) ? " active" : "");
+  likeBtn.dataset.id = item.id;
+  likeBtn.innerHTML = `👍 有用 <span class="count">…</span>`;
+  likeBtn.addEventListener("click", () => handleLikeClick(likeBtn));
+  actions.appendChild(likeBtn);
+  observeLikeButton(likeBtn);
+
+  card.appendChild(actions);
 
   return card;
 }
