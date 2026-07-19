@@ -1,0 +1,8 @@
+name = "embodied-chronicle-likes"
+main = "src/index.js"
+compatibility_date = "2026-07-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "embodied-chronicle-likes"
+database_id = "377835b2-b40b-4de5-945a-af1d23b2d493"

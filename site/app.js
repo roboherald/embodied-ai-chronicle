@@ -25,59 +25,23 @@ const RANGES = [
   { key: "30d", label: "最近 30 天" },
 ];
 
-const COUNTER_NAMESPACE = "embodied-chronicle";
-const COUNTER_BASE = "https://api.counterapi.dev/v1";
-const LIKE_CACHE_TTL_MS = 10 * 60 * 1000; // CounterAPI 免费额度有限，10 分钟内不重复请求同一个 id
+const LIKES_API_BASE = "https://embodied-chronicle-likes.1360895771.workers.dev";
 
 const BOOKMARK_KEY = "eac_bookmarks";
 const VISITED_KEY = "eac_visited";
 const LIKED_KEY = "eac_liked";
 
-function getCachedLikeCount(id) {
+async function loadAllLikeCounts(ids) {
+  const counts = new Map();
   try {
-    const raw = sessionStorage.getItem(`eac_likecount_${id}`);
-    if (!raw) return null;
-    const { count, ts } = JSON.parse(raw);
-    if (Date.now() - ts > LIKE_CACHE_TTL_MS) return null;
-    return count;
+    const res = await fetch(`${LIKES_API_BASE}/counts?ids=${ids.map(encodeURIComponent).join(",")}`);
+    const data = await res.json();
+    for (const [id, count] of Object.entries(data.counts || {})) counts.set(id, count);
   } catch {
-    return null;
+    // 拿不到就都当 0，不阻塞页面渲染
   }
+  return counts;
 }
-function setCachedLikeCount(id, count) {
-  try {
-    sessionStorage.setItem(`eac_likecount_${id}`, JSON.stringify({ count, ts: Date.now() }));
-  } catch {
-    // sessionStorage 不可用（如隐私模式）就放弃缓存，不影响功能
-  }
-}
-
-// CounterAPI 免费额度请求数很有限，用一个小并发队列 + 请求去重来避免同一次刷新打满额度
-function createRequestQueue(concurrency, delayMs) {
-  let active = 0;
-  const queue = [];
-  function runNext() {
-    if (active >= concurrency || queue.length === 0) return;
-    active++;
-    const { task, resolve, reject } = queue.shift();
-    task()
-      .then(resolve, reject)
-      .finally(() => {
-        active--;
-        setTimeout(runNext, delayMs);
-      });
-  }
-  return {
-    push(task) {
-      return new Promise((resolve, reject) => {
-        queue.push({ task, resolve, reject });
-        runNext();
-      });
-    },
-  };
-}
-const likeRequestQueue = createRequestQueue(3, 150);
-const likeCountCache = new Map(); // id -> Promise<number|null>，同一次页面加载内去重
 
 function loadIdSet(key) {
   try {
@@ -100,6 +64,7 @@ const state = {
   bookmarks: loadIdSet(BOOKMARK_KEY),
   visited: loadIdSet(VISITED_KEY),
   liked: loadIdSet(LIKED_KEY),
+  likeCounts: new Map(),
   showTable: false,
   companyMode: null,
 };
@@ -109,6 +74,7 @@ async function init() {
   const events = await res.json();
   state.events = events;
   state.activeSources = new Set(events.map((e) => e.source));
+  state.likeCounts = await loadAllLikeCounts(events.map((e) => e.id));
 
   applyHashRoute();
   renderStats();
@@ -210,35 +176,7 @@ function renderCompanyHeader() {
   }
 }
 
-function fetchLikeCount(id) {
-  if (likeCountCache.has(id)) return likeCountCache.get(id);
-  const cached = getCachedLikeCount(id);
-  if (cached !== null) {
-    const p = Promise.resolve(cached);
-    likeCountCache.set(id, p);
-    return p;
-  }
-  const p = likeRequestQueue.push(async () => {
-    try {
-      const res = await fetch(`${COUNTER_BASE}/${COUNTER_NAMESPACE}/${id}`);
-      if (res.status === 400) {
-        setCachedLikeCount(id, 0);
-        return 0;
-      }
-      if (!res.ok) return null; // 比如 429 触发限流，先不缓存，下次再试
-      const data = await res.json();
-      const count = data.count ?? 0;
-      setCachedLikeCount(id, count);
-      return count;
-    } catch {
-      return null;
-    }
-  });
-  likeCountCache.set(id, p);
-  return p;
-}
-
-async function renderHotList() {
+function renderHotList() {
   const section = document.getElementById("hot-list");
   const wrap = document.getElementById("hot-list-items");
   const cutoff = (() => {
@@ -253,12 +191,10 @@ async function renderHotList() {
     return;
   }
   section.hidden = false;
-  wrap.innerHTML = `<p class="hot-list-empty">统计中…</p>`;
 
-  const counts = await Promise.all(weekItems.map((e) => fetchLikeCount(e.id)));
   const ranked = weekItems
-    .map((e, i) => ({ e, count: counts[i] }))
-    .filter((r) => r.count !== null && r.count > 0)
+    .map((e) => ({ e, count: state.likeCounts.get(e.id) || 0 }))
+    .filter((r) => r.count > 0)
     .sort((a, b) => b.count - a.count)
     .slice(0, 10);
 
@@ -557,41 +493,20 @@ function render() {
   }
 }
 
-let likeObserver = null;
-function observeLikeButton(btn) {
-  if (!likeObserver) {
-    likeObserver = new IntersectionObserver(
-      (entries, obs) => {
-        for (const entry of entries) {
-          if (entry.isIntersecting) {
-            loadLikeCount(entry.target);
-            obs.unobserve(entry.target);
-          }
-        }
-      },
-      { rootMargin: "200px" }
-    );
-  }
-  likeObserver.observe(btn);
-}
-
-async function loadLikeCount(btn) {
-  const id = btn.dataset.id;
-  const count = await fetchLikeCount(id);
-  btn.querySelector(".count").textContent = count === null ? "–" : count;
-}
-
 async function handleLikeClick(btn) {
   const id = btn.dataset.id;
   const isLiking = !state.liked.has(id);
   btn.disabled = true;
   try {
-    const res = await fetch(`${COUNTER_BASE}/${COUNTER_NAMESPACE}/${id}/${isLiking ? "up" : "down"}`);
+    const res = await fetch(`${LIKES_API_BASE}/like`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ id, action: isLiking ? "up" : "down" }),
+    });
     const data = await res.json();
     const count = data.count ?? "";
     btn.querySelector(".count").textContent = count;
-    setCachedLikeCount(id, count);
-    likeCountCache.set(id, Promise.resolve(count));
+    state.likeCounts.set(id, count);
     if (isLiking) {
       state.liked.add(id);
       btn.classList.add("active");
@@ -676,11 +591,10 @@ function renderCard(item) {
   const likeBtn = document.createElement("button");
   likeBtn.className = "icon-btn" + (state.liked.has(item.id) ? " active" : "");
   likeBtn.dataset.id = item.id;
-  likeBtn.innerHTML = `👍 有用 <span class="count">…</span>`;
+  likeBtn.innerHTML = `👍 有用 <span class="count">${state.likeCounts.get(item.id) || 0}</span>`;
   likeBtn.title = state.liked.has(item.id) ? "再点一次取消" : "";
   likeBtn.addEventListener("click", () => handleLikeClick(likeBtn));
   actions.appendChild(likeBtn);
-  observeLikeButton(likeBtn);
 
   const commentPanel = document.createElement("div");
   commentPanel.className = "card-comments";
