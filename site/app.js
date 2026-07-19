@@ -10,6 +10,14 @@ const SOURCE_COLORS = {
 };
 const FALLBACK_COLOR = "#898781";
 
+const GISCUS_CONFIG = {
+  repo: "roboherald/embodied-ai-chronicle",
+  repoId: "R_kgDOTdDP2A",
+  category: "General",
+  categoryId: "DIC_kwDOTdDP2M4DBgr5",
+  theme: "dark_dimmed",
+};
+
 const RANGES = [
   { key: "all", label: "全部" },
   { key: "today", label: "今天" },
@@ -484,9 +492,49 @@ function renderCard(item) {
   actions.appendChild(likeBtn);
   observeLikeButton(likeBtn);
 
+  const commentPanel = document.createElement("div");
+  commentPanel.className = "card-comments";
+  commentPanel.hidden = true;
+  let commentsLoaded = false;
+
+  const commentBtn = document.createElement("button");
+  commentBtn.className = "icon-btn";
+  commentBtn.textContent = "💬 评论";
+  commentBtn.addEventListener("click", () => {
+    commentPanel.hidden = !commentPanel.hidden;
+    commentBtn.classList.toggle("active", !commentPanel.hidden);
+    if (!commentPanel.hidden && !commentsLoaded) {
+      commentsLoaded = true;
+      loadArticleGiscus(commentPanel, item.id);
+    }
+  });
+  actions.appendChild(commentBtn);
+
   card.appendChild(actions);
+  card.appendChild(commentPanel);
 
   return card;
+}
+
+function loadArticleGiscus(container, term) {
+  const script = document.createElement("script");
+  script.src = "https://giscus.app/client.js";
+  script.setAttribute("data-repo", GISCUS_CONFIG.repo);
+  script.setAttribute("data-repo-id", GISCUS_CONFIG.repoId);
+  script.setAttribute("data-category", GISCUS_CONFIG.category);
+  script.setAttribute("data-category-id", GISCUS_CONFIG.categoryId);
+  script.setAttribute("data-mapping", "specific");
+  script.setAttribute("data-term", term);
+  script.setAttribute("data-strict", "1");
+  script.setAttribute("data-reactions-enabled", "1");
+  script.setAttribute("data-emit-metadata", "0");
+  script.setAttribute("data-input-position", "bottom");
+  script.setAttribute("data-theme", GISCUS_CONFIG.theme);
+  script.setAttribute("data-lang", "zh-CN");
+  script.setAttribute("data-loading", "lazy");
+  script.crossOrigin = "anonymous";
+  script.async = true;
+  container.appendChild(script);
 }
 
 init();

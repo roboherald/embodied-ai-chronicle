@@ -34,7 +34,7 @@ cd site && python3 -m http.server 8000   # 然后浏览器打开 http://localhos
 - 趋势图表：近 8 周条目数、各来源条目分布，可切换成表格视图（无障碍/复制数据用）。
 - 收藏与已读：点击"收藏"或点开标题都会记到浏览器 `localStorage`，仅本机/本浏览器生效，换设备不同步。
 - "有用"点赞：访客共享的计数，接的是免费的 [CounterAPI](https://counterapi.dev/)，同一条目所有人看到的数字是一样的（`localStorage` 只是软限制，防止自己重复点，不是强校验）。
-- 评论区：底部接 [giscus](https://giscus.app/)（基于 GitHub Discussions），需要你手动开通，见下文。
+- 评论区：底部有一个全站反馈区，每条新闻卡片下也有独立的"💬 评论"按钮（点开才会加载），都接的是 [giscus](https://giscus.app/)（基于 GitHub Discussions），需要你手动开通，见下文。每条新闻的评论会在仓库 Discussions 里自动开一个对应的帖子，条目越多帖子也会越多。
 - 飞书推送：每次抓到新内容会给配置好的飞书机器人发一条摘要，需要你手动配置 webhook，见下文。
 
 ## 现在的取舍（后面可以改）

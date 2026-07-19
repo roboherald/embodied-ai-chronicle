@@ -440,6 +440,12 @@ body {
   background: rgba(57, 135, 229, 0.12);
 }
 
+.card-comments {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+}
+
 .empty-state {
   color: var(--text-muted);
   text-align: center;
