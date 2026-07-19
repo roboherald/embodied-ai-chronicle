@@ -79,9 +79,50 @@ body {
   padding: 20px;
 }
 
-.controls {
+.tabs {
   position: sticky;
   top: 0;
+  z-index: 20;
+  display: flex;
+  gap: 4px;
+  background: var(--page);
+  padding: 8px 0;
+  margin-bottom: 8px;
+  border-bottom: 1px solid var(--gridline);
+}
+
+.tab {
+  flex: 1;
+  padding: 9px 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.tab:hover {
+  color: var(--text);
+}
+
+.tab.active {
+  border-color: var(--accent);
+  color: var(--text);
+  background: rgba(57, 135, 229, 0.12);
+  font-weight: 600;
+}
+
+.tab-panel-hint {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin: 0 0 14px;
+}
+
+.controls {
+  position: sticky;
+  top: 53px;
   background: var(--page);
   padding: 14px 0 16px;
   display: flex;

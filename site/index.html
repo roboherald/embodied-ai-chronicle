@@ -16,88 +16,101 @@
   </header>
 
   <main class="container">
-    <section id="company-header" class="company-header" hidden>
-      <a id="company-back" href="#" class="text-btn">← 返回全部内容</a>
-      <h2 id="company-name"></h2>
-      <div id="company-stats" class="stats"></div>
-    </section>
+    <nav class="tabs" role="tablist">
+      <button class="tab active" data-tab="latest" role="tab">最新</button>
+      <button class="tab" data-tab="topics" role="tab">研究方向</button>
+      <button class="tab" data-tab="trends" role="tab">趋势</button>
+    </nav>
 
-    <section id="topic-header" class="company-header" hidden>
-      <a id="topic-back" href="#" class="text-btn">← 返回全部内容</a>
-      <h2 id="topic-name"></h2>
-      <div id="topic-stats" class="stats"></div>
-    </section>
+    <div class="tab-panel" data-panel="latest">
+      <section id="company-header" class="company-header" hidden>
+        <a id="company-back" href="#" class="text-btn">← 返回全部内容</a>
+        <h2 id="company-name"></h2>
+        <div id="company-stats" class="stats"></div>
+      </section>
 
-    <section id="hot-list" class="hot-list" hidden>
-      <h2>🔥 本周热点</h2>
-      <div id="hot-list-items" class="hot-list-items"></div>
-    </section>
+      <section id="topic-header" class="company-header" hidden>
+        <a id="topic-back" href="#" class="text-btn">← 返回全部内容</a>
+        <h2 id="topic-name"></h2>
+        <div id="topic-stats" class="stats"></div>
+      </section>
 
-    <section id="topic-timeline" class="topic-timeline">
-      <div class="insights-head">
-        <h2>研究方向发展脉络</h2>
-        <button id="topic-timeline-table-toggle" class="text-btn">切换表格视图</button>
-      </div>
-      <div id="topic-timeline-rows" class="topic-timeline-rows"></div>
-      <div id="topic-timeline-axis" class="topic-timeline-axis"></div>
-      <div id="topic-timeline-table" class="insights-table" hidden></div>
-    </section>
+      <section id="hot-list" class="hot-list" hidden>
+        <h2>🔥 本周热点</h2>
+        <div id="hot-list-items" class="hot-list-items"></div>
+      </section>
 
-    <section id="insights" class="insights">
-      <div class="insights-head">
-        <h2>趋势</h2>
-        <button id="table-toggle" class="text-btn">切换表格视图</button>
-      </div>
-      <div id="insights-charts" class="insights-grid">
-        <div class="chart-card">
-          <h3>近 8 周条目数</h3>
-          <div id="weekly-chart"></div>
+      <div class="controls">
+        <input id="search" type="search" placeholder="搜索标题或摘要…" autocomplete="off" />
+
+        <div class="filter-row">
+          <span class="filter-label">时间</span>
+          <div id="range-filters" class="chip-row"></div>
         </div>
-        <div class="chart-card">
-          <h3>各来源条目分布</h3>
-          <div id="source-chart"></div>
+
+        <div class="filter-row">
+          <span class="filter-label">来源</span>
+          <div id="source-filters" class="chip-row"></div>
+          <div class="chip-actions">
+            <button id="source-all" class="text-btn">全选</button>
+            <button id="source-none" class="text-btn">清空</button>
+          </div>
         </div>
-      </div>
-      <div id="insights-table" class="insights-table" hidden></div>
-    </section>
 
-    <div class="controls">
-      <input id="search" type="search" placeholder="搜索标题或摘要…" autocomplete="off" />
+        <div class="filter-row" id="topic-row-filter">
+          <span class="filter-label">研究方向</span>
+          <div id="topic-filters" class="chip-row"></div>
+        </div>
 
-      <div class="filter-row">
-        <span class="filter-label">时间</span>
-        <div id="range-filters" class="chip-row"></div>
-      </div>
+        <div class="filter-row" id="tag-row" hidden>
+          <span class="filter-label">公司/机构</span>
+          <div id="tag-filters" class="chip-row"></div>
+        </div>
 
-      <div class="filter-row">
-        <span class="filter-label">来源</span>
-        <div id="source-filters" class="chip-row"></div>
-        <div class="chip-actions">
-          <button id="source-all" class="text-btn">全选</button>
-          <button id="source-none" class="text-btn">清空</button>
+        <div class="filter-row">
+          <span class="filter-label"></span>
+          <div class="chip-row">
+            <button id="bookmark-filter" class="chip">⭐ 只看收藏</button>
+          </div>
         </div>
       </div>
 
-      <div class="filter-row" id="topic-row-filter">
-        <span class="filter-label">研究方向</span>
-        <div id="topic-filters" class="chip-row"></div>
-      </div>
-
-      <div class="filter-row" id="tag-row" hidden>
-        <span class="filter-label">公司/机构</span>
-        <div id="tag-filters" class="chip-row"></div>
-      </div>
-
-      <div class="filter-row">
-        <span class="filter-label"></span>
-        <div class="chip-row">
-          <button id="bookmark-filter" class="chip">⭐ 只看收藏</button>
-        </div>
-      </div>
+      <div id="empty-state" class="empty-state" hidden>没有匹配的条目。</div>
+      <div id="timeline" class="timeline"></div>
     </div>
 
-    <div id="empty-state" class="empty-state" hidden>没有匹配的条目。</div>
-    <div id="timeline" class="timeline"></div>
+    <div class="tab-panel" data-panel="topics" hidden>
+      <section id="topic-timeline" class="topic-timeline">
+        <div class="insights-head">
+          <h2>研究方向发展脉络</h2>
+          <button id="topic-timeline-table-toggle" class="text-btn">切换表格视图</button>
+        </div>
+        <p class="tab-panel-hint">点某个方向的名字，可跳到「最新」只看该方向的动态。</p>
+        <div id="topic-timeline-rows" class="topic-timeline-rows"></div>
+        <div id="topic-timeline-axis" class="topic-timeline-axis"></div>
+        <div id="topic-timeline-table" class="insights-table" hidden></div>
+      </section>
+    </div>
+
+    <div class="tab-panel" data-panel="trends" hidden>
+      <section id="insights" class="insights">
+        <div class="insights-head">
+          <h2>趋势</h2>
+          <button id="table-toggle" class="text-btn">切换表格视图</button>
+        </div>
+        <div id="insights-charts" class="insights-grid">
+          <div class="chart-card">
+            <h3>近 8 周条目数</h3>
+            <div id="weekly-chart"></div>
+          </div>
+          <div class="chart-card">
+            <h3>各来源条目分布</h3>
+            <div id="source-chart"></div>
+          </div>
+        </div>
+        <div id="insights-table" class="insights-table" hidden></div>
+      </section>
+    </div>
 
     <section id="feedback" class="feedback">
       <h2>反馈 / 讨论</h2>

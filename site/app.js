@@ -89,6 +89,7 @@ const state = {
   companyMode: null,
   topicMode: null,
   milestones: [],
+  activeTab: "latest",
 };
 
 async function init() {
@@ -134,6 +135,12 @@ async function init() {
     renderCompanyHeader();
     renderTopicHeader();
     render();
+    // 钻取到某公司/方向时，自动切到「最新」把筛选后的列表露出来
+    if (state.companyMode || state.topicMode) switchTab("latest");
+  });
+
+  document.querySelectorAll(".tab").forEach((tab) => {
+    tab.addEventListener("click", () => switchTab(tab.dataset.tab));
   });
 
   document.getElementById("company-back").addEventListener("click", (e) => {
@@ -205,6 +212,16 @@ function applyHashRoute() {
   state.topicMode = topic;
   state.activeTags = company ? new Set([company]) : new Set();
   state.activeTopics = topic ? new Set([topic]) : new Set();
+}
+
+function switchTab(name) {
+  state.activeTab = name;
+  document.querySelectorAll(".tab").forEach((t) => {
+    t.classList.toggle("active", t.dataset.tab === name);
+  });
+  document.querySelectorAll(".tab-panel").forEach((p) => {
+    p.hidden = p.dataset.panel !== name;
+  });
 }
 
 function renderCompanyHeader() {
