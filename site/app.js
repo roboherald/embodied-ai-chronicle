@@ -31,10 +31,10 @@ const BOOKMARK_KEY = "eac_bookmarks";
 const VISITED_KEY = "eac_visited";
 const LIKED_KEY = "eac_liked";
 
-async function loadAllLikeCounts(ids) {
+async function loadAllLikeCounts() {
   const counts = new Map();
   try {
-    const res = await fetch(`${LIKES_API_BASE}/counts?ids=${ids.map(encodeURIComponent).join(",")}`);
+    const res = await fetch(`${LIKES_API_BASE}/counts`, { signal: AbortSignal.timeout(8000) });
     const data = await res.json();
     for (const [id, count] of Object.entries(data.counts || {})) counts.set(id, count);
   } catch {
@@ -74,7 +74,6 @@ async function init() {
   const events = await res.json();
   state.events = events;
   state.activeSources = new Set(events.map((e) => e.source));
-  state.likeCounts = await loadAllLikeCounts(events.map((e) => e.id));
 
   applyHashRoute();
   renderStats();
@@ -85,6 +84,16 @@ async function init() {
   renderInsights();
   renderHotList();
   render();
+
+  loadAllLikeCounts().then((counts) => {
+    if (!counts.size) return;
+    state.likeCounts = counts;
+    document.querySelectorAll(".icon-btn[data-id]").forEach((btn) => {
+      const count = counts.get(btn.dataset.id);
+      if (count !== undefined) btn.querySelector(".count").textContent = count;
+    });
+    renderHotList();
+  });
 
   window.addEventListener("hashchange", () => {
     applyHashRoute();
@@ -502,6 +511,7 @@ async function handleLikeClick(btn) {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ id, action: isLiking ? "up" : "down" }),
+      signal: AbortSignal.timeout(8000),
     });
     const data = await res.json();
     const count = data.count ?? "";

@@ -27,17 +27,8 @@ export default {
     }
 
     if (request.method === "GET" && url.pathname === "/counts") {
-      const idsParam = url.searchParams.get("ids") || "";
-      const ids = [...new Set(idsParam.split(",").map((s) => s.trim()).filter(Boolean))].slice(0, 500);
-      if (!ids.length) return json({ counts: {} }, origin);
-
-      const placeholders = ids.map(() => "?").join(",");
-      const { results } = await env.DB.prepare(`SELECT id, count FROM likes WHERE id IN (${placeholders})`)
-        .bind(...ids)
-        .all();
-
+      const { results } = await env.DB.prepare("SELECT id, count FROM likes").all();
       const counts = {};
-      for (const id of ids) counts[id] = 0;
       for (const row of results) counts[row.id] = row.count;
       return json({ counts }, origin);
     }
