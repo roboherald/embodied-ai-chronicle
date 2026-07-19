@@ -767,6 +767,12 @@ function render() {
 async function handleLikeClick(btn) {
   const id = btn.dataset.id;
   const isLiking = !state.liked.has(id);
+  const countEl = btn.querySelector(".count");
+  const prevCount = state.likeCounts.get(id) || 0;
+
+  // 乐观更新：先本地反映点击结果，即使网络慢/被墙也有即时反馈
+  countEl.textContent = isLiking ? prevCount + 1 : Math.max(0, prevCount - 1);
+  btn.classList.toggle("active", isLiking);
   btn.disabled = true;
   try {
     const res = await fetchWithTimeout(`${LIKES_API_BASE}/like`, {
@@ -774,22 +780,26 @@ async function handleLikeClick(btn) {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ id, action: isLiking ? "up" : "down" }),
     });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
-    const count = data.count ?? "";
-    btn.querySelector(".count").textContent = count;
+    const count = data.count ?? (isLiking ? prevCount + 1 : Math.max(0, prevCount - 1));
+    countEl.textContent = count;
     state.likeCounts.set(id, count);
     if (isLiking) {
       state.liked.add(id);
-      btn.classList.add("active");
       btn.title = "再点一次取消";
     } else {
       state.liked.delete(id);
-      btn.classList.remove("active");
       btn.title = "";
     }
     saveIdSet(LIKED_KEY, state.liked);
-  } catch {
-    // 网络失败就静默放弃，不影响其它功能
+  } catch (err) {
+    // 不再静默：回滚乐观更新，并明确闪红提示，方便定位是网络/被墙问题
+    countEl.textContent = prevCount;
+    btn.classList.toggle("active", state.liked.has(id));
+    btn.title = "连接点赞服务失败，请检查网络（或该域名被拦截）";
+    btn.classList.add("like-error");
+    setTimeout(() => btn.classList.remove("like-error"), 1600);
   } finally {
     btn.disabled = false;
   }

@@ -527,6 +527,12 @@ body {
   background: rgba(57, 135, 229, 0.12);
 }
 
+.icon-btn.like-error {
+  border-color: #e5484d;
+  color: #e5484d;
+  background: rgba(229, 72, 77, 0.12);
+}
+
 .card-comments {
   margin-top: 10px;
   padding-top: 10px;
