@@ -465,6 +465,42 @@ function renderTopicFilters() {
 
 const MILESTONE_LABEL_BANDS = ["6px", "26px", "46px"];
 
+let topicTooltipEl = null;
+
+function ensureTopicTooltip() {
+  if (!topicTooltipEl) {
+    topicTooltipEl = document.createElement("div");
+    topicTooltipEl.className = "topic-tooltip";
+    topicTooltipEl.hidden = true;
+    document.body.appendChild(topicTooltipEl);
+  }
+  return topicTooltipEl;
+}
+
+function showTopicTooltip(target, lines) {
+  const tip = ensureTopicTooltip();
+  tip.textContent = "";
+  for (const { text, cls } of lines) {
+    const line = document.createElement("div");
+    line.className = cls;
+    line.textContent = text;
+    tip.appendChild(line);
+  }
+  tip.hidden = false;
+  const rect = target.getBoundingClientRect();
+  const tipRect = tip.getBoundingClientRect();
+  const half = tipRect.width / 2;
+  const left = Math.max(half + 8, Math.min(rect.left + rect.width / 2, window.innerWidth - half - 8));
+  tip.style.left = `${left}px`;
+  tip.style.top = `${rect.top - 8}px`;
+}
+
+function hideTopicTooltip() {
+  if (topicTooltipEl) topicTooltipEl.hidden = true;
+}
+
+window.addEventListener("scroll", hideTopicTooltip, { passive: true });
+
 function timelineDateRange() {
   const dates = [];
   for (const e of state.events) {
@@ -527,15 +563,33 @@ function renderTopicTimeline() {
     track.className = "topic-row-track";
 
     events.forEach((e) => {
-      const tick = document.createElement("div");
+      const tick = document.createElement("a");
       tick.className = "topic-tick";
       tick.style.left = `${dateToPercent(e.date, range)}%`;
-      tick.title = `${e.date} ${e.title}`;
+      tick.href = e.url;
+      tick.target = "_blank";
+      tick.rel = "noopener noreferrer";
+      const showTip = () =>
+        showTopicTooltip(tick, [
+          { text: `${e.date} · ${e.source}`, cls: "topic-tooltip-date" },
+          { text: e.title, cls: "topic-tooltip-title" },
+        ]);
+      tick.addEventListener("mouseenter", showTip);
+      tick.addEventListener("focus", showTip);
+      tick.addEventListener("mouseleave", hideTopicTooltip);
+      tick.addEventListener("blur", hideTopicTooltip);
       track.appendChild(tick);
     });
 
     milestones.forEach((m, i) => {
       const pct = dateToPercent(m.date, range);
+      const showTip = (target) => () =>
+        showTopicTooltip(target, [
+          { text: m.date, cls: "topic-tooltip-date" },
+          { text: m.title, cls: "topic-tooltip-title" },
+          ...(m.description ? [{ text: m.description, cls: "topic-tooltip-desc" }] : []),
+        ]);
+
       const dot = document.createElement("a");
       dot.className = "topic-milestone-dot";
       dot.style.left = `${pct}%`;
@@ -543,7 +597,10 @@ function renderTopicTimeline() {
       dot.href = m.url;
       dot.target = "_blank";
       dot.rel = "noopener noreferrer";
-      dot.title = `${m.date} ${m.title}`;
+      dot.addEventListener("mouseenter", showTip(dot));
+      dot.addEventListener("focus", showTip(dot));
+      dot.addEventListener("mouseleave", hideTopicTooltip);
+      dot.addEventListener("blur", hideTopicTooltip);
       track.appendChild(dot);
 
       const labelEl = document.createElement("a");
@@ -554,6 +611,10 @@ function renderTopicTimeline() {
       labelEl.target = "_blank";
       labelEl.rel = "noopener noreferrer";
       labelEl.textContent = m.title;
+      labelEl.addEventListener("mouseenter", showTip(labelEl));
+      labelEl.addEventListener("focus", showTip(labelEl));
+      labelEl.addEventListener("mouseleave", hideTopicTooltip);
+      labelEl.addEventListener("blur", hideTopicTooltip);
       track.appendChild(labelEl);
     });
 
