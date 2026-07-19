@@ -54,6 +54,7 @@ const state = {
   visited: loadIdSet(VISITED_KEY),
   liked: loadIdSet(LIKED_KEY),
   showTable: false,
+  companyMode: null,
 };
 
 async function init() {
@@ -62,12 +63,27 @@ async function init() {
   state.events = events;
   state.activeSources = new Set(events.map((e) => e.source));
 
+  applyHashRoute();
   renderStats();
   renderRangeFilters();
   renderSourceFilters();
   renderTagFilters();
+  renderCompanyHeader();
   renderInsights();
+  renderHotList();
   render();
+
+  window.addEventListener("hashchange", () => {
+    applyHashRoute();
+    syncChipClasses("tag-filters", state.activeTags);
+    renderCompanyHeader();
+    render();
+  });
+
+  document.getElementById("company-back").addEventListener("click", (e) => {
+    e.preventDefault();
+    location.hash = "";
+  });
 
   document.getElementById("search").addEventListener("input", (e) => {
     state.query = e.target.value.trim().toLowerCase();
@@ -93,6 +109,102 @@ async function init() {
     document.getElementById("insights-charts").hidden = state.showTable;
     document.getElementById("insights-table").hidden = !state.showTable;
     if (state.showTable) renderInsightsTable();
+  });
+}
+
+function currentCompanyFromHash() {
+  const raw = location.hash.replace(/^#/, "");
+  const params = new URLSearchParams(raw);
+  return params.get("company");
+}
+
+function applyHashRoute() {
+  const company = currentCompanyFromHash();
+  state.companyMode = company;
+  state.activeTags = company ? new Set([company]) : new Set();
+}
+
+function renderCompanyHeader() {
+  const section = document.getElementById("company-header");
+  if (!state.companyMode) {
+    section.hidden = true;
+    return;
+  }
+  const items = state.events.filter((e) => (e.tags || []).includes(state.companyMode));
+  section.hidden = false;
+  document.getElementById("company-name").textContent = `公司 / 机构：${state.companyMode}`;
+
+  const firstDate = items.length
+    ? items.reduce((min, e) => (e.date < min ? e.date : min), items[0].date)
+    : "—";
+  const sourceCounts = new Map();
+  for (const e of items) sourceCounts.set(e.source, (sourceCounts.get(e.source) || 0) + 1);
+  const topSource = [...sourceCounts.entries()].sort((a, b) => b[1] - a[1])[0];
+
+  const tiles = [
+    { value: items.length, label: "相关条目数" },
+    { value: firstDate, label: "最早出现日期" },
+    { value: topSource ? topSource[0] : "—", label: "最活跃来源" },
+  ];
+  const wrap = document.getElementById("company-stats");
+  wrap.innerHTML = "";
+  for (const t of tiles) {
+    const tile = document.createElement("div");
+    tile.className = "stat-tile";
+    tile.innerHTML = `<div class="value">${t.value}</div><div class="label">${t.label}</div>`;
+    wrap.appendChild(tile);
+  }
+}
+
+async function fetchLikeCount(id) {
+  try {
+    const res = await fetch(`${COUNTER_BASE}/${COUNTER_NAMESPACE}/${id}`);
+    if (res.status === 400) return 0;
+    const data = await res.json();
+    return data.count ?? 0;
+  } catch {
+    return null;
+  }
+}
+
+async function renderHotList() {
+  const section = document.getElementById("hot-list");
+  const wrap = document.getElementById("hot-list-items");
+  const cutoff = (() => {
+    const d = new Date();
+    d.setHours(0, 0, 0, 0);
+    d.setDate(d.getDate() - 6);
+    return d.toISOString().slice(0, 10);
+  })();
+  const weekItems = state.events.filter((e) => e.date >= cutoff);
+  if (!weekItems.length) {
+    section.hidden = true;
+    return;
+  }
+  section.hidden = false;
+  wrap.innerHTML = `<p class="hot-list-empty">统计中…</p>`;
+
+  const counts = await Promise.all(weekItems.map((e) => fetchLikeCount(e.id)));
+  const ranked = weekItems
+    .map((e, i) => ({ e, count: counts[i] }))
+    .filter((r) => r.count !== null && r.count > 0)
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 10);
+
+  wrap.innerHTML = "";
+  if (!ranked.length) {
+    wrap.innerHTML = `<p class="hot-list-empty">本周还没有点赞数据，点一下新闻卡片下面的"👍 有用"就能上榜。</p>`;
+    return;
+  }
+  ranked.forEach((r, i) => {
+    const row = document.createElement("div");
+    row.className = "hot-item";
+    row.innerHTML = `
+      <span class="hot-rank">${i + 1}</span>
+      <a class="hot-title" href="${r.e.url}" target="_blank" rel="noopener noreferrer">${r.e.title}</a>
+      <span class="hot-count">👍 ${r.count}</span>
+    `;
+    wrap.appendChild(row);
   });
 }
 
@@ -178,7 +290,8 @@ function renderTagFilters() {
     .sort((a, b) => b[1] - a[1])
     .forEach(([tag, count]) => {
       const chip = document.createElement("button");
-      chip.className = "chip";
+      chip.className = "chip" + (state.activeTags.has(tag) ? " active" : "");
+      chip.dataset.value = tag;
       chip.textContent = `${tag} (${count})`;
       chip.addEventListener("click", () => {
         if (state.activeTags.has(tag)) {
@@ -437,8 +550,12 @@ function renderCard(item) {
   meta.appendChild(badge);
   for (const tag of item.tags || []) {
     const pill = document.createElement("span");
-    pill.className = "tag-pill";
+    pill.className = "tag-pill clickable";
     pill.textContent = tag;
+    pill.title = `查看「${tag}」的公司主页`;
+    pill.addEventListener("click", () => {
+      location.hash = `company=${encodeURIComponent(tag)}`;
+    });
     meta.appendChild(pill);
   }
   card.appendChild(meta);

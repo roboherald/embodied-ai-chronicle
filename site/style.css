@@ -177,6 +177,93 @@ body {
   background: rgba(57, 135, 229, 0.12);
 }
 
+.company-header {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  margin-bottom: 20px;
+}
+
+.company-header #company-back {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.company-header h2 {
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+}
+
+.hot-list {
+  margin-bottom: 24px;
+}
+
+.hot-list h2 {
+  font-size: 1rem;
+  margin: 0 0 10px;
+  color: var(--text-secondary);
+}
+
+.hot-list-items {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.hot-item {
+  display: grid;
+  grid-template-columns: 22px 1fr auto;
+  align-items: center;
+  gap: 10px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 8px 12px;
+}
+
+.hot-item .hot-rank {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+.hot-item a.hot-title {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.88rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.hot-item a.hot-title:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.hot-item .hot-count {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.hot-list-empty {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.tag-pill.clickable {
+  cursor: pointer;
+}
+
+.tag-pill.clickable:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
 .insights {
   margin-bottom: 24px;
 }
