@@ -53,3 +53,33 @@ ENTITIES = {
     "Fourier Intelligence": ["fourier intelligence"],
     "Galbot": ["galbot"],
 }
+
+# 研究方向标签：命中别名（大小写不敏感的子串匹配）就打上对应方向标签
+# 顺序即前端调色板分配顺序，改了这里要同步改 site/app.js 里的 TOPIC_COLORS
+TOPICS = {
+    "人形机器人": ["humanoid robot", "humanoid", "bipedal humanoid", "human-like robot"],
+    "灵巧手与操作": [
+        "dexterous", "in-hand manipulation", "multi-fingered hand",
+        "robotic grasping", "grasp planning", "manipulation policy",
+    ],
+    "移动与四足": [
+        "quadruped", "legged locomotion", "bipedal locomotion",
+        "gait control", "legged robot",
+    ],
+    "VLA与基础模型": [
+        "vision-language-action", "vla model", "robot foundation model",
+        "generalist robot policy", "robotics foundation model",
+    ],
+    "仿真与Sim2Real": [
+        "sim-to-real", "sim2real", "domain randomization",
+        "isaac gym", "isaac sim", "mujoco simulation",
+    ],
+    "遥操作与数据采集": [
+        "teleoperation", "teleop", "human demonstration data",
+        "robot data collection", "motion capture for robot",
+    ],
+    "世界模型": [
+        "world model", "video prediction model", "learned dynamics model",
+        "predictive world model",
+    ],
+}

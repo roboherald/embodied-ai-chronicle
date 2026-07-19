@@ -10,6 +10,17 @@ const SOURCE_COLORS = {
 };
 const FALLBACK_COLOR = "#898781";
 
+// 顺序必须跟 scraper/sources.py 里的 TOPICS 一致 —— 这是分配颜色槽位的唯一依据
+const TOPIC_COLORS = {
+  "人形机器人": "#3987e5",
+  "灵巧手与操作": "#008300",
+  "移动与四足": "#d55181",
+  "VLA与基础模型": "#c98500",
+  "仿真与Sim2Real": "#199e70",
+  "遥操作与数据采集": "#d95926",
+  "世界模型": "#9085e9",
+};
+
 const GISCUS_CONFIG = {
   repo: "roboherald/embodied-ai-chronicle",
   repoId: "R_kgDOTdDP2A",
@@ -65,6 +76,7 @@ const state = {
   events: [],
   activeSources: new Set(),
   activeTags: new Set(),
+  activeTopics: new Set(),
   activeRange: "all",
   query: "",
   bookmarksOnly: false,
@@ -73,7 +85,10 @@ const state = {
   liked: loadIdSet(LIKED_KEY),
   likeCounts: new Map(),
   showTable: false,
+  showTopicTable: false,
   companyMode: null,
+  topicMode: null,
+  milestones: [],
 };
 
 async function init() {
@@ -82,12 +97,22 @@ async function init() {
   state.events = events;
   state.activeSources = new Set(events.map((e) => e.source));
 
+  try {
+    const mRes = await fetch("data/milestones.json", { cache: "no-store" });
+    state.milestones = await mRes.json();
+  } catch {
+    state.milestones = [];
+  }
+
   applyHashRoute();
   renderStats();
   renderRangeFilters();
   renderSourceFilters();
+  renderTopicFilters();
   renderTagFilters();
   renderCompanyHeader();
+  renderTopicHeader();
+  renderTopicTimeline();
   renderInsights();
   renderHotList();
   render();
@@ -105,11 +130,17 @@ async function init() {
   window.addEventListener("hashchange", () => {
     applyHashRoute();
     syncChipClasses("tag-filters", state.activeTags);
+    syncChipClasses("topic-filters", state.activeTopics);
     renderCompanyHeader();
+    renderTopicHeader();
     render();
   });
 
   document.getElementById("company-back").addEventListener("click", (e) => {
+    e.preventDefault();
+    location.hash = "";
+  });
+  document.getElementById("topic-back").addEventListener("click", (e) => {
     e.preventDefault();
     location.hash = "";
   });
@@ -139,6 +170,13 @@ async function init() {
     document.getElementById("insights-table").hidden = !state.showTable;
     if (state.showTable) renderInsightsTable();
   });
+  document.getElementById("topic-timeline-table-toggle").addEventListener("click", () => {
+    state.showTopicTable = !state.showTopicTable;
+    document.getElementById("topic-timeline-rows").hidden = state.showTopicTable;
+    document.getElementById("topic-timeline-axis").hidden = state.showTopicTable;
+    document.getElementById("topic-timeline-table").hidden = !state.showTopicTable;
+    if (state.showTopicTable) renderTopicTimelineTable();
+  });
   document.getElementById("feedback-toggle").addEventListener("click", () => {
     document.querySelectorAll(".card-comments").forEach((p) => (p.hidden = true));
     document.querySelectorAll(".card-actions .icon-btn.active").forEach((b) => {
@@ -154,10 +192,19 @@ function currentCompanyFromHash() {
   return params.get("company");
 }
 
+function currentTopicFromHash() {
+  const raw = location.hash.replace(/^#/, "");
+  const params = new URLSearchParams(raw);
+  return params.get("topic");
+}
+
 function applyHashRoute() {
   const company = currentCompanyFromHash();
+  const topic = currentTopicFromHash();
   state.companyMode = company;
+  state.topicMode = topic;
   state.activeTags = company ? new Set([company]) : new Set();
+  state.activeTopics = topic ? new Set([topic]) : new Set();
 }
 
 function renderCompanyHeader() {
@@ -183,6 +230,38 @@ function renderCompanyHeader() {
     { value: topSource ? topSource[0] : "—", label: "最活跃来源" },
   ];
   const wrap = document.getElementById("company-stats");
+  wrap.innerHTML = "";
+  for (const t of tiles) {
+    const tile = document.createElement("div");
+    tile.className = "stat-tile";
+    tile.innerHTML = `<div class="value">${t.value}</div><div class="label">${t.label}</div>`;
+    wrap.appendChild(tile);
+  }
+}
+
+function renderTopicHeader() {
+  const section = document.getElementById("topic-header");
+  if (!state.topicMode) {
+    section.hidden = true;
+    return;
+  }
+  const items = state.events.filter((e) => (e.topics || []).includes(state.topicMode));
+  section.hidden = false;
+  document.getElementById("topic-name").textContent = `研究方向：${state.topicMode}`;
+
+  const firstDate = items.length
+    ? items.reduce((min, e) => (e.date < min ? e.date : min), items[0].date)
+    : "—";
+  const sourceCounts = new Map();
+  for (const e of items) sourceCounts.set(e.source, (sourceCounts.get(e.source) || 0) + 1);
+  const topSource = [...sourceCounts.entries()].sort((a, b) => b[1] - a[1])[0];
+
+  const tiles = [
+    { value: items.length, label: "相关条目数" },
+    { value: firstDate, label: "最早出现日期" },
+    { value: topSource ? topSource[0] : "—", label: "最活跃来源" },
+  ];
+  const wrap = document.getElementById("topic-stats");
   wrap.innerHTML = "";
   for (const t of tiles) {
     const tile = document.createElement("div");
@@ -330,6 +409,181 @@ function renderTagFilters() {
     });
 }
 
+function renderTopicFilters() {
+  const topicCounts = new Map();
+  for (const e of state.events) {
+    for (const topic of e.topics || []) {
+      topicCounts.set(topic, (topicCounts.get(topic) || 0) + 1);
+    }
+  }
+  const wrap = document.getElementById("topic-filters");
+  wrap.innerHTML = "";
+  Object.keys(TOPIC_COLORS)
+    .filter((topic) => topicCounts.get(topic))
+    .forEach((topic) => {
+      const count = topicCounts.get(topic);
+      const chip = document.createElement("button");
+      chip.className = "chip" + (state.activeTopics.has(topic) ? " active" : "");
+      chip.dataset.value = topic;
+      chip.innerHTML = `<span class="dot" style="background:${TOPIC_COLORS[topic]}"></span>${topic} (${count})`;
+      chip.addEventListener("click", () => {
+        if (state.activeTopics.has(topic)) {
+          state.activeTopics.delete(topic);
+          chip.classList.remove("active");
+        } else {
+          state.activeTopics.add(topic);
+          chip.classList.add("active");
+        }
+        render();
+      });
+      wrap.appendChild(chip);
+    });
+}
+
+const MILESTONE_LABEL_BANDS = ["6px", "26px", "46px"];
+
+function timelineDateRange() {
+  const dates = [];
+  for (const e of state.events) {
+    if ((e.topics || []).length) dates.push(e.date);
+  }
+  for (const m of state.milestones) dates.push(m.date);
+  if (!dates.length) {
+    const today = new Date().toISOString().slice(0, 10);
+    return { min: today, max: today };
+  }
+  dates.sort();
+  return { min: dates[0], max: dates[dates.length - 1] };
+}
+
+function dateToPercent(dateStr, range) {
+  const min = new Date(range.min + "T00:00:00Z").getTime();
+  const max = new Date(range.max + "T00:00:00Z").getTime();
+  const d = new Date(dateStr + "T00:00:00Z").getTime();
+  if (max === min) return 50;
+  return ((d - min) / (max - min)) * 100;
+}
+
+function renderTopicTimeline() {
+  const rowsWrap = document.getElementById("topic-timeline-rows");
+  const axisWrap = document.getElementById("topic-timeline-axis");
+  rowsWrap.innerHTML = "";
+  axisWrap.innerHTML = "";
+
+  const topics = Object.keys(TOPIC_COLORS).filter(
+    (topic) =>
+      state.events.some((e) => (e.topics || []).includes(topic)) ||
+      state.milestones.some((m) => m.topic === topic)
+  );
+
+  if (!topics.length) {
+    rowsWrap.innerHTML = '<p class="topic-timeline-empty-hint">暂无可展示的研究方向数据。</p>';
+    return;
+  }
+
+  const range = timelineDateRange();
+
+  topics.forEach((topic) => {
+    const color = TOPIC_COLORS[topic];
+    const events = state.events.filter((e) => (e.topics || []).includes(topic));
+    const milestones = state.milestones.filter((m) => m.topic === topic);
+
+    const row = document.createElement("div");
+    row.className = "topic-row";
+
+    const label = document.createElement("button");
+    label.className = "topic-row-label";
+    label.innerHTML = `<span class="dot" style="background:${color}"></span>${topic}<span class="topic-row-count">(${events.length})</span>`;
+    label.title = `查看「${topic}」研究方向脉络`;
+    label.addEventListener("click", () => {
+      location.hash = `topic=${encodeURIComponent(topic)}`;
+    });
+    row.appendChild(label);
+
+    const track = document.createElement("div");
+    track.className = "topic-row-track";
+
+    events.forEach((e) => {
+      const tick = document.createElement("div");
+      tick.className = "topic-tick";
+      tick.style.left = `${dateToPercent(e.date, range)}%`;
+      tick.title = `${e.date} ${e.title}`;
+      track.appendChild(tick);
+    });
+
+    milestones.forEach((m, i) => {
+      const pct = dateToPercent(m.date, range);
+      const dot = document.createElement("a");
+      dot.className = "topic-milestone-dot";
+      dot.style.left = `${pct}%`;
+      dot.style.background = color;
+      dot.href = m.url;
+      dot.target = "_blank";
+      dot.rel = "noopener noreferrer";
+      dot.title = `${m.date} ${m.title}`;
+      track.appendChild(dot);
+
+      const labelEl = document.createElement("a");
+      labelEl.className = "topic-milestone-label";
+      labelEl.style.left = `${pct}%`;
+      labelEl.style.top = MILESTONE_LABEL_BANDS[i % MILESTONE_LABEL_BANDS.length];
+      labelEl.href = m.url;
+      labelEl.target = "_blank";
+      labelEl.rel = "noopener noreferrer";
+      labelEl.textContent = m.title;
+      track.appendChild(labelEl);
+    });
+
+    row.appendChild(track);
+    rowsWrap.appendChild(row);
+  });
+
+  const axisSpacer = document.createElement("div");
+  const axisTrack = document.createElement("div");
+  axisTrack.className = "topic-timeline-axis-track";
+  [range.min, range.max].forEach((d) => {
+    const tick = document.createElement("span");
+    tick.className = "topic-axis-tick";
+    tick.style.left = `${dateToPercent(d, range)}%`;
+    tick.textContent = d;
+    axisTrack.appendChild(tick);
+  });
+  axisWrap.appendChild(axisSpacer);
+  axisWrap.appendChild(axisTrack);
+}
+
+function renderTopicTimelineTable() {
+  const wrap = document.getElementById("topic-timeline-table");
+  wrap.innerHTML = "";
+
+  const t1 = document.createElement("table");
+  t1.innerHTML =
+    "<thead><tr><th>研究方向</th><th>相关条目数</th></tr></thead><tbody>" +
+    Object.keys(TOPIC_COLORS)
+      .map((topic) => {
+        const count = state.events.filter((e) => (e.topics || []).includes(topic)).length;
+        return `<tr><td>${topic}</td><td>${count}</td></tr>`;
+      })
+      .join("") +
+    "</tbody>";
+  wrap.appendChild(t1);
+
+  const milestones = [...state.milestones].sort((a, b) => (a.date < b.date ? -1 : 1));
+  const t2 = document.createElement("table");
+  t2.innerHTML =
+    "<thead><tr><th>日期</th><th>研究方向</th><th>里程碑</th></tr></thead><tbody>" +
+    (milestones.length
+      ? milestones
+          .map(
+            (m) =>
+              `<tr><td>${m.date}</td><td>${m.topic}</td><td><a href="${m.url}" target="_blank" rel="noopener noreferrer">${m.title}</a></td></tr>`
+          )
+          .join("")
+      : '<tr><td colspan="3">暂无收录的里程碑事件。</td></tr>') +
+    "</tbody>";
+  wrap.appendChild(t2);
+}
+
 function weeklyBuckets() {
   const today = new Date();
   today.setHours(0, 0, 0, 0);
@@ -465,6 +719,7 @@ function filteredEvents() {
     if (!state.activeSources.has(e.source)) return false;
     if (cutoff && e.date < cutoff) return false;
     if (state.activeTags.size && !(e.tags || []).some((t) => state.activeTags.has(t))) return false;
+    if (state.activeTopics.size && !(e.topics || []).some((t) => state.activeTopics.has(t))) return false;
     if (state.bookmarksOnly && !state.bookmarks.has(e.id)) return false;
     if (!state.query) return true;
     const haystack = `${e.title} ${e.summary}`.toLowerCase();
@@ -558,6 +813,16 @@ function renderCard(item) {
     pill.title = `查看「${tag}」的公司主页`;
     pill.addEventListener("click", () => {
       location.hash = `company=${encodeURIComponent(tag)}`;
+    });
+    meta.appendChild(pill);
+  }
+  for (const topic of item.topics || []) {
+    const pill = document.createElement("span");
+    pill.className = "topic-pill clickable";
+    pill.innerHTML = `<span class="dot" style="background:${TOPIC_COLORS[topic] || FALLBACK_COLOR}"></span>${topic}`;
+    pill.title = `查看「${topic}」研究方向脉络`;
+    pill.addEventListener("click", () => {
+      location.hash = `topic=${encodeURIComponent(topic)}`;
     });
     meta.appendChild(pill);
   }
