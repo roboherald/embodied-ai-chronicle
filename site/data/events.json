@@ -35,6 +35,171 @@
     "topics": []
   },
   {
+    "id": "813bc28a2c5a80b2",
+    "title": "Handroid: Bridging Dexterous Hand and Humanoid",
+    "url": "https://arxiv.org/abs/2607.16187v1",
+    "source": "arXiv",
+    "date": "2026-07-17",
+    "summary": "Dexterous hands and humanoid robots are typically developed as distinct embodiments: the former enable contact-rich manipulation at the object scale, whereas the latter provide mobility and whole-body interaction in human-centered environments. We introduce \\textbf{Handroid}, a…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "灵巧手与操作"
+    ]
+  },
+  {
+    "id": "7e6846669dc83ade",
+    "title": "VTLoc: Learning-based Tactile Contact Localization in Visual Point Clouds",
+    "url": "https://arxiv.org/abs/2607.16146v1",
+    "source": "arXiv",
+    "date": "2026-07-17",
+    "summary": "Vision and touch are complementary modalities essential for robotic perception and manipulation. While vision provides global object context, touch offers precise local information at contact points. Integrating these modalities for contact localization, i.e., predicting the loc…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "21a68764cde70688",
+    "title": "BayesContact: Uncertain Pose Estimation via Visuo-Tactile Proposals and Simulation-based Inference",
+    "url": "https://arxiv.org/abs/2607.16123v1",
+    "source": "arXiv",
+    "date": "2026-07-17",
+    "summary": "Contact-rich manipulation requires pose estimates that are often more accurate than what depth-only sensing provides. Existing methods, relying on vision and contact, employ costly offline training procedures that need to be retrained for new environments and geometries. We prop…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "91731b7594c9662d",
+    "title": "Let the Body Follow: Coupled Egocentric Control for Whole-Body Robot Teleoperation",
+    "url": "https://arxiv.org/abs/2607.16095v1",
+    "source": "arXiv",
+    "date": "2026-07-17",
+    "summary": "Whole-body teleoperation requires users to coordinate perception, manipulation, posture, and mobility across multiple robot components. This coordination is difficult because users must simultaneously control the robot's head, arms, torso, and base while maintaining task awarene…",
+    "tags": [],
+    "topics": [
+      "遥操作与数据采集"
+    ]
+  },
+  {
+    "id": "97db8f3d28372119",
+    "title": "Embodied Active Learning under Limited Annotation and Navigation Budget for Object Detection",
+    "url": "https://arxiv.org/abs/2607.15974v1",
+    "source": "arXiv",
+    "date": "2026-07-17",
+    "summary": "This paper studies how to adapt a computer vision object detector to an unknown environment under both a robot navigation time and annotation budget constraint. Our approach selects informative robot trajectories and image samples to retrain the detector, explicitly targeting it…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "6ff3b22e7c4cdeda",
+    "title": "EgoExoMoCap: Distributed Ego-Exo Human Motion Capture",
+    "url": "https://arxiv.org/abs/2607.15868v1",
+    "source": "arXiv",
+    "date": "2026-07-17",
+    "summary": "Human motion capture from head-mounted devices (HMDs) offers a scalable way to acquire real-world human motion and interaction data, which is crucial for applications in embodied AI and VR/AR. Existing approaches focus on either egocentric body tracking, estimating the motion of…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "a9d2b85d3f66f6b6",
+    "title": "SkillNav: Score-Level Skill Intervention for Zero-Shot Object Goal Navigation",
+    "url": "https://arxiv.org/abs/2607.15758v1",
+    "source": "arXiv",
+    "date": "2026-07-17",
+    "summary": "Vision-Language Model (VLM) agents have advanced zero-shot object-goal navigation, yet single-frame reasoning leaves them without the cross-step behavioral awareness an embodied navigator requires, producing recurring failures such as dead-end stalls, in-room loops, and circuito…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "5c37b9aa03ced69a",
+    "title": "Towards Artificial Nerves: Biomimetic Optical-Fiber Tactile Sensing for Robots",
+    "url": "https://arxiv.org/abs/2607.15746v1",
+    "source": "arXiv",
+    "date": "2026-07-17",
+    "summary": "Robotic systems increasingly demand tactile sensing that approaches the adaptability and resolution of human skin to enable dexterous manipulation and safe interaction. OptiTac is a biomimetic tactile sensor that emulates the mechanoreceptor-to-nerve architecture of human touch…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ]
+  },
+  {
+    "id": "0961d2ae7ef70730",
+    "title": "A Task-Space Receding Horizon Controller for Fast Collision Avoidance",
+    "url": "https://arxiv.org/abs/2607.15733v1",
+    "source": "arXiv",
+    "date": "2026-07-17",
+    "summary": "Real-time collision avoidance for robotic manipulators requires fast reactions to unexpected obstacle motion and lookahead to avoid becoming trapped by near-future constraints. Full model predictive control can provide this foresight, but its online cost may grow quickly with ho…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "f58d18dd80b40577",
+    "title": "AC-VLA: Robust Out-of-Distribution Action Execution via Compositional Learning",
+    "url": "https://arxiv.org/abs/2607.15714v1",
+    "source": "arXiv",
+    "date": "2026-07-17",
+    "summary": "Vision-Language-Action (VLA) models excel at end-to-end robotic manipulation but struggle with out-of-distribution (OOD) generalization when familiar sub-tasks are recombined in unseen configurations. We identify two mutually reinforcing failure modes: \\emph{trajectory overfitti…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ]
+  },
+  {
+    "id": "f5e64f68a2831c9e",
+    "title": "RAVEN: Reinforcement-Adaptive Visibility-Graph Planning for Robust Humanoid Navigation with Collision-Free MPC",
+    "url": "https://arxiv.org/abs/2607.15701v1",
+    "source": "arXiv",
+    "date": "2026-07-17",
+    "summary": "Humanoid navigation in dynamic environments requires long-horizon planning while respecting short-horizon dynamic and safety constraints. Classical visibility-graph planners combined with model predictive control (MPC) can efficiently generate collision-free trajectories, but th…",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ]
+  },
+  {
+    "id": "9fb379cfb06c884e",
+    "title": "Difference-Based Relational Learning for Zero-Shot Object-Goal Visual Navigation With Direct Sim-to-Real Transfer",
+    "url": "https://arxiv.org/abs/2607.15642v1",
+    "source": "arXiv",
+    "date": "2026-07-17",
+    "summary": "End-to-end deep reinforcement learning (DRL) for zero-shot object-goal visual navigation remains challenged by the sim-to-real gap, particularly variations in object appearance and restricted camera field-of-view (FoV). This letter proposes a Temporal Difference-Relational Netwo…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real"
+    ]
+  },
+  {
+    "id": "c89e6b4214efb9e3",
+    "title": "IMBench: A Benchmark for Intuitive Robotic Manipulation",
+    "url": "https://arxiv.org/abs/2607.15641v1",
+    "source": "arXiv",
+    "date": "2026-07-17",
+    "summary": "Humans combine reasoning and motor control to solve complex manipulation tasks under diverse constraints. They build an understanding of the physical world that helps them convert reasoning into actions and quickly adapt to new scenes, tasks, and rules. We refer to this capabili…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "a3c5be8c204442e9",
+    "title": "A Model-Based Decoupling Strategy for Proprioception and Contact Sensing in an Architected Soft Manipulator",
+    "url": "https://arxiv.org/abs/2607.15582v1",
+    "source": "arXiv",
+    "date": "2026-07-17",
+    "summary": "Soft continuum robots require embedded sensing for proprioception and contact detection, yet integrating sensors into sparse, highly deformable architected structures remains challenging. We present a model-based strategy that decouples proprioceptive and contact signals from a…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "3b9fdaee520df5cc",
+    "title": "PACE: Persona Adaptation through Conversational Elicitation in Human-Robot Interaction",
+    "url": "https://arxiv.org/abs/2607.15579v1",
+    "source": "arXiv",
+    "date": "2026-07-17",
+    "summary": "Equipping humanoid robots with coherent and adaptable personas is crucial for fostering natural, engaging, and trustworthy human-robot interaction (HRI). However, existing approaches often rely on static, hard-coded identities that lack the flexibility to adapt to individual use…",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ]
+  },
+  {
     "id": "814c2d1fb817ae6a",
     "title": "Founder of Maximo discusses how robotics is accelerating solar construction",
     "url": "https://www.therobotreport.com/transforming-solar-construction-through-robotics-deise-yumi-asami-maximo/",
@@ -365,6 +530,40 @@
     "summary": "Generalist robot manipulation policies trained on large, diverse datasets have shown remarkable promise across a wide range of tasks. However, rigorously evaluating these policies remains a fundamental challenge. Real-world performance depends on a large combinatorial space of t…",
     "tags": [],
     "topics": []
+  },
+  {
+    "id": "b55c14542cd3ec5d",
+    "title": "VTAP Gripper: Synergizing Fingertip Sensing and a Visuo-Tactile Active Palm for Dexterous In-Hand Manipulation",
+    "url": "https://arxiv.org/abs/2607.15448v1",
+    "source": "arXiv",
+    "date": "2026-07-16",
+    "summary": "This paper presents a tactile-reactive gripper that integrates a Visuo-Tactile Active Palm (VTAP) and compliant, reconfigurable fingers equipped with tactile array sensors. The design exploits structured finger-palm synergy and multi-modal perception to achieve both robust grasp…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ]
+  },
+  {
+    "id": "b98bd3607bdb3a62",
+    "title": "NeuroCommitSSM: Decision-Centric Shared Autonomy for Safe Assistive Manipulation via EEG-EMG-ET Commit Readiness",
+    "url": "https://arxiv.org/abs/2607.15395v1",
+    "source": "arXiv",
+    "date": "2026-07-16",
+    "summary": "We present NeuroCommitSSM, a decision-centric framework that models when to execute, not just what to do, for safe commit-to-execute control in assistive robotic manipulation. NeuroCommitSSM predicts a continuous commit-readiness score c_t in [0,1] from synchronized electroencep…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "db2e5bb70615677d",
+    "title": "Xiaomi-Robotics-1: Scaling Vision-Language-Action Models with over 100K Hours of Real-World Trajectories",
+    "url": "https://arxiv.org/abs/2607.15330v1",
+    "source": "arXiv",
+    "date": "2026-07-16",
+    "summary": "We present Xiaomi-Robotics-1, a foundational vision-language-action (VLA) model capable of (1) following diverse language instructions to perform a wide range of mobile manipulation tasks in unseen environments out-of-the-box, and (2) efficiently adapting to novel downstream tas…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ]
   },
   {
     "id": "b6a4ff3f53a78e7e",
@@ -1245,6 +1444,16 @@
     "topics": [
       "人形机器人"
     ]
+  },
+  {
+    "id": "685137652dfb8296",
+    "title": "The Design Landscape of Robot Learning Is a Minefield",
+    "url": "https://allevato.me/2026/04/15/robot-learning-is-a-minefield",
+    "source": "Hacker News",
+    "date": "2026-04-15",
+    "summary": "1 points, https://news.ycombinator.com/item?id=47778369",
+    "tags": [],
+    "topics": []
   },
   {
     "id": "4df32f9394272a35",
