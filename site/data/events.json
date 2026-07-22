@@ -1,5 +1,171 @@
 [
   {
+    "id": "ce90b26b74086af3",
+    "title": "Masked Visual Actions for Unified World Modeling",
+    "url": "https://arxiv.org/abs/2607.19343v1",
+    "source": "arXiv",
+    "date": "2026-07-21",
+    "summary": "Video models absorb rich priors over how the visual world moves, interacts, and responds to contact, making them promising substrates for robotic world modeling. The central challenge is how to communicate action to such models in a form aligned with the visual space in which th…",
+    "tags": [],
+    "topics": [
+      "世界模型"
+    ]
+  },
+  {
+    "id": "5b1922acb41bc860",
+    "title": "Agentic Real2Sim: Physics-based World Modeling with Vision-Language Agents",
+    "url": "https://arxiv.org/abs/2607.19190v1",
+    "source": "arXiv",
+    "date": "2026-07-21",
+    "summary": "Real-to-sim conversion for robotic interaction with objects remains labor-intensive because it requires more than visual reconstruction: a streamlined real2sim process must recover scene geometries and object states, infer physical parameters, and assemble actors, objects, camer…",
+    "tags": [],
+    "topics": [
+      "世界模型"
+    ]
+  },
+  {
+    "id": "1ff141f05fb73199",
+    "title": "Design and stability analysis of an underactuated hand with passively rotating fingers",
+    "url": "https://arxiv.org/abs/2607.18950v1",
+    "source": "arXiv",
+    "date": "2026-07-21",
+    "summary": "This paper presents an innovative design and stability analysis of an underactuated robotic finger with spatial mobility, designed to enhance gripping dexterity in robotic hands. The finger architecture incorporates a revolute joint at its base, enabling passive spatial rotation…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "5ed5506f044962d5",
+    "title": "The Twist Decomposition of Serial Robots Under Lower-Mobility Tasks",
+    "url": "https://arxiv.org/abs/2607.18940v1",
+    "source": "arXiv",
+    "date": "2026-07-21",
+    "summary": "This paper introduces a twist decomposition framework for serial manipulators performing lower mobility tasks. Rather than relying on Jacobian null-space projections, the method separates the end-effector twist into task and redundant components using geometrically defined twist…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "4bc31c947917c803",
+    "title": "WorldScape Policy 2.0: Empowering Steerable World Action Modeling with Reasoning-Augmented Memory",
+    "url": "https://arxiv.org/abs/2607.18840v1",
+    "source": "arXiv",
+    "date": "2026-07-21",
+    "summary": "World Action Models (WAMs) offer a promising paradigm for robotic manipulation by jointly modeling visual state transitions and robot actions. However, existing WAMs are constrained by limited temporal context, coarse episode-level language supervision, and predominantly text-on…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "6d15350a8b8ab283",
+    "title": "Beyond Transformers: Linear Attention Policy for Open-Vocabulary Object Goal Navigation",
+    "url": "https://arxiv.org/abs/2607.18794v1",
+    "source": "arXiv",
+    "date": "2026-07-21",
+    "summary": "Open-Vocabulary Object Goal Navigation (OVON) requires agents to operate under partial observability, making effective internal state updates critical for navigation performance. This update is implemented by the policy network, where recent approaches adopt Transformer-based ba…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "1102b1a31df22b84",
+    "title": "Koopman DCM: Unstable Eigenfunctions as Data-driven Representations for Legged Balancing",
+    "url": "https://arxiv.org/abs/2607.18760v1",
+    "source": "arXiv",
+    "date": "2026-07-21",
+    "summary": "In legged locomotion, divergent components of motion (DCMs) have emerged as characteristic states for balance control. They isolate the unstable mode of the dynamics but, in existing formulations, apply only to reduced models such as the linear inverted pendulum. In this study,…",
+    "tags": [],
+    "topics": [
+      "移动与四足"
+    ]
+  },
+  {
+    "id": "63efdb966cda6876",
+    "title": "Motion Primitive Discovery in a Humanoid Robot via Self-Organising Maps for Phase Recognition",
+    "url": "https://arxiv.org/abs/2607.18737v1",
+    "source": "arXiv",
+    "date": "2026-07-21",
+    "summary": "Understanding the computational basis of action recognition is a central challenge in social cognition as well as in human-robot interaction. Inspired by the Mirror Neuron System (MNS), we propose a two-level architecture for motor primitive discovery and online phase recognitio…",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ]
+  },
+  {
+    "id": "79eb9da8091c6c97",
+    "title": "RoboInter1.5: A Holistic Intermediate Representation Suite for Embodied World Modeling and Robotic Manipulation",
+    "url": "https://arxiv.org/abs/2607.18709v1",
+    "source": "arXiv",
+    "date": "2026-07-21",
+    "summary": "Existing robot datasets remain expensive to curate, embodiment-specific, and insufficiently annotated with the fine-grained structure required for generalizable reasoning, execution, or long-horizon environment dynamics simulation. Building on our prior work, RoboInter1.0, we pr…",
+    "tags": [],
+    "topics": [
+      "世界模型"
+    ]
+  },
+  {
+    "id": "01bd64451350c84b",
+    "title": "U.K.-based Humanoid secures $152M in Series A funding",
+    "url": "https://www.therobotreport.com/uk-based-humanoid-secures-152m-in-series-a-funding/",
+    "source": "The Robot Report",
+    "date": "2026-07-21",
+    "summary": "Humanoid said it has reached a $1.35 billion valuation as it scales its AI-driven industrial robots and expands commercial deployments. The post U.K.-based Humanoid secures $152M in Series A funding appeared first on The Robot Report .",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ]
+  },
+  {
+    "id": "ac353ce74a302ff7",
+    "title": "Vicarious Surgical officially shutting down",
+    "url": "https://www.therobotreport.com/vicarious-surgical-officially-shutting-down/",
+    "source": "The Robot Report",
+    "date": "2026-07-21",
+    "summary": "Vicarious Surgical raised about $300 million in total, most of that from a special purpose acquisition company (SPAC) merger in 2021. The post Vicarious Surgical officially shutting down appeared first on The Robot Report .",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "a7b1411b2f877d4e",
+    "title": "Generative Bionics unveils humanoid robot with full-body tactile sensing",
+    "url": "https://www.therobotreport.com/generative-bionics-unveils-humanoid-robot-with-full-body-tactile-sensing/",
+    "source": "The Robot Report",
+    "date": "2026-07-21",
+    "summary": "Generative Bionics said its Gene.01 humanoid is fully sensorized, helping it quickly anticipate human presence and respond. The post Generative Bionics unveils humanoid robot with full-body tactile sensing appeared first on The Robot Report .",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ]
+  },
+  {
+    "id": "ce756b654c9c3cab",
+    "title": "MISUMI Americas releases reshoring report, supports manufacturing training bill",
+    "url": "https://www.therobotreport.com/misumi-americas-releases-reshoring-report-supports-manufacturing-training-bill/",
+    "source": "The Robot Report",
+    "date": "2026-07-21",
+    "summary": "MISUMI Americas has examined reshoring of U.S. manufacturing and supported legislation to send workers overseas for training. The post MISUMI Americas releases reshoring report, supports manufacturing training bill appeared first on The Robot Report .",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "73e3a0246af679f2",
+    "title": "Friction is key to making better robot world models",
+    "url": "https://www.therobotreport.com/friction-is-key-to-making-better-robot-world-models/",
+    "source": "The Robot Report",
+    "date": "2026-07-21",
+    "summary": "Deploying world models in real robotic systems requires a step that receives less attention than the models themselves: conditioning. The post Friction is key to making better robot world models appeared first on The Robot Report .",
+    "tags": [],
+    "topics": [
+      "世界模型"
+    ]
+  },
+  {
+    "id": "f07ea0986edc9c35",
+    "title": "Grabette: an open system to record robot-manipulation data",
+    "url": "https://huggingface.co/blog/grabette",
+    "source": "Hugging Face Blog",
+    "date": "2026-07-21",
+    "summary": "",
+    "tags": [],
+    "topics": []
+  },
+  {
     "id": "71c8c53bf0caeaa2",
     "title": "Patch Policy: Efficient Embodied Control via Dense Visual Representations",
     "url": "https://arxiv.org/abs/2607.18236v1",
@@ -220,6 +386,64 @@
     "summary": "In robotic manipulation studies, grasping is often treated as a binary success or failure problem, usually defined by whether the object simply stays in the hand. For forceful tool use, however, this view is insufficient because grasp compliance becomes a critical factor governi…",
     "tags": [],
     "topics": []
+  },
+  {
+    "id": "87848f74bd947a58",
+    "title": "Bridging the Sim-to-Real Gap under Real-Time Constraints in Autonomous Racing",
+    "url": "https://arxiv.org/abs/2607.18586v1",
+    "source": "arXiv",
+    "date": "2026-07-20",
+    "summary": "Autonomous racing exposes the sim-to-real gap under extreme operating conditions characterized by high speed, tight stability margins, and stringent real-time constraints. Although simulation is indispensable for development, controllers that perform well in simulation often deg…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real"
+    ]
+  },
+  {
+    "id": "47218939c627bf53",
+    "title": "STeP: Signal Temporal Logic for Precise Specifications for Action Generation with Vision Language Models",
+    "url": "https://arxiv.org/abs/2607.18580v1",
+    "source": "arXiv",
+    "date": "2026-07-20",
+    "summary": "Vision-language-action (VLA) models have shown impressive generalization, but often lack interpretability and can struggle to follow precise natural language instructions that encode spatial, temporal, and logical requirements. We propose a hierarchical framework that uses Signa…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ]
+  },
+  {
+    "id": "10fa85fa844ba0ee",
+    "title": "DASH Robot: Minimalistic Design and Optimal Aerial-Terrestrial Locomotion via Contact-Implicit Control",
+    "url": "https://arxiv.org/abs/2607.18527v1",
+    "source": "arXiv",
+    "date": "2026-07-20",
+    "summary": "We present a novel and minimalistic design of an aerial-terrestrial robot DASH: Ducted Aerial Spring Hopper. The goal is to enable both aerial and ground locomotion capabilities on a unified mobile robot that is mechanically-minimalistic, locomotion-versatile, and energy-efficie…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "3f8ce80e05035595",
+    "title": "Towards Torque-Driven Reinforcement Learning for Quadruped Locomotion",
+    "url": "https://arxiv.org/abs/2607.18365v1",
+    "source": "arXiv",
+    "date": "2026-07-20",
+    "summary": "Reinforcement learning (RL) for legged robots is advancing locomotion, demonstrating its ability to adapt to new and challenging terrain. Traditionally, these RL locomotion frameworks are position-based, making the policy less adaptable to terrain types and requiring state estim…",
+    "tags": [],
+    "topics": [
+      "移动与四足"
+    ]
+  },
+  {
+    "id": "103c38b993eb8af2",
+    "title": "FARO: Feasibility-Aware Robot Motion Optimization",
+    "url": "https://arxiv.org/abs/2607.18362v1",
+    "source": "arXiv",
+    "date": "2026-07-20",
+    "summary": "Fast planning of novel behaviors in unseen scenarios remains a fundamental challenge in robotics. The high-dimensional, hybrid, and underactuated nature of humanoid loco-manipulation continues to hinder the realization of this goal. In this paper, we address this challenge by pr…",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ]
   },
   {
     "id": "7731ecc83efe69b5",
