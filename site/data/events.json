@@ -1,5 +1,213 @@
 [
   {
+    "id": "8233d977439132aa",
+    "title": "Towards Miniature Humanoid Tele-Loco-Manipulation Using Virtual Reality and Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2607.20399v1",
+    "source": "arXiv",
+    "date": "2026-07-22",
+    "summary": "Full-sized humanoid robot capabilities have grown exponentially in recent years, aiming towards general-purpose deployment in human environments. A popular control method used by manufacturers utilizes Virtual Reality for upper-body teleoperation and Reinforcement Learning for l…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "遥操作与数据采集"
+    ]
+  },
+  {
+    "id": "b92d9ed94b7fdb66",
+    "title": "Closing the Lab-to-Store Gap: A Data-Efficient Post-Training and Experience-Driven Learning VLA Framework for Retail Humanoids",
+    "url": "https://arxiv.org/abs/2607.20345v1",
+    "source": "arXiv",
+    "date": "2026-07-22",
+    "summary": "Closing the gap between benchmark performance and reliable real-world operation remains a central challenge for Vision-Language-Action (VLA) humanoid robots, which must handle execution errors, distribution shifts, and environmental variability. This paper presents DEED (Data-Ef…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "人形机器人"
+    ]
+  },
+  {
+    "id": "fea2c52ccbd1b1a9",
+    "title": "Courteous Anticipation: Improving Long-Lived Task Planning in Persistent Shared Environments",
+    "url": "https://arxiv.org/abs/2607.20289v1",
+    "source": "arXiv",
+    "date": "2026-07-22",
+    "summary": "We consider a task planning scenario in which robots sharing a persistent environment are assigned tasks one at a time from a held-out sequence. Standard task planners, lacking foresight of future tasks and inconsiderate of others' constraints, solve each task in isolation, leav…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "a1bb6f988f6302fc",
+    "title": "SeededGrasp: Language-Guided Grasping in Complex Scenes with Multiple Embodiments",
+    "url": "https://arxiv.org/abs/2607.20207v1",
+    "source": "arXiv",
+    "date": "2026-07-22",
+    "summary": "Practical robotic grasping in complex scenes requires both 3D spatial reasoning and alignment with task-specific requirements. Vision-language models (VLMs) offer a natural way to specify these requirements using language, but existing approaches either use a VLM to predict the…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ]
+  },
+  {
+    "id": "2e70702d3e22f158",
+    "title": "Extreme-RGMT: Continual Learning of Highly Dynamic Skills for Robust Generalist Humanoid Control",
+    "url": "https://arxiv.org/abs/2607.20110v1",
+    "source": "arXiv",
+    "date": "2026-07-22",
+    "summary": "Humans can progressively acquire highly dynamic motor skills while preserving reliable everyday motor abilities. In contrast, existing humanoid controllers face a trade-off between generalist and specialist capabilities: generalist motion tracking policies struggle to reliably e…",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ]
+  },
+  {
+    "id": "73fb288e156b3eff",
+    "title": "ReferTrack: Referring Then Tracking for Embodied Visual Tracking",
+    "url": "https://arxiv.org/abs/2607.20061v1",
+    "source": "arXiv",
+    "date": "2026-07-22",
+    "summary": "Embodied visual tracking (EVT) requires a mobile agent to continuously follow a specific target described in natural language using only onboard vision. While recent vision-language-action (VLA) policies unify target identification and trajectory planning, their chain-of-thought…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ]
+  },
+  {
+    "id": "e1f3de08c1227dfe",
+    "title": "Robots Acquire Manipulation Skills in Seconds from a Single Human Video",
+    "url": "https://arxiv.org/abs/2607.20033v1",
+    "source": "arXiv",
+    "date": "2026-07-22",
+    "summary": "The ability to acquire skills rapidly and effortlessly while retaining those already mastered is essential for robots. However, current methods still rely on a cumbersome training-time loop that is costly and slow, while eroding skills already mastered. In this paper, we introdu…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "75bef754695e8413",
+    "title": "What Matters in Humanoid General Motion Tracking? An Empirical Study",
+    "url": "https://arxiv.org/abs/2607.19903v1",
+    "source": "arXiv",
+    "date": "2026-07-22",
+    "summary": "Humanoid general motion tracking requires policies that can follow diverse whole-body references while maintaining balance. Building such policies involves many practical design choices, and their individual effects are often hard to assess. We address this issue with an empiric…",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ]
+  },
+  {
+    "id": "d5d3571fad6711bc",
+    "title": "EA-Nav: Learning Safe Visual Navigation Policies with Embodiment Awareness",
+    "url": "https://arxiv.org/abs/2607.19880v1",
+    "source": "arXiv",
+    "date": "2026-07-22",
+    "summary": "Cross-embodiment navigation is a key challenge in embodied intelligence. Due to differences in embodiment, the same visual observation may imply different actions for different agents, making prediction ambiguous when relying solely on vision. Existing studies mainly rely on rei…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "2635da3217257ccd",
+    "title": "KineBench: Benchmarking Embodied World Models via IDM-Free Kinematic Grounding",
+    "url": "https://arxiv.org/abs/2607.19876v1",
+    "source": "arXiv",
+    "date": "2026-07-22",
+    "summary": "Evaluating the physical consistency of embodied world models(EWMs) is a critical open challenge. While closed-loop evaluation via simulator rollouts offers a more faithful assessment of physical plausibility than open-loop alternatives, existing frameworks almost exclusively rel…",
+    "tags": [],
+    "topics": [
+      "世界模型"
+    ]
+  },
+  {
+    "id": "8ce9a214b9a003b1",
+    "title": "Clinical Pathways as Safety Specifications for Physical AI in Hospital Wards",
+    "url": "https://arxiv.org/abs/2607.19827v1",
+    "source": "arXiv",
+    "date": "2026-07-22",
+    "summary": "Ensuring safety in Physical AI systems operating in real-world environments is a critical challenge, particularly in hospital wards where vulnerable patients, clinical staff, medical devices, and assistive robots coexist. In this paper, we reinterpret Clinical Pathways as explic…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "a2ddad681829f50c",
+    "title": "V2F: Vision-Informed Grasp Force Prediction for Damage-Aware Robotic Handling of Date Fruits",
+    "url": "https://arxiv.org/abs/2607.19804v1",
+    "source": "arXiv",
+    "date": "2026-07-22",
+    "summary": "This paper presents a vision-informed grasp force prediction framework for robotic handling of date fruits. Addressing the dual challenge of high detachment forces and low bruise thresholds, we first conduct mechanical characterization on date samples to define a safe grasping e…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "124687afbf4fc760",
+    "title": "EgoRecovery: Acquiring Failure Recovery Ability Through Human Recovery Demonstration",
+    "url": "https://arxiv.org/abs/2607.19745v1",
+    "source": "arXiv",
+    "date": "2026-07-22",
+    "summary": "Robust embodied robots should be able to recover from failures and retry tasks in order to operate reliably in unstructured and noisy real-world environments. Achieving this capability requires training policies on data that captures recovery behaviors. However, collecting such…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "f73caef3100df892",
+    "title": "Morphing MILR: Design and control of a cable-driven limbless robot with rolling joints for maneuvering in complex environments",
+    "url": "https://arxiv.org/abs/2607.19714v1",
+    "source": "arXiv",
+    "date": "2026-07-22",
+    "summary": "Limbless robots offer exceptional mobility in confined and cluttered environments due to their slender bodies and their ability to exploit body-terrain interactions. Recent designs incorporating compliance demonstrate robust locomotion without complex sensing or control; however…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "c85ce188daa30d3a",
+    "title": "NavVerse: Benchmarking Indoor-to-Outdoor Embodied Navigation in Continuous Robot Simulation",
+    "url": "https://arxiv.org/abs/2607.19695v1",
+    "source": "arXiv",
+    "date": "2026-07-22",
+    "summary": "Robots deployed in delivery, campus, and emergency-response settings often need to navigate from buildings to streets within a single continuous episode. Existing benchmarks usually evaluate indoor and outdoor navigation separately, and many abstract away robot execution, leavin…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "cbe5c9d0101bcd41",
+    "title": "LENS: LLM-guided Environment Simplification for Planning and Control in Clutter",
+    "url": "https://arxiv.org/abs/2607.19633v1",
+    "source": "arXiv",
+    "date": "2026-07-22",
+    "summary": "Despite recent advances in general-purpose robotic manipulation, real-world multi-object clutter remains challenging to handle for today's prevalent approaches. The problem scales in complexity due to more objects and collisions, more unpredictable contact physics, distractors,…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "7d88e5b04994466f",
+    "title": "Report shares the state of physical AI and robotics",
+    "url": "https://www.therobotreport.com/physical-ai-and-robotics/",
+    "source": "The Robot Report",
+    "date": "2026-07-22",
+    "summary": "A report looks at how physical AI is increasingly enabling autonomous systems to perceive their environments, make decisions, and act in the real world. The post Report shares the state of physical AI and robotics appeared first on The Robot Report .",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "439609719b7fc4d6",
+    "title": "Medtronic to launch AI compute platform for the operating room",
+    "url": "https://www.therobotreport.com/medtronic-launch-ai-compute-platform-operating-room/",
+    "source": "The Robot Report",
+    "date": "2026-07-22",
+    "summary": "Touch Surgery bridges pre-operative planning and training, intra-operative tele-mentoring and tele-proctoring, and post-operative insights. The post Medtronic to launch AI compute platform for the operating room appeared first on The Robot Report .",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "562676d43cd3bbbc",
+    "title": "NVIDIA Open Sources First GPU-Accelerated Medical Physics Simulation Framework",
+    "url": "https://blogs.nvidia.com/blog/medical-physics-simulation-open-source/",
+    "source": "NVIDIA Blog",
+    "date": "2026-07-22",
+    "summary": "Before a healthcare robot can be useful in the real world, it has to learn how the physical world pushes back. Anatomy varies. Instruments bend, press, slip and interact with tissue. Imaging can be noisy or incomplete. And the rare, edge scenarios developers most need to underst…",
+    "tags": [
+      "NVIDIA"
+    ],
+    "topics": []
+  },
+  {
     "id": "ce90b26b74086af3",
     "title": "Masked Visual Actions for Unified World Modeling",
     "url": "https://arxiv.org/abs/2607.19343v1",
@@ -91,6 +299,42 @@
     "id": "79eb9da8091c6c97",
     "title": "RoboInter1.5: A Holistic Intermediate Representation Suite for Embodied World Modeling and Robotic Manipulation",
     "url": "https://arxiv.org/abs/2607.18709v1",
+    "source": "arXiv",
+    "date": "2026-07-21",
+    "summary": "Existing robot datasets remain expensive to curate, embodiment-specific, and insufficiently annotated with the fine-grained structure required for generalizable reasoning, execution, or long-horizon environment dynamics simulation. Building on our prior work, RoboInter1.0, we pr…",
+    "tags": [],
+    "topics": [
+      "世界模型"
+    ]
+  },
+  {
+    "id": "89b46d9c33b95ac3",
+    "title": "ModPack: An Extensible Teleoperation Interface for Bimanual Mobile Manipulation",
+    "url": "https://arxiv.org/abs/2607.19479v1",
+    "source": "arXiv",
+    "date": "2026-07-21",
+    "summary": "Existing teleoperation systems are often tailored to specific robot hardware and task domains, limiting their scalability and adaptability. We present ModPack, a modular and extensible teleoperation system designed to support diverse robot embodiments and task requirements withi…",
+    "tags": [],
+    "topics": [
+      "遥操作与数据采集"
+    ]
+  },
+  {
+    "id": "8ea40b37557121d1",
+    "title": "Agentic Real2Sim: Physics-based World Modeling with Vision-Language Agents",
+    "url": "https://arxiv.org/abs/2607.19190v2",
+    "source": "arXiv",
+    "date": "2026-07-21",
+    "summary": "Real-to-sim conversion for robotic interaction with objects remains labor-intensive because it requires more than visual reconstruction: a streamlined real2sim process must recover scene geometries and object states, infer physical parameters, and assemble actors, objects, camer…",
+    "tags": [],
+    "topics": [
+      "世界模型"
+    ]
+  },
+  {
+    "id": "2b2d92b8bb50301a",
+    "title": "RoboInter1.5: A Holistic Intermediate Representation Suite for Embodied World Modeling and Robotic Manipulation",
+    "url": "https://arxiv.org/abs/2607.18709v2",
     "source": "arXiv",
     "date": "2026-07-21",
     "summary": "Existing robot datasets remain expensive to curate, embodiment-specific, and insufficiently annotated with the fine-grained structure required for generalizable reasoning, execution, or long-horizon environment dynamics simulation. Building on our prior work, RoboInter1.0, we pr…",
@@ -1831,16 +2075,6 @@
     "topics": []
   },
   {
-    "id": "1f044e1aabe9db4c",
-    "title": "Embodied Cognition and Agentic AI",
-    "url": "https://lemire.me/blog/2026/05/28/embodied-cognition-and-agentic-ai/",
-    "source": "Hacker News",
-    "date": "2026-06-06",
-    "summary": "4 points, https://news.ycombinator.com/item?id=48424981",
-    "tags": [],
-    "topics": []
-  },
-  {
     "id": "072fbd4dea1fa1e0",
     "title": "Video Friday: Watch This Running Robot Not Fall Down Stairs",
     "url": "https://spectrum.ieee.org/video-friday-humanoid-robot-running",
@@ -1881,6 +2115,16 @@
     "source": "IEEE Spectrum Robotics",
     "date": "2026-05-29",
     "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. ICRA 2026 : 1–5 June 2026, VIENNA…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "1f044e1aabe9db4c",
+    "title": "Embodied Cognition and Agentic AI",
+    "url": "https://lemire.me/blog/2026/05/28/embodied-cognition-and-agentic-ai/",
+    "source": "Hacker News",
+    "date": "2026-05-29",
+    "summary": "4 points, https://news.ycombinator.com/item?id=48325218",
     "tags": [],
     "topics": []
   },
