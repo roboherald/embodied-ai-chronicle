@@ -1,5 +1,162 @@
 [
   {
+    "id": "f877cd64cb644871",
+    "title": "AXIS: A Growable Community-Driven Data Engine for Scalable Robot Manipulation",
+    "url": "https://arxiv.org/abs/2607.21588v1",
+    "source": "arXiv",
+    "date": "2026-07-23",
+    "summary": "Learning effective robot manipulation policies requires diverse, high-quality demonstrations, yet existing data pipelines are often difficult to scale because they rely on specialized hardware, centralized operators, or fixed task suites. We present AXIS, a growable community-dr…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "a37b4818248a78be",
+    "title": "Beyond Episodic Evaluation: Memory Architectural Bottlenecks in Sequential Embodied Question Answering",
+    "url": "https://arxiv.org/abs/2607.21571v1",
+    "source": "arXiv",
+    "date": "2026-07-23",
+    "summary": "Embodied question answering (EQA) is traditionally evaluated under an episodic formulation, where agents solve each task independently and reset internal state between episodes. However, real-world robots operate continuously and must accumulate, retain, and selectively reuse in…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "bafe4e5eea4bb7c7",
+    "title": "GS-Agent: Creating 4D Physical Worlds With Generative Simulation",
+    "url": "https://arxiv.org/abs/2607.21522v1",
+    "source": "arXiv",
+    "date": "2026-07-23",
+    "summary": "Creating dynamic and physically realistic 4D worlds from natural language descriptions is both fascinating and challenging. Traditional computer graphics methods rely on manual creation, requiring extensive human effort to fine-tune materials, motions, and visual fidelity. Recen…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "c9a50bdd7f32ea2e",
+    "title": "VoLN: Vision-Only Long-Horizon Navigation---Paradigm, Benchmark, and Method",
+    "url": "https://arxiv.org/abs/2607.21400v1",
+    "source": "arXiv",
+    "date": "2026-07-23",
+    "summary": "Vision-and-Language Navigation (VLN) enables embodied agents to follow natural-language instructions. However, route-level instructions commonly encode spatial priors, such as orientation, distance, and layout, that are not explicitly available from onboard sensing at deployment…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "831e668007002984",
+    "title": "Grasp, Handover, Rotate: Bimanual Object Reorientation via Compositional Diffusion and Energy-Based Optimization",
+    "url": "https://arxiv.org/abs/2607.21341v1",
+    "source": "arXiv",
+    "date": "2026-07-23",
+    "summary": "Bimanual object reorientation - picking an object, handing it over between two arms, and placing it in a desired target pose - is valuable when direct placement from the initial grasp is infeasible due to collisions, kinematic constraints, or poor final orientation. However, ach…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "be9e0cd1e1b9f94d",
+    "title": "FORGE-plus: Force-Budgeted Recovery for Contact-Rich Assembly with a Frozen LLM Supervisor",
+    "url": "https://arxiv.org/abs/2607.21227v1",
+    "source": "arXiv",
+    "date": "2026-07-23",
+    "summary": "Force-conditioned reinforcement learning (RL) enables tight-clearance assembly under a commanded force ceiling, but practical deployment requires determining an appropriate force limit for each object and recovering from insertion failures without exceeding it. We present a two-…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "a41a05c985387a45",
+    "title": "TransBiolab: A Real-World Multi-View Dataset of Cluttered Transparent Biomedical Objects",
+    "url": "https://arxiv.org/abs/2607.21071v1",
+    "source": "arXiv",
+    "date": "2026-07-23",
+    "summary": "Autonomous biomedical laboratories increasingly rely on visual perception to recognize, localize, and manipulate transparent plasticware, yet high-quality real-world datasets for this setting remain limited. The scarcity of domain-relevant data is particularly restrictive in clu…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "850febff419f2e62",
+    "title": "GuidedAttention: Interpretable and Correctable Visual Attention for OOD-Robust Robot Manipulation via Imitation Learning",
+    "url": "https://arxiv.org/abs/2607.21049v1",
+    "source": "arXiv",
+    "date": "2026-07-23",
+    "summary": "End-to-end visuomotor policies provide little opportunity for humans to understand or correct the policy's visual attention. We propose GuidedAttention, a visuomotor imitation learning framework that introduces interpretable and correctable visual attention as an explicit interm…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "4f442d207e7246f4",
+    "title": "TableVerse: A Large-scale Tabletop Dataset with Real-world Grounded Layouts for Generalizable Manipulation",
+    "url": "https://arxiv.org/abs/2607.21017v1",
+    "source": "arXiv",
+    "date": "2026-07-23",
+    "summary": "The development of generalizable robotic manipulation policies is inherently bounded by the availability of large-scale, high-fidelity scene data. While recent automated synthesis methods attempt to bridge this gap via text-to-layout hallucination or simplified procedural genera…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "85d67ed443ce3c84",
+    "title": "URF: A Unified Robot Control-Policy Framework for Stable Contact Aware Manipulation",
+    "url": "https://arxiv.org/abs/2607.20912v1",
+    "source": "arXiv",
+    "date": "2026-07-23",
+    "summary": "Learning-based manipulation policies usually predict robot actions from sensory observations and leave their execution to a separate low-level controller. In rigid contact, this separation can be problematic: the same motion to a virtual target or compliant motion command can le…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "b3e09a0d1b710214",
+    "title": "Holiday Robotics raises $105M for its FRIDAY wheeled humanoid",
+    "url": "https://www.therobotreport.com/holiday-robotics-raises-105m-wheeled-humanoid-friday/",
+    "source": "The Robot Report",
+    "date": "2026-07-23",
+    "summary": "Holiday's robot features a wheel-based mobile base, an upper body for dexterous manipulation, and hot-swappable batteries. The post Holiday Robotics raises $105M for its FRIDAY wheeled humanoid appeared first on The Robot Report .",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "灵巧手与操作"
+    ]
+  },
+  {
+    "id": "28eaddcf77752e31",
+    "title": "Uber co-founder raises $1.7B for new robotics startup ATOMS",
+    "url": "https://www.therobotreport.com/uber-co-founder-raises-1-7b-for-new-robotics-startup-atoms/",
+    "source": "The Robot Report",
+    "date": "2026-07-23",
+    "summary": "Travis Kalanick, the former CEO of Uber, said with ATOMS, he hopes to create physical automation to transform industry. The post Uber co-founder raises $1.7B for new robotics startup ATOMS appeared first on The Robot Report .",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "488f5aa644313d9d",
+    "title": "AMD unveils Kria module for real-time control, unified memory for robots",
+    "url": "https://www.therobotreport.com/amd-unveils-kria-module-real-time-control-unified-memory-robots/",
+    "source": "The Robot Report",
+    "date": "2026-07-23",
+    "summary": "AMD has launched the Ryzen AI Embedded X100 and Kria AI SoM, bringing unified memory and real-time control to challenge NVIDIA in robotics. The post AMD unveils Kria module for real-time control, unified memory for robots appeared first on The Robot Report .",
+    "tags": [
+      "NVIDIA"
+    ],
+    "topics": []
+  },
+  {
+    "id": "7a259cc76ff87c05",
+    "title": "Ropedia raises $22M to scale data collection for training robots",
+    "url": "https://www.therobotreport.com/ropedia-raises-22m-scale-data-collection-training-robots/",
+    "source": "The Robot Report",
+    "date": "2026-07-23",
+    "summary": "Ropdeia's HOMIE is a head-mounted device, equipped with a 360º camera view, that captures first-person data for training robots. The post Ropedia raises $22M to scale data collection for training robots appeared first on The Robot Report .",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "d1ba2470df2d7012",
+    "title": "US eyes ban on Chinese humanoid robots as US-China tech rivalry intensifies",
+    "url": "https://www.scmp.com/tech/policy/article/3361622/us-eyes-ban-chinese-humanoid-robots-us-china-tech-rivalry-intensifies",
+    "source": "Hacker News",
+    "date": "2026-07-23",
+    "summary": "2 points, https://news.ycombinator.com/item?id=49024722",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ]
+  },
+  {
     "id": "8233d977439132aa",
     "title": "Towards Miniature Humanoid Tele-Loco-Manipulation Using Virtual Reality and Reinforcement Learning",
     "url": "https://arxiv.org/abs/2607.20399v1",
@@ -172,6 +329,80 @@
     "source": "arXiv",
     "date": "2026-07-22",
     "summary": "Despite recent advances in general-purpose robotic manipulation, real-world multi-object clutter remains challenging to handle for today's prevalent approaches. The problem scales in complexity due to more objects and collisions, more unpredictable contact physics, distractors,…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "6314cdcda657fa31",
+    "title": "Robostral Navigate",
+    "url": "https://arxiv.org/abs/2607.20785v1",
+    "source": "arXiv",
+    "date": "2026-07-22",
+    "summary": "Deploying navigation systems at scale requires a recipe that minimizes sensor assumptions, generalizes across robot embodiments, and trains efficiently. Yet, today's best systems depend on depth sensors, multi-camera rigs, or pre-built maps, limiting the hardware they support an…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "032d77336a77b49e",
+    "title": "FELT: Generating Tactile Signals from Vision for Visuo-Tactile Manipulation",
+    "url": "https://arxiv.org/abs/2607.20683v1",
+    "source": "arXiv",
+    "date": "2026-07-22",
+    "summary": "The sense of touch is central to manipulation, especially when vision is occluded or ambiguous. Although combining vision and touch improves manipulation, learning robust visuo-tactile policies requires substantial tactile data. Such data remains scarcer than visual data, becaus…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "b05e0b0c010ff9bf",
+    "title": "Towards Capability-Aware Traversability Navigation for Unstructured Environments",
+    "url": "https://arxiv.org/abs/2607.20679v1",
+    "source": "arXiv",
+    "date": "2026-07-22",
+    "summary": "Estimating traversability in unstructured environments requires conditioning on robot embodiment, as the same terrain can be traversable for one platform and unsafe for another. Existing methods often transfer predictions across morphologies through late-stage trajectory filteri…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "95b43ba0b7605e40",
+    "title": "Safe and Scalable Multi-Drone Payload Transport via CBF-based Reinforcement Learning with Zero-Shot Sim-to-Real Transfer",
+    "url": "https://arxiv.org/abs/2607.20665v1",
+    "source": "arXiv",
+    "date": "2026-07-22",
+    "summary": "Multi-drone payload transportation has emerged as a promising research paradigm with potential applications in construction, logistics, and disaster response. However, the complex coupled dynamics among drones, cables, and payloads pose significant challenges, and existing appro…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real"
+    ]
+  },
+  {
+    "id": "9ca13868805ca983",
+    "title": "PhysCoRe: Physics-Corrected Residual World Models for Material-Aware Deformable Dynamics",
+    "url": "https://arxiv.org/abs/2607.20653v1",
+    "source": "arXiv",
+    "date": "2026-07-22",
+    "summary": "Predicting how deformable objects evolve under robotic manipulation is a longstanding challenge. Existing approaches typically rely on per-object optimization to fit material parameters, which can be slow and cannot generalize, while end-to-end learned alternatives extrapolate p…",
+    "tags": [],
+    "topics": [
+      "世界模型"
+    ]
+  },
+  {
+    "id": "ba1f1e144cb4f879",
+    "title": "Robots Acquire Manipulation Skills in Seconds from a Single Human Video",
+    "url": "https://arxiv.org/abs/2607.20033v2",
+    "source": "arXiv",
+    "date": "2026-07-22",
+    "summary": "The ability to acquire skills rapidly and effortlessly while retaining those already mastered is essential for robots. However, current methods still rely on a cumbersome training-time loop that is costly and slow, while eroding skills already mastered. In this paper, we introdu…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "9bec14cc87c7a079",
+    "title": "EgoRecovery: Acquiring Failure Recovery Ability Through Human Recovery Demonstration",
+    "url": "https://arxiv.org/abs/2607.19745v2",
+    "source": "arXiv",
+    "date": "2026-07-22",
+    "summary": "Robust embodied robots should be able to recover from failures and retry tasks in order to operate reliably in unstructured and noisy real-world environments. Achieving this capability requires training policies on data that captures recovery behaviors. However, collecting such…",
     "tags": [],
     "topics": []
   },
@@ -2271,6 +2502,16 @@
     "topics": []
   },
   {
+    "id": "6f425edda17b0072",
+    "title": "Embodied AI: China's ambitious path to transform its robotics industry",
+    "url": "https://merics.org/en/report/embodied-ai-chinas-ambitious-path-transform-its-robotics-industry",
+    "source": "Hacker News",
+    "date": "2026-04-30",
+    "summary": "1 points, https://news.ycombinator.com/item?id=47968124",
+    "tags": [],
+    "topics": []
+  },
+  {
     "id": "1e0186c931989bc3",
     "title": "FlashDrive: Flash Vision-Language-Action Inference for Autonomous Driving",
     "url": "https://z-lab.ai/projects/flashdrive/",
@@ -2322,18 +2563,6 @@
     "date": "2026-03-31",
     "summary": "21 points, https://news.ycombinator.com/item?id=47589797",
     "tags": [],
-    "topics": []
-  },
-  {
-    "id": "00bfbe617a50c1d0",
-    "title": "Protecting people from harmful manipulation",
-    "url": "https://deepmind.google/blog/protecting-people-from-harmful-manipulation/",
-    "source": "Google DeepMind",
-    "date": "2026-03-25",
-    "summary": "Google DeepMind researches AI's harmful manipulation risks across areas like finance and health, leading to new safety measures.",
-    "tags": [
-      "Google DeepMind"
-    ],
     "topics": []
   }
 ]
