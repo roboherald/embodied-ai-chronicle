@@ -1,5 +1,59 @@
 [
   {
+    "id": "46cb8ce6f449e78a",
+    "title": "Hyundai claims humanoid robot plan is not part of talks with striking workers",
+    "url": "https://arstechnica.com/ai/2026/07/hyundai-claims-humanoid-robot-plan-is-not-part-of-talks-with-striking-workers/",
+    "source": "Hacker News",
+    "date": "2026-07-25",
+    "summary": "2 points, https://news.ycombinator.com/item?id=49044126",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ]
+  },
+  {
+    "id": "dafc3f4063b601a2",
+    "title": "Generalist’s GEN-1 foundation model now supports a range of robot end effectors",
+    "url": "https://www.therobotreport.com/generalists-gen-1-foundation-model-now-supports-a-range-of-robot-end-effectors/",
+    "source": "The Robot Report",
+    "date": "2026-07-24",
+    "summary": "By training GEN-1 to work with new hands, Generalist said a single base model can learn sensorimotor policies on different robots. The post Generalist’s GEN-1 foundation model now supports a range of robot end effectors appeared first on The Robot Report .",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "a99cf509574f9f61",
+    "title": "How time series databases unlock real-time data for robotics",
+    "url": "https://www.therobotreport.com/how-time-series-databases-unlock-real-time-data-for-robotics/",
+    "source": "The Robot Report",
+    "date": "2026-07-24",
+    "summary": "Discover how time series databases help robotics teams manage high-volume sensor data, power AI insights, and keep systems running at scale. The post How time series databases unlock real-time data for robotics appeared first on The Robot Report .",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "d3b0852c252f1014",
+    "title": "NEURA Robotics establishes NEURA Gym RWTH Aachen to train physical AI",
+    "url": "https://www.therobotreport.com/neura-robotics-establishes-neura-gym-rwth-aachen-train-physical-ai/",
+    "source": "The Robot Report",
+    "date": "2026-07-24",
+    "summary": "NEURA Robotics has partnered with a German university for NEURA Gym RWTH Aachen, one of 10 facilities for training physical AI. The post NEURA Robotics establishes NEURA Gym RWTH Aachen to train physical AI appeared first on The Robot Report .",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "0acad5db7317c2e6",
+    "title": "Video Friday: An Italian Humanoid Comes to Life",
+    "url": "https://spectrum.ieee.org/video-friday-physical-ai-robotics",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-07-24",
+    "summary": "Your weekly selection of awesome robot videos Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for…",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ]
+  },
+  {
     "id": "f877cd64cb644871",
     "title": "AXIS: A Growable Community-Driven Data Engine for Scalable Robot Manipulation",
     "url": "https://arxiv.org/abs/2607.21588v1",
