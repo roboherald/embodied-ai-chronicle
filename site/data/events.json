@@ -1,14 +1,58 @@
 [
   {
+    "id": "e9ffdb016aa3ee20",
+    "title": "Photos: First look at J&J’s Ottava surgical robot",
+    "url": "https://www.therobotreport.com/photos-first-look-at-jjs-ottava-surgical-robot/",
+    "source": "The Robot Report",
+    "date": "2026-07-25",
+    "summary": "The robot-in-table design is meant to save space in the operating room, with J&J saying its novel architecture takes up 30-50% less space than boom-and-cart systems. The post Photos: First look at J&J’s Ottava surgical robot appeared first on The Robot Report .",
+    "tags": [],
+    "topics": []
+  },
+  {
     "id": "46cb8ce6f449e78a",
     "title": "Hyundai claims humanoid robot plan is not part of talks with striking workers",
     "url": "https://arstechnica.com/ai/2026/07/hyundai-claims-humanoid-robot-plan-is-not-part-of-talks-with-striking-workers/",
     "source": "Hacker News",
     "date": "2026-07-25",
-    "summary": "2 points, https://news.ycombinator.com/item?id=49044126",
+    "summary": "3 points, https://news.ycombinator.com/item?id=49044126",
     "tags": [],
     "topics": [
       "人形机器人"
+    ]
+  },
+  {
+    "id": "e3f3d60a21065d71",
+    "title": "Show HN: Robotics startups are hiring across several roles",
+    "url": "https://robotclub.substack.com/p/icymi-figure-hits-1000-humanoids",
+    "source": "Hacker News",
+    "date": "2026-07-25",
+    "summary": "2 points, https://news.ycombinator.com/item?id=49049977",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "7d879356088e17a9",
+    "title": "teachers decry plan for humanoid robot in New York high school",
+    "url": "https://www.theguardian.com/us-news/2026/jul/25/new-york-humanoid-robot-teachers-school",
+    "source": "Hacker News",
+    "date": "2026-07-25",
+    "summary": "6 points, https://news.ycombinator.com/item?id=49048149",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ]
+  },
+  {
+    "id": "41099f9d6d373d4b",
+    "title": "Show HN: Cubic Doggo 06R: 12-DOF 4-Legged Robot with IMU",
+    "url": "https://github.com/SphericalCowww/CubicDoggo_06R",
+    "source": "Hacker News",
+    "date": "2026-07-25",
+    "summary": "2 points, https://news.ycombinator.com/item?id=49048024",
+    "tags": [],
+    "topics": [
+      "移动与四足"
     ]
   },
   {
