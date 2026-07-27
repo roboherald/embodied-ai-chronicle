@@ -1,5 +1,45 @@
 [
   {
+    "id": "0157439392619aa4",
+    "title": "Magmotor makes motors for a changing world for 150+ years",
+    "url": "https://www.therobotreport.com/magmotor-makes-motors-changing-world-150-years/",
+    "source": "The Robot Report",
+    "date": "2026-07-26",
+    "summary": "Magmotor has been providing motors for demanding use cases for decades and offers custom systems for robotics. The post Magmotor makes motors for a changing world for 150+ years appeared first on The Robot Report .",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "faef43bde7d1c1cb",
+    "title": "Optical Tech Would Update a Robot’s AI on the Fly",
+    "url": "https://spectrum.ieee.org/ai-in-robotics",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-07-26",
+    "summary": "Atop a lab bench, Cornell Tech postdoctoral researcher Yifan He positions the lens of an optical receiver almost a meter away from an LED emitting a beam of red light. The computer monitor attached to the receiver takes a beat to refresh, then displays an array of squares that r…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "b6880f1525515d41",
+    "title": "Robotic Adaptation Suffers from Data Collection Bottleneck",
+    "url": "https://news.ycombinator.com/item?id=49061030",
+    "source": "Hacker News",
+    "date": "2026-07-26",
+    "summary": "2 points, https://news.ycombinator.com/item?id=49061030",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "0a07c4be41ab2b46",
+    "title": "Robotics development made dead simple (open source)",
+    "url": "https://news.ycombinator.com/item?id=49058956",
+    "source": "Hacker News",
+    "date": "2026-07-26",
+    "summary": "1 points, https://news.ycombinator.com/item?id=49058956",
+    "tags": [],
+    "topics": []
+  },
+  {
     "id": "e9ffdb016aa3ee20",
     "title": "Photos: First look at J&J’s Ottava surgical robot",
     "url": "https://www.therobotreport.com/photos-first-look-at-jjs-ottava-surgical-robot/",
@@ -56,6 +96,130 @@
     ]
   },
   {
+    "id": "5a7cedfc3fbbdfca",
+    "title": "Robot-Factored World Models via Robot Rendering",
+    "url": "https://arxiv.org/abs/2607.22535v1",
+    "source": "arXiv",
+    "date": "2026-07-24",
+    "summary": "Action-conditioned video world models predict future observations from an initial observation and an action signal. In robotics, actions influence future observations through two distinct processes: they are first realized into robot motion by the robot body and controller, and…",
+    "tags": [],
+    "topics": [
+      "世界模型"
+    ]
+  },
+  {
+    "id": "0d8faf5925070b1d",
+    "title": "ViTacWorld: Scaling Visuo-Tactile World Models for Contact-Rich Robot Manipulation",
+    "url": "https://arxiv.org/abs/2607.22530v1",
+    "source": "arXiv",
+    "date": "2026-07-24",
+    "summary": "Contact-rich robot manipulation requires physical interaction cues that are often invisible to cameras, making tactile sensing essential for robust control. However, scaling visuo-tactile robot learning remains difficult because real tactile interaction data are expensive to col…",
+    "tags": [],
+    "topics": [
+      "世界模型"
+    ]
+  },
+  {
+    "id": "e9dd8ee0818bb52c",
+    "title": "Plug, Play, and Comply: A Modular Framework for Online Variable Impedance with Arbitrarily Oriented Compliance Axes",
+    "url": "https://arxiv.org/abs/2607.22483v1",
+    "source": "arXiv",
+    "date": "2026-07-24",
+    "summary": "The paper proposes a robot-agnostic compliant-control framework that extends the ROS control ecosystem with standardized joint and Cartesian command interfaces. It addresses a key limitation of existing control software: no reusable infrastructure for implementing compliant-cont…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "b7235a9b9f2ae5ea",
+    "title": "Robot Learning to Communicate through Projected Visual Abstractions",
+    "url": "https://arxiv.org/abs/2607.22434v1",
+    "source": "arXiv",
+    "date": "2026-07-24",
+    "summary": "Humans routinely communicate through abstractions of their bodies, including shadows, silhouettes, and reflections. Yet robots remain largely confined to expressing themselves through their physical morphology. Enabling robots to communicate through such projected visual abstrac…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "e06bc184da9e6e92",
+    "title": "Teachy Mini: Development and Preliminary Evaluation of a Knowledge-Based Generative Social Robot for Higher Education",
+    "url": "https://arxiv.org/abs/2607.22345v1",
+    "source": "arXiv",
+    "date": "2026-07-24",
+    "summary": "Generative social robots (GSRs) powered by large language models offer new possibilities for personalized tutoring in higher education, but also introduce risks related to misinformation, missing transparency, or reinforcing incorrect student responses. Prior work identified kno…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "5402b709566a6947",
+    "title": "Design and Human Evaluation of Tactile Withdrawal Reflexes for a Skin-Covered Robot Arm",
+    "url": "https://arxiv.org/abs/2607.22249v1",
+    "source": "arXiv",
+    "date": "2026-07-24",
+    "summary": "Nociception is a protective biological mechanism that links harmful stimulation to a reaction. This paper investigates artificial nociception for a robotic arm with whole-body tactile sensing. We present a complete pipeline that maps pressure changes from sensitive skin on a rob…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "1bafb423531092f1",
+    "title": "One Hand Watches The Other: Dynamic Multi-Agent Cooperation for Sample-Efficient Bimanual Manipulation in Dynamic Environments",
+    "url": "https://arxiv.org/abs/2607.22119v1",
+    "source": "arXiv",
+    "date": "2026-07-24",
+    "summary": "Multi-stream robot manipulation policies achieve unparalleled sample efficiency and generalization by modeling actions relative to environmental reference frames. However, existing approaches typically assume these frames to be strictly exogenous. This causal assumption collapse…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "33da26a47f199cbc",
+    "title": "Impedance Control of Ship-Borne Manipulators via Optimization-based Task-Space Inverse Dynamics",
+    "url": "https://arxiv.org/abs/2607.22030v1",
+    "source": "arXiv",
+    "date": "2026-07-24",
+    "summary": "Ship-borne manipulators operating in maritime environments are subject to stochastic wave-induced base motions that introduce kinematic disturbances and dynamic coupling, degrading trajectory tracking accuracy and complicating safe, contact-rich manipulation. This paper proposes…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "7b93668814b8b517",
+    "title": "Embodying Multi-Hand Manipulation Policies by Searching the Assignment and Null Spaces",
+    "url": "https://arxiv.org/abs/2607.22020v1",
+    "source": "arXiv",
+    "date": "2026-07-24",
+    "summary": "Learned manipulation policies increasingly predict motions for abstract \"hands\" and are attractive in practice because they rely on easily collected demonstrations and transfer across robot platforms. Executing these trajectories on multi-arm robots, however, is not trivial. Mul…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "8404d1e4d405fdcd",
+    "title": "Zero-Shot Mission-Level Evaluation for Aerial MLLM Agents",
+    "url": "https://arxiv.org/abs/2607.22014v1",
+    "source": "arXiv",
+    "date": "2026-07-24",
+    "summary": "Multimodal Large Language Models (MLLMs) are emerging as core reasoning modules for embodied agents, yet it remains unclear how well general-purpose models can solve long-horizon embodied tasks from a single high-level instruction. We introduce MissionBench, a benchmark for miss…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "6468a01c088a6b6c",
+    "title": "ACME: A Multi-Cultural, Multi-Embodiment Social-Navigation Dataset",
+    "url": "https://arxiv.org/abs/2607.21964v1",
+    "source": "arXiv",
+    "date": "2026-07-24",
+    "summary": "Understanding how robots and humans move in shared spaces is essential for designing effective social robot navigation policies and predicting human behavior. However, existing datasets often lack the diversity needed to capture differences in culture, geography, and human-robot…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "ac71159e85af3c3d",
+    "title": "Adaptive Undulatory Locomotion of Snake-like Robots in Dynamic Viscous Environments via Deep Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2607.21960v1",
+    "source": "arXiv",
+    "date": "2026-07-24",
+    "summary": "This paper demonstrates how deep reinforcement learning (DRL) enables adaptive locomotion of snake-like robots in dynamically changing viscous environments, overcoming the inherent performance limitations of classical predefined control methods. The lack of direct onboard sensor…",
+    "tags": [],
+    "topics": []
+  },
+  {
     "id": "dafc3f4063b601a2",
     "title": "Generalist’s GEN-1 foundation model now supports a range of robot end effectors",
     "url": "https://www.therobotreport.com/generalists-gen-1-foundation-model-now-supports-a-range-of-robot-end-effectors/",
@@ -91,7 +255,7 @@
     "url": "https://spectrum.ieee.org/video-friday-physical-ai-robotics",
     "source": "IEEE Spectrum Robotics",
     "date": "2026-07-24",
-    "summary": "Your weekly selection of awesome robot videos Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for…",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Summer School on Multi-Robot Syste…",
     "tags": [],
     "topics": [
       "人形机器人"
@@ -194,6 +358,26 @@
     "source": "arXiv",
     "date": "2026-07-23",
     "summary": "Learning-based manipulation policies usually predict robot actions from sensory observations and leave their execution to a separate low-level controller. In rigid contact, this separation can be problematic: the same motion to a virtual target or compliant motion command can le…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "435d7af220c2cbe4",
+    "title": "Addressing the Orchestration Gap in Generalist Robots via Physical Agency",
+    "url": "https://arxiv.org/abs/2607.21725v1",
+    "source": "arXiv",
+    "date": "2026-07-23",
+    "summary": "General-purpose robots need to reason about their actions, combining perception, world knowledge, planning, success detection, recovery, and low-level control. Today's state-of-the-art models attempt to combine all these capabilities into the learned policy via large-scale pre-t…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "8943472b83c53323",
+    "title": "GuidedAttention: Interpretable and Correctable Visual Attention for OOD-Robust Robot Manipulation via Imitation Learning",
+    "url": "https://arxiv.org/abs/2607.21049v2",
+    "source": "arXiv",
+    "date": "2026-07-23",
+    "summary": "End-to-end visuomotor policies provide little opportunity for humans to understand or correct the policy's visual attention. We propose GuidedAttention, a visuomotor imitation learning framework that introduces interpretable and correctable visual attention as an explicit interm…",
     "tags": [],
     "topics": []
   },
@@ -501,6 +685,36 @@
     "source": "arXiv",
     "date": "2026-07-22",
     "summary": "Robust embodied robots should be able to recover from failures and retry tasks in order to operate reliably in unstructured and noisy real-world environments. Achieving this capability requires training policies on data that captures recovery behaviors. However, collecting such…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "eecb0441fd235246",
+    "title": "GRACE: Gradient-Free Robot Action Generation via Combined Diffusion-MPPI Posterior Mean Estimation",
+    "url": "https://arxiv.org/abs/2607.21661v1",
+    "source": "arXiv",
+    "date": "2026-07-22",
+    "summary": "Diffusion policies generate multimodal robot action sequences from demonstrations, but steering them toward deployment-time constraints typically relies on differentiable guidance costs. This excludes many practical safety constraints, such as binary collision checks, joint limi…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "14cc8d12a275c1b3",
+    "title": "Progress Reward Modeling for Robotic Learning: A Comprehensive Survey",
+    "url": "https://arxiv.org/abs/2607.21655v1",
+    "source": "arXiv",
+    "date": "2026-07-22",
+    "summary": "Robotic learning takes place in dynamic environments with large behavior spaces. A terminal success signal only tells the robot whether the task is completed. It does not explain whether the current behavior is making progress, remaining unchanged, or undoing earlier progress. F…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "590161dc6c57d285",
+    "title": "Towards Capability-Aware Traversability Navigation for Unstructured Environments",
+    "url": "https://arxiv.org/abs/2607.20679v2",
+    "source": "arXiv",
+    "date": "2026-07-22",
+    "summary": "Estimating traversability in unstructured environments requires conditioning on robot embodiment, as the same terrain can be traversable for one platform and unsafe for another. Existing methods often transfer predictions across morphologies through late-stage trajectory filteri…",
     "tags": [],
     "topics": []
   },
@@ -2128,18 +2342,6 @@
     ]
   },
   {
-    "id": "74066ac3bb80ad46",
-    "title": "Humanoid Robots in Japan Risk Losing Legacy to China",
-    "url": "https://spectrum.ieee.org/humanoid-robots-japan",
-    "source": "Hacker News",
-    "date": "2026-07-06",
-    "summary": "3 points, https://news.ycombinator.com/item?id=48803714",
-    "tags": [],
-    "topics": [
-      "人形机器人"
-    ]
-  },
-  {
     "id": "3b6a72e3ac48f89c",
     "title": "China wants to solve the hardest problem in robotics – making hands",
     "url": "https://www.theguardian.com/technology/ng-interactive/2026/jul/06/china-dextrous-robotic-hands-humanoid",
@@ -2148,6 +2350,18 @@
     "summary": "8 points, https://news.ycombinator.com/item?id=48801533",
     "tags": [],
     "topics": []
+  },
+  {
+    "id": "74066ac3bb80ad46",
+    "title": "Japan Pioneered Humanoid Robots—Can It Now Catch China?",
+    "url": "https://spectrum.ieee.org/humanoid-robots-japan",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-07-04",
+    "summary": "“In the future, the relationship between humans and robots will deepen, and the distinction between them will probably disappear.” This prediction, from one of the attendees at the recent Humanoids Summit in Tokyo , might have been unremarkable had it not come directly from an a…",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ]
   },
   {
     "id": "5c49751f49a26386",
