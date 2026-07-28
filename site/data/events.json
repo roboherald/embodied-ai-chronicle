@@ -1,5 +1,305 @@
 [
   {
+    "id": "7d833695ab1ef255",
+    "title": "Data Pyramid for Embodied Manipulation",
+    "url": "https://arxiv.org/abs/2607.24744v1",
+    "source": "arXiv",
+    "date": "2026-07-27",
+    "summary": "Multimodal foundation models learned to see and to speak by consuming the whole internet. Embodied agents admit no such shortcut, since they require data that couple observations with physical states and actions. These signals can be provided, to varying degrees, by multiple dat…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "c10923ddb6a20789",
+    "title": "NEO: NeRF It Once, Edit It Many Times for Continuous Object Manipulation",
+    "url": "https://arxiv.org/abs/2607.24538v1",
+    "source": "arXiv",
+    "date": "2026-07-27",
+    "summary": "In this paper, we present NEO, a unified framework providing language-guided NeRF editing for robotic manipulation. Our paper introduces (i) a language-guided object removal that combines neural field resampling with multiview-consistent progressive inpainting, (ii) a direct NeR…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "5d5b8033808e7131",
+    "title": "KAI: A Kinematic-Aware Interface for Data-Efficient Articulated Object Manipulation",
+    "url": "https://arxiv.org/abs/2607.24493v1",
+    "source": "arXiv",
+    "date": "2026-07-27",
+    "summary": "Articulated object manipulation requires an understanding of kinematic structure that is difficult and costly to learn from robot demonstrations alone. We introduce the Kinematic-Aware Articulation Interface (KAI), a structured intermediate representation that captures the kinem…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "8a38fc815189c96f",
+    "title": "τ: Learning Touch-Augmented Vision-Language-Action Models from Future Visual Supervision",
+    "url": "https://arxiv.org/abs/2607.24485v1",
+    "source": "arXiv",
+    "date": "2026-07-27",
+    "summary": "Learning the informative tactile representation while effectively adapting it to pretrained Vision-Language-Action (VLA) models remains challenging at both the data and modeling levels. At the data level, limited task-specific demonstrations constrain representation quality, whe…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ]
+  },
+  {
+    "id": "9498dc50931fed90",
+    "title": "ArmnetBench v0.1: Parallel Real-World Evaluation of Manipulation Policies on a Low-Cost Arm Farm",
+    "url": "https://arxiv.org/abs/2607.24481v1",
+    "source": "arXiv",
+    "date": "2026-07-27",
+    "summary": "Real-world evaluation is a bottleneck in developing generalist robot manipulation policies. Each rollout requires physical hardware and an operator to set up, reset, and score it. We introduce ArmnetBench v0.1, a benchmark run on a fleet of low-cost SO-101 cells under light on-s…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "967889a022c378af",
+    "title": "PAC-DP: PAC-Bayesian Diffusion Policy Learning",
+    "url": "https://arxiv.org/abs/2607.24296v1",
+    "source": "arXiv",
+    "date": "2026-07-27",
+    "summary": "Diffusion Policies (DPs) are able to perform complex manipulation tasks. However, DPs are typically trained by minimizing a denoising objective, which provides limited control over generalization in the finite-data regimes common in robotics. In this letter, we propose PAC-DP, a…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "d78567738bbcaf40",
+    "title": "FloAff-Kitchen: Bridging Navigation and Manipulation via Canonical and Progressive Floor Affordance Learning",
+    "url": "https://arxiv.org/abs/2607.24207v1",
+    "source": "arXiv",
+    "date": "2026-07-27",
+    "summary": "Mobile manipulation requires robots to identify Floor Affordance (FloAff) that maximizes downstream manipulation success rather than merely ensuring navigation feasibility. FloAff prediction is a target-conditioned local spatial reasoning problem, yet existing methods suffer fro…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "1191dfb58ee7124f",
+    "title": "Not Forgotten: Implementation and Evaluation of a Personalized Episodic Memory for the Humanoid Robot Head Kim",
+    "url": "https://arxiv.org/abs/2607.24190v1",
+    "source": "arXiv",
+    "date": "2026-07-27",
+    "summary": "Social robots that rely on large language models for conversation are unable to retain information across sessions. This absence of memory violates social expectations, potentially preventing the formation of persistent relationships. This paper presents a lightweight episodic m…",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ]
+  },
+  {
+    "id": "a6ed6a569ca01af4",
+    "title": "DeVA: Decoupled Video-Action Model with physical guidance for robot policy learning",
+    "url": "https://arxiv.org/abs/2607.24159v1",
+    "source": "arXiv",
+    "date": "2026-07-27",
+    "summary": "Generalizable robot manipulation requires policies that can anticipate how visual scenes evolve while executing language instructions. While recent Vision-Language-Action models benefit from large-scale pretraining, their predominantly static pretraining objectives provide limit…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ]
+  },
+  {
+    "id": "82ba30d973d2bb6a",
+    "title": "Learning Reusable Hybrid Motion Priors for Humanoid Locomotion from Motion Imitation",
+    "url": "https://arxiv.org/abs/2607.24083v1",
+    "source": "arXiv",
+    "date": "2026-07-27",
+    "summary": "Reinforcement learning can produce robust humanoid controllers, but each new task is typically trained as a separate policy with its own reward design and training process. Motion imitation provides an alternative source of motor competence by training policies to track retarget…",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ]
+  },
+  {
+    "id": "ecd555b68a686257",
+    "title": "Effective Parameters, Real Behavior: Renormalization for Robotics -- From Infinite Electron Mass to Sim-to-Real Gap",
+    "url": "https://arxiv.org/abs/2607.24079v1",
+    "source": "arXiv",
+    "date": "2026-07-27",
+    "summary": "Bridging the sim-to-real gap is a central problem in robotics, and the prevailing approach is to build increasingly accurate simulators. Here, we propose another approach based on renormalization: using effective, resolution-dependent parameters to absorb details omitted by the…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real"
+    ]
+  },
+  {
+    "id": "0aea7b737b4c02ac",
+    "title": "WARL: Wrench-Augmented Reinforcement Learning for Task-Agnostic Learning in Legged Robots",
+    "url": "https://arxiv.org/abs/2607.24036v1",
+    "source": "arXiv",
+    "date": "2026-07-27",
+    "summary": "While reinforcement learning for legged robots has achieved high motor performance, it has been constrained by the limited exploration capability of actions confined to the joint space. To address this issue, this study proposes a new method, Wrench-Augmented Reinforcement Learn…",
+    "tags": [],
+    "topics": [
+      "移动与四足"
+    ]
+  },
+  {
+    "id": "c6310b392400abca",
+    "title": "Moving-Horizon Estimation and Nonlinear Model Predictive Control of Cable-Driven Soft Manipulators",
+    "url": "https://arxiv.org/abs/2607.24029v1",
+    "source": "arXiv",
+    "date": "2026-07-27",
+    "summary": "Precise control of soft manipulators remains challenging due to the difficulty of developing accurate yet computationally tractable models for model-based estimation and control. Reduced Cosserat-rod models provide a physics-based and control-oriented description of soft-robot d…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "1796702645764823",
+    "title": "FutureRTC: Real-Time Robot Execution with Anticipatory-Conditioned Action Chunking",
+    "url": "https://arxiv.org/abs/2607.24008v1",
+    "source": "arXiv",
+    "date": "2026-07-27",
+    "summary": "Real-time deployment of Vision-Language-Action (VLA) policies necessitates asynchronous execution, wherein subsequent action chunks are computed concurrently with the execution of the current chunk, leading to prediction-execution misalignment and manifesting as inter-chunk disc…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ]
+  },
+  {
+    "id": "636a5585e0bd56c7",
+    "title": "LeapBot-WA: World-Anchor Action Models via Predictive Latent Alignments",
+    "url": "https://arxiv.org/abs/2607.23969v1",
+    "source": "arXiv",
+    "date": "2026-07-27",
+    "summary": "World Action Models (WAMs) have emerged as a powerful paradigm for embodied intelligence, yet the prevailing reliance on pixel-level video generation creates a fundamental bottleneck. Forcing models to reconstruct task-irrelevant visual details dissipates representational capaci…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "a381a77e70cb2435",
+    "title": "SHARE: Towards Head-Mounted AR with User-Centric SLAM in Shared Human-Robot Workspaces",
+    "url": "https://arxiv.org/abs/2607.23901v1",
+    "source": "arXiv",
+    "date": "2026-07-27",
+    "summary": "Human-Robot Collaboration (HRC) in shared physical spaces using Augmented Reality (AR) interfaces is powered by Simultaneous Localization and Mapping (SLAM). Existing multi-agent SLAM systems rely on an edge server to combine visual findings of multiple resource-constrained agen…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "368eaf59914499bb",
+    "title": "Embodied GPT-5.1: Evidence of a World Model?",
+    "url": "https://arxiv.org/abs/2607.23899v1",
+    "source": "arXiv",
+    "date": "2026-07-27",
+    "summary": "This exploratory study examines whether a large multimodal language model, GPT-5.1, can serve as the high-level controller of a physical mobile robot despite having no prior embodiment, no training in simulated environments, and no exposure to sensorimotor experience. Using only…",
+    "tags": [],
+    "topics": [
+      "世界模型"
+    ]
+  },
+  {
+    "id": "99b0ac116d8638db",
+    "title": "NORD expands compact NORDAC VFD family to 200 hp",
+    "url": "https://www.therobotreport.com/nord-expands-nordac-compact-vfd-family-to-200-hp/",
+    "source": "The Robot Report",
+    "date": "2026-07-27",
+    "summary": "NORD Drivesystems said its NORDAC PRO VFDs are adaptable to individual application requirements across industries. The post NORD expands compact NORDAC VFD family to 200 hp appeared first on The Robot Report .",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "252a93290bad209a",
+    "title": "Kraken Technology raises Series B funding for autonomous vessels",
+    "url": "https://www.therobotreport.com/kraken-technology-raises-series-b-funding-autonomous-vessels/",
+    "source": "The Robot Report",
+    "date": "2026-07-27",
+    "summary": "Kraken Technology plans to use its funding to continue developing uncrewed surface vessels and localizing manufacturing around the world. The post Kraken Technology raises Series B funding for autonomous vessels appeared first on The Robot Report .",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "9101339b1ac24639",
+    "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+    "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+    "source": "Hugging Face Blog",
+    "date": "2026-07-27",
+    "summary": "",
+    "tags": [
+      "NVIDIA"
+    ],
+    "topics": []
+  },
+  {
+    "id": "bf1298ca16af6aa2",
+    "title": "A Few Words Go a Long Way: Language Guided Robot Policy Synthesis",
+    "url": "https://arxiv.org/abs/2607.23784v1",
+    "source": "arXiv",
+    "date": "2026-07-26",
+    "summary": "While vision-language-action models have demonstrated impressive zero-shot manipulation capabilities, they remain fundamentally black box policies that are difficult to interpret, adapt, or correct when they inevitably fail. In this work, we propose ARCHITECT, a framework that t…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ]
+  },
+  {
+    "id": "3612d407f0f14338",
+    "title": "$N_0$-TWAM: Scaling Tactile-Native World-Action Model for Contact-Rich Manipulation",
+    "url": "https://arxiv.org/abs/2607.23783v1",
+    "source": "arXiv",
+    "date": "2026-07-26",
+    "summary": "We present $N_0$-TWAM, a tactile-native world-action model for contact-rich manipulation that predicts both future vision and future contact. To our knowledge, it is the first tactile world-action model trained at large scale, and it shows strong capability on contact-rich tasks…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "c953cd716761397a",
+    "title": "$N_0$-VTLA: Scaling Vision-Tactile-Language-Action Model with Latent Tactile Tokens",
+    "url": "https://arxiv.org/abs/2607.23782v1",
+    "source": "arXiv",
+    "date": "2026-07-26",
+    "summary": "We present $N_0$-VTLA, a vision-tactile-language-action (VTLA) foundation model capable of (1) fine-grained contact-rich manipulation with tactile perception and tactile-feedback control, and (2) offline policy improvement from stored deployment data. Building on current vision-…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "cd1cddef60074821",
+    "title": "LabRobFail: A Benchmark for Robotic Failure Analysis in Chemical Self-driving Laboratories",
+    "url": "https://arxiv.org/abs/2607.23704v1",
+    "source": "arXiv",
+    "date": "2026-07-26",
+    "summary": "The deployment of embodied agents in self-driving laboratories could accelerate scientific discovery, yet their reliability is constrained by the irreversible and safety-critical nature of chemical experiments. Progress is further hindered by scarce failure data and the lack of…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "40d2194bcf2ffb7a",
+    "title": "Try Once, Then Optimal: De-Redundified Procedure Memory for Cross-Episode Exploration Amortization",
+    "url": "https://arxiv.org/abs/2607.23702v1",
+    "source": "arXiv",
+    "date": "2026-07-26",
+    "summary": "Manipulating objects with hidden internal state, such as a latched microwave, forces a robot to probe before it can act. Yet a robot that has solved an instance once re-runs the same probes whenever it encounters that instance again, because existing cross-episode memories targe…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "9bfa2e289be3403c",
+    "title": "Anticipatory Risk-Guided Reinforcement Learning for Safe Flight Through Dynamic Clutter",
+    "url": "https://arxiv.org/abs/2607.23565v1",
+    "source": "arXiv",
+    "date": "2026-07-26",
+    "summary": "Safe quadrotor navigation in cluttered and dynamic environments depends not only on instantaneous geometric perception, but more critically on anticipating collision risks induced by relative motion. Conventional modular pipelines frequently suffer from perception latency, while…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "0fa10158f398f4b6",
+    "title": "LEACL: LLM-Enhanced Automatic Curriculum Learning for Reinforcement Learning in Long-Horizon Manipulation Tasks",
+    "url": "https://arxiv.org/abs/2607.23515v1",
+    "source": "arXiv",
+    "date": "2026-07-26",
+    "summary": "Long-horizon manipulation tasks pose significant challenges for reinforcement learning due to sparse reward signals and long horizons. Automatic curriculum learning (ACL) has been proposed to tackle these challenges by progressively training agents on a sequence of tasks, from e…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "1738830f0cbce6fc",
+    "title": "PRISM: Polynomial Representations for Interaction-Structured Motor Control",
+    "url": "https://arxiv.org/abs/2607.23473v1",
+    "source": "arXiv",
+    "date": "2026-07-26",
+    "summary": "Robot policies are typically MLPs mapping observations to actions. Yet robot observations are physical variables, and many action-relevant cues arise not from individual variables but from their interactions; power, inertial effects, contact, slip, and compliance depend on produ…",
+    "tags": [],
+    "topics": []
+  },
+  {
     "id": "0157439392619aa4",
     "title": "Magmotor makes motors for a changing world for 150+ years",
     "url": "https://www.therobotreport.com/magmotor-makes-motors-changing-world-150-years/",
@@ -25,7 +325,7 @@
     "url": "https://news.ycombinator.com/item?id=49061030",
     "source": "Hacker News",
     "date": "2026-07-26",
-    "summary": "2 points, https://news.ycombinator.com/item?id=49061030",
+    "summary": "3 points, https://news.ycombinator.com/item?id=49061030",
     "tags": [],
     "topics": []
   },
@@ -38,6 +338,66 @@
     "summary": "1 points, https://news.ycombinator.com/item?id=49058956",
     "tags": [],
     "topics": []
+  },
+  {
+    "id": "f7c7a80f6385c014",
+    "title": "Sling2Sim2Real: One-Shot Elastic System Identification for Non-Destructive Slingshot Policy Learning",
+    "url": "https://arxiv.org/abs/2607.23268v1",
+    "source": "arXiv",
+    "date": "2026-07-25",
+    "summary": "Elastic object manipulation (EOM) involves highdimensional, nonlinear, and elastic deformations. The diverse deformation properties of elastic objects substantially expand the relevant state space, requiring extensive exploration to learn accurate manipulation policies for tasks…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real"
+    ]
+  },
+  {
+    "id": "f58c6c576440dd7f",
+    "title": "The Curse of Precision: A Data Scaling Law for High-Precision Robotic Manipulation",
+    "url": "https://arxiv.org/abs/2607.23108v1",
+    "source": "arXiv",
+    "date": "2026-07-25",
+    "summary": "While scaling laws for imitation learning have primarily focused on generalization in open-world settings, the relationship between data and precision in closed-world tasks like robotic assembly remains largely unexplored. This paper systematically investigates this relationship…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "e36847cfc231f485",
+    "title": "WCM: World-Cognition Model for Generalizable Human-Robot Interaction",
+    "url": "https://arxiv.org/abs/2607.22999v1",
+    "source": "arXiv",
+    "date": "2026-07-25",
+    "summary": "Language agents can now interact fluently with users in software, but robots still struggle to bring comparable interaction to physical tasks. Current robot-control paradigms, including vision-language-action policies and world-model-based planners, are mainly optimized for inst…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ]
+  },
+  {
+    "id": "0aa2cedda8efcd0a",
+    "title": "Real2Sim2Real for Vision-Language-Action Manipulation: An AMD ROCm-Based Pipeline",
+    "url": "https://arxiv.org/abs/2607.22997v1",
+    "source": "arXiv",
+    "date": "2026-07-25",
+    "summary": "Physical AI -- the integration of large vision-language-action (VLA) models with embodied agents that act in the real world -- has emerged as the next major frontier for AI, echoed by industry leaders such as Jensen Huang (``the next big thing is Physical AI, AI with a body,'' G…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "仿真与Sim2Real"
+    ]
+  },
+  {
+    "id": "27cac67522618379",
+    "title": "Pose-Aware Modeling to Mitigate Pose-Related Artifacts in Tactile Gloves",
+    "url": "https://arxiv.org/abs/2607.22964v1",
+    "source": "arXiv",
+    "date": "2026-07-25",
+    "summary": "Tactile gloves digitize contact and force during hand-object interactions, enabling robotics applications in dexterous manipulation, teleoperation, and learning from demonstration. To preserve hand dexterity and capture the nuances of natural interactions, these gloves and the i…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ]
   },
   {
     "id": "e9ffdb016aa3ee20",
@@ -89,7 +449,7 @@
     "url": "https://github.com/SphericalCowww/CubicDoggo_06R",
     "source": "Hacker News",
     "date": "2026-07-25",
-    "summary": "2 points, https://news.ycombinator.com/item?id=49048024",
+    "summary": "3 points, https://news.ycombinator.com/item?id=49048024",
     "tags": [],
     "topics": [
       "移动与四足"
