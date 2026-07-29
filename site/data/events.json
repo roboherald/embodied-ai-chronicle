@@ -1,5 +1,223 @@
 [
   {
+    "id": "e0c0f703996268a0",
+    "title": "Trump administration bans new Chinese humanoid robots",
+    "url": "https://www.bbc.com/news/articles/cp9e2ex3ekyo",
+    "source": "Hacker News",
+    "date": "2026-07-29",
+    "summary": "15 points, https://news.ycombinator.com/item?id=49092538",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ]
+  },
+  {
+    "id": "83b67ae1bd309a43",
+    "title": "$π\\mathbf{R}^2$: Reactive Real-time Flow Policies",
+    "url": "https://arxiv.org/abs/2607.26055v1",
+    "source": "arXiv",
+    "date": "2026-07-28",
+    "summary": "Generalist manipulation policies increasingly take the form of action-chunking flow policies built on large pretrained backbones. Such chunks run open-loop, so the policy cannot react to sensory input arriving mid-execution, sacrificing \\emph{reactivity}. Replanning more often w…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "1a794248c1601e4d",
+    "title": "S2A2: Audio-Visual Imitation Learning for Manipulation Tasks Using Acoustic Spatial Information",
+    "url": "https://arxiv.org/abs/2607.26047v1",
+    "source": "arXiv",
+    "date": "2026-07-28",
+    "summary": "Acoustic information provides rich cues about object location, material properties, and changes caused by contact or motion. This paper introduces a new set of acoustic-aware manipulation tasks for imitation learning, in which robots must use auditory cues to determine manipulat…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "a8eb8cbaae3144b1",
+    "title": "DC-WAM: Dynamic-Centric Visual Supervision and Reasoning for World-Action Models",
+    "url": "https://arxiv.org/abs/2607.25918v1",
+    "source": "arXiv",
+    "date": "2026-07-28",
+    "summary": "World-Action Models (WAMs) augment robot policies with future visual prediction, but it remains unclear what the visual modality should learn for control. While photorealistic future prediction provides dense supervision, it also incurs substantial computation and can allocate c…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "d03bf2c0e65f49a2",
+    "title": "SAM3D-Guided Object-Centric Representation Alignment for Vision-Language-Action Models",
+    "url": "https://arxiv.org/abs/2607.25912v1",
+    "source": "arXiv",
+    "date": "2026-07-28",
+    "summary": "Vision-Language-Action (VLA) models have shown strong potential for general robot manipulation, but most existing models rely on 2D visual-language backbones and lack fine-grained 3D understanding of target objects, especially under occlusion, pose variation, scale changes, and…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ]
+  },
+  {
+    "id": "4d813e350039d2ae",
+    "title": "HiFi-UMI: Learning Deployable Manipulation Policies from High-Fidelity UMI Data Alone",
+    "url": "https://arxiv.org/abs/2607.25895v1",
+    "source": "arXiv",
+    "date": "2026-07-28",
+    "summary": "Learning deployable manipulation policies is bottlenecked by the scarcity of data that is both high-fidelity and scalable. Real-robot teleoperation is accurate but costly to scale; robot-free UMI capture scales readily, and current practice uses the resulting data mainly for pre…",
+    "tags": [],
+    "topics": [
+      "遥操作与数据采集"
+    ]
+  },
+  {
+    "id": "e9582be969b90665",
+    "title": "Modular Robotic Catheters for Endovascular Aneurysm Repair",
+    "url": "https://arxiv.org/abs/2607.25807v1",
+    "source": "arXiv",
+    "date": "2026-07-28",
+    "summary": "Fenestrated/Branched endovascular aneurysm repair (FEVAR/BEVAR) require surgeons to navigate catheters and guidewires into various branches of the abdominal aorta, before deploying stent grafts to alleviate pressure on the aneurysm. Previous clinical studies suggests that surgeo…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "1d394bc9068155bd",
+    "title": "Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-design",
+    "url": "https://arxiv.org/abs/2607.25798v1",
+    "source": "arXiv",
+    "date": "2026-07-28",
+    "summary": "An often overlooked factor of robot manipulation performance is the embodiment of the robot itself. Motivated by this problem, we study motion-conditioned robot co-design, where the goal is to generate complete robot designs that track target end-effector trajectories (from huma…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "d5b40776237746f6",
+    "title": "Tripody: An Overconstrained 3-SPR-like Parallel Robot for High-Reach Construction Tasks",
+    "url": "https://arxiv.org/abs/2607.25781v1",
+    "source": "arXiv",
+    "date": "2026-07-28",
+    "summary": "Many ceiling construction tasks still rely on heavy serial manipulators that are difficult to deploy in cluttered interiors, motivating lightweight, field-ready alternatives that reach ceiling height while maintaining millimeter-level accuracy and the stiffness demanded by overh…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "f4a76963aa0c1933",
+    "title": "Shared Voxel-Map-Based Cooperative Indoor UAV Guidance with a Multi-Agent Soft Actor-Critic Controller",
+    "url": "https://arxiv.org/abs/2607.25728v1",
+    "source": "arXiv",
+    "date": "2026-07-28",
+    "summary": "This paper presents a cooperative indoor UAV guidance framework that combines a shared voxel-map world model with a multi-agent Soft Actor-Critic (MASAC) controller. Multiple drones fuse 360 LiDAR observations into a common world-frame occupancy map, which is converted into a co…",
+    "tags": [],
+    "topics": [
+      "世界模型"
+    ]
+  },
+  {
+    "id": "54e397e0294b4093",
+    "title": "When Does Legacy Data Start to Help? Emergent Transfer in Cross-Configuration Robot Learning",
+    "url": "https://arxiv.org/abs/2607.25593v1",
+    "source": "arXiv",
+    "date": "2026-07-28",
+    "summary": "Robotic hardware evolves over time, but demonstration data is often tied to a specific sensor and actuator configuration. This raises a practical and underexplored question: when does legacy data begin to benefit an upgraded robot? We study this question on a wheeled humanoid pl…",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ]
+  },
+  {
+    "id": "4b8402f5ef383886",
+    "title": "P3: Probabilistic Policy Propagation for Stable VAE-Based Robot Learning",
+    "url": "https://arxiv.org/abs/2607.25541v1",
+    "source": "arXiv",
+    "date": "2026-07-28",
+    "summary": "Variational Autoencoders are widely used to encode high-dimensional and noisy observations in robotics. However, their stochastic latent creates a mismatch with Proximal Policy Optimization (PPO): an effective policy marginalizes over the latent distribution, whereas former impl…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "d16e92ea4378527f",
+    "title": "A Causality-aware Infer-diagnose-refine Framework for Test-time Modality Adaptation in VLA Models",
+    "url": "https://arxiv.org/abs/2607.25516v1",
+    "source": "arXiv",
+    "date": "2026-07-28",
+    "summary": "Vision-language-action (VLA) models predict sequential actions to execute tasks specified by language instructions, conditioned on visual observations and proprioceptive states. However, how to fuse modalities in VLA models remains an open problem, since robot manipulation invol…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ]
+  },
+  {
+    "id": "e712c0fcf1880e12",
+    "title": "Decompose and Reorganize: Planning with Primitives and Visuomotor Policies Learned from Demonstrations",
+    "url": "https://arxiv.org/abs/2607.25397v1",
+    "source": "arXiv",
+    "date": "2026-07-28",
+    "summary": "Successfully automating dexterous, long-horizon robotic manipulation requires frameworks capable of both high-level reasoning and fine-grained execution. Traditional task and motion planning (TAMP), while excellent at symbolic planning, is often brittle in contact-rich operation…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ]
+  },
+  {
+    "id": "c3f88511964c4592",
+    "title": "Registration is open for RoboBusiness 2026",
+    "url": "https://www.therobotreport.com/registration-is-open-for-robobusiness-2026/",
+    "source": "The Robot Report",
+    "date": "2026-07-28",
+    "summary": "This year, join us in October in Santa Clara to celebrate 20 years of robotics excellence at RoboBusiness 2026. The post Registration is open for RoboBusiness 2026 appeared first on The Robot Report .",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "52b281a314d1dd1e",
+    "title": "ENvue Medical develops robotic feeding tube placement system",
+    "url": "https://www.therobotreport.com/envue-medical-develops-robotic-feeding-tube-placement-system/",
+    "source": "The Robot Report",
+    "date": "2026-07-28",
+    "summary": "ENvue Drive is designed to assist, not replace, the clinician, who retains full control of the procedure at all times. The post ENvue Medical develops robotic feeding tube placement system appeared first on The Robot Report .",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "09990ee8a17d64b2",
+    "title": "Agency Tool Company wants to make OTA software updates easier",
+    "url": "https://www.therobotreport.com/agency-tool-company-wants-to-make-ota-software-updates-easier/",
+    "source": "The Robot Report",
+    "date": "2026-07-28",
+    "summary": "Two Scythe co-founders are using their experience building commercial robots to create tools for robotics developers at Agency Tool Co. The post Agency Tool Company wants to make OTA software updates easier appeared first on The Robot Report .",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "2e84460704212907",
+    "title": "How integrated actuators improve humanoid robot joint performance and system integration",
+    "url": "https://www.therobotreport.com/how-integrated-actuators-improve-humanoid-robot-joint-performance-and-system-integration/",
+    "source": "The Robot Report",
+    "date": "2026-07-28",
+    "summary": "Humanoid robots have become an important area of research in robotics, attracting attention from universities, research institutions, and technology companies. The post How integrated actuators improve humanoid robot joint performance and system integration appeared first on The…",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ]
+  },
+  {
+    "id": "ba395a69d6e82014",
+    "title": "Robot Finger Feels in Color",
+    "url": "https://spectrum.ieee.org/robot-finger",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-07-28",
+    "summary": "Imagine running your fingertip over the surface of a U.S. penny. You would feel the ridges of the raised letters and numbers, Abe Lincoln’s bearded side profile, and, if it’s tails, the fluted columns of the Lincoln Memorial. Getting a robot to sense the same things is an imposi…",
+    "tags": [],
+    "topics": []
+  },
+  {
+    "id": "2d2cd8dee5275bfb",
+    "title": "Trump administration to ban new Chinese humanoid robots",
+    "url": "https://www.reuters.com/world/trump-administration-ban-new-chinese-robots-inverters-protecting-us-ai-buildout-2026-07-28/",
+    "source": "Hacker News",
+    "date": "2026-07-28",
+    "summary": "16 points, https://news.ycombinator.com/item?id=49089418",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ]
+  },
+  {
     "id": "7d833695ab1ef255",
     "title": "Data Pyramid for Embodied Manipulation",
     "url": "https://arxiv.org/abs/2607.24744v1",
@@ -186,6 +404,16 @@
     ]
   },
   {
+    "id": "36f421266898f10c",
+    "title": "Reactive 3D Motion Planning for a Franka Arm via Star-World Workspace Reshaping",
+    "url": "https://arxiv.org/abs/2607.25138v1",
+    "source": "arXiv",
+    "date": "2026-07-27",
+    "summary": "Safety inflation can cause nearby obstacles to overlap, violating the disjoint-obstacle assumptions used by many modulation-based reactive planners. We investigate Star-World workspace reshaping for three-dimensional reactive control of a Franka Emika Panda manipulator. At each…",
+    "tags": [],
+    "topics": []
+  },
+  {
     "id": "99b0ac116d8638db",
     "title": "NORD expands compact NORDAC VFD family to 200 hp",
     "url": "https://www.therobotreport.com/nord-expands-nordac-compact-vfd-family-to-200-hp/",
@@ -335,7 +563,7 @@
     "url": "https://news.ycombinator.com/item?id=49058956",
     "source": "Hacker News",
     "date": "2026-07-26",
-    "summary": "1 points, https://news.ycombinator.com/item?id=49058956",
+    "summary": "17 points, https://news.ycombinator.com/item?id=49058956",
     "tags": [],
     "topics": []
   },
@@ -2988,6 +3216,16 @@
     "topics": []
   },
   {
+    "id": "1f044e1aabe9db4c",
+    "title": "Embodied Cognition and Agentic AI",
+    "url": "https://lemire.me/blog/2026/05/28/embodied-cognition-and-agentic-ai/",
+    "source": "Hacker News",
+    "date": "2026-06-04",
+    "summary": "1 points, https://news.ycombinator.com/item?id=48394638",
+    "tags": [],
+    "topics": []
+  },
+  {
     "id": "68507e5d907fcda6",
     "title": "Qwen-VLA: Vision-Language-Action Modeling Across Tasks, Environments, and Robots",
     "url": "https://www.dcard.tw/f/relationship/p/255790583?cid=d3500548-d505-400c-8906-1449999188de",
@@ -3018,16 +3256,6 @@
     "source": "IEEE Spectrum Robotics",
     "date": "2026-05-29",
     "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. ICRA 2026 : 1–5 June 2026, VIENNA…",
-    "tags": [],
-    "topics": []
-  },
-  {
-    "id": "1f044e1aabe9db4c",
-    "title": "Embodied Cognition and Agentic AI",
-    "url": "https://lemire.me/blog/2026/05/28/embodied-cognition-and-agentic-ai/",
-    "source": "Hacker News",
-    "date": "2026-05-29",
-    "summary": "4 points, https://news.ycombinator.com/item?id=48325218",
     "tags": [],
     "topics": []
   },
