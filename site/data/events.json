@@ -4371,13 +4371,11 @@
     "id": "b0ce4fdc4c7eb432",
     "title": "Building a Foundation Stack for General-Purpose Robots",
     "url": "https://spectrum.ieee.org/x-square-robot-embodied-ai-stack",
-    "source": "IEEE Spectrum Robotics",
+    "source": "Hacker News",
     "date": "2026-07-13",
-    "summary": "This article is brought to you by X Square Robot . Large language models gave artificial intelligence a working recipe. Pretrain a large model on broad data, and general capability follows. Robotics has no such recipe. Robotics systems have long been assembled from separate perc…",
+    "summary": "1 points, https://news.ycombinator.com/item?id=48895121",
     "tags": [],
-    "topics": [
-      "VLA与基础模型"
-    ],
+    "topics": [],
     "kinds": []
   },
   {
@@ -5011,17 +5009,6 @@
     ]
   },
   {
-    "id": "1f044e1aabe9db4c",
-    "title": "Embodied Cognition and Agentic AI",
-    "url": "https://lemire.me/blog/2026/05/28/embodied-cognition-and-agentic-ai/",
-    "source": "Hacker News",
-    "date": "2026-06-04",
-    "summary": "1 points, https://news.ycombinator.com/item?id=48394638",
-    "tags": [],
-    "topics": [],
-    "kinds": []
-  },
-  {
     "id": "68507e5d907fcda6",
     "title": "Qwen-VLA: Vision-Language-Action Modeling Across Tasks, Environments, and Robots",
     "url": "https://www.dcard.tw/f/relationship/p/255790583?cid=d3500548-d505-400c-8906-1449999188de",
@@ -5078,6 +5065,17 @@
     "source": "IEEE Spectrum Robotics",
     "date": "2026-05-29",
     "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. ICRA 2026 : 1–5 June 2026, VIENNA…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "1f044e1aabe9db4c",
+    "title": "Embodied Cognition and Agentic AI",
+    "url": "https://lemire.me/blog/2026/05/28/embodied-cognition-and-agentic-ai/",
+    "source": "Hacker News",
+    "date": "2026-05-29",
+    "summary": "4 points, https://news.ycombinator.com/item?id=48325218",
     "tags": [],
     "topics": [],
     "kinds": []
