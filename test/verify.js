@@ -1,0 +1,154 @@
+// 无头验证：用 jsdom 真正加载 index.html + app.js，断言渲染结果与交互行为。
+// 这个环境没有浏览器，之前所有 UI 改动都只能靠"看代码觉得对"，这个脚本把它变成可验证的。
+const fs = require("fs");
+const path = require("path");
+const { JSDOM, VirtualConsole } = require("/tmp/domtest/node_modules/jsdom");
+
+const SITE = path.join(__dirname, "..", "site");
+const results = { pass: 0, fail: 0, errors: [] };
+
+function check(name, cond, detail = "") {
+  if (cond) {
+    results.pass++;
+    console.log(`  ✓ ${name}`);
+  } else {
+    results.fail++;
+    results.errors.push(`${name}${detail ? " — " + detail : ""}`);
+    console.log(`  ✗ ${name}${detail ? " — " + detail : ""}`);
+  }
+}
+
+async function boot() {
+  const html = fs.readFileSync(path.join(SITE, "index.html"), "utf8");
+  const events = fs.readFileSync(path.join(SITE, "data/events.json"), "utf8");
+  const milestones = fs.readFileSync(path.join(SITE, "data/milestones.json"), "utf8");
+
+  const virtualConsole = new VirtualConsole();
+  const consoleErrors = [];
+  virtualConsole.on("jsdomError", (e) => consoleErrors.push(e.message));
+  virtualConsole.on("error", (...a) => consoleErrors.push(a.join(" ")));
+
+  const dom = new JSDOM(html, {
+    runScripts: "outside-only",
+    url: "https://roboherald.github.io/embodied-ai-chronicle/",
+    virtualConsole,
+  });
+  const { window } = dom;
+
+  // stub 掉网络：events/milestones 用本地文件，点赞接口一律失败（模拟被墙）
+  window.fetch = (url) => {
+    const u = String(url);
+    if (u.includes("events.json")) return Promise.resolve(mkRes(events));
+    if (u.includes("milestones.json")) return Promise.resolve(mkRes(milestones));
+    return Promise.reject(new Error("network blocked (simulated)"));
+  };
+  function mkRes(text) {
+    return { ok: true, status: 200, json: () => Promise.resolve(JSON.parse(text)), text: () => Promise.resolve(text) };
+  }
+  window.matchMedia = window.matchMedia || (() => ({ matches: false, addListener() {}, removeListener() {} }));
+  // jsdom 没实现 scrollIntoView
+  window.Element.prototype.scrollIntoView = function () {};
+
+  const appJs = fs.readFileSync(path.join(SITE, "app.js"), "utf8");
+  window.eval(appJs);
+  window.document.dispatchEvent(new window.Event("DOMContentLoaded", { bubbles: true }));
+
+  // 等待 init() 的 async 链跑完
+  await new Promise((r) => setTimeout(r, 300));
+
+  return { window, doc: window.document, consoleErrors };
+}
+
+(async () => {
+  const { window, doc, consoleErrors } = await boot();
+  const $ = (s) => doc.querySelector(s);
+  const $$ = (s) => [...doc.querySelectorAll(s)];
+
+  console.log("\n[1] 页面无脚本错误");
+  check("没有 JS 运行时错误", consoleErrors.length === 0, consoleErrors.slice(0, 3).join(" | "));
+
+  console.log("\n[2] 基础渲染");
+  check("新闻卡片已渲染", $$("#timeline .card").length > 0, `实际 ${$$("#timeline .card").length} 张`);
+  check("统计块已渲染", $$("#stats .stat-tile").length > 0);
+  check("来源筛选已渲染", $$("#source-filters .chip").length > 0);
+  check("研究方向筛选已渲染", $$("#topic-filters .chip").length > 0);
+
+  console.log("\n[3] 标签页切换");
+  const tabs = $$(".tab");
+  check("有 3 个标签页", tabs.length === 3, `实际 ${tabs.length}`);
+  const topicsTab = tabs.find((t) => t.dataset.tab === "topics");
+  topicsTab.dispatchEvent(new window.Event("click", { bubbles: true }));
+  check("点研究方向后该面板显示", !$('[data-panel="topics"]').hidden);
+  check("点研究方向后最新面板隐藏", $('[data-panel="latest"]').hidden);
+
+  console.log("\n[4] 方向×年份矩阵");
+  const grid = $(".topic-grid");
+  check("矩阵已渲染", !!grid);
+  check("有方向标签", $$(".topic-grid-label").length === 7, `实际 ${$$(".topic-grid-label").length}`);
+  check("有年份表头", $$(".topic-grid-year-head").length > 1);
+  check("有里程碑圆点", $$(".topic-grid-dot").length > 0, `实际 ${$$(".topic-grid-dot").length}`);
+  check("有近况列", $$(".topic-grid-recent").length === 7);
+
+  console.log("\n[5] 弹窗打开/关闭（之前的 bug 就在这）");
+  $$(".topic-grid-label")[0].dispatchEvent(new window.Event("click", { bubbles: true }));
+  const backdrop = $(".topic-modal-backdrop");
+  check("弹窗已打开", backdrop && !backdrop.hidden);
+  check("弹窗有里程碑卡片", $$(".milestone-card").length > 0, `实际 ${$$(".milestone-card").length}`);
+  check("弹窗有年份分段", $$(".milestone-year-head").length > 0);
+
+  const closeBtn = [...doc.querySelectorAll(".topic-modal-actions .text-btn")].find((b) =>
+    b.textContent.includes("关闭")
+  );
+  check("找得到关闭按钮", !!closeBtn);
+  closeBtn.dispatchEvent(new window.Event("click", { bubbles: true }));
+  check("关闭按钮能真正关掉弹窗", backdrop.hidden === true);
+
+  // Esc 关闭
+  $$(".topic-grid-label")[0].dispatchEvent(new window.Event("click", { bubbles: true }));
+  const esc = new window.KeyboardEvent("keydown", { key: "Escape", bubbles: true });
+  doc.dispatchEvent(esc);
+  check("Esc 也能关掉弹窗", backdrop.hidden === true);
+
+  console.log("\n[6] 筛选");
+  const latestTab = tabs.find((t) => t.dataset.tab === "latest");
+  latestTab.dispatchEvent(new window.Event("click", { bubbles: true }));
+  const before = $$("#timeline .card").length;
+  const search = $("#search");
+  search.value = "humanoid";
+  search.dispatchEvent(new window.Event("input", { bubbles: true }));
+  const after = $$("#timeline .card").length;
+  check("搜索能过滤结果", after > 0 && after < before, `${before} → ${after}`);
+  search.value = "";
+  search.dispatchEvent(new window.Event("input", { bubbles: true }));
+  check("清空搜索能恢复", $$("#timeline .card").length === before);
+
+  console.log("\n[7] 点赞失败时的表现（模拟被墙）");
+  const likeBtn = $("#timeline .card .icon-btn[data-id]");
+  check("找得到点赞按钮", !!likeBtn);
+  const countEl = likeBtn.querySelector(".count");
+  const before2 = countEl.textContent;
+  likeBtn.dispatchEvent(new window.Event("click", { bubbles: true }));
+  check("点击后乐观更新数字", countEl.textContent !== before2, `${before2} → ${countEl.textContent}`);
+  await new Promise((r) => setTimeout(r, 100));
+  check("失败后回滚数字", countEl.textContent === before2, `回到 ${countEl.textContent}`);
+  check("失败后有可见的错误提示", likeBtn.classList.contains("like-error"));
+
+  console.log("\n[8] 表格视图（无障碍备选）");
+  topicsTab.dispatchEvent(new window.Event("click", { bubbles: true }));
+  $("#topic-timeline-table-toggle").dispatchEvent(new window.Event("click", { bubbles: true }));
+  check("表格视图能显示", !$("#topic-timeline-table").hidden);
+  check("表格里有里程碑行", $$("#topic-timeline-table table").length >= 1);
+
+  console.log(`\n${"=".repeat(50)}`);
+  console.log(`通过 ${results.pass} / 失败 ${results.fail}`);
+  if (results.fail) {
+    console.log("\n失败项:");
+    results.errors.forEach((e) => console.log("  - " + e));
+    process.exit(1);
+  }
+  console.log("全部通过");
+})().catch((e) => {
+  console.error("\n验证脚本自身出错:", e.message);
+  console.error(e.stack.split("\n").slice(0, 5).join("\n"));
+  process.exit(2);
+});
