@@ -152,6 +152,11 @@ body {
   flex-wrap: wrap;
 }
 
+/* 同上：display:flex 会盖过 [hidden]，#tag-row 靠 hidden 切换显隐 */
+.filter-row[hidden] {
+  display: none;
+}
+
 .filter-label {
   font-size: 0.78rem;
   color: var(--text-muted);
@@ -844,6 +849,11 @@ body {
   align-items: center;
   justify-content: center;
   padding: 20px;
+}
+
+/* display:flex 会盖过浏览器默认的 [hidden]{display:none}，必须显式覆盖，否则关不掉 */
+.topic-modal-backdrop[hidden] {
+  display: none;
 }
 
 .topic-modal-panel {
