@@ -1,12 +1,16 @@
+// 8 个槽位是调色板上限（已过色盲/对比度校验），不能再加第 9 个颜色。
+// 超出的来源走 FALLBACK_COLOR 灰色（dataviz 规范里的「其它」处理）。
+// Boston Dynamics 的 feed 已空、The Robot Report 全 UA 403，两个槽位让给
+// 实际在产出的来源；它们的历史条目会落到灰色，符合「尾部归入其它」。
 const SOURCE_COLORS = {
   "arXiv": "#3987e5",
-  "Boston Dynamics": "#008300",
+  "量子位": "#008300",
   "Google DeepMind": "#d55181",
   "Hacker News": "#c98500",
   "Hugging Face Blog": "#199e70",
   "IEEE Spectrum Robotics": "#d95926",
   "NVIDIA Blog": "#9085e9",
-  "The Robot Report": "#e66767",
+  "TechCrunch Robotics": "#e66767",
 };
 const FALLBACK_COLOR = "#898781";
 
@@ -91,6 +95,7 @@ const state = {
   companyMode: null,
   topicMode: null,
   milestones: [],
+  health: null,
   activeTab: "latest",
 };
 
@@ -107,8 +112,16 @@ async function init() {
     state.milestones = [];
   }
 
+  try {
+    const hRes = await fetch("data/health.json", { cache: "no-store" });
+    state.health = await hRes.json();
+  } catch {
+    state.health = null;
+  }
+
   applyHashRoute();
   renderStats();
+  renderSourceHealth();
   renderRangeFilters();
   renderSourceFilters();
   renderTopicFilters();
@@ -338,13 +351,15 @@ function renderHotList() {
 function renderStats() {
   const total = state.events.length;
   const sourceCount = new Set(state.events.map((e) => e.source)).size;
-  const taggedCompanies = new Set(state.events.flatMap((e) => e.tags || [])).size;
+  // 原来这里是「追踪到的公司/机构」，但 60% 内容来自 arXiv、摘要里不写机构名，
+  // 这个数字长期接近 0，属于误导。换成真正有信息量的里程碑数。
+  const milestoneCount = state.milestones.length;
   const latest = state.events.length ? state.events[0].date : "—";
 
   const tiles = [
     { value: total, label: "总条目数" },
     { value: sourceCount, label: "覆盖来源" },
-    { value: taggedCompanies, label: "追踪到的公司/机构" },
+    { value: milestoneCount, label: "收录里程碑" },
     { value: latest, label: "最新更新日期" },
   ];
 
@@ -356,6 +371,20 @@ function renderStats() {
     tile.innerHTML = `<div class="value">${t.value}</div><div class="label">${t.label}</div>`;
     wrap.appendChild(tile);
   }
+}
+
+// 数据源失效过一次都没被发现（The Robot Report 突然 403，站点默默少一个来源）。
+// 把健康状况显式摆出来，坏了要看得见。
+function renderSourceHealth() {
+  const el = document.getElementById("source-health");
+  if (!el) return;
+  const dead = state.health?.dead || [];
+  if (!dead.length) {
+    el.hidden = true;
+    return;
+  }
+  el.hidden = false;
+  el.textContent = `⚠️ 数据源异常：${dead.join("、")} 最近一次抓取没有返回任何内容，可能已失效。`;
 }
 
 function renderRangeFilters() {

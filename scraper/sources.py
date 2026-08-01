@@ -8,13 +8,33 @@ ARXIV_QUERY = (
 ARXIV_MAX_RESULTS = 30
 
 # RSS/Atom 均为 RSS 2.0 结构，无需额外鉴权
+# filter_zh=True 的源用中文关键词过滤，且只匹配标题——这些站的 description 是
+# 全文正文，拿正文匹配会把「Claude 聊天记录泄露」这类误判成机器人新闻。
 RSS_FEEDS = [
     {"name": "Boston Dynamics", "url": "https://bostondynamics.com/feed/", "filter": False},
-    {"name": "The Robot Report", "url": "https://www.therobotreport.com/feed/", "filter": False},
+    # The Robot Report 自 2026-08 起对所有 UA 返回 403（换浏览器 UA 也不行），
+    # 暂时下线。它原本是最大的非 arXiv 来源，用 TechCrunch Robotics 顶替产业新闻缺口。
+    # {"name": "The Robot Report", "url": "https://www.therobotreport.com/feed/", "filter": False},
+    {"name": "TechCrunch Robotics", "url": "https://techcrunch.com/category/robotics/feed/", "filter": False},
     {"name": "IEEE Spectrum Robotics", "url": "https://spectrum.ieee.org/feeds/topic/robotics.rss", "filter": False},
     {"name": "Google DeepMind", "url": "https://deepmind.google/blog/rss.xml", "filter": True},
     {"name": "NVIDIA Blog", "url": "https://blogs.nvidia.com/feed/", "filter": True},
     {"name": "Hugging Face Blog", "url": "https://huggingface.co/blog/feed.xml", "filter": True},
+    # 量子位「具身智能」tag：实测 100% 对口、当天更新，不需要过滤。
+    # 带 cache-busting 参数是保险措施（该站曾被观察到返回陈旧缓存副本）。
+    {
+        "name": "量子位",
+        "url": "https://www.qbitai.com/tag/具身智能/feed",
+        "filter": False,
+        "cache_bust": True,
+    },
+    # 雷峰网全站噪声极大（实测 12 条标题 0 条机器人内容），必须开中文标题过滤
+    {
+        "name": "雷峰网",
+        "url": "https://www.leiphone.com/feed",
+        "filter": False,
+        "filter_zh": True,
+    },
 ]
 
 # filter=True 的源内容比较杂（不止讲机器人），标题+摘要要命中下面关键词才收录
@@ -22,6 +42,19 @@ KEYWORDS = [
     "embodied", "humanoid", "robot", "robotics", "manipulation", "locomotion",
     "vision-language-action", "vla", "dexterous", "quadruped", "bipedal",
     "teleoperation", "sim-to-real", "world model",
+]
+
+# filter_zh=True 的中文源用这套关键词，只匹配标题。
+# 除了通用术语，还要放国内机器人公司名——实测「宇树科技员工认购IPO」这类
+# 明显相关的新闻，只靠通用词会被漏掉。
+KEYWORDS_ZH = [
+    "机器人", "具身", "人形", "四足", "机械臂", "灵巧手", "遥操作",
+    "世界模型", "仿真", "自动驾驶", "无人机", "机器狗",
+    "vla", "embodied",
+    # 术语
+    "物理智能", "实体智能", "操作数据", "数据引擎", "动捕", "仿生",
+    # 国内厂商
+    "宇树", "智元", "银河通用", "傅利叶", "优必选", "云深处", "众擎", "星动纪元",
 ]
 
 HN_QUERIES = ["humanoid robot", "embodied AI", "robot learning", "vision language action"]

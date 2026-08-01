@@ -17,6 +17,7 @@ import sources
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_PATH = ROOT / "site" / "data" / "events.json"
+HEALTH_PATH = ROOT / "site" / "data" / "health.json"
 TIMEOUT = 20
 HEADERS = {"User-Agent": "embodied-ai-chronicle/0.1 (personal news aggregator)"}
 SITE_URL = "https://roboherald.github.io/embodied-ai-chronicle/"
@@ -93,6 +94,12 @@ def matches_keywords(*texts):
     return any(kw in joined for kw in sources.KEYWORDS)
 
 
+def matches_keywords_zh(title):
+    """中文源只用标题匹配：这些站的 description 是全文正文，用它会大量误判。"""
+    low = title.lower()
+    return any(kw in low for kw in sources.KEYWORDS_ZH)
+
+
 def tag_entities(*texts):
     joined = " ".join(texts).lower()
     return sorted(
@@ -120,10 +127,25 @@ def tag_kinds(*texts):
     )
 
 
+DATE_FORMATS = [
+    "%a, %d %b %Y %H:%M:%S %z",
+    "%a, %d %b %Y %H:%M:%S %Z",
+    # 36氪等国内源用这种格式，注意时间和时区之间是两个空格；
+    # 解析失败会让条目被静默丢弃，所以两种空格数都列上。
+    "%Y-%m-%d %H:%M:%S  %z",
+    "%Y-%m-%d %H:%M:%S %z",
+]
+
+
 def fetch_rss(feed):
     print(f"[rss] fetching {feed['name']}...", file=sys.stderr)
+    url = feed["url"]
+    if feed.get("cache_bust"):
+        # 该站曾被观察到对同一 URL 返回陈旧缓存副本，加个变化参数绕开
+        sep = "&" if "?" in url else "?"
+        url = f"{url}{sep}_={datetime.now(timezone.utc).strftime('%Y%m%d%H%M')}"
     try:
-        resp = requests.get(feed["url"], headers=HEADERS, timeout=TIMEOUT)
+        resp = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
         resp.raise_for_status()
         root = ET.fromstring(resp.content)
     except Exception as exc:  # noqa: BLE001 - one bad feed shouldn't kill the run
@@ -131,27 +153,37 @@ def fetch_rss(feed):
         return []
 
     events = []
+    skipped_date = 0
     for item in root.findall(".//item"):
         title = item.findtext("title", default="")
-        url = item.findtext("link", default="")
+        url_item = item.findtext("link", default="")
         pub_date = item.findtext("pubDate", default="")
         description = item.findtext("description", default="")
-        if not url:
+        if not url_item:
             continue
         if feed.get("filter") and not matches_keywords(title, description):
             continue
-        date = to_date(pub_date, ["%a, %d %b %Y %H:%M:%S %z", "%a, %d %b %Y %H:%M:%S %Z"])
+        if feed.get("filter_zh") and not matches_keywords_zh(title):
+            continue
+        date = to_date(pub_date, DATE_FORMATS)
         if not date:
+            skipped_date += 1
             continue
         events.append(
             {
-                "id": make_id(url),
+                "id": make_id(url_item),
                 "title": clean_text(title, 200),
-                "url": url,
+                "url": url_item,
                 "source": feed["name"],
                 "date": date,
                 "summary": clean_text(description),
             }
+        )
+    if skipped_date:
+        # 静默丢弃过是个真实事故（36氪日期格式没被识别），出现就报出来
+        print(
+            f"[rss] {feed['name']}: WARNING {skipped_date} 条因日期无法解析被丢弃",
+            file=sys.stderr,
         )
     print(f"[rss] {feed['name']}: {len(events)} matched", file=sys.stderr)
     return events
@@ -227,10 +259,26 @@ def notify_feishu(new_items):
 
 
 def main():
+    # 抓取源静默失效过（The Robot Report 突然返回 403，站点默默少一个来源），
+    # 所以记录每个源的产出并在最后汇总告警，而不是只往 stderr 打一行就算了。
+    health = {}
+
     fresh = fetch_arxiv()
+    health["arXiv"] = len(fresh)
     for feed in sources.RSS_FEEDS:
-        fresh.extend(fetch_rss(feed))
-    fresh.extend(fetch_hn())
+        got = fetch_rss(feed)
+        health[feed["name"]] = len(got)
+        fresh.extend(got)
+    hn = fetch_hn()
+    health["Hacker News"] = len(hn)
+    fresh.extend(hn)
+
+    dead = [name for name, n in health.items() if n == 0]
+    if dead:
+        print(
+            f"[health] WARNING 本次 0 产出的来源: {', '.join(dead)}",
+            file=sys.stderr,
+        )
 
     existing = load_existing()
     by_id = {e["id"]: e for e in existing}
@@ -249,6 +297,20 @@ def main():
         e["topics"] = tag_topics(e["title"], e["summary"])
         e["kinds"] = tag_kinds(e["title"], e["summary"])
     merged.sort(key=lambda e: (e["date"], e["source"]), reverse=True)
+
+    # 把健康状况写成文件，前端可以展示「数据源状态」，让失效可见而不是悄悄消失
+    HEALTH_PATH.write_text(
+        json.dumps(
+            {
+                "updated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                "sources": health,
+                "dead": dead,
+            },
+            ensure_ascii=False,
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
 
     DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
     DATA_PATH.write_text(json.dumps(merged, ensure_ascii=False, indent=2), encoding="utf-8")

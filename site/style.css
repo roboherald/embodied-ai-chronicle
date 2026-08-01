@@ -79,6 +79,16 @@ body {
   padding: 20px;
 }
 
+.source-health {
+  margin: 10px 0 0;
+  padding: 8px 12px;
+  border-radius: var(--radius);
+  border: 1px solid rgba(229, 72, 77, 0.4);
+  background: rgba(229, 72, 77, 0.1);
+  color: #f0a0a2;
+  font-size: 0.78rem;
+}
+
 .tabs {
   position: sticky;
   top: 0;

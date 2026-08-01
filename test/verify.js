@@ -22,6 +22,9 @@ async function boot() {
   const html = fs.readFileSync(path.join(SITE, "index.html"), "utf8");
   const events = fs.readFileSync(path.join(SITE, "data/events.json"), "utf8");
   const milestones = fs.readFileSync(path.join(SITE, "data/milestones.json"), "utf8");
+  const health = fs.existsSync(path.join(SITE, "data/health.json"))
+    ? fs.readFileSync(path.join(SITE, "data/health.json"), "utf8")
+    : '{"sources":{},"dead":[]}';
 
   const virtualConsole = new VirtualConsole();
   const consoleErrors = [];
@@ -40,6 +43,7 @@ async function boot() {
     const u = String(url);
     if (u.includes("events.json")) return Promise.resolve(mkRes(events));
     if (u.includes("milestones.json")) return Promise.resolve(mkRes(milestones));
+    if (u.includes("health.json")) return Promise.resolve(mkRes(health));
     return Promise.reject(new Error("network blocked (simulated)"));
   };
   function mkRes(text) {
@@ -56,11 +60,11 @@ async function boot() {
   // 等待 init() 的 async 链跑完
   await new Promise((r) => setTimeout(r, 300));
 
-  return { window, doc: window.document, consoleErrors };
+  return { window, doc: window.document, consoleErrors, health };
 }
 
 (async () => {
-  const { window, doc, consoleErrors } = await boot();
+  const { window, doc, consoleErrors, health } = await boot();
   const $ = (s) => doc.querySelector(s);
   const $$ = (s) => [...doc.querySelectorAll(s)];
 
@@ -148,7 +152,18 @@ async function boot() {
   check("再点一次能取消", $$("#timeline .card").length === cardsBefore);
   check("卡片上渲染了类型标签", $$(".kind-pill").length > 0);
 
-  console.log("\n[9] 表格视图（无障碍备选）");
+  console.log("\n[9] 数据源健康告警");
+  const healthEl = $("#source-health");
+  const deadList = JSON.parse(health).dead || [];
+  check("健康提示元素存在", !!healthEl);
+  if (deadList.length) {
+    check("有失效源时显示告警", !healthEl.hidden);
+    check("告警里点名了失效源", healthEl.textContent.includes(deadList[0]), healthEl.textContent);
+  } else {
+    check("无失效源时不显示告警", healthEl.hidden);
+  }
+
+  console.log("\n[10] 表格视图（无障碍备选）");
   topicsTab.dispatchEvent(new window.Event("click", { bubbles: true }));
   $("#topic-timeline-table-toggle").dispatchEvent(new window.Event("click", { bubbles: true }));
   check("表格视图能显示", !$("#topic-timeline-table").hidden);

@@ -1,0 +1,18 @@
+{
+  "updated": "2026-08-01T16:06:21+00:00",
+  "sources": {
+    "arXiv": 30,
+    "Boston Dynamics": 0,
+    "TechCrunch Robotics": 20,
+    "IEEE Spectrum Robotics": 30,
+    "Google DeepMind": 8,
+    "NVIDIA Blog": 4,
+    "Hugging Face Blog": 21,
+    "量子位": 10,
+    "雷峰网": 2,
+    "Hacker News": 30
+  },
+  "dead": [
+    "Boston Dynamics"
+  ]
+}

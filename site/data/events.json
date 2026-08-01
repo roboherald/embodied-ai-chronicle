@@ -1,5 +1,16 @@
 [
   {
+    "id": "fdd9cfe72d0e4316",
+    "title": "「天线宝宝」机器人上门做保洁，200元/小时，纯·人工·智能",
+    "url": "https://www.qbitai.com/2026/08/464781.html",
+    "source": "量子位",
+    "date": "2026-08-01",
+    "summary": "具身智能的τ（bushi）",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
     "id": "bb92f27f0ef9a64f",
     "title": "Top 10 robotics stories of July 2026",
     "url": "https://www.therobotreport.com/top-10-robotics-stories-july-2026/",
@@ -7,6 +18,32 @@
     "date": "2026-08-01",
     "summary": "In July, large funding rounds, new approaches to robot training, and new robot models drew our readers attention. The post Top 10 robotics stories of July 2026 appeared first on The Robot Report .",
     "tags": [],
+    "topics": [],
+    "kinds": [
+      "产业动态"
+    ]
+  },
+  {
+    "id": "af426667229c4552",
+    "title": "200个任务、1700万帧！大晓ACE-Data-0把真实家庭场景变成物理智能「数据引擎」",
+    "url": "https://www.leiphone.com/category/ai/KVck4bU07Fp4MMu8.html",
+    "source": "雷峰网",
+    "date": "2026-07-31",
+    "summary": "近日，基于全球首创的具身模型信息密度定律与以人为中心的环境式数据采集方案2.0，并依托环境式采集引擎ACE，大晓机器人联合南洋理工大学 S-Lab 重磅开源 L5 级多模态具身物理智能数据集 ACE-Data-0。通过对真实物理交互、长程任务过程与多模态因果信号的高保真采集和高精度标注，ACE-Data-0 为全球具身模型提供面向泛化、反思与进化的高质量数据底座，推动通用物理智能加速跨越实验验证，走向规模化产业落地。 具身数据的价值不在于规模堆叠，而在于能否高密度记录那些真正改变行动结果的信息；在这一定律下，L1-L2 级数据仅能支撑基础预训练，L3-…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "2ae678e03d9a0613",
+    "title": "8月10日申购！宇树科技171名员工掏2.7亿认购IPO，王兴兴自掏1500万；字节成立新的豆包产品团队；初代员工可得15万！影视飓风发全员激励金",
+    "url": "https://www.leiphone.com/category/zaobao/YzTyGcv2y8Zuau6I.html",
+    "source": "雷峰网",
+    "date": "2026-07-31",
+    "summary": "要闻提示 1.1.5万机票仅退400多元，携程“天价退票费”最新进展：全额退还 2.8月10日申购！宇树科技171名员工掏2.7亿认购IPO，王兴兴自掏1500万 3.字节跳动To B战略升级：豆包、飞书、火山引擎组织调整，聚焦AI企业服务 4.市占约七成！大疆连续近3年稳居日本数码摄像机市场第一 5.初代员工可得15万！影视飓风向全员发激励金 6.25.99万元起！小米首款增程车SUV冲上热搜，雷军自信喊出“Only Skynomad can do” 7.离职不到两天，TML联合创始人翁荔宣布重返OpenAI 8.SpaceX获美国太空军16亿美元订…",
+    "tags": [
+      "OpenAI"
+    ],
     "topics": [],
     "kinds": [
       "产业动态"
@@ -70,6 +107,17 @@
     "source": "Hacker News",
     "date": "2026-07-31",
     "summary": "1 points, https://news.ycombinator.com/item?id=49122171",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "32f37cd6a72d52a4",
+    "title": "李飞飞的世界模型，终于开始训练机器人了",
+    "url": "https://www.qbitai.com/2026/07/463217.html",
+    "source": "量子位",
+    "date": "2026-07-30",
+    "summary": "李飞飞老师的World Labs，补了块关键拼图",
     "tags": [],
     "topics": [],
     "kinds": []
@@ -625,6 +673,22 @@
     "kinds": []
   },
   {
+    "id": "5d55eaad8c34ae20",
+    "title": "US government bans new foreign-made humanoids, robot dogs, and solar inverters, citing risks to national security",
+    "url": "https://techcrunch.com/2026/07/29/us-government-bans-new-foreign-made-humanoids-robot-dogs-and-solar-inverters-citing-risks-to-national-security/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-07-29",
+    "summary": "The ban largely affects U.S. imports from China, which currently dominates the global market for making humanoid robots and solar inverters.",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": [
+      "产业动态",
+      "安全与可信"
+    ]
+  },
+  {
     "id": "e0c0f703996268a0",
     "title": "Trump administration bans new Chinese humanoid robots",
     "url": "https://www.bbc.com/news/articles/cp9e2ex3ekyo",
@@ -651,6 +715,17 @@
     "kinds": [
       "安全与可信"
     ]
+  },
+  {
+    "id": "c7bb1df1e5a84990",
+    "title": "世界模型有触觉了！50万小时视频，训出首个隐式触觉世界动作模型",
+    "url": "https://www.qbitai.com/2026/07/461827.html",
+    "source": "量子位",
+    "date": "2026-07-28",
+    "summary": "",
+    "tags": [],
+    "topics": [],
+    "kinds": []
   },
   {
     "id": "83b67ae1bd309a43",
@@ -1230,6 +1305,30 @@
     ]
   },
   {
+    "id": "1c48d2633e580781",
+    "title": "Enigma raises $71M to make controlling a robot as easy as adjusting the volume",
+    "url": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-07-27",
+    "summary": "The massive seed round was led by Index Ventures and Ribbit Capital, with participation from Sarah Guo's Conviction Partners.",
+    "tags": [],
+    "topics": [],
+    "kinds": [
+      "产业动态"
+    ]
+  },
+  {
+    "id": "0ab8893ae8deee95",
+    "title": "Are brain waves the next unlock for physical AI?",
+    "url": "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-07-27",
+    "summary": "Forget YouTube videos — frontier physical AI models need multiple camera angles, dense annotation, and, soon, brain wave readings.",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
     "id": "9101339b1ac24639",
     "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
     "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
@@ -1245,6 +1344,17 @@
     "kinds": [
       "医疗应用"
     ]
+  },
+  {
+    "id": "64e4cd7599eb371f",
+    "title": "3万小时触觉数据补齐具身智能“手感”！新智具身&复旦报告三连发",
+    "url": "https://www.qbitai.com/2026/07/460962.html",
+    "source": "量子位",
+    "date": "2026-07-26",
+    "summary": "项目数据模型均开源",
+    "tags": [],
+    "topics": [],
+    "kinds": []
   },
   {
     "id": "bf1298ca16af6aa2",
@@ -1538,6 +1648,39 @@
     "topics": [
       "移动与四足"
     ],
+    "kinds": []
+  },
+  {
+    "id": "7bb0fdae518de977",
+    "title": "近百名玩家涌入具身数据：一年融资44.7亿，谁能真靠“卖数据”赚钱？",
+    "url": "https://www.qbitai.com/2026/07/459262.html",
+    "source": "量子位",
+    "date": "2026-07-24",
+    "summary": "",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "2af82956cffb465e",
+    "title": "WAIC看了一圈，这家公司的机器人在认真打工",
+    "url": "https://www.qbitai.com/2026/07/458348.html",
+    "source": "量子位",
+    "date": "2026-07-24",
+    "summary": "",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "711c093bcf2a6541",
+    "title": "李飞飞学生发起国际具身人类数据标准，光轮智能成唯一参与中国企业",
+    "url": "https://www.qbitai.com/2026/07/457920.html",
+    "source": "量子位",
+    "date": "2026-07-24",
+    "summary": "",
+    "tags": [],
+    "topics": [],
     "kinds": []
   },
   {
@@ -2619,6 +2762,17 @@
     "kinds": []
   },
   {
+    "id": "bf2c920d84325726",
+    "title": "Gritt exits stealth with $32 million for robots to build solar plants — then, everything else",
+    "url": "https://techcrunch.com/2026/07/21/gritt-exits-stealth-with-34-million-for-robots-to-build-solar-plants-then-everything-else/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-07-21",
+    "summary": "Gritt is coming out of stealth with $34 million and plans to automate the hardest tasks on construction sites.",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
     "id": "f07ea0986edc9c35",
     "title": "Grabette: an open system to record robot-manipulation data",
     "url": "https://huggingface.co/blog/grabette",
@@ -2628,6 +2782,30 @@
     "tags": [],
     "topics": [
       "灵巧手与操作"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "e1ed14455fdcd0ac",
+    "title": "刚刚，机器人顶会RSS三项最佳论文出炉！708篇送审，仅8篇杀入决赛",
+    "url": "https://www.qbitai.com/2026/07/455277.html",
+    "source": "量子位",
+    "date": "2026-07-20",
+    "summary": "依旧是最多的华人面孔",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "79247054245c62be",
+    "title": "1.5B开源通用VLA模型，冲进具身智能第一梯队",
+    "url": "https://www.qbitai.com/2026/07/455229.html",
+    "source": "量子位",
+    "date": "2026-07-20",
+    "summary": "面壁智能发布MiniCPM-Robot系列模型",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
     ],
     "kinds": []
   },
@@ -3137,6 +3315,19 @@
     "kinds": []
   },
   {
+    "id": "50e45e611922076e",
+    "title": "让VLA更懂接触，优理奇UniTac让机器人拥有“触觉想象力”",
+    "url": "https://www.qbitai.com/2026/07/453897.html",
+    "source": "量子位",
+    "date": "2026-07-18",
+    "summary": "入选ECCV 2026",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": []
+  },
+  {
     "id": "f370da01017d7d82",
     "title": "User-Driven Learning from Demonstration: A Trajectory and Impedance Learning Method",
     "url": "https://arxiv.org/abs/2607.16998v1",
@@ -3454,6 +3645,19 @@
     "kinds": [
       "产业动态"
     ]
+  },
+  {
+    "id": "2f86c8b7cc26ef5f",
+    "title": "Agility Robotics plants its flag in Tesla’s backyard",
+    "url": "https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-07-17",
+    "summary": "Agility is opening a new training center for its Digit robots in Fremont, California.",
+    "tags": [
+      "Agility Robotics"
+    ],
+    "topics": [],
+    "kinds": []
   },
   {
     "id": "7cbd6083bb1cfe8b",
@@ -4283,6 +4487,32 @@
     "kinds": []
   },
   {
+    "id": "ddd0e329481881ac",
+    "title": "This startup thinks robotics is about to have its ChatGPT moment",
+    "url": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-07-08",
+    "summary": "General Intuition is betting millions of hours of video game data can train the foundation models for physical AI, making it easier to build smarter robots with minimal real-world data.",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [
+      "产业动态"
+    ]
+  },
+  {
+    "id": "7e1c285b513892b1",
+    "title": "The first American autonomous ground vehicles are fighting in Ukraine",
+    "url": "https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-07-07",
+    "summary": "Forterra has deployed more than 100 of its self-driving ATVs in conflict zones in Ukraine.",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
     "id": "fbe5464e4eefbc92",
     "title": "NVIDIA and Hugging Face Bring New Models and Frameworks to LeRobot for the Open Robotics Community",
     "url": "https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics/",
@@ -4331,6 +4561,23 @@
       "人形机器人"
     ],
     "kinds": []
+  },
+  {
+    "id": "d617fa3757f19845",
+    "title": "This humanoid robotics company is going public, but its CEO isn’t promising a robot in your home anytime soon",
+    "url": "https://techcrunch.com/2026/07/05/this-humanoid-robotics-company-is-going-public-but-its-ceo-isnt-promising-a-robot-in-your-home-anytime-soon/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-07-06",
+    "summary": "While other humanoid startups chase sky-high valuations, Agility Robotics is betting its future on execution — and a SPAC.",
+    "tags": [
+      "Agility Robotics"
+    ],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": [
+      "产业动态"
+    ]
   },
   {
     "id": "3b6a72e3ac48f89c",
@@ -4431,6 +4678,19 @@
     "kinds": []
   },
   {
+    "id": "78faf445905b5a9f",
+    "title": "Builders Stage agenda revealed: Practical strategies for scaling startups at TechCrunch Disrupt 2026",
+    "url": "https://techcrunch.com/2026/07/01/builders-stage-agenda-revealed-practical-strategies-for-scaling-startups-at-techcrunch-disrupt-2026/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-07-01",
+    "summary": "The Builders Stage is returning to TechCrunch Disrupt 2026, bringing together 10,000+ founders, startup operators, and investors for practical conversations. and Q&A on what it takes to build and scale successful companies. Register now to save up to $330.",
+    "tags": [],
+    "topics": [],
+    "kinds": [
+      "产业动态"
+    ]
+  },
+  {
     "id": "d83437cb061453ab",
     "title": "How Jaiveer Singh Is Helping Robots — and Developers — Move Faster",
     "url": "https://blogs.nvidia.com/blog/nvidia-life-jaiveer-singh/",
@@ -4470,6 +4730,19 @@
     ]
   },
   {
+    "id": "4a54fd56cc74fcf0",
+    "title": "Robot hand company settles Tesla trade secret suit and announces $11M raise",
+    "url": "https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-06-29",
+    "summary": "The startup, Proception, is taking a unique approach to collecting training data to tackle one of the hardest problems in robotics: hands.",
+    "tags": [],
+    "topics": [],
+    "kinds": [
+      "产业动态"
+    ]
+  },
+  {
     "id": "9cf6193eed202101",
     "title": "South Korea to spend $1T on more memory chip production and humanoid robots",
     "url": "https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/",
@@ -4489,6 +4762,45 @@
     "source": "IEEE Spectrum Robotics",
     "date": "2026-06-26",
     "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. RSS 2026 : 13–17 July 2026, SYDNEY…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "560980794f800962",
+    "title": "General Intuition’s $2.3B bet that video games can train AI agents for the real world",
+    "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-06-25",
+    "summary": "General Intuition has raised $320 million to scale AI trained on millions of hours of gameplay, betting action data can help AI develop something closer to human intuition.",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "510cd451a456595f",
+    "title": "Agility Robotics plans to go public via SPAC in a $2.5B deal",
+    "url": "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-06-24",
+    "summary": "Agility Robotics, the humanoid robotics startup that spun out of Oregon State University in 2015, expects to generate $620 million in proceeds.",
+    "tags": [
+      "Agility Robotics"
+    ],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": [
+      "产业动态"
+    ]
+  },
+  {
+    "id": "a47752f880472f9e",
+    "title": "Founders Fund’s outlier bet on humanely killed fish",
+    "url": "https://techcrunch.com/2026/06/20/founders-funds-outlier-bet-on-humanely-killed-fish/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-06-20",
+    "summary": "Shinkei makes a refrigerator-sized robot called Poseidon to kill fish quickly and humanely.",
     "tags": [],
     "topics": [],
     "kinds": []
@@ -4564,6 +4876,21 @@
     "tags": [],
     "topics": [
       "VLA与基础模型"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "b612f2b2ad9c3d1f",
+    "title": "Theker just raised $85M to build the factory robot that doesn’t specialize in anything",
+    "url": "https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-06-12",
+    "summary": "Unlike humanoid robots designed around a fixed form — think Boston Dynamics — Theker's machines are built to be reconfigured.",
+    "tags": [
+      "Boston Dynamics"
+    ],
+    "topics": [
+      "人形机器人"
     ],
     "kinds": []
   },
@@ -4647,6 +4974,19 @@
     "kinds": []
   },
   {
+    "id": "f95879e8b161dce8",
+    "title": "Startup Battlefield 200 applications officially close in 3 days",
+    "url": "https://techcrunch.com/2026/06/05/startup-battlefield-200-applications-officially-close-in-3-days/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-06-05",
+    "summary": "Applications for Startup Battlefield 200 officially close on June 8, 11:59 p.m. PT. Don't wait any longer. Secure your shot at competing on the Disrupt Stage at TechCrunch Disrupt 2026 this October at San Francisco's Moscone West.",
+    "tags": [],
+    "topics": [],
+    "kinds": [
+      "产业动态"
+    ]
+  },
+  {
     "id": "072fbd4dea1fa1e0",
     "title": "Video Friday: Watch This Running Robot Not Fall Down Stairs",
     "url": "https://spectrum.ieee.org/video-friday-humanoid-robot-running",
@@ -4656,6 +4996,19 @@
     "tags": [],
     "topics": [],
     "kinds": []
+  },
+  {
+    "id": "c475957ccba435ff",
+    "title": "Is Silicon Valley ready to put robots in people’s homes? Hello Robot is.",
+    "url": "https://techcrunch.com/2026/06/04/is-silicon-valley-ready-to-put-robots-in-peoples-homes-hello-robot-is/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-06-04",
+    "summary": "The California startup released the fourth-generation of its home assistance robot, Stretch.",
+    "tags": [],
+    "topics": [],
+    "kinds": [
+      "产业动态"
+    ]
   },
   {
     "id": "1f044e1aabe9db4c",
@@ -4697,6 +5050,28 @@
     ]
   },
   {
+    "id": "a5126ef298c20973",
+    "title": "Today is the last day to apply to speak at TechCrunch Disrupt 2026",
+    "url": "https://techcrunch.com/2026/05/29/today-is-the-last-day-to-apply-to-speak-at-techcrunch-disrupt-2026/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-05-29",
+    "summary": "Submit your session topic before today ends for a chance to speak at TechCrunch Disrupt 2026. Apply now to share your insight and help shape the conversations defining the tech industry.",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "70973a40c6ba2c40",
+    "title": "Final 24 hours to save up to $410 on your TechCrunch Disrupt 2026 ticket",
+    "url": "https://techcrunch.com/2026/05/29/final-24-hours-to-save-up-to-410-on-your-techcrunch-disrupt-2026-ticket/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-05-29",
+    "summary": "You now have until tonight at 11:59 p.m. PT to lock in Early Bird savings of up to $410 for TechCrunch Disrupt 2026 before prices increase. Join 10,000+ tech leaders in October for one of the most anticipated tech events of the year. Register now.",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
     "id": "379fe22de98e93cd",
     "title": "Video Friday: Extreme Omnidirectional Robot",
     "url": "https://spectrum.ieee.org/video-friday-rabona-soccer",
@@ -4706,6 +5081,30 @@
     "tags": [],
     "topics": [],
     "kinds": []
+  },
+  {
+    "id": "3655c76183d35e3c",
+    "title": "2 days left: Lock in ticket savings of up to $410 to TechCrunch Disrupt 2026",
+    "url": "https://techcrunch.com/2026/05/28/2-days-left-lock-in-ticket-savings-of-up-to-410-to-techcrunch-disrupt-2026/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-05-28",
+    "summary": "Savings of up to $410 on TechCrunch Disrupt 2026 tickets end tomorrow, May 29, 11:59 p.m. PT. Register now to save and join 10,000+ tech leaders on October 13-15 in San Francisco.",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "9f605ab2148cbed6",
+    "title": "Startup Battlefield 200 applications close today: Nominate a founder or submit your startup",
+    "url": "https://techcrunch.com/2026/05/27/startup-battlefield-200-applications-close-today-nominate-a-founder-or-submit-your-startup/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-05-27",
+    "summary": "Today is the final day to apply or nominate a startup for Startup Battlefield 200. Once the clock strikes 11:59 p.m. PT, the window closes on your chance to compete for $100,000 in equity-free funding, gain global visibility, connect directly with investors, and launch on the Te…",
+    "tags": [],
+    "topics": [],
+    "kinds": [
+      "产业动态"
+    ]
   },
   {
     "id": "55ccda70fe1c3d7c",
