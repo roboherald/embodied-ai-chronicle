@@ -242,8 +242,28 @@ def fetch_hn():
 
 def load_existing():
     if DATA_PATH.exists():
-        return json.loads(DATA_PATH.read_text(encoding="utf-8"))
+        return migrate_legacy_hn(json.loads(DATA_PATH.read_text(encoding="utf-8")))
     return []
+
+
+def migrate_legacy_hn(events):
+    """把旧格式的 HN 条目（summary='N points, <链接>'）迁到结构化 hn 字段。
+
+    历史数据、以及 bot 用旧代码抓下来又被 merge 进来的条目都会走这里，
+    保证不会因为一次 rebase 就把假摘要带回站点。
+    """
+    out = []
+    for e in events:
+        if e.get("source") == "Hacker News" and "hn" not in e:
+            m = re.match(r"(\d+) points,\s*(\S+)", e.get("summary", "") or "")
+            if m:
+                points = int(m.group(1))
+                if points < sources.HN_MIN_POINTS:
+                    continue  # 低分噪声，顺手清掉
+                e["hn"] = {"points": points, "comments": 0, "discussion": m.group(2)}
+                e["summary"] = ""
+        out.append(e)
+    return out
 
 
 def notify_feishu(new_items):

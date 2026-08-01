@@ -2,7 +2,19 @@
 // 这个环境没有浏览器，之前所有 UI 改动都只能靠"看代码觉得对"，这个脚本把它变成可验证的。
 const fs = require("fs");
 const path = require("path");
-const { JSDOM, VirtualConsole } = require("/tmp/domtest/node_modules/jsdom");
+// jsdom 可能装在项目里（CI: npm install jsdom）或本地临时目录，两种都支持
+function loadJsdom() {
+  for (const p of ["jsdom", "/tmp/domtest/node_modules/jsdom"]) {
+    try {
+      return require(p);
+    } catch {
+      /* 试下一个 */
+    }
+  }
+  console.error("找不到 jsdom，请先 `npm install jsdom`");
+  process.exit(2);
+}
+const { JSDOM, VirtualConsole } = loadJsdom();
 
 const SITE = path.join(__dirname, "..", "site");
 const results = { pass: 0, fail: 0, errors: [] };
