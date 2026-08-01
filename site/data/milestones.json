@@ -1,75 +1,19 @@
 [
   {
-    "id": "tesla-optimus-ai-day-2022",
-    "topic": "人形机器人",
-    "date": "2022-09-30",
-    "title": "特斯拉 AI Day 上 Optimus 首次无绳行走亮相",
-    "description": "车企跨界造人形机器人首次引发大规模关注，带动此后 Figure、1X、Unitree 等创业公司融资热潮，是本轮人形机器人热的公众起点。",
-    "url": "https://www.digitaltrends.com/computing/tesla-ai-day-2022-everything-you-need-to-know/"
+    "id": "world-models-paper-2018",
+    "topic": "世界模型",
+    "date": "2018-03-27",
+    "title": "Ha 与 Schmidhuber 发表《World Models》论文",
+    "description": "首次系统提出用生成式网络学习环境「世界模型」并在其中训练 RL 智能体，奠定该方向研究范式。",
+    "url": "https://arxiv.org/abs/1803.10122"
   },
   {
-    "id": "atlas-electric-2024",
-    "topic": "人形机器人",
-    "date": "2024-04-17",
-    "title": "波士顿动力发布全电动版 Atlas，液压 Atlas 退役",
-    "description": "硬件路线从「液压、研究展示」转向「电驱动、面向工厂量产」，是商业化转折点。",
-    "url": "https://bostondynamics.com/blog/electric-new-era-for-atlas/"
-  },
-  {
-    "id": "unitree-g1-2024",
-    "topic": "人形机器人",
-    "date": "2024-05-15",
-    "title": "宇树 G1 发布，售价约 1.6 万美元",
-    "description": "把全尺寸人形机器人价格拉到同类六分之一，首次让中小团队大批量采购做研发平台。",
-    "url": "https://www.therobotreport.com/unitree-robotics-unveils-g1-humanoid-for-16k/"
-  },
-  {
-    "id": "figure-02-launch",
-    "topic": "人形机器人",
-    "date": "2024-08-06",
-    "title": "Figure AI 发布 Figure 02，集成 OpenAI 语音/视觉能力",
-    "description": "首批把大模型对话/视觉推理深度集成到人形机器人本体、并进入宝马工厂实测的产品之一。",
-    "url": "https://www.prnewswire.com/news-releases/figure-unveils-figure-02-its-second-generation-humanoid-setting-new-standards-in-ai-and-robotics-302214889.html"
-  },
-  {
-    "id": "openai-dactyl-rubiks-cube",
-    "topic": "灵巧手与操作",
-    "date": "2019-10-16",
-    "title": "OpenAI Dactyl 用域随机化训练机械手解魔方",
-    "description": "深度强化学习驱动灵巧操作走向复杂真实任务的标志性突破。",
-    "url": "https://arxiv.org/abs/1910.07113"
-  },
-  {
-    "id": "aloha-teleop-2023",
-    "topic": "灵巧手与操作",
-    "date": "2023-04-23",
-    "title": "斯坦福发布低成本双臂遥操作系统 ALOHA 与 ACT 算法",
-    "description": "开启「低成本硬件+模仿学习」驱动灵巧操作研究的范式。",
-    "url": "https://tonyzhaozh.github.io/aloha/"
-  },
-  {
-    "id": "umi-handheld-gripper",
-    "topic": "灵巧手与操作",
-    "date": "2024-02-15",
-    "title": "UMI 实现「无需真机」的野外人类演示到机器人策略迁移",
-    "description": "大幅降低灵巧操作数据采集与跨本体部署成本。",
-    "url": "https://umi-gripper.github.io/"
-  },
-  {
-    "id": "shadow-deepmind-dex-ee",
-    "topic": "灵巧手与操作",
-    "date": "2024-05-09",
-    "title": "Shadow Robot 与 DeepMind 联合发布高耐久灵巧手 DEX-EE",
-    "description": "解决灵巧手研究中硬件损耗制约大规模强化学习试错训练的行业痛点。",
-    "url": "https://www.shadowrobot.com/shadow-robot-unveils-the-worlds-most-robust-dexterous-robot-hand-developed-in-partnership-with-google-deepmind/"
-  },
-  {
-    "id": "gemini-robotics-origami",
-    "topic": "灵巧手与操作",
-    "date": "2025-03-12",
-    "title": "DeepMind 发布 Gemini Robotics，实现折纸等精细灵巧操作",
-    "description": "通用基础模型开始大规模承接高难度灵巧操作任务。",
-    "url": "https://deepmind.google/blog/gemini-robotics-brings-ai-into-the-physical-world/"
+    "id": "openai-dactyl-domain-randomization",
+    "topic": "仿真与Sim2Real",
+    "date": "2018-08-01",
+    "title": "OpenAI Dactyl 首次用域随机化实现纯仿真到真实机械手迁移",
+    "description": "「域随机化实现 Sim2Real」范式被广泛认可的起点。",
+    "url": "https://arxiv.org/abs/1808.00177"
   },
   {
     "id": "anymal-science-robotics-2019",
@@ -80,12 +24,204 @@
     "url": "https://arxiv.org/abs/1901.08652"
   },
   {
+    "id": "agility-digit-2019",
+    "topic": "人形机器人",
+    "date": "2019-02-19",
+    "title": "Agility Robotics 发布 Digit：双足平台首次装上手臂",
+    "description": "在 Cassie 双足平台上增加躯干、4 自由度双臂与感知计算单元。腿足机器人从「纯行走研究平台」转向能搬运货物的实用人形，是商业化人形形态的早期定型。",
+    "url": "https://www.agilityrobotics.com/content/meet-digit-the-newest-robot-from-agility-robotics"
+  },
+  {
     "id": "mit-mini-cheetah-backflip",
     "topic": "移动与四足",
     "date": "2019-03-04",
     "title": "MIT Mini Cheetah 完成全球首个四足机器人后空翻",
     "description": "低成本、模块化四足研究平台兴起的重要节点。",
     "url": "https://news.mit.edu/2019/mit-mini-cheetah-first-four-legged-robot-to-backflip-0304"
+  },
+  {
+    "id": "latent-plans-play-2019",
+    "topic": "VLA与基础模型",
+    "date": "2019-03-05",
+    "title": "Learning Latent Plans from Play：用无标注「玩耍」数据学通用技能",
+    "description": "用廉价、无需摆场景和标注的人类遥操作数据自监督学习潜在计划空间，一个模型覆盖 18 个操作任务且优于专家演示训练的策略。奠定了「大规模非结构化数据优于精标小数据」的数据哲学。",
+    "url": "https://arxiv.org/abs/1903.01973"
+  },
+  {
+    "id": "habitat-2019",
+    "topic": "仿真与Sim2Real",
+    "date": "2019-04-02",
+    "title": "Habitat：高性能具身 AI 仿真平台",
+    "description": "单 GPU 多进程可达每秒万帧的照片级 3D 仿真器与模块化 API，让具身导航研究第一次能跑到数十亿帧的训练规模，把具身 AI 从玩具环境推向可规模化基准。",
+    "url": "https://arxiv.org/abs/1904.01201"
+  },
+  {
+    "id": "dexpilot-2019",
+    "topic": "遥操作与数据采集",
+    "date": "2019-10-07",
+    "title": "DexPilot：纯视觉手部追踪遥操作灵巧手",
+    "description": "无需数据手套或动捕，只靠观察裸手即可操控 23 自由度手臂+灵巧手系统。开创了低成本视觉遥操作作为灵巧操作数据引擎的路线。",
+    "url": "https://arxiv.org/abs/1910.03135"
+  },
+  {
+    "id": "openai-dactyl-rubiks-cube",
+    "topic": "灵巧手与操作",
+    "date": "2019-10-16",
+    "title": "OpenAI Dactyl 用域随机化训练机械手解魔方",
+    "description": "深度强化学习驱动灵巧操作走向复杂真实任务的标志性突破。",
+    "url": "https://arxiv.org/abs/1910.07113"
+  },
+  {
+    "id": "robonet-2019",
+    "topic": "遥操作与数据采集",
+    "date": "2019-10-24",
+    "title": "RoboNet：首个跨机器人共享经验数据库",
+    "description": "汇集 7 种机器人平台、1500 万视频帧的开放数据库，证明多机器人数据预训练再微调能超过用 4-20 倍本机数据单独训练。是 Open X-Embodiment 跨本体思路的直接先驱。",
+    "url": "https://arxiv.org/abs/1910.11215"
+  },
+  {
+    "id": "muzero-2019",
+    "topic": "世界模型",
+    "date": "2019-11-19",
+    "title": "MuZero：不给规则也能靠学到的模型做规划",
+    "description": "将树搜索与学习到的环境模型结合，在完全不知底层动态的情况下于 Atari、围棋、国际象棋达到超人水平。首次证明学到的隐式世界模型足以支撑高质量规划。",
+    "url": "https://arxiv.org/abs/1911.08265"
+  },
+  {
+    "id": "dreamer-2019",
+    "topic": "世界模型",
+    "date": "2019-12-03",
+    "title": "Dreamer：在世界模型的想象中学控制",
+    "description": "通过在紧凑潜空间中「想象」轨迹并反向传播价值梯度来学习行为，在 20 个视觉控制任务上同时超越已有方法的数据效率与最终性能。确立了潜空间想象训练这一主流路线。",
+    "url": "https://arxiv.org/abs/1912.01603"
+  },
+  {
+    "id": "digit-ford-sale-2020",
+    "topic": "人形机器人",
+    "date": "2020-01-05",
+    "title": "Digit 开售，福特成为首个客户",
+    "description": "首款公开商业销售的、具备行走与搬运能力的人形机器人，福特拿到产线上的头两台用于探索「最后 50 英尺」配送。人形机器人首次进入真实商业采购环节。",
+    "url": "https://techcrunch.com/2020/01/05/agilitys-two-legged-robot-digit-is-for-sale-and-ford-is-the-first-customer/"
+  },
+  {
+    "id": "langlfp-2020",
+    "topic": "VLA与基础模型",
+    "date": "2020-05-15",
+    "title": "LangLfP：语言直接驱动机器人动作的原型",
+    "description": "首次把像素感知、自然语言理解与多任务连续控制端到端合成单一网络，且只需给不到 1% 的数据打语言标注。这是 RT-1/RT-2 之前语言条件控制的原型形态。",
+    "url": "https://arxiv.org/abs/2005.07648"
+  },
+  {
+    "id": "spot-commercial-2020",
+    "topic": "移动与四足",
+    "date": "2020-06-16",
+    "title": "Boston Dynamics Spot 开启商业销售",
+    "description": "Spot 成为该公司第一款可直接购买的机器人，从早期试用租赁转为在线开售。四足机器人从演示视频阶段正式进入工业巡检等真实商业部署。",
+    "url": "https://bostondynamics.com/news/boston-dynamics-launches-commercial-sales-of-spot-robot/"
+  },
+  {
+    "id": "dreamerv2-2020",
+    "topic": "世界模型",
+    "date": "2020-10-05",
+    "title": "DreamerV2：离散表征世界模型达到人类水平",
+    "description": "用离散潜表征替代连续高斯潜变量，纯粹在自学的世界模型内部训练策略，在 Atari 55 个任务上达到人类水平。世界模型第一次在标准基准上与顶尖无模型方法正面持平。",
+    "url": "https://arxiv.org/abs/2010.02193"
+  },
+  {
+    "id": "anymal-blind-terrain-2020",
+    "topic": "移动与四足",
+    "date": "2020-10-21",
+    "title": "ANYmal 盲态穿越复杂自然地形",
+    "description": "仅用本体感受反馈训练的强化学习控制器实现零样本 Sim2Real，让四足在泥地、雪地、碎石与急流中盲走。确立「仿真训练+本体感知」为腿足运动控制主流范式。",
+    "url": "https://arxiv.org/abs/2010.11251"
+  },
+  {
+    "id": "transporter-networks-2020",
+    "topic": "灵巧手与操作",
+    "date": "2020-10-27",
+    "title": "Transporter Networks：把操作重构为「空间位移预测」",
+    "description": "用深度特征重排直接推断空间位移来参数化动作，不假设物体性、不需位姿估计，样本效率高出数量级。是后来 CLIPort、RT 系列空间动作表示的直接前身。",
+    "url": "https://arxiv.org/abs/2010.14406"
+  },
+  {
+    "id": "igibson-2020",
+    "topic": "仿真与Sim2Real",
+    "date": "2020-12-05",
+    "title": "iGibson 1.0：大规模真实场景中的可交互仿真",
+    "description": "提供 15 个全交互式家庭场景、108 个房间，含刚体与铰接物体、域随机化与演示采集接口。仿真重心从「只能导航」转向「能开门、能拿放」的交互式移动操作。",
+    "url": "https://arxiv.org/abs/2012.02924"
+  },
+  {
+    "id": "human-in-loop-teleop-2020",
+    "topic": "遥操作与数据采集",
+    "date": "2020-12-12",
+    "title": "人在环路的远程遥操作模仿学习",
+    "description": "让操作员监控已训练策略并在「瓶颈区域」介入接管，用介入数据迭代训练。把遥操作从一次性演示采集升级为持续纠错的数据飞轮。",
+    "url": "https://arxiv.org/abs/2012.06733"
+  },
+  {
+    "id": "clip-2021",
+    "topic": "VLA与基础模型",
+    "date": "2021-02-26",
+    "title": "CLIP：从自然语言监督学习可迁移视觉表征",
+    "description": "用 4 亿图文对训练出可零样本迁移到 30+ 视觉任务的图文对齐表征。CLIP 提供的开放词汇视觉语义，成为此后 CLIPort、RT-2、π0 等几乎所有 VLA 模型的视觉语言底座。",
+    "url": "https://arxiv.org/abs/2103.00020"
+  },
+  {
+    "id": "rma-2021",
+    "topic": "移动与四足",
+    "date": "2021-07-08",
+    "title": "RMA：四足机器人的实时在线自适应",
+    "description": "基础策略+自适应模块的双组件架构，让纯仿真训练的策略在几分之一秒内适应未见地形、负载与磨损，无需真机微调。解决了腿足 Sim2Real 的「域适应」最后一公里。",
+    "url": "https://arxiv.org/abs/2107.04034"
+  },
+  {
+    "id": "atlas-parkour-2021",
+    "topic": "人形机器人",
+    "date": "2021-08-17",
+    "title": "波士顿动力 Atlas 完成双机连续跑酷",
+    "description": "两台 Atlas 完成含跳跃、翻越与同步后空翻的 90 秒连续跑酷，动作首次由感知驱动而非逐帧预编程，展示了动态全身控制的成熟度。",
+    "url": "https://bostondynamics.com/blog/leaps-bounds-and-backflips/"
+  },
+  {
+    "id": "nvidia-isaac-gym",
+    "topic": "仿真与Sim2Real",
+    "date": "2021-08-24",
+    "title": "NVIDIA 发布 Isaac Gym，仿真与训练全流程 GPU 化",
+    "description": "训练速度提升 2-3 个数量级，大幅降低大规模 Sim2Real 强化学习门槛。",
+    "url": "https://arxiv.org/abs/2108.10470"
+  },
+  {
+    "id": "cliport-2021",
+    "topic": "灵巧手与操作",
+    "date": "2021-09-24",
+    "title": "CLIPort：语义与空间精度结合的语言条件操作",
+    "description": "首次把 CLIP 的「是什么」与 Transporter 的「在哪里」缝合成单一语言条件策略，用 179 组图像-动作对训出 9 个真实任务的多任务模型。基础模型进入操作领域的关键中间形态。",
+    "url": "https://arxiv.org/abs/2109.12098"
+  },
+  {
+    "id": "bridgedata-2021",
+    "topic": "遥操作与数据采集",
+    "date": "2021-09-27",
+    "title": "BridgeData：跨域数据集提升技能泛化",
+    "description": "采集 10 个环境、71 个任务、7200 条演示的多域数据集，证明加入跨域数据后新任务成功率翻倍。把「数据集复用替代重复采集」确立为标准做法。",
+    "url": "https://arxiv.org/abs/2109.13396"
+  },
+  {
+    "id": "deepmind-mujoco-open",
+    "topic": "仿真与Sim2Real",
+    "date": "2021-10-18",
+    "title": "DeepMind 收购并开放 MuJoCo 物理引擎",
+    "description": "消除商业授权门槛，推动机器人强化学习研究普及。",
+    "url": "https://deepmind.google/discover/blog/opening-up-a-physics-simulator-for-robotics/"
+  },
+  {
+    "id": "efficientzero-2021",
+    "topic": "世界模型",
+    "date": "2021-10-30",
+    "title": "EfficientZero：样本效率提升 500 倍",
+    "description": "引入自监督时序一致性与价值修正，仅用两小时实时游戏经验就在 Atari 100k 达到 194.3% 人类平均分。首次证明基于模型的方法可在极小数据量下超越人类，直指真机数据稀缺场景。",
+    "url": "https://arxiv.org/abs/2111.00210"
   },
   {
     "id": "anymal-alps-hike-2022",
@@ -96,12 +232,12 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/35044798/"
   },
   {
-    "id": "unitree-go2-launch",
-    "topic": "移动与四足",
-    "date": "2023-07-12",
-    "title": "Unitree 发布 Go2 四足机器人，起售价 1,600 美元",
-    "description": "消费级四足机器人价格与智能化水平双重突破，加速普及。",
-    "url": "https://www.prnewswire.com/news-releases/introducing-unitree-go2---quadruped-robot-of-embodied-ai-301879381.html"
+    "id": "tesla-optimus-ai-day-2022",
+    "topic": "人形机器人",
+    "date": "2022-09-30",
+    "title": "特斯拉 AI Day 上 Optimus 首次无绳行走亮相",
+    "description": "车企跨界造人形机器人首次引发大规模关注，带动此后 Figure、1X、Unitree 等创业公司融资热潮，是本轮人形机器人热的公众起点。",
+    "url": "https://www.digitaltrends.com/computing/tesla-ai-day-2022-everything-you-need-to-know/"
   },
   {
     "id": "google-rt-1",
@@ -110,6 +246,30 @@
     "title": "谷歌发布 RT-1，首个大规模真实机器人 Transformer 控制模型",
     "description": "验证大规模、任务无关的 Transformer 架构可直接输出机器人动作，是 VLA 路线的技术起点。",
     "url": "https://research.google/blog/rt-1-robotics-transformer-for-real-world-control-at-scale/"
+  },
+  {
+    "id": "aloha-teleop-2023",
+    "topic": "灵巧手与操作",
+    "date": "2023-04-23",
+    "title": "斯坦福发布低成本双臂遥操作系统 ALOHA 与 ACT 算法",
+    "description": "开启「低成本硬件+模仿学习」驱动灵巧操作研究的范式。",
+    "url": "https://tonyzhaozh.github.io/aloha/"
+  },
+  {
+    "id": "aloha-teleop-collection",
+    "topic": "遥操作与数据采集",
+    "date": "2023-04-23",
+    "title": "斯坦福 ALOHA 低成本双臂遥操作硬件发布",
+    "description": "「低成本遥操作采集+模仿学习」路线兴起的标志性起点。",
+    "url": "https://tonyzhaozh.github.io/aloha/"
+  },
+  {
+    "id": "unitree-go2-launch",
+    "topic": "移动与四足",
+    "date": "2023-07-12",
+    "title": "Unitree 发布 Go2 四足机器人，起售价 1,600 美元",
+    "description": "消费级四足机器人价格与智能化水平双重突破，加速普及。",
+    "url": "https://www.prnewswire.com/news-releases/introducing-unitree-go2---quadruped-robot-of-embodied-ai-301879381.html"
   },
   {
     "id": "deepmind-rt-2",
@@ -128,70 +288,6 @@
     "url": "https://deepmind.google/discover/blog/scaling-up-learning-across-many-different-robot-types/"
   },
   {
-    "id": "physical-intelligence-pi0",
-    "topic": "VLA与基础模型",
-    "date": "2024-10-31",
-    "title": "Physical Intelligence 发布 π0，通用机器人基础模型产品化",
-    "description": "flow matching 实现 50Hz 连续动作输出，VLA 从学术走向创业公司产品。",
-    "url": "https://www.pi.website/blog/pi0"
-  },
-  {
-    "id": "gemini-robotics-1-5",
-    "topic": "VLA与基础模型",
-    "date": "2025-09-25",
-    "title": "DeepMind 发布 Gemini Robotics 1.5，具备跨本体迁移与「先思考后行动」",
-    "description": "首次实现同一模型技能在 ALOHA 2、Apollo 人形机器人、Franka 间迁移无需微调。",
-    "url": "https://deepmind.google/discover/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/"
-  },
-  {
-    "id": "openai-dactyl-domain-randomization",
-    "topic": "仿真与Sim2Real",
-    "date": "2018-08-01",
-    "title": "OpenAI Dactyl 首次用域随机化实现纯仿真到真实机械手迁移",
-    "description": "「域随机化实现 Sim2Real」范式被广泛认可的起点。",
-    "url": "https://arxiv.org/abs/1808.00177"
-  },
-  {
-    "id": "nvidia-isaac-gym",
-    "topic": "仿真与Sim2Real",
-    "date": "2021-08-24",
-    "title": "NVIDIA 发布 Isaac Gym，仿真与训练全流程 GPU 化",
-    "description": "训练速度提升 2-3 个数量级，大幅降低大规模 Sim2Real 强化学习门槛。",
-    "url": "https://arxiv.org/abs/2108.10470"
-  },
-  {
-    "id": "deepmind-mujoco-open",
-    "topic": "仿真与Sim2Real",
-    "date": "2021-10-18",
-    "title": "DeepMind 收购并开放 MuJoCo 物理引擎",
-    "description": "消除商业授权门槛，推动机器人强化学习研究普及。",
-    "url": "https://deepmind.google/discover/blog/opening-up-a-physics-simulator-for-robotics/"
-  },
-  {
-    "id": "nvidia-gr00t-isaac-lab",
-    "topic": "仿真与Sim2Real",
-    "date": "2024-03-18",
-    "title": "NVIDIA GTC 2024 发布 Project GR00T 及 Isaac Lab",
-    "description": "大规模仿真驱动的具身智能训练进入产业化阶段。",
-    "url": "https://nvidianews.nvidia.com/news/foundation-model-isaac-robotics-platform"
-  },
-  {
-    "id": "genesis-world-1-0",
-    "topic": "仿真与Sim2Real",
-    "date": "2026-05-27",
-    "title": "Genesis AI 发布 Genesis World 1.0",
-    "description": "仿真评估与真机测试相关性达 89%，Sim2Real 一致性持续逼近现实的最新节点。",
-    "url": "https://www.genesis.ai/blog/the-role-of-simulation-in-scalable-robotics-genesis-world-10-and-the-path-forward"
-  },
-  {
-    "id": "aloha-teleop-collection",
-    "topic": "遥操作与数据采集",
-    "date": "2023-04-23",
-    "title": "斯坦福 ALOHA 低成本双臂遥操作硬件发布",
-    "description": "「低成本遥操作采集+模仿学习」路线兴起的标志性起点。",
-    "url": "https://tonyzhaozh.github.io/aloha/"
-  },
-  {
     "id": "open-x-embodiment-dataset",
     "topic": "遥操作与数据采集",
     "date": "2023-10-13",
@@ -208,28 +304,20 @@
     "url": "https://mobile-aloha.github.io/"
   },
   {
+    "id": "umi-handheld-gripper",
+    "topic": "灵巧手与操作",
+    "date": "2024-02-15",
+    "title": "UMI 实现「无需真机」的野外人类演示到机器人策略迁移",
+    "description": "大幅降低灵巧操作数据采集与跨本体部署成本。",
+    "url": "https://umi-gripper.github.io/"
+  },
+  {
     "id": "umi-handheld-collection",
     "topic": "遥操作与数据采集",
     "date": "2024-02-15",
     "title": "UMI 手持式数据采集设备发布",
     "description": "无需真实机器人即可在「野外」采集可跨平台部署的示教数据。",
     "url": "https://umi-gripper.github.io/"
-  },
-  {
-    "id": "agibot-world-dataset",
-    "topic": "遥操作与数据采集",
-    "date": "2025-03-09",
-    "title": "智元机器人 AgiBot World 大规模遥操作数据集发布",
-    "description": "100 万+轨迹、100 台机器人，规模高出同类数据集一个数量级。",
-    "url": "https://github.com/OpenDriveLab/AgiBot-World"
-  },
-  {
-    "id": "world-models-paper-2018",
-    "topic": "世界模型",
-    "date": "2018-03-27",
-    "title": "Ha 与 Schmidhuber 发表《World Models》论文",
-    "description": "首次系统提出用生成式网络学习环境「世界模型」并在其中训练 RL 智能体，奠定该方向研究范式。",
-    "url": "https://arxiv.org/abs/1803.10122"
   },
   {
     "id": "deepmind-genie",
@@ -240,12 +328,60 @@
     "url": "https://deepmind.google/research/publications/60474/"
   },
   {
+    "id": "nvidia-gr00t-isaac-lab",
+    "topic": "仿真与Sim2Real",
+    "date": "2024-03-18",
+    "title": "NVIDIA GTC 2024 发布 Project GR00T 及 Isaac Lab",
+    "description": "大规模仿真驱动的具身智能训练进入产业化阶段。",
+    "url": "https://nvidianews.nvidia.com/news/foundation-model-isaac-robotics-platform"
+  },
+  {
+    "id": "atlas-electric-2024",
+    "topic": "人形机器人",
+    "date": "2024-04-17",
+    "title": "波士顿动力发布全电动版 Atlas，液压 Atlas 退役",
+    "description": "硬件路线从「液压、研究展示」转向「电驱动、面向工厂量产」，是商业化转折点。",
+    "url": "https://bostondynamics.com/blog/electric-new-era-for-atlas/"
+  },
+  {
+    "id": "shadow-deepmind-dex-ee",
+    "topic": "灵巧手与操作",
+    "date": "2024-05-09",
+    "title": "Shadow Robot 与 DeepMind 联合发布高耐久灵巧手 DEX-EE",
+    "description": "解决灵巧手研究中硬件损耗制约大规模强化学习试错训练的行业痛点。",
+    "url": "https://www.shadowrobot.com/shadow-robot-unveils-the-worlds-most-robust-dexterous-robot-hand-developed-in-partnership-with-google-deepmind/"
+  },
+  {
+    "id": "unitree-g1-2024",
+    "topic": "人形机器人",
+    "date": "2024-05-15",
+    "title": "宇树 G1 发布，售价约 1.6 万美元",
+    "description": "把全尺寸人形机器人价格拉到同类六分之一，首次让中小团队大批量采购做研发平台。",
+    "url": "https://www.therobotreport.com/unitree-robotics-unveils-g1-humanoid-for-16k/"
+  },
+  {
+    "id": "figure-02-launch",
+    "topic": "人形机器人",
+    "date": "2024-08-06",
+    "title": "Figure AI 发布 Figure 02，集成 OpenAI 语音/视觉能力",
+    "description": "首批把大模型对话/视觉推理深度集成到人形机器人本体、并进入宝马工厂实测的产品之一。",
+    "url": "https://www.prnewswire.com/news-releases/figure-unveils-figure-02-its-second-generation-humanoid-setting-new-standards-in-ai-and-robotics-302214889.html"
+  },
+  {
     "id": "1x-world-model-eve",
     "topic": "世界模型",
     "date": "2024-09-17",
     "title": "1X 发布面向人形机器人 EVE 的世界模型",
     "description": "直接从机器人真实传感器数据学习，充当「虚拟仿真器」预测不同动作提议的未来结果，明确面向机器人评估/规划场景。",
     "url": "https://www.1x.tech/discover/1x-world-model"
+  },
+  {
+    "id": "physical-intelligence-pi0",
+    "topic": "VLA与基础模型",
+    "date": "2024-10-31",
+    "title": "Physical Intelligence 发布 π0，通用机器人基础模型产品化",
+    "description": "flow matching 实现 50Hz 连续动作输出，VLA 从学术走向创业公司产品。",
+    "url": "https://www.pi.website/blog/pi0"
   },
   {
     "id": "deepmind-genie-2",
@@ -262,5 +398,37 @@
     "title": "NVIDIA CES 2025 发布 Cosmos 世界基础模型平台",
     "description": "基于 2000 万小时真实交互视频训练，首批合作方含 1X、Agility Robotics、Figure AI 等，世界模型走向机器人产业基础设施。",
     "url": "https://blogs.nvidia.com/blog/cosmos-world-foundation-models/"
+  },
+  {
+    "id": "agibot-world-dataset",
+    "topic": "遥操作与数据采集",
+    "date": "2025-03-09",
+    "title": "智元机器人 AgiBot World 大规模遥操作数据集发布",
+    "description": "100 万+轨迹、100 台机器人，规模高出同类数据集一个数量级。",
+    "url": "https://github.com/OpenDriveLab/AgiBot-World"
+  },
+  {
+    "id": "gemini-robotics-origami",
+    "topic": "灵巧手与操作",
+    "date": "2025-03-12",
+    "title": "DeepMind 发布 Gemini Robotics，实现折纸等精细灵巧操作",
+    "description": "通用基础模型开始大规模承接高难度灵巧操作任务。",
+    "url": "https://deepmind.google/blog/gemini-robotics-brings-ai-into-the-physical-world/"
+  },
+  {
+    "id": "gemini-robotics-1-5",
+    "topic": "VLA与基础模型",
+    "date": "2025-09-25",
+    "title": "DeepMind 发布 Gemini Robotics 1.5，具备跨本体迁移与「先思考后行动」",
+    "description": "首次实现同一模型技能在 ALOHA 2、Apollo 人形机器人、Franka 间迁移无需微调。",
+    "url": "https://deepmind.google/discover/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/"
+  },
+  {
+    "id": "genesis-world-1-0",
+    "topic": "仿真与Sim2Real",
+    "date": "2026-05-27",
+    "title": "Genesis AI 发布 Genesis World 1.0",
+    "description": "仿真评估与真机测试相关性达 89%，Sim2Real 一致性持续逼近现实的最新节点。",
+    "url": "https://www.genesis.ai/blog/the-role-of-simulation-in-scalable-robotics-genesis-world-10-and-the-path-forward"
   }
 ]
