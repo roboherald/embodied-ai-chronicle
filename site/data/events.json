@@ -658,16 +658,16 @@
     "source": "Hacker News",
     "date": "2026-07-29",
     "summary": "",
+    "hn": {
+      "points": 24,
+      "comments": 13,
+      "discussion": "https://news.ycombinator.com/item?id=49092538"
+    },
     "tags": [],
     "topics": [
       "人形机器人"
     ],
-    "kinds": [],
-    "hn": {
-      "points": 24,
-      "comments": 0,
-      "discussion": "https://news.ycombinator.com/item?id=49092538"
-    }
+    "kinds": []
   },
   {
     "id": "cba713cd541002ff",
@@ -676,18 +676,18 @@
     "source": "Hacker News",
     "date": "2026-07-29",
     "summary": "",
+    "hn": {
+      "points": 7,
+      "comments": 1,
+      "discussion": "https://news.ycombinator.com/item?id=49095067"
+    },
     "tags": [],
     "topics": [
       "人形机器人"
     ],
     "kinds": [
       "安全与可信"
-    ],
-    "hn": {
-      "points": 7,
-      "comments": 0,
-      "discussion": "https://news.ycombinator.com/item?id=49095067"
-    }
+    ]
   },
   {
     "id": "c7bb1df1e5a84990",
@@ -985,16 +985,16 @@
     "source": "Hacker News",
     "date": "2026-07-28",
     "summary": "",
+    "hn": {
+      "points": 19,
+      "comments": 7,
+      "discussion": "https://news.ycombinator.com/item?id=49089418"
+    },
     "tags": [],
     "topics": [
       "人形机器人"
     ],
-    "kinds": [],
-    "hn": {
-      "points": 19,
-      "comments": 0,
-      "discussion": "https://news.ycombinator.com/item?id=49089418"
-    }
+    "kinds": []
   },
   {
     "id": "7909c613945e81a8",
@@ -1473,16 +1473,16 @@
     "source": "Hacker News",
     "date": "2026-07-26",
     "summary": "",
-    "tags": [],
-    "topics": [
-      "遥操作与数据采集"
-    ],
-    "kinds": [],
     "hn": {
       "points": 3,
       "comments": 0,
       "discussion": "https://news.ycombinator.com/item?id=49061030"
-    }
+    },
+    "tags": [],
+    "topics": [
+      "遥操作与数据采集"
+    ],
+    "kinds": []
   },
   {
     "id": "0a07c4be41ab2b46",
@@ -1491,14 +1491,14 @@
     "source": "Hacker News",
     "date": "2026-07-26",
     "summary": "",
-    "tags": [],
-    "topics": [],
-    "kinds": [],
     "hn": {
       "points": 22,
-      "comments": 0,
+      "comments": 7,
       "discussion": "https://news.ycombinator.com/item?id=49058956"
-    }
+    },
+    "tags": [],
+    "topics": [],
+    "kinds": []
   },
   {
     "id": "f7c7a80f6385c014",
@@ -1593,16 +1593,16 @@
     "source": "Hacker News",
     "date": "2026-07-25",
     "summary": "",
-    "tags": [],
-    "topics": [
-      "人形机器人"
-    ],
-    "kinds": [],
     "hn": {
       "points": 3,
       "comments": 0,
       "discussion": "https://news.ycombinator.com/item?id=49044126"
-    }
+    },
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": []
   },
   {
     "id": "7d879356088e17a9",
@@ -1611,16 +1611,16 @@
     "source": "Hacker News",
     "date": "2026-07-25",
     "summary": "",
+    "hn": {
+      "points": 6,
+      "comments": 3,
+      "discussion": "https://news.ycombinator.com/item?id=49048149"
+    },
     "tags": [],
     "topics": [
       "人形机器人"
     ],
-    "kinds": [],
-    "hn": {
-      "points": 6,
-      "comments": 0,
-      "discussion": "https://news.ycombinator.com/item?id=49048149"
-    }
+    "kinds": []
   },
   {
     "id": "41099f9d6d373d4b",
@@ -1629,16 +1629,16 @@
     "source": "Hacker News",
     "date": "2026-07-25",
     "summary": "",
-    "tags": [],
-    "topics": [
-      "移动与四足"
-    ],
-    "kinds": [],
     "hn": {
       "points": 6,
       "comments": 0,
       "discussion": "https://news.ycombinator.com/item?id=49048024"
-    }
+    },
+    "tags": [],
+    "topics": [
+      "移动与四足"
+    ],
+    "kinds": []
   },
   {
     "id": "7bb0fdae518de977",
@@ -4318,11 +4318,13 @@
     "id": "b0ce4fdc4c7eb432",
     "title": "Building a Foundation Stack for General-Purpose Robots",
     "url": "https://spectrum.ieee.org/x-square-robot-embodied-ai-stack",
-    "source": "Hacker News",
+    "source": "IEEE Spectrum Robotics",
     "date": "2026-07-13",
-    "summary": "1 points, https://news.ycombinator.com/item?id=48895121",
+    "summary": "This article is brought to you by X Square Robot . Large language models gave artificial intelligence a working recipe. Pretrain a large model on broad data, and general capability follows. Robotics has no such recipe. Robotics systems have long been assembled from separate perc…",
     "tags": [],
-    "topics": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
     "kinds": []
   },
   {
@@ -4833,14 +4835,14 @@
     "source": "Hacker News",
     "date": "2026-06-06",
     "summary": "",
-    "tags": [],
-    "topics": [],
-    "kinds": [],
     "hn": {
       "points": 8,
-      "comments": 0,
+      "comments": 1,
       "discussion": "https://news.ycombinator.com/item?id=48421508"
-    }
+    },
+    "tags": [],
+    "topics": [],
+    "kinds": []
   },
   {
     "id": "f95879e8b161dce8",
@@ -4886,16 +4888,16 @@
     "source": "Hacker News",
     "date": "2026-06-01",
     "summary": "",
-    "tags": [],
-    "topics": [
-      "VLA与基础模型"
-    ],
-    "kinds": [],
     "hn": {
       "points": 3,
       "comments": 0,
       "discussion": "https://news.ycombinator.com/item?id=48351442"
-    }
+    },
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": []
   },
   {
     "id": "cbe1e5c4290162d4",
@@ -5077,14 +5079,14 @@
     "source": "Hacker News",
     "date": "2026-05-14",
     "summary": "",
-    "tags": [],
-    "topics": [],
-    "kinds": [],
     "hn": {
       "points": 3,
       "comments": 0,
       "discussion": "https://news.ycombinator.com/item?id=48140185"
-    }
+    },
+    "tags": [],
+    "topics": [],
+    "kinds": []
   },
   {
     "id": "dd9960c90c4006ce",
@@ -5093,14 +5095,14 @@
     "source": "Hacker News",
     "date": "2026-04-30",
     "summary": "",
-    "tags": [],
-    "topics": [],
-    "kinds": [],
     "hn": {
       "points": 7,
       "comments": 0,
       "discussion": "https://news.ycombinator.com/item?id=47961506"
-    }
+    },
+    "tags": [],
+    "topics": [],
+    "kinds": []
   },
   {
     "id": "4df32f9394272a35",
