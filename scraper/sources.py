@@ -11,7 +11,11 @@ ARXIV_MAX_RESULTS = 30
 # filter_zh=True 的源用中文关键词过滤，且只匹配标题——这些站的 description 是
 # 全文正文，拿正文匹配会把「Claude 聊天记录泄露」这类误判成机器人新闻。
 RSS_FEEDS = [
-    {"name": "Boston Dynamics", "url": "https://bostondynamics.com/feed/", "filter": False},
+    # Boston Dynamics 的 feed 现在是空壳（HTTP 200 但 0 个 item），/blog/feed、
+    # /news/feed、/rss.xml 全部 404，官方已没有可用 RSS。留着只会让健康告警
+    # 长期误报，反而让人忽略真正的失效，先下线；他家动态由 IEEE Spectrum
+    # 和 TechCrunch 间接覆盖。
+    # {"name": "Boston Dynamics", "url": "https://bostondynamics.com/feed/", "filter": False},
     # The Robot Report 自 2026-08 起对所有 UA 返回 403（换浏览器 UA 也不行），
     # 暂时下线。它原本是最大的非 arXiv 来源，用 TechCrunch Robotics 顶替产业新闻缺口。
     # {"name": "The Robot Report", "url": "https://www.therobotreport.com/feed/", "filter": False},
