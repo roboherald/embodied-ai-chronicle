@@ -180,7 +180,6 @@ async function init() {
   document.getElementById("topic-timeline-table-toggle").addEventListener("click", () => {
     state.showTopicTable = !state.showTopicTable;
     document.getElementById("topic-timeline-rows").hidden = state.showTopicTable;
-    document.getElementById("topic-timeline-axis").hidden = state.showTopicTable;
     document.getElementById("topic-timeline-table").hidden = !state.showTopicTable;
     if (state.showTopicTable) renderTopicTimelineTable();
   });
@@ -463,155 +462,28 @@ function renderTopicFilters() {
     });
 }
 
-const MILESTONE_LABEL_BANDS = ["6px", "26px", "46px"];
+// ─── 研究方向脉络：方向 × 年份矩阵 ───────────────────────────────
+// 里程碑跨 8 年、新闻只有最近 120 天，放同一根线性轴上必然一边挤成一坨、
+// 一边大片空白。改成按年份切等宽格子：年份是离散刻度，比例失真消失；
+// 新闻活跃度单独一列，两种时间尺度物理分开。
 
-let topicTooltipEl = null;
-
-function ensureTopicTooltip() {
-  if (!topicTooltipEl) {
-    topicTooltipEl = document.createElement("div");
-    topicTooltipEl.className = "topic-tooltip";
-    topicTooltipEl.hidden = true;
-    document.body.appendChild(topicTooltipEl);
-  }
-  return topicTooltipEl;
+function milestoneYears() {
+  const years = new Set();
+  for (const m of state.milestones) years.add(m.date.slice(0, 4));
+  if (!years.size) return [];
+  const list = [...years].map(Number).sort((a, b) => a - b);
+  const out = [];
+  for (let y = list[0]; y <= list[list.length - 1]; y++) out.push(String(y));
+  return out;
 }
 
-function showTopicTooltip(target, lines) {
-  const tip = ensureTopicTooltip();
-  tip.textContent = "";
-  for (const { text, cls } of lines) {
-    const line = document.createElement("div");
-    line.className = cls;
-    line.textContent = text;
-    tip.appendChild(line);
-  }
-  tip.hidden = false;
-  const rect = target.getBoundingClientRect();
-  const tipRect = tip.getBoundingClientRect();
-  const half = tipRect.width / 2;
-  const left = Math.max(half + 8, Math.min(rect.left + rect.width / 2, window.innerWidth - half - 8));
-  tip.style.left = `${left}px`;
-  tip.style.top = `${rect.top - 8}px`;
-}
-
-function hideTopicTooltip() {
-  if (topicTooltipEl) topicTooltipEl.hidden = true;
-}
-
-window.addEventListener("scroll", hideTopicTooltip, { passive: true });
-
-function timelineDateRange() {
-  const dates = [];
-  for (const e of state.events) {
-    if ((e.topics || []).length) dates.push(e.date);
-  }
-  for (const m of state.milestones) dates.push(m.date);
-  if (!dates.length) {
-    const today = new Date().toISOString().slice(0, 10);
-    return { min: today, max: today };
-  }
-  dates.sort();
-  return { min: dates[0], max: dates[dates.length - 1] };
-}
-
-function dateToPercent(dateStr, range) {
-  const min = new Date(range.min + "T00:00:00Z").getTime();
-  const max = new Date(range.max + "T00:00:00Z").getTime();
-  const d = new Date(dateStr + "T00:00:00Z").getTime();
-  if (max === min) return 50;
-  return ((d - min) / (max - min)) * 100;
-}
-
-function milestoneTooltipLines(m) {
-  return [
-    { text: m.date, cls: "topic-tooltip-date" },
-    { text: m.title, cls: "topic-tooltip-title" },
-    ...(m.description ? [{ text: m.description, cls: "topic-tooltip-desc" }] : []),
-  ];
-}
-
-// interactive=false 时纯展示（主页紧凑行）：不挂悬浮卡、不能点。
-// interactive=true 时（弹出面板内）：可悬浮看提示卡、可点击跳到原文。
-function renderTopicMarks(track, events, milestones, range, color, { interactive, showLabels }) {
-  events.forEach((e) => {
-    const tick = document.createElement(interactive ? "a" : "div");
-    tick.className = "topic-tick";
-    tick.style.left = `${dateToPercent(e.date, range)}%`;
-    if (interactive) {
-      tick.href = e.url;
-      tick.target = "_blank";
-      tick.rel = "noopener noreferrer";
-      const showTip = () =>
-        showTopicTooltip(tick, [
-          { text: `${e.date} · ${e.source}`, cls: "topic-tooltip-date" },
-          { text: e.title, cls: "topic-tooltip-title" },
-        ]);
-      tick.addEventListener("mouseenter", showTip);
-      tick.addEventListener("focus", showTip);
-      tick.addEventListener("mouseleave", hideTopicTooltip);
-      tick.addEventListener("blur", hideTopicTooltip);
-    }
-    track.appendChild(tick);
-  });
-
-  milestones.forEach((m, i) => {
-    const pct = dateToPercent(m.date, range);
-
-    const dot = document.createElement(interactive ? "a" : "div");
-    dot.className = "topic-milestone-dot";
-    dot.style.left = `${pct}%`;
-    dot.style.background = color;
-    if (interactive) {
-      dot.href = m.url;
-      dot.target = "_blank";
-      dot.rel = "noopener noreferrer";
-      const showTip = () => showTopicTooltip(dot, milestoneTooltipLines(m));
-      dot.addEventListener("mouseenter", showTip);
-      dot.addEventListener("focus", showTip);
-      dot.addEventListener("mouseleave", hideTopicTooltip);
-      dot.addEventListener("blur", hideTopicTooltip);
-    }
-    track.appendChild(dot);
-
-    if (showLabels) {
-      const labelEl = document.createElement(interactive ? "a" : "span");
-      labelEl.className = "topic-milestone-label";
-      labelEl.style.left = `${pct}%`;
-      labelEl.style.top = MILESTONE_LABEL_BANDS[i % MILESTONE_LABEL_BANDS.length];
-      labelEl.textContent = m.title;
-      if (interactive) {
-        labelEl.href = m.url;
-        labelEl.target = "_blank";
-        labelEl.rel = "noopener noreferrer";
-        const showTip = () => showTopicTooltip(labelEl, milestoneTooltipLines(m));
-        labelEl.addEventListener("mouseenter", showTip);
-        labelEl.addEventListener("focus", showTip);
-        labelEl.addEventListener("mouseleave", hideTopicTooltip);
-        labelEl.addEventListener("blur", hideTopicTooltip);
-      }
-      track.appendChild(labelEl);
-    }
-  });
-}
-
-function renderAxisTicks(container, range) {
-  container.innerHTML = "";
-  container.classList.add("topic-timeline-axis-track");
-  [range.min, range.max].forEach((d) => {
-    const tick = document.createElement("span");
-    tick.className = "topic-axis-tick";
-    tick.style.left = `${dateToPercent(d, range)}%`;
-    tick.textContent = d;
-    container.appendChild(tick);
-  });
+function recentEventCount(topic) {
+  return state.events.filter((e) => (e.topics || []).includes(topic)).length;
 }
 
 function renderTopicTimeline() {
   const rowsWrap = document.getElementById("topic-timeline-rows");
-  const axisWrap = document.getElementById("topic-timeline-axis");
   rowsWrap.innerHTML = "";
-  axisWrap.innerHTML = "";
 
   const topics = Object.keys(TOPIC_COLORS).filter(
     (topic) =>
@@ -624,41 +496,85 @@ function renderTopicTimeline() {
     return;
   }
 
-  const range = timelineDateRange();
+  const years = milestoneYears();
+  const maxRecent = Math.max(1, ...topics.map(recentEventCount));
+
+  const grid = document.createElement("div");
+  grid.className = "topic-grid";
+  grid.style.setProperty("--year-count", years.length);
+
+  // 表头：年份 + 近况列
+  grid.appendChild(document.createElement("div"));
+  years.forEach((y) => {
+    const cell = document.createElement("div");
+    cell.className = "topic-grid-year-head";
+    cell.textContent = y;
+    grid.appendChild(cell);
+  });
+  const recentHead = document.createElement("div");
+  recentHead.className = "topic-grid-year-head topic-grid-recent-head";
+  recentHead.textContent = "近 120 天";
+  grid.appendChild(recentHead);
 
   topics.forEach((topic) => {
     const color = TOPIC_COLORS[topic];
-    const events = state.events.filter((e) => (e.topics || []).includes(topic));
     const milestones = state.milestones.filter((m) => m.topic === topic);
 
-    const row = document.createElement("div");
-    row.className = "topic-row";
-
     const label = document.createElement("button");
-    label.className = "topic-row-label";
-    label.innerHTML = `<span class="dot" style="background:${color}"></span>${topic}<span class="topic-row-count">(${events.length})</span>`;
-    label.title = `点击查看「${topic}」完整脉络（可缩放/拖动）`;
+    label.className = "topic-grid-label";
+    label.innerHTML = `<span class="dot" style="background:${color}"></span><span class="topic-grid-name">${topic}</span>`;
+    label.title = `查看「${topic}」完整发展脉络`;
     label.addEventListener("click", () => openTopicModal(topic));
-    row.appendChild(label);
+    grid.appendChild(label);
 
-    const track = document.createElement("div");
-    track.className = "topic-row-track";
-    track.title = `点击查看「${topic}」完整脉络（可缩放/拖动）`;
-    track.addEventListener("click", () => openTopicModal(topic));
-    renderTopicMarks(track, events, milestones, range, color, { interactive: false, showLabels: false });
+    years.forEach((y) => {
+      const inYear = milestones.filter((m) => m.date.startsWith(y));
+      const cell = document.createElement("button");
+      cell.className = "topic-grid-cell" + (inYear.length ? " has-milestone" : "");
+      cell.title = inYear.length
+        ? `${topic} · ${y}：${inYear.map((m) => m.title).join("；")}`
+        : `${topic} · ${y}：暂无收录的里程碑`;
+      cell.addEventListener("click", () => openTopicModal(topic, y));
+      inYear.forEach(() => {
+        const d = document.createElement("span");
+        d.className = "topic-grid-dot";
+        d.style.background = color;
+        cell.appendChild(d);
+      });
+      grid.appendChild(cell);
+    });
 
-    row.appendChild(track);
-    rowsWrap.appendChild(row);
+    // 近况列：最近 120 天的相关条目数，用条长表示活跃度
+    const count = recentEventCount(topic);
+    const recentCell = document.createElement("button");
+    recentCell.className = "topic-grid-recent";
+    recentCell.title = `最近 120 天有 ${count} 条「${topic}」相关内容，点击筛选查看`;
+    recentCell.addEventListener("click", () => {
+      location.hash = `topic=${encodeURIComponent(topic)}`;
+    });
+    const bar = document.createElement("span");
+    bar.className = "topic-grid-recent-bar";
+    bar.style.width = `${(count / maxRecent) * 100}%`;
+    bar.style.background = color;
+    const num = document.createElement("span");
+    num.className = "topic-grid-recent-num";
+    num.textContent = count;
+    recentCell.append(bar, num);
+    grid.appendChild(recentCell);
   });
 
-  const axisSpacer = document.createElement("div");
-  const axisTrack = document.createElement("div");
-  renderAxisTicks(axisTrack, range);
-  axisWrap.append(axisSpacer, axisTrack);
+  rowsWrap.appendChild(grid);
+
+  const hint = document.createElement("p");
+  hint.className = "topic-timeline-empty-hint";
+  hint.textContent = "每个圆点是一个里程碑事件（年份等宽，非真实时间比例）。点方向名或格子查看完整脉络。";
+  rowsWrap.appendChild(hint);
 }
 
+// ─── 弹窗：垂直叙事流 ─────────────────────────────────────────
+// 不再需要缩放/拖动——那些本来就是在给「挤在一起」打补丁。
+
 let topicModalEl = null;
-let topicModalState = { zoom: 1, dragging: false, startX: 0, startScrollLeft: 0 };
 
 function ensureTopicModal() {
   if (topicModalEl) return topicModalEl;
@@ -672,32 +588,14 @@ function ensureTopicModal() {
 
   const header = document.createElement("div");
   header.className = "topic-modal-header";
-
   const title = document.createElement("h3");
 
   const actions = document.createElement("div");
   actions.className = "topic-modal-actions";
 
-  const zoomOutBtn = document.createElement("button");
-  zoomOutBtn.className = "text-btn";
-  zoomOutBtn.textContent = "－";
-  zoomOutBtn.title = "缩小";
-  zoomOutBtn.addEventListener("click", () => setTopicModalZoom(topicModalState.zoom / 1.5));
-
-  const zoomResetBtn = document.createElement("button");
-  zoomResetBtn.className = "text-btn";
-  zoomResetBtn.textContent = "重置";
-  zoomResetBtn.addEventListener("click", () => setTopicModalZoom(1));
-
-  const zoomInBtn = document.createElement("button");
-  zoomInBtn.className = "text-btn";
-  zoomInBtn.textContent = "＋";
-  zoomInBtn.title = "放大";
-  zoomInBtn.addEventListener("click", () => setTopicModalZoom(topicModalState.zoom * 1.5));
-
   const viewListLink = document.createElement("a");
   viewListLink.className = "text-btn";
-  viewListLink.textContent = "在「最新」中查看相关新闻 →";
+  viewListLink.textContent = "查看相关新闻 →";
   viewListLink.href = "#";
 
   const closeBtn = document.createElement("button");
@@ -705,24 +603,13 @@ function ensureTopicModal() {
   closeBtn.textContent = "✕ 关闭";
   closeBtn.addEventListener("click", closeTopicModal);
 
-  actions.append(zoomOutBtn, zoomResetBtn, zoomInBtn, viewListLink, closeBtn);
+  actions.append(viewListLink, closeBtn);
   header.append(title, actions);
 
-  const viewport = document.createElement("div");
-  viewport.className = "topic-modal-viewport";
+  const body = document.createElement("div");
+  body.className = "topic-modal-body";
 
-  const inner = document.createElement("div");
-  inner.className = "topic-modal-inner";
-
-  const track = document.createElement("div");
-  track.className = "topic-row-track topic-modal-track";
-
-  const axis = document.createElement("div");
-  axis.className = "topic-modal-axis";
-
-  inner.append(track, axis);
-  viewport.appendChild(inner);
-  panel.append(header, viewport);
+  panel.append(header, body);
   backdrop.appendChild(panel);
   document.body.appendChild(backdrop);
 
@@ -730,60 +617,113 @@ function ensureTopicModal() {
     if (e.target === backdrop) closeTopicModal();
   });
 
-  viewport.addEventListener("mousedown", (e) => {
-    topicModalState.dragging = true;
-    topicModalState.startX = e.clientX;
-    topicModalState.startScrollLeft = viewport.scrollLeft;
-    viewport.classList.add("dragging");
-  });
-  window.addEventListener("mousemove", (e) => {
-    if (!topicModalState.dragging) return;
-    viewport.scrollLeft = topicModalState.startScrollLeft - (e.clientX - topicModalState.startX);
-  });
-  window.addEventListener("mouseup", () => {
-    topicModalState.dragging = false;
-    viewport.classList.remove("dragging");
-  });
-  viewport.addEventListener(
-    "wheel",
-    (e) => {
-      if (!e.ctrlKey && !e.metaKey) return; // 按住 Ctrl/⌘ 滚轮缩放，避免和普通滚动冲突
-      e.preventDefault();
-      setTopicModalZoom(topicModalState.zoom * (e.deltaY < 0 ? 1.15 : 1 / 1.15));
-    },
-    { passive: false }
-  );
-
-  topicModalEl = { backdrop, panel, title, viewport, inner, track, axis, viewListLink };
+  topicModalEl = { backdrop, title, body, viewListLink };
   return topicModalEl;
-}
-
-function setTopicModalZoom(zoom) {
-  topicModalState.zoom = Math.max(1, Math.min(8, zoom));
-  if (!topicModalEl) return;
-  const width = topicModalEl.viewport.clientWidth * topicModalState.zoom;
-  topicModalEl.inner.style.width = `${width}px`;
 }
 
 function handleTopicModalKeydown(e) {
   if (e.key === "Escape") closeTopicModal();
 }
 
-function openTopicModal(topic) {
+function openTopicModal(topic, scrollToYear) {
   const modal = ensureTopicModal();
   const color = TOPIC_COLORS[topic];
-  const events = state.events
-    .filter((e) => (e.topics || []).includes(topic))
-    .sort((a, b) => (a.date < b.date ? -1 : 1));
   const milestones = state.milestones
     .filter((m) => m.topic === topic)
     .sort((a, b) => (a.date < b.date ? -1 : 1));
-  const range = timelineDateRange();
+  const events = state.events
+    .filter((e) => (e.topics || []).includes(topic))
+    .sort((a, b) => (a.date < b.date ? 1 : -1));
 
-  modal.title.innerHTML = `<span class="dot" style="background:${color}"></span>${topic}<span class="topic-row-count">（${events.length} 条相关内容 · ${milestones.length} 个里程碑）</span>`;
-  modal.track.innerHTML = "";
-  renderTopicMarks(modal.track, events, milestones, range, color, { interactive: true, showLabels: true });
-  renderAxisTicks(modal.axis, range);
+  modal.title.innerHTML = `<span class="dot" style="background:${color}"></span>${topic}`;
+  modal.body.innerHTML = "";
+
+  // 里程碑：按年份分段的叙事流
+  if (milestones.length) {
+    const byYear = new Map();
+    for (const m of milestones) {
+      const y = m.date.slice(0, 4);
+      if (!byYear.has(y)) byYear.set(y, []);
+      byYear.get(y).push(m);
+    }
+    for (const [year, list] of byYear) {
+      const section = document.createElement("section");
+      section.className = "milestone-year";
+      section.dataset.year = year;
+
+      const yh = document.createElement("h4");
+      yh.className = "milestone-year-head";
+      yh.textContent = year;
+      section.appendChild(yh);
+
+      for (const m of list) {
+        const card = document.createElement("article");
+        card.className = "milestone-card";
+        card.style.setProperty("--card-color", color);
+
+        const date = document.createElement("div");
+        date.className = "milestone-date";
+        date.textContent = m.date;
+
+        const link = document.createElement("a");
+        link.className = "milestone-title";
+        link.href = m.url;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.textContent = m.title;
+
+        card.append(date, link);
+        if (m.description) {
+          const desc = document.createElement("p");
+          desc.className = "milestone-desc";
+          desc.textContent = m.description;
+          card.appendChild(desc);
+        }
+        section.appendChild(card);
+      }
+      modal.body.appendChild(section);
+    }
+  } else {
+    const empty = document.createElement("p");
+    empty.className = "topic-timeline-empty-hint";
+    empty.textContent = "这个方向还没有收录里程碑事件。";
+    modal.body.appendChild(empty);
+  }
+
+  // 最近动态：单独一段，和历史里程碑物理分开
+  const recent = document.createElement("section");
+  recent.className = "milestone-year milestone-recent";
+  const rh = document.createElement("h4");
+  rh.className = "milestone-year-head";
+  rh.textContent = `最近动态（${events.length} 条）`;
+  recent.appendChild(rh);
+
+  if (events.length) {
+    const list = document.createElement("div");
+    list.className = "milestone-recent-list";
+    for (const e of events.slice(0, 12)) {
+      const row = document.createElement("a");
+      row.className = "milestone-recent-item";
+      row.href = e.url;
+      row.target = "_blank";
+      row.rel = "noopener noreferrer";
+      row.innerHTML = `<span class="milestone-recent-date">${e.date}</span><span class="milestone-recent-title">${e.title}</span><span class="milestone-recent-source">${e.source}</span>`;
+      list.appendChild(row);
+    }
+    recent.appendChild(list);
+    if (events.length > 12) {
+      const more = document.createElement("p");
+      more.className = "topic-timeline-empty-hint";
+      more.textContent = `还有 ${events.length - 12} 条，点右上角「查看相关新闻」看全部。`;
+      recent.appendChild(more);
+    }
+  } else {
+    const none = document.createElement("p");
+    none.className = "topic-timeline-empty-hint";
+    none.textContent = "最近 120 天没有这个方向的新内容。";
+    recent.appendChild(none);
+  }
+  modal.body.appendChild(recent);
 
   modal.viewListLink.onclick = (e) => {
     e.preventDefault();
@@ -793,8 +733,13 @@ function openTopicModal(topic) {
 
   modal.backdrop.hidden = false;
   document.body.style.overflow = "hidden";
-  setTopicModalZoom(1);
   document.addEventListener("keydown", handleTopicModalKeydown);
+
+  modal.body.scrollTop = 0;
+  if (scrollToYear) {
+    const target = modal.body.querySelector(`.milestone-year[data-year="${scrollToYear}"]`);
+    if (target) target.scrollIntoView({ block: "start" });
+  }
 }
 
 function closeTopicModal() {
@@ -802,7 +747,6 @@ function closeTopicModal() {
   topicModalEl.backdrop.hidden = true;
   document.body.style.overflow = "";
   document.removeEventListener("keydown", handleTopicModalKeydown);
-  hideTopicTooltip();
 }
 
 function renderTopicTimelineTable() {
