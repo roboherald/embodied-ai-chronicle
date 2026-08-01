@@ -88,30 +88,6 @@
     ]
   },
   {
-    "id": "b26a35fa31965c98",
-    "title": "Remotely controlled humanoid cleaning service",
-    "url": "https://www.tau-robotics.com",
-    "source": "Hacker News",
-    "date": "2026-07-31",
-    "summary": "2 points, https://news.ycombinator.com/item?id=49125949",
-    "tags": [],
-    "topics": [
-      "人形机器人"
-    ],
-    "kinds": []
-  },
-  {
-    "id": "35c951c3083d5f43",
-    "title": "High school axes plans to deploy AI robot called Sally after ties to sex dolls",
-    "url": "https://www.dailymail.com/news/article-16017467/humanoid-robot-teacher-new-york-axes-plan.html",
-    "source": "Hacker News",
-    "date": "2026-07-31",
-    "summary": "1 points, https://news.ycombinator.com/item?id=49122171",
-    "tags": [],
-    "topics": [],
-    "kinds": []
-  },
-  {
     "id": "32f37cd6a72d52a4",
     "title": "李飞飞的世界模型，终于开始训练机器人了",
     "url": "https://www.qbitai.com/2026/07/463217.html",
@@ -352,19 +328,6 @@
     "kinds": [
       "产业动态"
     ]
-  },
-  {
-    "id": "f30f68c25e40f6a9",
-    "title": "Texas Heat vs. Humanoid – what fails first joints / on-board compute?",
-    "url": "https://thehumanoidshop.com/blog/humanoid-robot-105f-texas-heat-telemetry",
-    "source": "Hacker News",
-    "date": "2026-07-30",
-    "summary": "1 points, https://news.ycombinator.com/item?id=49112199",
-    "tags": [],
-    "topics": [
-      "人形机器人"
-    ],
-    "kinds": []
   },
   {
     "id": "06b8d0ad6f63e2ce",
@@ -694,12 +657,17 @@
     "url": "https://www.bbc.com/news/articles/cp9e2ex3ekyo",
     "source": "Hacker News",
     "date": "2026-07-29",
-    "summary": "24 points, https://news.ycombinator.com/item?id=49092538",
+    "summary": "",
     "tags": [],
     "topics": [
       "人形机器人"
     ],
-    "kinds": []
+    "kinds": [],
+    "hn": {
+      "points": 24,
+      "comments": 0,
+      "discussion": "https://news.ycombinator.com/item?id=49092538"
+    }
   },
   {
     "id": "cba713cd541002ff",
@@ -707,14 +675,19 @@
     "url": "https://www.theguardian.com/us-news/2026/jul/28/fcc-ban-humanoid-robots-china",
     "source": "Hacker News",
     "date": "2026-07-29",
-    "summary": "7 points, https://news.ycombinator.com/item?id=49095067",
+    "summary": "",
     "tags": [],
     "topics": [
       "人形机器人"
     ],
     "kinds": [
       "安全与可信"
-    ]
+    ],
+    "hn": {
+      "points": 7,
+      "comments": 0,
+      "discussion": "https://news.ycombinator.com/item?id=49095067"
+    }
   },
   {
     "id": "c7bb1df1e5a84990",
@@ -1011,12 +984,17 @@
     "url": "https://www.reuters.com/world/trump-administration-ban-new-chinese-robots-inverters-protecting-us-ai-buildout-2026-07-28/",
     "source": "Hacker News",
     "date": "2026-07-28",
-    "summary": "19 points, https://news.ycombinator.com/item?id=49089418",
+    "summary": "",
     "tags": [],
     "topics": [
       "人形机器人"
     ],
-    "kinds": []
+    "kinds": [],
+    "hn": {
+      "points": 19,
+      "comments": 0,
+      "discussion": "https://news.ycombinator.com/item?id=49089418"
+    }
   },
   {
     "id": "7909c613945e81a8",
@@ -1494,12 +1472,17 @@
     "url": "https://news.ycombinator.com/item?id=49061030",
     "source": "Hacker News",
     "date": "2026-07-26",
-    "summary": "3 points, https://news.ycombinator.com/item?id=49061030",
+    "summary": "",
     "tags": [],
     "topics": [
       "遥操作与数据采集"
     ],
-    "kinds": []
+    "kinds": [],
+    "hn": {
+      "points": 3,
+      "comments": 0,
+      "discussion": "https://news.ycombinator.com/item?id=49061030"
+    }
   },
   {
     "id": "0a07c4be41ab2b46",
@@ -1507,10 +1490,15 @@
     "url": "https://news.ycombinator.com/item?id=49058956",
     "source": "Hacker News",
     "date": "2026-07-26",
-    "summary": "22 points, https://news.ycombinator.com/item?id=49058956",
+    "summary": "",
     "tags": [],
     "topics": [],
-    "kinds": []
+    "kinds": [],
+    "hn": {
+      "points": 22,
+      "comments": 0,
+      "discussion": "https://news.ycombinator.com/item?id=49058956"
+    }
   },
   {
     "id": "f7c7a80f6385c014",
@@ -1604,25 +1592,17 @@
     "url": "https://arstechnica.com/ai/2026/07/hyundai-claims-humanoid-robot-plan-is-not-part-of-talks-with-striking-workers/",
     "source": "Hacker News",
     "date": "2026-07-25",
-    "summary": "3 points, https://news.ycombinator.com/item?id=49044126",
+    "summary": "",
     "tags": [],
     "topics": [
       "人形机器人"
     ],
-    "kinds": []
-  },
-  {
-    "id": "e3f3d60a21065d71",
-    "title": "Show HN: Robotics startups are hiring across several roles",
-    "url": "https://robotclub.substack.com/p/icymi-figure-hits-1000-humanoids",
-    "source": "Hacker News",
-    "date": "2026-07-25",
-    "summary": "2 points, https://news.ycombinator.com/item?id=49049977",
-    "tags": [],
-    "topics": [],
-    "kinds": [
-      "产业动态"
-    ]
+    "kinds": [],
+    "hn": {
+      "points": 3,
+      "comments": 0,
+      "discussion": "https://news.ycombinator.com/item?id=49044126"
+    }
   },
   {
     "id": "7d879356088e17a9",
@@ -1630,12 +1610,17 @@
     "url": "https://www.theguardian.com/us-news/2026/jul/25/new-york-humanoid-robot-teachers-school",
     "source": "Hacker News",
     "date": "2026-07-25",
-    "summary": "6 points, https://news.ycombinator.com/item?id=49048149",
+    "summary": "",
     "tags": [],
     "topics": [
       "人形机器人"
     ],
-    "kinds": []
+    "kinds": [],
+    "hn": {
+      "points": 6,
+      "comments": 0,
+      "discussion": "https://news.ycombinator.com/item?id=49048149"
+    }
   },
   {
     "id": "41099f9d6d373d4b",
@@ -1643,12 +1628,17 @@
     "url": "https://github.com/SphericalCowww/CubicDoggo_06R",
     "source": "Hacker News",
     "date": "2026-07-25",
-    "summary": "6 points, https://news.ycombinator.com/item?id=49048024",
+    "summary": "",
     "tags": [],
     "topics": [
       "移动与四足"
     ],
-    "kinds": []
+    "kinds": [],
+    "hn": {
+      "points": 6,
+      "comments": 0,
+      "discussion": "https://news.ycombinator.com/item?id=49048024"
+    }
   },
   {
     "id": "7bb0fdae518de977",
@@ -2123,19 +2113,6 @@
     "kinds": [
       "产业动态"
     ]
-  },
-  {
-    "id": "d1ba2470df2d7012",
-    "title": "US eyes ban on Chinese humanoid robots as US-China tech rivalry intensifies",
-    "url": "https://www.scmp.com/tech/policy/article/3361622/us-eyes-ban-chinese-humanoid-robots-us-china-tech-rivalry-intensifies",
-    "source": "Hacker News",
-    "date": "2026-07-23",
-    "summary": "2 points, https://news.ycombinator.com/item?id=49024722",
-    "tags": [],
-    "topics": [
-      "人形机器人"
-    ],
-    "kinds": []
   },
   {
     "id": "8233d977439132aa",
@@ -3219,19 +3196,6 @@
     "kinds": []
   },
   {
-    "id": "29b3fdb24c437895",
-    "title": "Who Is Robert the Robot, the Face-Swapping Humanoid?",
-    "url": "https://mrkt30.com/face-swapping-robot-robert-rb-labs/",
-    "source": "Hacker News",
-    "date": "2026-07-20",
-    "summary": "2 points, https://news.ycombinator.com/item?id=48980498",
-    "tags": [],
-    "topics": [
-      "人形机器人"
-    ],
-    "kinds": []
-  },
-  {
     "id": "4b47e51a020f8bf9",
     "title": "From Perception to Assistance: Open-Vocabulary Shared Autonomy for Robotic Manipulation",
     "url": "https://arxiv.org/abs/2607.17323v1",
@@ -3297,20 +3261,6 @@
       "人形机器人",
       "仿真与Sim2Real",
       "遥操作与数据采集"
-    ],
-    "kinds": []
-  },
-  {
-    "id": "7bb7d8f8d3da1293",
-    "title": "The Tactile Gating Paradox: Why Cameras Alone Can't Keep Humanoid Robots Upright",
-    "url": "https://latentdynamics.substack.com/p/the-tactile-gating-paradox-why-cameras",
-    "source": "Hacker News",
-    "date": "2026-07-19",
-    "summary": "1 points, https://news.ycombinator.com/item?id=48967870",
-    "tags": [],
-    "topics": [
-      "人形机器人",
-      "感知与传感"
     ],
     "kinds": []
   },
@@ -3691,25 +3641,17 @@
     "url": "https://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory/",
     "source": "Hacker News",
     "date": "2026-07-17",
-    "summary": "34 points, https://news.ycombinator.com/item?id=48950620",
+    "summary": "",
     "tags": [],
     "topics": [
       "人形机器人"
     ],
-    "kinds": []
-  },
-  {
-    "id": "dae144e800f0c22c",
-    "title": "The Fight over Humanoid Robots Has Shut Down a Car Factory for the First Time",
-    "url": "https://www.wsj.com/business/autos/the-fight-over-humanoid-robots-has-shut-down-a-car-factory-for-the-first-time-d45ac3e1",
-    "source": "Hacker News",
-    "date": "2026-07-17",
-    "summary": "2 points, https://news.ycombinator.com/item?id=48943384",
-    "tags": [],
-    "topics": [
-      "人形机器人"
-    ],
-    "kinds": []
+    "kinds": [],
+    "hn": {
+      "points": 34,
+      "comments": 0,
+      "discussion": "https://news.ycombinator.com/item?id=48950620"
+    }
   },
   {
     "id": "745c16e5b4b25039",
@@ -4335,12 +4277,17 @@
     "url": "https://nysfocus.com/2026/07/14/new-york-humanoid-robot-teacher-salamanca-school-district",
     "source": "Hacker News",
     "date": "2026-07-14",
-    "summary": "3 points, https://news.ycombinator.com/item?id=48911203",
+    "summary": "",
     "tags": [],
     "topics": [
       "人形机器人"
     ],
-    "kinds": []
+    "kinds": [],
+    "hn": {
+      "points": 3,
+      "comments": 0,
+      "discussion": "https://news.ycombinator.com/item?id=48911203"
+    }
   },
   {
     "id": "4894bc6f8e68cc31",
@@ -4379,19 +4326,6 @@
     "kinds": []
   },
   {
-    "id": "025493a5b12b4c7b",
-    "title": "LingBot-Video: An open-source MoE video foundation model for embodied AI",
-    "url": "https://github.com/robbyant/lingbot-video",
-    "source": "Hacker News",
-    "date": "2026-07-13",
-    "summary": "1 points, https://news.ycombinator.com/item?id=48893161",
-    "tags": [],
-    "topics": [
-      "VLA与基础模型"
-    ],
-    "kinds": []
-  },
-  {
     "id": "66188580349f59ed",
     "title": "Empowering India’s next generation of innovators with ATL Saathi",
     "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
@@ -4408,7 +4342,7 @@
     "url": "https://today.ucsd.edu/story/surgeons-use-teleoperated-humanoid-robots-to-perform-live-surgery-a-world-first",
     "source": "Hacker News",
     "date": "2026-07-11",
-    "summary": "4 points, https://news.ycombinator.com/item?id=48870031",
+    "summary": "",
     "tags": [],
     "topics": [
       "人形机器人",
@@ -4416,7 +4350,12 @@
     ],
     "kinds": [
       "医疗应用"
-    ]
+    ],
+    "hn": {
+      "points": 4,
+      "comments": 0,
+      "discussion": "https://news.ycombinator.com/item?id=48870031"
+    }
   },
   {
     "id": "6d65e9a1cde1430f",
@@ -4443,46 +4382,6 @@
     "kinds": [
       "无人机"
     ]
-  },
-  {
-    "id": "f74433da2b342ec2",
-    "title": "Humanoid robots perform first teleoperated surgery on pigs [video]",
-    "url": "https://www.youtube.com/watch?v=Qp0eiQL6vB8",
-    "source": "Hacker News",
-    "date": "2026-07-10",
-    "summary": "2 points, https://news.ycombinator.com/item?id=48860948",
-    "tags": [],
-    "topics": [
-      "人形机器人",
-      "遥操作与数据采集"
-    ],
-    "kinds": [
-      "医疗应用"
-    ]
-  },
-  {
-    "id": "7870ac828419384b",
-    "title": "Show HN: Zero2Robot – free, open source interactive textbook for robot learning",
-    "url": "https://zero2robot.com/",
-    "source": "Hacker News",
-    "date": "2026-07-10",
-    "summary": "1 points, https://news.ycombinator.com/item?id=48855965",
-    "tags": [],
-    "topics": [],
-    "kinds": []
-  },
-  {
-    "id": "a8afd579ee1e1985",
-    "title": "Show HN: Virena, a minimal vision-language-action robot model you can read",
-    "url": "https://github.com/BuceaGeorgia/VIRENA",
-    "source": "Hacker News",
-    "date": "2026-07-09",
-    "summary": "2 points, https://news.ycombinator.com/item?id=48845348",
-    "tags": [],
-    "topics": [
-      "VLA与基础模型"
-    ],
-    "kinds": []
   },
   {
     "id": "ddd0e329481881ac",
@@ -4548,19 +4447,6 @@
     "kinds": []
   },
   {
-    "id": "943d2548a43c58fe",
-    "title": "Are Humanoid Robots Ready to Be Deployed?",
-    "url": "https://www.newyorker.com/magazine/2026/07/06/are-humanoid-robots-ready-to-be-deployed",
-    "source": "Hacker News",
-    "date": "2026-07-07",
-    "summary": "2 points, https://news.ycombinator.com/item?id=48813582",
-    "tags": [],
-    "topics": [
-      "人形机器人"
-    ],
-    "kinds": []
-  },
-  {
     "id": "d617fa3757f19845",
     "title": "This humanoid robotics company is going public, but its CEO isn’t promising a robot in your home anytime soon",
     "url": "https://techcrunch.com/2026/07/05/this-humanoid-robotics-company-is-going-public-but-its-ceo-isnt-promising-a-robot-in-your-home-anytime-soon/",
@@ -4583,10 +4469,15 @@
     "url": "https://www.theguardian.com/technology/ng-interactive/2026/jul/06/china-dextrous-robotic-hands-humanoid",
     "source": "Hacker News",
     "date": "2026-07-06",
-    "summary": "8 points, https://news.ycombinator.com/item?id=48801533",
+    "summary": "",
     "tags": [],
     "topics": [],
-    "kinds": []
+    "kinds": [],
+    "hn": {
+      "points": 8,
+      "comments": 0,
+      "discussion": "https://news.ycombinator.com/item?id=48801533"
+    }
   },
   {
     "id": "74066ac3bb80ad46",
@@ -4607,12 +4498,17 @@
     "url": "https://www.wsj.com/tech/the-quest-to-make-humanoid-robots-safe-enough-for-humans-4887c123",
     "source": "Hacker News",
     "date": "2026-07-04",
-    "summary": "3 points, https://news.ycombinator.com/item?id=48789922",
+    "summary": "",
     "tags": [],
     "topics": [
       "人形机器人"
     ],
-    "kinds": []
+    "kinds": [],
+    "hn": {
+      "points": 3,
+      "comments": 0,
+      "discussion": "https://news.ycombinator.com/item?id=48789922"
+    }
   },
   {
     "id": "a0f8faefadf53138",
@@ -4620,12 +4516,17 @@
     "url": "https://www.reuters.com/technology/chinas-ubtech-launches-ai-powered-lifelike-companion-robots-2026-07-02/",
     "source": "Hacker News",
     "date": "2026-07-04",
-    "summary": "3 points, https://news.ycombinator.com/item?id=48786101",
+    "summary": "",
     "tags": [],
     "topics": [
       "人形机器人"
     ],
-    "kinds": []
+    "kinds": [],
+    "hn": {
+      "points": 3,
+      "comments": 0,
+      "discussion": "https://news.ycombinator.com/item?id=48786101"
+    }
   },
   {
     "id": "7ffaf37eef08c770",
@@ -4639,41 +4540,22 @@
     "kinds": []
   },
   {
-    "id": "b37ef2463e61cab2",
-    "title": "Embodied.cpp: A Portable Inference Runtime of Embodied AI Models",
-    "url": "https://arxiv.org/abs/2607.02501",
-    "source": "Hacker News",
-    "date": "2026-07-03",
-    "summary": "1 points, https://news.ycombinator.com/item?id=48774455",
-    "tags": [],
-    "topics": [],
-    "kinds": []
-  },
-  {
     "id": "302cb2bdacd042af",
     "title": "New humanoid robots from China look like creepy pop star action figures",
     "url": "https://www.theregister.com/ai-and-ml/2026/07/02/new-humanoid-robots-from-china-look-like-creepy-pop-star-action-figures-complete-with-slightly-dodgy-lip-synch/5265490",
     "source": "Hacker News",
     "date": "2026-07-02",
-    "summary": "4 points, https://news.ycombinator.com/item?id=48764851",
+    "summary": "",
     "tags": [],
     "topics": [
       "人形机器人"
     ],
-    "kinds": []
-  },
-  {
-    "id": "94a42c7b1741395f",
-    "title": "OctoSense: Self-Supervised Learning for Multimodal Robot Perception",
-    "url": "https://abisulco.com/octosense/",
-    "source": "Hacker News",
-    "date": "2026-07-02",
-    "summary": "1 points, https://news.ycombinator.com/item?id=48763431",
-    "tags": [],
-    "topics": [
-      "感知与传感"
-    ],
-    "kinds": []
+    "kinds": [],
+    "hn": {
+      "points": 4,
+      "comments": 0,
+      "discussion": "https://news.ycombinator.com/item?id=48764851"
+    }
   },
   {
     "id": "78faf445905b5a9f",
@@ -4700,32 +4582,24 @@
     "kinds": []
   },
   {
-    "id": "c7647a58e27b3a4b",
-    "title": "The Humanoid That Pays to Stand Still – Robotics",
-    "url": "https://atomsfrontier.substack.com/p/the-humanoid-that-pays-to-stand-still",
-    "source": "Hacker News",
-    "date": "2026-06-30",
-    "summary": "2 points, https://news.ycombinator.com/item?id=48732387",
-    "tags": [],
-    "topics": [
-      "人形机器人"
-    ],
-    "kinds": []
-  },
-  {
     "id": "6036b8497c602eca",
     "title": "China's humanoid robots captivated the world, a rental market shows their limits",
     "url": "https://www.cnn.com/2026/06/30/tech/china-humanoid-robot-ai-rental-intl-hnk-dst",
     "source": "Hacker News",
     "date": "2026-06-30",
-    "summary": "3 points, https://news.ycombinator.com/item?id=48731998",
+    "summary": "",
     "tags": [],
     "topics": [
       "人形机器人"
     ],
     "kinds": [
       "产业动态"
-    ]
+    ],
+    "hn": {
+      "points": 3,
+      "comments": 0,
+      "discussion": "https://news.ycombinator.com/item?id=48731998"
+    }
   },
   {
     "id": "4a54fd56cc74fcf0",
@@ -4746,12 +4620,17 @@
     "url": "https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/",
     "source": "Hacker News",
     "date": "2026-06-29",
-    "summary": "260 points, https://news.ycombinator.com/item?id=48726102",
+    "summary": "",
     "tags": [],
     "topics": [
       "人形机器人"
     ],
-    "kinds": []
+    "kinds": [],
+    "hn": {
+      "points": 260,
+      "comments": 0,
+      "discussion": "https://news.ycombinator.com/item?id=48726102"
+    }
   },
   {
     "id": "560a9bbf66d2d390",
@@ -4801,19 +4680,6 @@
     "summary": "Shinkei makes a refrigerator-sized robot called Poseidon to kill fish quickly and humanely.",
     "tags": [],
     "topics": [],
-    "kinds": []
-  },
-  {
-    "id": "5f4a5fd631573962",
-    "title": "A Web-Scale Data Engine for Video-to-Action Robot Learning",
-    "url": "https://huggingface.co/spaces/Rice-RobotPI-Lab/EgoInfinity",
-    "source": "Hacker News",
-    "date": "2026-06-20",
-    "summary": "1 points, https://news.ycombinator.com/item?id=48608172",
-    "tags": [],
-    "topics": [
-      "遥操作与数据采集"
-    ],
     "kinds": []
   },
   {
@@ -4966,10 +4832,15 @@
     "url": "https://news.ycombinator.com/item?id=48421508",
     "source": "Hacker News",
     "date": "2026-06-06",
-    "summary": "8 points, https://news.ycombinator.com/item?id=48421508",
+    "summary": "",
     "tags": [],
     "topics": [],
-    "kinds": []
+    "kinds": [],
+    "hn": {
+      "points": 8,
+      "comments": 0,
+      "discussion": "https://news.ycombinator.com/item?id=48421508"
+    }
   },
   {
     "id": "f95879e8b161dce8",
@@ -5014,12 +4885,17 @@
     "url": "https://www.dcard.tw/f/relationship/p/255790583?cid=d3500548-d505-400c-8906-1449999188de",
     "source": "Hacker News",
     "date": "2026-06-01",
-    "summary": "3 points, https://news.ycombinator.com/item?id=48351442",
+    "summary": "",
     "tags": [],
     "topics": [
       "VLA与基础模型"
     ],
-    "kinds": []
+    "kinds": [],
+    "hn": {
+      "points": 3,
+      "comments": 0,
+      "discussion": "https://news.ycombinator.com/item?id=48351442"
+    }
   },
   {
     "id": "cbe1e5c4290162d4",
@@ -5103,17 +4979,6 @@
     "kinds": [
       "产业动态"
     ]
-  },
-  {
-    "id": "55ccda70fe1c3d7c",
-    "title": "Continual Harness: A reset-free self-improving harness for embodied agents",
-    "url": "https://sethkarten.ai/continual-harness/",
-    "source": "Hacker News",
-    "date": "2026-05-23",
-    "summary": "2 points, https://news.ycombinator.com/item?id=48248536",
-    "tags": [],
-    "topics": [],
-    "kinds": []
   },
   {
     "id": "29789aee003147f1",
@@ -5206,50 +5071,20 @@
     "kinds": []
   },
   {
-    "id": "efebf34851466e05",
-    "title": "Stera: Open-Source Infra That Turns iPhones into Spatial Data for World Models",
-    "url": "https://news.ycombinator.com/item?id=48160091",
-    "source": "Hacker News",
-    "date": "2026-05-16",
-    "summary": "2 points, https://news.ycombinator.com/item?id=48160091",
-    "tags": [],
-    "topics": [
-      "世界模型"
-    ],
-    "kinds": []
-  },
-  {
-    "id": "fc2eab91a2c19980",
-    "title": "How robots are learning to walk – Marco Hutter, ETH Zürich [video]",
-    "url": "https://www.youtube.com/watch?v=Wmn7uPLFXm8",
-    "source": "Hacker News",
-    "date": "2026-05-15",
-    "summary": "1 points, https://news.ycombinator.com/item?id=48146338",
-    "tags": [],
-    "topics": [],
-    "kinds": []
-  },
-  {
     "id": "ac776eb55de0ec7f",
     "title": "A new data layer for robot learning",
     "url": "https://rerun.io/blog/data-layer-for-robot-learning",
     "source": "Hacker News",
     "date": "2026-05-14",
-    "summary": "3 points, https://news.ycombinator.com/item?id=48140185",
+    "summary": "",
     "tags": [],
     "topics": [],
-    "kinds": []
-  },
-  {
-    "id": "2d71c36d4a9fd623",
-    "title": "Embodied AI with Claude, Raspberry Pi and Arduino",
-    "url": "https://github.com/harshaneo17/agentic_arduino",
-    "source": "Hacker News",
-    "date": "2026-05-05",
-    "summary": "1 points, https://news.ycombinator.com/item?id=48026230",
-    "tags": [],
-    "topics": [],
-    "kinds": []
+    "kinds": [],
+    "hn": {
+      "points": 3,
+      "comments": 0,
+      "discussion": "https://news.ycombinator.com/item?id=48140185"
+    }
   },
   {
     "id": "dd9960c90c4006ce",
@@ -5257,58 +5092,15 @@
     "url": "https://rerun.io/blog/data-layer-tax",
     "source": "Hacker News",
     "date": "2026-04-30",
-    "summary": "7 points, https://news.ycombinator.com/item?id=47961506",
+    "summary": "",
     "tags": [],
     "topics": [],
-    "kinds": []
-  },
-  {
-    "id": "6f425edda17b0072",
-    "title": "Embodied AI: China's ambitious path to transform its robotics industry",
-    "url": "https://merics.org/en/report/embodied-ai-chinas-ambitious-path-transform-its-robotics-industry",
-    "source": "Hacker News",
-    "date": "2026-04-30",
-    "summary": "1 points, https://news.ycombinator.com/item?id=47968124",
-    "tags": [],
-    "topics": [],
-    "kinds": []
-  },
-  {
-    "id": "1e0186c931989bc3",
-    "title": "FlashDrive: Flash Vision-Language-Action Inference for Autonomous Driving",
-    "url": "https://z-lab.ai/projects/flashdrive/",
-    "source": "Hacker News",
-    "date": "2026-04-23",
-    "summary": "1 points, https://news.ycombinator.com/item?id=47871495",
-    "tags": [],
-    "topics": [
-      "VLA与基础模型"
-    ],
-    "kinds": []
-  },
-  {
-    "id": "8aa8d9c2824844ce",
-    "title": "FastStair: Learning to Run Up Stairs with Humanoid Robots",
-    "url": "https://npcliu.github.io/FastStair/",
-    "source": "Hacker News",
-    "date": "2026-04-19",
-    "summary": "1 points, https://news.ycombinator.com/item?id=47825760",
-    "tags": [],
-    "topics": [
-      "人形机器人"
-    ],
-    "kinds": []
-  },
-  {
-    "id": "685137652dfb8296",
-    "title": "The Design Landscape of Robot Learning Is a Minefield",
-    "url": "https://allevato.me/2026/04/15/robot-learning-is-a-minefield",
-    "source": "Hacker News",
-    "date": "2026-04-15",
-    "summary": "1 points, https://news.ycombinator.com/item?id=47778369",
-    "tags": [],
-    "topics": [],
-    "kinds": []
+    "kinds": [],
+    "hn": {
+      "points": 7,
+      "comments": 0,
+      "discussion": "https://news.ycombinator.com/item?id=47961506"
+    }
   },
   {
     "id": "4df32f9394272a35",

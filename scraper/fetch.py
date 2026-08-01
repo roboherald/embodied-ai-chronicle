@@ -210,10 +210,15 @@ def fetch_hn():
             # Algolia 的模糊匹配会把 "embodied" 错配成 "embedded" 之类，标题里必须真的出现关键词
             if not matches_keywords(title):
                 continue
+            # 实测 47 条 HN 里 26 条只有 ≤2 分——没人看过的贴，纯噪声，稀释信息流
+            points = hit.get("points") or 0
+            if points < sources.HN_MIN_POINTS:
+                continue
             url = hit.get("url") or f"https://news.ycombinator.com/item?id={hit['objectID']}"
             date = to_date(hit.get("created_at", ""), ["%Y-%m-%dT%H:%M:%SZ"])
             if not date:
                 continue
+            comments = hit.get("num_comments") or 0
             events.append(
                 {
                     "id": make_id(url),
@@ -221,8 +226,14 @@ def fetch_hn():
                     "url": url,
                     "source": "Hacker News",
                     "date": date,
-                    "summary": f"{hit.get('points', 0)} points, "
-                    f"https://news.ycombinator.com/item?id={hit['objectID']}",
+                    # 原来 summary 是 "N points, <链接>"，对读者零信息量。
+                    # 改成结构化字段，前端渲染成徽标，摘要留空而不是塞垃圾。
+                    "summary": "",
+                    "hn": {
+                        "points": points,
+                        "comments": comments,
+                        "discussion": f"https://news.ycombinator.com/item?id={hit['objectID']}",
+                    },
                 }
             )
     print(f"[hn] got {len(events)} entries", file=sys.stderr)

@@ -59,6 +59,8 @@ KEYWORDS_ZH = [
 
 HN_QUERIES = ["humanoid robot", "embodied AI", "robot learning", "vision language action"]
 HN_MAX_PER_QUERY = 15
+# 低于这个分数的 HN 帖子基本没人看过（实测 47 条里 26 条 ≤2 分），纯噪声，不收录
+HN_MIN_POINTS = 3
 
 # 超过这么多天的旧条目不再保留在 events.json 里，避免文件无限膨胀
 MAX_AGE_DAYS = 120

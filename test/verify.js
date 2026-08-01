@@ -60,11 +60,11 @@ async function boot() {
   // 等待 init() 的 async 链跑完
   await new Promise((r) => setTimeout(r, 300));
 
-  return { window, doc: window.document, consoleErrors, health };
+  return { window, doc: window.document, consoleErrors, health, events };
 }
 
 (async () => {
-  const { window, doc, consoleErrors, health } = await boot();
+  const { window, doc, consoleErrors, health, events } = await boot();
   const $ = (s) => doc.querySelector(s);
   const $$ = (s) => [...doc.querySelectorAll(s)];
 
@@ -163,7 +163,23 @@ async function boot() {
     check("无失效源时不显示告警", healthEl.hidden);
   }
 
-  console.log("\n[10] 表格视图（无障碍备选）");
+  console.log("\n[10] HN 讨论热度徽标（替代无信息量的假摘要）");
+  const allEvents = JSON.parse(events);
+  const hnItems = allEvents.filter((e) => e.hn);
+  if (hnItems.length) {
+    check("HN 条目不再有 'N points,' 假摘要",
+      !allEvents.some((e) => /^\d+ points,/.test(e.summary || "")),
+      "仍有残留");
+    check("HN 条目都达到分数门槛", hnItems.every((e) => e.hn.points >= 3),
+      `最低 ${Math.min(...hnItems.map((e) => e.hn.points))} 分`);
+    check("页面渲染了热度徽标", $$(".hn-meta").length > 0, `${$$(".hn-meta").length} 个`);
+    const badge = $(".hn-meta a");
+    check("徽标链接到讨论页", badge && badge.href.includes("news.ycombinator.com"));
+  } else {
+    check("（数据里暂无 HN 条目，跳过）", true);
+  }
+
+  console.log("\n[11] 表格视图（无障碍备选）");
   topicsTab.dispatchEvent(new window.Event("click", { bubbles: true }));
   $("#topic-timeline-table-toggle").dispatchEvent(new window.Event("click", { bubbles: true }));
   check("表格视图能显示", !$("#topic-timeline-table").hidden);

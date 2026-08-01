@@ -551,6 +551,22 @@ body {
   opacity: 0.62;
 }
 
+.hn-meta {
+  margin-top: 6px;
+}
+
+.hn-meta a {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.76rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.hn-meta a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
 .card-actions {
   display: flex;
   align-items: center;

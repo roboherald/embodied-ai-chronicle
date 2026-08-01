@@ -1134,6 +1134,20 @@ function renderCard(item) {
     card.appendChild(summary);
   }
 
+  // HN 条目原本的摘要是 "N points, <链接>"，对读者零信息量。
+  // 改成把讨论热度渲染成可点击的徽标。
+  if (item.hn) {
+    const hn = document.createElement("div");
+    hn.className = "hn-meta";
+    const a = document.createElement("a");
+    a.href = item.hn.discussion;
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
+    a.textContent = `▲ ${item.hn.points} · 💬 ${item.hn.comments} 条讨论`;
+    hn.appendChild(a);
+    card.appendChild(hn);
+  }
+
   const actions = document.createElement("div");
   actions.className = "card-actions";
 
