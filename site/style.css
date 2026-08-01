@@ -652,6 +652,16 @@ body {
   color: var(--accent);
 }
 
+/* 内容类型：不占调色板槽位（8色上限已满），靠虚线边框和文字区分 */
+.kind-pill {
+  font-size: 0.68rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px dashed var(--border);
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
 .topic-timeline {
   margin-bottom: 24px;
 }

@@ -56,30 +56,64 @@ ENTITIES = {
 
 # 研究方向标签：命中别名（大小写不敏感的子串匹配）就打上对应方向标签
 # 顺序即前端调色板分配顺序，改了这里要同步改 site/app.js 里的 TOPIC_COLORS
+# 上限 8 个——调色板只有 8 个通过色盲校验的槽位，不能再加第 9 个方向（会生成
+# 无法区分的颜色）。想再细分请用下面的 KINDS（不占颜色）。
 TOPICS = {
     "人形机器人": ["humanoid robot", "humanoid", "bipedal humanoid", "human-like robot"],
     "灵巧手与操作": [
         "dexterous", "in-hand manipulation", "multi-fingered hand",
         "robotic grasping", "grasp planning", "manipulation policy",
+        "manipulation", "grasp", "gripper", "pick-and-place", "pick and place",
+        "contact-rich", "assembly",
     ],
     "移动与四足": [
         "quadruped", "legged locomotion", "bipedal locomotion",
-        "gait control", "legged robot",
+        "gait control", "legged robot", "locomotion", "navigation",
+        "mobile robot", "mobile manipulation", "whole-body",
     ],
     "VLA与基础模型": [
         "vision-language-action", "vla model", "robot foundation model",
         "generalist robot policy", "robotics foundation model",
+        "vision-language", "vla", "foundation model", "generalist policy",
+        "diffusion policy", "policy learning", "imitation learning",
+        "behavior cloning", "language-conditioned", "language model",
     ],
     "仿真与Sim2Real": [
         "sim-to-real", "sim2real", "domain randomization",
         "isaac gym", "isaac sim", "mujoco simulation",
+        "simulation", "simulator", "mujoco", "isaac", "benchmark",
     ],
     "遥操作与数据采集": [
         "teleoperation", "teleop", "human demonstration data",
         "robot data collection", "motion capture for robot",
+        "demonstration", "data collection", "dataset", "data engine",
     ],
     "世界模型": [
         "world model", "video prediction model", "learned dynamics model",
-        "predictive world model",
+        "predictive world model", "world action model", "video prediction",
+        "dynamics model", "model-based",
+    ],
+    "感知与传感": [
+        "tactile", "perception", "slam", "sensor", "sensing", "lidar",
+        "depth camera", "visual representation", "point cloud", "3d reconstruction",
+    ],
+}
+
+# 内容类型：和研究方向正交的第二维（一条新闻可以既是「人形机器人」又是「产业动态」）。
+# 不占调色板槽位，前端用纯文字标签渲染，所以可以自由增加。
+KINDS = {
+    "产业动态": [
+        "raises", "funding", "series a", "series b", "series c", "acquires",
+        "acquisition", "valuation", "revenue", "ipo", "merger", "investment",
+        "shutting down", "dissolve", "startup", "market",
+    ],
+    "医疗应用": [
+        "surgical", "surgery", "surgeon", "medical", "catheter",
+        "hospital", "clinical", "patient", "rehabilitation",
+    ],
+    "无人机": ["drone", "uav", "aerial", "quadrotor", "unmanned aerial"],
+    "安全与可信": [
+        "safety", "trustworthy", "risk", "verification",
+        "robustness", "collision avoidance", "reliability",
     ],
 }

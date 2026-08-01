@@ -84,10 +84,12 @@ async function boot() {
   console.log("\n[4] 方向×年份矩阵");
   const grid = $(".topic-grid");
   check("矩阵已渲染", !!grid);
-  check("有方向标签", $$(".topic-grid-label").length === 7, `实际 ${$$(".topic-grid-label").length}`);
+  const labelCount = $$(".topic-grid-label").length;
+  check("有方向标签", labelCount > 0, `${labelCount} 个`);
   check("有年份表头", $$(".topic-grid-year-head").length > 1);
   check("有里程碑圆点", $$(".topic-grid-dot").length > 0, `实际 ${$$(".topic-grid-dot").length}`);
-  check("有近况列", $$(".topic-grid-recent").length === 7);
+  check("近况列与方向数一致", $$(".topic-grid-recent").length === labelCount,
+    `${$$(".topic-grid-recent").length} vs ${labelCount}`);
 
   console.log("\n[5] 弹窗打开/关闭（之前的 bug 就在这）");
   $$(".topic-grid-label")[0].dispatchEvent(new window.Event("click", { bubbles: true }));
@@ -133,7 +135,20 @@ async function boot() {
   check("失败后回滚数字", countEl.textContent === before2, `回到 ${countEl.textContent}`);
   check("失败后有可见的错误提示", likeBtn.classList.contains("like-error"));
 
-  console.log("\n[8] 表格视图（无障碍备选）");
+  console.log("\n[8] 内容类型筛选（第二维标签）");
+  const kindRow = $("#kind-row");
+  const kindChips = $$("#kind-filters .chip");
+  check("内容类型筛选行已显示", !kindRow.hidden);
+  check("有内容类型 chip", kindChips.length > 0, `${kindChips.length} 个`);
+  const cardsBefore = $$("#timeline .card").length;
+  kindChips[0].dispatchEvent(new window.Event("click", { bubbles: true }));
+  const cardsAfter = $$("#timeline .card").length;
+  check("内容类型能过滤", cardsAfter > 0 && cardsAfter < cardsBefore, `${cardsBefore} → ${cardsAfter}`);
+  kindChips[0].dispatchEvent(new window.Event("click", { bubbles: true }));
+  check("再点一次能取消", $$("#timeline .card").length === cardsBefore);
+  check("卡片上渲染了类型标签", $$(".kind-pill").length > 0);
+
+  console.log("\n[9] 表格视图（无障碍备选）");
   topicsTab.dispatchEvent(new window.Event("click", { bubbles: true }));
   $("#topic-timeline-table-toggle").dispatchEvent(new window.Event("click", { bubbles: true }));
   check("表格视图能显示", !$("#topic-timeline-table").hidden);

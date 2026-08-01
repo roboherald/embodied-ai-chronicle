@@ -111,6 +111,15 @@ def tag_topics(*texts):
     )
 
 
+def tag_kinds(*texts):
+    joined = " ".join(texts).lower()
+    return sorted(
+        name
+        for name, aliases in sources.KINDS.items()
+        if any(alias in joined for alias in aliases)
+    )
+
+
 def fetch_rss(feed):
     print(f"[rss] fetching {feed['name']}...", file=sys.stderr)
     try:
@@ -238,6 +247,7 @@ def main():
     for e in merged:
         e["tags"] = tag_entities(e["title"], e["summary"])
         e["topics"] = tag_topics(e["title"], e["summary"])
+        e["kinds"] = tag_kinds(e["title"], e["summary"])
     merged.sort(key=lambda e: (e["date"], e["source"]), reverse=True)
 
     DATA_PATH.parent.mkdir(parents=True, exist_ok=True)

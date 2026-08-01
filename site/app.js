@@ -19,6 +19,7 @@ const TOPIC_COLORS = {
   "仿真与Sim2Real": "#199e70",
   "遥操作与数据采集": "#d95926",
   "世界模型": "#9085e9",
+  "感知与传感": "#e34948",
 };
 
 const GISCUS_CONFIG = {
@@ -77,6 +78,7 @@ const state = {
   activeSources: new Set(),
   activeTags: new Set(),
   activeTopics: new Set(),
+  activeKinds: new Set(),
   activeRange: "all",
   query: "",
   bookmarksOnly: false,
@@ -110,6 +112,7 @@ async function init() {
   renderRangeFilters();
   renderSourceFilters();
   renderTopicFilters();
+  renderKindFilters();
   renderTagFilters();
   renderCompanyHeader();
   renderTopicHeader();
@@ -460,6 +463,40 @@ function renderTopicFilters() {
       });
       wrap.appendChild(chip);
     });
+}
+
+// 内容类型：和研究方向正交的第二维，不占调色板槽位，用纯文字 chip 渲染
+function renderKindFilters() {
+  const counts = new Map();
+  for (const e of state.events) {
+    for (const kind of e.kinds || []) counts.set(kind, (counts.get(kind) || 0) + 1);
+  }
+  const row = document.getElementById("kind-row");
+  const wrap = document.getElementById("kind-filters");
+  wrap.innerHTML = "";
+  const kinds = [...counts.keys()].sort((a, b) => counts.get(b) - counts.get(a));
+  if (!kinds.length) {
+    row.hidden = true;
+    return;
+  }
+  row.hidden = false;
+  kinds.forEach((kind) => {
+    const chip = document.createElement("button");
+    chip.className = "chip" + (state.activeKinds.has(kind) ? " active" : "");
+    chip.dataset.value = kind;
+    chip.textContent = `${kind} (${counts.get(kind)})`;
+    chip.addEventListener("click", () => {
+      if (state.activeKinds.has(kind)) {
+        state.activeKinds.delete(kind);
+        chip.classList.remove("active");
+      } else {
+        state.activeKinds.add(kind);
+        chip.classList.add("active");
+      }
+      render();
+    });
+    wrap.appendChild(chip);
+  });
 }
 
 // ─── 研究方向脉络：方向 × 年份矩阵 ───────────────────────────────
@@ -917,6 +954,7 @@ function filteredEvents() {
     if (cutoff && e.date < cutoff) return false;
     if (state.activeTags.size && !(e.tags || []).some((t) => state.activeTags.has(t))) return false;
     if (state.activeTopics.size && !(e.topics || []).some((t) => state.activeTopics.has(t))) return false;
+    if (state.activeKinds.size && !(e.kinds || []).some((k) => state.activeKinds.has(k))) return false;
     if (state.bookmarksOnly && !state.bookmarks.has(e.id)) return false;
     if (!state.query) return true;
     const haystack = `${e.title} ${e.summary}`.toLowerCase();
@@ -1037,6 +1075,12 @@ function renderCard(item) {
     pill.addEventListener("click", () => {
       location.hash = `topic=${encodeURIComponent(topic)}`;
     });
+    meta.appendChild(pill);
+  }
+  for (const kind of item.kinds || []) {
+    const pill = document.createElement("span");
+    pill.className = "kind-pill";
+    pill.textContent = kind;
     meta.appendChild(pill);
   }
   card.appendChild(meta);
