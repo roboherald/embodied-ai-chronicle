@@ -4954,14 +4954,14 @@
     "source": "Hacker News",
     "date": "2026-05-29",
     "summary": "",
-    "tags": [],
-    "topics": [],
-    "kinds": [],
     "hn": {
       "points": 4,
       "comments": 0,
       "discussion": "https://news.ycombinator.com/item?id=48325218"
-    }
+    },
+    "tags": [],
+    "topics": [],
+    "kinds": []
   },
   {
     "id": "3655c76183d35e3c",

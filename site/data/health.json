@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01T16:28:19+00:00",
+  "updated": "2026-08-01T16:31:29+00:00",
   "sources": {
     "arXiv": 30,
     "Boston Dynamics": 0,
@@ -10,7 +10,7 @@
     "Hugging Face Blog": 21,
     "量子位": 10,
     "雷峰网": 2,
-    "Hacker News": 16
+    "Hacker News": 19
   },
   "dead": [
     "Boston Dynamics"
