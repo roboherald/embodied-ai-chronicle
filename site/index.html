@@ -3,14 +3,35 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>具身智能大事纪</title>
+<title>具身智能大事纪 · 追踪人形机器人/VLA/世界模型的发展脉络</title>
+<meta name="description" content="每天自动汇总 arXiv 论文、机器人公司博客与社区讨论，并用人工核实的技术里程碑梳理人形机器人、灵巧手、VLA、世界模型等方向的发展脉络。" />
+<!-- 分享到微信/群里时的预览卡片，没有这些标签只会显示一个光秃秃的链接 -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="具身智能大事纪" />
+<meta property="og:description" content="自动汇总 arXiv、机器人公司博客与社区讨论，并梳理各研究方向的技术发展脉络。" />
+<meta property="og:url" content="https://roboherald.github.io/embodied-ai-chronicle/" />
+<meta name="twitter:card" content="summary" />
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="topbar">
     <div class="topbar-inner">
-      <h1>具身智能大事纪</h1>
-      <p class="subtitle">自动汇总 arXiv 论文、机器人公司博客与社区讨论</p>
+      <div class="topbar-head">
+        <div>
+          <h1>具身智能大事纪</h1>
+          <p class="subtitle">自动汇总 arXiv 论文、机器人公司博客与社区讨论</p>
+        </div>
+        <a
+          class="star-btn"
+          href="https://github.com/roboherald/embodied-ai-chronicle"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="在 GitHub 上给这个项目点个 Star"
+        >
+          <span class="star-icon">★</span>
+          <span>Star on GitHub</span>
+        </a>
+      </div>
       <div id="stats" class="stats"></div>
       <p id="source-health" class="source-health" hidden></p>
     </div>
@@ -39,6 +60,14 @@
       <section id="hot-list" class="hot-list" hidden>
         <h2>🔥 本周热点</h2>
         <div id="hot-list-items" class="hot-list-items"></div>
+      </section>
+
+      <section id="milestone-spotlight" class="milestone-spotlight" hidden>
+        <div class="insights-head">
+          <h2>📌 历史上的这个月</h2>
+          <button id="spotlight-more" class="text-btn">看完整脉络 →</button>
+        </div>
+        <div id="spotlight-items" class="spotlight-items"></div>
       </section>
 
       <div class="controls">

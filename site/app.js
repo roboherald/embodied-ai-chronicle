@@ -132,6 +132,7 @@ async function init() {
   renderTopicTimeline();
   renderInsights();
   renderHotList();
+  renderMilestoneSpotlight();
   render();
 
   loadAllLikeCounts().then((counts) => {
@@ -192,6 +193,10 @@ async function init() {
     document.getElementById("insights-charts").hidden = state.showTable;
     document.getElementById("insights-table").hidden = !state.showTable;
     if (state.showTable) renderInsightsTable();
+  });
+  document.getElementById("spotlight-more").addEventListener("click", () => {
+    switchTab("topics");
+    document.getElementById("topic-timeline").scrollIntoView({ behavior: "smooth", block: "start" });
   });
   document.getElementById("topic-timeline-table-toggle").addEventListener("click", () => {
     state.showTopicTable = !state.showTopicTable;
@@ -309,6 +314,129 @@ function renderTopicHeader() {
   }
 }
 
+// 本周热点原本只按点赞排序，但点赞后端在国内被墙，国内访客永远看到空状态。
+// 改成用「本来就有的信号」算热度：HN 讨论热度 + 被多个来源同时报道 + 里程碑关联，
+// 全部离线可算，不依赖任何后端。
+function hotScore(e) {
+  let score = 0;
+  const reasons = [];
+
+  if (e.hn) {
+    // HN 分数是真实的社区投票，直接用（取对数避免单条爆款压死其它内容）
+    score += Math.log2(e.hn.points + 1) * 10;
+    if (e.hn.points >= 20) reasons.push(`HN ${e.hn.points} 分`);
+    else if (e.hn.comments >= 5) reasons.push(`${e.hn.comments} 条讨论`);
+  }
+  // 点赞能拿到就用（墙外访客有效），拿不到也不影响排序
+  const likes = state.likeCounts.get(e.id) || 0;
+  if (likes > 0) {
+    score += likes * 8;
+    reasons.push(`👍 ${likes}`);
+  }
+  // 中文内容对本站受众价值更高，且数量稀少，给个加权避免被英文淹没
+  if (e.source === "量子位" || e.source === "雷峰网") {
+    score += 12;
+    reasons.push("中文报道");
+  }
+  // 覆盖多个研究方向，通常是跨领域的重要进展
+  if ((e.topics || []).length >= 2) {
+    score += (e.topics.length - 1) * 4;
+  }
+  // 产业动态（融资/收购）本身就是高关注度事件
+  if ((e.kinds || []).includes("产业动态")) {
+    score += 6;
+    reasons.push("产业动态");
+  }
+  // 新鲜度：越近权重越高
+  const days = Math.max(0, (Date.now() - new Date(e.date + "T00:00:00Z")) / 86400000);
+  score += Math.max(0, 7 - days) * 2;
+
+  return { score, reasons };
+}
+
+// 识别「同一件事的不同报道」。实测三条关于「美国禁止中国人形机器人」的标题，
+// 用「取前几个词」的签名法完全失效：bans/ban 差一个字母、第三条换了整套措辞。
+// 改用词集合重叠度——对措辞差异和词序都不敏感。
+const STOPWORDS = new Set([
+  "the", "a", "an", "of", "to", "in", "for", "on", "with", "and", "or",
+  "new", "its", "it", "is", "are", "at", "by", "from", "as", "that", "this",
+  "will", "has", "have", "was", "were", "be", "been", "after", "over",
+]);
+
+function titleTokens(title) {
+  const words = title
+    .toLowerCase()
+    .replace(/[^\w\s一-鿿]/g, " ")
+    .split(/\s+/)
+    .filter((w) => w.length > 2 && !STOPWORDS.has(w))
+    // 粗暴去掉复数/第三人称的 s，让 ban/bans、robot/robots 归一
+    .map((w) => (w.length > 4 && w.endsWith("s") ? w.slice(0, -1) : w));
+  return new Set(words);
+}
+
+function isDuplicateOf(tokens, seenTokenSets) {
+  for (const prev of seenTokenSets) {
+    let shared = 0;
+    for (const t of tokens) if (prev.has(t)) shared++;
+    const smaller = Math.min(tokens.size, prev.size);
+    // 较短标题的词有六成以上出现在另一条里，就当成同一件事
+    if (smaller > 0 && shared / smaller >= 0.6) return true;
+  }
+  return false;
+}
+
+// 54 条人工整理的中文里程碑是这站唯一别处没有的东西，但它藏在第二个标签页里。
+// 在首屏放一个「历史上的这个月」，用同月份的里程碑跟当下新闻形成对照。
+function renderMilestoneSpotlight() {
+  const section = document.getElementById("milestone-spotlight");
+  const wrap = document.getElementById("spotlight-items");
+  if (!section || !wrap) return;
+
+  const thisMonth = new Date().toISOString().slice(5, 7);
+  let picks = state.milestones.filter((m) => m.date.slice(5, 7) === thisMonth);
+
+  // 当月没有就退回到最近几年的重要节点，别让这块空着
+  if (picks.length < 2) {
+    picks = [...state.milestones].sort((a, b) => (a.date < b.date ? 1 : -1)).slice(0, 3);
+  } else {
+    picks = picks.sort((a, b) => (a.date < b.date ? 1 : -1)).slice(0, 3);
+  }
+
+  if (!picks.length) {
+    section.hidden = true;
+    return;
+  }
+  section.hidden = false;
+
+  wrap.innerHTML = "";
+  for (const m of picks) {
+    const color = TOPIC_COLORS[m.topic] || FALLBACK_COLOR;
+    const card = document.createElement("article");
+    card.className = "spotlight-card";
+    card.style.setProperty("--card-color", color);
+
+    const head = document.createElement("div");
+    head.className = "spotlight-head";
+    head.innerHTML = `<span class="spotlight-year">${m.date.slice(0, 4)}</span><span class="topic-pill"><span class="dot" style="background:${color}"></span>${m.topic}</span>`;
+
+    const link = document.createElement("a");
+    link.className = "spotlight-title";
+    link.href = m.url;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.textContent = m.title;
+
+    card.append(head, link);
+    if (m.description) {
+      const desc = document.createElement("p");
+      desc.className = "spotlight-desc";
+      desc.textContent = m.description;
+      card.appendChild(desc);
+    }
+    wrap.appendChild(card);
+  }
+}
+
 function renderHotList() {
   const section = document.getElementById("hot-list");
   const wrap = document.getElementById("hot-list-items");
@@ -326,24 +454,44 @@ function renderHotList() {
   section.hidden = false;
 
   const ranked = weekItems
-    .map((e) => ({ e, count: state.likeCounts.get(e.id) || 0 }))
-    .filter((r) => r.count > 0)
-    .sort((a, b) => b.count - a.count)
-    .slice(0, 10);
+    .map((e) => ({ e, ...hotScore(e) }))
+    .filter((r) => r.score > 0)
+    .sort((a, b) => b.score - a.score);
+
+  // 同一件事常被多家报道（实测榜单前 3 条都是「美国禁止中国人形机器人」），
+  // 会把榜单挤满。按标题关键词签名去重，只保留分数最高的那条。
+  const seen = [];
+  const deduped = [];
+  for (const r of ranked) {
+    const tokens = titleTokens(r.e.title);
+    if (isDuplicateOf(tokens, seen)) continue;
+    seen.push(tokens);
+    deduped.push(r);
+    if (deduped.length >= 8) break;
+  }
 
   wrap.innerHTML = "";
-  if (!ranked.length) {
-    wrap.innerHTML = `<p class="hot-list-empty">本周还没有点赞数据，点一下新闻卡片下面的"👍 有用"就能上榜。</p>`;
+  if (!deduped.length) {
+    wrap.innerHTML = `<p class="hot-list-empty">本周还没有足够的热度信号。</p>`;
     return;
   }
-  ranked.forEach((r, i) => {
+  deduped.forEach((r, i) => {
     const row = document.createElement("div");
     row.className = "hot-item";
-    row.innerHTML = `
-      <span class="hot-rank">${i + 1}</span>
-      <a class="hot-title" href="${r.e.url}" target="_blank" rel="noopener noreferrer">${r.e.title}</a>
-      <span class="hot-count">👍 ${r.count}</span>
-    `;
+    const rank = document.createElement("span");
+    rank.className = "hot-rank";
+    rank.textContent = i + 1;
+    const link = document.createElement("a");
+    link.className = "hot-title";
+    link.href = r.e.url;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.textContent = r.e.title;
+    const why = document.createElement("span");
+    why.className = "hot-count";
+    // 说清楚为什么上榜，而不是给个不透明的分数
+    why.textContent = r.reasons.length ? r.reasons[0] : r.e.source;
+    row.append(rank, link, why);
     wrap.appendChild(row);
   });
 }

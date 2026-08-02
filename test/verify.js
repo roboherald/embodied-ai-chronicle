@@ -191,7 +191,34 @@ async function boot() {
     check("（数据里暂无 HN 条目，跳过）", true);
   }
 
-  console.log("\n[11] 表格视图（无障碍备选）");
+  console.log("\n[11] 首屏吸引力：热点榜 + 里程碑聚光 + Star 按钮");
+  latestTab.dispatchEvent(new window.Event("click", { bubbles: true }));
+  const hotItems = $$("#hot-list .hot-item");
+  check("热点榜有内容（不依赖被墙的点赞）", hotItems.length > 0, `${hotItems.length} 条`);
+  check("热点榜不再显示「没有点赞数据」空状态",
+    !($("#hot-list-items").textContent || "").includes("还没有点赞数据"));
+  check("每条热点都说明了上榜理由",
+    $$("#hot-list .hot-count").every((c) => c.textContent.trim().length > 0));
+
+  const spotlight = $("#milestone-spotlight");
+  check("里程碑聚光已显示在首屏", !spotlight.hidden);
+  const spotCards = $$(".spotlight-card");
+  check("聚光有里程碑卡片", spotCards.length > 0, `${spotCards.length} 张`);
+  check("聚光卡片有解读文字", $$(".spotlight-desc").length > 0);
+  const spotLink = $(".spotlight-title");
+  check("聚光卡片链接到原始出处", spotLink && /^https?:/.test(spotLink.href));
+
+  const starBtn = $(".star-btn");
+  check("Star 按钮存在", !!starBtn);
+  check("Star 指向本项目仓库",
+    starBtn && starBtn.href.includes("github.com/roboherald/embodied-ai-chronicle"),
+    starBtn ? starBtn.href : "无");
+  check("Star 按钮新窗口打开", starBtn && starBtn.target === "_blank");
+
+  $("#spotlight-more").dispatchEvent(new window.Event("click", { bubbles: true }));
+  check("「看完整脉络」能跳到研究方向页", !$('[data-panel="topics"]').hidden);
+
+  console.log("\n[12] 表格视图（无障碍备选）");
   topicsTab.dispatchEvent(new window.Event("click", { bubbles: true }));
   $("#topic-timeline-table-toggle").dispatchEvent(new window.Event("click", { bubbles: true }));
   check("表格视图能显示", !$("#topic-timeline-table").hidden);
