@@ -88,6 +88,24 @@
     ]
   },
   {
+    "id": "b26a35fa31965c98",
+    "title": "Remotely controlled humanoid cleaning service",
+    "url": "https://www.tau-robotics.com",
+    "source": "Hacker News",
+    "date": "2026-07-31",
+    "summary": "",
+    "hn": {
+      "points": 3,
+      "comments": 1,
+      "discussion": "https://news.ycombinator.com/item?id=49125949"
+    },
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": []
+  },
+  {
     "id": "32f37cd6a72d52a4",
     "title": "李飞飞的世界模型，终于开始训练机器人了",
     "url": "https://www.qbitai.com/2026/07/463217.html",
