@@ -218,7 +218,32 @@ async function boot() {
   $("#spotlight-more").dispatchEvent(new window.Event("click", { bubbles: true }));
   check("「看完整脉络」能跳到研究方向页", !$('[data-panel="topics"]').hidden);
 
-  console.log("\n[12] 表格视图（无障碍备选）");
+  console.log("\n[12] 论文作者单位");
+  latestTab.dispatchEvent(new window.Event("click", { bubbles: true }));
+  const withAffil = allEvents.filter((e) => (e.affiliations || []).length);
+  check("数据里有识别出单位的论文", withAffil.length > 0, `${withAffil.length} 篇`);
+  const affilPills = $$(".affil-pill");
+  check("卡片上渲染了单位标签", affilPills.length > 0, `${affilPills.length} 个`);
+  check("单位标签带 🏛 图标", affilPills[0] && affilPills[0].textContent.includes("🏛"));
+
+  const org = withAffil[0].affiliations[0];
+  window.location.hash = `affil=${encodeURIComponent(org)}`;
+  window.dispatchEvent(new window.Event("hashchange"));
+  await new Promise((r) => setTimeout(r, 50));
+  const affilHeader = $("#affil-header");
+  check("单位主页头部显示", !affilHeader.hidden, `单位=${org}`);
+  check("头部显示单位名", $("#affil-name").textContent.includes(org));
+  check("头部有统计块", $$("#affil-stats .stat-tile").length === 3);
+  const filtered = $$("#timeline .card");
+  check("列表已按单位筛选", filtered.length > 0 && filtered.length <= withAffil.length,
+    `${filtered.length} 张`);
+
+  $("#affil-back").dispatchEvent(new window.Event("click", { bubbles: true }));
+  window.dispatchEvent(new window.Event("hashchange"));
+  await new Promise((r) => setTimeout(r, 50));
+  check("返回后单位头部隐藏", $("#affil-header").hidden);
+
+  console.log("\n[13] 表格视图（无障碍备选）");
   topicsTab.dispatchEvent(new window.Event("click", { bubbles: true }));
   $("#topic-timeline-table-toggle").dispatchEvent(new window.Event("click", { bubbles: true }));
   check("表格视图能显示", !$("#topic-timeline-table").hidden);

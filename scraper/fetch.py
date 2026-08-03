@@ -6,6 +6,7 @@ import json
 import os
 import re
 import sys
+import time
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -240,6 +241,68 @@ def fetch_hn():
     return events
 
 
+ARXIV_ID_RE = re.compile(r"(\d{4}\.\d{4,5})")
+# 作者区之后的致谢/资助信息会提到资助机构（"supported by ... Foundation"），
+# 那不是作者单位，从这里截断。
+AUTHOR_BLOCK_CUTOFF = re.compile(
+    r"this work (?:was|is) (?:supported|funded)|corresponding author", re.I
+)
+
+
+def fetch_affiliations(arxiv_url):
+    """从 arXiv HTML 全文的作者区识别作者单位。
+
+    只认 sources.AFFILIATIONS 词表里的机构（见那里的注释：通用正则会把作者名
+    吸进来，反而更差）。约一半论文的 HTML 里没有机构名——上标数字只在 PDF
+    排版里体现——这种情况返回空列表，属于数据源限制而非失败。
+    """
+    m = ARXIV_ID_RE.search(arxiv_url or "")
+    if not m:
+        return []
+    try:
+        resp = requests.get(
+            f"https://arxiv.org/html/{m.group(1)}v1", headers=HEADERS, timeout=TIMEOUT
+        )
+        if resp.status_code != 200:
+            return []  # 老论文没有 HTML 版，正常情况
+        block = re.search(r'class="ltx_authors"(.*?)</div>', resp.text, re.S)
+        if not block:
+            return []
+        text = re.sub(r"<[^>]+>", " ", block.group(1))
+        text = re.sub(r"\s+", " ", text)
+        text = AUTHOR_BLOCK_CUTOFF.split(text)[0].lower()
+        return sorted(
+            name
+            for name, aliases in sources.AFFILIATIONS.items()
+            if any(a in text for a in aliases)
+        )
+    except Exception:  # noqa: BLE001 - 单篇论文取不到不该影响整次抓取
+        return []
+
+
+def enrich_affiliations(events):
+    """给还没有 affiliations 字段的 arXiv 条目补单位。
+
+    每篇要多发一次请求，所以：只处理新条目（已有字段的跳过）、限量、加间隔，
+    避免把 arXiv 打挂或被限流。
+    """
+    todo = [
+        e
+        for e in events
+        if e.get("source") == "arXiv" and "affiliations" not in e
+    ][: sources.AFFILIATION_MAX_PER_RUN]
+    if not todo:
+        return
+    print(f"[affil] 解析 {len(todo)} 篇论文的作者单位...", file=sys.stderr)
+    got = 0
+    for e in todo:
+        e["affiliations"] = fetch_affiliations(e.get("url", ""))
+        if e["affiliations"]:
+            got += 1
+        time.sleep(sources.AFFILIATION_DELAY_SEC)
+    print(f"[affil] {got}/{len(todo)} 篇识别出单位", file=sys.stderr)
+
+
 def load_existing():
     if DATA_PATH.exists():
         return migrate_legacy_hn(json.loads(DATA_PATH.read_text(encoding="utf-8")))
@@ -327,6 +390,7 @@ def main():
         e["tags"] = tag_entities(e["title"], e["summary"])
         e["topics"] = tag_topics(e["title"], e["summary"])
         e["kinds"] = tag_kinds(e["title"], e["summary"])
+    enrich_affiliations(merged)
     merged.sort(key=lambda e: (e["date"], e["source"]), reverse=True)
 
     # 把健康状况写成文件，前端可以展示「数据源状态」，让失效可见而不是悄悄消失

@@ -61,6 +61,103 @@ KEYWORDS_ZH = [
     "宇树", "智元", "银河通用", "傅利叶", "优必选", "云深处", "众擎", "星动纪元",
 ]
 
+# 论文单位识别：从 arXiv HTML 全文的作者区匹配机构别名。
+#
+# 为什么用人工词表而不是通用正则：实测通用正则会把作者名吸进结果
+# （"D. Ames California Institute of Technology"），而剥人名的启发式又会
+# 误伤正常机构名（"Shanghai Jiao Tong University" 被削成 "University"）。
+# 词表覆盖率 47%、零误报，比 47% 覆盖率但带垃圾的正则更有用。
+#
+# 剩下 53% 是论文 HTML 里根本没有机构名（上标数字只在 PDF 排版里体现），
+# 属于数据源硬上限，扩词表也救不回来。
+#
+# 键是展示用的规范名（中文机构直接用中文），值是小写匹配别名。
+AFFILIATIONS = {
+    # 企业研究院
+    "Google DeepMind": ["deepmind", "google research", "google brain"],
+    "NVIDIA": ["nvidia"],
+    "OpenAI": ["openai"],
+    "Meta AI": ["meta ai", "fair, meta", "facebook ai research"],
+    "Microsoft": ["microsoft research", "microsoft"],
+    "Toyota Research": ["toyota research"],
+    "Honda Research": ["honda research"],
+    "Physical Intelligence": ["physical intelligence"],
+    "Boston Dynamics": ["boston dynamics"],
+    "Agility Robotics": ["agility robotics"],
+    "Figure AI": ["figure ai"],
+    "Apptronik": ["apptronik"],
+    # 北美高校
+    "Stanford": ["stanford"],
+    "UC Berkeley": ["uc berkeley", "university of california, berkeley", "berkeley"],
+    "Caltech": ["caltech", "california institute of technology"],
+    "MIT": ["massachusetts institute of technology"],
+    "CMU": ["carnegie mellon"],
+    "Georgia Tech": ["georgia institute of technology", "georgia tech"],
+    "UCSD": ["uc san diego", "university of california, san diego"],
+    "UCLA": ["uc los angeles", "university of california, los angeles"],
+    "UIUC": ["urbana-champaign"],
+    "University of Washington": ["university of washington"],
+    "University of Toronto": ["university of toronto"],
+    "NYU": ["new york university"],
+    "Princeton": ["princeton"],
+    "Columbia": ["columbia university"],
+    "Cornell": ["cornell"],
+    "UT Austin": ["ut austin", "university of texas at austin"],
+    "Vanderbilt": ["vanderbilt"],
+    "Lipscomb": ["lipscomb"],
+    # 欧洲
+    "ETH Zürich": ["eth z"],
+    "EPFL": ["epfl"],
+    "University of Oxford": ["university of oxford"],
+    "University of Cambridge": ["university of cambridge"],
+    "Imperial College": ["imperial college"],
+    "TU München": ["technical university of munich", "tu munich"],
+    "University of Bonn": ["university of bonn"],
+    "University of Freiburg": ["university of freiburg"],
+    "INRIA": ["inria"],
+    # 中国大陆
+    "清华大学": ["tsinghua"],
+    "北京大学": ["peking university"],
+    "复旦大学": ["fudan"],
+    "上海交通大学": ["shanghai jiao tong"],
+    "浙江大学": ["zhejiang university"],
+    "华中科技大学": ["huazhong university"],
+    "哈尔滨工业大学": ["harbin institute of technology"],
+    "西安交通大学": ["xi'an jiaotong"],
+    "北京航空航天大学": ["beihang"],
+    "中国科学技术大学": ["university of science and technology of china"],
+    "国防科技大学": ["national university of defense technology"],
+    "中科院": ["chinese academy of sciences"],
+    "上海AI实验室": ["shanghai ai lab", "shanghai artificial intelligence lab"],
+    "北京智源": ["beijing academy of artificial intelligence", "baai"],
+    # 港澳台与新加坡
+    "香港大学": ["university of hong kong"],
+    "香港中文大学": ["chinese university of hong kong"],
+    "香港科技大学": ["hong kong university of science"],
+    "新加坡国立": ["national university of singapore"],
+    "南洋理工": ["nanyang technological"],
+    # 日韩
+    "东京大学": ["university of tokyo"],
+    "首尔大学": ["seoul national"],
+    "KAIST": ["kaist"],
+    "成均馆大学": ["sungkyunkwan"],
+    # 中国企业
+    "华为": ["huawei"],
+    "字节跳动": ["bytedance"],
+    "腾讯": ["tencent"],
+    "阿里巴巴": ["alibaba", "damo academy"],
+    "百度": ["baidu"],
+    "美团": ["meituan"],
+    "宇树": ["unitree"],
+    "智元": ["agibot"],
+    "银河通用": ["galbot"],
+}
+
+# 每篇论文要多发一次请求解析单位，所以限量 + 加间隔，避免打挂 arXiv 或被限流。
+# 新论文每天几十篇，这个额度足够跟上，老条目会在后续几次运行里逐步补齐。
+AFFILIATION_MAX_PER_RUN = 40
+AFFILIATION_DELAY_SEC = 0.8
+
 HN_QUERIES = ["humanoid robot", "embodied AI", "robot learning", "vision language action"]
 HN_MAX_PER_QUERY = 15
 # 低于这个分数的 HN 帖子基本没人看过（实测 47 条里 26 条 ≤2 分），纯噪声，不收录

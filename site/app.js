@@ -94,6 +94,7 @@ const state = {
   showTopicTable: false,
   companyMode: null,
   topicMode: null,
+  affilMode: null,
   milestones: [],
   health: null,
   activeTab: "latest",
@@ -129,6 +130,7 @@ async function init() {
   renderTagFilters();
   renderCompanyHeader();
   renderTopicHeader();
+  renderAffilHeader();
   renderTopicTimeline();
   renderInsights();
   renderHotList();
@@ -151,9 +153,10 @@ async function init() {
     syncChipClasses("topic-filters", state.activeTopics);
     renderCompanyHeader();
     renderTopicHeader();
+    renderAffilHeader();
     render();
-    // 钻取到某公司/方向时，自动切到「最新」把筛选后的列表露出来
-    if (state.companyMode || state.topicMode) switchTab("latest");
+    // 钻取到某公司/方向/单位时，自动切到「最新」把筛选后的列表露出来
+    if (state.companyMode || state.topicMode || state.affilMode) switchTab("latest");
   });
 
   document.querySelectorAll(".tab").forEach((tab) => {
@@ -165,6 +168,10 @@ async function init() {
     location.hash = "";
   });
   document.getElementById("topic-back").addEventListener("click", (e) => {
+    e.preventDefault();
+    location.hash = "";
+  });
+  document.getElementById("affil-back").addEventListener("click", (e) => {
     e.preventDefault();
     location.hash = "";
   });
@@ -231,11 +238,19 @@ function currentTopicFromHash() {
   return params.get("topic");
 }
 
+function currentAffilFromHash() {
+  const raw = location.hash.replace(/^#/, "");
+  const params = new URLSearchParams(raw);
+  return params.get("affil");
+}
+
 function applyHashRoute() {
   const company = currentCompanyFromHash();
   const topic = currentTopicFromHash();
+  const affil = currentAffilFromHash();
   state.companyMode = company;
   state.topicMode = topic;
+  state.affilMode = affil;
   state.activeTags = company ? new Set([company]) : new Set();
   state.activeTopics = topic ? new Set([topic]) : new Set();
 }
@@ -273,6 +288,42 @@ function renderCompanyHeader() {
     { value: topSource ? topSource[0] : "—", label: "最活跃来源" },
   ];
   const wrap = document.getElementById("company-stats");
+  wrap.innerHTML = "";
+  for (const t of tiles) {
+    const tile = document.createElement("div");
+    tile.className = "stat-tile";
+    tile.innerHTML = `<div class="value">${t.value}</div><div class="label">${t.label}</div>`;
+    wrap.appendChild(tile);
+  }
+}
+
+// 单位主页：点卡片上的 🏛 单位标签进来，看该单位的论文与主攻方向
+function renderAffilHeader() {
+  const section = document.getElementById("affil-header");
+  if (!section) return;
+  if (!state.affilMode) {
+    section.hidden = true;
+    return;
+  }
+  const items = state.events.filter((e) => (e.affiliations || []).includes(state.affilMode));
+  section.hidden = false;
+  document.getElementById("affil-name").textContent = `🏛 ${state.affilMode}`;
+
+  const topicCounts = new Map();
+  for (const e of items) {
+    for (const t of e.topics || []) topicCounts.set(t, (topicCounts.get(t) || 0) + 1);
+  }
+  const topTopic = [...topicCounts.entries()].sort((a, b) => b[1] - a[1])[0];
+  const firstDate = items.length
+    ? items.reduce((min, e) => (e.date < min ? e.date : min), items[0].date)
+    : "—";
+
+  const tiles = [
+    { value: items.length, label: "收录论文数" },
+    { value: topTopic ? topTopic[0] : "—", label: "主要研究方向" },
+    { value: firstDate, label: "最早出现日期" },
+  ];
+  const wrap = document.getElementById("affil-stats");
   wrap.innerHTML = "";
   for (const t of tiles) {
     const tile = document.createElement("div");
@@ -1132,6 +1183,7 @@ function filteredEvents() {
     if (state.activeTags.size && !(e.tags || []).some((t) => state.activeTags.has(t))) return false;
     if (state.activeTopics.size && !(e.topics || []).some((t) => state.activeTopics.has(t))) return false;
     if (state.activeKinds.size && !(e.kinds || []).some((k) => state.activeKinds.has(k))) return false;
+    if (state.affilMode && !(e.affiliations || []).includes(state.affilMode)) return false;
     if (state.bookmarksOnly && !state.bookmarks.has(e.id)) return false;
     if (!state.query) return true;
     const haystack = `${e.title} ${e.summary}`.toLowerCase();
@@ -1258,6 +1310,17 @@ function renderCard(item) {
     const pill = document.createElement("span");
     pill.className = "kind-pill";
     pill.textContent = kind;
+    meta.appendChild(pill);
+  }
+  // 论文作者单位（只有 arXiv 条目有，且约一半论文的 HTML 里没写机构名）
+  for (const org of item.affiliations || []) {
+    const pill = document.createElement("span");
+    pill.className = "affil-pill clickable";
+    pill.textContent = `🏛 ${org}`;
+    pill.title = `只看「${org}」的论文`;
+    pill.addEventListener("click", () => {
+      location.hash = `affil=${encodeURIComponent(org)}`;
+    });
     meta.appendChild(pill);
   }
   card.appendChild(meta);

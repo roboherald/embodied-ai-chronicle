@@ -1087,3 +1087,23 @@ body {
     display: none;
   }
 }
+
+/* 论文作者单位：不占调色板槽位（8 色已满），用图标+边框区分 */
+.affil-pill {
+  font-size: 0.68rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+
+.affil-pill.clickable {
+  cursor: pointer;
+}
+
+.affil-pill.clickable:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
