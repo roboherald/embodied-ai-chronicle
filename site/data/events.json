@@ -1,5 +1,34 @@
 [
   {
+    "id": "291c756fb4935370",
+    "title": "独家丨璨辰科技完成数千万天使系列融资，AI 虚拟器官仿真平台加速落地",
+    "url": "https://www.leiphone.com/category/aihealth/EFjXKXuEFXgXkrIo.html",
+    "source": "雷峰网",
+    "date": "2026-08-03",
+    "summary": "AI 虚拟器官仿真路径落地 。 作者丨周 蕾 编辑丨岑 峰 雷峰网AI科技评论独家获悉， 璨辰科技（CANCHEN TECH）已于近期完成种子轮、天使轮、天使+/++轮 系列融资，累计金额达 数千万 人民币 ，投资方包括东方富海、松禾资本、零以创投、水木清华基金、启迪之星创投、 启繁资本 、 南 山战新投等。 公司聚焦系统级虚拟器官时空动态演化模型研发，核心思路是搭建从分子、细胞、组织到器官的全尺度动态仿真平台，用AI数字孪生替代部分传统动物实验，服务于新药临床前评价和疾病早期筛查。 2026年7月，国家药监局CDE发布《推进新方法（NAMs）研究和应…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "b9561155b5169ff0",
+    "title": "NF humanoid disarm protocol: Fire-alarm protocol to stop humanoid robots",
+    "url": "https://github.com/humblelistener/NF_HDP",
+    "source": "Hacker News",
+    "date": "2026-08-02",
+    "summary": "",
+    "hn": {
+      "points": 3,
+      "comments": 1,
+      "discussion": "https://news.ycombinator.com/item?id=49149625"
+    },
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": []
+  },
+  {
     "id": "fdd9cfe72d0e4316",
     "title": "「天线宝宝」机器人上门做保洁，200元/小时，纯·人工·智能",
     "url": "https://www.qbitai.com/2026/08/464781.html",
@@ -48,6 +77,241 @@
     "kinds": [
       "产业动态"
     ]
+  },
+  {
+    "id": "0c71cb8070f06009",
+    "title": "Diagnosing Compositional Generalization in Sequential Robot Tasks",
+    "url": "https://arxiv.org/abs/2607.29687v1",
+    "source": "arXiv",
+    "date": "2026-07-31",
+    "summary": "Sequential robot manipulation requires policies to execute novel combinations of familiar instruction components. However, collecting demonstrations for all possible instruction tuples is combinatorially expensive, while sparsely covered datasets often fail under out-of-distribu…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "f7c9dc48266be10a",
+    "title": "Balancing of Humanoid with Object Mass: Trade-off Analyses and Lifting Control",
+    "url": "https://arxiv.org/abs/2607.29625v1",
+    "source": "arXiv",
+    "date": "2026-07-31",
+    "summary": "The demand for humanoid loco-manipulation tasks with an object has recently increased, and most existing control approaches for stability in such tasks rely on heuristics or machine-learning techniques. This study rigorously analyzes and exploits the dynamic effects of the objec…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "灵巧手与操作"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "6f3c89eba8ebe67c",
+    "title": "RayViT: Ray-Conditioned Visual Representations for Viewpoint-Robust Imitation Learning",
+    "url": "https://arxiv.org/abs/2607.29622v1",
+    "source": "arXiv",
+    "date": "2026-07-31",
+    "summary": "Visual imitation learning enables robots to acquire visuomotor skills directly from images, yet RGB observations lack explicit geometric cues, making learned policies brittle to camera perturbations. To address this, we propose \\textbf{Ray-conditioned Vision Transformer Encoder…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "感知与传感"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "e0b74cce3a50b128",
+    "title": "WCM: A World Critic Model for Vision-Language-Action Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2607.29613v1",
+    "source": "arXiv",
+    "date": "2026-07-31",
+    "summary": "Reinforcement learning (RL) post-training of Vision-Language-Action (VLA) models has shown strong promise for robotic manipulation. Among RL methods, critic-based approaches rely on a value estimator that predominantly operates on single-frame observations or single-frame VLM ba…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "cb5b00d6f3ca4e0a",
+    "title": "FibVLA: An Efficient Temporal Vision-Language-Action Model with Fibonacci Sampling",
+    "url": "https://arxiv.org/abs/2607.29596v1",
+    "source": "arXiv",
+    "date": "2026-07-31",
+    "summary": "Vision-language-action models (VLAs), which leverage the cognition of multimodal information to infer physical-world actions, provide a generalized solution for embodied AI applications. Conventional VLAs usually concentrate on current digital cognition. While some efforts are m…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "7770fa590c325127",
+    "title": "Safe Vision Language Action Models via Barrier Enhanced Flow Matching",
+    "url": "https://arxiv.org/abs/2607.29569v1",
+    "source": "arXiv",
+    "date": "2026-07-31",
+    "summary": "This article presents a modular inference framework that integrates Flow Matching generative models with formal Control Barrier Function (CBF) safety guarantees. Unlike existing methods that apply external safety filters to a model's final output, our approach modifies the Flow…",
+    "tags": [],
+    "topics": [],
+    "kinds": [
+      "安全与可信"
+    ]
+  },
+  {
+    "id": "72912b99c00f061e",
+    "title": "TransGraspNet: Physically and Geometrically Consistent Manipulation of Transparent Labware",
+    "url": "https://arxiv.org/abs/2607.29567v1",
+    "source": "arXiv",
+    "date": "2026-07-31",
+    "summary": "Manipulating transparent laboratory glassware that contains liquid is inherently safety-critical: even small geometric errors can cause unstable grasps and hazardous spillage. Although recent progress has been made in transparent object perception and robotic grasping, most exis…",
+    "tags": [],
+    "topics": [
+      "感知与传感",
+      "灵巧手与操作"
+    ],
+    "kinds": [
+      "安全与可信"
+    ]
+  },
+  {
+    "id": "bc17dacbe782f884",
+    "title": "Tri-Space Operational Control of Redundant Multilink and Hybrid Cable-Driven Parallel Robots Using an Iterative-Learning based Reactive Approach",
+    "url": "https://arxiv.org/abs/2607.29500v1",
+    "source": "arXiv",
+    "date": "2026-07-31",
+    "summary": "Cable-Driven Parallel Robots (CDPRs) are a type of parallel mechanism in which cables are used as actuators. Due to the two levels of redundancy and numerous constraints within the CDPR actuation, joint and operational spaces (together known as the tri-space), tracking a given t…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "38123549c2e0e133",
+    "title": "Temporal Policy: History-Initialized Action Generation for Robotic Learning from Demonstration",
+    "url": "https://arxiv.org/abs/2607.29482v1",
+    "source": "arXiv",
+    "date": "2026-07-31",
+    "summary": "By relying on independent couplings from uninformative Gaussian priors, standard diffusion and flow matching models are forced to learn complex, high-cost vector fields to reach the physical action space. Generative models excel at capturing multimodal behaviors for robotic Lear…",
+    "tags": [],
+    "topics": [
+      "遥操作与数据采集"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "5d25d0845601759b",
+    "title": "Automated Straight-line Sewing of Stretchable Fabrics with Different Lengths",
+    "url": "https://arxiv.org/abs/2607.29464v1",
+    "source": "arXiv",
+    "date": "2026-07-31",
+    "summary": "Different Length Alignment Sewing (DLAS), which involves stretching the shorter fabric to match the longer one and sewing them together in a straight line, is a challenging task that needs to satisfy several requirements when automating the sewing process. To address the challen…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "ff8c5b2565830498",
+    "title": "BWM: A Low-Cost High-Fidelity World Simulator for Robot Learning",
+    "url": "https://arxiv.org/abs/2607.29302v1",
+    "source": "arXiv",
+    "date": "2026-07-31",
+    "summary": "Reliable robot learning requires a world simulator that can predict action consequences before execution on physical hardware, including risky and failure-prone outcomes. Existing physics simulators require substantial asset construction and calibration and still face a sim-to-r…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real"
+    ],
+    "kinds": [
+      "安全与可信"
+    ]
+  },
+  {
+    "id": "fb892f931985c944",
+    "title": "TacPrint: A Wearable Fingertip Tactile Sensor for Human-to-Robot Contact Reproduction",
+    "url": "https://arxiv.org/abs/2607.29231v1",
+    "source": "arXiv",
+    "date": "2026-07-31",
+    "summary": "Human-centric data collection is emerging as a significant paradigm for robot skill acquisition, but seamlessly integrating low-cost, scalable tactile sensing systems that capture fine-grained fingertip interactions without compromising natural operation remains a key challenge.…",
+    "tags": [],
+    "topics": [
+      "感知与传感",
+      "遥操作与数据采集"
+    ],
+    "kinds": [
+      "产业动态"
+    ]
+  },
+  {
+    "id": "517ab3fd2050575c",
+    "title": "Event-Based Upper-Body Humanoid Teleoperation Under Challenging Illumination",
+    "url": "https://arxiv.org/abs/2607.29227v1",
+    "source": "arXiv",
+    "date": "2026-07-31",
+    "summary": "We present a real-time upper-body human-to-humanoid motion imitation framework driven by neuromorphic event-based vision. This work addresses practical perceptual bottlenecks of conventional frame-based RGB sensors, specifically their difficulty in high dynamic range (HDR) scene…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "感知与传感",
+      "遥操作与数据采集"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "669cc9609f532042",
+    "title": "CLIFT: Turning Gemini Robotics On-Device into Humanoid Specialists via Non-Invasive Closed-Loop Iterative Fine-Tuning",
+    "url": "https://arxiv.org/abs/2607.29172v1",
+    "source": "arXiv",
+    "date": "2026-07-31",
+    "summary": "While robot foundation models are growing increasingly capable, the strongest models are typically trained on proprietary data and remain closed-source, limiting downstream users' ability to adapt them to new tasks, embodiments, and deployment settings. Following the LLM communi…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "人形机器人"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "592a9ab11c0e0955",
+    "title": "ActFovea: Runtime Safeguarding for VLA Policies via Spatiotemporal Visual-Action Consistency",
+    "url": "https://arxiv.org/abs/2607.29169v1",
+    "source": "arXiv",
+    "date": "2026-07-31",
+    "summary": "Vision-language-action (VLA) policies achieve strong performance in robotic manipulation but remain vulnerable to runtime disturbances that break the temporal alignment among visual observations, robot states, and executed actions. We introduce ActFovea, a plug-and-play safeguar…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "812badb6536c20c1",
+    "title": "ST-WAM: Semantic-Temporal World Action Model for Robust Manipulation under Visual Distribution Shifts",
+    "url": "https://arxiv.org/abs/2607.28993v1",
+    "source": "arXiv",
+    "date": "2026-07-31",
+    "summary": "World Action Models (WAMs) have emerged as a promising paradigm by jointly modeling robot actions and future visual dynamics. However, their reliance on pixel-generative future supervision can entangle action-relevant state transitions with task-irrelevant visual content, limiti…",
+    "tags": [],
+    "topics": [
+      "世界模型",
+      "灵巧手与操作"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "c04397d2a14a1e2f",
+    "title": "Advances, challenges, and opportunities for legged robots",
+    "url": "https://arxiv.org/abs/2607.28952v1",
+    "source": "arXiv",
+    "date": "2026-07-31",
+    "summary": "Humanoid and quadrupedal robots have the potential to revolutionize the way we work, interact, and coexist with intelligent machines. To understand their effects on society and how they can enable scientific discovery, we assess the current capabilities of these systems along ha…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "移动与四足"
+    ],
+    "kinds": []
   },
   {
     "id": "11116040578c654f",
