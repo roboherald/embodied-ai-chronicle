@@ -19,7 +19,7 @@
     "summary": "",
     "hn": {
       "points": 3,
-      "comments": 1,
+      "comments": 2,
       "discussion": "https://news.ycombinator.com/item?id=49149625"
     },
     "tags": [],
@@ -90,7 +90,11 @@
       "灵巧手与操作",
       "遥操作与数据采集"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "UC Berkeley",
+      "清华大学"
+    ]
   },
   {
     "id": "f7c9dc48266be10a",
@@ -104,7 +108,8 @@
       "人形机器人",
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "6f3c89eba8ebe67c",
@@ -118,7 +123,8 @@
       "VLA与基础模型",
       "感知与传感"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "e0b74cce3a50b128",
@@ -132,7 +138,10 @@
       "VLA与基础模型",
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "复旦大学"
+    ]
   },
   {
     "id": "cb5b00d6f3ca4e0a",
@@ -145,7 +154,8 @@
     "topics": [
       "VLA与基础模型"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "7770fa590c325127",
@@ -158,7 +168,8 @@
     "topics": [],
     "kinds": [
       "安全与可信"
-    ]
+    ],
+    "affiliations": []
   },
   {
     "id": "72912b99c00f061e",
@@ -175,9 +186,7 @@
     "kinds": [
       "安全与可信"
     ],
-    "affiliations": [
-      "Caltech"
-    ]
+    "affiliations": []
   },
   {
     "id": "bc17dacbe782f884",
@@ -188,7 +197,8 @@
     "summary": "Cable-Driven Parallel Robots (CDPRs) are a type of parallel mechanism in which cables are used as actuators. Due to the two levels of redundancy and numerous constraints within the CDPR actuation, joint and operational spaces (together known as the tri-space), tracking a given t…",
     "tags": [],
     "topics": [],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "38123549c2e0e133",
@@ -201,7 +211,8 @@
     "topics": [
       "遥操作与数据采集"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "5d25d0845601759b",
@@ -212,7 +223,8 @@
     "summary": "Different Length Alignment Sewing (DLAS), which involves stretching the shorter fabric to match the longer one and sewing them together in a straight line, is a challenging task that needs to satisfy several requirements when automating the sewing process. To address the challen…",
     "tags": [],
     "topics": [],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "ff8c5b2565830498",
@@ -227,7 +239,8 @@
     ],
     "kinds": [
       "安全与可信"
-    ]
+    ],
+    "affiliations": []
   },
   {
     "id": "fb892f931985c944",
@@ -243,6 +256,10 @@
     ],
     "kinds": [
       "产业动态"
+    ],
+    "affiliations": [
+      "中科院",
+      "北京智源"
     ]
   },
   {
@@ -258,7 +275,8 @@
       "感知与传感",
       "遥操作与数据采集"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "669cc9609f532042",
@@ -272,7 +290,8 @@
       "VLA与基础模型",
       "人形机器人"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "592a9ab11c0e0955",
@@ -286,7 +305,8 @@
       "VLA与基础模型",
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "812badb6536c20c1",
@@ -300,7 +320,8 @@
       "世界模型",
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "c04397d2a14a1e2f",
@@ -314,7 +335,11 @@
       "人形机器人",
       "移动与四足"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "ETH Zürich",
+      "Stanford"
+    ]
   },
   {
     "id": "11116040578c654f",
@@ -398,6 +423,9 @@
     ],
     "kinds": [
       "安全与可信"
+    ],
+    "affiliations": [
+      "Caltech"
     ]
   },
   {
@@ -1586,7 +1614,10 @@
     "topics": [
       "移动与四足"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "东京大学"
+    ]
   },
   {
     "id": "c6310b392400abca",
@@ -1599,7 +1630,8 @@
     "topics": [
       "世界模型"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "1796702645764823",
@@ -1612,7 +1644,8 @@
     "topics": [
       "VLA与基础模型"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "636a5585e0bd56c7",
@@ -1625,7 +1658,8 @@
     "topics": [
       "世界模型"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "a381a77e70cb2435",
@@ -1638,7 +1672,8 @@
     "topics": [
       "感知与传感"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "368eaf59914499bb",
@@ -1654,7 +1689,8 @@
       "感知与传感",
       "移动与四足"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "36f421266898f10c",
@@ -1667,7 +1703,8 @@
     "topics": [],
     "kinds": [
       "安全与可信"
-    ]
+    ],
+    "affiliations": []
   },
   {
     "id": "99b0ac116d8638db",
@@ -1757,7 +1794,12 @@
       "VLA与基础模型",
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "MIT",
+      "Microsoft",
+      "University of Washington"
+    ]
   },
   {
     "id": "3612d407f0f14338",
@@ -1771,7 +1813,10 @@
       "感知与传感",
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "复旦大学"
+    ]
   },
   {
     "id": "c953cd716761397a",
@@ -1786,7 +1831,10 @@
       "感知与传感",
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "复旦大学"
+    ]
   },
   {
     "id": "cd1cddef60074821",
