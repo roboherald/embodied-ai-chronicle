@@ -1,5 +1,31 @@
 [
   {
+    "id": "f0d61eec2be39dea",
+    "title": "150.8元/股！宇树科技超百名员工参与IPO「盛宴」，一批90后千万富豪或将诞生；DeepSeek拟上调API服务定价；字节拟训练超5万亿参数大模型",
+    "url": "https://www.leiphone.com/category/zaobao/jTnxUYfadwnDJtNd.html",
+    "source": "雷峰网",
+    "date": "2026-08-07",
+    "summary": "要闻提示 1.OpenAI 披露攻击 Hugging Face 前，AI 智能体秘密建立内部留言板 2.150.8元/股！宇树科技超百名员工参与IPO“盛宴”，一批90后千万富豪或将诞生 3.DeepSeek拟上调API服务定价，预计涨幅较大 4.小红书高薪招募AI人才，主导AI社交类产品 5.曝字节拟训练超5万亿参数大模型，参数规模超Kimi K3 6.前小鹏副总裁陈永海加入众擎机器人，担任运营总裁 7.王腾回应“SU7 Ultra 泊车异常”：小米汽车已迅速跟进分析，边界场景有 Bug 很正常 8.谷歌Gemini换帅，首席科学家Jeff Dean…",
+    "tags": [
+      "OpenAI"
+    ],
+    "topics": [],
+    "kinds": [
+      "产业动态"
+    ]
+  },
+  {
+    "id": "080e541cb1664156",
+    "title": "智元下架了首席科学家罗剑岚",
+    "url": "https://www.qbitai.com/2026/08/467730.html",
+    "source": "量子位",
+    "date": "2026-08-07",
+    "summary": "智元机器人高管生变！",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
     "id": "c87f3a099937becd",
     "title": "长鑫拒绝苹果压价：坚持要求不低于三星电子和SK海力士；马斯克个人财富亏掉2个「黄仁勋」；宇树上市在即，王兴兴身价即将突破百亿",
     "url": "https://www.leiphone.com/category/zaobao/aMdQoqYpcE7D7eWa.html",
@@ -11,6 +37,345 @@
     "kinds": [
       "产业动态"
     ]
+  },
+  {
+    "id": "94c7ec53a94e67aa",
+    "title": "黎曼动力携手光轮智能与诺亦腾机器人，剑指2026年百万小时具身智能数据建设",
+    "url": "https://www.leiphone.com/category/industrynews/8FCGhggf0AxRU8Pa.html",
+    "source": "雷峰网",
+    "date": "2026-08-06",
+    "summary": "8月6日，黎曼动力宣布与光轮智能、诺亦腾机器人（Noitom Robotics）达成战略合作。围绕 Riemann-1.0 具身世界动作模型与 Matrix-Game 3.5 交互式世界模型，黎曼动力将与两家公司在高质量具身数据采集、模型训练、规模化评测、真实机器人部署与反馈优化等方向展开深度协同，推进面向 2026 年的百万小时具身智能数据建设。 此次合作标志着黎曼动力正在从单一模型能力突破，进一步走向“数据生产、模型训练、真实验证、反馈迭代”的系统化闭环建设。未来，黎曼动力将依托 Riemann 系列具身大脑模型的真实任务表现，持续反推数据缺口，并…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "af9a499f9116de76",
+    "title": "李飞飞、Yilun Du罕见联手：别给机器人建大脑了，直接偷视频模型的｜GAIR Paper 115",
+    "url": "https://www.leiphone.com/category/ai/CmG0TpbUIhu1EHkl.html",
+    "source": "雷峰网",
+    "date": "2026-08-06",
+    "summary": "用像素动作的新接口，打通视频大模型与机器人之间的壁垒 作者丨 邓哲敏 编辑丨 齐铖湧 今年视频生成和具身智能领域，阵容最为豪华的一篇“融合体论文”出现了。 前几天，一篇名叫 Masked Visual Actions for Unified World Modeling 的论文，挂在 arxiv 上，这篇工作还未在学术圈传开，但绝对马上就要爆了。 因为它的署名栏和论文内容都实在太炸裂了，大家自己看吧。 不仅包括李飞飞，ImageNet 缔造者，如今全力押注空间智能；吴佳俊，斯坦福助理教授，物理推理方向代表人物，刚获得热乎的 IJCAI 2026 计算机…",
+    "tags": [],
+    "topics": [
+      "世界模型"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "7ea64867456ed629",
+    "title": "对话 IDEA 张磊：「不以动作为输入条件，就不叫世界模型」",
+    "url": "https://www.leiphone.com/category/academic/wQny8Cer4EJz0RAU.html",
+    "source": "雷峰网",
+    "date": "2026-08-06",
+    "summary": "曾力压谷歌、Meta，把「物体理解」做到全球第一。 作者丨 幸丽娟 编辑丨 林觉民 2026年上半年，中国AI圈的钱和人都涌向同一方向：世界模型。 仅前六个月，国内世界模型赛道披露融资总额约300亿元，如果把“具身智能+世界模型”融合赛道算进来，这个数字膨胀到900多亿。 相比去年同期，融资增速超 5 倍。 百亿资金，海量人才，如潮水般涌入。 一个绕不过去的问题是：这么多人冲进来，究竟有多少人真的想清楚了这个东西到底是什么？ 从业者在找方向，投资人在找人，猎头在摸组织，大厂战略部门在研究谁能活下来。 一件奇怪的事是，所有人都在问同样的问题： 有没有谁能…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "e5c62c275db051d6",
+    "title": "$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation",
+    "url": "https://arxiv.org/abs/2608.06375v1",
+    "source": "arXiv",
+    "date": "2026-08-06",
+    "summary": "Humanoid household tasks often require concurrent loco-manipulation, where the robot must move, adjust posture, maintain balance, and manipulate objects as a single coordinated behavior. Yet existing humanoid policies typically decompose locomotion and manipulation, while recent…",
+    "tags": [],
+    "topics": [
+      "世界模型",
+      "人形机器人",
+      "灵巧手与操作",
+      "移动与四足"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "b3a52dc55301ac3e",
+    "title": "DyPES-VLA: Learning Shared Dynamics Priors and Embodiment-Specific Control for Cross-Embodiment Manipulation",
+    "url": "https://arxiv.org/abs/2608.06374v1",
+    "source": "arXiv",
+    "date": "2026-08-06",
+    "summary": "Vision-Language-Action (VLA) models have become a powerful paradigm for robot manipulation, but training a single generalist policy for heterogeneous robot embodiments remains an open problem. Existing methods have two main limitations. First, they underuse dynamics priors share…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "03791d96702c5fce",
+    "title": "A Master-Salve Robot Manipulator for Needle-Based Teleoperation in MRI Chamber",
+    "url": "https://arxiv.org/abs/2608.06354v1",
+    "source": "arXiv",
+    "date": "2026-08-06",
+    "summary": "We present a MR safe, master-slave robot manipulator for abdominal interventions in the MRI chamber. A human operated 2+1-DoF master controller manipulator transmits motion and force to a 2+1-DoF slave manipulator via fluid transmission. Jointly, a digital master controller prov…",
+    "tags": [],
+    "topics": [
+      "遥操作与数据采集"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "460d847181e04fa3",
+    "title": "GeniWorld: A Generalizable Interactive World Model for Robotic Manipulation via Visual Actions",
+    "url": "https://arxiv.org/abs/2608.06332v1",
+    "source": "arXiv",
+    "date": "2026-08-06",
+    "summary": "Generalist robot policies exhibit strong capabilities, but their robustness in complex and unseen environments remains limited. Scaling robot learning and evaluation in diverse real-world environments remains costly and challenging. Action-conditioned world models offer a promis…",
+    "tags": [],
+    "topics": [
+      "世界模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [
+      "产业动态",
+      "安全与可信"
+    ]
+  },
+  {
+    "id": "f3c3d926502b2c32",
+    "title": "Design and Evaluation of a Touchscreen-Based Teleoperation Interface for Robotic Manipulators",
+    "url": "https://arxiv.org/abs/2608.06219v1",
+    "source": "arXiv",
+    "date": "2026-08-06",
+    "summary": "Intuitive teleoperation interfaces are crucial for the safe and effective operation of robotic manipulators in challenging environments. In the nuclear industry, surface contact tasks such as swab sampling require precise path and force tracking, obstacle avoidance, and sustaine…",
+    "tags": [],
+    "topics": [
+      "遥操作与数据采集"
+    ],
+    "kinds": [
+      "产业动态"
+    ]
+  },
+  {
+    "id": "1ce39eb08db3033e",
+    "title": "VIDP: Variable Impedance Diffusion Policy for Compliant Robot Manipulation from Diverse Demonstrations",
+    "url": "https://arxiv.org/abs/2608.06210v1",
+    "source": "arXiv",
+    "date": "2026-08-06",
+    "summary": "Contact-rich manipulation requires precise tracking and mechanical compliance, where variable impedance control can improve robustness in task success, whereas static compliance cannot adapt to varying contact constraints. Variable impedance skills can be learned from demonstrat…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [
+      "安全与可信"
+    ]
+  },
+  {
+    "id": "e4d678753b916e5b",
+    "title": "Visual Grounding in Zero-Shot Vision-Language Control",
+    "url": "https://arxiv.org/abs/2608.06154v1",
+    "source": "arXiv",
+    "date": "2026-08-06",
+    "summary": "Vision-language models (VLMs) are increasingly used as zero-shot controllers, but successful trajectories do not necessarily show that decisions are grounded in visual input: simulator dynamics and conservative action priors can produce favourable scores without meaningful perce…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "仿真与Sim2Real"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "2c706bfb73ee42cb",
+    "title": "IcFuzz: Fuzzing Isaac Sim with Semantic Stage Guidance and Multi-level Mutation",
+    "url": "https://arxiv.org/abs/2608.06088v1",
+    "source": "arXiv",
+    "date": "2026-08-06",
+    "summary": "Robotics simulators serve as a foundational infrastructure for embodied AI, facilitating safe and scalable robotic system development. NVIDIA Isaac Sim has emerged as one of the most popular simulators, distinguished by its GPU-accelerated physics engine and photorealistic rende…",
+    "tags": [
+      "NVIDIA"
+    ],
+    "topics": [
+      "仿真与Sim2Real"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "34175bdbdcf2b09c",
+    "title": "Beyond Flat Policies: Hierarchical Post-Training for Embodied Agents in Robotic Manipulation",
+    "url": "https://arxiv.org/abs/2608.05999v1",
+    "source": "arXiv",
+    "date": "2026-08-06",
+    "summary": "Vision-language-action (VLA) models have demonstrated remarkable capabilities in robotic manipulation by leveraging pretrained vision-language models. However, existing post-training methods predominantly optimize VLA models as flat policies, making it difficult to explicitly mo…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "982789d61494fe44",
+    "title": "Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control",
+    "url": "https://arxiv.org/abs/2608.05989v1",
+    "source": "arXiv",
+    "date": "2026-08-06",
+    "summary": "Sample-efficient policy learning from pixels is a long-standing challenge in reinforcement learning (RL). Recent dynamics-based representation learning methods have significantly improved the sample efficiency of model-free visual RL by learning dynamics-aware representations th…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "3b86bed6b51513ce",
+    "title": "TRACE: Learned Proprioceptive Odometry for Legged Robots under Unreliable Contact Conditions",
+    "url": "https://arxiv.org/abs/2608.05975v1",
+    "source": "arXiv",
+    "date": "2026-08-06",
+    "summary": "In this paper, we present TRACE (Tokenized Robust Attention for Contact-Aware Estimation), an end-to-end learned proprioceptive odometry estimator for legged robots under unreliable contact conditions. The proposed estimator directly predicts relative displacement, relative rota…",
+    "tags": [],
+    "topics": [
+      "移动与四足"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "d519b4efaae6cf19",
+    "title": "SkillMemo: Expert-guided Skill Memory Framework for Compositional Embodied Manipulation",
+    "url": "https://arxiv.org/abs/2608.05970v1",
+    "source": "arXiv",
+    "date": "2026-08-06",
+    "summary": "Embodied visuomotor models, including Diffusion Policy (DP) and Vision-Language-Action (VLA) models, have demonstrated promising performance on robotic manipulation benchmarks. However, their potential remains fundamentally constrained by the scarcity of large-scale embodied tra…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "仿真与Sim2Real",
+      "灵巧手与操作"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "1155496a7a36714a",
+    "title": "GAUGE: A Measurement-Grounded Benchmark for Physical Fidelity in Simulation Engines and Video World Models",
+    "url": "https://arxiv.org/abs/2608.05948v1",
+    "source": "arXiv",
+    "date": "2026-08-06",
+    "summary": "Physics engines facilitate large-scale training and evaluation for embodied intelligence, while generative video world models are emerging as implicit simulators of future states and interactions. However, existing evaluations of physical fidelity are often conducted in isolatio…",
+    "tags": [],
+    "topics": [
+      "世界模型",
+      "仿真与Sim2Real"
+    ],
+    "kinds": [
+      "产业动态"
+    ]
+  },
+  {
+    "id": "318428a1c5bb3326",
+    "title": "XEWorld: Can Action-Conditioned World Models Generalize to Unseen Robot Embodiments?",
+    "url": "https://arxiv.org/abs/2608.05799v1",
+    "source": "arXiv",
+    "date": "2026-08-06",
+    "summary": "Action-conditioned world models are promising learned simulators for robotic manipulation, yet evaluating them exclusively on training robots fails to reveal whether they capture physical dynamics or merely memorize visual patterns. To answer whether a model can faithfully rende…",
+    "tags": [],
+    "topics": [
+      "世界模型",
+      "仿真与Sim2Real",
+      "灵巧手与操作"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "670a28442882dc38",
+    "title": "Acoustic-driven millimetric helical robot: ultrasonic synergistic manipulation in confined fluidic environment",
+    "url": "https://arxiv.org/abs/2608.05746v1",
+    "source": "arXiv",
+    "date": "2026-08-06",
+    "summary": "Acoustic field-driven manipulation provides a non-contact and non-invasive strategy for controlling microscale and nanoscale objects, yet its extension to millimeter-scale robots was limited by insufficient propulsion efficiency in confined biological environments. Here, a coord…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "75b9feb0cd42bc8f",
+    "title": "In-Context VLA: Endowing Vision-Language-Action Models with Language via In-Context Post-Training and Agentic Tool Use",
+    "url": "https://arxiv.org/abs/2608.05738v1",
+    "source": "arXiv",
+    "date": "2026-08-06",
+    "summary": "Vision-Language-Action (VLA) models have become the dominant recipe for generalist manipulation, yet they are almost universally trained by behavior cloning: a policy imitates expert action chunks conditioned on a static image and a fixed instruction. A natural remedy is to inje…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "d13806a3651946c4",
+    "title": "Hijacking Robots with a Piece of Paper: A Systematic Study of Physical Prompt Injection in VLM-Controlled Robots",
+    "url": "https://arxiv.org/abs/2608.05715v1",
+    "source": "arXiv",
+    "date": "2026-08-06",
+    "summary": "Vision-Language Models (VLMs) are increasingly deployed as planners in robotic systems, where they translate natural-language commands into executable actions grounded in visual scene understanding. This tight coupling between perception and instruction-following introduces a ne…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "感知与传感"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "4028e60abc2dc29e",
+    "title": "JoyAI-RA 0.5: Scaling Robot Manipulation Learning via Dual Action Alignment",
+    "url": "https://arxiv.org/abs/2608.05674v1",
+    "source": "arXiv",
+    "date": "2026-08-06",
+    "summary": "Robot data is scarce, so generalist policies need to learn from heterogeneous sources, including human egocentric video, simulation, and real robots, which differ in supervision and embodiment, with action labels missing or mutually incompatible. Human egocentric data scale best…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real",
+      "灵巧手与操作"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "cecacc85cab5ba4e",
+    "title": "KILVO: Kinematic-Inertial-LiDAR-Visual Odometry with Robust Multimodal Adaptation for Humanoid Robots",
+    "url": "https://arxiv.org/abs/2608.05647v1",
+    "source": "arXiv",
+    "date": "2026-08-06",
+    "summary": "This article presents a kinematic-inertial-LiDAR-visual odometry for humanoid robots, called KILVO. Tailored to the platform features, requirements, and real-world complexity, it fully utilizes the sensors commonly equipped on humanoid robots, including joint encoders, IMU, LiDA…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "感知与传感"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "ade99dcb7593ceb2",
+    "title": "ARGUS: Aligning Robot Scene Geometry Under Shifting Views with Large 3D Vision Models",
+    "url": "https://arxiv.org/abs/2608.05579v1",
+    "source": "arXiv",
+    "date": "2026-08-06",
+    "summary": "Large-scale visuomotor policies have demonstrated impressive performance across a wide range of robot manipulation tasks. However, despite this success, manipulation polices often entangle scene geometry with the corresponding viewpoint, learning where objects lie in an image ra…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "56145e6440ad2f0d",
+    "title": "Into the Omniverse: How Open World Models Push the Frontier of Physical AI",
+    "url": "https://blogs.nvidia.com/blog/open-world-models-physical-ai/",
+    "source": "NVIDIA Blog",
+    "date": "2026-08-06",
+    "summary": "In July, NVIDIA joined more than 200 companies and organizations in signing “Open Weights and American AI Leadership,” an open letter arguing that AI leadership will be measured not by any single frontier model but by whether an open ecosystem reaches every sector.",
+    "tags": [
+      "NVIDIA"
+    ],
+    "topics": [
+      "世界模型"
+    ],
+    "kinds": []
   },
   {
     "id": "908ff561767cf388",
@@ -56,7 +421,11 @@
     "topics": [
       "移动与四足"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "中科院",
+      "清华大学"
+    ]
   },
   {
     "id": "7fbc1b0de9384e7f",
@@ -70,7 +439,8 @@
       "VLA与基础模型",
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "bc49e20a9233b855",
@@ -83,7 +453,8 @@
     "topics": [
       "世界模型"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "ffe696fa734fd962",
@@ -94,7 +465,8 @@
     "summary": "Long-horizon embodied task requires agents to act under partial observability while preserving both scene belief and execution progress. Flat histories or implicit policy states may contain past observations, but they do not provide an explicit interface for deciding which world…",
     "tags": [],
     "topics": [],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "1195dcda2d846f95",
@@ -108,7 +480,10 @@
       "仿真与Sim2Real",
       "感知与传感"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "首尔大学"
+    ]
   },
   {
     "id": "13c4eeabcc259f47",
@@ -123,7 +498,10 @@
       "感知与传感",
       "遥操作与数据采集"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "复旦大学"
+    ]
   },
   {
     "id": "281870f85cb56679",
@@ -136,7 +514,8 @@
     "topics": [
       "VLA与基础模型"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "b7693970d066a978",
@@ -149,7 +528,8 @@
     "topics": [
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "260c8bd9a9f373ff",
@@ -162,7 +542,10 @@
     "topics": [
       "VLA与基础模型"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "中科院"
+    ]
   },
   {
     "id": "f19118746da12c50",
@@ -176,7 +559,11 @@
       "VLA与基础模型",
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "复旦大学",
+      "清华大学"
+    ]
   },
   {
     "id": "e82135457d6f740a",
@@ -191,7 +578,8 @@
     ],
     "kinds": [
       "安全与可信"
-    ]
+    ],
+    "affiliations": []
   },
   {
     "id": "47504c5bd608b23d",
@@ -208,7 +596,38 @@
     "kinds": [
       "产业动态",
       "安全与可信"
+    ],
+    "affiliations": [
+      "香港大学"
     ]
+  },
+  {
+    "id": "fc8e22ee6158ff39",
+    "title": "World-to-Wrist: Task-Conditioned Future Wrist Modeling for Fine-Grained Robot Manipulation",
+    "url": "https://arxiv.org/abs/2608.05369v1",
+    "source": "arXiv",
+    "date": "2026-08-05",
+    "summary": "Vision-language-action (VLA) models often treat main-view and wrist-view observations as parallel visual inputs, overlooking their distinct roles in robot manipulation. Fine-grained manipulation, however, benefits from anticipating how wrist-local interactions may evolve under t…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "4ce17544db9a0229",
+    "title": "VLAff: Vision-Language-Affordance Model for Unified Actionable Affordances",
+    "url": "https://arxiv.org/abs/2608.05215v1",
+    "source": "arXiv",
+    "date": "2026-08-05",
+    "summary": "Learning manipulation skills from human videos is promising for scalable robot learning. However, the embodiment mismatch between humans and robots makes this challenging. One promising solution is to learn object-centric actionable affordances that are embodiment-agnostic. In t…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": []
   },
   {
     "id": "994b7adde90d5bdf",
@@ -549,7 +968,8 @@
     ],
     "kinds": [
       "安全与可信"
-    ]
+    ],
+    "affiliations": []
   },
   {
     "id": "aa9802173e820a83",
@@ -562,7 +982,10 @@
     "topics": [
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "字节跳动"
+    ]
   },
   {
     "id": "01851263853cf8e9",
@@ -575,7 +998,8 @@
     "topics": [],
     "kinds": [
       "产业动态"
-    ]
+    ],
+    "affiliations": []
   },
   {
     "id": "2a10bfe949b7e297",
@@ -591,7 +1015,8 @@
       "移动与四足",
       "遥操作与数据采集"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "bedfc3531a180d02",
@@ -606,7 +1031,8 @@
       "感知与传感",
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "bac8cf8c63f210cc",
@@ -2232,7 +2658,7 @@
     "summary": "",
     "hn": {
       "points": 25,
-      "comments": 13,
+      "comments": 14,
       "discussion": "https://news.ycombinator.com/item?id=49092538"
     },
     "tags": [],
@@ -4363,7 +4789,8 @@
     "topics": [
       "移动与四足"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "63efdb966cda6876",
@@ -4376,7 +4803,8 @@
     "topics": [
       "人形机器人"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "79eb9da8091c6c97",
@@ -4392,7 +4820,8 @@
       "灵巧手与操作",
       "遥操作与数据采集"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "89b46d9c33b95ac3",
@@ -4407,7 +4836,10 @@
       "移动与四足",
       "遥操作与数据采集"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "Stanford"
+    ]
   },
   {
     "id": "8ea40b37557121d1",
@@ -4421,7 +4853,12 @@
       "VLA与基础模型",
       "世界模型"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "Columbia",
+      "UCLA",
+      "新加坡国立"
+    ]
   },
   {
     "id": "2b2d92b8bb50301a",
@@ -4437,7 +4874,8 @@
       "灵巧手与操作",
       "遥操作与数据采集"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "01bd64451350c84b",
@@ -4565,7 +5003,10 @@
     "topics": [
       "感知与传感"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "NYU"
+    ]
   },
   {
     "id": "0b85de5c391baac0",
@@ -4579,7 +5020,12 @@
       "VLA与基础模型",
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "Microsoft",
+      "复旦大学",
+      "清华大学"
+    ]
   },
   {
     "id": "68178cbb04690238",
@@ -4595,7 +5041,8 @@
       "感知与传感",
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "a7b2d3b1bd442698",
@@ -4611,6 +5058,9 @@
     ],
     "kinds": [
       "安全与可信"
+    ],
+    "affiliations": [
+      "NYU"
     ]
   },
   {
@@ -4624,7 +5074,8 @@
     "topics": [
       "人形机器人"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "0618832395fcf867",
@@ -4637,7 +5088,10 @@
     "topics": [
       "仿真与Sim2Real"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "浙江大学"
+    ]
   },
   {
     "id": "b50a8253a4b9bb0f",
@@ -4651,7 +5105,8 @@
       "仿真与Sim2Real",
       "移动与四足"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "6890e56ac48ae2a7",
@@ -4664,7 +5119,8 @@
     "topics": [
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "46332db21e87d39f",
@@ -4678,7 +5134,10 @@
       "仿真与Sim2Real",
       "遥操作与数据采集"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "北京大学"
+    ]
   },
   {
     "id": "d179987f6b178357",
@@ -4693,7 +5152,8 @@
       "人形机器人",
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "e19b5c9e773f9472",
@@ -4707,7 +5167,8 @@
       "VLA与基础模型",
       "感知与传感"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "01acf3b4381764b9",
@@ -4722,7 +5183,10 @@
       "灵巧手与操作",
       "遥操作与数据采集"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "东京大学"
+    ]
   },
   {
     "id": "0c429264bf1e4e3c",
@@ -4735,7 +5199,11 @@
     "topics": [
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "南洋理工",
+      "哈尔滨工业大学"
+    ]
   },
   {
     "id": "dc8dc44131d65557",
@@ -4746,7 +5214,8 @@
     "summary": "Efficient, collision-free, and time-optimal motion planning is a fundamental requirement for autonomous forestry cranes operating under hydraulic pump-flow constraints. The Via-Point-based Stochastic Trajectory Optimization (VP-STO) algorithm has demonstrated near-time-optimal h…",
     "tags": [],
     "topics": [],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "54e995e2af9361bb",
@@ -4761,7 +5230,8 @@
     ],
     "kinds": [
       "安全与可信"
-    ]
+    ],
+    "affiliations": []
   },
   {
     "id": "a925ba871e4ee3de",
@@ -4775,7 +5245,8 @@
       "VLA与基础模型",
       "人形机器人"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "c71bf81a80c7f882",
@@ -4788,7 +5259,8 @@
     "topics": [
       "遥操作与数据采集"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "5604ec893fafc460",
