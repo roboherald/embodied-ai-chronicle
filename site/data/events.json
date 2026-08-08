@@ -1,5 +1,23 @@
 [
   {
+    "id": "f398983fd29291ed",
+    "title": "Mitsubishi joins the humanoid robot race, at a 1k unit per month pace",
+    "url": "https://electrek.co/2026/08/07/mitsubishi-joins-the-humanoid-robot-race-at-a-1000-unit-per-month-pace/",
+    "source": "Hacker News",
+    "date": "2026-08-08",
+    "summary": "",
+    "hn": {
+      "points": 3,
+      "comments": 0,
+      "discussion": "https://news.ycombinator.com/item?id=49217973"
+    },
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": []
+  },
+  {
     "id": "f0d61eec2be39dea",
     "title": "150.8元/股！宇树科技超百名员工参与IPO「盛宴」，一批90后千万富豪或将诞生；DeepSeek拟上调API服务定价；字节拟训练超5万亿参数大模型",
     "url": "https://www.leiphone.com/category/zaobao/jTnxUYfadwnDJtNd.html",
@@ -15,6 +33,17 @@
     ]
   },
   {
+    "id": "b62415c0bfa32c80",
+    "title": "IJCAI 2026 专访：机器人想学会人类动作，还差一座桥 | GAIR Paper 118",
+    "url": "https://www.leiphone.com/category/private/V2FQ6puH0pDdAKeI.html",
+    "source": "雷峰网",
+    "date": "2026-08-07",
+    "summary": "重新审视人类视频如何赋能机器人学习 作者丨 邓哲敏 编辑丨 齐铖湧 大模型时代，规模化的数据能带来能力跃迁，这一规律已被反复验证。 当这套范式进入机器人领域，问题变得复杂。机器人需要的不仅是大量数据，而且是能够转化为动作能力的数据。 人类视频近期成为研究者关注的新来源。它规模巨大、获取成本低、覆盖场景丰富，但它毕竟不是机器人数据，视频里没有机器人动作标签，人类手部运动也无法直接对应机器人的控制信号。 问题由此产生： 人类视频进入机器人学习流程后，究竟应该被表示成什么？ 过去一年，研究者给出了不同答案：有人把动作压缩到隐空间，有人让模型学习视频背后的世界…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
     "id": "080e541cb1664156",
     "title": "智元下架了首席科学家罗剑岚",
     "url": "https://www.qbitai.com/2026/08/467730.html",
@@ -24,6 +53,19 @@
     "tags": [],
     "topics": [],
     "kinds": []
+  },
+  {
+    "id": "d690eec9e0006d48",
+    "title": "Video Friday: Drones Go Heavy in DARPA Lift Challenge",
+    "url": "https://spectrum.ieee.org/video-friday-heavy-lift-drone",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-08-07",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Actuate 2026 : 18–19 August 2026,…",
+    "tags": [],
+    "topics": [],
+    "kinds": [
+      "无人机"
+    ]
   },
   {
     "id": "c87f3a099937becd",
@@ -87,7 +129,8 @@
       "灵巧手与操作",
       "移动与四足"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "b3a52dc55301ac3e",
@@ -101,7 +144,8 @@
       "VLA与基础模型",
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "03791d96702c5fce",
@@ -114,7 +158,8 @@
     "topics": [
       "遥操作与数据采集"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "460d847181e04fa3",
@@ -131,6 +176,11 @@
     "kinds": [
       "产业动态",
       "安全与可信"
+    ],
+    "affiliations": [
+      "清华大学",
+      "腾讯",
+      "香港科技大学"
     ]
   },
   {
@@ -146,7 +196,8 @@
     ],
     "kinds": [
       "产业动态"
-    ]
+    ],
+    "affiliations": []
   },
   {
     "id": "1ce39eb08db3033e",
@@ -163,7 +214,8 @@
     ],
     "kinds": [
       "安全与可信"
-    ]
+    ],
+    "affiliations": []
   },
   {
     "id": "e4d678753b916e5b",
@@ -177,7 +229,8 @@
       "VLA与基础模型",
       "仿真与Sim2Real"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "2c706bfb73ee42cb",
@@ -192,7 +245,12 @@
     "topics": [
       "仿真与Sim2Real"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "南洋理工",
+      "香港中文大学",
+      "香港大学"
+    ]
   },
   {
     "id": "34175bdbdcf2b09c",
@@ -206,7 +264,8 @@
       "VLA与基础模型",
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "982789d61494fe44",
@@ -219,7 +278,8 @@
     "topics": [
       "VLA与基础模型"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "3b86bed6b51513ce",
@@ -232,7 +292,10 @@
     "topics": [
       "移动与四足"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "KAIST"
+    ]
   },
   {
     "id": "d519b4efaae6cf19",
@@ -247,7 +310,11 @@
       "仿真与Sim2Real",
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "南洋理工",
+      "清华大学"
+    ]
   },
   {
     "id": "1155496a7a36714a",
@@ -263,7 +330,8 @@
     ],
     "kinds": [
       "产业动态"
-    ]
+    ],
+    "affiliations": []
   },
   {
     "id": "318428a1c5bb3326",
@@ -278,7 +346,8 @@
       "仿真与Sim2Real",
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "670a28442882dc38",
@@ -291,7 +360,8 @@
     "topics": [
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "75b9feb0cd42bc8f",
@@ -305,7 +375,8 @@
       "VLA与基础模型",
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "d13806a3651946c4",
@@ -319,7 +390,8 @@
       "VLA与基础模型",
       "感知与传感"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "4028e60abc2dc29e",
@@ -333,7 +405,8 @@
       "仿真与Sim2Real",
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "cecacc85cab5ba4e",
@@ -347,7 +420,8 @@
       "人形机器人",
       "感知与传感"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "ade99dcb7593ceb2",
@@ -360,7 +434,10 @@
     "topics": [
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "UIUC"
+    ]
   },
   {
     "id": "56145e6440ad2f0d",
@@ -613,7 +690,12 @@
       "VLA与基础模型",
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "南洋理工",
+      "新加坡国立",
+      "香港科技大学"
+    ]
   },
   {
     "id": "4ce17544db9a0229",
@@ -627,7 +709,10 @@
       "VLA与基础模型",
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "东京大学"
+    ]
   },
   {
     "id": "994b7adde90d5bdf",
@@ -3581,6 +3666,24 @@
     "kinds": []
   },
   {
+    "id": "7d879356088e17a9",
+    "title": "Teachers decry plan for humanoid robot in New York high school",
+    "url": "https://www.theguardian.com/us-news/2026/jul/25/new-york-humanoid-robot-teachers-school",
+    "source": "Hacker News",
+    "date": "2026-07-26",
+    "summary": "",
+    "hn": {
+      "points": 6,
+      "comments": 0,
+      "discussion": "https://news.ycombinator.com/item?id=49055628"
+    },
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": []
+  },
+  {
     "id": "f7c7a80f6385c014",
     "title": "Sling2Sim2Real: One-Shot Elastic System Identification for Non-Destructive Slingshot Policy Learning",
     "url": "https://arxiv.org/abs/2607.23268v1",
@@ -3687,24 +3790,6 @@
       "points": 3,
       "comments": 0,
       "discussion": "https://news.ycombinator.com/item?id=49044126"
-    },
-    "tags": [],
-    "topics": [
-      "人形机器人"
-    ],
-    "kinds": []
-  },
-  {
-    "id": "7d879356088e17a9",
-    "title": "teachers decry plan for humanoid robot in New York high school",
-    "url": "https://www.theguardian.com/us-news/2026/jul/25/new-york-humanoid-robot-teachers-school",
-    "source": "Hacker News",
-    "date": "2026-07-25",
-    "summary": "",
-    "hn": {
-      "points": 6,
-      "comments": 3,
-      "discussion": "https://news.ycombinator.com/item?id=49048149"
     },
     "tags": [],
     "topics": [
@@ -5274,7 +5359,8 @@
       "灵巧手与操作",
       "遥操作与数据采集"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "76ad3fc0b85dc7b1",
@@ -5287,7 +5373,8 @@
     "topics": [
       "移动与四足"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "e71a432054ed9d58",
@@ -5300,7 +5387,8 @@
     "topics": [
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "87848f74bd947a58",
@@ -5313,7 +5401,8 @@
     "topics": [
       "仿真与Sim2Real"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "47218939c627bf53",
@@ -5326,7 +5415,8 @@
     "topics": [
       "VLA与基础模型"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "10fa85fa844ba0ee",
@@ -5341,7 +5431,8 @@
     ],
     "kinds": [
       "无人机"
-    ]
+    ],
+    "affiliations": []
   },
   {
     "id": "3f8ce80e05035595",
@@ -5354,7 +5445,8 @@
     "topics": [
       "移动与四足"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "103c38b993eb8af2",
@@ -5368,7 +5460,8 @@
       "人形机器人",
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "7731ecc83efe69b5",
@@ -5448,7 +5541,8 @@
       "灵巧手与操作",
       "遥操作与数据采集"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "4f6a6d9c9584ffb4",
@@ -5463,7 +5557,10 @@
       "感知与传感",
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "上海交通大学"
+    ]
   },
   {
     "id": "bf61d905757447b6",
