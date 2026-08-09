@@ -5571,7 +5571,8 @@
     "summary": "Digital twins enable robots to anticipate and adapt to physical interactions, but existing models struggle with elastoplastic articulated objects (EAOs) that exhibit nonlinear elasticity, plastic yielding, and damage accumulation. We present BoxTwin, an interactive digital twin…",
     "tags": [],
     "topics": [],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "3bd289e71d6d22ed",
@@ -5584,7 +5585,8 @@
     "topics": [
       "人形机器人"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "4e15e7dd4966826a",
@@ -5625,7 +5627,8 @@
     "topics": [
       "遥操作与数据采集"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "021fac959e2ca66c",
@@ -5638,7 +5641,8 @@
     "topics": [
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "10a57dfb3fbc79f9",
@@ -5656,7 +5660,8 @@
     ],
     "kinds": [
       "安全与可信"
-    ]
+    ],
+    "affiliations": []
   },
   {
     "id": "b7cf9ccd25c4e487",
@@ -5682,7 +5687,10 @@
       "灵巧手与操作",
       "移动与四足"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "Stanford"
+    ]
   },
   {
     "id": "7e6846669dc83ade",
@@ -5696,7 +5704,8 @@
       "感知与传感",
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "21a68764cde70688",
@@ -5711,7 +5720,10 @@
       "感知与传感",
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "Microsoft"
+    ]
   },
   {
     "id": "91731b7594c9662d",
@@ -5727,7 +5739,8 @@
       "移动与四足",
       "遥操作与数据采集"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "97db8f3d28372119",
@@ -5740,7 +5753,10 @@
     "topics": [
       "移动与四足"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "INRIA"
+    ]
   },
   {
     "id": "6ff3b22e7c4cdeda",
