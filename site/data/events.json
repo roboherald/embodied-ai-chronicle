@@ -55,6 +55,270 @@
     "kinds": []
   },
   {
+    "id": "0d4e725e5b8ef424",
+    "title": "Depth-Wise Probing and Pruning of the Planning Token in a Driving Vision-Language-Action Model",
+    "url": "https://arxiv.org/abs/2608.07361v1",
+    "source": "arXiv",
+    "date": "2026-08-07",
+    "summary": "Vision-language-action (VLA) models route driving decisions through a deep language model, but it is unclear how much of that depth the action itself requires. We study a representative driving VLA whose entire plan is carried by a single planning token that a generative planner…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "4c5392f996699c80",
+    "title": "Learning Fault-Tolerant Locomotion with Adaptive Gait Timing",
+    "url": "https://arxiv.org/abs/2608.07328v1",
+    "source": "arXiv",
+    "date": "2026-08-07",
+    "summary": "Hardware failures require legged robots to rapidly reorganize coordination and gait timing to maintain stability and mobility. This is particularly challenging for larger quadrupeds, where increased mass and tighter actuation limits reduce the feasibility of aggressive, high-fre…",
+    "tags": [],
+    "topics": [
+      "移动与四足"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "c4f09d2904c9958e",
+    "title": "TEMPO: Semantic-Action Decoupled RL Post-Training for Vision-Language-Action Models",
+    "url": "https://arxiv.org/abs/2608.07314v1",
+    "source": "arXiv",
+    "date": "2026-08-07",
+    "summary": "Vision-language-action (VLA) models are commonly adapted to downstream manipulation tasks via supervised fine-tuning (SFT) or online reinforcement learning (RL) post-training. SFT is prone to distribution mismatch, and existing RL approaches typically apply a single, uniform upd…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "1aae7a1e21acb80a",
+    "title": "WNM-3D: A World Navigation Model with 3D Scene Conditioning for Closed-Loop VLN",
+    "url": "https://arxiv.org/abs/2608.07267v1",
+    "source": "arXiv",
+    "date": "2026-08-07",
+    "summary": "Recent vision-language navigation (VLN) systems increasingly adapt pretrained vision-language models (VLMs) into vision-language-action (VLA) policies that map egocentric observations and language instructions directly to navigation actions. Although semantically capable, such a…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "移动与四足"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "d18372efecf643d5",
+    "title": "Representation Handoffs for OpenArm-Based Laboratory Mobile Manipulation",
+    "url": "https://arxiv.org/abs/2608.07154v1",
+    "source": "arXiv",
+    "date": "2026-08-07",
+    "summary": "Open-source robotics and foundation models have lowered the barrier to embodied AI, yet language-guided laboratory automation still requires reliable alignment from instructions and observations to safe actions. This field report presents an OpenArm-based mobile manipulation pro…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作",
+      "移动与四足"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "8f08cfe836ae5776",
+    "title": "Identifying the Key Biomechanical Features of Movement Adaptation during Exoskeleton-Assisted Locomotion",
+    "url": "https://arxiv.org/abs/2608.07140v1",
+    "source": "arXiv",
+    "date": "2026-08-07",
+    "summary": "The understanding of natural human adaptation during exoskeleton-assisted locomotion - particularly individual differences in adaptation behaviors and temporal progression - remains limited. In this work, we investigate temporal evolution of biomechanical variables to uncover pa…",
+    "tags": [],
+    "topics": [
+      "移动与四足"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "501b2afd08147b93",
+    "title": "Detection and Ranging of Transient Extrinsic Contacts Based on 6D Dynamic Tactile Sensing",
+    "url": "https://arxiv.org/abs/2608.07075v1",
+    "source": "arXiv",
+    "date": "2026-08-07",
+    "summary": "Delicate manipulation often involves transient and subtle collisions between a grasped object and the environment. While the human hand localizes these contacts effortlessly thanks to superior tactile sensitivity, robotic systems often lack the requisite resolution to acquire th…",
+    "tags": [],
+    "topics": [
+      "感知与传感",
+      "灵巧手与操作"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "8e7ee86cc2d2a0d2",
+    "title": "AutoIntervene: Calibrated Intervention for Action-Chunking Imitation Learning Policies",
+    "url": "https://arxiv.org/abs/2608.07065v1",
+    "source": "arXiv",
+    "date": "2026-08-07",
+    "summary": "Action-chunking visuomotor policies learn from demonstrations and improve temporal consistency by predicting short action sequences rather than single-step commands. Yet perception errors and execution drift can move the robot outside the demonstration distribution, while the po…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "感知与传感",
+      "遥操作与数据采集"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "34ed8542ea24ab37",
+    "title": "C2Dex: Contact-Consistent Reconstruction and Retargeting for Dexterous Manipulation from Monocular Video",
+    "url": "https://arxiv.org/abs/2608.07045v1",
+    "source": "arXiv",
+    "date": "2026-08-07",
+    "summary": "High-quality demonstrations for dexterous robot manipulation are costly and difficult to collect, whereas monocular human videos provide a scalable source of diverse manipulation behaviors. However, transferring such demonstrations to dexterous robots remains challenging: monocu…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "80e11785985a63c1",
+    "title": "Real-time Whole-Body Motion Planning for Mobile Manipulators Carrying Arbitrarily Shaped Payloads via Kinematically-Coupled SVSDF",
+    "url": "https://arxiv.org/abs/2608.07005v1",
+    "source": "arXiv",
+    "date": "2026-08-07",
+    "summary": "Mobile manipulators are increasingly tasked with transporting large, non-convex payloads through cluttered environments, yet existing planners either oversimplify the payload geometry or fail to handle the kinematic coupling between manipulator links, leading to lost feasible sp…",
+    "tags": [],
+    "topics": [
+      "移动与四足"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "3c5e81002130caeb",
+    "title": "A Haptic Robot Finger Designed for Guqin Instrument Playing",
+    "url": "https://arxiv.org/abs/2608.07002v1",
+    "source": "arXiv",
+    "date": "2026-08-07",
+    "summary": "With the rapid advancement of humanoid robotics and embodied intelligence technologies, numerous musical instrument-playing robots have emerged in recent years, such as pianos, chime bells, and taiko drums. These robots primarily employ open-loop positional control, rendering th…",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "3323ffcccc9c375d",
+    "title": "Decoupling Intention from Trajectory: A Representational Deduction Framework for World Action Models",
+    "url": "https://arxiv.org/abs/2608.06994v1",
+    "source": "arXiv",
+    "date": "2026-08-07",
+    "summary": "World Action Models (WAMs) aim to construct a unified architecture capable of understanding world state evolution and guiding to generative motion planning. However, existing visual branches focus on predicting static visual observation, rather than reflecting potential transiti…",
+    "tags": [],
+    "topics": [
+      "世界模型"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "a9d9e62105aa606b",
+    "title": "Cross-View Action Consistency for Camera-Robust Vision-Language-Action Policies",
+    "url": "https://arxiv.org/abs/2608.06965v1",
+    "source": "arXiv",
+    "date": "2026-08-07",
+    "summary": "Vision-language-action (VLA) policies fine-tuned from a fixed scene camera can fail when the camera is moved, even when the task, objects, language, and robot state are unchanged. We study scene-camera viewpoint robustness using only a scene RGB image, language, and propriocepti…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [
+      "安全与可信"
+    ]
+  },
+  {
+    "id": "846e102b3ff5c5a4",
+    "title": "Spatiotemporal Agility: Time-Constrained Reinforcement Learning for Vision-Guided Dynamic Quadrupedal Interception",
+    "url": "https://arxiv.org/abs/2608.06907v1",
+    "source": "arXiv",
+    "date": "2026-08-07",
+    "summary": "Legged robots require robust agility to perceive and interact with complex and dynamic environments within a constrained time. However, most existing quadruped locomotion works rely on velocity-tracking policy, which struggle to reach precise targets within strict temporal const…",
+    "tags": [],
+    "topics": [
+      "移动与四足"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "a9c74284dac6a214",
+    "title": "How Should I Pick a Foundation Model for My Robot? In Favor of a Community Evaluation Framework for Social Robots",
+    "url": "https://arxiv.org/abs/2608.06898v1",
+    "source": "arXiv",
+    "date": "2026-08-07",
+    "summary": "Researchers who seek to build social robot applications on foundation models are faced with a difficult question: how should we pick a model? Public leaderboards offer little guidance: the demands of real-time, embodied social interaction lie largely outside their focus. And dir…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [
+      "产业动态"
+    ]
+  },
+  {
+    "id": "56d078439efdca26",
+    "title": "Unordered Landmark Visual Navigation",
+    "url": "https://arxiv.org/abs/2608.06833v1",
+    "source": "arXiv",
+    "date": "2026-08-07",
+    "summary": "Image-goal navigation is a fundamental capability for embodied AI, yet its practical deployment is strained by strong prior assumptions. Existing methods predominantly rely on temporally ordered video streams or auxiliary sensors (e.g., depth, LiDAR) to maintain spatial consiste…",
+    "tags": [],
+    "topics": [
+      "感知与传感",
+      "移动与四足"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "14b72f9c52bb9c94",
+    "title": "When Coordination Becomes a Threat: Communication Attacks in LLM-Controlled Multi-Robot Systems",
+    "url": "https://arxiv.org/abs/2608.06830v1",
+    "source": "arXiv",
+    "date": "2026-08-07",
+    "summary": "Large Language Models (LLMs) are increasingly used as high-level planners in embodied multi-robot systems, enabling robots to interpret natural language instructions and coordinate executable actions. Yet, this growing reliance on LLM planners also raises security concerns. Prio…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [
+      "产业动态"
+    ]
+  },
+  {
+    "id": "42f6087d7eca41f6",
+    "title": "AtlasVLA: Persistent World-Ego State Modeling for Vision-Language-Action Models",
+    "url": "https://arxiv.org/abs/2608.06729v1",
+    "source": "arXiv",
+    "date": "2026-08-07",
+    "summary": "While Vision-Language-Action (VLA) models have advanced embodied AI, their fundamentally reactive paradigm severely limits performance in partially observable and long-horizon tasks. When restricted to a single wrist-mounted camera, they inevitably suffer from perception forgett…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "感知与传感"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "1fb2d18f7675f48a",
+    "title": "CrossTracer: Cross-Embodiment Navigation via VLA Model Reasoning and Trace Residuals Adapting",
+    "url": "https://arxiv.org/abs/2608.06688v1",
+    "source": "arXiv",
+    "date": "2026-08-07",
+    "summary": "Vision-language-action (VLA) models provide strong semantic priors for robot navigation, but they often ignore embodiment-specific mobility constraints. A path that is semantically plausible for one robot may be physically infeasible for another. We propose CrossTracer, a hierar…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "移动与四足"
+    ],
+    "kinds": []
+  },
+  {
     "id": "d690eec9e0006d48",
     "title": "Video Friday: Drones Go Heavy in DARPA Lift Challenge",
     "url": "https://spectrum.ieee.org/video-friday-heavy-lift-drone",
@@ -438,6 +702,33 @@
     "affiliations": [
       "UIUC"
     ]
+  },
+  {
+    "id": "7c3a3dd3d495bfb8",
+    "title": "LyEvO: Lyapunov-Guided Evolutionary Optimization for Safe and Robust Sim-to-Real Policy Learning",
+    "url": "https://arxiv.org/abs/2608.06481v1",
+    "source": "arXiv",
+    "date": "2026-08-06",
+    "summary": "Training controllers that are safe and robust in simulation, and systematically assessing their readiness for real-world deployment, remain key challenges in sim-to-real transfer. To address this, we propose LyEvO, a physics-grounded framework that combines constrained Evolution…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "仿真与Sim2Real"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "37564af87d04ea60",
+    "title": "A Master-Slave Robot Manipulator for Needle-Based Teleoperation in MRI Chamber",
+    "url": "https://arxiv.org/abs/2608.06354v2",
+    "source": "arXiv",
+    "date": "2026-08-06",
+    "summary": "We present a MR safe, master-slave robot manipulator for abdominal interventions in the MRI chamber. A human operated 2+1-DoF master controller manipulator transmits motion and force to a 2+1-DoF slave manipulator via fluid transmission. Jointly, a digital master controller prov…",
+    "tags": [],
+    "topics": [
+      "遥操作与数据采集"
+    ],
+    "kinds": []
   },
   {
     "id": "56145e6440ad2f0d",
@@ -5767,7 +6058,10 @@
     "summary": "Human motion capture from head-mounted devices (HMDs) offers a scalable way to acquire real-world human motion and interaction data, which is crucial for applications in embodied AI and VR/AR. Existing approaches focus on either egocentric body tracking, estimating the motion of…",
     "tags": [],
     "topics": [],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "ETH Zürich"
+    ]
   },
   {
     "id": "a9d2b85d3f66f6b6",
@@ -5781,7 +6075,8 @@
       "VLA与基础模型",
       "移动与四足"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "5c37b9aa03ced69a",
@@ -5795,7 +6090,8 @@
       "感知与传感",
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "0961d2ae7ef70730",
@@ -5808,7 +6104,8 @@
     "topics": [],
     "kinds": [
       "安全与可信"
-    ]
+    ],
+    "affiliations": []
   },
   {
     "id": "f58d18dd80b40577",
@@ -5822,7 +6119,8 @@
       "VLA与基础模型",
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "f5e64f68a2831c9e",
@@ -5838,6 +6136,9 @@
     ],
     "kinds": [
       "安全与可信"
+    ],
+    "affiliations": [
+      "UCLA"
     ]
   },
   {
@@ -5852,7 +6153,8 @@
       "仿真与Sim2Real",
       "移动与四足"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "c89e6b4214efb9e3",
@@ -5866,7 +6168,8 @@
       "仿真与Sim2Real",
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "a3c5be8c204442e9",
@@ -5880,7 +6183,11 @@
       "世界模型",
       "感知与传感"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "EPFL",
+      "MIT"
+    ]
   },
   {
     "id": "3b9fdaee520df5cc",
@@ -5895,6 +6202,9 @@
     ],
     "kinds": [
       "安全与可信"
+    ],
+    "affiliations": [
+      "NVIDIA"
     ]
   },
   {
@@ -5909,7 +6219,8 @@
       "VLA与基础模型",
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "814c2d1fb817ae6a",
@@ -6017,7 +6328,12 @@
     "topics": [
       "VLA与基础模型"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "NVIDIA",
+      "Stanford",
+      "UT Austin"
+    ]
   },
   {
     "id": "d4a902eca97d21c2",
@@ -6030,6 +6346,9 @@
     "topics": [],
     "kinds": [
       "安全与可信"
+    ],
+    "affiliations": [
+      "新加坡国立"
     ]
   },
   {
@@ -6045,7 +6364,8 @@
       "人形机器人",
       "移动与四足"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "6f0819d0c1a50b86",
@@ -6058,7 +6378,10 @@
     "topics": [
       "世界模型"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "MIT"
+    ]
   },
   {
     "id": "42718436a23246e2",
@@ -6071,7 +6394,8 @@
     "topics": [
       "VLA与基础模型"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "1dcfc7f7ee77de24",
@@ -6086,7 +6410,10 @@
       "感知与传感",
       "移动与四足"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "上海交通大学"
+    ]
   },
   {
     "id": "1c041d47b743b6f7",
@@ -6101,6 +6428,10 @@
     ],
     "kinds": [
       "无人机"
+    ],
+    "affiliations": [
+      "北京大学",
+      "香港大学"
     ]
   },
   {
@@ -6116,7 +6447,8 @@
     ],
     "kinds": [
       "无人机"
-    ]
+    ],
+    "affiliations": []
   },
   {
     "id": "2bc18a530ef09acd",
@@ -6132,7 +6464,8 @@
       "VLA与基础模型",
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "da8387d985f9d99e",
@@ -6145,7 +6478,8 @@
     "topics": [
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "598f6d166c5e900d",
@@ -6158,7 +6492,8 @@
     "topics": [
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "a94751671334a66b",
@@ -6169,7 +6504,8 @@
     "summary": "In robotic motion planning, equivariance to rigid body transformations is crucial for robust spatial generalization. However, current learning-based planners face a critical dilemma: they either lack inherent equivariance, treating transformed tasks as novel scenarios, or enforc…",
     "tags": [],
     "topics": [],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "d022aff92afe5853",
@@ -6180,7 +6516,8 @@
     "summary": "Severe occlusions and deformable plant structures introduce complex contact dynamics that challenge robotic strawberry harvesting. A policy-driven reinforcement learning (RL) framework with heuristic phase coordination was developed, in which obstacle separation, fruit detachmen…",
     "tags": [],
     "topics": [],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "7f323c8dea94f298",
@@ -6196,7 +6533,8 @@
     ],
     "kinds": [
       "安全与可信"
-    ]
+    ],
+    "affiliations": []
   },
   {
     "id": "403f0d85a187588c",
@@ -6209,7 +6547,8 @@
     "topics": [
       "VLA与基础模型"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "d1cf1a6d123eaee9",
@@ -6224,7 +6563,10 @@
       "移动与四足",
       "遥操作与数据采集"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "浙江大学"
+    ]
   },
   {
     "id": "e986ef89aae72848",
@@ -6237,7 +6579,13 @@
     "topics": [
       "VLA与基础模型"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "UC Berkeley",
+      "清华大学",
+      "香港中文大学",
+      "香港大学"
+    ]
   },
   {
     "id": "e0343d3af3a8c4e2",
@@ -6252,7 +6600,11 @@
       "感知与传感",
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "南洋理工",
+      "复旦大学"
+    ]
   },
   {
     "id": "30898a15b4151c56",
@@ -6266,7 +6618,10 @@
       "VLA与基础模型",
       "移动与四足"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "浙江大学"
+    ]
   },
   {
     "id": "8c6f2768c2a75691",
@@ -6279,7 +6634,8 @@
     "topics": [
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "b27855772ab6f973",
