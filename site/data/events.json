@@ -1,5 +1,240 @@
 [
   {
+    "id": "711b3485217e3f41",
+    "title": "DeepSeek招土木工程师；腾讯参投！林俊旸深夜官宣新公司：做下一代AI智能体；宇树科技中签号出炉：共19414个丨雷峰早报",
+    "url": "https://www.leiphone.com/category/zaobao/H8yaCINLCnx3D30o.html",
+    "source": "雷峰网",
+    "date": "2026-08-12",
+    "summary": "要闻提示 1.DeepSeek招土木工程师，并开设「DeepSeek Harness团队」账号 2.宇树科技中签号出炉：共19414个，每个中签号码只能认购500股 3.腾讯参投！林俊旸深夜官宣新公司语用科技：做下一代AI智能体 4.小鹏汽车又陷“自燃”风波？嘉善大火12分钟吞噬整栋楼 5.从上线到停运仅1个月！米哈游“新作”宣布停服 6.董明珠回应「网红」身份：靠产品出圈，而非流量包装 7.Manus：即将恢复以独立公司的形式运营 8.OpenAI前机器人业务负责人加入Anthropic 今日头条 DeepSeek招土木工程师，并开设「DeepSee…",
+    "tags": [
+      "OpenAI"
+    ],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "fb88a39812458632",
+    "title": "宇树会破发吗？王兴兴回应了",
+    "url": "https://www.qbitai.com/2026/08/470307.html",
+    "source": "量子位",
+    "date": "2026-08-11",
+    "summary": "200问回应一切",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "93af9f05d0afa828",
+    "title": "机器人赛道新岗位：月入6000元的“骨科大夫”，专治缺胳膊断腿",
+    "url": "https://www.qbitai.com/2026/08/469880.html",
+    "source": "量子位",
+    "date": "2026-08-11",
+    "summary": "",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "409408d0cf01341c",
+    "title": "Surgical WAM: A World-Action Model for Data-Efficient Surgical Robot Learning",
+    "url": "https://arxiv.org/abs/2608.11204v1",
+    "source": "arXiv",
+    "date": "2026-08-11",
+    "summary": "Learning reliable surgical manipulation policies is bottlenecked by the scarcity of action-labeled demonstrations: teleoperated surgical robot (e.g., dVRK) trajectories with synchronized kinematics are costly to collect, while surgical tasks demand precise contact handling, long…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [
+      "医疗应用"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "d5e0a7b2c8d87b10",
+    "title": "Flex-$π$: A Multi-Stream World-Action Model with Compute Flexibility",
+    "url": "https://arxiv.org/abs/2608.10860v1",
+    "source": "arXiv",
+    "date": "2026-08-11",
+    "summary": "World-action models (WAMs) predict the future to act better, but nearly all of them predict only RGB latents, trained purely for pixel reconstruction, with no explicit signal for the 3D geometry or object semantics manipulation needs. We find a surprising free lunch: the same fr…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "University of Washington"
+    ]
+  },
+  {
+    "id": "291b24a84a2ed977",
+    "title": "Neural Introspection Gating for Adaptive KV-Cache Reuse in Vision-Language-Action Models",
+    "url": "https://arxiv.org/abs/2608.10824v1",
+    "source": "arXiv",
+    "date": "2026-08-11",
+    "summary": "Vision-Language-Action(VLA) models map camera images and language instructions directly to motor commands through a single autoregressive transformer. In real-time control, they still spend substantial compute recomputing key-value(KV) representations for visual tokens that bare…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "东京大学"
+    ]
+  },
+  {
+    "id": "eaaafbf449138076",
+    "title": "JEPA-WAM: Stage-Level Joint-Embedding Prediction for World-Action Models in Robot Manipulation",
+    "url": "https://arxiv.org/abs/2608.10780v1",
+    "source": "arXiv",
+    "date": "2026-08-11",
+    "summary": "Generalist robot policies aim to map multimodal observations and linguistic task instructions to actions across diverse tasks. However, existing methods typically represent the future as a fixed, short video-action chunk. This short-term future captures local scene evolution for…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "5be600012f85e6ff",
+    "title": "Embodied Multimodal Grounding for Open-Vocabulary Mobile Manipulation via Semantic 3D Gaussian Splatting",
+    "url": "https://arxiv.org/abs/2608.10756v1",
+    "source": "arXiv",
+    "date": "2026-08-11",
+    "summary": "Embodied mobile manipulation requires language, visual observations, three-dimensional scene structure, and action feasibility to be aligned before execution. We study open-vocabulary target grounding with few-shot manipulation in local household workspaces and present an embodi…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "香港科技大学"
+    ]
+  },
+  {
+    "id": "c03762a4571c07bc",
+    "title": "TCAM for Autonomous Deformable Manipulation: The RMC2 Champion System for WBCD 2026 Track 4",
+    "url": "https://arxiv.org/abs/2608.10718v1",
+    "source": "arXiv",
+    "date": "2026-08-11",
+    "summary": "This technical report describes the RMC2 Team's champion solution for the WBCD 2026 Track 4: Deformable Manipulation Challenge. The task requires a robot to pick a single T-shirt from a stack, load it onto a printing pallet, align the collar with a target area, and smooth the pr…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "fdb1eedacd0f2f1c",
+    "title": "Robust Sliding Mode and Admittance Control of Underactuated Aerial Manipulators for Contact-Based Inspection",
+    "url": "https://arxiv.org/abs/2608.10656v1",
+    "source": "arXiv",
+    "date": "2026-08-11",
+    "summary": "Contact-based industrial inspection requires aerial platforms to maintain stable interaction while rejecting disturbances. Underactuated aerial manipulators present control challenges due to the dynamic coupling between vehicle attitude and force generation. This paper proposes…",
+    "tags": [],
+    "topics": [],
+    "kinds": [
+      "无人机"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "e292096e1c2a88c6",
+    "title": "Precise Top-Layer Fabric Segmentation for Fabric Destacking with Edge- and Shape-Aware Deep Networks",
+    "url": "https://arxiv.org/abs/2608.10648v1",
+    "source": "arXiv",
+    "date": "2026-08-11",
+    "summary": "Fabric destacking requires precise segmentation of the topmost fabric layer, a task complicated by subtle fabric boundaries and high visual similarity between fabric layers. Existing semantic and edge-based segmentation approaches often struggle with these complexities, limiting…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "9793ee9d3bb9c41d",
+    "title": "Toward the Cognitive--Physical Limits of Embodied Intelligence through a World-Model-Centric Autonomous Racing Agent",
+    "url": "https://arxiv.org/abs/2608.10618v1",
+    "source": "arXiv",
+    "date": "2026-08-11",
+    "summary": "Embodied artificial intelligence aims to develop agents that perceive, reason, and act through continuous interaction with the physical world. However, most embodied systems are still evaluated within conservative safety margins or moderate interaction regimes, leaving their cap…",
+    "tags": [],
+    "topics": [],
+    "kinds": [
+      "安全与可信"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "c0f9b9f2db92ef48",
+    "title": "BooST: Bridging Semantics and Motions for Efficient Skill Transfer",
+    "url": "https://arxiv.org/abs/2608.10600v1",
+    "source": "arXiv",
+    "date": "2026-08-11",
+    "summary": "Skill abstraction---the process of learning reusable and temporally extended behaviors---has emerged as a key paradigm for improving sample efficiency and generalization in robot learning. For efficient skill transfer to real robots, learned skills must generalize across tasks a…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "2bf823a0b52505f2",
+    "title": "Lost in Reconstruction: Aligning Action Representations with Language in Vision-Language-Action Models",
+    "url": "https://arxiv.org/abs/2608.10484v1",
+    "source": "arXiv",
+    "date": "2026-08-11",
+    "summary": "Action verbs describe not only the physical outcomes of actions, but also how those actions are performed. Yet action representations in vision-language-action models (VLAs) are typically optimized for reconstruction under L1/L2 losses in raw action space, where numerical proxim…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "2d0019fbfd4e5fba",
+    "title": "Hidden in Plain Sight: Diffusion-Based Unrestricted Robotic Attacks on Vision-Language-Action Models",
+    "url": "https://arxiv.org/abs/2608.10393v1",
+    "source": "arXiv",
+    "date": "2026-08-11",
+    "summary": "Vision-Language-Action (VLA) models have shown strong capabilities in controlling robots across diverse manipulation tasks. However, their adversarial robustness remains largely underexplored, and exploiting this weakness can lead to physical-world harm. Existing attacks on VLA…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [
+      "安全与可信"
+    ]
+  },
+  {
+    "id": "82331c98fd6e3eee",
+    "title": "Hip Energized Monopedal Hopping",
+    "url": "https://arxiv.org/abs/2608.10387v1",
+    "source": "arXiv",
+    "date": "2026-08-11",
+    "summary": "We present a novel stepping strategy for pitch unlocked planar monopeds where the reaction torques from stabilizing pitch with a conventional PD + feedfoward controller are recruited to counteract energetic losses from damping. By moving the location of the mass center, our cont…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "846627d6b6ef2d4c",
+    "title": "Real-World Cooperative Bimanual Dexterous Grasp of Large Objects from Single-View Observations",
+    "url": "https://arxiv.org/abs/2608.10383v1",
+    "source": "arXiv",
+    "date": "2026-08-11",
+    "summary": "Bimanual dexterous grasping of large objects is a critical challenge in robotic manipulation. However, most existing studies focus on sequential manipulation rather than cooperative grasping, and methods addressing such bimanual tasks have largely been limited to simulation. The…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real",
+      "灵巧手与操作"
+    ],
+    "kinds": []
+  },
+  {
     "id": "f91d8342082934d2",
     "title": "宇树科技今日申购，中签率远低于长鑫科技；上线不到24小时， 苹果官网删除阿里千问文档；钟睒睒炮轰电商平台是中间商：必须限制权力",
     "url": "https://www.leiphone.com/category/zaobao/vvkpWKzSagi660fv.html",
@@ -125,7 +360,8 @@
     "summary": "Accurate fabric alignment is a critical step that must be performed before sewing. This paper presents a novel automated fabric alignment system. The system estimates the poses of top and bottom fabric panels, lying flat and wrinkle-free in arbitrary positions, using a new Globa…",
     "tags": [],
     "topics": [],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "9475a57aace9abdd",
@@ -138,7 +374,8 @@
     "topics": [
       "世界模型"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "ae8e0c204546aca4",
@@ -151,6 +388,9 @@
     "topics": [],
     "kinds": [
       "安全与可信"
+    ],
+    "affiliations": [
+      "KAIST"
     ]
   },
   {
@@ -166,7 +406,12 @@
       "感知与传感",
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "中科院",
+      "香港中文大学",
+      "香港大学"
+    ]
   },
   {
     "id": "0d1c2a7d7e6c5831",
@@ -180,7 +425,8 @@
       "VLA与基础模型",
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "29bdf739d1d1752b",
@@ -194,7 +440,8 @@
       "VLA与基础模型",
       "世界模型"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "fc212129632a0aae",
@@ -209,7 +456,8 @@
     ],
     "kinds": [
       "安全与可信"
-    ]
+    ],
+    "affiliations": []
   },
   {
     "id": "090e826b75b2d7c5",
@@ -226,7 +474,8 @@
     ],
     "kinds": [
       "产业动态"
-    ]
+    ],
+    "affiliations": []
   },
   {
     "id": "840f28cae10b845e",
@@ -240,7 +489,8 @@
       "感知与传感",
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "c39d75203c994897",
@@ -254,7 +504,11 @@
       "VLA与基础模型",
       "移动与四足"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "哈尔滨工业大学",
+      "香港大学"
+    ]
   },
   {
     "id": "cc4b3d5232e0ae8c",
@@ -265,7 +519,8 @@
     "summary": "Reliable uncertainty representation is essential for deploying autonomous systems that interact with their environment, as robots must reason about how uncertainty arising from both stochasticity and model mismatch is impacted by contacts with obstacles (e.g., when navigating th…",
     "tags": [],
     "topics": [],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "b555ced15202a86e",
@@ -279,7 +534,10 @@
       "VLA与基础模型",
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "Stanford"
+    ]
   },
   {
     "id": "ed8b6b958e326e0e",
@@ -295,6 +553,9 @@
     "kinds": [
       "医疗应用",
       "安全与可信"
+    ],
+    "affiliations": [
+      "CMU"
     ]
   },
   {
@@ -310,7 +571,52 @@
     ],
     "kinds": [
       "医疗应用"
+    ],
+    "affiliations": [
+      "华为",
+      "香港中文大学",
+      "香港大学"
     ]
+  },
+  {
+    "id": "b6aecd14c8942bc6",
+    "title": "FACT: Failure-Aware Causal Training for World-Action Models",
+    "url": "https://arxiv.org/abs/2608.10232v1",
+    "source": "arXiv",
+    "date": "2026-08-10",
+    "summary": "Recent world-action models (WAMs) show that co-training policies with future prediction can provide physical priors for action generation. Building on the future-prediction ability of video models, many WAMs generate future videos and recover actions with inverse-dynamics models…",
+    "tags": [],
+    "topics": [
+      "世界模型"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "152b8efff245fc42",
+    "title": "Whole-Body Planning for Humanoids Navigating Confined Spaces via Self-Collision Avoidance References",
+    "url": "https://arxiv.org/abs/2608.10220v1",
+    "source": "arXiv",
+    "date": "2026-08-10",
+    "summary": "Humanoid locomotion in highly confined environments requires navigating dense environmental obstacles and complex self-collision bounds while maintaining multi-contact dynamic feasibility. Traditional trajectory optimizers frequently struggle in these restricted spaces, as navig…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "移动与四足"
+    ],
+    "kinds": [
+      "安全与可信"
+    ]
+  },
+  {
+    "id": "90aa6941207b22aa",
+    "title": "Robot Recycler Salvages Parts From Broken Machines",
+    "url": "https://spectrum.ieee.org/recycling-robot",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-08-10",
+    "summary": "Objects constructed by robots are ubiquitous. If you’ve used a car, household appliance, or smartphone today, you’ve used an object constructed at least in part by robots. The more products that manufacturers want to produce (and consumers want to consume) at lower costs, the mo…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
   },
   {
     "id": "c179b4e36bc677a6",
@@ -321,7 +627,8 @@
     "summary": "This paper addresses autonomous intervention with an underwater vehicle--manipulator system (UVMS) in confined, cluttered, and partially known environments, where poor maneuverability, narrow passages, and uncertain execution may cause the robot to enter unrecoverable regions. W…",
     "tags": [],
     "topics": [],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "bad2880f99bb4e04",
@@ -334,7 +641,8 @@
     "topics": [
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "706929db804ada73",
@@ -347,7 +655,8 @@
     "topics": [
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "c36f52fafe22b0fb",
@@ -360,7 +669,11 @@
     "topics": [
       "灵巧手与操作"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "上海交通大学",
+      "清华大学"
+    ]
   },
   {
     "id": "c1c26eeaa24fcdb8",
@@ -373,7 +686,8 @@
     "topics": [
       "VLA与基础模型"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "e54d1f79a3abf176",
@@ -388,7 +702,8 @@
       "世界模型",
       "遥操作与数据采集"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "f0809f2a7241dc83",
@@ -402,7 +717,8 @@
       "VLA与基础模型",
       "感知与传感"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "16f28cddc8f96b41",
@@ -415,7 +731,8 @@
     "topics": [
       "VLA与基础模型"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "f7e76d0e78cd213b",
@@ -428,7 +745,11 @@
     "topics": [
       "VLA与基础模型"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "东京大学",
+      "哈尔滨工业大学"
+    ]
   },
   {
     "id": "685bbe0107716bcf",
@@ -442,7 +763,10 @@
       "VLA与基础模型",
       "仿真与Sim2Real"
     ],
-    "kinds": []
+    "kinds": [],
+    "affiliations": [
+      "中科院"
+    ]
   },
   {
     "id": "f398983fd29291ed",
@@ -8324,17 +8648,6 @@
       "comments": 0,
       "discussion": "https://news.ycombinator.com/item?id=47961506"
     },
-    "tags": [],
-    "topics": [],
-    "kinds": []
-  },
-  {
-    "id": "4df32f9394272a35",
-    "title": "Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning",
-    "url": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
-    "source": "Google DeepMind",
-    "date": "2026-04-13",
-    "summary": "Gemini Robotics ER 1.6: Enhancing spatial reasoning and multi-view understanding for autonomous robotics.",
     "tags": [],
     "topics": [],
     "kinds": []
