@@ -11,6 +11,341 @@
     "kinds": []
   },
   {
+    "id": "6bf84e001086b126",
+    "title": "给黑盒导航机器人「使绊子」：AdvNav 如何揭示具身智能系统潜在安全风险 | GAIR Paper 117",
+    "url": "https://www.leiphone.com/category/private/yXsTeayhNBwW2ZUH.html",
+    "source": "雷峰网",
+    "date": "2026-08-13",
+    "summary": "AdvNav 首次在黑盒条件下，对导航智能体完成系统性安全验证。 作者丨 李晨阳 编辑丨 陈淑瑜 近两年，能自己走路、自己带路的机器人正从实验室走向真实场景：医院的配送机器人按医嘱送药，仓库里的搬运机器人找货架，家里的扫拖机器人按指令去某个房间。它们靠的不是提前存好的地图，而是“看懂画面 + 听懂指令 + 自己决定下一步往哪走”——这正是视觉语言导航（VLN）要解决的问题。 这类系统藏着一个少被提起的前提：它完全相信自己的“眼睛”。摄像头拍到什么，它就当成事实去决策。 ▎ 于是真正的痛点浮现了： 视觉是它最脆弱的入口。 机器人的所有判断都建立在像素之上…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "2c1cad14c8f7bbe5",
+    "title": "具身智能本体的重要性和技术差距，可能被大大低估了",
+    "url": "https://www.leiphone.com/category/robot/lqsQ8c9sSoTqCZXo.html",
+    "source": "雷峰网",
+    "date": "2026-08-13",
+    "summary": "一台冠军级、全开放、经过真实场景检验的本体，会是多数 模型团队 的优先选项。 作者丨 高景辉 编辑丨董子博 “ 具身智能落地，到底卡在了哪一步？ ” 这个话题讨论到今天，几乎已经形成了固定的叙事框架：卡点要么是模型不够聪明，要么是数据不够用。翻翻各家公司的融资故事，十条里有八条围绕这两个关键词展开。 但有一个问题很少有人正面回答：本体呢？ 似乎大家默认，机器人硬件早已不是问题，毕竟demo视频里的机器人已经能跑能跳能翻跟头，电机、减速器、结构件也有成熟供应链。可尴尬的是，当模型团队真的要把算法搬上真机时，抱怨最多的恰恰是这个\"早已解决\"的环节：延迟压不…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "ba5f6436488238be",
+    "title": "具身数据来了实战派！40天2轮融资数千万，瞄准物理AI基础设施",
+    "url": "https://www.qbitai.com/2026/08/472060.html",
+    "source": "量子位",
+    "date": "2026-08-13",
+    "summary": "重新定义物理AI数据基础设施",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "277f47347ce7cbaa",
+    "title": "HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark",
+    "url": "https://arxiv.org/abs/2608.13555v1",
+    "source": "arXiv",
+    "date": "2026-08-13",
+    "summary": "Humanoid motion tracking is central to teleoperation and whole-body imitation, yet evaluation often disagrees with what people perceive in videos. Kinematic errors average per-frame pose differences but miss the physical artifacts that matter most, particularly unstable support…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "仿真与Sim2Real",
+      "移动与四足",
+      "遥操作与数据采集"
+    ],
+    "kinds": [
+      "产业动态"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "320b042fea9bc649",
+    "title": "DreamX-Phi 1.0: Action-Conditioned Video World Model for Robotic Manipulation",
+    "url": "https://arxiv.org/abs/2608.13489v1",
+    "source": "arXiv",
+    "date": "2026-08-13",
+    "summary": "We present \\textbf{DreamX-Phi 1.0}, an action-conditioned video world model for robotic manipulation that, given an observed frame, a language instruction, and a prescribed action sequence comprising end-effector poses and gripper states, predicts the resulting future observatio…",
+    "tags": [],
+    "topics": [
+      "世界模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "888809ba0bd2ec80",
+    "title": "Decoding Task Progress from VLA Representations",
+    "url": "https://arxiv.org/abs/2608.13474v1",
+    "source": "arXiv",
+    "date": "2026-08-13",
+    "summary": "Vision-language-action models (VLAs) are moving rapidly towards deployment as general-purpose manipulation policies, but we currently lack basic tools for understanding what these models represent internally or for monitoring them at runtime. Leveraging ideas from mechanistic in…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "Cornell"
+    ]
+  },
+  {
+    "id": "0f468743b7d0d4ac",
+    "title": "ContactGuard: Pre-Contact Execution Monitoring with Action-Conditioned Latent World Models",
+    "url": "https://arxiv.org/abs/2608.13438v1",
+    "source": "arXiv",
+    "date": "2026-08-13",
+    "summary": "Contact-rich manipulation failures are often detected only after the robot has committed to contact. This is especially limiting in wrist-camera setups: close gripper--object views help observe contact, but a poor approach may already push, miss, slip, or disturb the object befo…",
+    "tags": [],
+    "topics": [
+      "世界模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "Vanderbilt"
+    ]
+  },
+  {
+    "id": "6f307e645aac17d1",
+    "title": "Deliberate Practice: Learning Robot Skills under a Budget",
+    "url": "https://arxiv.org/abs/2608.13415v1",
+    "source": "arXiv",
+    "date": "2026-08-13",
+    "summary": "We consider the problem of autonomously learning robot skills under a limited practice budget for sequential tasks. We propose an active skill learning algorithm, \\emph{Deliberate Practice (DP)}, that computes a provably \\emph{budget-optimal} allocation---practicing skills that…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "7de7471af62ce2b9",
+    "title": "FIRE-VLA: Failure-Informed Self-Evolution for Vision-Language-Action Models in Autonomous Driving",
+    "url": "https://arxiv.org/abs/2608.13395v1",
+    "source": "arXiv",
+    "date": "2026-08-13",
+    "summary": "Reinforcement learning improves autonomous-driving vision-language-action (VLA) models by evaluating trajectories sampled from the current policy. Group relative policy optimization (GRPO) learns from reward differences within each rollout group. When all sampled trajectories ar…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "哈尔滨工业大学"
+    ]
+  },
+  {
+    "id": "bb18d863b424fc08",
+    "title": "NestDex: Nested Policy Learning with Copilot Assisted Teleoperation for Dexterous Manipulation",
+    "url": "https://arxiv.org/abs/2608.13362v1",
+    "source": "arXiv",
+    "date": "2026-08-13",
+    "summary": "Dexterous manipulation promises substantially richer robot interaction with the physical world, but learning these behaviours remains constrained by the difficulty of collecting consistent, complete-task demonstrations. Unlike parallel-jaw manipulation, dexterous tasks require t…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "Vanderbilt"
+    ]
+  },
+  {
+    "id": "863f0a793250368f",
+    "title": "Predictive Relative-Velocity Steering for Safe Robotic Manipulator Teleoperation in Dynamic Environments",
+    "url": "https://arxiv.org/abs/2608.13284v1",
+    "source": "arXiv",
+    "date": "2026-08-13",
+    "summary": "Recent advances in teleoperation have enabled robotic manipulators to perform dexterous, human-arm-like motions. However, human operators may fail to avoid suddenly appearing obstacles promptly and effectively, particularly under network latency or limited attention, thereby cre…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "UIUC",
+      "浙江大学",
+      "清华大学"
+    ]
+  },
+  {
+    "id": "ed6310d0326d86c1",
+    "title": "FAM-DQ: A Dual-Quadrotor-Based Fully Actuated Aerial Manipulator for High-Torque Interaction",
+    "url": "https://arxiv.org/abs/2608.13220v1",
+    "source": "arXiv",
+    "date": "2026-08-13",
+    "summary": "Aerial physical interaction requires aerial manipulation platforms to generate large interaction forces and torques while maintaining precise end-effector control. However, conventional underactuated aerial manipulators suffer from strong position-attitude coupling, whereas full…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [
+      "无人机"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "033d465db48542cf",
+    "title": "S2-HWM: Sparse Event-Structured Hierarchical World Model for Long-Horizon Surgical Robot Manipulation",
+    "url": "https://arxiv.org/abs/2608.13103v1",
+    "source": "arXiv",
+    "date": "2026-08-13",
+    "summary": "Long-horizon surgical robot manipulation is challenging because task rewards are sparse, while meaningful interaction changes occur at irregular intervals. Existing world-model agents typically imagine at primitive-step resolution, leaving variable-duration task progress implici…",
+    "tags": [],
+    "topics": [
+      "世界模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [
+      "医疗应用"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "0c6a009e6e5fab88",
+    "title": "Semantic Radiance Fields as Simulators for Spatial Reasoning in Real-World Scenes",
+    "url": "https://arxiv.org/abs/2608.13095v1",
+    "source": "arXiv",
+    "date": "2026-08-13",
+    "summary": "Training and evaluating spatial reasoning in embodied agents requires diverse environments that are both geometrically faithful and semantically queryable. Synthetic simulators offer ground truth semantics but sacrifice realism; simulators based on reconstructions of real-world…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "b73578969d24faa4",
+    "title": "H2R-Bench: Benchmarking Human-to-Robot Manipulation Video Generation in World Models",
+    "url": "https://arxiv.org/abs/2608.13049v1",
+    "source": "arXiv",
+    "date": "2026-08-13",
+    "summary": "Large-scale manipulation data is essential for robot learning, yet collecting robot demonstrations remains expensive and difficult to scale. Meanwhile, abundant egocentric human manipulation videos provide rich behavioral experiences, but transferring them across embodiments rem…",
+    "tags": [],
+    "topics": [
+      "世界模型",
+      "仿真与Sim2Real",
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "2635d7b93a255437",
+    "title": "RGB-D Video Generation for Improving Human-to-Robot Object Handover Prediction",
+    "url": "https://arxiv.org/abs/2608.13028v1",
+    "source": "arXiv",
+    "date": "2026-08-13",
+    "summary": "Human-to-robot (H2R) object handover is a fundamental capability for human-robot collaboration, yet progress is hindered by the scarcity of large-scale, human-centric datasets and the significant sim-to-real gap. To address these challenges, we introduce Hand2Bot, an RGB-D video…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "南洋理工",
+      "浙江大学",
+      "阿里巴巴"
+    ]
+  },
+  {
+    "id": "30aeec7288be6387",
+    "title": "Temporal GRPO: Beyond Trajectory-Level Credit in Vision-Language-Action Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2608.13026v1",
+    "source": "arXiv",
+    "date": "2026-08-13",
+    "summary": "Outcome-driven reinforcement learning offers a scalable way to post-train vision-language-action (VLA) policies from sparse task-success feedback. In common GRPO-based VLA post-training, one rollout-level advantage is applied to every action in the trajectory. A rollout that com…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "69db7cfe628e2553",
+    "title": "EgoPHI: Estimating Contact and Force from Egocentric Vision",
+    "url": "https://arxiv.org/abs/2608.13014v1",
+    "source": "arXiv",
+    "date": "2026-08-13",
+    "summary": "Understanding hand-object interaction from egocentric vision is essential for modeling how people physically engage with the surrounding world. Yet reasoning about physically grounded interaction requires estimating the forces acting on hands and objects, beyond localizing conta…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": [
+      "ETH Zürich"
+    ]
+  },
+  {
+    "id": "c5399d0777bbbd3c",
+    "title": "HumanoidVLN: A Physics-Grounded Simulator and Benchmark for Vision-Language Navigation Across Diverse Humanoid Embodiments",
+    "url": "https://arxiv.org/abs/2608.12860v1",
+    "source": "arXiv",
+    "date": "2026-08-13",
+    "summary": "Vision-Language Navigation (VLN) for humanoid robots poses challenges existing benchmarks fail to address: bipedal locomotion imposes physical constraints absent from wheeled agents, humanoid morphologies vary across platforms, and egocentric observations are distorted by locomo…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "人形机器人",
+      "仿真与Sim2Real",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "b3ccc4fba8ed64d6",
+    "title": "BrainWAM: Action-Space Coordination of Semantic Priors and Predictive Dynamics for Autonomous Driving",
+    "url": "https://arxiv.org/abs/2608.12854v1",
+    "source": "arXiv",
+    "date": "2026-08-13",
+    "summary": "Autonomous driving requires planning under both semantic constraints and predictive dynamics. Existing end-to-end driving approaches, however, typically emphasize only one side of this requirement: Vision-Language-Action (VLA) models exploit VLM priors for semantic reasoning, wh…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "中科院"
+    ]
+  },
+  {
+    "id": "4b3c3bbb6f58b6fa",
+    "title": "FUSE: Active Functional Affordance Grounding through Adaptive Semantic-Geometric Evidence Acquisition",
+    "url": "https://arxiv.org/abs/2608.12683v1",
+    "source": "arXiv",
+    "date": "2026-08-13",
+    "summary": "Embodied agents must often identify and interact with objects based on their function rather than their identity, requiring them to actively acquire observations that reveal discriminative functional evidence. Existing affordance grounding methods operate from fixed viewpoints a…",
+    "tags": [],
+    "topics": [],
+    "kinds": [
+      "产业动态"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "c1c988556190aa29",
+    "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+    "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+    "source": "Hugging Face Blog",
+    "date": "2026-08-13",
+    "summary": "",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
     "id": "711b3485217e3f41",
     "title": "DeepSeek招土木工程师；腾讯参投！林俊旸深夜官宣新公司：做下一代AI智能体；宇树科技中签号出炉：共19414个丨雷峰早报",
     "url": "https://www.leiphone.com/category/zaobao/H8yaCINLCnx3D30o.html",
@@ -156,6 +491,42 @@
     ],
     "kinds": [],
     "affiliations": []
+  },
+  {
+    "id": "455fa2947979f90d",
+    "title": "Can Vision-Language Models Assess Proxemic Risk from Egocentric Robot Images?",
+    "url": "https://arxiv.org/abs/2608.12515v1",
+    "source": "arXiv",
+    "date": "2026-08-12",
+    "summary": "Assessing proxemic danger from a robot's egocentric perspective is critical for safe embodied navigation in human environments and requires both visual and contextual reasoning. We evaluate three opensource vision-language models (VLMs) (\\textit{InternVL}, \\textit{Qwen-VL}, and…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "移动与四足"
+    ],
+    "kinds": [
+      "安全与可信"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "a6ff16cb3a2052d7",
+    "title": "RoboSynChallenge: Mastering Real-World Dexterity via Generalizing Synthesized Manipulation Skills",
+    "url": "https://arxiv.org/abs/2608.12416v1",
+    "source": "arXiv",
+    "date": "2026-08-12",
+    "summary": "Achieving generalizable robotic manipulation remains a central challenge in embodied intelligence. Despite rapid advances in model architectures and learning algorithms, progress is often limited by the scarcity and narrow diversity of real-world data. The RoboSynChallenge compe…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "复旦大学",
+      "香港中文大学",
+      "香港大学",
+      "香港科技大学"
+    ]
   },
   {
     "id": "b8880ced4993d1bc",
