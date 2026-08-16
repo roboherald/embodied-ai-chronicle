@@ -1,11 +1,49 @@
 [
   {
+    "id": "bbaa46b039020651",
+    "title": "索塔无界：全球首家原生物理世界模型落地商超，具身智能迎来“索塔时刻”",
+    "url": "https://www.leiphone.com/category/industrynews/aEyXlap53PQXDDYJ.html",
+    "source": "雷峰网",
+    "date": "2026-08-15",
+    "summary": "在 具身智能仍 陷于“资本热、落地冷”之际，成立仅 4 个月的索塔无界，率先以欧洲最大商超 集 团 的 战略合作，打破商业落地僵局。根据规划，双方未来3年将在真实商超场景中部署超过千台具身智能机器人。索塔无界不造硬件，而是为机器人打造 “原生物理大脑”——首次将4D世界动作模型部署于真实商超货架之间 ，开启物理智能的“场景收敛+通用泛化”新路径。 破局：不追 “ 虚拟温床 ” ，直击 “ 物理考场 ” 2026 年的具身智能，融资额屡创新高，但机器人进工厂仍 困于 专机专用 、进家庭 做家务 仍 在 可望难及的远期蓝图 。多数玩家沉迷视频生成或仿真训练…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "54e46b1c8c735183",
+    "title": "鹿明发布MOS2：全球首个双臂负载50kg轮臂式机器人，加速AI Worker进入产业现场",
+    "url": "https://www.leiphone.com/category/industrynews/24fbshcNUNahZuQz.html",
+    "source": "雷峰网",
+    "date": "2026-08-15",
+    "summary": "8月14日，鹿明机器人发布全新重载轮臂式具身智能机器人 Lumos MOS2 。 面向真实工业场景，Lumos MOS2具备 50kg双臂负载能力 ，同时在硬件性能、全向移动能力、多模态感知系统和整机控制架构等方面实现全面升级，胜任真实工业场景高强度、持续性作业任务。 鹿明机器人创始人兼CEO喻超表示，具身智能正在加速进入产业落地阶段，如何让机器人更高效地完成更多真实任务，取决于 数据获取效率、硬件成本及产业交付效率 。 在这一判断下，MOS2被定位为面向工业场景的 重载AI Worker ：既拥有7×24小时不间断工作的强健躯体，也具备环境感知、任务…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
     "id": "e5846a4c062f6399",
     "title": "Video Friday: Lift Happens",
     "url": "https://spectrum.ieee.org/video-friday-darpa-heavy-lift-challenge",
     "source": "IEEE Spectrum Robotics",
     "date": "2026-08-14",
     "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Actuate 2026 : 18–19 August 2026,…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "1efb3fa14767b800",
+    "title": "Robots That Walk and Talk Are Coming to Car Factories",
+    "url": "https://www.nytimes.com/2026/08/11/business/humanoid-robots-car-factories.html",
+    "source": "Hacker News",
+    "date": "2026-08-14",
+    "summary": "",
+    "hn": {
+      "points": 3,
+      "comments": 1,
+      "discussion": "https://news.ycombinator.com/item?id=49303676"
+    },
     "tags": [],
     "topics": [],
     "kinds": []
