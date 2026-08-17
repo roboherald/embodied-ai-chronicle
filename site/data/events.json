@@ -1,5 +1,23 @@
 [
   {
+    "id": "7e6ef403772814fe",
+    "title": "San Mateo County Moves to Regulate Humanoid Robots",
+    "url": "https://www.humanoidsdaily.com/news/san-mateo-county-moves-to-regulate-humanoid-robots-threatening-teleoperation-business-models",
+    "source": "Hacker News",
+    "date": "2026-08-16",
+    "summary": "",
+    "hn": {
+      "points": 3,
+      "comments": 1,
+      "discussion": "https://news.ycombinator.com/item?id=49321620"
+    },
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": []
+  },
+  {
     "id": "bbaa46b039020651",
     "title": "索塔无界：全球首家原生物理世界模型落地商超，具身智能迎来“索塔时刻”",
     "url": "https://www.leiphone.com/category/industrynews/aEyXlap53PQXDDYJ.html",
@@ -20,6 +38,154 @@
     "tags": [],
     "topics": [],
     "kinds": []
+  },
+  {
+    "id": "e6aca192ed1e8993",
+    "title": "THRIVE: Therapeutic Humanoid Robot In Virtual Environment",
+    "url": "https://arxiv.org/abs/2608.14462v1",
+    "source": "arXiv",
+    "date": "2026-08-14",
+    "summary": "This paper presents THRIVE (Therapeutic Humanoid Robot In Virtual Environment), an at-home rehabilitation platform that integrates a suite of virtual-reality upper-body rehabilitation games, a real-time camera-based motion-tracking system, and a socially interactive robot therap…",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": [
+      "医疗应用"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "b25d3f5158c021f3",
+    "title": "Reflex: Enabling Fast and Predictive Vision-Language-Action Models for Reaction-Critical Manipulation",
+    "url": "https://arxiv.org/abs/2608.14379v1",
+    "source": "arXiv",
+    "date": "2026-08-14",
+    "summary": "Vision-Language-Action (VLA) models have recently achieved promising performance in robotic manipulation. However, existing benchmarks mainly evaluate generalization on static manipulation tasks and largely overlook dynamic interaction scenarios. To address this gap, we present…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "仿真与Sim2Real",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "上海交通大学"
+    ]
+  },
+  {
+    "id": "82efe120b4659c41",
+    "title": "PRM-as-a-Judge 1.5: A Toolkit for Robot Process Assessment",
+    "url": "https://arxiv.org/abs/2608.14284v1",
+    "source": "arXiv",
+    "date": "2026-08-14",
+    "summary": "Fine-grained robotic evaluation matters for understanding embodied models, going beyond binary success rates and rule-based process scores. We present PRM-as-a-Judge 1.5, a toolkit for robot process assessment that turns rollout videos into dense progress curves and derives mult…",
+    "tags": [],
+    "topics": [],
+    "kinds": [
+      "产业动态"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "ca58667a0195185f",
+    "title": "Vibration Suppression in Collaborative Flexible Payload Manipulation Using Passive Force Control",
+    "url": "https://arxiv.org/abs/2608.14244v1",
+    "source": "arXiv",
+    "date": "2026-08-14",
+    "summary": "In large and heavy structures, vibrations arise during motion, posing significant challenges for precise manipulation. To accomplish the desired motion, control algorithms must effectively suppress these structural vibrations. In cutting edge projects, such as remote maintenance…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "8d23ef5f35b582b4",
+    "title": "OccPlanner: Goal-Aware Occupancy-Conditioned Diffusion Planner for Pixel-Goal Navigation",
+    "url": "https://arxiv.org/abs/2608.14160v1",
+    "source": "arXiv",
+    "date": "2026-08-14",
+    "summary": "Pixel-goal navigation specifies targets directly in the agent's camera view, but a target pixel provides neither metric depth nor traversability, making 3D goal grounding and collision-free continuous planning challenging. We present OccPlanner, a goal-aware occupancy-conditione…",
+    "tags": [],
+    "topics": [
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "af1ff25351701308",
+    "title": "AgilePE: Autonomous UAV Pursuit-Evasion via Self-Play Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2608.14135v1",
+    "source": "arXiv",
+    "date": "2026-08-14",
+    "summary": "Autonomous pursuit-evasion is a fundamental challenge for Unmanned Aerial Vehicles (UAVs), requiring rapid decision-making under tightly coupled dynamics and continuously changing opponent behaviors. Traditional rule-based or differential-game approaches often struggle with high…",
+    "tags": [],
+    "topics": [],
+    "kinds": [
+      "无人机"
+    ],
+    "affiliations": [
+      "浙江大学",
+      "清华大学"
+    ]
+  },
+  {
+    "id": "4df6e10a0c35b5a7",
+    "title": "FlatLab: A Unified Methodology Framework and Simulation-Based Benchmark for Robotic Manipulation of Flat Objects",
+    "url": "https://arxiv.org/abs/2608.14049v1",
+    "source": "arXiv",
+    "date": "2026-08-14",
+    "summary": "Robotic manipulation of flat objects is challenging due to the ungraspable configurations and strong variations in object geometry and material. Existing methods rely on heuristic pre-manipulation and are often evaluated in closed settings with limited generalization. We propose…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "中科院",
+      "北京大学"
+    ]
+  },
+  {
+    "id": "488d5d0700c58155",
+    "title": "Evolve Vision-Language-Action Model into an Agent with On-the-fly Tool-use",
+    "url": "https://arxiv.org/abs/2608.14047v1",
+    "source": "arXiv",
+    "date": "2026-08-14",
+    "summary": "This paper integrates end-to-end Visual-Language-Action (VLA) models with agentic tool-use to propose Agentic Robot with Tool-use (ART). ART is a tool-injection framework that tunes any VLA model to leverage off-the-shelf tool modules for low-level vision, high-level affordance,…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "清华大学",
+      "香港中文大学",
+      "香港大学"
+    ]
+  },
+  {
+    "id": "b8122061f8865a7e",
+    "title": "AdvDex: Learning Dexterous Manipulation from Human Demonstrations via Joint-Aligned Actions and Adversarial Learning",
+    "url": "https://arxiv.org/abs/2608.14028v1",
+    "source": "arXiv",
+    "date": "2026-08-14",
+    "summary": "Dexterous manipulation is a fundamental capability for embodied intelligence, but scaling it remains difficult because robot demonstrations are expensive to collect and action spaces vary across embodiments. Policies trained on heterogeneous data can also entangle task-relevant…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "上海交通大学",
+      "复旦大学",
+      "浙江大学"
+    ]
   },
   {
     "id": "e5846a4c062f6399",
@@ -380,6 +546,55 @@
     "topics": [],
     "kinds": [
       "产业动态"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "af75790701bcaeaa",
+    "title": "Simulation-Aware In-Context Policy Improvement for LLM-Aided Analog Layout Refinement",
+    "url": "https://arxiv.org/abs/2608.13767v1",
+    "source": "arXiv",
+    "date": "2026-08-13",
+    "summary": "Analog IC layout design remains a labor-intensive iterative process dominated by simulation-driven refinement. Although end-to-end layout generators accelerate initial placement and routing, they still require experts to manually tune layout optimization parameters with repeated…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "UT Austin"
+    ]
+  },
+  {
+    "id": "c3d7a8bcaee945e7",
+    "title": "Coverage Aware Active Evaluation for Failure Discovery with Paired Systems",
+    "url": "https://arxiv.org/abs/2608.13719v1",
+    "source": "arXiv",
+    "date": "2026-08-13",
+    "summary": "Autonomous systems can fail in rare and heterogeneous ways, making real-world failure discovery difficult under limited testing budgets. Although cheaper proxies such as simulators, lower-fidelity systems, or related policies can be sampled extensively to find failures, proxy fa…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real"
+    ],
+    "kinds": [
+      "产业动态"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "e3b4a48249de2827",
+    "title": "hint$^2$: Hierarchical World Models for Inference-Time Temporal Logic Guidance",
+    "url": "https://arxiv.org/abs/2608.13678v1",
+    "source": "arXiv",
+    "date": "2026-08-13",
+    "summary": "A central goal of robot learning is to enable robots to execute rich instructions specified at runtime. Large-scale language-conditioned policies have made substantial progress toward this goal, yet still struggle with temporal structure and safety constraints. Linear Temporal L…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "世界模型"
+    ],
+    "kinds": [
+      "安全与可信"
     ],
     "affiliations": []
   },
