@@ -1,5 +1,378 @@
 [
   {
+    "id": "0eea68efe37ceb94",
+    "title": "Hydra-0: Action Flow for Generalist World Modeling and Control",
+    "url": "https://arxiv.org/abs/2608.18077v1",
+    "source": "arXiv",
+    "date": "2026-08-18",
+    "summary": "We introduce Hydra-0, a generalist world model conditioned on action flow, which represents robot actions as pixel motion. This shared visual interface enables generalist world modeling and control by learning action consequences across embodiments, tasks, environments, and vide…",
+    "tags": [],
+    "topics": [
+      "世界模型"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "Columbia",
+      "NVIDIA"
+    ]
+  },
+  {
+    "id": "9ddb2946e9c3daea",
+    "title": "PRISM: Precision and contact-rich Real-world Industrial Skill dataset with Multimodal sensing",
+    "url": "https://arxiv.org/abs/2608.17962v1",
+    "source": "arXiv",
+    "date": "2026-08-18",
+    "summary": "Recent progress in robotic learning has been fueled by large-scale datasets collected in everyday environments. However, most existing datasets emphasize short-horizon, low-contact tasks such as pick-and-place, and therefore do not capture the precision control, force/torque or…",
+    "tags": [],
+    "topics": [
+      "感知与传感",
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "北京大学"
+    ]
+  },
+  {
+    "id": "c11feafa72167b73",
+    "title": "Effector-Centric NMPC of Tiltable-Multirotors for Offset-Free Omnidirectional Aerial Manipulation",
+    "url": "https://arxiv.org/abs/2608.17819v1",
+    "source": "arXiv",
+    "date": "2026-08-18",
+    "summary": "Aerial manipulation extends robotic operations to previously inaccessible aerial environments. Unlike arm-equipped aerial systems, tiltable-multirotors can directly generate six-degree-of-freedom wrenches through their flight bases, enabling both efficient movement and omnidirec…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [
+      "无人机"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "4c54c0c3f8a5f3a6",
+    "title": "CompCPZ: Preserving Multi-Modal Intent in Language-Guided Robot Manipulation",
+    "url": "https://arxiv.org/abs/2608.17717v1",
+    "source": "arXiv",
+    "date": "2026-08-18",
+    "summary": "A robot asked to \"place the cup near the red plate or the blue plate\" may reach the centroid between them and appear geometrically successful, while satisfying neither disjunct of the instruction. This silent semantic failure exposes a structural limitation of language-condition…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "TU München"
+    ]
+  },
+  {
+    "id": "c5cbb89093222189",
+    "title": "OVIP-SG: Open-Vocabulary Instance-Preserving Scene Graphs for Mapping and Retrieval of Small, Fine-Grained Objects",
+    "url": "https://arxiv.org/abs/2608.17633v1",
+    "source": "arXiv",
+    "date": "2026-08-18",
+    "summary": "Integrating open-vocabulary perception into object-level 3D scene graphs is a double-edged sword. While vision-language detectors recover long-tail categories and small, fine-grained objects overlooked by closed-set models, they also tend to fragment large surfaces and merge sma…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "感知与传感"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "4826640c64b6acf1",
+    "title": "Iterative Grasp Pose Refinement: A Deep Reinforcement Learning Approach for 2D Vision",
+    "url": "https://arxiv.org/abs/2608.17628v1",
+    "source": "arXiv",
+    "date": "2026-08-18",
+    "summary": "Developing robots capable of understanding and manipulating objects requires compact, interpretable, and generalizable representations. This work proposes a reinforcement learning-based framework for robotic grasp refinement, integrating keypoint-based object representations wit…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "5a9b788221eafd43",
+    "title": "LIBERO-VIFO: Benchmarking the Capability and Safety of Visual Cue Following in Vision-Language-Action Models",
+    "url": "https://arxiv.org/abs/2608.17600v1",
+    "source": "arXiv",
+    "date": "2026-08-18",
+    "summary": "Visual cues are increasingly adopted to guide robot learning, but whether Vision-Language-Action (VLA) models can reliably follow authorized cues while disregarding unauthorized ones remains unclear. Existing work covers only a narrow range of cue forms and focuses on final task…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "仿真与Sim2Real"
+    ],
+    "kinds": [
+      "安全与可信"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "62cfbfab9c675c4b",
+    "title": "HODAgent: Towards On-Demand, Responsive Humanoids for Physical World Human Interaction",
+    "url": "https://arxiv.org/abs/2608.17584v1",
+    "source": "arXiv",
+    "date": "2026-08-18",
+    "summary": "We propose HODAgent, a System-2 embodied agent for humanoid robots in service settings, addressing situated intent, responsive execution, task revision, and outcome verification. Its semi-duplex architecture integrates an Env-Interactor, Planner, Executor, and hierarchical Memor…",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": [
+      "安全与可信"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "cddadbc4b2daa537",
+    "title": "Embodied-Navigator: Point, Think, Memorize, and Align for Efficient Navigation",
+    "url": "https://arxiv.org/abs/2608.17512v1",
+    "source": "arXiv",
+    "date": "2026-08-18",
+    "summary": "Although Large Vision-Language Models (VLMs) have significantly advanced embodied navigation, their direct deployment remains challenging, as existing methods often force VLMs into unnatural action spaces that misalign with their 2D pre-training priors, compounded by rigid reaso…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "251f65097eb2beec",
+    "title": "Calibrated Predictive Safety for Heterogeneous Robots: An Action-Conditioned JEPA Framework with Model-Based Safety Shields",
+    "url": "https://arxiv.org/abs/2608.17496v1",
+    "source": "arXiv",
+    "date": "2026-08-18",
+    "summary": "Vision-language-action policies generalize broadly but provide no execution-time guarantees; classical model-based planners respect kinematic and geometric constraints but generalize poorly. We study whether an action-conditioned Joint-Embedding Predictive Architecture (JEPA) wo…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "世界模型"
+    ],
+    "kinds": [
+      "安全与可信"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "70578081ac661614",
+    "title": "Reuse Before You Retrieve: Diagnosing Headroom and Complementarity for Test-Time Augmentation of Embodied Multimodal Policies",
+    "url": "https://arxiv.org/abs/2608.17484v1",
+    "source": "arXiv",
+    "date": "2026-08-18",
+    "summary": "Frozen vision-language-action (VLA) policies are increasingly improved at test time by sampling additional policy behaviors or introducing external demonstrations. Yet there is little guidance for deciding which intervention a deployed policy actually needs. Additional sampling…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "KAIST"
+    ]
+  },
+  {
+    "id": "1cc36897714906f9",
+    "title": "Optimal control of a swimming robot based on Purcell's microswimmer model",
+    "url": "https://arxiv.org/abs/2608.17455v1",
+    "source": "arXiv",
+    "date": "2026-08-18",
+    "summary": "Purcell's swimmer is a well-known planar model of a swimming microorganism, governed by low Reynolds number hydrodynamics, which is comprised of three rigid links connected by actuated rotary joints. This model has been analyzed as a robotic locomotion system governed by first-o…",
+    "tags": [],
+    "topics": [
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "e4789fa93e0a2d14",
+    "title": "EATR-Stereo: Embodiment-Aware Routing of Paired Stereo Evidence for Humanoid Vision-Language-Action Control",
+    "url": "https://arxiv.org/abs/2608.17453v1",
+    "source": "arXiv",
+    "date": "2026-08-18",
+    "summary": "Long-horizon humanoid vision--language--action (VLA) control with head-mounted stereo cameras requires visual interfaces that can exploit complementary views while maintaining compatibility with pretrained representations. Existing interfaces often discard complementary stereo e…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "人形机器人"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "哈尔滨工业大学"
+    ]
+  },
+  {
+    "id": "cf933df5cc2113b4",
+    "title": "Prism-GRPO: Faster VLA Policy Optimization via Splitting Same-outcome Groups",
+    "url": "https://arxiv.org/abs/2608.17423v1",
+    "source": "arXiv",
+    "date": "2026-08-18",
+    "summary": "GRPO is increasingly used for reinforcement learning of vision-language-action (VLA) policies because, unlike PPO, it does not require training a critic. This simplification comes with a sampling cost: group-relative advantages require multiple rollouts from each scene. Under bi…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "814dc53a8f0016a0",
+    "title": "MANIGUARD: A Benchmark and Data Suite for Specification-Grounded Safety Evaluation and Improvement of Robotic Manipulation",
+    "url": "https://arxiv.org/abs/2608.17386v1",
+    "source": "arXiv",
+    "date": "2026-08-18",
+    "summary": "Foundation-model policies for robotic manipulation are advancing rapidly on task success, but rigorous evaluation of whether they succeed safely is still lacking. We introduce ManiGuard, a specification-grounded framework for evaluating and improving the safety of foundation-mod…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real",
+      "灵巧手与操作"
+    ],
+    "kinds": [
+      "产业动态",
+      "安全与可信"
+    ],
+    "affiliations": [
+      "Stanford"
+    ]
+  },
+  {
+    "id": "88f491e1858cf008",
+    "title": "Repetition as Reinforcement: Enhancing Sample Efficiency via Instant Episode Repetition in Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2608.17347v1",
+    "source": "arXiv",
+    "date": "2026-08-18",
+    "summary": "Repetition is a fundamental mechanism in human learning, where revisiting successful experiences strengthens memory, consolidates skills, and improves future performance. Motivated by this biological principle, we introduce Instant Episode Repetition (IER), a simple and novel me…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "e2badad0cfee4c89",
+    "title": "ORPA: Online Residual Policy Adaptation for Robot Manipulation Control with Human Feedback",
+    "url": "https://arxiv.org/abs/2608.17323v1",
+    "source": "arXiv",
+    "date": "2026-08-18",
+    "summary": "Robotic manipulation policies trained via imitation learning, such as Action Chunking with Transformers (ACT), can achieve strong performance under ideal conditions but often remain sensitive to small execution errors and distribution shifts. Correcting these failures typically…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "7d1e95810b8ed231",
+    "title": "Robust Brachiation on a Life-Sized Dual-Arm Robot Using Waypoint-Guided Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2608.17320v1",
+    "source": "arXiv",
+    "date": "2026-08-18",
+    "summary": "Brachiation is a form of locomotion in which primates move primarily using their arms, enabling traversal in environments without footholds. However, this motion requires highly coordinated whole-body movement and precise timing control for bar grasping and release. As a result,…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "东京大学"
+    ]
+  },
+  {
+    "id": "f7f47f15d220d587",
+    "title": "If, Then, Otherwise: Diagnosing Conditional Branching in Vision-Language Navigation",
+    "url": "https://arxiv.org/abs/2608.17318v1",
+    "source": "arXiv",
+    "date": "2026-08-18",
+    "summary": "Vision-language navigation agents are often evaluated on their ability to follow route-like instructions toward a fixed goal. Yet, real navigation instructions often depend on observed states of the environment: if a condition holds, then follow one path, otherwise take another.…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "UT Austin"
+    ]
+  },
+  {
+    "id": "24325db09555a375",
+    "title": "Drones With Claws Perch on Arctic Icebergs",
+    "url": "https://spectrum.ieee.org/arctic-iceberg-drones",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-08-18",
+    "summary": "This article is part of our exclusive IEEE Journal Watch series in partnership with IEEE Xplore. Microspines are one of many ways to enable robots to latch onto surfaces like walls and ceilings . Now roboticists in Canada are using the mini spikes to get drones to land on a more…",
+    "tags": [],
+    "topics": [],
+    "kinds": [
+      "无人机"
+    ]
+  },
+  {
+    "id": "490c46d5d68fc595",
+    "title": "Humanoid Robots Need a Supply Chain in North America",
+    "url": "https://www.bloomberg.com/opinion/articles/2026-08-18/humanoid-robots-need-a-supply-chain-in-north-america",
+    "source": "Hacker News",
+    "date": "2026-08-18",
+    "summary": "",
+    "hn": {
+      "points": 3,
+      "comments": 1,
+      "discussion": "https://news.ycombinator.com/item?id=49350130"
+    },
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "01510d5d1a025238",
+    "title": "America Wants to Make Its Own Humanoid Robots. That Won't Be Easy",
+    "url": "https://www.nytimes.com/2026/08/13/business/humanoid-robot-us-china.html",
+    "source": "Hacker News",
+    "date": "2026-08-18",
+    "summary": "",
+    "hn": {
+      "points": 5,
+      "comments": 1,
+      "discussion": "https://news.ycombinator.com/item?id=49346724"
+    },
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "17fe9ba7dec4ee4d",
+    "title": "Unitree Robotics IPO: \"Embodied AI\" Valuation Bubble?",
+    "url": "https://www.cnn.com/2026/08/18/tech/china-unitree-ipo-intl-hnk",
+    "source": "Hacker News",
+    "date": "2026-08-18",
+    "summary": "",
+    "hn": {
+      "points": 3,
+      "comments": 1,
+      "discussion": "https://news.ycombinator.com/item?id=49354240"
+    },
+    "tags": [
+      "Unitree"
+    ],
+    "topics": [],
+    "kinds": [
+      "产业动态"
+    ]
+  },
+  {
     "id": "bbe28a07735d9d84",
     "title": "共生知行发布人形机器人赛车Demo：以卡丁车测试双足机器人的“全身智能”",
     "url": "https://www.leiphone.com/category/ai/ex540RmkgK2urRRq.html",
@@ -455,6 +828,74 @@
       "产业动态",
       "安全与可信"
     ],
+    "affiliations": []
+  },
+  {
+    "id": "4479fdd4cb737b50",
+    "title": "Teach and Grow: An Agent-Centered Architecture for General Robot Learning",
+    "url": "https://arxiv.org/abs/2608.17209v1",
+    "source": "arXiv",
+    "date": "2026-08-17",
+    "summary": "End-to-end vision-language-action (VLA) and world-action models offer an elegant route to general-purpose robotics, but their reliability is bounded by validated physical coverage. When an unfamiliar object, sensor, embodiment, or contact falls outside that coverage and no valid…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "感知与传感"
+    ],
+    "kinds": [
+      "安全与可信"
+    ],
+    "affiliations": [
+      "上海交通大学"
+    ]
+  },
+  {
+    "id": "9ea662f30411f34b",
+    "title": "PDDL-ART: Autonomous Symbolic Abstraction From Demonstration For Long-Horizon Robotic Manipulation Using Vision-Language Models",
+    "url": "https://arxiv.org/abs/2608.17146v1",
+    "source": "arXiv",
+    "date": "2026-08-17",
+    "summary": "Symbolic planning with PDDL offers a principled framework for long-horizon robot manipulation, but constructing accurate PDDL domain and problem descriptions remains a significant bottleneck, typically requiring substantial domain expertise. We present a Vision-Language Model (V…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "1e1c141d7d77ab25",
+    "title": "PROBE: Manipulation-Grounded Visual Question Answering with VLM Agents",
+    "url": "https://arxiv.org/abs/2608.17129v1",
+    "source": "arXiv",
+    "date": "2026-08-17",
+    "summary": "Vision-language Models (VLMs) excel at 2D grounding, spatial reasoning and agentic tool-based planning in static scenes. However, consider asking a home robot \"Is my medication still in the cabinet?\" The answer may be physically hidden behind a row of containers that must first…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "NVIDIA"
+    ]
+  },
+  {
+    "id": "5417d98ee6942345",
+    "title": "FetchMan: Learning Visual Humanoid Loco-Manipulation Policies from Simulated Experiences",
+    "url": "https://arxiv.org/abs/2608.17027v1",
+    "source": "arXiv",
+    "date": "2026-08-17",
+    "summary": "Visual loco-manipulation policies that can generalize to novel scenes and objects have long been a goal of robotics research. However, today's data-hungry algorithms make collecting sufficient demonstrations a struggle for tabletop manipulation, and even more so for humanoids th…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
     "affiliations": []
   },
   {
