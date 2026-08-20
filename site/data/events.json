@@ -1,5 +1,289 @@
 [
   {
+    "id": "6032c53b996dc870",
+    "title": "百度袁佛玉：从模型进化、数据回流到应用接管，具身智能进入场景落地关键阶段",
+    "url": "https://www.leiphone.com/category/industrynews/rTLndJsLPW7ODcdW.html",
+    "source": "雷峰网",
+    "date": "2026-08-19",
+    "summary": "具身智能产业关注的重点正从“能力涌现”进入“生产力兑现”阶段，拼的不只是单一模型能力。8 月 19 日下午，在北京举行的 2026 世界机器人大会上，百度集团副总裁袁佛玉表示，机器人从“会展示”到“能上岗，需要模型、数据与应用协同形成的系统能力。 百度集团副总裁 袁佛玉 模型从理解语言，走向理解和预测物理世界 机器人真正进入物理世界，仅理解语言并不够，还要理解物体关系、动作后果及环境变化。随着 VLA、世界模型和运动控制加速演进，计算工程系统也面临更高要求。 袁佛玉指出，依托百度百舸 AI 计算平台，百度智能云持续完善面向具身智能的 AI Infra，…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "8e9acc261c4b028c",
+    "title": "英伟达 Cosmos 3 深度拆解：它想做具身智能时代的「安卓系统」| RSS 2026",
+    "url": "https://www.leiphone.com/category/private/XVXWtcCNFb4PP233.html",
+    "source": "雷峰网",
+    "date": "2026-08-19",
+    "summary": "当 AGI 的大脑决定向边缘迁徙，英伟达拿出了统治机器人进化的“终极剧本”。 编辑丨岑峰 2026 年，大模型行业正经历一场前所未有的“体感位移”。那个在纯数字世界几乎无往不利的 Scaling Law，在试图跨越到物理世界时，正遭遇物理规律、空间约束和长尾数据的残酷审判。 AI 行业最核心的矛盾正日趋明显： 云端算力的指数级爆发，与机器人终端落地的步履蹒跚，构成了一种日益撕裂的鸿沟。 这种割裂感，在 7 月悉尼 RSS 2026的最后一天，被推向了最高潮。在 “Robot World Models（机器人世界模型）” Workshop 上，传统机器人…",
+    "tags": [],
+    "topics": [
+      "世界模型"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "8ca8aa1e76350f09",
+    "title": "RSS 2026 实录：当 AGI 撞上「物理之墙」，想象力成为具身智能的第一生产力",
+    "url": "https://www.leiphone.com/category/private/WO8DdZBccR2lD85Q.html",
+    "source": "雷峰网",
+    "date": "2026-08-19",
+    "summary": "从“像素导演”转向“具身大脑”：RSS 2026“机器人世界模型”专题现场见证，想象力正在终结具身智能的“数据暴政”。 编辑丨岑峰 2026 年 7 月的悉尼，RSS 会场内，一种复杂的情绪正在蔓延： 一半是火焰，一半是海水。 火焰来自于大模型在云端的持续狂飙，海水则来自于具身智能在现实落地中的“物理阵痛”。 在此之前，全球 AI 行业笃信一套名为“暴力美学”的成功公式： 巨大的参数量 + 几乎无穷的互联网数据 = 涌现的智能。 这一公式在处理文本、图像甚至是视频生成时无往不利。但当人们试图将这套逻辑直接“平移”到机器人身上，让 AGI 进入物理世界时…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "fbd0f285fc73c813",
+    "title": "RSS 2026现场直击｜从双臂协同到水下灵巧，机器人操作迈入「少样本时代」",
+    "url": "https://www.leiphone.com/category/private/lr7p4rB1Iquythe0.html",
+    "source": "雷峰网",
+    "date": "2026-08-19",
+    "summary": "机器人操作正在从“数据饥渴”走向“样本高效”。 作者丨陈淑瑜 编辑丨岑 峰 7月13日，2026年机器人领域顶级学术会议RSS（Robotics: Science and Systems）在澳大利亚悉尼正式开幕。 今年的 RSS 2026最终被主会接收并放进官方日程的论文仅仅 160 篇左右，极低的接受率说明了RSS的含金量一如既往的高，每一篇都经得起全场几百位顶尖研究者的严苛推敲。 雷峰网&AI科技评论已派出报道小组抵达会议现场。在简单的开幕式后，紧跟着的是“Manipulation 1: World Models & Memory”论文报告环节，来…",
+    "tags": [],
+    "topics": [
+      "世界模型",
+      "灵巧手与操作"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "d1de461165999a89",
+    "title": "李飞飞高徒黄文龙：具身智能需要一次「脑内搜索」革命 | RSS 2026",
+    "url": "https://www.leiphone.com/category/private/TUzrCbD0E9v6NtS5.html",
+    "source": "雷峰网",
+    "date": "2026-08-19",
+    "summary": "斯坦福团队提出：机器人不需要见过所有的失败，它只需要学会如何“脑补”另一种可能。 作者丨岑峰 在 AGI 的数字版图里，大语言模型仅靠“读遍互联网文本”就拼凑出了通往智能的通途。这种由 Scaling Law 带来的暴力美学，让整个具身智能行业在过去两年里陷入了一种盲目的“数据崇拜”：人们坚信，只要像训练大模型一样，喂下数以百万小时的视频，机械臂就能在物理世界中无所不能。 而在2026 年的悉尼 RSS 大会，AI科技评论注意到，越来越多的研究者开始讨论，物理世界的数据获取具有时间和空间的“不可逆性”——文本可以被瞬间复制亿万次，但机械臂抓取一次杯子，…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "ed94e431e31ac495",
+    "title": "Momenta、XHEART与QNX宣布达成合作，打造全球安全标准自动驾驶平台",
+    "url": "https://www.leiphone.com/category/industrynews/XjdDx1NPMItZXRLM.html",
+    "source": "雷峰网",
+    "date": "2026-08-19",
+    "summary": "近日，Momenta（香港联交所： 6880.HK ）与新芯航途（XHEART）、BlackBerry有限公司（纽交所：BB，多伦多证交所：BB）旗下QNX业务部门联合宣布，将共同打造面向量产的全球安全标准自动驾驶平台。 随着全球主要市场对高阶辅助驾驶系统的法规要求日趋严格，基础软件、芯片与算法层的深度适配已成为量产落地的关键前置条件。此次合作中，Momenta提供全栈自动驾驶算法能力，新芯航途（XHEART）提供车规级SoC（系统级芯片）X7，QNX则提供基于QNX® SDP 8.0的安全操作系统。三方合作打造的量产解决方案，旨在助力全球车企加速智能…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "e9a7cadf6a65660c",
+    "title": "宇树科技今日上市，多只港股已抱上这条「机器人大腿」；人均557万元！寒武纪124名员工股票激励将到账；入校即入企！格力技校开启首届招生",
+    "url": "https://www.leiphone.com/category/zaobao/4d2UMjJsoreZMbco.html",
+    "source": "雷峰网",
+    "date": "2026-08-19",
+    "summary": "要闻提示 1.人均557万元！寒武纪124名员工股票激励“大红包”即将到账 2.宇树科技今日上市，多只港股已抱上这条“机器人大腿” 3.72岁董明珠任校长！格力技校开启首届招生，宣称“入校即入企，毕业即适岗” 4.比亚迪回应收购上汽集团：愿与大家携手推动中国汽车走向世界 5.叮咚买菜在江浙等部分区域试点收取包装费，上海暂不试行 6.原xAI多模态理解负责人蔺旭东加入混元大模型团队 7.上热搜！吉利称将“不再研发传统燃油车”！ 8.美国软件公司裁员，退出中国 今日头条 人均557万元！寒武纪124名员工股票激励“大红包”即将到账 8月17日晚，寒武纪发布…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "cc3c0083f9e2d574",
+    "title": "全球首个人形机器人自主乒乓球完整对局亮相2026世界机器人大会",
+    "url": "https://www.qbitai.com/2026/08/475907.html",
+    "source": "量子位",
+    "date": "2026-08-19",
+    "summary": "超维动力KAI全栈具身智能硬核登场",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "79389076a453d05b",
+    "title": "具身数据底座开卖，首发5100元：机器人训练数据有了新解法",
+    "url": "https://www.qbitai.com/2026/08/475477.html",
+    "source": "量子位",
+    "date": "2026-08-19",
+    "summary": "构建全栈物理AI基础设施",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "65177c10bb428784",
+    "title": "PartialBiGrasp: Inferring Hidden Local Geometry for Bimanual Grasping from Partial Views",
+    "url": "https://arxiv.org/abs/2608.19188v1",
+    "source": "arXiv",
+    "date": "2026-08-19",
+    "summary": "Dual-arm robotic grasping is essential for manipulating large, heavy, and geometrically complex objects that cannot be reliably handled using a single manipulator. These large objects often contain only sparse graspable regions determined by local geometric properties such as th…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "0bc4d907efc2fb92",
+    "title": "ADEPT: Accelerating Dexterity via Pre-Training and Post-Training using Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2608.19182v1",
+    "source": "arXiv",
+    "date": "2026-08-19",
+    "summary": "We introduce Accelerating Dexterity via Pre-Training (ADEPT), a large-scale reinforcement learning (RL) framework for learning sim-to-real transferable dexterity across high degree-of-freedom (DoF) robot embodiments that can solve long-horizon tasks directly from raw visuo-tacti…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "NVIDIA"
+    ]
+  },
+  {
+    "id": "6604f4ec331752f1",
+    "title": "RoboEdit: Turning Human Manipulation Videos into Scalable Robot Experience",
+    "url": "https://arxiv.org/abs/2608.18948v1",
+    "source": "arXiv",
+    "date": "2026-08-19",
+    "summary": "Collecting robot hand-object interaction data is costly and embodiment-specific, yet abundant human-object videos remain unusable for robot training. We present RoboEdit, a human-to-robot video editing suite that transforms human manipulation videos into action-consistent, physi…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "3da0fc670929afda",
+    "title": "Beyond Placement and Articulation: Usage-Driven Code Scenes for Embodied Interaction",
+    "url": "https://arxiv.org/abs/2608.18840v1",
+    "source": "arXiv",
+    "date": "2026-08-19",
+    "summary": "Indoor scene synthesis provides essential environments for embodied AI, robotic manipulation, and simulation-based policy learning. Recent code-based scene generation methods produce editable and extensible environments, yet they remain focused on visual construction and object-…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "仿真与Sim2Real",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "美团"
+    ]
+  },
+  {
+    "id": "693db09a235a0490",
+    "title": "Dream2Reward: Transition-Alignment Reward Models from Positive Demonstrations for Robotic Manipulation",
+    "url": "https://arxiv.org/abs/2608.18787v1",
+    "source": "arXiv",
+    "date": "2026-08-19",
+    "summary": "Learning robotic policies requires dense rewards that remain informative when behavior departs from successful demonstrations. Progress-based rewards estimate how far an observation has advanced along a nominal successful trajectory, but may remain high after an incorrect transi…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "a14ede5d44721346",
+    "title": "SoftVTBench: A Deformation-Aware Visuo-Tactile Dataset and Benchmark for Deformable-Object Manipulation",
+    "url": "https://arxiv.org/abs/2608.18701v1",
+    "source": "arXiv",
+    "date": "2026-08-19",
+    "summary": "Physical interaction quality is central to deformable-object manipulation, yet most benchmarks evaluate task success alone. A policy may complete the task while allowing slip or causing excessive compression. A primary bottleneck is the absence of visuo-tactile datasets that pai…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real",
+      "感知与传感",
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "4f4dbe78f351e09f",
+    "title": "LabDex: A Hierarchical Benchmark for Dexterous Manipulation in Laboratories",
+    "url": "https://arxiv.org/abs/2608.18618v1",
+    "source": "arXiv",
+    "date": "2026-08-19",
+    "summary": "Autonomous laboratories hold great promise for accelerating scientific discovery. To achieve this vision, robots are supposed to dexterously manipulate diverse labware and instruments and execute long-horizon, state-dependent experimental procedures. Yet existing benchmarks do n…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "c41e8d723a87aac3",
+    "title": "An Experimental Study of Downwash Effects on a Continuum Manipulator Integrated with a Multirotor UAV",
+    "url": "https://arxiv.org/abs/2608.18507v1",
+    "source": "arXiv",
+    "date": "2026-08-19",
+    "summary": "Continuum arm aerial manipulation systems leverage soft-manipulator compliance and dexterity for tasks in confined or hazardous environments, but propeller downwash can degrade performance, particularly near walls and the ground. This effect remains uncharacterized for continuum…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [
+      "无人机"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "2f15049c95e3379b",
+    "title": "The Embodiment Gap in Robot Foundation Models",
+    "url": "https://arxiv.org/abs/2608.18433v1",
+    "source": "arXiv",
+    "date": "2026-08-19",
+    "summary": "Robot foundation models (RFMs), including vision-language-action (VLA) policies, are often discussed through a scaling view: more data, larger models, and broader benchmarks should improve generalization. In robotics, however, a model can generalize while work still remains befo…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "仿真与Sim2Real"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "f7834cfd53798d0a",
+    "title": "Unitree's humanoid robot jumps 2 meters, hits 12.66M/s to break human records",
+    "url": "https://www.globaltimes.cn/page/202608/1368390.shtml",
+    "source": "Hacker News",
+    "date": "2026-08-19",
+    "summary": "",
+    "hn": {
+      "points": 4,
+      "comments": 1,
+      "discussion": "https://news.ycombinator.com/item?id=49364872"
+    },
+    "tags": [
+      "Unitree"
+    ],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "6679b5c8a1dd23a5",
+    "title": "Chinese humanoid robot maker surges 600% in trading debut",
+    "url": "https://www.ft.com/content/14cd8246-7fb1-4f8f-81b4-8de11ced79e5",
+    "source": "Hacker News",
+    "date": "2026-08-19",
+    "summary": "",
+    "hn": {
+      "points": 3,
+      "comments": 0,
+      "discussion": "https://news.ycombinator.com/item?id=49359330"
+    },
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": []
+  },
+  {
     "id": "0eea68efe37ceb94",
     "title": "Hydra-0: Action Flow for Generalist World Modeling and Control",
     "url": "https://arxiv.org/abs/2608.18077v1",
@@ -304,6 +588,101 @@
     ]
   },
   {
+    "id": "308d728956377667",
+    "title": "GuideFetch: A Task Coordination Framework for Concurrent Navigation and Object Retrieval in Assistive Robot Dogs",
+    "url": "https://arxiv.org/abs/2608.18292v1",
+    "source": "arXiv",
+    "date": "2026-08-18",
+    "summary": "Consider a robot guide dog escorting a blind user to an available seat while a second assistive robot dog concurrently retrieves a cup of coffee and delivers it to the same seat. This setting motivates concurrent execution because navigation and object retrieval can overlap. A s…",
+    "tags": [],
+    "topics": [
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "f54547e83683ce7f",
+    "title": "VERAGMIL: Virtual Environment for Scooping Granular Foods with Imitation Learning Models",
+    "url": "https://arxiv.org/abs/2608.18258v1",
+    "source": "arXiv",
+    "date": "2026-08-18",
+    "summary": "Robot-Assisted Feeding (RAF) systems are essential for assisting individuals with disabilities or motor impairments in eating tasks. Manipulating granular food items, such as rice and beans, poses significant challenges due to their dynamic physical properties. Learning from hum…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "a46e3a509628bf52",
+    "title": "GigaBrain-WBC-0.5: A Behavior World Model for Robust Whole-Body Control with Environment Interaction",
+    "url": "https://arxiv.org/abs/2608.18234v1",
+    "source": "arXiv",
+    "date": "2026-08-18",
+    "summary": "Whole-body motion tracking policies turn a humanoid into a robust control interface: the teleoperator---or an upstream model---only supplies a coarse movement intent, while the low-level policy keeps the robot balanced and physically feasible. Existing trackers deliver this inte…",
+    "tags": [],
+    "topics": [
+      "世界模型",
+      "人形机器人",
+      "移动与四足",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "c35ecb34aae53ea5",
+    "title": "Revisiting the \"Push-T\" Robot Manipulation Task with Agentic Robotics",
+    "url": "https://arxiv.org/abs/2608.18227v1",
+    "source": "arXiv",
+    "date": "2026-08-18",
+    "summary": "Push-T is an iconic benchmark for learning manipulation policies from human demonstrations. The robot must use a single point of contact to push a T-shaped block into a target pose. In this short paper, we revisit the Push-T task in the context of emerging advances in Agentic Ro…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real",
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "UC Berkeley"
+    ]
+  },
+  {
+    "id": "6874213d2428af18",
+    "title": "OVIP-SG: Open-Vocabulary Instance-Preserving Scene Graphs for Mapping and Retrieval of Small, Fine-Grained Objects",
+    "url": "https://arxiv.org/abs/2608.17633v2",
+    "source": "arXiv",
+    "date": "2026-08-18",
+    "summary": "Integrating open-vocabulary perception into object-level 3D scene graphs is a double-edged sword. While vision-language detectors recover long-tail categories and small, fine-grained objects overlooked by closed-set models, they also tend to fragment large surfaces and merge sma…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "感知与传感"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "aa8ce0eab20f6487",
+    "title": "EATR-Stereo: Embodiment-Aware Token Routing of Paired Stereo Evidence for Humanoid Vision-Language-Action Control",
+    "url": "https://arxiv.org/abs/2608.17453v2",
+    "source": "arXiv",
+    "date": "2026-08-18",
+    "summary": "Long-horizon humanoid vision--language--action (VLA) control with head-mounted stereo cameras requires visual interfaces that can exploit complementary views while maintaining compatibility with pretrained representations. Existing interfaces often discard complementary stereo e…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "人形机器人"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "哈尔滨工业大学"
+    ]
+  },
+  {
     "id": "24325db09555a375",
     "title": "Drones With Claws Perch on Arctic Icebergs",
     "url": "https://spectrum.ieee.org/arctic-iceberg-drones",
@@ -324,8 +703,8 @@
     "date": "2026-08-18",
     "summary": "",
     "hn": {
-      "points": 3,
-      "comments": 1,
+      "points": 4,
+      "comments": 2,
       "discussion": "https://news.ycombinator.com/item?id=49350130"
     },
     "tags": [],
@@ -361,7 +740,7 @@
     "summary": "",
     "hn": {
       "points": 3,
-      "comments": 1,
+      "comments": 3,
       "discussion": "https://news.ycombinator.com/item?id=49354240"
     },
     "tags": [
