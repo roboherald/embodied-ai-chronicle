@@ -1,5 +1,348 @@
 [
   {
+    "id": "36dbc56fd9441e4e",
+    "title": "1×N+1：一个大脑，与更多可能相连——晨昏线科技亮相2026世界机器人大会",
+    "url": "https://www.leiphone.com/category/industrynews/4lF5e7l4pBhX8QPS.html",
+    "source": "雷峰网",
+    "date": "2026-08-20",
+    "summary": "2026世界机器人大会开展首日，恰逢七夕节，一朵玫瑰花被晨昏线科技展台的机器人送了出去。 这不是一朵为节日准备的“救急玫瑰”，而是一台原本服务于制造场景的机器人，在面对不同任务时完成的一次温暖表达。 通过现场屏幕，观众可自主选择生产主板所需料盘，或发起玫瑰抓取任务。此前，这台机器人面对的是SMT 主板生产 车间高频、精细的物料上下料任务：在料盘间隙仅有1–2mm的货架环境中，机器人根据WMS仓储管理系统下发的任务指令，结合现场LED定位信息识别目标料盘，完成精准定位、抓取与传递。 图：晨昏线科技工业 SMT主板生产车间上下料机器人 而面对玫瑰花枝时，机…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "7eee4c4d1cc2bcef",
+    "title": "章鱼动力亮相WRC 2026， 携“脑-手-数据”技术体系探索具身智能未来范式",
+    "url": "https://www.leiphone.com/category/industrynews/L6IQmDmj1sCKOrJO.html",
+    "source": "雷峰网",
+    "date": "2026-08-20",
+    "summary": "8月19日，2026世界机器人大会（WRC）于北京正式开幕。作为全球机器人领域极具影响力的产研盛会，大会以“人机共生，产需共融”为主题，集中展示机器人与AI行业技术创新、应用落地的最新突破性成果。 章鱼动力（SynapX）作为物理AI赛道备受瞩目的新锐势力，受邀亮相本次大会，正式发布并展出由SYNWorld具身原生世界基础模型、OctoH-Hand高自由度仿生灵巧手、OctoSense下一代具身数采方案共同构成的“脑-手-数据”技术体系，完整呈现对下一代物理AI技术路线的深度创新探索。 三大产品技术矩阵重磅发布 伴随着“AI进入物理世界”成为行业共识，…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "773a9aaeb439ef66",
+    "title": "宇树科技上市首日大涨629%，世界机器人大会里谁是“下一个宇树”？",
+    "url": "https://www.leiphone.com/category/ai/RWqTJlvzkwXLamiH.html",
+    "source": "雷峰网",
+    "date": "2026-08-20",
+    "summary": "8月19日，北京亦庄北人亦创国际会展中心，2026 WRC世界机器人大会 在万众瞩目下 拉开帷幕。同一天，“人形机器人第一股”宇树科技正式登陆上交所科创板， 开盘暴涨 629.44% ， 最终以 460.34% 、 总市值超3400 亿元交出首个交易日答卷。 一家明星公司上市、一场行业盛会开幕 的背后都可以看出，市场对于机器人领域的 评判标尺 ， 正发生着翻天覆地的跃迁，市场 不再迷信 秀场里的 炫技，而是把场景落地 、商业交付 当成了抬高 估值 预期的 最重要的锚点。 超300家 企业参展2026 WRC大会、较去年增长36%、首次设置的“采购日”种…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "4c449df04aec9f5b",
+    "title": "奕境X9发布会送假Labubu？品牌方回应；宇树科技IPO名场面：王兴兴表情极为平静像「打工人」；豆包大模型，正式上车特斯拉丨雷峰早报",
+    "url": "https://www.leiphone.com/category/zaobao/qx0OhNlDup8GY2uR.html",
+    "source": "雷峰网",
+    "date": "2026-08-20",
+    "summary": "要闻提示 1.奕境X9发布会送假Labubu？品牌方回应 2.宇树科技股价暴涨，IPO名场面：王兴兴表情极为平静像“打工人”！ 3.豆包大模型，正式上车特斯拉 4.歌词照进现实？月之暗面杨植麟十年前写的歌词成真了 5.快手Q2总收入355亿元，经调整净利润39亿元 6.计划训超大模型后，字节 Seed 基模团队调整了组织架构 7.百度李彦宏：目标让文心回到第一梯队 8.OpenAI第二季度营收67亿美元，增速18%远不及对手Anthropic 今日头条 奕境X9发布会送假Labubu？品牌方回应 8月19日下午消息，近日有车主反映称，参加南昌当地奕境X…",
+    "tags": [
+      "OpenAI"
+    ],
+    "topics": [],
+    "kinds": [
+      "产业动态"
+    ]
+  },
+  {
+    "id": "7f1d470079dcfca1",
+    "title": "今年WRC最大展台，预告具身智能未来",
+    "url": "https://www.qbitai.com/2026/08/476141.html",
+    "source": "量子位",
+    "date": "2026-08-20",
+    "summary": "从自主泛化到真生产力",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "5ac8369e9f706bb0",
+    "title": "攻克行业级柔性操作难题！招商局狮子山人工智能实验室首次亮相WRC 2026",
+    "url": "https://www.qbitai.com/2026/08/476129.html",
+    "source": "量子位",
+    "date": "2026-08-20",
+    "summary": "全栈自研，真机叠衣ICRA夺冠",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "fbbcdf498661865c",
+    "title": "宇树科技上市首日大涨629%，世界机器人大会里谁是“下一个宇树”？",
+    "url": "https://www.qbitai.com/2026/08/476120.html",
+    "source": "量子位",
+    "date": "2026-08-20",
+    "summary": "这几个玩家或可被“押注”",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "ad30f3e75d4c2287",
+    "title": "Video2DoorTraversal: Push Door Traversal via Simulated Door Twins",
+    "url": "https://arxiv.org/abs/2608.20251v1",
+    "source": "arXiv",
+    "date": "2026-08-20",
+    "summary": "Door opening and traversal is a long-horizon loco-manipulation task that requires precise handle interaction and coordinated base-arm control. We present Video2DoorTraversal, a single-video real-to-sim-to-real framework for wheel-legged mobile manipulators. Given one RGB video o…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "上海交通大学"
+    ]
+  },
+  {
+    "id": "325e6b890c7d9322",
+    "title": "DECOWAM: Decoupled Whole-Body World-Action Model for Legged Mobile Manipulation",
+    "url": "https://arxiv.org/abs/2608.20114v1",
+    "source": "arXiv",
+    "date": "2026-08-20",
+    "summary": "Mobile manipulation requires a robot to predict how locomotion and arm motion jointly alter future observations and control. Existing world-action models, developed largely for fixed-base platforms, do not explicitly distinguish camera ego-motion from base and arm actions. Here…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "上海AI实验室",
+      "哈尔滨工业大学",
+      "清华大学"
+    ]
+  },
+  {
+    "id": "08e8435c9c27e13e",
+    "title": "Planning-Oriented End-to-End Autonomous Driving: Architectures, Evaluation, and Emerging Paradigms",
+    "url": "https://arxiv.org/abs/2608.20111v1",
+    "source": "arXiv",
+    "date": "2026-08-20",
+    "summary": "End-to-end autonomous driving has evolved from camera-to-control regression toward planning-oriented systems that use structured representations, trajectory-level outputs, and increasingly realistic evaluation protocols. This survey reviews this transition across behavior clonin…",
+    "tags": [],
+    "topics": [],
+    "kinds": [
+      "产业动态"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "d209575210cd7127",
+    "title": "Towards Professional Tennis Styles for Humanoid Robots with Adaptive Motion Planning and Tracking",
+    "url": "https://arxiv.org/abs/2608.20087v1",
+    "source": "arXiv",
+    "date": "2026-08-20",
+    "summary": "Humanoid robots have recently demonstrated promising capabilities in real-world ball sports. However, achieving professional motion styles while maintaining strong task performance remains challenging. In this work, we propose AdaPT, an Adaptive Motion Planning and Tracking fram…",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "上海AI实验室",
+      "上海交通大学"
+    ]
+  },
+  {
+    "id": "0e50031131312f56",
+    "title": "Evidence-Gated Task and Motion Planning with Vision-Language Models",
+    "url": "https://arxiv.org/abs/2608.20084v1",
+    "source": "arXiv",
+    "date": "2026-08-20",
+    "summary": "Robots executing long-horizon manipulation tasks from natural-language instructions must reason about both semantic task structure and geometric feasibility. However, under partial observability, the availability of goal-relevant objects may be uncertain. In such cases, approach…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "167d0b09c3cbed99",
+    "title": "Wave-Based Bilateral Teleoperation between Nonlinear Manipulators with Direct Contact Force Feedback",
+    "url": "https://arxiv.org/abs/2608.20043v1",
+    "source": "arXiv",
+    "date": "2026-08-20",
+    "summary": "We study bilateral teleoperation between nonlinear, multi-DOF robotic manipulators in the presence of constant communication delays. Unlike classical wave-transformation architectures that transmit a coordinating force, we consider the case where the environmental force is refle…",
+    "tags": [],
+    "topics": [
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "7dd921d33b60751d",
+    "title": "Learning Highly Dynamic Skills Transition for Quadruped Jumping Through Constrained Space",
+    "url": "https://arxiv.org/abs/2608.19977v1",
+    "source": "arXiv",
+    "date": "2026-08-20",
+    "summary": "Although legged animals are capable of performing explosive motions while traversing confined spaces, replicating this behavior in quadrupedal robots has been a longstanding challenge. Here, we propose a hierarchical reinforcement learning pipeline that empowers the robots to pe…",
+    "tags": [],
+    "topics": [
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "90883155c15898f4",
+    "title": "PVRA: A Pointwise Key-point Voting Framework for Robotic Assembly",
+    "url": "https://arxiv.org/abs/2608.19968v1",
+    "source": "arXiv",
+    "date": "2026-08-20",
+    "summary": "Modern computer vision has enabled partial autonomy in robotic assembly manipulation. However, performing autonomous manipulation of a progressive assembly demands a more specific set of skills, in addition to perceiving the objects. Through a comparative analysis of research in…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "227ec5b99d4dc06e",
+    "title": "MILD: Tractable Terrain Modeling for Learning Improved Bipedal Locomotion on Deformable Surfaces",
+    "url": "https://arxiv.org/abs/2608.19955v1",
+    "source": "arXiv",
+    "date": "2026-08-20",
+    "summary": "Enabling robots to walk on yielding terrain is vital for applications ranging from disaster response to planetary exploration. While bipedal robots hold immense potential, their locomotion on deformable surfaces remains limited as current simulators fail to capture the spatiotem…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "3823af534d94885a",
+    "title": "Towards general embodied intelligence: integrating large language models, knowledge bases, and reasoning capabilities to build the next generation of AI agents",
+    "url": "https://arxiv.org/abs/2608.19794v1",
+    "source": "arXiv",
+    "date": "2026-08-20",
+    "summary": "The convergence of large language models (LLMs), structured knowledge bases (KBs), and reasoning ability (RA) presents a promising trajectory toward general embodied intelligence (GEI). This paper reviews the evolution of LLM-centered intelligent systems, emphasising their integ…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "浙江大学"
+    ]
+  },
+  {
+    "id": "bcb639259469c59e",
+    "title": "CoToGrasp: Contact-Topology-Conditioned Dexterous Grasp Synthesis via Canonical Workspace Learning",
+    "url": "https://arxiv.org/abs/2608.19776v1",
+    "source": "arXiv",
+    "date": "2026-08-20",
+    "summary": "Current dexterous grasp planners primarily optimize for physical stability, focusing on whether an object can be grasped rather than how it should be grasped to support downstream functional tasks. However, conditioning grasp synthesis on specific human grasp taxonomies typicall…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "e7e5ba769b231919",
+    "title": "GOAG: Generative and Object-Agnostic Grasp Planner for Dexterous Robotic Manipulation",
+    "url": "https://arxiv.org/abs/2608.19759v1",
+    "source": "arXiv",
+    "date": "2026-08-20",
+    "summary": "Multifingered grasping is a crucial robotic skill, but current deep-learning grasp planners often struggle to generalize to new objects because they are trained on limited, object-specific datasets. We introduce a fundamentally different approach, grounded in the observation tha…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "57370951a3499146",
+    "title": "Keeping the Franka Emika Panda alive: a ROS 2 stack with a reliable position interface",
+    "url": "https://arxiv.org/abs/2608.19740v1",
+    "source": "arXiv",
+    "date": "2026-08-20",
+    "summary": "This paper presents an open-source software stack that restores ROS 2 support for the Franka Emika Panda robot while resolving the long-standing unreliability of its external position control interface. We first analyze the root causes of unstable position control and show that…",
+    "tags": [],
+    "topics": [],
+    "kinds": [
+      "安全与可信"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "baeb94f27eddaab9",
+    "title": "SafeBranch: Branch-Pair Safety Alignment for Embodied Agents",
+    "url": "https://arxiv.org/abs/2608.19729v1",
+    "source": "arXiv",
+    "date": "2026-08-20",
+    "summary": "Vision-language-model-based embodied agents can complete instructed tasks but often violate safety constraints in the process, a problem recently framed as interactive safety. Training such agents to act safely is difficult, since safety and task success are distinct objectives,…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "世界模型"
+    ],
+    "kinds": [
+      "安全与可信"
+    ],
+    "affiliations": [
+      "首尔大学"
+    ]
+  },
+  {
+    "id": "1709b277555e4340",
+    "title": "Learning Hierarchical Skill Policies with Offline Quality-Diversity Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2608.19684v1",
+    "source": "arXiv",
+    "date": "2026-08-20",
+    "summary": "Recent studies investigate how to leverage pre-collected datasets to improve the policy performance and sample efficiency of RL. One promising approach to achieve this goal is to employ a two-stage strategy: In the first stage, diverse skills are extracted as a low-level policy…",
+    "tags": [],
+    "topics": [
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "东京大学"
+    ]
+  },
+  {
+    "id": "8d147da1aa4dec0d",
+    "title": "What Matters for Latent Actions in Robot Learning",
+    "url": "https://arxiv.org/abs/2608.19613v1",
+    "source": "arXiv",
+    "date": "2026-08-20",
+    "summary": "Latent Action Models (LAMs) have emerged as a promising paradigm for enabling robot learning to leverage large-scale unlabeled videos through latent actions that serve as compact surrogates for physical actions. Despite rapid progress, research on LAM remains highly fragmented,…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": [
+      "复旦大学",
+      "清华大学"
+    ]
+  },
+  {
+    "id": "09e47e31962a3fc4",
+    "title": "OrthoSkillVLA: Continual Skill Learning via Gradient-Informed Skill Subspace Adaptation",
+    "url": "https://arxiv.org/abs/2608.19589v1",
+    "source": "arXiv",
+    "date": "2026-08-20",
+    "summary": "Pretrained Vision-Language-Action models provide a strong foundation for robot learning, but sequentially adapting them to diverse skills can perturb the representations and velocity mappings used by previous skills, leading to catastrophic forgetting. Architecture-based approac…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
     "id": "6032c53b996dc870",
     "title": "百度袁佛玉：从模型进化、数据回流到应用接管，具身智能进入场景落地关键阶段",
     "url": "https://www.leiphone.com/category/industrynews/rTLndJsLPW7ODcdW.html",
@@ -241,6 +584,85 @@
     "topics": [
       "VLA与基础模型",
       "仿真与Sim2Real"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "5f69b5b5b25a705f",
+    "title": "Fine-Tuning VLAs with Self-Demonstrated Generative Control for Multi-Task Manipulation",
+    "url": "https://arxiv.org/abs/2608.19490v1",
+    "source": "arXiv",
+    "date": "2026-08-19",
+    "summary": "State-of-the-art vision-language-action (VLA) models such as $π_{0.5}$ exhibit strong semantic understanding, instruction following and task behavior. However, when deployed on new robots, even minor mismatches in hardware configuration relative to pretraining can cause severe p…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "UIUC"
+    ]
+  },
+  {
+    "id": "d53c8b4d3b4e61e5",
+    "title": "Hybrid Feedback Sampling for Sample-Efficient Model Predictive Control",
+    "url": "https://arxiv.org/abs/2608.19443v1",
+    "source": "arXiv",
+    "date": "2026-08-19",
+    "summary": "Thanks to its parallelizability and flexibility, sampling-based Model Predictive Control (MPC) has become widely popular for controlling real-world robotic systems. However, for high-dimensional and open-loop unstable dynamical systems, the required number of samples to improve…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": [
+      "CMU",
+      "MIT"
+    ]
+  },
+  {
+    "id": "e69089fc13a9c69b",
+    "title": "SCAPE: Scenario-Conditioned Simulation-Augmented Policy Evaluation",
+    "url": "https://arxiv.org/abs/2608.19425v1",
+    "source": "arXiv",
+    "date": "2026-08-19",
+    "summary": "Reliable performance evaluation is a central bottleneck for deploying robot-learning policies in real-world conditions. Real-world testing is faithful but costly and difficult to scale, whereas simulation-based testing scales easily but is inevitably biased by the sim-to-real ga…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real"
+    ],
+    "kinds": [
+      "产业动态"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "b11081dee7fed077",
+    "title": "Learning the Right Abstraction: Neural Reduced Dynamics for Complex Robot Control",
+    "url": "https://arxiv.org/abs/2608.19375v1",
+    "source": "arXiv",
+    "date": "2026-08-19",
+    "summary": "High-fidelity embodied AI simulators provide realistic evaluation of complex robotic systems, but their computational cost limits their direct use for large-scale reinforcement learning campaigns. We advocate the use of less accurate but more expeditious simulations, which might…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real"
+    ],
+    "kinds": [
+      "产业动态"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "5d5a7cd397c13d90",
+    "title": "The Missing Touch: Spatially Distributed Tactile Feedback Brings Teleoperation Closer to Human Dexterity",
+    "url": "https://arxiv.org/abs/2608.19372v1",
+    "source": "arXiv",
+    "date": "2026-08-19",
+    "summary": "A fundamental challenge in robotic teleoperation is enabling an operator to control a remote robot as effortlessly and intuitively as their own hands. Despite the growing use of teleoperation to collect demonstration data for training autonomous robot policies, teleoperated robo…",
+    "tags": [],
+    "topics": [
+      "感知与传感",
+      "遥操作与数据采集"
     ],
     "kinds": [],
     "affiliations": []
@@ -1283,7 +1705,7 @@
     "url": "https://spectrum.ieee.org/persona-ai-humanoid-robot-welding",
     "source": "IEEE Spectrum Robotics",
     "date": "2026-08-17",
-    "summary": "Humanoids desperately need to stop making YouTube videos and get a job already, and Persona AI is one of the few humanoid companies which seems to be entirely focused on making that happen. Persona’s approach has been to carefully select a job that is economically viable for rob…",
+    "summary": "Humanoids desperately need to stop making YouTube videos and get a job already, and Persona AI is one of the few humanoid companies that seems to be entirely focused on making that happen. Persona AI’s approach has been to carefully select a job that is economically viable for r…",
     "tags": [],
     "topics": [
       "人形机器人"
