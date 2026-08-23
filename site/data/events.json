@@ -1,5 +1,105 @@
 [
   {
+    "id": "fdbb6ba72425830c",
+    "title": "工业具身智能的 \"最后一公里\"，为什么是埃夫特&启智在走？",
+    "url": "https://www.leiphone.com/category/robot/UL2Q8ihgr90Dy85f.html",
+    "source": "雷峰网",
+    "date": "2026-08-22",
+    "summary": "一、90% 的工厂，机器人还进不去 具身智能这两年很热，但热的地方大多不在工厂。 人形机器人在展会上跳舞、倒酒、叠衣服，视频传播量惊人；可一旦走进真实的工业车间，话题就迅速冷下来。原因 很简单， 工业现场不是实验室，它要求机器人在油污、粉尘、温差和来料不一致的环境里，连续、稳定、可核算地干活。而这恰恰是当前具身智能最薄弱的环节。 传统工业机器人其实已经很强了。高速、高精、大负载，在汽车焊装线、3C 装配线上可以做到毫秒级节拍；在防爆、喷涂等特种场景也有成熟方案。但它的强，是 \"确定性\" 的强 —— 程序写死、轨迹固定、来料一致，一旦条件发生变化，它就无…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "69fcc1cbecbf4d3e",
+    "title": "WRC 2026 风向标：具身智能下半场，比「大脑」更比「账本」",
+    "url": "https://www.leiphone.com/category/ai/rUNBvF7Iq6C3UtyR.html",
+    "source": "雷峰网",
+    "date": "2026-08-22",
+    "summary": "展台不再比谁花活多，开始比谁能稳定干满8小时。 作者丨邓哲敏 齐铖湧 编辑丨 齐铖湧 上海 WAIC 结束不到一个月，北京 WRC 2026 接棒开启。 短短几十天，谁也不可能把模型推倒重来。想看到什么颠覆性突破，是不现实的。 所以这篇现场观察不单看 WRC 上的展台花活，AI科技评论（雷峰网公众号）会结合几个月来各家综合表现，看“具身大脑”究竟走到哪一步。 先说首日逛展的最大感受： 和 WAIC 比，场景变化很直观。 做咖啡的变多了（现场能看到无界动力、仙工等，做咖啡/递杯成了高频演示）； 包裹分拣场景继续发力（自变量速度很突出，原力灵机势头很猛，星…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "e3ea55ebd2e01dd9",
+    "title": "伽利略机器人首发“陆行具身系统”，打通轮车足底层技术壁垒",
+    "url": "https://www.qbitai.com/2026/08/477246.html",
+    "source": "量子位",
+    "date": "2026-08-22",
+    "summary": "直击WRC",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "b0212266302982ac",
+    "title": "魔法原子亮相WRC 2026，三大场景解决方案实景展示物理AI真·上岗",
+    "url": "https://www.qbitai.com/2026/08/477155.html",
+    "source": "量子位",
+    "date": "2026-08-22",
+    "summary": "一脑驱动多形落地",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "85dbe235d456ddef",
+    "title": "00后清华博士生创业“神经接口”：把人类肌肉反应炼成Token",
+    "url": "https://www.qbitai.com/2026/08/477094.html",
+    "source": "量子位",
+    "date": "2026-08-22",
+    "summary": "采集，从一条腕带开始",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "47352fd0866d764c",
+    "title": "从模型到生产力：星海图与产业朋友圈共探具身智能的下一站",
+    "url": "https://www.qbitai.com/2026/08/476930.html",
+    "source": "量子位",
+    "date": "2026-08-22",
+    "summary": "让具身智能技术真正落地千行万业。",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "c234d4da68fea509",
+    "title": "Chinese humanoid robots smash human records in 100M sprint and high jump",
+    "url": "https://apnews.com/article/china-humanoid-robot-games-us-86cb8e310843151a77057e4cb764b4e2",
+    "source": "Hacker News",
+    "date": "2026-08-22",
+    "summary": "",
+    "hn": {
+      "points": 3,
+      "comments": 0,
+      "discussion": "https://news.ycombinator.com/item?id=49404332"
+    },
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "98b148af855369d0",
+    "title": "Chinese robot beats Usain Bolt's 100M world record at Beijing games",
+    "url": "https://www.reuters.com/sports/chinese-humanoid-robot-lightning-beats-human-100m-world-record-state-media-says-2026-08-22/",
+    "source": "Hacker News",
+    "date": "2026-08-22",
+    "summary": "",
+    "hn": {
+      "points": 3,
+      "comments": 0,
+      "discussion": "https://news.ycombinator.com/item?id=49403981"
+    },
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
     "id": "414f2f4b72ca1ec3",
     "title": "2026 WRC | 魔法原子“三大场景”全景亮相，“场景驱动·产需共融”主题论坛共探具身智能落",
     "url": "https://www.leiphone.com/category/robot/DCljjXT8jddT4PJs.html",
