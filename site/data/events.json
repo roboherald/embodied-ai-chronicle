@@ -1,5 +1,29 @@
 [
   {
+    "id": "33bfe51783128506",
+    "title": "独家 | 乐聚发布垂域具身模型：一倍工业提效，两项榜单第一",
+    "url": "https://www.leiphone.com/category/industrynews/s4P2kDrMcM1yfSYw.html",
+    "source": "雷峰网",
+    "date": "2026-08-27",
+    "summary": "如果说，基础模型是具身大脑的“大学”通识课；那么，垂域模型则是机器人在工业领域的“专业课”。 作者丨董子博 编辑丨林觉民 今天要做世界模型，所有人都知道要做预训练，来让具身大脑变得更聪明；也知道要做后训练，让机器人可以在专门的任务下得到锻炼、做得更好。 和不少公司聊过， AI 科技评论发现，谈到中训练（ Mid-train ）的公司却很少。 而实际上，在具身的实际落地中，却存在一些原有方案不易解决的问题：当预训练的 VLA 模型，没法在具体的场景中发挥全部智能；而后训练却有时间、成本的门槛；在训练技能的环节，也容易出现数采、训练和调试的重复工作 ——V…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "a44625d95af5099b",
+    "title": "一台工业具身机器人，从理想到现实要经过哪些坑？",
+    "url": "https://www.leiphone.com/category/industrynews/llcCxtySh11LJ3fo.html",
+    "source": "雷峰网",
+    "date": "2026-08-27",
+    "summary": "没有被客户“骂”过的公司，绝不会知道，从实验室到真实场景中间有多大的“鸿沟”。 作者丨 董子博 编辑丨 林觉民 刚刚过去的 WRC ，各家公司的展台只要涉及工业，躲不开的话题就是落地。 数百个机器人在展台上爬着楼梯、跳着舞蹈、打着拳击 …… 种种的展示，只是为了告诉市场：自家机器人究竟有多好的性能； 但在科大讯飞的展台上，一家叫聆动通用的公司虽不算起眼，两台机器人按部就班地分拣着快递包裹，受制于现场因素，动作算不上伶俐，但准确率、抗干扰做得都很不错。 聆动通用对 AI 科技评论表示，在实际的工作当中， LDB 正在逐渐逼近 80-90% 的工人人效，机…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
     "id": "fea244c432de349b",
     "title": "数据中心人去楼空！网友曝特斯拉FSD入华无望：博主称6.4万白花了；道路交通法新草案：自动驾驶出事故车企负责！马云买入阿里超6亿港元",
     "url": "https://www.leiphone.com/category/zaobao/IBcrOQ12e2rU0P8y.html",
@@ -9,6 +33,356 @@
     "tags": [],
     "topics": [],
     "kinds": []
+  },
+  {
+    "id": "747ff58005db289b",
+    "title": "2026世界机器人大会落幕，谁在物理AI赛道抢跑？",
+    "url": "https://www.leiphone.com/category/transportation/D7jJzjiKAFgoKr5U.html",
+    "source": "雷峰网",
+    "date": "2026-08-26",
+    "summary": "物理AI的赛点时刻，是建立人机协同的信任。 作者丨 倪 萍 编辑丨王瑞昊 过去几天，北京亦庄经历了一场机器人的狂欢。 约6万平方米的展馆内，上千台形态各异的机器人忙着做菜、打球、递咖啡、分拣快递，甚至还有专门铲猫砂、处理猫毛的“机械铲屎官”。从工厂到家庭，从生产到生活，硅基生命体们在每一个细分场景中卖力展示着解决现实问题的能力。 由此可见，具身智能的叙事焦点，正从“表演特技”加速转向“实景作业”。 2026世界机器人大会首次设立采购日，专业买家携需求清单进场，供需直接对接，现场销售额累计突破2亿元。 黄仁勋所描绘的物理AI世界正快速到来：AI跨出屏幕边…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "dc8d22fc72bfae17",
+    "title": "硅谷今日最热具身模型！不用后训练，看一遍就学会",
+    "url": "https://www.qbitai.com/2026/08/479834.html",
+    "source": "量子位",
+    "date": "2026-08-26",
+    "summary": "具身智能迈向GPT时刻",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "1acee809d06fa59a",
+    "title": "宇树智元共用一个大脑！神秘模型Demo炸场，10分钟一镜到底",
+    "url": "https://www.qbitai.com/2026/08/479634.html",
+    "source": "量子位",
+    "date": "2026-08-26",
+    "summary": "",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "c5ad0b3bc6f0e047",
+    "title": "WRC乒乓球局爆火！这家中国具身创业公司，砸出了一套全栈新解法",
+    "url": "https://www.qbitai.com/2026/08/478860.html",
+    "source": "量子位",
+    "date": "2026-08-26",
+    "summary": "球技丝滑、现场爆满",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "a05dd03c44c6c60c",
+    "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+    "url": "https://arxiv.org/abs/2608.26103v1",
+    "source": "arXiv",
+    "date": "2026-08-26",
+    "summary": "Zero-shot cross-task generalization, where a policy must execute manipulation tasks never seen during training, remains a central challenge in robot learning. In large language models, a novel task can be performed simply by specifying it in the context, without any parameter up…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "d2cd18585e80ef91",
+    "title": "Fast Generative Grasping via Lie Group-Constrained MeanFlow",
+    "url": "https://arxiv.org/abs/2608.26076v1",
+    "source": "arXiv",
+    "date": "2026-08-26",
+    "summary": "Grasp synthesis is a core task in robotic manipulation, for which the solution typically forms a multimodal distribution rather than a point estimate. Generative robotic grasping aims to learn this distribution with deep generative models such as diffusion and flow-based approac…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "92db167fad9b720d",
+    "title": "One Policy, Many Embodiments: Unified Camera-Centric Action Geometry Pre-training for Heterogeneous Embodied Manipulation",
+    "url": "https://arxiv.org/abs/2608.26058v1",
+    "source": "arXiv",
+    "date": "2026-08-26",
+    "summary": "Scaling generalist vision-language-action (VLA) policies is severely bottlenecked by the inherent heterogeneity of embodied data, which spans diverse robot morphologies, camera configurations, and low-level action spaces. Existing paradigms typically address this mismatch throug…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "8775ec0e95c65051",
+    "title": "$R^3$: Training Robots to Reason in Natural Language via Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2608.26053v1",
+    "source": "arXiv",
+    "date": "2026-08-26",
+    "summary": "Reasoning in language allows foundation models to spend more test-time compute on hard problems, such as those requiring decomposition, constraint tracking, and prediction of future consequences. Whether this mechanism can improve robotic manipulation remains unclear, where long…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "CMU"
+    ]
+  },
+  {
+    "id": "0d3cda1d9a032ec7",
+    "title": "VISTA: Visually Inferred Spatial ConTact Attention for Contact-Rich Manipulation",
+    "url": "https://arxiv.org/abs/2608.25872v1",
+    "source": "arXiv",
+    "date": "2026-08-26",
+    "summary": "Contact-rich manipulation requires precise interaction feedback. While vision-centric imitation learning is prevalent, external visual observations provide indirect and ambiguous cues about contact states, particularly under occlusion or subtle object--gripper interactions; dedi…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "哈尔滨工业大学",
+      "清华大学"
+    ]
+  },
+  {
+    "id": "b9f1629f7ddc0273",
+    "title": "MA-VLA: Multi-Arm Vision-Language-Action Model for Collaboration and Compositional Generalization",
+    "url": "https://arxiv.org/abs/2608.25864v1",
+    "source": "arXiv",
+    "date": "2026-08-26",
+    "summary": "Multi-arm collaboration is becoming a core capability in embodied manipulation. Recent vision-language-action (VLA) models integrate perception, language, and control, but most represent language as a single global instruction and do not provide an explicit mechanism for assigni…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "感知与传感",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "University of Oxford",
+      "上海交通大学",
+      "中国科学技术大学",
+      "北京航空航天大学",
+      "香港中文大学",
+      "香港大学"
+    ]
+  },
+  {
+    "id": "790dbc6ffda0f73c",
+    "title": "Anytime Global Tensor Motion Planning",
+    "url": "https://arxiv.org/abs/2608.25830v1",
+    "source": "arXiv",
+    "date": "2026-08-26",
+    "summary": "Global Tensor Motion Planning (GTMP) solves motion planning with batched tensor operations over a layered multipartite graph. We generalize GTMP so that adjacent-layer edges are realized by any black-box local planner (e.g., linear interpolation, splines, sampling-based planning…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "140826b7ea2f6a0b",
+    "title": "TacForcing: Streaming Action Generation with Execution-Time Tactile Feedback",
+    "url": "https://arxiv.org/abs/2608.25798v1",
+    "source": "arXiv",
+    "date": "2026-08-26",
+    "summary": "Contact-rich manipulation requires adapting to contact states that can evolve substantially within an action horizon. However, chunk-based vision-language-action models predict complete action chunks from observations collected before execution, leaving tactile conditioning stal…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "感知与传感",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "ab69b35643cdc3e1",
+    "title": "LM-X: Explainable Action Modeling with Progress, Event, and Uncertainty Prediction for Generalist Robot Manipulation",
+    "url": "https://arxiv.org/abs/2608.25757v1",
+    "source": "arXiv",
+    "date": "2026-08-26",
+    "summary": "Generalist vision--language--action (VLA) policies learn long-horizon behavior mainly through short-horizon action prediction and reveal little beyond sampled commands. This creates two coupled bottlenecks: a single action target must implicitly absorb task progress, intermediat…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "2fe50abc378467e3",
+    "title": "PRISM: Projection-Integrated Sampling-Based MPC with Bayesian Cost Tuning for Bimanual Manipulation",
+    "url": "https://arxiv.org/abs/2608.25666v1",
+    "source": "arXiv",
+    "date": "2026-08-26",
+    "summary": "Bimanual manipulation in cluttered, contact-rich environments remains challenging because it requires coordinated motion generation, interaction-aware planning, and reliable execution under tight kinematic constraints. We present PRISM, a projection-integrated sampling-based Mod…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "9a16f5c13f94aead",
+    "title": "GaussianDream++: Efficient 3D Gaussian World Modeling for Robotic Manipulation",
+    "url": "https://arxiv.org/abs/2608.25659v1",
+    "source": "arXiv",
+    "date": "2026-08-26",
+    "summary": "Vision-Language-Action (VLA) policies have advanced language-conditioned robotic manipulation, yet action-imitation objectives provide only weak supervision for metric 3D structure and short-horizon physical evolution. Geometry-enhanced policies mainly improve current-scene grou…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "世界模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "CMU",
+      "中国科学技术大学",
+      "中科院",
+      "北京航空航天大学",
+      "南洋理工",
+      "清华大学",
+      "香港大学",
+      "香港科技大学"
+    ]
+  },
+  {
+    "id": "1b8ad466bf883de8",
+    "title": "EgoNav: Bridging Learned Waypoints and Geometry-Aware Local Control for Robust Indoor Navigation",
+    "url": "https://arxiv.org/abs/2608.25642v1",
+    "source": "arXiv",
+    "date": "2026-08-26",
+    "summary": "Image-goal navigation using lightweight topological maps is a practical paradigm for indoor robot deployment: the map requires only geotagged images, and localization relies on visual matching rather than precise pose estimation. However, learned waypoint predictors can produce…",
+    "tags": [],
+    "topics": [
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "香港大学"
+    ]
+  },
+  {
+    "id": "9ab221448b1bef6b",
+    "title": "Advantage-Driven Explicit Memory for Social Navigation",
+    "url": "https://arxiv.org/abs/2608.25610v1",
+    "source": "arXiv",
+    "date": "2026-08-26",
+    "summary": "Robot policies are predominantly learned with classical parametric variants of imitation learning or RL, where training stores the agent's behavior exclusively in the policy's network parameters, putting a heavy burden on the representation learning algorithm. We propose a new n…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "首尔大学"
+    ]
+  },
+  {
+    "id": "983a6c88df900155",
+    "title": "RA-VLA: Retrieval-Augmented VLA for Test-Time Adaptation",
+    "url": "https://arxiv.org/abs/2608.25585v1",
+    "source": "arXiv",
+    "date": "2026-08-26",
+    "summary": "Vision-Language-Action (VLA) models provide a versatile foundation for general robotic manipulation, yet they exhibit significant brittleness when confronted with novel task distributions. While In-Context Imitation Learning (ICIL) offers a training-free alternative, existing fr…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "c5b88b2de54020c8",
+    "title": "ConfAL-WM: Confidence-Guided Active Learning for Action-Conditioned World Models",
+    "url": "https://arxiv.org/abs/2608.25572v1",
+    "source": "arXiv",
+    "date": "2026-08-26",
+    "summary": "Action-conditioned world models have become an important foundation for embodied prediction, planning, and synthetic data generation, but their errors under new task and scene distributions are often concentrated in localized spatiotemporal regions such as robot arms, manipulate…",
+    "tags": [],
+    "topics": [
+      "世界模型"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "清华大学"
+    ]
+  },
+  {
+    "id": "b95f9450f844ddc0",
+    "title": "A Tendon-Driven Five-Fingered Hand with Distributed Tactile Perception for Dexterous Manipulation",
+    "url": "https://arxiv.org/abs/2608.25547v1",
+    "source": "arXiv",
+    "date": "2026-08-26",
+    "summary": "To apply the techniques of embodied artificial intelligence to human-oid robots for complex manipulations, dexterous robotic hands are indispensable, which are restricted by the dexterity and tactile perception capability. In this work, we proposed a novel design of tendon-drive…",
+    "tags": [],
+    "topics": [
+      "感知与传感",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "f84a1f00d4db9052",
+    "title": "LAC: Linear and Angular Compliance for Humanoid Whole-body Control",
+    "url": "https://arxiv.org/abs/2608.25405v1",
+    "source": "arXiv",
+    "date": "2026-08-26",
+    "summary": "Real-world humanoid tasks involve physical interaction with objects and humans, yet current controllers either reject external forces as disturbances or restrict compliance to limited body links while ignoring angular effects. We present LAC, a general whole-body controller that…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "6a0fb4946dc740c6",
+    "title": "A Taxonomy of Construction Task Activities for Robot Workers",
+    "url": "https://arxiv.org/abs/2608.25395v1",
+    "source": "arXiv",
+    "date": "2026-08-26",
+    "summary": "Recent vision-language-action models offer a path toward robots with broader repertoires than conventional task-specific systems. Construction deployment, however, requires a precise inventory of worker activities and the capabilities needed to execute them. We present TARCAT, a…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "e436f2a85cea06bd",
+    "title": "Beyond Pairwise Feedback: Listwise Vision-Language Supervision for Preference-Based Reward Learning",
+    "url": "https://arxiv.org/abs/2608.25350v1",
+    "source": "arXiv",
+    "date": "2026-08-26",
+    "summary": "Vision-language models (VLMs) have emerged as a powerful source of supervision for reinforcement learning, enabling agents to leverage rich semantic knowledge during training. Inspired by the success of preference-based reward learning (PbRL) in reinforcement learning from human…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "5700b1aa91de59f1",
@@ -22,6 +396,46 @@
     "kinds": [
       "产业动态"
     ]
+  },
+  {
+    "id": "f57f2efa6f494821",
+    "title": "Ex-Meta scientists want to bring visual AI to the factory floor",
+    "url": "https://techcrunch.com/2026/08/26/ex-meta-scientists-want-to-bring-visual-ai-to-the-factory-floor/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-08-26",
+    "summary": "Perceptron offers an AI model that it says can help machines navigate the world while also providing in-depth visual intelligence.",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "d481ce7b5f0061b3",
+    "title": "Robot brain builders are pushing out of their GPT-2 era",
+    "url": "https://techcrunch.com/2026/08/26/robot-brain-builders-are-pushing-out-of-their-gpt-2-era/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-08-26",
+    "summary": "Robot bodies are waiting for their AI brains to catch up.",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "91e48aee10201957",
+    "title": "World humanoid robot games show runners breaking records, bursting into flames",
+    "url": "https://arstechnica.com/ai/2026/08/world-humanoid-robot-games-show-runners-breaking-records-bursting-into-flames/",
+    "source": "Hacker News",
+    "date": "2026-08-26",
+    "summary": "",
+    "hn": {
+      "points": 4,
+      "comments": 0,
+      "discussion": "https://news.ycombinator.com/item?id=49445170"
+    },
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": []
   },
   {
     "id": "eee9bedadd2ad8ed",
@@ -268,6 +682,37 @@
     "affiliations": []
   },
   {
+    "id": "57fdc779b6923df5",
+    "title": "CRESSim-Neo: A Batched GPU Simulation Engine for Surgical Robotics and Robot Learning",
+    "url": "https://arxiv.org/abs/2608.25192v1",
+    "source": "arXiv",
+    "date": "2026-08-25",
+    "summary": "We introduce CRESSim-Neo, a batched GPU simulation engine for surgical robotics and robot learning. CRESSim-Neo combines position-based simulation of rigid bodies, deformable tissues, fluids, and strands with batched rendering, surgery-specific sensing, and a GPU-resident data p…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real",
+      "感知与传感"
+    ],
+    "kinds": [
+      "医疗应用"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "982d17a1528ddf8f",
+    "title": "GaussVLA: Geometry-Aware Spatial Reasoning for Vision-Language-Action Model",
+    "url": "https://arxiv.org/abs/2608.24959v1",
+    "source": "arXiv",
+    "date": "2026-08-25",
+    "summary": "Vision-Language-Action (VLA) models encode visual observations as flat 2D patch tokens that carry no intrinsic geometric structure, and augmenting them with dense monocular depth injects per-pixel scalar values that encode neither surface orientation nor geometric confidence. Th…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
     "id": "0eda3d476c597689",
     "title": "AI Companion Robots Are Closing the Human Connection in Modern Homes",
     "url": "https://spectrum.ieee.org/ollobot-ai-companion-robot",
@@ -286,7 +731,7 @@
     "date": "2026-08-25",
     "summary": "",
     "hn": {
-      "points": 3,
+      "points": 4,
       "comments": 1,
       "discussion": "https://news.ycombinator.com/item?id=49431822"
     },
@@ -12664,6 +13109,22 @@
     "kinds": []
   },
   {
+    "id": "1f044e1aabe9db4c",
+    "title": "Embodied Cognition and Agentic AI",
+    "url": "https://lemire.me/blog/2026/05/28/embodied-cognition-and-agentic-ai/",
+    "source": "Hacker News",
+    "date": "2026-06-06",
+    "summary": "",
+    "hn": {
+      "points": 4,
+      "comments": 0,
+      "discussion": "https://news.ycombinator.com/item?id=48424981"
+    },
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
     "id": "f95879e8b161dce8",
     "title": "Startup Battlefield 200 applications officially close in 3 days",
     "url": "https://techcrunch.com/2026/06/05/startup-battlefield-200-applications-officially-close-in-3-days/",
@@ -12762,22 +13223,6 @@
     "source": "IEEE Spectrum Robotics",
     "date": "2026-05-29",
     "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. ICRA 2026 : 1–5 June 2026, VIENNA…",
-    "tags": [],
-    "topics": [],
-    "kinds": []
-  },
-  {
-    "id": "1f044e1aabe9db4c",
-    "title": "Embodied Cognition and Agentic AI",
-    "url": "https://lemire.me/blog/2026/05/28/embodied-cognition-and-agentic-ai/",
-    "source": "Hacker News",
-    "date": "2026-05-29",
-    "summary": "",
-    "hn": {
-      "points": 4,
-      "comments": 0,
-      "discussion": "https://news.ycombinator.com/item?id=48325218"
-    },
     "tags": [],
     "topics": [],
     "kinds": []
