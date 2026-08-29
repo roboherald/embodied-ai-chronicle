@@ -48,6 +48,17 @@
     "kinds": []
   },
   {
+    "id": "61d7960a0b0bb66e",
+    "title": "WRC2026 | 别急着给机器人更强「大脑」，先补上更省电的神经系统",
+    "url": "https://www.leiphone.com/category/iot/wSd8yNXuuYwSg9hp.html",
+    "source": "雷峰网",
+    "date": "2026-08-28",
+    "summary": "类脑计算正从感知和低层控制切入机器人。 作者丨 魏溶 编辑丨 岑峰 “如果未来全球真的部署10亿至100亿台高度依赖AI的人形机器人，今天这套计算方式，还供得起电吗？” 德国慕尼黑工业大学教授Alois Knoll 在2026世界机器人大会“类脑智算，让机器人学会自主决策”圆桌会议开场时提出了这个问题。 过去讨论计算中心，人们习惯谈千万亿次浮点运算、百亿亿次浮点运算；如今，随着AI基础设施不断扩张，数据中心的建设规模越来越多地与吉瓦级电力联系在一起，算力的度量衡，正在从“百亿亿次浮点运算（Exaflops）”变成“吉瓦级功耗（Gigawatts）”。…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
     "id": "e0a7fda848e25a75",
     "title": "《时代》周刊全球AI 100放榜，精准捕获稚晖君最“想低调”的幕后老板",
     "url": "https://www.qbitai.com/2026/08/480666.html",
@@ -56,6 +67,32 @@
     "summary": "久久不愿来到台前的智元掌舵人",
     "tags": [],
     "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "b961c98f989e652f",
+    "title": "Chinese automakers are following Tesla’s bet that robots are the next big profit machine",
+    "url": "https://techcrunch.com/2026/08/28/chinese-automakers-are-following-teslas-bet-that-robots-are-the-next-big-profit-machine/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-08-28",
+    "summary": "Technical progress has encouraged a new batch of companies to jump in on the promise of profits from humanoid robots. And they're all Chinese automakers.",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "98dfe2746ae50056",
+    "title": "Video Friday: Meet Microduck",
+    "url": "https://spectrum.ieee.org/video-friday-microduck-robot",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-08-28",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids Summit Seoul : 22–23 Sep…",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
     "kinds": []
   },
   {
@@ -466,8 +503,8 @@
     "date": "2026-08-27",
     "summary": "",
     "hn": {
-      "points": 45,
-      "comments": 28,
+      "points": 47,
+      "comments": 31,
       "discussion": "https://news.ycombinator.com/item?id=49466715"
     },
     "tags": [],
@@ -13862,22 +13899,6 @@
       "points": 3,
       "comments": 0,
       "discussion": "https://news.ycombinator.com/item?id=48140185"
-    },
-    "tags": [],
-    "topics": [],
-    "kinds": []
-  },
-  {
-    "id": "dd9960c90c4006ce",
-    "title": "The Data Layer Tax for Robot Learning",
-    "url": "https://rerun.io/blog/data-layer-tax",
-    "source": "Hacker News",
-    "date": "2026-04-30",
-    "summary": "",
-    "hn": {
-      "points": 7,
-      "comments": 0,
-      "discussion": "https://news.ycombinator.com/item?id=47961506"
     },
     "tags": [],
     "topics": [],
