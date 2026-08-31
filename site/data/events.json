@@ -1,5 +1,56 @@
 [
   {
+    "id": "0160d388176a28dd",
+    "title": "今年的研发预算将超20亿，小鹏机器人凭什么值400多亿？",
+    "url": "https://www.leiphone.com/category/transportation/EJrElOTA0bHDOd60.html",
+    "source": "雷峰网",
+    "date": "2026-08-31",
+    "summary": "8月24日，小鹏公布二季度财报。 财报显示，今年上半年，小鹏研发投入达到58.2亿元，同比增长39%。据了解，小鹏今年全年研发预算约为120亿元，其中约50亿元投入汽车业务，另外70亿元投向物理AI相关领域，人形机器人IRON正是其中的重要投入方向。 雷峰网了解到，在机器人这一单一业务上，小鹏今年的投入预计就将超过20亿元。这笔钱主要投向机器人研发人员、高质量数据采集以及物理AI模型训练。我们还了解到，小鹏为机器人业务单独配置了万卡级算力集群，用于AI大脑训练。 相比之下，目前国内多数具身智能公司的算力规模仍在数百卡至数千卡之间。小鹏正在把机器人AI训…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "6b26ea6455f10f48",
+    "title": "定义物理 AI 新纪元：昂首 EV1 智能出行机器人落地深圳湾 INNO100，开启中国市场线下首发",
+    "url": "https://www.leiphone.com/category/weiwu/XIbqyD3TWrDeuFCh.html",
+    "source": "雷峰网",
+    "date": "2026-08-31",
+    "summary": "2026 年 8 月 29 日，全球领先的物理 AI 与机器人创新企业若创科技（昂首 Strutt）于深圳湾 INNO100 全球创新旗舰店正式举行中国线下首发仪式，展示旗下旗舰产品——昂首 EV1 智能出行机器人。 作为累计完成近亿美元融资的硬科技领军者，昂首 Strutt 以前瞻性的个人移动体验为切入点，正加速推动“物理 AI”技术走向消费级规模化应用。 以端到端架构，重构个人移动体验 雷峰网了解到，昂首团队拒绝将个人出行设备降维定义为传统的辅助代步工具，而是将其打造为集“感知、决策、控制与动力”于一体的全新智能终端。 • 双核心工程架构 ： EV…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "f2a0380f36ec9e4e",
+    "title": "The U.S. is building barriers around drones and robots, but China has scale to get around them",
+    "url": "https://techcrunch.com/2026/08/30/the-u-s-is-building-barriers-around-drones-and-robots-china-still-has-scale/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-08-31",
+    "summary": "The U.S. is shutting out more foreign-made drones and robots. China’s scale means the global competition may simply move elsewhere.",
+    "tags": [],
+    "topics": [],
+    "kinds": [
+      "无人机"
+    ]
+  },
+  {
+    "id": "9338b4f902feda98",
+    "title": "China's robots race ahead",
+    "url": "https://www.theverge.com/tech/986167/china-humanoid-robot-games-race",
+    "source": "Hacker News",
+    "date": "2026-08-30",
+    "summary": "",
+    "hn": {
+      "points": 5,
+      "comments": 3,
+      "discussion": "https://news.ycombinator.com/item?id=49499298"
+    },
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
     "id": "2fb3fa6b0c8f033b",
     "title": "去年归国的徐梦迪，成了清华姚班班主任",
     "url": "https://www.qbitai.com/2026/08/481318.html",
@@ -79,6 +130,139 @@
     "tags": [],
     "topics": [],
     "kinds": []
+  },
+  {
+    "id": "c84b9322b4eccc65",
+    "title": "ChainSplat: A Physics-Inspired Screw-Theoretic Model for Learning Deformable Linear Object Dynamics from Multi-View RGB Videos",
+    "url": "https://arxiv.org/abs/2608.28570v1",
+    "source": "arXiv",
+    "date": "2026-08-28",
+    "summary": "Identifying the underlying dynamics and 3D geometry of deformable linear objects (DLOs), such as cables, ropes, and hoses, is essential for accurate robotic manipulation, but remains challenging due to their high-dimensional configuration spaces and diverse behaviors arising fro…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "c0c1849bc7160bdc",
+    "title": "When Robots Mishear Us: Mapping the Safety Risks of Voice-Controlled Embodied AI",
+    "url": "https://arxiv.org/abs/2608.28518v1",
+    "source": "arXiv",
+    "date": "2026-08-28",
+    "summary": "We investigate whether automatic speech recognition (ASR) errors in user input can lead to unsafe outputs from Embodied AI (EAI) models. We find that ASR errors can lead to harmful instructions being accepted and executed by EAI models, thereby reducing safety. We simulate ASR e…",
+    "tags": [],
+    "topics": [],
+    "kinds": [
+      "安全与可信"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "c2095c220a1f6b0a",
+    "title": "CoCoBench: A Cooperative Coordination Benchmark for Embodied Multi-Agent Task Planning",
+    "url": "https://arxiv.org/abs/2608.28266v1",
+    "source": "arXiv",
+    "date": "2026-08-28",
+    "summary": "Agent systems powered by multimodal large language models (MLLMs) have advanced rapidly in recent years, yet existing embodied-agent benchmarks still lack fine-grained diagnostics for multi-agent coordination. Most benchmarks either focus on single-agent task completion or summa…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "仿真与Sim2Real"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "007996a3264ea080",
+    "title": "PAMoR: Parameterized Affective Motion Generation in Real Time for Humanoid Robots",
+    "url": "https://arxiv.org/abs/2608.28213v1",
+    "source": "arXiv",
+    "date": "2026-08-28",
+    "summary": "People read a humanoid robot's motion in social settings not only for the action performed but for the affect conveyed. Motion carrying that affect has so far been generated for human avatars, where style is taken from a reference clip or an emotion word, neither of which can be…",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "bbba1fa2a06d3616",
+    "title": "From Small Talk to Rapport: Exploring Robot Self-Disclosure in Collaborative Tasks",
+    "url": "https://arxiv.org/abs/2608.28154v1",
+    "source": "arXiv",
+    "date": "2026-08-28",
+    "summary": "People naturally chat while collaborating and share personal information (i.e., self-disclose) to build rapport and maintain social connections. As robots are increasingly developed to work with people, the effective use of these social behaviors to enhance engagement and suppor…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "1e04006d24103f51",
+    "title": "Contact-Guided Exploration for Non-Prehensile Locomanipulation with Multi-Critic RL",
+    "url": "https://arxiv.org/abs/2608.28140v1",
+    "source": "arXiv",
+    "date": "2026-08-28",
+    "summary": "Non-prehensile manipulation offers versatile skills for moving and rearranging heavy or bulky objects, particularly when combined with a mobile manipulation platform. However, both model-based and model-free approaches struggle with the complex hybrid dynamics and the sparsity o…",
+    "tags": [],
+    "topics": [
+      "世界模型",
+      "灵巧手与操作",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "ETH Zürich",
+      "NVIDIA"
+    ]
+  },
+  {
+    "id": "3df83502ec9ed951",
+    "title": "DeicticVLA: Unifying Instruction Modes Based on Language and Deictic Gestures in a Single VLA",
+    "url": "https://arxiv.org/abs/2608.28108v1",
+    "source": "arXiv",
+    "date": "2026-08-28",
+    "summary": "Vision-Language-Action models (VLAs) allow users to specify manipulation tasks in natural language, but distinguishing a target or placement goal among objects of the same category or similar appearance requires detailed expressions that VLAs may not use reliably. We propose Dei…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "eb703b6d0b1b82b6",
+    "title": "Stay Seated: Learning Omnidirectional Humanoid Locomotion on a Passive Mobile Chair with Casters",
+    "url": "https://arxiv.org/abs/2608.28090v1",
+    "source": "arXiv",
+    "date": "2026-08-28",
+    "summary": "Humanoid robots with quasi-direct-drive actuators continuously generate joint torque while standing, whereas seated humans delegate weight support to chairs during desk work. As a first step toward seated loco-manipulation, we study omnidirectional seated locomotion on a passive…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "灵巧手与操作",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "b5fa1f176e00a76d",
+    "title": "Plan Along the Way: Event-Triggered Foundation-Model Planning for TAMP Execution in Partially Observable Manipulation",
+    "url": "https://arxiv.org/abs/2608.28075v1",
+    "source": "arXiv",
+    "date": "2026-08-28",
+    "summary": "Manipulation in partially observable environments requires planning under incomplete scene information. In such settings, an initially valid plan may execute successfully yet remain insufficient for task completion. Existing foundation-model-guided task and motion planning (TAMP…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "b961c98f989e652f",
@@ -475,6 +659,78 @@
       "移动与四足"
     ],
     "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "393fef6bced906c2",
+    "title": "Coordinated Motion Planning for Multi-Arm Systems via Iterative LQ Games",
+    "url": "https://arxiv.org/abs/2608.27726v1",
+    "source": "arXiv",
+    "date": "2026-08-27",
+    "summary": "Multi-agent motion planning for high-degree-of-freedom robotics manipulators in shared workspaces remains a fundamental yet challenging problem. Centralized planners often suffer from poor scalability, while decentralized approaches face robustness and safety concerns. Game-theo…",
+    "tags": [],
+    "topics": [],
+    "kinds": [
+      "安全与可信"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "1f8bfe31a4992f17",
+    "title": "PHR-VLA: Planning Horizon Reasoning for Vision-Language-Action Models",
+    "url": "https://arxiv.org/abs/2608.27609v1",
+    "source": "arXiv",
+    "date": "2026-08-27",
+    "summary": "Vision-language-action models (VLAs) have shown strong promise for general-purpose robotic manipulation by mapping language instructions and vision observations directly to actions. However, most VLAs primarily condition action prediction on current observations and lack an expl…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "85c04f0e37e118b3",
+    "title": "Beyond Data Scaling: Representation-Centric Continued Pre-training for Vision-Language-Action Models",
+    "url": "https://arxiv.org/abs/2608.27550v1",
+    "source": "arXiv",
+    "date": "2026-08-27",
+    "summary": "Scaling robot data is crucial for building generalist Vision-Language-Action (VLA) models, yet robot trajectories are harder to scale than web-scale image-text data because embodied collection is costly and sparsely covers the physical world. This makes representation quality a…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "48ee454384153c4f",
+    "title": "Remote Human and Robot Interaction for Greenhouse Gardening Using Virtual Reality",
+    "url": "https://arxiv.org/abs/2608.27545v1",
+    "source": "arXiv",
+    "date": "2026-08-27",
+    "summary": "This study evaluates the effectiveness of remote human-robot interaction using virtual reality for leaf inspection and soil moisture assessment in a greenhouse environment. The robotic system comprised an unmanned ground vehicle and a robotic manipulator equipped with cameras, g…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "8b81be17ba584274",
+    "title": "GRAFT: Grounded and Efficient Online Reinforcement Adaptation for Fine-Grained Robot Manipulation",
+    "url": "https://arxiv.org/abs/2608.27079v2",
+    "source": "arXiv",
+    "date": "2026-08-27",
+    "summary": "Pretrained vision-language-action (VLA) policies provide strong priors for robot manipulation, yet adapting them online to fine-grained biomedical tasks remains challenging. Task success often hinges on subtle, view-dependent visual cues, while task-level rewards provide little…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [
+      "医疗应用"
+    ],
     "affiliations": []
   },
   {
@@ -1316,6 +1572,24 @@
     "kinds": []
   },
   {
+    "id": "98b148af855369d0",
+    "title": "Humanoid robots beat human records in the 100m, half-marathon, and high jump",
+    "url": "https://www.reuters.com/sports/chinese-humanoid-robot-lightning-beats-human-100m-world-record-state-media-says-2026-08-22/",
+    "source": "Hacker News",
+    "date": "2026-08-25",
+    "summary": "",
+    "hn": {
+      "points": 11,
+      "comments": 8,
+      "discussion": "https://news.ycombinator.com/item?id=49439733"
+    },
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": []
+  },
+  {
     "id": "b59d751429948723",
     "title": "第二届世界人形机器人运动会火热进行中 京东“机器人之家”全周期保障参赛机器人",
     "url": "https://www.leiphone.com/category/industrynews/cxgGoqQ1ysJ7mCFe.html",
@@ -2142,22 +2416,6 @@
     "topics": [
       "人形机器人"
     ],
-    "kinds": []
-  },
-  {
-    "id": "98b148af855369d0",
-    "title": "Chinese robot beats Usain Bolt's 100M world record at Beijing games",
-    "url": "https://www.reuters.com/sports/chinese-humanoid-robot-lightning-beats-human-100m-world-record-state-media-says-2026-08-22/",
-    "source": "Hacker News",
-    "date": "2026-08-22",
-    "summary": "",
-    "hn": {
-      "points": 7,
-      "comments": 0,
-      "discussion": "https://news.ycombinator.com/item?id=49403981"
-    },
-    "tags": [],
-    "topics": [],
     "kinds": []
   },
   {
