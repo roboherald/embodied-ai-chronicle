@@ -1,5 +1,685 @@
 [
   {
+    "id": "65afb3b36eb366a8",
+    "title": "具身智能落地的最后20%，藏在「云」里",
+    "url": "https://www.leiphone.com/category/industrycloud/31pSSHUoPdFy7U3E.html",
+    "source": "雷峰网",
+    "date": "2026-09-04",
+    "summary": "今年的WAIC和WRC，具身智能展台的风向变了：不再执着于炫技，转向务实。 去年的画风还是十八般武艺，同台竞技——机器人跳街舞、格斗秀、走猫步等；而今年则是走进真实场景：机器人开始被放进物流、工业、家庭等具体任务里。 过去一个多月，雷峰网一线走访了灵初智能、艾欧智能等具身智能公司，也看了各厂商在展台上的演示，一个感受越来越强烈： 真实场景里的任务，远比Demo脚本复杂得多。 在走访和交流中，雷峰网也与多位云专家进行了交流。当被问及机器人落地、商业化时，一位云专家表示，具身智能存在明显的“长尾效应”： 前60%、70%、80%的进展可能很快，但最后20%…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "314bc1e3b6bdd1bd",
+    "title": "一池水，困住了中国机器人",
+    "url": "https://www.leiphone.com/category/robot/GUsHwBXVwOMwzSZG.html",
+    "source": "雷峰网",
+    "date": "2026-09-04",
+    "summary": "01 十秒钟 2026年，一家泳池机器人创业公司CEO冯浅开始认真算一笔账。 如果有传统家电公司或渠道企业愿意接手公司，多少钱可以卖？ “两三倍PS，就可以谈。” 几年前，他还不是这么想的。 公司第一批货发往海外时，只有几百台。上市前，团队在Facebook上付费招募用户填写问卷，把回收结果一条条写进产品定义。 按照研发团队的理解，这应该是一台更“智能”的泳池机器人：横放、竖放可以切换不同工作模式；连上App，可以控制方向、查看电量、设置定时任务。 然后，退货率很快冲到30%以上。 问题出在开机后的前10秒。 按下开关后，机器需要完成初始化。可不少用户…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "41bd142ad3667913",
+    "title": "卡车自动驾驶里程超10亿公里，嬴彻科技定义“货运物理AI”",
+    "url": "https://www.qbitai.com/2026/09/483598.html",
+    "source": "量子位",
+    "date": "2026-09-04",
+    "summary": "吃下90%市场",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "94d7322d5c499f46",
+    "title": "全栈自研+生态协同：灵心巧手与产业链核心伙伴共建中国具身智能Tier1产业联盟",
+    "url": "https://www.leiphone.com/category/robot/JjxeXP5ggz1y4t36.html",
+    "source": "雷峰网",
+    "date": "2026-09-03",
+    "summary": "2026年9月2日，由灵心巧手与星源智共同发起，联合奥比中光、法奥机器人、福莱新材、禾赛科技、华威科、览沃科技、朗毅机器人、灵猴机器人、珞石机器人、迈尔微视、钕娲创造、泉智博、森云智能、速腾聚创、他山、无问智科、讯飞机器人超脑平台、鑫精诚、移远通信、知行具身、纵贯线等20余家产业链核心企业组成的“中国具身智能Tier1产业联盟”正式成立。 联盟成员完整覆盖具身大脑、灵巧手、语音交互、视觉感知、激光雷达、机械臂、移动底盘、无线通信、热管理、传感器等关键环节。作为联盟创始成员，灵心巧手将与联盟企业，围绕跨硬件适配、跨本体部署、场景验证三大主轴，推动具身智能…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "f643ac69a26fb3e0",
+    "title": "ZINOVA携手逐际动力，探索机器人在复杂建筑施工中的应用",
+    "url": "https://www.leiphone.com/category/robot/TaL9FUorWHBFyKzT.html",
+    "source": "雷峰网",
+    "date": "2026-09-03",
+    "summary": "近日，物理AI研发公司 ZINOVA 基于逐际动力TRON 2双臂具身机器人，联合建筑机器人公司RIC Robotics完成了混凝土倾覆板（Tilt-up Construction）缩比施工场景演示，覆盖支模组框、多层钢筋铺设与绑扎等核心工序。雷峰网了解到， 此次POC验证了具身机器人使用现有工具参与复杂施工流程的可行性，也是垂直行业创新企业基于通用机器人平台开发行业应用的又一次原创性实践。 TRON 2双臂具身机器人 创新 构型完成混凝土倾覆板缩比施工场景演示 ZINOVA 探索工具智能，让机器人“学会用工具” ZINOVA 是一家专注物理AI的研发…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "13cdf7dc44fff869",
+    "title": "机械臂做到第10步就容易出错？一个 2B 模型靠动态调整注意力解决了 | IJCAI 2026",
+    "url": "https://www.leiphone.com/category/private/wTgqKxi0pIXPuau0.html",
+    "source": "雷峰网",
+    "date": "2026-09-03",
+    "summary": "S²-VLA 引入信念状态和自适应动态门控，仅用2B参数、7GB显存，长程操控超越7B模型。 作者丨 张 璐 编辑丨 幸丽娟 过去一段时间，Scaling Law 在具身智能里被看得很重。为了让机械臂完成复杂的搬运、对准和组合，多数工作把视觉-语言-动作（VLA）模型做到 7B 甚至 8.5B。参数变大后，语义理解和场景识别确实更强了，但长程操控里的不稳定问题并没有随之消失。 很多大参数量 VLA 在执行到第 10 步或更后面时会出现突然失败。核心原因是累积误差放大（Cumulative Error Propagation）：早期哪怕只有毫米级定位偏差…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "cf80e36e3cf53c78",
+    "title": "把 Gemini 和 GPT 放到《我的世界》当教练，谁能看懂机器人的微操？",
+    "url": "https://www.leiphone.com/category/private/Q0PAUayVomQIhiFv.html",
+    "source": "雷峰网",
+    "date": "2026-09-03",
+    "summary": "Gemini 领跑，GPT表现平平，国立清华、英伟达提出双奖励孪生网络，告别算力焦虑。 作者丨 张 璐 编辑丨 幸丽娟 VLM大模型（VLM）在静态视觉与推理任务上已展现出强悍能力。然而在具身智能领域，当模型需要面对复杂的动态交互与机械臂控制时，它们能否准确评估智能体的动作与画面变化，依然是一个待检验的问题。 过去不少人以为，能“看懂画面”就意味着能“当好教练”。但对具身智能来说，从识别场景到精准评估动作进展，完全是两码事。 为了厘清各大模型在真实动作评估中的底细， 国立 清华大学 与 NVIDIA 联合团队 在最新研究《VLM-AR3L: Visio…",
+    "tags": [
+      "NVIDIA"
+    ],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "4d2887ec40ee809f",
+    "title": "一个模型场景通吃！它石智航AWE3.7的泛化能力有点狠",
+    "url": "https://www.qbitai.com/2026/09/483565.html",
+    "source": "量子位",
+    "date": "2026-09-03",
+    "summary": "从工厂一路干到家庭",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "422ff6d6f66f2443",
+    "title": "神秘具身团队又放出一连串很炸的Demo视频…自进化模型，技术路线曝光",
+    "url": "https://www.qbitai.com/2026/09/483552.html",
+    "source": "量子位",
+    "date": "2026-09-03",
+    "summary": "",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "a8cb3fbf2b359bd0",
+    "title": "今年最难的机器人Demo，“机器人含量”为0",
+    "url": "https://www.qbitai.com/2026/09/483351.html",
+    "source": "量子位",
+    "date": "2026-09-03",
+    "summary": "遥操，可能真的危险了",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "eb81a4582efd434b",
+    "title": "GIFT: Guided Intermediate Feature Training via Action-Oriented Structural Supervision for Robotic Manipulation",
+    "url": "https://arxiv.org/abs/2609.04193v1",
+    "source": "arXiv",
+    "date": "2026-09-03",
+    "summary": "Vision-language pre-training and predictive world modeling provide robot policies with rich semantic and dynamic visual features, but their native action and visual-prediction objectives may omit critical physical and task structure while retaining control-irrelevant visual redu…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "世界模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "中科院",
+      "复旦大学",
+      "新加坡国立",
+      "清华大学"
+    ]
+  },
+  {
+    "id": "99206362ddc639d1",
+    "title": "A Low-Cost, Open Platform for End-to-End Autonomous Driving on a Miniature Ackermann Vehicle",
+    "url": "https://arxiv.org/abs/2609.04147v1",
+    "source": "arXiv",
+    "date": "2026-09-03",
+    "summary": "This paper presents a low-cost, open experimental platform for research in end-to-end autonomous driving with miniature Ackermann vehicles. The platform combines a physical vehicle, a printed urban track, data collection tools, trajectory registration, and a Webots digital twin,…",
+    "tags": [],
+    "topics": [
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "44a5b16aa504321f",
+    "title": "Continuous Actions from Discrete Minds: Latent-Aligned Planning for End-to-End Autonomous Driving",
+    "url": "https://arxiv.org/abs/2609.04070v1",
+    "source": "arXiv",
+    "date": "2026-09-03",
+    "summary": "Bridging the gap between the discrete reasoning of Vision-Language Models and the continuous, physics-constrained nature of autonomous driving remains a significant challenge. In this work, we introduce LaPla, a unified Vision-Language-Action (VLA) framework featuring latent-ali…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "华为",
+      "香港科技大学"
+    ]
+  },
+  {
+    "id": "adf0d245c7119f25",
+    "title": "MulDP: Multimodal Diffusion Policy for Autonomous Quadruped Parkour Navigation across Complex Terrains",
+    "url": "https://arxiv.org/abs/2609.03984v1",
+    "source": "arXiv",
+    "date": "2026-09-03",
+    "summary": "Quadruped robots have demonstrated impressive agility in parkour locomotion across complex terrains. However, most systems still rely on human intervention for high-level planning, and autonomous parkour navigation remains underexplored. The key challenges include fine-grained v…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "复旦大学"
+    ]
+  },
+  {
+    "id": "15567f273120b9a4",
+    "title": "Toward Unified Robot Learning: Bridging Representation, Vision-Language-Action, and World Models",
+    "url": "https://arxiv.org/abs/2609.03927v1",
+    "source": "arXiv",
+    "date": "2026-09-03",
+    "summary": "For robots to operate reliably in real-world environments, they need to perceive their surroundings, act, and reason about the consequences of those actions. Rapid progress in the domains of representation learning, VLA models, and world models has significantly enhanced the cap…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "世界模型"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "CMU"
+    ]
+  },
+  {
+    "id": "c0420fad954b355d",
+    "title": "FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation",
+    "url": "https://arxiv.org/abs/2609.03889v1",
+    "source": "arXiv",
+    "date": "2026-09-03",
+    "summary": "Contact-rich loco-manipulation requires a bridge between semantic action generation and physical interaction control. Existing Vision-language-action (VLA) models generate task-level actions from visual and linguistic observations, but cannot interpret the physical interactions…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "5672393fabd643d9",
+    "title": "A comparative study on the accuracy & repeatability of mobile robotic platforms for the delivery of precision NDE measurement",
+    "url": "https://arxiv.org/abs/2609.03794v1",
+    "source": "arXiv",
+    "date": "2026-09-03",
+    "summary": "Mobile robotic platforms offer a flexible alternative to fixed manipulators for non-destructive evaluation (NDE) of large aerospace structures, but their base-positioning accuracy and how that accuracy should inform deployment have not been assessed under a common, externally re…",
+    "tags": [],
+    "topics": [
+      "移动与四足"
+    ],
+    "kinds": [
+      "产业动态"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "c7305061c6ea334b",
+    "title": "Rethinking World Models for Safety-Critical Embodied Systems",
+    "url": "https://arxiv.org/abs/2609.03774v1",
+    "source": "arXiv",
+    "date": "2026-09-03",
+    "summary": "World models have progressed from compact latent dynamics to generative, controllable, and interactive simulators of embodied environments. However, high predictive likelihood and visual fidelity do not necessarily ensure that a model preserves the evidence required for safe dec…",
+    "tags": [],
+    "topics": [
+      "世界模型",
+      "仿真与Sim2Real"
+    ],
+    "kinds": [
+      "安全与可信"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "68c704e0e03da815",
+    "title": "MINERVA: How Small Can a Manipulation Policy Be and Still Solve LIBERO?",
+    "url": "https://arxiv.org/abs/2609.03715v1",
+    "source": "arXiv",
+    "date": "2026-09-03",
+    "summary": "Vision-language-action (VLA) models with billions of parameters now dominate the LIBERO manipulation benchmark, but the model capacity actually required by the benchmark remains unclear. We introduce MINERVA (MINimal Efficient Robotic Vision-Action policy), a family of deliberat…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "仿真与Sim2Real",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "东京大学"
+    ]
+  },
+  {
+    "id": "9cb1624c3e0f59f0",
+    "title": "WISE: World-model-guided Imagination Scheduling for Efficient Post-training of Vision-Language-Action Models",
+    "url": "https://arxiv.org/abs/2609.03681v1",
+    "source": "arXiv",
+    "date": "2026-09-03",
+    "summary": "Post-training VLA policies typically rely on supervised fine-tuning with costly expert demonstrations or reinforcement learning with expensive and potentially unstable real-world exploration. World models offer a promising alternative by evaluating candidate behaviors through im…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "世界模型",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "北京智源",
+      "清华大学"
+    ]
+  },
+  {
+    "id": "86603e5084121c48",
+    "title": "QLAUN: A Research-Oriented, Robust, Agile, Modular, and Affordable Torque-Controlled Quadruped Robot",
+    "url": "https://arxiv.org/abs/2609.03623v1",
+    "source": "arXiv",
+    "date": "2026-09-03",
+    "summary": "QLAUN Bot (Quad-Legged Adaptive Unmanned Navigator Robot) is a torque-controlled quadruped robot that is research-oriented, cost-effective, and aimed at achieving simultaneous robustness and agility while being completely 3D-printed. It is a quadruped robot that is aimed at empo…",
+    "tags": [],
+    "topics": [
+      "移动与四足"
+    ],
+    "kinds": [
+      "安全与可信"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "7bda62de9dba3164",
+    "title": "FailBench: How Reliable are VLMs at Judging Robot Task Success?",
+    "url": "https://arxiv.org/abs/2609.03611v1",
+    "source": "arXiv",
+    "date": "2026-09-03",
+    "summary": "Vision-Language Models (VLMs) are increasingly used to evaluate robot manipulation outcomes, but existing benchmarks offer limited evidence of cross-domain generalization. We introduce FailBench, a benchmark for robot failure detection comprising 2,197 manipulation attempts acro…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "仿真与Sim2Real",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "d68d42a816b3ca21",
+    "title": "Scaling Bimanual Household Manipulation from 1,500 hours of Demonstrations to On-Policy Corrections",
+    "url": "https://arxiv.org/abs/2609.03591v1",
+    "source": "arXiv",
+    "date": "2026-09-03",
+    "summary": "Learning generalist policies for robust bimanual manipulation is bottlenecked by the scarcity of high quality large scale human demonstration data. In this work, we release 1,500 hours of diverse bimanual manipulation demonstrations covering everyday household tasks, and use thi…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "北京大学"
+    ]
+  },
+  {
+    "id": "52189449660735a7",
+    "title": "BRIDGE: An Open-Source Humanoid Platform via Morphology-Control Co-Design for Physical AI",
+    "url": "https://arxiv.org/abs/2609.03497v1",
+    "source": "arXiv",
+    "date": "2026-09-03",
+    "summary": "Developing humanoid robots capable of leveraging human behavioral data is essential for general-purpose embodiment, yet conventional development remains bottlenecked by a decoupled paradigm that isolates hardware design from whole-body control. This approach leads to suboptimal…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "CMU",
+      "华中科技大学"
+    ]
+  },
+  {
+    "id": "b053b1880a1efddd",
+    "title": "Programming and execution of skill-based human-robot-crane collaborative tasks",
+    "url": "https://arxiv.org/abs/2609.03392v1",
+    "source": "arXiv",
+    "date": "2026-09-03",
+    "summary": "Highly varying production sets increasing challenges for robotic manufacturing and indoor logistics. New capabilities for agility, flexibility, and robustness are needed. Robot skills, integrating motions, tool operations, and sensor perceptions consistently provide an execution…",
+    "tags": [],
+    "topics": [
+      "感知与传感"
+    ],
+    "kinds": [
+      "安全与可信"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "64e1581c642f87d2",
+    "title": "ARTiS: An Adaptive Robotic Gripper for Enhanced Tool Manipulation in Disassembly Applications",
+    "url": "https://arxiv.org/abs/2609.03362v1",
+    "source": "arXiv",
+    "date": "2026-09-03",
+    "summary": "Grasping and holding tools while using them presents a considerable challenge not only for robots but also for humans. Such a challenge is particularly noticeable in processes involving assembly and disassembly, where efficiency and consistency depend on performing rapidly adapt…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "bb2208cb8c0342e0",
+    "title": "R2S-Eval: Robot Evaluation with Real-to-Sim Calibration via Vision-Language Models",
+    "url": "https://arxiv.org/abs/2609.03276v1",
+    "source": "arXiv",
+    "date": "2026-09-03",
+    "summary": "Evaluating robot manipulation policies is becoming increasingly important as generalist models, particularly vision-language-action (VLA) models, are deployed on physical robots. However, conventional real-world evaluation remains labor-intensive, unstable, and insufficiently in…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [
+      "产业动态"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "68a5e9d4269ae671",
+    "title": "Long-Horizon Consistent and Interaction-Aware World Models for Multi-Style End-to-End Driving",
+    "url": "https://arxiv.org/abs/2609.03225v1",
+    "source": "arXiv",
+    "date": "2026-09-03",
+    "summary": "End-to-end autonomous driving has increasingly adopted world model-based reinforcement learning frameworks to improve learning efficiency through \\textit{imagined rollouts}. However, existing world models suffer from three key limitations: temporal inconsistency in long-horizon…",
+    "tags": [],
+    "topics": [
+      "世界模型"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "哈尔滨工业大学"
+    ]
+  },
+  {
+    "id": "c44bf13fec8fdf8b",
+    "title": "Protecting Dynamic Industrial Robot Cable Carriers",
+    "url": "https://spectrum.ieee.org/industrial-robot-cable-carrier-protection",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-09-03",
+    "summary": "This article is brought to you by Tsubaki KabelSchlepp . In modern automated manufacturing, six-axis articulated robots perform high-speed, multidirectional maneuvers under demanding operational cycles. However, as robot arms swivel, rotate, and extend, the electrical cables, fi…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "afde8495f51dbc87",
+    "title": "The Best Way to Explore Lunar Craters Is a Giant Robot Ball",
+    "url": "https://spectrum.ieee.org/moon-ball-robot",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-09-03",
+    "summary": "On a good day, the rock quarry in central Texas is about 370,000 kilometers (230,000 miles) from the moon. But last February, when Rishi Jangale watched his 1.8-meter-wide, 150-kilogram inflatable robot roll effortlessly over rocks, gravel, and wet clay, his imagination turned t…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "470f853d79395b40",
+    "title": "The humanoid robots cleaning homes for $30 an hour",
+    "url": "https://www.nbcnews.com/video/humanoid-robots-cleaning-homes-for-30-an-hour-269041733517",
+    "source": "Hacker News",
+    "date": "2026-09-03",
+    "summary": "",
+    "hn": {
+      "points": 5,
+      "comments": 4,
+      "discussion": "https://news.ycombinator.com/item?id=49546184"
+    },
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "b63d3c38f78e8687",
+    "title": "RoboTok: An Internet-Scale Data Engine for Human Demonstration Retrieval and Dexterous Manipulation Learning",
+    "url": "https://arxiv.org/abs/2609.03199v1",
+    "source": "arXiv",
+    "date": "2026-09-02",
+    "summary": "Robot learning increasingly depends on broad and diverse demonstrations, yet collecting robot data remains expensive and poorly suited to covering the long tail of real-world tasks. To address this bottleneck, we introduce RoboTok, an internet-scale data engine that, given a que…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "NVIDIA"
+    ]
+  },
+  {
+    "id": "9905e3ce5402db2a",
+    "title": "Sensing Which Modality Matters: Evidence-Gated Regularization for Robust VLA Policies",
+    "url": "https://arxiv.org/abs/2609.03142v1",
+    "source": "arXiv",
+    "date": "2026-09-02",
+    "summary": "Vision-Language-Action (VLA) policies fuse multimodal sensory inputs, but training on limited and homogeneous robot demonstrations encourages spurious inter-sensor correlations rather than task-relevant signal, a failure we term modality entanglement. Under real-world occlusions…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "感知与传感",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "d0d7121b3c255a14",
+    "title": "HINT: Human-Intent Inception for Long-Horizon Robot Manipulation",
+    "url": "https://arxiv.org/abs/2609.02653v1",
+    "source": "arXiv",
+    "date": "2026-09-02",
+    "summary": "Humans can perform complex manipulations given a simple intent through an overall instruction, while continuously adapting to evolving visual observations. However, current vision-language action (VLA) models and other action policies struggle to realize this high-level intellig…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "上海交通大学",
+      "浙江大学"
+    ]
+  },
+  {
+    "id": "0a0d920697965fa9",
+    "title": "Latent Cluster Analysis for Vision-Language-Action Models",
+    "url": "https://arxiv.org/abs/2609.02634v1",
+    "source": "arXiv",
+    "date": "2026-09-02",
+    "summary": "Vision-Language-Action (VLA) Models are increasingly used in robotics for their ability to ground language and perception into action, yet the internal representations driving their behaviour remain poorly understood. We propose LAVLA, a framework for latent cluster analysis of…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "感知与传感"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "90bae02d5514a2ba",
+    "title": "Advancing Accessible Underwater Robotics: The Mini-Girona I-AUV at RAMI 2025",
+    "url": "https://arxiv.org/abs/2609.02605v1",
+    "source": "arXiv",
+    "date": "2026-09-02",
+    "summary": "The Mini-Girona Intervention Autonomous Underwater Vehicle (I-AUV) represents an advancement in accessible underwater robotics, designed to bridge the gap between costly, specialized research AUVs and basic Remotely Operated Vehicles (ROVs). Developed with a focus on affordabili…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "927427a9b43b122c",
+    "title": "ZETA: A Controlled Study of Zero-Shot Cross-Embodiment VLA Transfer for Tabletop Manipulation",
+    "url": "https://arxiv.org/abs/2609.02546v1",
+    "source": "arXiv",
+    "date": "2026-09-02",
+    "summary": "Zero-shot generalization to unseen embodiments is important for generalizable vision-language-action (VLA) models as robot hardware evolves and task-specific data collection remains costly. However, a systematic understanding of this problem remains limited, in part because the…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "北京大学",
+      "北京航空航天大学",
+      "银河通用",
+      "香港大学"
+    ]
+  },
+  {
+    "id": "581ebf2cc787901b",
+    "title": "World-Model-Augmented Visual Locomotion for Humanoids on Foothold-Constrained Terrain",
+    "url": "https://arxiv.org/abs/2609.02542v1",
+    "source": "arXiv",
+    "date": "2026-09-02",
+    "summary": "Foothold-constrained terrain is characterized by sparse, discontinuous, or geometrically restricted feasible foot contacts, as encountered on stepping stones, across gaps, and on narrow stair treads. On such terrain, a single misstep often leaves little room to recover, so polic…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "哈尔滨工业大学"
+    ]
+  },
+  {
+    "id": "dddba5b1c192f37c",
+    "title": "MS-MEM: Multi-Skill Manipulation-Enhanced Mapping via Uncertainty- and Disturbance-Aware Action Selection",
+    "url": "https://arxiv.org/abs/2609.02493v1",
+    "source": "arXiv",
+    "date": "2026-09-02",
+    "summary": "Accurate scene understanding in confined, cluttered spaces such as shelves is essential for service robots, as many everyday tasks require them to locate and retrieve objects reliably. Yet, it remains challenging due to severe occlusions, restricted accessibility, and the need t…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "University of Bonn"
+    ]
+  },
+  {
+    "id": "9b78d68640c7bdce",
+    "title": "Humanoid Safe Stop via Learned Stoppability Value",
+    "url": "https://arxiv.org/abs/2609.02358v1",
+    "source": "arXiv",
+    "date": "2026-09-02",
+    "summary": "Humanoid robots responding to emergency stop commands typically execute a fixed maneuver, without reasoning about whether a safe stop is actually feasible from the current state. We cast emergency stopping as a reach-avoid problem and propose Safe-Stop, a task-agnostic framework…",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "CMU",
+      "Stanford",
+      "UC Berkeley"
+    ]
+  },
+  {
+    "id": "15220b94832c856d",
+    "title": "LookStep: Efficient Vision-Language Navigation with Linguistic Foresight and Event Driven Memory",
+    "url": "https://arxiv.org/abs/2609.02350v1",
+    "source": "arXiv",
+    "date": "2026-09-02",
+    "summary": "Vision-Language Navigation (VLN) requires an embodied agent to follow natural-language instructions in unseen environments. Recent progress has been largely driven by Multimodal Large Language Models (MLLMs). Existing methods follow a next-step action prediction paradigm, superv…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "3bfeb9adcdaec0a5",
+    "title": "Contact-Constrained Lower-Limb Joint-Offset Calibration for Humanoid Robots",
+    "url": "https://arxiv.org/abs/2609.02306v1",
+    "source": "arXiv",
+    "date": "2026-09-02",
+    "summary": "Accurate joint encoder offsets are essential for kinematic consistency in humanoid lower limbs, yet existing calibration methods typically require external motion-capture systems or fiducial targets. We present a self-contained calibration framework exploiting only onboard joint…",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "a70f6f81c7ac9683",
+    "title": "FOCUS: Foot Observation Confidence for Robust Humanoid Proprioceptive Odometry",
+    "url": "https://arxiv.org/abs/2609.02222v1",
+    "source": "arXiv",
+    "date": "2026-09-02",
+    "summary": "Foot forward kinematics (FK) is widely used to improve proprioceptive legged odometry by providing reliable velocity constraints during foot support. Existing contact-aided estimators generally rely on binary contact decisions to determine whether the FK measurements of an entir…",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "f3b8c7fe39ca772c",
+    "title": "The Builders Stage brings practical strategies for scaling startups to TechCrunch Disrupt 2026",
+    "url": "https://techcrunch.com/2026/09/02/the-builders-stage-brings-practical-strategies-for-scaling-startups-to-techcrunch-disrupt-2026/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-09-02",
+    "summary": "The Builders Stage is returning to TechCrunch Disrupt, bringing together founders, startup operators, and investors for practical conversations on what it takes to build and scale.",
+    "tags": [],
+    "topics": [],
+    "kinds": [
+      "产业动态"
+    ]
+  },
+  {
+    "id": "a757f4cc32ea7cf0",
+    "title": "Why humanoid robots won't catch up to human workers any time soon",
+    "url": "https://www.understandingai.org/p/why-humanoid-robots-wont-catch-up",
+    "source": "Hacker News",
+    "date": "2026-09-02",
+    "summary": "",
+    "hn": {
+      "points": 37,
+      "comments": 72,
+      "discussion": "https://news.ycombinator.com/item?id=49535506"
+    },
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": []
+  },
+  {
     "id": "e24696fcac452a73",
     "title": "李飞飞、吴佳俊再联手，打破世界模型和机器人动作的「巴别塔」",
     "url": "https://www.leiphone.com/category/academic/LF4mbUTko5bRYDky.html",
@@ -352,8 +1032,8 @@
     "date": "2026-09-01",
     "summary": "",
     "hn": {
-      "points": 128,
-      "comments": 43,
+      "points": 199,
+      "comments": 66,
       "discussion": "https://news.ycombinator.com/item?id=49525153"
     },
     "tags": [],
