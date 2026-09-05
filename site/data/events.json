@@ -22,12 +22,60 @@
     "kinds": []
   },
   {
+    "id": "fb157741390f8745",
+    "title": "打穿 AI 智商测试！GPT-6 Astra 的符号世界模型，是突破还是钞能力刷分？",
+    "url": "https://www.leiphone.com/category/yanxishe/FQUliuw9lt15UH54.html",
+    "source": "雷峰网",
+    "date": "2026-09-04",
+    "summary": "每题狂烧 360 美元，GPT-6 真的通关 AGI 了？ 作者丨高允毅 编辑丨岑 峰 OpenAI 的最强模型 GPT-6 Astra终于亮相，它在电脑操作、科研探究和安全防御上都有惊人的突破。而在众多亮眼成绩中，最引起大众热议的是它在 ARC-AGI-3 测试中，成绩逼近100%。 ARC-AGI-3 是什么？这是目前全球科技圈公认AI “智商”评测榜，你可以把它理解为 AI 界的门萨俱乐部入会考试。 这个测试里全是不断变化的图形规律题，根本没法刷题，AI必须像人类一样去探索环境、推测目标，靠临场反应和推理能力找出规律。这在各类评测中较为高阶，更能…",
+    "tags": [
+      "OpenAI"
+    ],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "83590c818c1bf665",
+    "title": "谁在为人形机器人铺「全开源生态」？",
+    "url": "https://www.leiphone.com/category/academic/P00P7aQceC56Vz5r.html",
+    "source": "雷峰网",
+    "date": "2026-09-04",
+    "summary": "元点机器人把开发者真正拉进了协同创作的“第一线”。 作者丨 幸丽娟 编辑丨 林觉民 2026年，人形机器人赛道进入一个微妙的悖论期。 硬件在“狂飙”。全尺寸人形已能完成后空翻、街舞连招、甚至高动态武术特技；电机扭矩密度、关节模组集成度、全身动力学控制精度都在快速逼近人类水平。 宇树 G1 用上OmniXtreme 框架，更是把后空翻成功率做到 96.36%，端到端推理延迟压到 10 毫秒。这些数字放在三年前，不可想象。 但，行业生态的“基本盘”却几乎没有变过。 每家的本体形态、关节配置、传感接口、运动学标定都不一样。A 公司花几年训练出来的抓取策略，拿…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
     "id": "41bd142ad3667913",
     "title": "卡车自动驾驶里程超10亿公里，嬴彻科技定义“货运物理AI”",
     "url": "https://www.qbitai.com/2026/09/483598.html",
     "source": "量子位",
     "date": "2026-09-04",
     "summary": "吃下90%市场",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "266031deb404c101",
+    "title": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
+    "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-09-04",
+    "summary": "The round is being raised just months after the robot data startup exited from stealth.",
+    "tags": [],
+    "topics": [],
+    "kinds": [
+      "产业动态"
+    ]
+  },
+  {
+    "id": "f5a7053a72233eb4",
+    "title": "Less than 24 hours to apply for your TechCrunch Disrupt 2026 Side Event",
+    "url": "https://techcrunch.com/2026/09/04/less-than-24-hours-to-apply-for-your-techcrunch-disrupt-2026-side-event/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-09-04",
+    "summary": "Less than 24 hours left to apply to host a Side Event during TechCrunch Disrupt 2026 and make your mark in the Silicon Valley scene. Apply before the application closes tonight at midnight PT.",
     "tags": [],
     "topics": [],
     "kinds": []
@@ -1032,7 +1080,7 @@
     "date": "2026-09-01",
     "summary": "",
     "hn": {
-      "points": 199,
+      "points": 200,
       "comments": 66,
       "discussion": "https://news.ycombinator.com/item?id=49525153"
     },
