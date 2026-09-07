@@ -1,5 +1,16 @@
 [
   {
+    "id": "5524f982c93a2746",
+    "title": "王兴兴上市后首次公开演讲：机器人真正爆发要等两个「80%时刻」丨WRC 2026",
+    "url": "https://www.leiphone.com/category/robot/qtdF8IhMqe2oNmH0.html",
+    "source": "雷峰网",
+    "date": "2026-09-07",
+    "summary": "8月19日，宇树科技正式登陆科创板。上市后的答谢午宴上，宇树科技创始人王兴兴首次提出“物理AI机器人的自进化”，希望利用基础大模型，将论文检索、代码生成、仿真训练、真机测试和评价反馈串成闭环，让机器人研发逐步从高度依赖人工转向持续自我迭代。 一天后的2026世界机器人大会主论坛上，王兴兴再次谈到了这一方向。相比说明机器人跑得多快、跳得多高，他把更多时间留给了一个没那么“炫技”、却更决定具身智能产业胜似的问题——机器人什么时候才能真正走进工厂和家庭？ 在王兴兴看来，答案的关键已经不是本体能否完成一个动作，而是“换一个房间、物体、任务之后，它还能不能完成”…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
     "id": "9fbd3b91fa7b2b46",
     "title": "Cyborg Roaches Can Stab You With Needles",
     "url": "https://spectrum.ieee.org/cyborg-rescue-roach",
@@ -66,6 +77,189 @@
     "tags": [],
     "topics": [],
     "kinds": []
+  },
+  {
+    "id": "73e220128b822ca7",
+    "title": "Same Trajectory, Contradictory Rewards (ROBORMBENCH): Paraphrase Fragility in Vision Language Reward Models",
+    "url": "https://arxiv.org/abs/2609.05401v1",
+    "source": "arXiv",
+    "date": "2026-09-04",
+    "summary": "Vision-language models are increasingly used as reward functions for robotic learning, but this role requires paraphrase invariance: the same trajectory should receive the same reward under semantically equivalent goal descriptions. We show that current VLM reward models often v…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "CMU",
+      "首尔大学"
+    ]
+  },
+  {
+    "id": "083e5439ef4f049f",
+    "title": "What Matters, When? Diagnosing and Improving Conditional Visual Grounding in Visuomotor Imitation Policies",
+    "url": "https://arxiv.org/abs/2609.05376v1",
+    "source": "arXiv",
+    "date": "2026-09-04",
+    "summary": "Visuomotor imitation policies can achieve high performance under in-distribution visual conditions yet fail when visually similar objects or receptacles are introduced. We study this behavior as a problem of conditional visual grounding: the visual target required for successful…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "31eb65085d1c10a6",
+    "title": "Towards Neuro-Symbolic Procedural Reasoning for Long-Horizon Vision-Language-Action Manipulation",
+    "url": "https://arxiv.org/abs/2609.05369v1",
+    "source": "arXiv",
+    "date": "2026-09-04",
+    "summary": "Vision-language-action (VLA) models can execute short manipulation skills, but remain brittle in long-horizon procedures requiring persistent task state, dependency-aware reasoning, conditional decisions, and reliable grounding. We investigate a neuro-symbolic framework that com…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "34a52e72fabe25ea",
+    "title": "Development of a Humanoid Robot Prototype for Multimodal Human-Robot Interaction",
+    "url": "https://arxiv.org/abs/2609.05361v1",
+    "source": "arXiv",
+    "date": "2026-09-04",
+    "summary": "Human-robot interaction (HRI) enables intuitive and intelligent collaboration between humans and robots in real-world environments. This paper introduces a humanoid robot prototype designed as a flexible testbed for developing and integrating artificial intelligence (AI) modules…",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "48b6e448c4a575f7",
+    "title": "RoboSPA: Can VLA Models Go Beyond Simple Scenes and Short-Horizon Tasks?",
+    "url": "https://arxiv.org/abs/2609.05324v1",
+    "source": "arXiv",
+    "date": "2026-09-04",
+    "summary": "Vision-Language-Action (VLA) models have shown promising progress in language-conditioned robotic manipulation. However, existing datasets and benchmarks mainly evaluate task completion under predefined settings, offering limited insight into model reasoning under increasing spa…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "仿真与Sim2Real",
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "268e82961062eb29",
+    "title": "TacPAC: Tactile Prediction and Real-Time Action Correction in World-Action Models for Contact-Rich Manipulation",
+    "url": "https://arxiv.org/abs/2609.05266v1",
+    "source": "arXiv",
+    "date": "2026-09-04",
+    "summary": "World-action models guide action generation with predicted future observations, but vision-centric predictions miss the local contact cues that decide contact-rich manipulation. However, naively predicting future tactile observations as additional views recovers only a third of…",
+    "tags": [],
+    "topics": [
+      "感知与传感",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "fb8dac4a30ef94aa",
+    "title": "One Word, Different Action: A Real-Robot Benchmark for Language-Conditioned Embodied Reasoning",
+    "url": "https://arxiv.org/abs/2609.05260v1",
+    "source": "arXiv",
+    "date": "2026-09-04",
+    "summary": "Natural-language instruction changes can directly alter robot behavior. A reliable embodied system should preserve its action when the task is unchanged and update it correctly when the task itself changes. We introduce One Word, Different Action, a real-robot benchmark built on…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "仿真与Sim2Real"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "香港中文大学",
+      "香港大学"
+    ]
+  },
+  {
+    "id": "055f42b0f907e8fc",
+    "title": "Morphology and actuation as inductive biases in robotic hand manipulation",
+    "url": "https://arxiv.org/abs/2609.05206v1",
+    "source": "arXiv",
+    "date": "2026-09-04",
+    "summary": "Robotic hands vary widely in anatomical fidelity and mechanical complexity, and these structural choices influence the coordination of joint motions and the difficulty of controlling the system. A unified framework is presented in which the kinematic and actuation stages are ana…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "abdaa70b008884fc",
+    "title": "LIBERO-RECOVER: Beyond Task Success Towards Failure Recovery in Robotic Manipulation Models",
+    "url": "https://arxiv.org/abs/2609.05178v1",
+    "source": "arXiv",
+    "date": "2026-09-04",
+    "summary": "Vision-Language-Action (VLA) or World Action (WAM) models have recently demonstrated remarkable performance in robotic manipulation. On LIBERO, SOTA method have achieved nearly 100\\% success rates, seemingly suggesting that the models are ready for deployment in real world. Howe…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "南洋理工"
+    ]
+  },
+  {
+    "id": "dc68c31a8bf44248",
+    "title": "MINT: A Unified Model for World-Space Camera and Hand Motion Estimation from Scalable Egocentric Pipeline Supervision",
+    "url": "https://arxiv.org/abs/2609.04958v1",
+    "source": "arXiv",
+    "date": "2026-09-04",
+    "summary": "Recovering camera and hand motion in world coordinates from egocentric video is a key capability for activity understanding, robot learning, and augmented reality. Existing systems typically decompose this problem into separate stages for camera motion, depth, hand reconstructio…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": [
+      "浙江大学",
+      "香港大学"
+    ]
+  },
+  {
+    "id": "c069f1cc9d6d56a7",
+    "title": "Reasoning Without Inference Cost: Latent Semantic Scaffolding for Robot VLA Policies",
+    "url": "https://arxiv.org/abs/2609.04893v1",
+    "source": "arXiv",
+    "date": "2026-09-04",
+    "summary": "Vision-language-action (VLA) models are trained by imitation and capture what action to take but not why; adding causal reasoning improves manipulation, but current methods pay for it at inference time - generating reasoning tokens or rolling out predicted future states at every…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "2f7bf30c55e05785",
+    "title": "Strict Modes Everywhere - Bringing Order Into Dynamics of Mechanical Systems by a Potential Compatible With the Geodesic Flow",
+    "url": "https://arxiv.org/abs/2609.04817v1",
+    "source": "arXiv",
+    "date": "2026-09-04",
+    "summary": "Strict nonlinear normal modes provide very regular families of oscillations within conservative mechanical systems. However, a strict normal mode will generally be an isolated curve within the configuration space of the system. In this letter, we design a potential that will den…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": [
+      "TU München"
+    ]
   },
   {
     "id": "266031deb404c101",
@@ -486,6 +680,55 @@
     "affiliations": [
       "哈尔滨工业大学"
     ]
+  },
+  {
+    "id": "d169dacaaed48dac",
+    "title": "Continual Field-Adaptive Models (CFAMs) for Post-Deployment Physical AI",
+    "url": "https://arxiv.org/abs/2609.04552v1",
+    "source": "arXiv",
+    "date": "2026-09-03",
+    "summary": "Unattended interactive autonomy - machines that step into danger in place of humans and complete tasks with human tools - remains a missing capability in mission-critical operations. These domains offer scarce training data and only onboard compute, yet deployed systems must fac…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": [
+      "CMU",
+      "UC Berkeley"
+    ]
+  },
+  {
+    "id": "7956a2c8e6dde793",
+    "title": "VLA-Precision: Asymmetric Co-Bootstrapping for Efficient Real-World Online RL of Vision-Language-Action Models",
+    "url": "https://arxiv.org/abs/2609.04355v1",
+    "source": "arXiv",
+    "date": "2026-09-03",
+    "summary": "Pretrained vision-language-action (VLA) models enable broad manipulation but remain unreliable in tasks demanding precision and repeatability. Applying real-world online reinforcement learning (RL) to VLA post-training enables autonomous trial-and-error improvement beyond demons…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "中国科学技术大学",
+      "北京航空航天大学"
+    ]
+  },
+  {
+    "id": "40a1e1f94837c51c",
+    "title": "FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation",
+    "url": "https://arxiv.org/abs/2609.03889v2",
+    "source": "arXiv",
+    "date": "2026-09-03",
+    "summary": "Contact-rich loco-manipulation requires a bridge between semantic action generation and physical interaction control. Existing Vision-language-action (VLA) models generate task-level actions from visual and linguistic observations, but cannot interpret the physical interactions…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "c44bf13fec8fdf8b",
