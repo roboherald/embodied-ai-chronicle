@@ -11,6 +11,35 @@
     "kinds": []
   },
   {
+    "id": "6ed7bf3522deb691",
+    "title": "This Robot Will Draw Your Blood Now",
+    "url": "https://spectrum.ieee.org/blood-draw-robot-vitestro-aletta",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-09-07",
+    "summary": "You sit down and put your arm in the cradle. You press a button. The machine takes it from there. A near-infrared light sweeps your inner elbow, hunting for a vein. A puff of alcohol hits your skin. An ultrasound probe glides across the arm, mapping how deep the vessel runs and…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "e414bc978c4a9d59",
+    "title": "From dance floor to war: China readies humanoid robots for combat",
+    "url": "https://www.reuters.com/world/china/dance-floor-war-china-readies-humanoid-robots-combat-2026-09-07/",
+    "source": "Hacker News",
+    "date": "2026-09-07",
+    "summary": "",
+    "hn": {
+      "points": 4,
+      "comments": 0,
+      "discussion": "https://news.ycombinator.com/item?id=49595720"
+    },
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": []
+  },
+  {
     "id": "9fbd3b91fa7b2b46",
     "title": "Cyborg Roaches Can Stab You With Needles",
     "url": "https://spectrum.ieee.org/cyborg-rescue-roach",
@@ -263,7 +292,7 @@
   },
   {
     "id": "266031deb404c101",
-    "title": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
+    "title": "XDOF, just 3 months out of stealth, is in talks for a Series B at a $1.2B valuation",
     "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
     "source": "TechCrunch Robotics",
     "date": "2026-09-04",
@@ -3567,9 +3596,9 @@
     "date": "2026-08-25",
     "summary": "",
     "hn": {
-      "points": 5,
+      "points": 7,
       "comments": 0,
-      "discussion": "https://news.ycombinator.com/item?id=49429512"
+      "discussion": "https://news.ycombinator.com/item?id=49441956"
     },
     "tags": [],
     "topics": [
