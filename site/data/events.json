@@ -1,5 +1,16 @@
 [
   {
+    "id": "59545e8dbf0d3b24",
+    "title": "一周连发6个模型！这家公司把具身智能的闭环跑通了",
+    "url": "https://www.qbitai.com/2026/09/486625.html",
+    "source": "量子位",
+    "date": "2026-09-10",
+    "summary": "模型可以开源，部署经验不能",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
     "id": "30ef1900cd008e05",
     "title": "云鲸2026秋季双新品齐发：扫地机器人JX Ultra与洗地机S3 Steam正式亮相",
     "url": "https://www.leiphone.com/category/weiwu/qEYbZrneawQJh0xk.html",
@@ -24,6 +35,39 @@
     "kinds": []
   },
   {
+    "id": "d2d3c9bf94a1997a",
+    "title": "全球首个诊脉灵巧手亮相，打造它的公司却说自己只做触觉",
+    "url": "https://www.leiphone.com/category/robot/nDORMeqWgd7ZV76p.html",
+    "source": "雷峰网",
+    "date": "2026-09-09",
+    "summary": "2026年以来，具身智能依旧是一级市场最受关注的赛道之一。本体、模型、场景和应用的竞争持续升温，连带着上游的传感器环节也一起热了起来。 触觉传感器，就是这条产业链上最先拥挤起来的环节之一。过去两年，涌进这个赛道的公司多达25家，数采设备、数据手套几乎成了标配动作。行业的主流叙事也很一致：具身智能缺触觉数据，谁先把数据攒起来，谁就握住了未来的燃料。 但在这股热潮中，有一家公司显得有些不同。 它成立不到一年、团队只有20人左右、尚处天使轮， 从 底层的传感器与解决方案 切入 ， 在WRC 2026上全球首发了一台会诊脉的机器人灵巧手，用人类触觉最顶级的场景…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "c7b7cf96bda801fe",
+    "title": "从Demo到1000万次真实作业，万勋发布NOVA2.0柔性具身大脑",
+    "url": "https://www.leiphone.com/category/robot/tEzDlRIgiHsXV8B0.html",
+    "source": "雷峰网",
+    "date": "2026-09-09",
+    "summary": "作为柔性具身智能的全球领航者，万勋科技于日前正式发布其第二代柔性具身大脑NOVA2.0（Neuromorphic Omniversal Versatile Architecture，神经元智能开放世界通用架构），同时也是行业首个开放世界全天候商业交付级具身智能架构——该架构脱胎并服务于40+真实行业场景超1000万次多维度极限工况作业，跨行业场景迁移、落地能力与应用价值已赢得全球客户广泛认可，并从中构建起极为稀缺的真实场景数据飞轮，为行业率先跑通了“真场景、真需求、真数据、真落地”的具身智能技术路线，宣告了具身智能已跃过开放世界应用分水岭。 肌体智能…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "d50fb1f6ae609a31",
+    "title": "2026外滩大会：具身智能开始拼大脑，蚂蚁灵波把机器人送进真实场景",
+    "url": "https://www.leiphone.com/category/industrynews/SjYRQou3shWq9xXG.html",
+    "source": "雷峰网",
+    "date": "2026-09-09",
+    "summary": "机器人没有跳舞，也没有翻跟头，却吸引了诸多媒体的驻足。这就是2026外滩大会科技展览，蚂蚁灵波科技展示的几件看起来并不“炫技”的事：机器人从货架上精准取下一盒药，送到用户手里，在物流场景中持续完成分拣，在工业产线上完成上下料。 （在外滩大会看到具身智能正在走向物理世界） 这恰恰是这个展区值得看的地方。过去几年，机器人行业最吸引眼球的是跑、跳、翻跟头。但当机器人真正走进药房、仓库和工厂，问题变了：它不仅要会完成一个动作，还要看懂环境、理解任务、预测变化，并在没有人为布置好的环境中持续工作。灵波试图解决的正是这个问题。 （蚂蚁灵波机器人进入真实场景“工作”…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
     "id": "b223936cf4b47504",
     "title": "具身机器人能搞定超市盘点吗？全球七万门店正在给出答案",
     "url": "https://www.qbitai.com/2026/09/486280.html",
@@ -33,6 +77,284 @@
     "tags": [],
     "topics": [],
     "kinds": []
+  },
+  {
+    "id": "46147c92a7b38814",
+    "title": "Show-Harness: Just a VLM Agent Can Play Robots",
+    "url": "https://arxiv.org/abs/2609.10522v1",
+    "source": "arXiv",
+    "date": "2026-09-09",
+    "summary": "Foundation vision-language models (VLMs) exhibit broad intelligence about the world, yet translating this intelligence into robot control remains challenging. We present Show-Harness, an Embodied Harness that enables VLMs to \"play\" robots through a compact semantic interface lin…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "9d53e8f43fc510b8",
+    "title": "Frequency-Conditioned Flow Matching for Vision-Language-Action Models",
+    "url": "https://arxiv.org/abs/2609.10405v1",
+    "source": "arXiv",
+    "date": "2026-09-09",
+    "summary": "Robot actions are temporally correlated trajectories whose frequency components encode motion at different scales with highly non-uniform energy distributions. Yet Flow Matching--based vision-language-action (VLA) models typically generate actions in temporal coordinates, withou…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "智元"
+    ]
+  },
+  {
+    "id": "8b52e1486a034ef9",
+    "title": "PACE: Perceived-Latency-Aware Cascading Service Routing and Filler Control for QoE-Efficient Retrieval-Augmented Dialogue Serving",
+    "url": "https://arxiv.org/abs/2609.10372v1",
+    "source": "arXiv",
+    "date": "2026-09-09",
+    "summary": "We present the PACE, a framework for retrieval-augmented dialogue serving that formalizes Perceived Time-to-First-Response (PTFR) as a QoE objective and minimizes it under quality/cost constraints. Unlike prior work on cascaded routing, semantic caching, or adaptive retrieval, P…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": [
+      "University of Toronto",
+      "国防科技大学"
+    ]
+  },
+  {
+    "id": "c227cc50a62973f2",
+    "title": "Deformable Object Manipulation under Partial Observability via Real-Time Full-Shape Estimation",
+    "url": "https://arxiv.org/abs/2609.10308v1",
+    "source": "arXiv",
+    "date": "2026-09-09",
+    "summary": "Manipulating deformable objects (DOs) is challenging due to their high-dimensional state space, underactuated dynamics, and partial observability. In this paper, we propose cRVAE, a lightweight conditional recurrent variational autoencoder that estimates the full DO state from o…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "b350d57a84f0f025",
+    "title": "Learning Terrain-Adaptive Humanoid Locomotion on Granular Terrain",
+    "url": "https://arxiv.org/abs/2609.10286v1",
+    "source": "arXiv",
+    "date": "2026-09-09",
+    "summary": "Humanoid locomotion on granular terrain remains a significant challenge due to its complex foot-terrain interaction dynamics that are difficult to model. Existing approaches either ignore granular contact dynamics or incorporate simplified normal force models with heuristic tang…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "Georgia Tech"
+    ]
+  },
+  {
+    "id": "e9e92af9f3647797",
+    "title": "SwingBot: Learning Whole-Body Brachiation for Humanoid Robots",
+    "url": "https://arxiv.org/abs/2609.10283v1",
+    "source": "arXiv",
+    "date": "2026-09-09",
+    "summary": "Brachiation enables primates to move across overhead supports when ground paths are blocked, suggesting a complementary locomotion mode for robots operating in cluttered or hazardous environments. Bringing this capabil?ity to high-DoF humanoid robots is difficult because the con…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "复旦大学"
+    ]
+  },
+  {
+    "id": "8e9d8a2da8da7466",
+    "title": "Frame-Coded Legged Locomotion over Noisy Terrain",
+    "url": "https://arxiv.org/abs/2609.10273v1",
+    "source": "arXiv",
+    "date": "2026-09-09",
+    "summary": "Open-loop multilegged locomotion over rough terrain has been interpreted as matter transport over a noisy channel: leg-ground interactions are discrete basic active contacts, terrain deletes or perturbs those contacts, and spatial redundancy concentrates the resulting thrust and…",
+    "tags": [],
+    "topics": [
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "a3700e98c2e5e365",
+    "title": "FolDeX: A Physical-World Benchmark for Long-Horizon Robotic Manipulation of Deformable Objects",
+    "url": "https://arxiv.org/abs/2609.10243v1",
+    "source": "arXiv",
+    "date": "2026-09-09",
+    "summary": "Embodied AI, including vision-language-action and world-action models, must operate reliably in the physical world. Yet methods that perform well in simulation can degrade substantially on real robots, especially in long-horizon deformable-object manipulation, where policies mus…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "仿真与Sim2Real",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "65dd44b317423ea4",
+    "title": "Adaptive Shared Control with Online Bounded-Rational Human Behavior Estimation",
+    "url": "https://arxiv.org/abs/2609.10215v1",
+    "source": "arXiv",
+    "date": "2026-09-09",
+    "summary": "This work considers adaptive shared human-robot control for nonlinear control-affine systems, where the assumption of a fully rational human is relaxed and the robot adapts its assistance to observed boundedly rational human behavior. We use a level-k bounded-rationality model o…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "f54cb73c9eb019b6",
+    "title": "Multi-Robot Scanner for Automated Full-Body Dermoscopic Imaging",
+    "url": "https://arxiv.org/abs/2609.10169v1",
+    "source": "arXiv",
+    "date": "2026-09-09",
+    "summary": "This paper outlines the specifications and design approach used to construct a full body imaging scanner capable of capturing skin lesions at a dermatoscopic level using cameras mounted on the end-effectors of four UR10 manipulators. The system possesses a view-planning algorith…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "4feb7d5ec9fb80c7",
+    "title": "Assembling Two Parts in One Hand",
+    "url": "https://arxiv.org/abs/2609.10137v1",
+    "source": "arXiv",
+    "date": "2026-09-09",
+    "summary": "A hallmark of human dexterity is the cooperative use of fingers, where different fingers take on distinct yet coordinated roles to accomplish fine manipu- lation, such as capping a pen with the hand that holds it. We study this finger-level coordination through in-hand assembly:…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "ETH Zürich",
+      "香港大学",
+      "香港科技大学"
+    ]
+  },
+  {
+    "id": "797ef17cd8687a30",
+    "title": "Grounding Generated Video Plans in Simulation Towards Versatile Dexterous Controllers",
+    "url": "https://arxiv.org/abs/2609.10050v1",
+    "source": "arXiv",
+    "date": "2026-09-09",
+    "summary": "Generated hand-object interaction (HOI) videos provide a controllable way to propose manipulation motions. Simulation-based HOI tracking can translate such kinematic references into feasible low-level control, but its scalability is limited by the lack of reliable reference moti…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "UC Berkeley",
+      "香港大学"
+    ]
+  },
+  {
+    "id": "fac5e637345a8bd0",
+    "title": "RoboDrop: Curating VLA Post-Training Data via Local Gradient Compatibility",
+    "url": "https://arxiv.org/abs/2609.10021v1",
+    "source": "arXiv",
+    "date": "2026-09-09",
+    "summary": "Vision--language--action (VLA) models acquire broad generalization through large-scale pretraining, yet adapting them to a new task and robot embodiment still requires post-training on newly collected data. Unlike pretraining, post-training targets task- and embodiment-specific…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "清华大学"
+    ]
+  },
+  {
+    "id": "c8aae7d8acd3c812",
+    "title": "HaWMPO: Hallucination-Aware World Model-based Policy Optimization for Generalist Robot Policy",
+    "url": "https://arxiv.org/abs/2609.09941v1",
+    "source": "arXiv",
+    "date": "2026-09-09",
+    "summary": "Generalist robot policies have demonstrated strong generalization across robotic manipulation tasks, yet their success rates remain limited in com- plex long-horizon scenarios. Recent methods improve Visual-Language-Action (VLA) policies through online reinforcement learning on…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "世界模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "清华大学"
+    ]
+  },
+  {
+    "id": "e8735b3b2acd6d05",
+    "title": "Time-Frequency Geometric Cross-Attention for Chunked Vision-Language-Action Models",
+    "url": "https://arxiv.org/abs/2609.09925v1",
+    "source": "arXiv",
+    "date": "2026-09-09",
+    "summary": "Modern vision-language-action (VLA) policies predict a whole chunk of actions: one to two seconds of coordinated motion emitted in a single forward pass. Yet an action chunk is essentially a short multivariate trajectory, but inside these models it is a sequence of generic per-t…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "9f243fa46a4c553c",
+    "title": "ViBe: Visual Behavior Adaptation for Perceptive Humanoid Whole-Body Control",
+    "url": "https://arxiv.org/abs/2609.09918v1",
+    "source": "arXiv",
+    "date": "2026-09-09",
+    "summary": "Motion tracking provides a scalable recipe for humanoid whole-body control. By design, the resulting trackers lack exteroceptive feedback hence reacting to the environment remains the responsibility of a higher-level planner. Existing perceptive controllers train geometry-only e…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "9f3ffe172898d6f0",
+    "title": "GTA-2: A Multi-VLM Framework for Synthesizing Robot Manipulation Skills via Grounded Task Axes",
+    "url": "https://arxiv.org/abs/2609.09808v1",
+    "source": "arXiv",
+    "date": "2026-09-09",
+    "summary": "Robotic manipulation tasks are often decomposed into behaviors or skills. However, one often needs to predefine these behaviors for specific tasks or try to cover a wide range of tasks using generic skills. As a result, these behaviors can remain too coarse to expose the geometr…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "CMU"
+    ]
+  },
+  {
+    "id": "a00796ac85b6973d",
+    "title": "Compact Visuotactile World Models for Lifting: Prediction, Reward Alignment, and Force Constraints",
+    "url": "https://arxiv.org/abs/2609.09597v1",
+    "source": "arXiv",
+    "date": "2026-09-09",
+    "summary": "Accurate contact prediction is useful for robotic manipulation only if it supports effective decisions. We investigate this connection using a compact, randomly initialized visuotactile world model, trajectory-level uncertainty calibration, and behavior-initialized actor-critic…",
+    "tags": [],
+    "topics": [
+      "世界模型",
+      "感知与传感",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
   },
   {
     "id": "55c0d12694cb30bd",
@@ -377,6 +699,69 @@
     ],
     "kinds": [],
     "affiliations": []
+  },
+  {
+    "id": "e4e5f8d8f1075d8c",
+    "title": "A Decade of Bayesian Optimization for Controller Tuning and Robot Learning: Tutorial, Review, and Future Prospects",
+    "url": "https://arxiv.org/abs/2609.09403v1",
+    "source": "arXiv",
+    "date": "2026-09-08",
+    "summary": "In the past decade, Bayesian optimization (BO) has emerged as a powerful and adaptable framework for automatic controller tuning and robot learning. This article offers a comprehensive overview of the state-of-the-art in BO, designed to support both researchers and practitioners…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": [
+      "TU München"
+    ]
+  },
+  {
+    "id": "9e66f92f5be86219",
+    "title": "Proxy Policy Steering",
+    "url": "https://arxiv.org/abs/2609.09148v2",
+    "source": "arXiv",
+    "date": "2026-09-08",
+    "summary": "Generalist robot policies carry broad manipulation priors from large-scale data, but specializing them to a new task remains the deployment bottleneck. This requires eliciting task-specific behavior from limited demonstrations without degrading their broad capabilities. We intro…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "84f6306947b8f8fb",
+    "title": "No Free Checker: A Survey of Verifiers for Robot Policies",
+    "url": "https://arxiv.org/abs/2609.09250v1",
+    "source": "arXiv",
+    "date": "2026-09-08",
+    "summary": "A verifier for robot policies reads a candidate behavior and returns a score for how well it did, used both to evaluate vision-language-action policies and to train them. Verifiers range from success detectors and reward models to runtime monitors, safety filters, and temporal-l…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [
+      "安全与可信"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "a53b61363adb9c6e",
+    "title": "PGMT: Perceptive General Motion Tracking for Humanoid Robots",
+    "url": "https://arxiv.org/abs/2609.08511v2",
+    "source": "arXiv",
+    "date": "2026-09-08",
+    "summary": "Humanoid motion trackers can reproduce diverse whole-body motions, but their performance degrades on complex terrain where terrain-agnostic references become physically infeasible. We present PGMT, a Perceptive General Motion Tracking pipeline for humanoid robots that learns ter…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "新加坡国立",
+      "浙江大学"
+    ]
   },
   {
     "id": "5524f982c93a2746",
