@@ -1,5 +1,46 @@
 [
   {
+    "id": "1a0ffee55c772fa1",
+    "title": "仅用3天！千问办公协助国家天文台科研团队打造科研级望远镜仿真系统",
+    "url": "https://www.leiphone.com/category/industrynews/HlXq3tJy48q1NubA.html",
+    "source": "雷峰网",
+    "date": "2026-09-18",
+    "summary": "日前，千问办公协助国家天文台科研团队打造大口径科研级望远镜数字化仿真系统，耗时仅3天，成本不到千元。依托对真实望远镜组件和观测条件的模拟，Agent可在仿真环境中驱动望远镜进行远程态势感知与观测流程仿真。未来，仿真系统产生的数据，还将用于训练望远镜控制模型（VLA）中。 据介绍，超新星爆发、伽马暴等瞬变事件是研究宇宙演化和极端物理过程的重要窗口，但它们出现时间难以预测。与此同时，科研级望远镜资源有限，真实设备难以承担大量试错。因此，在正式观测前，科研团队通常需要先搭建望远镜仿真系统，完整模拟观测流程，验证方案可行性后，再应用于真实设备。过去，这类仿真系…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "046abd252bd068cc",
+    "title": "The clock is ticking: Final 24 hours to exhibit at TechCrunch Disrupt 2026",
+    "url": "https://techcrunch.com/2026/09/18/final-24-hours-to-exhibit-at-techcrunch-disrupt-2026/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-09-18",
+    "summary": "Last day to book your exhibit table at Disrupt is today, September 18. Get your startup in front of 10,000+ founders, investors, operators, and tech leaders on October 13–15.",
+    "tags": [],
+    "topics": [],
+    "kinds": [
+      "产业动态"
+    ]
+  },
+  {
+    "id": "b055114fbd9ea2da",
+    "title": "Video Friday: Two Birotors Make a Quadrotor",
+    "url": "https://spectrum.ieee.org/video-friday-quadrotor-from-birotor",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-09-18",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids Summit Seoul : 22–23 Sep…",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": [
+      "无人机"
+    ]
+  },
+  {
     "id": "8d2b464d81ab3aa0",
     "title": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
     "url": "https://arxiv.org/abs/2609.20822v1",
@@ -1015,7 +1056,7 @@
     "summary": "",
     "hn": {
       "points": 4,
-      "comments": 15,
+      "comments": 16,
       "discussion": "https://news.ycombinator.com/item?id=49733718"
     },
     "tags": [],
@@ -1041,7 +1082,7 @@
     "url": "https://spectrum.ieee.org/humanoid-robot-safety",
     "source": "IEEE Spectrum Robotics",
     "date": "2026-09-15",
-    "summary": "Despite the recent deluge of videos of humanoid robots doing backflips and kung-fu, the actual pace of progress towards humanoids that can do economically viable jobs at scale has at times seemed a bit plodding. There are some good reasons for this : a humanoid robot needs to be…",
+    "summary": "Despite the recent deluge of videos of humanoid robots doing backflips and kung fu, the actual pace of progress towards humanoids that can do economically viable jobs at scale has at times seemed a bit plodding. There are some good reasons for this : A humanoid robot needs to be…",
     "tags": [],
     "topics": [
       "人形机器人"
@@ -18645,28 +18686,6 @@
     "source": "IEEE Spectrum Robotics",
     "date": "2026-05-22",
     "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. ICRA 2026 : 1–5 June 2026, VIENNA…",
-    "tags": [],
-    "topics": [],
-    "kinds": []
-  },
-  {
-    "id": "751e0ee3c4700133",
-    "title": "Open-Source Software Is Starting to Help Robots Think",
-    "url": "https://spectrum.ieee.org/open-source-robot-ai-platforms",
-    "source": "IEEE Spectrum Robotics",
-    "date": "2026-05-21",
-    "summary": "When a group of academics started making open-source robotics hardware , a generation of roboticists got years of their lives back. Now, the bigger challenge is getting robots to think—and that’s starting to be open sourced too. The shift is still early, but companies including…",
-    "tags": [],
-    "topics": [],
-    "kinds": []
-  },
-  {
-    "id": "94f53bf678bae484",
-    "title": "The Future of Physical AI Isn’t Smarter Robots, It’s Smarter Interfaces",
-    "url": "https://spectrum.ieee.org/wetour-robotics-physical-ai-human-interfaces",
-    "source": "IEEE Spectrum Robotics",
-    "date": "2026-05-21",
-    "summary": "This sponsored article is brought to you by Wetour Robotics . A field technician on a wind turbine, harness clipped, both hands on a wrench, needs to send a command to the diagnostic device hanging at her belt. A logistics worker on a loading dock, gloves on, eyes on the pallet,…",
     "tags": [],
     "topics": [],
     "kinds": []
