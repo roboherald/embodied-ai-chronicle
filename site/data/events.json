@@ -1,5 +1,578 @@
 [
   {
+    "id": "078b2421f13b4d0b",
+    "title": "乐享以太大模型，让中国具身智能坐上定义席",
+    "url": "https://www.leiphone.com/category/academic/Ti3obLMNSuHn5OpR.html",
+    "source": "雷峰网",
+    "date": "2026-09-23",
+    "summary": "从“预测”到“求解”：乐享以太大模型重塑 Physical AI 解题范式。 作者丨 幸丽娟 编辑丨 董子博 具身智能行业一直在等一个 ChatGPT 时刻。 但这个时刻，未必长得像 ChatGPT 。 决定这个时刻的，不是机器人会聊天，也不是机器人学会了几个动作，而是在不确定环境里，机器人能不能自主思考、判断和执行，在无序的事件中，持续完成任务。 过去两年，行业积累的几乎全是“能力上限”的展示：选好场景、选好时机、反复调试，再拍出一条完美的Demo。 上限可以“被编辑”出来展示。真实效果如何，却少有人敢公开测。 但机器人真正进入现实世界，考验的不只是…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "43514903c3982bb1",
+    "title": "稚晖君把机器人卖到2万元一台，可人可狗可开发！",
+    "url": "https://www.qbitai.com/2026/09/496304.html",
+    "source": "量子位",
+    "date": "2026-09-23",
+    "summary": "两万元，买到的是怎样一个机器人",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "5f95cdc32f0cd40a",
+    "title": "φ-RIE: From Photorealistic Reconstruction to Interactive Environments",
+    "url": "https://arxiv.org/abs/2609.26795v1",
+    "source": "arXiv",
+    "date": "2026-09-22",
+    "summary": "3D Gaussian Splatting (3DGS) can reconstruct a captured scene photorealistically, but the resulting representation does not by itself support physical interaction. Robot simulation instead requires object-level change, \\textit{i.e.}, objects must move independently, make contact…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "05f159537582bc92",
+    "title": "DreamStream: Towards Policy-Oriented Generative Simulation for End-to-End Driving",
+    "url": "https://arxiv.org/abs/2609.26792v1",
+    "source": "arXiv",
+    "date": "2026-09-22",
+    "summary": "Faithfully evaluating end-to-end driving policies in simulation requires observations that are not merely photo-realistic, but preserve the scene features a policy relies on to make decisions. Existing platforms, however, exhibit a sim-to-real visual gap that corrupts policy per…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "ETH Zürich",
+      "Toyota Research",
+      "UCLA"
+    ]
+  },
+  {
+    "id": "c1adc08bb9a2b12c",
+    "title": "Imperfection for Precision: Upcycling Imperfect Data for High-Precision Robotic Manipulation",
+    "url": "https://arxiv.org/abs/2609.26672v1",
+    "source": "arXiv",
+    "date": "2026-09-22",
+    "summary": "Training vision-language-action (VLA) models for high-precision manipulation typically requires task-specific, high-quality data (e.g., teleoperation), which is slow and expensive to collect. To reduce this burden without compromising manipulation precision, we propose $\\varepsi…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "UIUC",
+      "新加坡国立"
+    ]
+  },
+  {
+    "id": "7bb5dea825f26c5b",
+    "title": "Beyond End-Task Success: How to Audit Visual Experience Retrieval in Robotics",
+    "url": "https://arxiv.org/abs/2609.26567v1",
+    "source": "arXiv",
+    "date": "2026-09-22",
+    "summary": "Robots that store past experiences must select which one to reuse in a new scene. Most systems select by visual similarity, and most evaluations report only the success of the selected experience. That number does not show whether the selection was good: a rule can score well by…",
+    "tags": [],
+    "topics": [],
+    "kinds": [
+      "产业动态"
+    ],
+    "affiliations": [
+      "UIUC"
+    ]
+  },
+  {
+    "id": "e960b6bf0b9bfca8",
+    "title": "Learning Air-Ground Motion Control with Temporal Mode Switching and Cross-Terrain Tracking",
+    "url": "https://arxiv.org/abs/2609.26564v1",
+    "source": "arXiv",
+    "date": "2026-09-22",
+    "summary": "Passive-wheeled terrestrial-aerial bimodal vehicles (TABVs) combine aerial mobility with energy-efficient ground locomotion. However, reliable air-ground mode switching under limited onboard perception and robust ground trajectory tracking across diverse terrains remain challeng…",
+    "tags": [],
+    "topics": [
+      "感知与传感",
+      "移动与四足"
+    ],
+    "kinds": [
+      "无人机"
+    ],
+    "affiliations": [
+      "北京航空航天大学",
+      "哈尔滨工业大学",
+      "浙江大学"
+    ]
+  },
+  {
+    "id": "cd1865cabdcc565d",
+    "title": "MATE: Multi-Agent Virtual Teleoperation Platform for Humanoid Collaboration Data Collection",
+    "url": "https://arxiv.org/abs/2609.26520v1",
+    "source": "arXiv",
+    "date": "2026-09-22",
+    "summary": "Humanoid robots require diverse embodied experiences to acquire complex loco-manipulation and collaborative skills. However, existing humanoid data pipelines primarily focus on individual agents, while physical multi-robot collaboration remains difficult to scale due to costly h…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "d6adcaed068ed87c",
+    "title": "RouteRLT: Learning When and Which RL Specialist Should Control a Vision-Language-Action Policy",
+    "url": "https://arxiv.org/abs/2609.26467v1",
+    "source": "arXiv",
+    "date": "2026-09-22",
+    "summary": "Vision-language-action (VLA) models provide broad manipulation competence, but often struggle during the precision-critical stages that dominate contact-rich industrial tasks such as connector insertion and cable management. A common remedy is to refine a pretrained VLA with rei…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "University of Toronto"
+    ]
+  },
+  {
+    "id": "5a042585d0c81cf1",
+    "title": "Sample, Simulate, Select: Physics-in-the-Loop Text-to-Motion for Humanoids Without Training",
+    "url": "https://arxiv.org/abs/2609.26420v1",
+    "source": "arXiv",
+    "date": "2026-09-22",
+    "summary": "Text-to-motion models generate plausible human motion but do not model a robot's dynamics; whole-body tracking controllers execute robot references reliably but cannot replan an infeasible one. Recent language-to-humanoid systems bridge this gap by training. We measure how much…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "University of Bonn"
+    ]
+  },
+  {
+    "id": "4ddf7e76ad41f7a8",
+    "title": "MAVP: Map-Aware Visuomotor Policies for Mobile Manipulation",
+    "url": "https://arxiv.org/abs/2609.26378v1",
+    "source": "arXiv",
+    "date": "2026-09-22",
+    "summary": "Successful mobile manipulation requires coordinated base and arm motion while maintaining accurate spatial positioning. However, demonstration-trained policies can struggle to realise the intended base motion reliably, leading to spatial misalignment and subsequent manipulation…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作",
+      "移动与四足",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "c2fdd67da117b74e",
+    "title": "Hierarchical Floorplan-Guided Vision-Language Exploration for Embodied Question Answering",
+    "url": "https://arxiv.org/abs/2609.26360v1",
+    "source": "arXiv",
+    "date": "2026-09-22",
+    "summary": "Embodied Question Answering (EQA) requires an agent to explore a previously unseen environment, gather relevant information, and answer questions about the scene. Recent approaches leverage Vision-Language Models (VLMs) together with semantic maps or scene graphs to guide explor…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "9405aead3d56de8a",
+    "title": "TriWorldBench: A Tri-View Consistency Perspective on Embodied World Models",
+    "url": "https://arxiv.org/abs/2609.26314v1",
+    "source": "arXiv",
+    "date": "2026-09-22",
+    "summary": "Embodied world models predict the outcomes of robot actions to support learning and planning. For robots equipped with head and wrist cameras, this requires complementary views: the head view captures the overall task, while wrist views reveal local gripper-object interactions.…",
+    "tags": [],
+    "topics": [
+      "世界模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "上海AI实验室",
+      "上海交通大学",
+      "中国科学技术大学",
+      "北京大学",
+      "北京航空航天大学",
+      "清华大学"
+    ]
+  },
+  {
+    "id": "6230b05bef4f6d31",
+    "title": "SafeLoop: Risk-Aware Rollback for Vision-Language-Action Manipulation",
+    "url": "https://arxiv.org/abs/2609.26313v1",
+    "source": "arXiv",
+    "date": "2026-09-22",
+    "summary": "Recent vision-language-action (VLA) models are promising for general-purpose manipulation, but long-horizon execution remains fragile. Small state-estimation or control errors can lead to irreversible failures (e.g., collisions and object drops). Avoiding these risks requires a…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [
+      "安全与可信"
+    ],
+    "affiliations": [
+      "香港科技大学"
+    ]
+  },
+  {
+    "id": "13055512c30a4ef5",
+    "title": "Shaft-Configuration-Adaptive Catheter Tip Position Estimation via Motor-History Conditioned Residual Learning",
+    "url": "https://arxiv.org/abs/2609.26304v1",
+    "source": "arXiv",
+    "date": "2026-09-22",
+    "summary": "Tendon-driven continuum manipulators are widely used in medical applications, where accurate tip-position estimation is essential for precise navigation and instrument positioning. However, patient anatomy and procedural setup impose task-dependent unknown shaft configurations,…",
+    "tags": [],
+    "topics": [
+      "移动与四足"
+    ],
+    "kinds": [
+      "医疗应用"
+    ],
+    "affiliations": [
+      "Princeton"
+    ]
+  },
+  {
+    "id": "28bf68c8c7cb1879",
+    "title": "RoboTwin-Phys: Do WAMs and VLAs Understand the Physical World?",
+    "url": "https://arxiv.org/abs/2609.26292v1",
+    "source": "arXiv",
+    "date": "2026-09-22",
+    "summary": "Physical-condition diversity is largely missing from current benchmarks for robot manipulation. While large-scale simulation benchmarks increasingly incorporate variations in object appearance, scene layout, and visual observations, they typically keep the underlying physical pa…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "仿真与Sim2Real",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "e50a50fb2af1ed42",
+    "title": "Manipulation of Deformable Linear Objects Using Model Predictive Path Integral Control with Bidirectional Long Short-Term Memory Learning",
+    "url": "https://arxiv.org/abs/2609.26238v1",
+    "source": "arXiv",
+    "date": "2026-09-22",
+    "summary": "The manipulation of Deformable Linear Objects (DLOs) such as cables poses a significant challenge for automation due to their infinite degrees of freedom and non-linear dynamics. In this paper we present a machine learning based optimal control approach for the manipulation of D…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "d834fb1c18b33d1c",
+    "title": "Manipulation with Stability Guarantees: Linear Deformable Objects with Non-negligible Physical Response Grasped at Multiple Location",
+    "url": "https://arxiv.org/abs/2609.26004v1",
+    "source": "arXiv",
+    "date": "2026-09-22",
+    "summary": "Most research on the manipulation of deformable objects focuses on lightweight systems with negligible mechanical response, effectively restricting attention to quasi-static regimes. This assumption excludes a broad class of practically relevant objects, such as hoses, pipes, an…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "c8ed2af9a52c30c3",
+    "title": "Predict Before You Step: Auditable Occupancy Forecasting for Dynamic Obstacle Avoidance under Sparse Guidance",
+    "url": "https://arxiv.org/abs/2609.25969v1",
+    "source": "arXiv",
+    "date": "2026-09-22",
+    "summary": "Legged robots under sparse waypoint guidance must avoid moving obstacles using partial, rapidly changing LiDAR observations. We present LOOP (Latent-recurrent Occupancy rollOut Policy), a local avoidance policy that connects sparse waypoint guidance to a frozen locomotion contro…",
+    "tags": [],
+    "topics": [
+      "感知与传感",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "南洋理工"
+    ]
+  },
+  {
+    "id": "a6c122a51537c4ed",
+    "title": "What is the Better Curriculum: Controller-Shaped Grasping Behavior for Contact Force-Sensitive Manipulation",
+    "url": "https://arxiv.org/abs/2609.25887v1",
+    "source": "arXiv",
+    "date": "2026-09-22",
+    "summary": "How should a robot learn to manipulate objects so fragile that sub-Newton contact forces can cause irreversible damage? Existing visuo-tactile policy learning typically treats tactile sensing as an additional policy input. In direct-contact force-sensitive manipulation, however,…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "感知与传感",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "82d941afc0878dc3",
+    "title": "Beyond Reconstruction Error: Analytical and Data-Driven Action Tokenization for Autoregressive Vision-Language-Action Models",
+    "url": "https://arxiv.org/abs/2609.25820v1",
+    "source": "arXiv",
+    "date": "2026-09-22",
+    "summary": "Discrete action tokenization is central to autoregressive vision-language-action (VLA) models, yet action representations are often evaluated primarily through reconstruction fidelity. We ask which representation properties actually matter for closed-loop control by comparing fi…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "65326d4f339b1d90",
+    "title": "VisForce: Visual Grounding of Current and Desired Forces for Goal-Conditioned Dexterous Manipulation",
+    "url": "https://arxiv.org/abs/2609.25785v1",
+    "source": "arXiv",
+    "date": "2026-09-22",
+    "summary": "Vision-Language-Action (VLA) models have emerged as general-purpose robotic manipulation policies. However, in dexterous hand manipulation, contact forces are typically provided as separate states or force-specific representations, making it difficult to explicitly represent the…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "abf4067347dfc3ab",
+    "title": "Minimal Recurrent Behavioral Memory for Imitation under Partial Observability",
+    "url": "https://arxiv.org/abs/2609.25757v1",
+    "source": "arXiv",
+    "date": "2026-09-22",
+    "summary": "What is the least recurrent memory needed to reproduce a specified expert under partial observability? The instantaneous requirement is the conditional entropy of the expert's behavioral quotient, but recurrence must also preserve distinctions that future observations will not r…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "d8e714a5b51d62ba",
+    "title": "MedVLA: A Hierarchical Vision-Language-Action Framework for Closed-Loop Precision Medical Robot Manipulation",
+    "url": "https://arxiv.org/abs/2609.25756v1",
+    "source": "arXiv",
+    "date": "2026-09-22",
+    "summary": "Precision medical robotics demands adaptive decision-making under strict safety, interpretability, and execution constraints. Although recent Vision-Language-Action (VLA) models show strong multimodal reasoning ability, their continuous action generation paradigm is not well sui…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [
+      "医疗应用",
+      "安全与可信"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "f797bbed4d653bb6",
+    "title": "PLAT: Sparse Timed Keyframe Motion Tracking for Humanoid Control via Privileged Latent Transition Learning",
+    "url": "https://arxiv.org/abs/2609.25754v1",
+    "source": "arXiv",
+    "date": "2026-09-22",
+    "summary": "Humanoid motion tracking policies rely on dense frame-by-frame references, limiting their use as high-level motion controllers for planning and interactive motion generation. We study \\emph{Sparse Timed Keyframe Motion Tracking}, where a policy receives only sparse future keyfra…",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "dd99461e8a7bd073",
+    "title": "Fisheye-VLA: Decoupling Coverage and Acuity for Manipulation with a Single Fisheye Camera",
+    "url": "https://arxiv.org/abs/2609.25750v1",
+    "source": "arXiv",
+    "date": "2026-09-22",
+    "summary": "Manipulation requires both broad scene awareness and detailed local feedback, yet conventional camera rigs provide them through separate front and wrist cameras. We present Fisheye-VLA, a visual interface that brings these capabilities together using a single passive fisheye. A…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "University of Washington",
+      "香港中文大学",
+      "香港大学"
+    ]
+  },
+  {
+    "id": "188e69a40c8a4313",
+    "title": "Zephyron: Integrated Design and Analytical Evaluation of a Solar-Assisted Mobile Manipulator for Multimodal Environmental Reconnaissance and Distributed Visual Inference",
+    "url": "https://arxiv.org/abs/2609.25709v1",
+    "source": "arXiv",
+    "date": "2026-09-22",
+    "summary": "Environmental reconnaissance needs mobile platforms that carry sensors, preserve measurement context, and return interpretable evidence under limited energy and communication. We present a literature-informed engineering design for Zephyron, a four-wheel rover with a front manip…",
+    "tags": [],
+    "topics": [
+      "感知与传感"
+    ],
+    "kinds": [
+      "产业动态"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "5f4e48cedeaec623",
+    "title": "The Cartesian Hand: In-Hand Manipulation with All-Linear Fingers",
+    "url": "https://arxiv.org/abs/2609.25696v1",
+    "source": "arXiv",
+    "date": "2026-09-22",
+    "summary": "Robotic manipulation has increasingly pursued human-like dexterous hands with many articulated degrees of freedom, offering rich manipulation capabilities at the cost of mechanical and control complexity. At the other extreme, parallel grippers are simple and robust, but provide…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "4384d149d7839ba4",
+    "title": "Induced Riemannian Metrics for Motion Planning with Constraints",
+    "url": "https://arxiv.org/abs/2609.25695v1",
+    "source": "arXiv",
+    "date": "2026-09-22",
+    "summary": "In constrained motion planning problems, task and loop-closure constraints restrict a robot's motion to a curved, lower-dimensional submanifold of its configuration space. Planners measure path length with a metric, which sets the cost of moving in each direction. Under the Eucl…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": [
+      "MIT",
+      "University of Toronto"
+    ]
+  },
+  {
+    "id": "4aa5b6dcad31bb62",
+    "title": "MotionForge: A Data Generation Pipeline and Large-Scale Benchmark for Long-Horizon Manipulation of Dynamic Objects with Domain Shifts",
+    "url": "https://arxiv.org/abs/2609.25689v1",
+    "source": "arXiv",
+    "date": "2026-09-22",
+    "summary": "Recent advances in learning-based robot policies have demonstrated promising progress, yet they are predom- inantly evaluated in static or quasi-static environments. In dynamic manipulation, objects and scenes continuously evolve while the robot perceives, reasons, and acts. How…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "南洋理工"
+    ]
+  },
+  {
+    "id": "70a71d0f80d1ffe8",
+    "title": "SG-CPG: Severity-Gated Central Pattern Generators for Adaptive Quadruped Locomotion under Continuous Actuator Degradation",
+    "url": "https://arxiv.org/abs/2609.25687v1",
+    "source": "arXiv",
+    "date": "2026-09-22",
+    "summary": "An animal with a weakened limb does not necessarily switch its gait, instead it unloads the affected limb, re-coordinates the remaining limbs, and scales its response with injury severity. This graded adaptation allows locomotion to persist despite partial loss of limb strength,…",
+    "tags": [],
+    "topics": [
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "0289b0c98049e873",
+    "title": "Teaching Reinforcement Learning and Humanoid Robotics to High-School Students: An Expert-Validated Curriculum Design on a Low-Cost Open Platform",
+    "url": "https://arxiv.org/abs/2609.25674v1",
+    "source": "arXiv",
+    "date": "2026-09-22",
+    "summary": "Lower cost open source robots and reinforcement learning (RL) simulation tools create new opportunities for precollege students to engage with contemporary robotics. However, translating a complete research workflow, spanning mechanical assembly, electrical setup, simulation, po…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "仿真与Sim2Real",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "Stanford"
+    ]
+  },
+  {
+    "id": "0248dc56dafa5c25",
+    "title": "TechCrunch Disrupt 2026: Aaron Edsinger brings Hello Robot’s Stretch 4 to life onstage",
+    "url": "https://techcrunch.com/2026/09/22/techcrunch-disrupt-2026-aaron-edsinger-brings-hello-robots-stretch-4-to-life-onstage/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-09-22",
+    "summary": "Hello Robot CEO and co-founder Aaron Edsinger will bring Stretch 4 for a live demo on the Real World AI Stage at TechCrunch Disrupt 2026. Register before September 25 to save up to $200, plus get a second pass at 50% off.",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "dbe6097602369c38",
+    "title": "Exhibit tables added: One last chance to showcase your startup at TechCrunch Disrupt 2026",
+    "url": "https://techcrunch.com/2026/09/22/exhibitor-program-reopened-book-by-sept-30/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-09-22",
+    "summary": "We have reopened our exhibitor program for 1 more week. Book your exhibit table by September 30 at 11:59 p.m. PT and showcase your startup in front of 10,000+ founders, investors, and tech leaders at SF's Moscone West from October 13-15.",
+    "tags": [],
+    "topics": [],
+    "kinds": [
+      "产业动态"
+    ]
+  },
+  {
+    "id": "172ea0168db50bfc",
+    "title": "4 days to save up to $200: Reason 2 of 5 to be at TechCrunch Disrupt 2026",
+    "url": "https://techcrunch.com/2026/09/22/4-days-to-save-up-to-200-reason-2-of-5-to-be-at-techcrunch-disrupt-2026/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-09-22",
+    "summary": "Save up to $200 on your TechCrunch Disrupt 2026 pass, plus 50% off a second pass before prices increase on September 25 at 11:59 p.m. PT. Register today.",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "193bdb306b4d1d3e",
+    "title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
+    "url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
+    "source": "NVIDIA Blog",
+    "date": "2026-09-22",
+    "summary": "To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models and tools. The ROS open framework is a project from Open Robotics that helps humans build robots. NVIDIA Isaac ROS 5.0 — a co…",
+    "tags": [
+      "NVIDIA"
+    ],
+    "topics": [
+      "仿真与Sim2Real"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "0c1c0768bc715d14",
+    "title": "Barbara Mazzolai Wants to Build a New Field of Robotics",
+    "url": "https://spectrum.ieee.org/sustainability-robotics-barbara-mazzolai",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-09-22",
+    "summary": "Throughout her career, roboticist Barbara Mazzolai has turned to nature for inspiration. Now she wants to ensure the technology she builds gives back to the environment, too. After starting her career as a biologist, a chance opportunity saw Mazzolai switch streams to engineerin…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
     "id": "158de716a9711ad4",
     "title": "具身智能模型公司方奇科技完成千万级天使轮融资",
     "url": "https://www.leiphone.com/category/industrynews/YREhdZ1XsK1D5Rfi.html",
