@@ -1,5 +1,29 @@
 [
   {
+    "id": "535783e5144554ee",
+    "title": "SeeAct AI穆尧：具身智能终局，一定是从“被训练”走向“自我进化”｜物理AI50人",
+    "url": "https://www.leiphone.com/category/ai/k1XGdu6w3n7xGgKB.html",
+    "source": "雷峰网",
+    "date": "2026-09-24",
+    "summary": "机器人真正缺的，不是数据，而是经验。 作者：李秋悦 编辑：吴彤 那是具身智能最荒芜的时候。 没有成熟数据集，没有标准Benchmark，甚至没有一条被验证能走通的技术路线。 穆尧南下港大读博，开始研究具身智能。 2021年，穆尧进入HKUMMLab，成为该实验室创始人罗平教授和中国人工智能奠基人之一的汤晓鸥教授共同指导的学生。 “具身智能会是一个非常 Promising 的方向。”刚入组时导师们的这句话，穆尧一直记到今天。 四年后，这个方向的潜力，开始在穆尧自己的研究中得到印证。 穆尧主导的RoboTwin，成了中国具身智能圈的事实标准之一，GitHu…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "a587843bbfa00601",
+    "title": "这次云栖，斑马智能亮出了从汽车到具身智能的入场券",
+    "url": "https://www.leiphone.com/category/ai/c5xfhIwWHqSfnGrS.html",
+    "source": "雷峰网",
+    "date": "2026-09-24",
+    "summary": "周五晚上六点，你坐进车里，什么也没说。 AI 系统已经知道，这周六是女儿的生日。它没有等你开口，先推荐了一个游玩地点 —— 郊外那家亲子农场，因为它知道你女儿喜欢大自然。 AI 系统又想起你上周在车里念叨过 “ 好久没吃江浙菜了 ” ，于是在沿途标记出一家评分最高的江浙菜馆。 你只回了一句话： “ 就按这个来。 ” 没有打开 App ，没有搜索，没有比价，甚至没有一句完整的指令。 在斑马智能的叙事里，这就是 “ 主动智能 ” 真正 落地之后，最普通的一个傍晚。你不再需要把需求翻译成搜索词、点击项，机器直接读懂了你的意图，替你完成任务。 而这样的傍晚，不…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
     "id": "341b8f8c5f5ae431",
     "title": "教机器人干活，光“刷课时”可不够！灵初这次较真数据质量",
     "url": "https://www.qbitai.com/2026/09/496778.html",
@@ -17,6 +41,536 @@
     "source": "量子位",
     "date": "2026-09-24",
     "summary": "开源一座具身智能的新“塔台”",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "5e7acf453c8bcea3",
+    "title": "GPT-6之后，具身智能走向何方？诺因发布GLOW技术报告，给出机器人“一教就会”的答案",
+    "url": "https://www.qbitai.com/2026/09/496816.html",
+    "source": "量子位",
+    "date": "2026-09-24",
+    "summary": "人类演示一次，机器人即可实现跨场景任务复用",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "65960203b5cf4b25",
+    "title": "RAPID: Robot Agentic Programming from Demonstrations",
+    "url": "https://arxiv.org/abs/2609.30249v1",
+    "source": "arXiv",
+    "date": "2026-09-24",
+    "summary": "Coding agents have demonstrated enormous success in solving complex programming problems. To leverage their potential for robot systems, this work introduces Robot Agentic Programming from Demonstrations (RAPID), which automatically generates, verifies, and refines robot program…",
+    "tags": [],
+    "topics": [
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "MIT",
+      "NVIDIA",
+      "新加坡国立"
+    ]
+  },
+  {
+    "id": "bbdff0e599e0e553",
+    "title": "Rolling-WAM: World Action Models with Rolling Imagination",
+    "url": "https://arxiv.org/abs/2609.30247v1",
+    "source": "arXiv",
+    "date": "2026-09-24",
+    "summary": "World Action Models (WAMs) couple action generation with future visual prediction for robotic manipulation. However, completing the joint video-action denoising process at each replanning cycle incurs substantial latency, delaying action updates and limiting closed-loop responsi…",
+    "tags": [],
+    "topics": [
+      "世界模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "Toyota Research",
+      "复旦大学"
+    ]
+  },
+  {
+    "id": "b571783515b31d85",
+    "title": "ReVAMP: Vector-Accelerated Motion Planning for Kinematically-Constrained Systems via Reparameterization",
+    "url": "https://arxiv.org/abs/2609.30213v1",
+    "source": "arXiv",
+    "date": "2026-09-24",
+    "summary": "Robots often must satisfy one or more constraints during motion planning for real-world tasks. When such constraints reduce the valid configuration space to a measure-zero subset, sampling based planning algorithms require modifications to draw feasible samples. For many common…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": [
+      "MIT"
+    ]
+  },
+  {
+    "id": "0dabb58cc9a44bea",
+    "title": "Ego-Exo4D Human Meshes Dataset: 4D Human Motion Reconstruction for Ego-Exo Captures",
+    "url": "https://arxiv.org/abs/2609.30187v1",
+    "source": "arXiv",
+    "date": "2026-09-24",
+    "summary": "Ego-Exo4D is a large-scale dataset providing synchronized egocentric and multi-view exocentric video, a rich resource for skill learning and assessment, procedural activity understanding, and embodied AI. However, the dataset ships with only sparse 3D human pose annotations, and…",
+    "tags": [],
+    "topics": [
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "UT Austin"
+    ]
+  },
+  {
+    "id": "36183fc56b0aa378",
+    "title": "Contact as a Decision Variable: Capability-Tradeoff Contact Selection for Legged Loco-Manipulation",
+    "url": "https://arxiv.org/abs/2609.30140v1",
+    "source": "arXiv",
+    "date": "2026-09-24",
+    "summary": "In this paper, we study the joint selection of an environmental support contact and a whole-body configuration for a prescribed loco-manipulation task. A contact may provide greater physical support while restricting the motion required for the task. We formulate this problem th…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "324509f2055c0b6d",
+    "title": "Faster Visuomotor Policy Learning on Action Manifolds via Riemannian MeanFlow",
+    "url": "https://arxiv.org/abs/2609.30127v1",
+    "source": "arXiv",
+    "date": "2026-09-24",
+    "summary": "Visuomotor policies learn a direct map from raw sensory observations to robot action sequences. Policies based on Diffusion and Flow Matching capture the multimodal distribution over action sequences in an end-to-end manner. This expressivity comes at the cost of multi-step nume…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "感知与传感"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "a753075e50e2d49e",
+    "title": "Self-Adaptive VLA for Robust Robot Deployment",
+    "url": "https://arxiv.org/abs/2609.30092v1",
+    "source": "arXiv",
+    "date": "2026-09-24",
+    "summary": "While Vision-Language-Action (VLA) models demonstrate impressive capabilities in robotic manipulation, their memoryless nature renders them brittle to test-time environment shifts, particularly hardware shifts caused by wear or imperfect calibration. Enabling these models to sel…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "82e657792e97219f",
+    "title": "Real-Time Force Regulation for Whole-Hand Dexterous Grasping",
+    "url": "https://arxiv.org/abs/2609.30082v1",
+    "source": "arXiv",
+    "date": "2026-09-24",
+    "summary": "Robust dexterous grasping requires maintaining physical stability despite contacts interactively evolving across the entire hand. A precomputed force distribution can easily fail under object motion, modeling errors, or external disturbances. In this paper, we present a framewor…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "MIT",
+      "首尔大学"
+    ]
+  },
+  {
+    "id": "564137323cbd4b80",
+    "title": "Body-Grounded Replanning for Physically Adaptive Manipulation",
+    "url": "https://arxiv.org/abs/2609.30024v1",
+    "source": "arXiv",
+    "date": "2026-09-24",
+    "summary": "Manipulation requires not only reasoning about the external environment, but also about the robot's physical condition. A strategy may remain geometrically feasible while becoming physically unsuitable due to increased joint load or limited mobility, yet internal physical state…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "Microsoft"
+    ]
+  },
+  {
+    "id": "4066124c2b1130c1",
+    "title": "Res-HIL: Human-Guided Residual Reinforcement Learning for Sample-Efficient Dexterous Manipulation",
+    "url": "https://arxiv.org/abs/2609.30023v1",
+    "source": "arXiv",
+    "date": "2026-09-24",
+    "summary": "Imitation learning enables robots to acquire manipulation skills from demonstrations, but the resulting policies can fail outside the training data, while collecting more demonstrations requires substantial human effort. Human-in-the-loop reinforcement learning uses corrective f…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "TU München"
+    ]
+  },
+  {
+    "id": "70a6dcaa57a03393",
+    "title": "World Action Agent: Harnessing VLMs for Robot Manipulation via World Action Rehearsal",
+    "url": "https://arxiv.org/abs/2609.29964v1",
+    "source": "arXiv",
+    "date": "2026-09-24",
+    "summary": "General-purpose vision-language models (VLMs) bring broad knowledge and spatial reasoning to robot manipulation, yet existing systems either use them indirectly, to predict constraints or write programs, or give them a view of the scene rather than a world in which to act. We pr…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "10d927963d007603",
+    "title": "GPT-6-Astra Lights Up Embodied Navigation: Evaluation in Zero-Shot Vision-and-Language Navigation in Continuous Environments",
+    "url": "https://arxiv.org/abs/2609.29861v1",
+    "source": "arXiv",
+    "date": "2026-09-24",
+    "summary": "We investigate whether GPT-6-Astra, a general-purpose foundation model, can navigate unfamiliar environments using its own perception, reasoning, and decision-making capabilities. Our evaluation focues on zero-shot vision-and-language navigation in continuous environments (VLN-C…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "感知与传感",
+      "移动与四足"
+    ],
+    "kinds": [
+      "产业动态"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "9b46433496e59fa4",
+    "title": "BeyondRetarget: Learning Executable Humanoid Motions Directly from Monocular Video",
+    "url": "https://arxiv.org/abs/2609.29850v1",
+    "source": "arXiv",
+    "date": "2026-09-24",
+    "summary": "Learning executable motions from human videos offers a scalable solution for humanoid robots to acquire demonstration motions. However, existing pipelines typically first construct an explicit human motion representation and then convert it into robot motions via motion retarget…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "2dbc4196be855458",
+    "title": "Self-Supervised Anchoring of Fingertip Sensing to Proprioception and Proactive Actions for Robot Imitation Learning",
+    "url": "https://arxiv.org/abs/2609.29822v1",
+    "source": "arXiv",
+    "date": "2026-09-24",
+    "summary": "Robotic imitation learning often relies on external cameras, yet local interaction cues such as object proximity, contact onset, and grasp state are difficult to observe near the fingertips because of occlusion and limited temporal resolution. We study how to effectively incorpo…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "感知与传感",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "fd16df9dbf87e189",
+    "title": "PolyUMI: Accessible Visual-Tactile-Audio Data Collection for Object Inference and Manipulation",
+    "url": "https://arxiv.org/abs/2609.29760v1",
+    "source": "arXiv",
+    "date": "2026-09-24",
+    "summary": "Humans typically rely on vision, touch, hearing, and proprioception to perceive contact and adapt their actions during manipulation. Providing robots with comparable responsiveness therefore requires hardware that can retain and use these complementary sensory signals. Most imit…",
+    "tags": [],
+    "topics": [
+      "感知与传感",
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "2fb42588fb9e5d43",
+    "title": "Markerless Multi-Modal Autonomous Robotic Inspection of Large Space Structures",
+    "url": "https://arxiv.org/abs/2609.29644v1",
+    "source": "arXiv",
+    "date": "2026-09-24",
+    "summary": "Future orbital infrastructures, such as deployable antennas, solar farms, and large orbital platforms will require autonomous inspection systems able to operate with limited prior knowledge and without cooperative markers. Current on-orbit servicing approaches often rely on pred…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "ae0baf58eabe5be9",
+    "title": "Coupled State-Space Modelling, Control, and Policy Distillation for Hybrid Rigid-Pneumatic Manipulators",
+    "url": "https://arxiv.org/abs/2609.29424v1",
+    "source": "arXiv",
+    "date": "2026-09-24",
+    "summary": "Hybrid manipulators combine motorized rigid joints with pressure-actuated origami segments. Published arms of this kind are controlled with decoupled per-DOF loops, and the cost of this approximation has not been quantified, because the coupled model needed to measure it has not…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "b8aca2bf0b329b93",
+    "title": "Robo-Harness K1: Harnessing Robot-Use Agents via Perception Augmentation",
+    "url": "https://arxiv.org/abs/2609.29389v1",
+    "source": "arXiv",
+    "date": "2026-09-24",
+    "summary": "Foundation vision-language models (VLMs) understand objects, instructions, and spatial relations, yet translating this capability into robotic manipulation remains difficult. Vision-language-action (VLA) models require extensive demonstrations and may compromise pretrained under…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "感知与传感",
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "ad4251e02db8479e",
+    "title": "Decoupled Early Exits for Task-Dependent Compute Allocation in Flow-Matching VLAs",
+    "url": "https://arxiv.org/abs/2609.29382v1",
+    "source": "arXiv",
+    "date": "2026-09-24",
+    "summary": "Flow-matching Vision-Language-Action (VLA) models have emerged as a potential solution for generalist robot control, designed by combining a pretrained Vision-Language Model (VLM) backbone with an action expert that generates continuous robot actions. While these models exhibit…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "59a1e0c6b2f65209",
+    "title": "A Simple Gripper Interface for Simulator-Agnostic Cloth Manipulation",
+    "url": "https://arxiv.org/abs/2609.29340v1",
+    "source": "arXiv",
+    "date": "2026-09-24",
+    "summary": "This paper presents a grasping model for cloth manipulation specifically tailored to ease the deployment of robotic control methods. The model is robust, fast and easy to implement avoiding at the same time contact and friction considerations between the gripper and the cloth in…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "6fc93dc564b9d728",
+    "title": "EgoSpeedUp: Transferring Human Manipulation Tempo to Robot Policies",
+    "url": "https://arxiv.org/abs/2609.29310v1",
+    "source": "arXiv",
+    "date": "2026-09-24",
+    "summary": "Robot manipulation policies trained through imitation learning inherit not only the demonstrated behavior but also the conservative execution tempo of robot demonstrations. Existing acceleration approaches can execute faster than the original demonstrations, but determine the ap…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "2db7743b6cc70ee9",
+    "title": "Dense-Joint-Based Obstacle-Aided Locomotion with a Joint-Repositionable Snake Robot",
+    "url": "https://arxiv.org/abs/2609.29261v1",
+    "source": "arXiv",
+    "date": "2026-09-24",
+    "summary": "Obstacle-aided locomotion is a fundamental capability for snake robots to traverse complex environments. However, conventional rigid-link snake robots often suffer from stagnation or jamming caused by their low joint density (i.e., the number of joints per unit length). This res…",
+    "tags": [],
+    "topics": [
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "东京大学"
+    ]
+  },
+  {
+    "id": "b841de0c22edc542",
+    "title": "ADM-Planner: LLM-Guided Long-Horizon Planning for Mobile Manipulators with Attention-Enhanced Dynamic Memory",
+    "url": "https://arxiv.org/abs/2609.29212v1",
+    "source": "arXiv",
+    "date": "2026-09-24",
+    "summary": "Large language models can decompose mobile-manipulation goals into long action sequences, but the resulting plans remain reliable only while their world context is current. A fixed scene description becomes stale when objects are discovered, moved, or completed while retaining e…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "南洋理工"
+    ]
+  },
+  {
+    "id": "ca7486b59bb8971a",
+    "title": "AdaHVLA: Adaptive Harnesses for Long-Horizon Vision-Language-Action Execution",
+    "url": "https://arxiv.org/abs/2609.29204v1",
+    "source": "arXiv",
+    "date": "2026-09-24",
+    "summary": "Vision-language-action (VLA) models offer strong local control and instruction following but often struggle with long-horizon tasks requiring persistent memory and planning. Task harnesses provide persistent context for agent reasoning by retaining task history and tracking prog…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "bd17b20dd5b2e366",
+    "title": "Anthropomimetic Soft Robotic Forearm with Independently Articulated Carpal Bones Enabling Human-Like Adaptive Stiffness Modulability",
+    "url": "https://arxiv.org/abs/2609.29176v1",
+    "source": "arXiv",
+    "date": "2026-09-24",
+    "summary": "The human wrist exhibits adaptive stiffness modulability: joint stiffness anisotropy can be actively regulated through muscle co-contraction. This functionality is essential for stable manipulation, yet the underlying morphological factors remain unclear. To identify these facto…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "644733015a544f5f",
+    "title": "Representation World Model: Learning States, Transition and Executable Plans in Representation",
+    "url": "https://arxiv.org/abs/2609.29171v1",
+    "source": "arXiv",
+    "date": "2026-09-24",
+    "summary": "We propose the Representation World Model (RWM), which learns states, transitions, and executable plans directly in representation space. Unlike existing world models that typically learn latent representations together with explicit dynamics models and perform planning through…",
+    "tags": [],
+    "topics": [
+      "世界模型"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "0af42ea1b3ad77c8",
+    "title": "HarnessPAI: An Evolving Harness for Physical AI",
+    "url": "https://arxiv.org/abs/2609.29166v1",
+    "source": "arXiv",
+    "date": "2026-09-24",
+    "summary": "Physical AI aims to build embodied agents that perceive the world, understand and reason about it, and decide how to act. Yet the field has focused primarily on the last component: the action model that maps observations to low-level controls. The prevailing training recipe can…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "0241b5eec1c3dad7",
+    "title": "A Tendon-Driven Robotic Jellyfish with Constrained Soft Actuation and Depth Control via Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2609.29132v1",
+    "source": "arXiv",
+    "date": "2026-09-24",
+    "summary": "Jellyfish-inspired robots offer a compliant and efficient approach to underwater locomotion, but achieving large deformation together with repeatable actuation and closed-loop control remains challenging. In this work, we present a tendon-driven robotic jellyfish with constraine…",
+    "tags": [],
+    "topics": [
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "香港中文大学",
+      "香港大学",
+      "香港科技大学"
+    ]
+  },
+  {
+    "id": "c44dc35ec2b862e7",
+    "title": "A Support-Enhanced Granular-Jamming Gripper for RL-based Grasping with Continuum Manipulators",
+    "url": "https://arxiv.org/abs/2609.29093v1",
+    "source": "arXiv",
+    "date": "2026-09-24",
+    "summary": "Continuum manipulators provide dexterous motion in confined spaces, but structural compliance, hysteresis, and load-dependent deformation leave residual position and orientation errors that can undermine reliable contact with rigid grippers. To address this limitation, this pape…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "05eb4725825d2bc5",
+    "title": "DAWN: Noise-Robust Quadruped Parkour via Depth-Denoising World Models",
+    "url": "https://arxiv.org/abs/2609.29092v1",
+    "source": "arXiv",
+    "date": "2026-09-24",
+    "summary": "Vision-based legged locomotion methods assume clean depth at training time and rely on hand-tuned post-processing filters at deployment. However, filter parameters are rarely disclosed, hindering reproducibility, and performance degrades substantially when depth noise is left un…",
+    "tags": [],
+    "topics": [
+      "世界模型",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "b5f88521e80c82ea",
+    "title": "Bring your co-founder, partner, or colleague and get 50% off a second TechCrunch Disrupt 2026 pass",
+    "url": "https://techcrunch.com/2026/09/24/bring-your-co-founder-partner-or-colleague-and-get-50-off-a-second-techcrunch-disrupt-2026-pass/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-09-24",
+    "summary": "Buy one pass to TechCrunch Disrupt 2026 and get 50% off a second of the same ticket type. Register before event starts on October 13 at 8 a.m. PT.",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "a028535758107f8d",
+    "title": "Meet Feather, the startup building the ‘Android of robotics’ for developers",
+    "url": "https://techcrunch.com/2026/09/24/meet-feather-the-startup-building-the-android-of-robotics-for-developers/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-09-24",
+    "summary": "Feather is betting on a customizable, $30,000 platform built for software developers.",
+    "tags": [],
+    "topics": [],
+    "kinds": [
+      "产业动态"
+    ]
+  },
+  {
+    "id": "5b513703eb7f50ea",
+    "title": "Shield AI, Waabi, and General Motors on building AI when failure is not an option at TechCrunch Disrupt 2026",
+    "url": "https://techcrunch.com/2026/09/24/shield-ai-waabi-and-general-motors-on-building-ai-when-failure-is-not-an-option-at-techcrunch-disrupt-2026/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-09-24",
+    "summary": "Leaders from Waabi, Shield AI, and General Motors join the Real World AI Stage at TechCrunch Disrupt 2026 to talk building AI. Save up to $200 by September 25 at 11:59 p.m. PT. Get a second pass at 50% off.",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "9091e5e67e944af8",
+    "title": "2 days left to save up to $200 on a TechCrunch Disrupt 2026 pass — reason 4 of 5 to attend",
+    "url": "https://techcrunch.com/2026/09/24/2-days-left-to-save-up-to-200-on-techcrunch-disrupt-2026-reason-5-7-to-attend/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-09-24",
+    "summary": "Reason 4 of 5 to attend TechCrunch Disrupt 2026: Practical answers. Two days left to save up to $200 on your pass. Savings disappear after September 25 at 11:59 p.m. PT. Bring a second guest at 50% off.",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "902d7ede2d3e1cc7",
+    "title": "Mexican EPICS in IEEE Team Builds Portable Educational Platform",
+    "url": "https://spectrum.ieee.org/epics-in-ieee-portable-educational",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-09-24",
+    "summary": "In Guadalajara, Mexico, many high schools have motivated teachers and talented students with an interest in science, technology, engineering, and mathematics, but they lack access to advanced tools such as robotics laboratories. The resources shortfall limits the students’ oppor…",
     "tags": [],
     "topics": [],
     "kinds": []
@@ -20817,18 +21371,5 @@
     "tags": [],
     "topics": [],
     "kinds": []
-  },
-  {
-    "id": "9f605ab2148cbed6",
-    "title": "Startup Battlefield 200 applications close today: Nominate a founder or submit your startup",
-    "url": "https://techcrunch.com/2026/05/27/startup-battlefield-200-applications-close-today-nominate-a-founder-or-submit-your-startup/",
-    "source": "TechCrunch Robotics",
-    "date": "2026-05-27",
-    "summary": "Today is the final day to apply or nominate a startup for Startup Battlefield 200. Once the clock strikes 11:59 p.m. PT, the window closes on your chance to compete for $100,000 in equity-free funding, gain global visibility, connect directly with investors, and launch on the Te…",
-    "tags": [],
-    "topics": [],
-    "kinds": [
-      "产业动态"
-    ]
   }
 ]
