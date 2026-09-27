@@ -7,8 +7,8 @@
     "date": "2026-09-26",
     "summary": "",
     "hn": {
-      "points": 9,
-      "comments": 5,
+      "points": 11,
+      "comments": 8,
       "discussion": "https://news.ycombinator.com/item?id=49851856"
     },
     "tags": [],
@@ -21391,38 +21391,5 @@
     "kinds": [
       "产业动态"
     ]
-  },
-  {
-    "id": "a5126ef298c20973",
-    "title": "Today is the last day to apply to speak at TechCrunch Disrupt 2026",
-    "url": "https://techcrunch.com/2026/05/29/today-is-the-last-day-to-apply-to-speak-at-techcrunch-disrupt-2026/",
-    "source": "TechCrunch Robotics",
-    "date": "2026-05-29",
-    "summary": "Submit your session topic before today ends for a chance to speak at TechCrunch Disrupt 2026. Apply now to share your insight and help shape the conversations defining the tech industry.",
-    "tags": [],
-    "topics": [],
-    "kinds": []
-  },
-  {
-    "id": "70973a40c6ba2c40",
-    "title": "Final 24 hours to save up to $410 on your TechCrunch Disrupt 2026 ticket",
-    "url": "https://techcrunch.com/2026/05/29/final-24-hours-to-save-up-to-410-on-your-techcrunch-disrupt-2026-ticket/",
-    "source": "TechCrunch Robotics",
-    "date": "2026-05-29",
-    "summary": "You now have until tonight at 11:59 p.m. PT to lock in Early Bird savings of up to $410 for TechCrunch Disrupt 2026 before prices increase. Join 10,000+ tech leaders in October for one of the most anticipated tech events of the year. Register now.",
-    "tags": [],
-    "topics": [],
-    "kinds": []
-  },
-  {
-    "id": "379fe22de98e93cd",
-    "title": "Video Friday: Extreme Omnidirectional Robot",
-    "url": "https://spectrum.ieee.org/video-friday-rabona-soccer",
-    "source": "IEEE Spectrum Robotics",
-    "date": "2026-05-29",
-    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. ICRA 2026 : 1–5 June 2026, VIENNA…",
-    "tags": [],
-    "topics": [],
-    "kinds": []
   }
 ]
