@@ -1,5 +1,500 @@
 [
   {
+    "id": "2bddf0d8e8c86d82",
+    "title": "InterMimicGen: Scaling Humanoid Loco-Manipulation through Self-Evolving Motion Imitation",
+    "url": "https://arxiv.org/abs/2610.06850v1",
+    "source": "arXiv",
+    "date": "2026-10-05",
+    "summary": "Captured human-object interactions provide rich supervision for humanoid loco-manipulation, but they are sparse, heterogeneous, and not directly executable by robots. We introduce InterMimicGen, a self-evolving motion-imitation framework in which robot motion data and a tracking…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "NVIDIA",
+      "UIUC"
+    ]
+  },
+  {
+    "id": "ee9c08dede0179ea",
+    "title": "Recursive Video In-Context Learning for Agentic Robot",
+    "url": "https://arxiv.org/abs/2610.06843v1",
+    "source": "arXiv",
+    "date": "2026-10-05",
+    "summary": "LLM agents that orchestrate frozen vision-language-action (VLA) policies improve across episodes through text memory, which records what the agent did but not how the task is done. A demonstration video shows it, but fits poorly into an agent's context. The full video slows ever…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "beae92a4fa09975a",
+    "title": "TAPDreamer: Transferable Adversarial Patches for World Action Models",
+    "url": "https://arxiv.org/abs/2610.06814v1",
+    "source": "arXiv",
+    "date": "2026-10-05",
+    "summary": "World models learn to predict how their environment will evolve, making them an important foundation for general-purpose robotic control. Yet world action models depend on camera inputs whose manipulation can corrupt the visual representations used across tasks and action polici…",
+    "tags": [],
+    "topics": [
+      "世界模型",
+      "感知与传感",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "University of Washington"
+    ]
+  },
+  {
+    "id": "effdffed3fa060d7",
+    "title": "H-JEPA: End-to-End Learning of Hierarchical World Models for Visual Planning",
+    "url": "https://arxiv.org/abs/2610.06805v1",
+    "source": "arXiv",
+    "date": "2026-10-05",
+    "summary": "Long-horizon planning with latent world models requires reasoning across timescales and levels of abstraction. Existing task-agnostic JEPA world models predict and plan at a single timescale or with multiple horizons in one shared latent space. We introduce H-JEPA, an end-to-end…",
+    "tags": [],
+    "topics": [
+      "世界模型"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "INRIA"
+    ]
+  },
+  {
+    "id": "1dc1a4fee55f9308",
+    "title": "AffordCraft: Scalable Construction of Task-Ready Simulation Assets from Single Images",
+    "url": "https://arxiv.org/abs/2610.06643v1",
+    "source": "arXiv",
+    "date": "2026-10-05",
+    "summary": "Robot learning in simulation depends on the objects the simulator offers. Many tasks need objects with separate parts, joints that allow the required motion, and physical properties that remain valid under contact. Existing methods recover this structure anew for every image: ge…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "华中科技大学",
+      "新加坡国立",
+      "清华大学"
+    ]
+  },
+  {
+    "id": "3cf011ca6c5a501e",
+    "title": "Physics Residual Dynamics and Reduced Order Whole-Body Planning for Obstacle Aware Human Robot Cloth CoTransportation",
+    "url": "https://arxiv.org/abs/2610.06641v1",
+    "source": "arXiv",
+    "date": "2026-10-05",
+    "summary": "Human--robot co-transportation of deformable objects requires predicting object deformation during motion, since obstacle clearance depends on both the grasp points and the unactuated interior. We present a hierarchical planning framework that combines a learned cloth model with…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "TU München"
+    ]
+  },
+  {
+    "id": "4ac9ccf7bf7f469a",
+    "title": "SimForcing: Distilling Simulation Motion Priors into Real-Domain Robot World Models",
+    "url": "https://arxiv.org/abs/2610.06598v1",
+    "source": "arXiv",
+    "date": "2026-10-05",
+    "summary": "Action-conditioned robot world models must respond precisely to robot trajectories while preserving realistic visual dynamics, yet learning both from heterogeneous robot videos remains challenging. Simulation offers structured motion supervision, but appearance differences hinde…",
+    "tags": [],
+    "topics": [
+      "世界模型",
+      "仿真与Sim2Real"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "北京大学"
+    ]
+  },
+  {
+    "id": "661cbc6bcdb12070",
+    "title": "Odyssey: A Closed-Loop Benchmark for Long-Horizon Real-World Driving with Explicit Navigation Routes",
+    "url": "https://arxiv.org/abs/2610.06469v1",
+    "source": "arXiv",
+    "date": "2026-10-05",
+    "summary": "Closed-loop evaluation of end-to-end driving requires continuous rollouts that reveal how earlier decisions affect subsequent driving. However, existing benchmarks evaluate only short segments and fail to capture later consequences. Ambiguous directional commands also obscure th…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real",
+      "移动与四足"
+    ],
+    "kinds": [
+      "产业动态"
+    ],
+    "affiliations": [
+      "首尔大学"
+    ]
+  },
+  {
+    "id": "8eddeaa7f9f12476",
+    "title": "Towards Robust Prehensile Manipulation in Open-Ended Environments",
+    "url": "https://arxiv.org/abs/2610.06376v1",
+    "source": "arXiv",
+    "date": "2026-10-05",
+    "summary": "We propose to use Quality-Diversity (QD) algorithms to solve robotic prehensile manipulation tasks in open-ended environments. Our approach enables the efficient discovery of a wide range robust grasp configurations, which serve as reliable starting points for generating diverse…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "c42a3340ed93c21e",
+    "title": "KineWorld: Action-Induced Transport Fields for Embodied World Modeling",
+    "url": "https://arxiv.org/abs/2610.06349v1",
+    "source": "arXiv",
+    "date": "2026-10-05",
+    "summary": "Embodied world models predict the visual consequences of candidate actions before execution. However, existing action-conditioned world models often adopt uniformly weighted visual generation objectives that can be misaligned with embodied prediction needs. Even with explicit mo…",
+    "tags": [],
+    "topics": [
+      "世界模型"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "北京大学",
+      "南洋理工",
+      "香港大学"
+    ]
+  },
+  {
+    "id": "aaa25dd8e5d886ab",
+    "title": "DexForge: High-Fidelity Physics-Informed Dexterous Retargeting",
+    "url": "https://arxiv.org/abs/2610.06331v1",
+    "source": "arXiv",
+    "date": "2026-10-05",
+    "summary": "Human demonstrations offer rich examples of precise dexterous manipulation and a promising source of robot training data. However, high-fidelity reproduction of demonstrated motions and hand-object interactions across robot embodiments remains challenging under physical constrai…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "528f7d24edf131f3",
+    "title": "Dual Variational Autoencoders for Efficient Sim-to-Real Transfer in Low-Cost Robotic Navigation",
+    "url": "https://arxiv.org/abs/2610.06327v1",
+    "source": "arXiv",
+    "date": "2026-10-05",
+    "summary": "Vision-based autonomous navigation for low-cost robots remains a fundamental challenge, primarily due to the significant gap between simulated training environments and real-world operational conditions. Direct policy transfer from simulation is often ineffective, while training…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "bfe95843193718d1",
+    "title": "Inspect Robots: Evaluating the Capabilities and Safety of Embodied AI",
+    "url": "https://arxiv.org/abs/2610.06306v1",
+    "source": "arXiv",
+    "date": "2026-10-05",
+    "summary": "General purpose language models are increasingly able to control robotic hardware. Understanding the capabilities and safety of these models when embodied is therefore increasingly important for understanding their societal impact and risks. To this end, we introduce Inspect Rob…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [
+      "安全与可信"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "780212b33265e5c9",
+    "title": "Future Anchored Verification and Online Recovery for World Action Models",
+    "url": "https://arxiv.org/abs/2610.06280v1",
+    "source": "arXiv",
+    "date": "2026-10-05",
+    "summary": "World action models (WAMs) have emerged as a promising paradigm for robotic manipulation. They act by first predicting how a task should be performed and then decoding the actions from that future. However, the remaining actions are invalid once execution drifts from the predict…",
+    "tags": [],
+    "topics": [
+      "世界模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [
+      "安全与可信"
+    ],
+    "affiliations": [
+      "新加坡国立"
+    ]
+  },
+  {
+    "id": "3d0692eaea3fe770",
+    "title": "VLA-ZO: Fast Zeroth-Order Adaptation for Vision-Language-Action Models",
+    "url": "https://arxiv.org/abs/2610.06271v1",
+    "source": "arXiv",
+    "date": "2026-10-05",
+    "summary": "Adapting vision-language-action (VLA) models to deployment-time distribution shifts is important for reliable robotic operation, but conventional first-order adaptation can exceed the memory budget of inference-oriented deployment platforms. Zeroth-order (ZO) optimization offers…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "9e21df4f828a959c",
+    "title": "Encoded but Not in Control: Revealing the Grounding Gap in Vision-Language Robot Policies",
+    "url": "https://arxiv.org/abs/2610.06235v1",
+    "source": "arXiv",
+    "date": "2026-10-05",
+    "summary": "Instruction following is central to language-conditioned robot policies: language should determine what to do when the same scene permits multiple valid actions. Yet successful execution alone cannot establish whether a policy follows the instruction or infers the task from the…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "上海AI实验室"
+    ]
+  },
+  {
+    "id": "ec1bbb674982eacd",
+    "title": "Arm-wise Compositional Generalization in Dual-Arm Vision-Language-Action Models",
+    "url": "https://arxiv.org/abs/2610.06184v1",
+    "source": "arXiv",
+    "date": "2026-10-05",
+    "summary": "Generalization in multi-arm collaboration can be studied as composing familiar atomic skills in new ways across arms. However, existing evaluations offer limited insight into which training and architectural choices support this ability under different coordination requirements.…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [
+      "产业动态"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "fb394b688f5c66fb",
+    "title": "Talk, Render, Act: Integrating Social Gesture and Digital Face with Synchronized Speech for Conversational Humanoid Robot",
+    "url": "https://arxiv.org/abs/2610.06153v1",
+    "source": "arXiv",
+    "date": "2026-10-05",
+    "summary": "Expressive humanoid interaction requires speech, facial animation, and body gestures to form a coherent response. However, many full-body humanoid robots produce speech and gestures without a visually expressive face, while talking-face animation and robot gesture generation are…",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "2b383ceb7469fb61",
+    "title": "Robotizing Human Videos with Physically Consistent Interactions",
+    "url": "https://arxiv.org/abs/2610.06137v1",
+    "source": "arXiv",
+    "date": "2026-10-05",
+    "summary": "Human videos offer scalable manipulation data, but the embodiment gap between human hands and robot manipulators limits their direct use. Existing video-editing methods replace hands with rendered robots, yet inaccurate interaction reconstruction and compositing can produce inco…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "577ea0765da00806",
+    "title": "I-BFM: Reward-Conditioned Robust Humanoid Interaction via Unsupervised Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2610.06129v1",
+    "source": "arXiv",
+    "date": "2026-10-05",
+    "summary": "Behavioral foundation models (BFMs) have recently shown that a single humanoid policy can support diverse whole-body control, but extending such generality to physical interaction remains challenging. We introduce I-BFM, to our knowledge the first BFM for humanoid-object interac…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "人形机器人",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "哈尔滨工业大学",
+      "浙江大学",
+      "清华大学"
+    ]
+  },
+  {
+    "id": "16ffb5beda86ed68",
+    "title": "Execution-Aligned Progressive Noise for Consistent Asynchronous Replanning in Generative Robot Policies",
+    "url": "https://arxiv.org/abs/2610.06090v1",
+    "source": "arXiv",
+    "date": "2026-10-05",
+    "summary": "Continuous asynchronous replanning is essential for real-time generative robot policies, but independent stochastic initialization can cause mode switching and inconsistent continuation across action chunks. We propose Execution-Aligned Progressive Noise (EAPN), which introduces…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "dc9e9a7dae3570d2",
+    "title": "How (and How Not) to Use Data Augmentation in VLA Post-Training",
+    "url": "https://arxiv.org/abs/2610.05994v1",
+    "source": "arXiv",
+    "date": "2026-10-05",
+    "summary": "Vision-language-action (VLA) models currently demonstrate strong performance in a wide range of real-world robotics tasks. However, they often still lack the generalization ability to handle large visual out-of-distribution shifts. Post-training of VLAs with reinforcement learni…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "8c65e4e9e756ca2f",
+    "title": "From Social Reasoning to Embodied Interaction: An Agentic Framework for Social Robots",
+    "url": "https://arxiv.org/abs/2610.05964v1",
+    "source": "arXiv",
+    "date": "2026-10-05",
+    "summary": "Natural face-to-face human--robot interaction requires a robot to understand an evolving social situation, decide when to engage, and express its intent through coordinated physical behavior. Yet existing approaches rarely close this loop: foundation-model agents provide increas…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "9136f49a60cdd4f4",
+    "title": "Mulligan: Performance-Guided Data Collection for Efficient On-Robot Learning",
+    "url": "https://arxiv.org/abs/2610.05882v1",
+    "source": "arXiv",
+    "date": "2026-10-05",
+    "summary": "Learning from human demonstrations is a reliable way to teach robots new tasks, but the gains from each additional demonstration shrink as the policy improves. Continued improvement can instead come from supervised deployment, where an operator places the objects and intervenes…",
+    "tags": [],
+    "topics": [
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "Stanford"
+    ]
+  },
+  {
+    "id": "5a6e5252dc7d5186",
+    "title": "OGAM: Connecting Systematic Testing to Runtime Assurance through Object-Grounded Attention Monitoring for VLA Policies",
+    "url": "https://arxiv.org/abs/2610.05878v1",
+    "source": "arXiv",
+    "date": "2026-10-05",
+    "summary": "Benchmarks expose vision-language-action (VLA) policies to few canonical instructions, while exhaustive deployment testing is impossible. We introduce Object-Grounded Attention Monitoring (OGAM), connecting systematic testing to runtime assurance: testing reveals attention diver…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "仿真与Sim2Real"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "c0aa4dd5d556054c",
+    "title": "Transporting Unsecured Stacked Payloads with a Quadrupedal Robot via Multi-Objective Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2610.05819v1",
+    "source": "arXiv",
+    "date": "2026-10-05",
+    "summary": "Transporting unsecured payloads with legged robots over uneven terrain requires balancing locomotion performance and payload stability, since aggressive motion can destabilize the payload even when the robot remains stable. We study quadrupedal transportation of unsecured stacke…",
+    "tags": [],
+    "topics": [
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "f86795bf1ca620dd",
+    "title": "What the Guard Misses, the Robot Executes: Implied Harm in VLA Instructions",
+    "url": "https://arxiv.org/abs/2610.05818v1",
+    "source": "arXiv",
+    "date": "2026-10-05",
+    "summary": "Vision-language-action models (VLAs) act on instructions without being able to refuse, so screening harmful requests falls to monitors. We test whether these monitors catch ordinary robot tasks requested for harmful reasons, holding the task fixed while varying only how explicit…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "Columbia"
+    ]
+  },
+  {
+    "id": "579e0a3ffe4ce789",
+    "title": "DASH: A da Vinci Adapter for Serial-link and Humanoid Robots as an Accessible Platform for Surgical Robotics Research",
+    "url": "https://arxiv.org/abs/2610.05792v1",
+    "source": "arXiv",
+    "date": "2026-10-05",
+    "summary": "Robotic minimally invasive surgery offers well-documented clinical benefits, but the cost and infrastructure requirements of purpose-built platforms limit access in rural and lower-resourced facilities. Recent work has teleoperated general-purpose robots for laparoscopic tasks a…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "遥操作与数据采集"
+    ],
+    "kinds": [
+      "医疗应用"
+    ],
+    "affiliations": [
+      "UCSD"
+    ]
+  },
+  {
+    "id": "6cb6da1a53887365",
+    "title": "Bilinear Flow Policy: Distributional Extrapolation for Goal-Conditioned Visuomotor Imitation",
+    "url": "https://arxiv.org/abs/2610.05765v1",
+    "source": "arXiv",
+    "date": "2026-10-05",
+    "summary": "Goal-conditioned imitation learning (GCIL) with flow matching is a promising framework that can represent multimodal behaviors while adapting to diverse, user-specified goals, yet often fails when goals lie outside the demonstration support. To extrapolate to such unseen goals w…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "Georgia Tech",
+      "Toyota Research",
+      "University of Washington"
+    ]
+  },
+  {
+    "id": "3a9065539900acf9",
+    "title": "Demonstration-Calibrated Port-Hamiltonian Retuning for Manipulation Policies",
+    "url": "https://arxiv.org/abs/2610.05755v1",
+    "source": "arXiv",
+    "date": "2026-10-05",
+    "summary": "Diffusion and VLA policies for manipulation are often deployed through downstream impedance controllers. The stiffness and damping gains of these controllers affect task success, yet are commonly inherited from data collection rather than selected for the deployed policy. Althou…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "Princeton"
+    ]
+  },
+  {
+    "id": "8219cfaf573df5c9",
+    "title": "Can Safeworld convince people that GenAI robots won’t hurt them?",
+    "url": "https://techcrunch.com/2026/10/05/can-safeworld-convince-people-that-gen-ai-robots-wont-hurt-them/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-10-05",
+    "summary": "Safeworld is building digital humans to make sure robots don't hurt the real ones.",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
     "id": "73a3a6804276f242",
     "title": "Less Decoder is More Encoder: Geometric Representation Learning from Novel View Synthesis",
     "url": "https://arxiv.org/abs/2610.03717v1",
