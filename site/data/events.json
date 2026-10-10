@@ -1,11 +1,88 @@
 [
   {
+    "id": "2fc129443dc718a7",
+    "title": "这届 IROS 2026 上，具身学术与产业边界正在消融",
+    "url": "https://www.leiphone.com/category/ai/4I8YKksz9V10Ih1R.html",
+    "source": "雷峰网",
+    "date": "2026-10-10",
+    "summary": "模型、数据、灵巧操作都在工程化，顶会上具身传递出的信号变了 作者丨 齐铖湧 编辑丨岑 峰 9 月 27 日到 10 月 1 日，全球机器人领域最顶级的国际会议之一 IROS 2026 将在美国匹兹堡开幕。 如果你前两年也在关注这个会，你会发现那时候大家都在 “卷概念”。谁家用了更大的 LLM，谁家机器人跳了一段更炫的舞，听起来很猛，但细一想，大多还停在实验室的 Demo 里。今年不一样。从目前放出的主会论文和 Workshop 名单，我们的感受很直接： 顶会上关于具身传递出的信号，变了。 整个会场的风向出奇地一致，技术路线明显在收敛。雷峰网把它总结成四…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "a87f8df4b225bab5",
+    "title": "数据越多≠决策越好：从无人机滑翔到多机器人通信，重新审视数据与信息的关系 | IROS 2026",
+    "url": "https://www.leiphone.com/category/private/1evshSdPUrUacuRC.html",
+    "source": "雷峰网",
+    "date": "2026-10-10",
+    "summary": "决定智能上限的从来不是数据的绝对规模，而是数据的质量与信息密度。 作者丨岑峰 在生成式 AI 浪潮下，机器人社区正经历从传统控制向端到端学习的范式大迁徙。如同许多领域一样，这里也弥漫着一股对数据规模的迷信，深信“数据越多越智能”是通往通用具身智能的唯一坦途。 然而，在刚刚结束的 IEEE/RSJ 智能机器人与系统国际会议（IROS）上，昆士兰大学主力脚说 Jen Jen Chung 在主旨演讲中，结合自己十余载的研究案例，给出了一个发人深省的结论： 并非所有数据都是平等的，盲目堆砌数据甚至会导致系统崩溃与策略失能。 Chung 教授在演讲伊始便直击核心…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "87f22bfa4d82bb69",
+    "title": "当年「字节投毒实习生」田柯宇，估值 2 亿美元，要挑战李飞飞做世界模型",
+    "url": "https://www.leiphone.com/category/yanxishe/BfzpShx7bKSPT4Ul.html",
+    "source": "雷峰网",
+    "date": "2026-10-09",
+    "summary": "2026 年 10 月，AI 创投圈迎来一笔颇具戏剧感的融资。 一家 10 人规模的神秘实验室，没产品、没名字，成了资本市场冰火两重天的风暴眼。一方面，业内进行着道德审判， “人品不行的公司绝对不能投”，另一方面，顶级 VC 机构五源资本和 IDG 却暗中追捧，偷偷塞了 3000 万美金，把估值推到 2 亿美元。 而这家公司的创始人，正是 2024 年震动国内 AI 圈、 被称作 “字节投毒实习生” 的北大博士生田柯宇 。彼时，他身陷字节跳动索赔 800 万元的诉讼风波，却同时以第一作者身份拿到 NeurIPS 2024 最佳论文奖。这样一个争议与天才…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
     "id": "0819b5d987ad96ba",
     "title": "灵巧操作头号玩家：Sharpa把指尖「触觉」进化到全面「体感」",
     "url": "https://www.qbitai.com/2026/10/502330.html",
     "source": "量子位",
     "date": "2026-10-09",
     "summary": "机器人摆脱展会、舞台Demo，产生真实商业价值，究竟需要哪些东西？",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "edf79715fb8e813e",
+    "title": "Danu Robotics’ fight to build a better recycling robot",
+    "url": "https://techcrunch.com/2026/10/09/danu-robotics-fight-to-build-a-better-recycling-robot/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-10-09",
+    "summary": "For six years, Danu founder Amy Ma has been working on a better way to sort recyclable waste.",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "304a6e31805197fa",
+    "title": "We can’t help treating AI like it’s human. But should we?",
+    "url": "https://techcrunch.com/2026/10/09/we-cant-help-treating-ai-like-its-human-but-should-we/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-10-09",
+    "summary": "\"When we are drawn into even the most primitive exchanges with a relational artifact, we believe it cares for us,\" Dr. Sherry Turkle writes. \"And we are wired to care for it in return.\"",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "e6bbf4ee8129244c",
+    "title": "TechCrunch Disrupt 2026 starts in 4 days — lock in your pass savings of up to $100 before prices rise",
+    "url": "https://techcrunch.com/2026/10/09/techcrunch-disrupt-2026-starts-in-4-days-lock-in-your-pass-savings-of-up-to-100-before-prices-rise/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-10-09",
+    "summary": "Four days until TechCrunch Disrupt 2026 starts, when 10,000 founders, investors, and tech leaders gather in San Francisco's Moscone West on October 13-15. Save up to $100 on your price. Plus, save 50% on a second pass of the same type.",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "96aa397c58482da6",
+    "title": "Video Friday: Robot Decommissioning Takes a Fun Turn",
+    "url": "https://spectrum.ieee.org/video-friday-reachy-mini-raps",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-10-09",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AU…",
     "tags": [],
     "topics": [],
     "kinds": []
@@ -26042,17 +26119,6 @@
     "source": "IEEE Spectrum Robotics",
     "date": "2026-06-12",
     "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. RSS 2026 : 13–17 July 2026, SYDNEY…",
-    "tags": [],
-    "topics": [],
-    "kinds": []
-  },
-  {
-    "id": "f62e702d9fac137b",
-    "title": "Defining Autonomy for Wellness Robots in Senior Care",
-    "url": "https://content.knowledgehub.wiley.com/wellness-robots-and-the-path-to-full-autonomy-a-new-paradigm-in-ai-powered-senior-care/",
-    "source": "IEEE Spectrum Robotics",
-    "date": "2026-06-11",
-    "summary": "An examination of how socially assistive wellness robots could support the seven dimensions of senior wellness, and how a framework can measure their autonomy. What Attendees will Learn Why the senior care crisis exceeds incremental automation. Demographic pressure, workforce sh…",
     "tags": [],
     "topics": [],
     "kinds": []
