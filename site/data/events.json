@@ -22,6 +22,30 @@
     "kinds": []
   },
   {
+    "id": "0d9b622d5ec1ed45",
+    "title": "JEPA、空间智能路线正面交锋：WorldArena 2.0 挑战赛开考「能不能被机器人真正用起来」| IROS 2026",
+    "url": "https://www.leiphone.com/category/private/A0uKolgD2esWoUfT.html",
+    "source": "雷峰网",
+    "date": "2026-10-10",
+    "summary": "JEPA 路线先下一城：视启未来 Track 1 第一，晨昏线 Track 2 第二。 作者丨 张岂萍 幸丽娟 编辑丨 幸丽娟 世界模型的竞争，正在从“生成未来”，走向“能不能被机器人真正用起来”。 视频可以生成得越来越逼真，但进入机器人系统后，世界模型还要回答更具体的问题：它能否预测动作执行后的状态变化，能否支持策略训练，最终能否在真实机器人上完成任务。 WorldArena 把世界模型拉进了同一个“考场”。这套评测体系由清华大学团队联合多所海内外高校推出，是世界模型领域最权威的评测榜单之一。 WorldArena 1.0 已经将世界模型评测从单纯的…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "6801da099eadf383",
+    "title": "3 days to TechCrunch Disrupt 2026: Meet the startups before they hit mainstream",
+    "url": "https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-10-10",
+    "summary": "TechCrunch Disrupt 2026 takes place October 13-15 in San Francisco. Over 300 startups will show what they’ve built to 10,000 tech leaders. Plus, 250+ speakers are ready to share insights across 200+ sessions. Register before doors open to save up to $100 and get a second pass at…",
+    "tags": [],
+    "topics": [],
+    "kinds": [
+      "产业动态"
+    ]
+  },
+  {
     "id": "87f22bfa4d82bb69",
     "title": "当年「字节投毒实习生」田柯宇，估值 2 亿美元，要挑战李飞飞做世界模型",
     "url": "https://www.leiphone.com/category/yanxishe/BfzpShx7bKSPT4Ul.html",
@@ -26084,43 +26108,6 @@
     "topics": [
       "VLA与基础模型"
     ],
-    "kinds": []
-  },
-  {
-    "id": "b612f2b2ad9c3d1f",
-    "title": "Theker just raised $85M to build the factory robot that doesn’t specialize in anything",
-    "url": "https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/",
-    "source": "TechCrunch Robotics",
-    "date": "2026-06-12",
-    "summary": "Unlike humanoid robots designed around a fixed form — think Boston Dynamics — Theker's machines are built to be reconfigured.",
-    "tags": [
-      "Boston Dynamics"
-    ],
-    "topics": [
-      "人形机器人"
-    ],
-    "kinds": []
-  },
-  {
-    "id": "caa49fb084322fa5",
-    "title": "Award-Winning Researcher Trains Robots to Make Educated Guesses",
-    "url": "https://spectrum.ieee.org/researcher-trains-robots-to-guess",
-    "source": "IEEE Spectrum Robotics",
-    "date": "2026-06-12",
-    "summary": "Yen-Ling Kuo always wanted to understand how things worked. When she was growing up in Taiwan, reading the story of Michael Faraday in elementary school piqued her curiosity about the natural world. During that time, she was introduced to Logo , a computer program with a turtle…",
-    "tags": [],
-    "topics": [],
-    "kinds": []
-  },
-  {
-    "id": "89829a396777579c",
-    "title": "Video Friday: Robotic Motion Discovery Reveals Unusual Behaviors",
-    "url": "https://spectrum.ieee.org/video-friday-humanoid-loco-manipulation",
-    "source": "IEEE Spectrum Robotics",
-    "date": "2026-06-12",
-    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. RSS 2026 : 13–17 July 2026, SYDNEY…",
-    "tags": [],
-    "topics": [],
     "kinds": []
   }
 ]
