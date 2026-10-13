@@ -1,15 +1,15 @@
 {
-  "updated": "2026-10-11T07:10:14+00:00",
+  "updated": "2026-10-13T07:41:18+00:00",
   "sources": {
     "arXiv": 30,
     "TechCrunch Robotics": 20,
     "IEEE Spectrum Robotics": 30,
     "Google DeepMind": 6,
-    "NVIDIA Blog": 2,
+    "NVIDIA Blog": 1,
     "Hugging Face Blog": 22,
     "量子位": 10,
     "雷峰网": 3,
-    "Hacker News": 11
+    "Hacker News": 15
   },
   "dead": []
 }
