@@ -1,5 +1,537 @@
 [
   {
+    "id": "6e9602e918434424",
+    "title": "无人机表演十年后，大漠大想做「会干活」的机群",
+    "url": "https://www.leiphone.com/category/robot/OA7EpCSSkv3D6yMD.html",
+    "source": "雷峰网",
+    "date": "2026-10-16",
+    "summary": "即便对大漠大这家公司名字感到陌生的人，大概也看过它的无人机编队表演——7次登上央视春晚，多次出现在《新闻联播》里，但迄今为止，大漠大鲜少对外讲述自己的品牌故事。 在刚刚过去的国庆假期，大漠大在南昌、宜昌、昆明等多地执飞的无人机表演刷屏全网，持续推进“低空＋文旅＋融媒”的低空融媒业务运营，为城市发展打造新的内容传播载体。 但表演本身并不是大漠大的营收主体。据公司披露，设备销售占其整体营收约70%，研发人员占比约40%，无人机集群设备与技术系统，才是支撑其业务的核心。 据雷峰网了解，大漠大海外设备销量五年上涨四十五倍，正在开发具身智能方向的第二产品线；并面…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "a29cda987c3c1dfb",
+    "title": "全球首发：万拿NOVA21灵巧手，拓展灵巧操作研究边界",
+    "url": "https://www.leiphone.com/category/industrynews/ep1fzlxxZTkWwo67.html",
+    "source": "雷峰网",
+    "date": "2026-10-15",
+    "summary": "10月15日，在2026香港秋季电子产品展上，万拿机器人全球首发NOVA21灵巧手。面向机器人科研与开发团队，万拿NOVA21采用21自由度全主动旋转直驱设计，集灵巧、力量、精准与触觉感知于一体，为多指协同、物品姿态调整与复杂操作策略研究提供执行与感知能力。 21自由度全主动旋转直驱，支持多指协同 NOVA21采用拟人化布局，整手尺寸为195×105×71mm，接近人手大小。拇指拥有5个主动自由度，其余四指各拥有4个主动自由度。NOVA21的21个主动自由度均采用旋转直驱，支持全手各指的主动控制与姿态调整。 拇指指根旋转、对指、手指侧摆与后仰等动作，丰…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "8031ac42ea200d6c",
+    "title": "LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation",
+    "url": "https://arxiv.org/abs/2610.22372v1",
+    "source": "arXiv",
+    "date": "2026-10-15",
+    "summary": "Personalization is essential for general-purpose robots to transition into household environments and achieve true practicality. While general robotic manipulation has been extensively studied, personalized robotic manipulation (PeRM) lacks a controlled benchmark for separating…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "Georgia Tech",
+      "University of Toronto"
+    ]
+  },
+  {
+    "id": "00528faec4b0ae46",
+    "title": "Value as Memory: Online Value-Guided Post-training for General Robot Policies",
+    "url": "https://arxiv.org/abs/2610.22368v1",
+    "source": "arXiv",
+    "date": "2026-10-15",
+    "summary": "Real-world post-training of generalist robot policies faces two challenges: partial observability makes action selection ambiguous, while offline post-training methods delay feedback from deployment experience. We present Value as Memory (VaM), a framework that addresses these c…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": [
+      "上海交通大学"
+    ]
+  },
+  {
+    "id": "01f989ed8eb13fb3",
+    "title": "Perceive, Predict, and Plan: a Unified World Action Model for Egocentric Dexterous Manipulation",
+    "url": "https://arxiv.org/abs/2610.22363v1",
+    "source": "arXiv",
+    "date": "2026-10-15",
+    "summary": "We introduce P$^{3}$-WAM, a unified world action model for egocentric dexterous manipulation that learns 3D perception, action-conditioned prediction, and goal-directed planning through three complementary modes: Perceive, which reconstructs articulated hand motion and camera tr…",
+    "tags": [],
+    "topics": [
+      "世界模型",
+      "感知与传感",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "ETH Zürich",
+      "University of Oxford"
+    ]
+  },
+  {
+    "id": "f85afceab2ad1c9b",
+    "title": "CoDA: Co-Evolution of Data Engines and Action Policies",
+    "url": "https://arxiv.org/abs/2610.22362v1",
+    "source": "arXiv",
+    "date": "2026-10-15",
+    "summary": "Generative simulation can automate robot environment construction, but physically valid environments are not necessarily useful for training. The challenge is to identify environments that address a policy's failures and supervision that helps it overcome them. We introduce CoDA…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "e9fab03ecf4b4ae3",
+    "title": "Spark-0: Scaling Spatially Aligned Tactile Pretraining for Robot Dexterous Manipulation",
+    "url": "https://arxiv.org/abs/2610.22342v1",
+    "source": "arXiv",
+    "date": "2026-10-15",
+    "summary": "Generalist robot policies benefit from large-scale visual pretraining but often struggle with contact-rich dexterous manipulation, where force, compliance, and incipient slip are hard to observe from images. We present Spark-0, a spatially aligned vision-tactile-language-action…",
+    "tags": [],
+    "topics": [
+      "感知与传感",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "c593dc488338aaf9",
+    "title": "Dexterity from Supervised Play",
+    "url": "https://arxiv.org/abs/2610.22340v1",
+    "source": "arXiv",
+    "date": "2026-10-15",
+    "summary": "How can robots autonomously collect the contact-rich experience needed to learn dexterous manipulation? We present DSP: Dexterity from supervised play, a framework in which a robot learns a play policy from minutes of human play through behavior cloning, then deploys it autonomo…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "80bb27d7b80164bb",
+    "title": "Sim-to-Real Reinforcement Learning for Path-Safe Target Reaching in Robotic Harvesting of Hydroponic Lettuce",
+    "url": "https://arxiv.org/abs/2610.22337v1",
+    "source": "arXiv",
+    "date": "2026-10-15",
+    "summary": "Robotic harvesting requires precise manipulation to ensure accurate positioning of the end-effector, especially in a constraint workspace. This study introduces the Path-Safe Approach Proximal Policy Optimization (PSA-PPO), a target-conditioned local reaching framework designed…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "3d358561fce81b1f",
+    "title": "Mem4Act: Learning Effective Latent Memory for Long-Horizon Robotic Manipulation",
+    "url": "https://arxiv.org/abs/2610.22323v1",
+    "source": "arXiv",
+    "date": "2026-10-15",
+    "summary": "Long-horizon robotic manipulation fundamentally requires memory: agents must retain task-relevant information from past observations and interactions and use it to guide future actions. Existing approaches typically preserve raw historical observations, compressed visual tokens,…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "ac15784e44cdf078",
+    "title": "MOSS: Mode-Oriented Source Shaping for Robot Flow Matching Policies",
+    "url": "https://arxiv.org/abs/2610.22193v1",
+    "source": "arXiv",
+    "date": "2026-10-15",
+    "summary": "In robotic manipulation, the same observation often admits multiple feasible actions. Generative policies such as diffusion and flow matching naturally capture such multimodal behaviors, yet which mode is executed is left to random sampling and cannot be actively controlled. We…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "南洋理工",
+      "清华大学"
+    ]
+  },
+  {
+    "id": "5ac70a40c102ecda",
+    "title": "Whole-Body Dexterity",
+    "url": "https://arxiv.org/abs/2610.22184v1",
+    "source": "arXiv",
+    "date": "2026-10-15",
+    "summary": "Current humanoid dexterous manipulation remains largely confined to end-effectors and simple grasps, falling short of humans' ability to engage the entire body by bracing and sliding bulky objects against the arms and torso. We introduce Whole-Body Dexterity (WBD), a general fra…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "灵巧手与操作",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "UCSD"
+    ]
+  },
+  {
+    "id": "b572da49c577ec0a",
+    "title": "REKI: Registering Knowledge in VLAs",
+    "url": "https://arxiv.org/abs/2610.22178v1",
+    "source": "arXiv",
+    "date": "2026-10-15",
+    "summary": "We introduce REKI, a 2.4B vision-language-action model (VLA) pretrained exclusively on public data that sets a new Pareto frontier between performance and model size: on LIBERO-Plus, RoboTwin Clean2Rand and RoboCasa365, it is outperformed only by models about twice its size. REK…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "INRIA"
+    ]
+  },
+  {
+    "id": "034f48931d629bb7",
+    "title": "Inertially Significant Humanoid Teleoperation via Whole Body Model Predictive Control and Online Parameter Estimation",
+    "url": "https://arxiv.org/abs/2610.22176v1",
+    "source": "arXiv",
+    "date": "2026-10-15",
+    "summary": "The effective deployment of humanoid robots in practical tasks of interest will require a capability of sensing and adapting to variations in inertial parameters, as occurs during heavy tool use or when carrying significant payload. Such payloads constitute a significant proport…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "感知与传感",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "aec606b7b7ec0965",
+    "title": "FastVLA: Task-Conditioned and Temporally Adaptive Visual Token Compression for Efficient Vision-Language-Action Models",
+    "url": "https://arxiv.org/abs/2610.22146v1",
+    "source": "arXiv",
+    "date": "2026-10-15",
+    "summary": "Vision-Language-Action (VLA) models present a promising paradigm for general-purpose robot manipulation, but closed-loop deployment is often limited by inference efficiency: at each timestep, high-resolution, often multi-view images are encoded into hundreds of visual tokens tha…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "Microsoft"
+    ]
+  },
+  {
+    "id": "fa627c282c651188",
+    "title": "Compliant GMT: Making General Motion Tracking Compliant via Residual Reference Adaptation",
+    "url": "https://arxiv.org/abs/2610.22119v1",
+    "source": "arXiv",
+    "date": "2026-10-15",
+    "summary": "We propose Compliant GMT (C-GMT), a modular framework for full-body compliant responses in general motion tracking. As humanoid robots move into real world deployment, they not only need to perform any motion but also respond safely and robustly to interaction forces. Existing g…",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "7e63a7a5afebcc76",
+    "title": "DemoStream: Batched Task-and-Motion-Plan Optimization for Automated Learning from Demonstration",
+    "url": "https://arxiv.org/abs/2610.22020v1",
+    "source": "arXiv",
+    "date": "2026-10-15",
+    "summary": "Learning from demonstration is an effective strategy for endowing robots with manipulation capabilities but requires training on datasets comprised of massive amounts of demonstrations. Existing demonstration collection approaches either require constant human involvement, for e…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "NVIDIA"
+    ]
+  },
+  {
+    "id": "135f62dbf0a6c02f",
+    "title": "VP-EVT: Active Visibility Preservation for Embodied Visual Tracking",
+    "url": "https://arxiv.org/abs/2610.21999v1",
+    "source": "arXiv",
+    "date": "2026-10-15",
+    "summary": "Embodied Visual Tracking (EVT) is an essential capability for intelligent robots in human-robot collaboration, requiring an agent to follow a designated target person in dynamic environments relying solely on egocentric visual perception. However, persistent pedestrian occlusion…",
+    "tags": [],
+    "topics": [
+      "感知与传感"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "腾讯"
+    ]
+  },
+  {
+    "id": "82ef160843b4a70b",
+    "title": "VeriVLA: Adaptive Test-Time Verification for Flow-Based VLAs with Latent World Models",
+    "url": "https://arxiv.org/abs/2610.21985v1",
+    "source": "arXiv",
+    "date": "2026-10-15",
+    "summary": "Flow-based Vision-Language-Action (VLA) policies are inherently stochastic: different noise seeds can produce action chunks of varying quality from the same observation. At test time, however, the policy typically commits to a single sample without an explicit estimate of its qu…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "世界模型"
+    ],
+    "kinds": [
+      "安全与可信"
+    ],
+    "affiliations": [
+      "香港大学"
+    ]
+  },
+  {
+    "id": "46da784b942c78b7",
+    "title": "De-Risking Robotic Welding for In-Space Metal Joining Through Physics-Grounded Digital Twins",
+    "url": "https://arxiv.org/abs/2610.21939v1",
+    "source": "arXiv",
+    "date": "2026-10-15",
+    "summary": "Growing interest in in-space servicing, manufacturing, and assembly has renewed attention on reliable metal joining for modular construction and on-orbit repair. Robotic welding is promising, but reduced-gravity and low-pressure operation remains poorly characterised and flight-…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [
+      "安全与可信"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "c36f86baee9bd633",
+    "title": "TS-WAM: Temporal Latent Actions and World-Action Coupling for Vision-Language Robot Control",
+    "url": "https://arxiv.org/abs/2610.21922v1",
+    "source": "arXiv",
+    "date": "2026-10-15",
+    "summary": "Many vision-language-action policies rely on action-labeled robot demonstrations and lack an explicit mechanism for predicting future visual states. These limitations hinder learning from action-free videos and can encourage overfitting to demonstration conditions, weakening gen…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "香港科技大学"
+    ]
+  },
+  {
+    "id": "7fa1efbffded5771",
+    "title": "What Should Robot Policies Learn to Predict? Rethinking Supervision Targets in Vision-Language-Action Learning",
+    "url": "https://arxiv.org/abs/2610.21915v1",
+    "source": "arXiv",
+    "date": "2026-10-15",
+    "summary": "Vision-language-action (VLA) policies are typically trained with action prediction as the primary supervision signal, since robots ultimately execute actions. Auxiliary objectives such as latent-action (LA) and future-vision (FV) prediction are often added to improve policy lear…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "北京大学",
+      "清华大学"
+    ]
+  },
+  {
+    "id": "63eebb394deaee39",
+    "title": "Sub-Millisecond Reflexes for Continuous Physical Human-Robot Interaction",
+    "url": "https://arxiv.org/abs/2610.21913v1",
+    "source": "arXiv",
+    "date": "2026-10-15",
+    "summary": "Continuous physical human-robot interaction requires robots to rapidly adapt their control behaviour without interrupting task execution. However, existing ROS 2 control architectures rely on stop-to-switch mechanisms that introduce substantial delays and interrupt execution. We…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "22f282ca79e2c842",
+    "title": "Cross-Embodiment Causal Transfer from Human Videos to Robot Manipulation",
+    "url": "https://arxiv.org/abs/2610.21798v1",
+    "source": "arXiv",
+    "date": "2026-10-15",
+    "summary": "Scaling robot manipulation models requires large amounts of interaction data, yet collecting diverse real-robot experience remains costly. Human manipulation videos, in contrast, provide abundant and diverse task experience that could potentially benefit robot learning. However,…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "中科院",
+      "美团"
+    ]
+  },
+  {
+    "id": "2f3e5444c4cc3512",
+    "title": "Trajectory-based Diffusion from One-shot Human Video for Generalizable Manipulation",
+    "url": "https://arxiv.org/abs/2610.21792v1",
+    "source": "arXiv",
+    "date": "2026-10-15",
+    "summary": "Imitation learning enables robots to perform complex tasks by leveraging human-collected demonstrations. However, most existing approaches require labor-intensive data collection with additional teleoperation systems, which hinders scalability. Human videos represent a natural s…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "中国科学技术大学",
+      "清华大学"
+    ]
+  },
+  {
+    "id": "ea55c9c7df3de90c",
+    "title": "Uni-PNP: Unified Prehensile and Non-prehensile Policy Learning for Generalizable Object Pose Reaching",
+    "url": "https://arxiv.org/abs/2610.21735v1",
+    "source": "arXiv",
+    "date": "2026-10-15",
+    "summary": "Object manipulation often requires combining non-prehensile actions with grasping. However, existing approaches typically develop these capabilities separately and integrate them by sequencing distinct primitives through prescribed intermediate objectives, limiting the coordinat…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "中科院",
+      "北京大学",
+      "北京智源",
+      "清华大学",
+      "银河通用"
+    ]
+  },
+  {
+    "id": "2301ada9e51e2f11",
+    "title": "MAIA: Anticipating Interaction Anomalies in Contact-Rich Manipulation via Multimodal World Models",
+    "url": "https://arxiv.org/abs/2610.21686v1",
+    "source": "arXiv",
+    "date": "2026-10-15",
+    "summary": "Reliable contact-rich manipulation requires detecting execution deviations early enough for corrective action. Yet most monitoring methods are reactive, identifying anomalies only after they become observable. Anticipating such anomalies is challenging because visual observation…",
+    "tags": [],
+    "topics": [
+      "世界模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "上海交通大学"
+    ]
+  },
+  {
+    "id": "555bd14dd6963345",
+    "title": "Diffeomorphic Hidden-State Steering: Improving Imitation Learning Policy Robustness through Expert Hidden-State Geometry",
+    "url": "https://arxiv.org/abs/2610.21666v1",
+    "source": "arXiv",
+    "date": "2026-10-15",
+    "summary": "Small observation or action errors can compound during closed-loop execution and disrupt a trained imitation learning policy. We study whether the original expert demonstrations can improve robustness through test-time hidden-state steering without additional demonstrations or p…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "遥操作与数据采集"
+    ],
+    "kinds": [
+      "安全与可信"
+    ],
+    "affiliations": [
+      "KAIST"
+    ]
+  },
+  {
+    "id": "2b109b691a0ea60d",
+    "title": "SPEAR: Selective Preference Elicitation with Adaptive Rewards for VLM-Guided Robotic Manipulation",
+    "url": "https://arxiv.org/abs/2610.21621v1",
+    "source": "arXiv",
+    "date": "2026-10-15",
+    "summary": "Recent Vision-Language Models (VLMs) enable automated preference labeling for robotic manipulation, yet their deployment remains impractical since each query incurs substantial inference cost, while VLMs frequently abstain on visually challenging comparisons. We propose SPEAR, a…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "香港大学"
+    ]
+  },
+  {
+    "id": "bbfea3ecfa085ba8",
+    "title": "Multi-Teacher On-Policy Distillation for Flow-Based Vision-Language-Action Models",
+    "url": "https://arxiv.org/abs/2610.21522v1",
+    "source": "arXiv",
+    "date": "2026-10-15",
+    "summary": "Specialized vision-language-action (VLA) policies acquire strong domain-specific skills, yet consolidating these skills into one shared policy remains challenging. On-policy distillation (OPD) transfers teacher knowledge on inputs induced by the student, addressing the distribut…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "华为",
+      "清华大学"
+    ]
+  },
+  {
+    "id": "4afda04bda9601e9",
+    "title": "TRACE: Typed Reference-Aware Conversational Editing for Humanoid Motion Diffusion",
+    "url": "https://arxiv.org/abs/2610.21515v1",
+    "source": "arXiv",
+    "date": "2026-10-15",
+    "summary": "Language-conditioned humanoid motion generation enables users to create and refine robot movements through natural language. The central challenge is to connect an underspecified request to concrete motion structure that can subsequently be revised relative to an accepted refere…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "人形机器人"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "TU München",
+      "北京航空航天大学",
+      "华中科技大学",
+      "浙江大学"
+    ]
+  },
+  {
+    "id": "7f2824a71f9ac77e",
+    "title": "CarryOn: A Dual-Loop Harness for Personalized and Reliable Robot Assistance",
+    "url": "https://arxiv.org/abs/2610.21453v1",
+    "source": "arXiv",
+    "date": "2026-10-15",
+    "summary": "While generalist vision-language-action (VLA) models have enabled diverse open-world manipulation, real-world robotic assistance requires two critical capabilities they currently lack: personalization and reliable execution. First, executing an instruction like \"make me a sandwi…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "35dbf45b5abf3069",
+    "title": "TechCrunch Disrupt 2026: Last day",
+    "url": "https://techcrunch.com/2026/10/15/techcrunch-disrupt-2026-last-day/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-10-15",
+    "summary": "Last day to be part of TechCrunch Disrupt 2026. Join 10,000+ tech leaders for a day of connections and insights. Save 75% on your pass now.",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
     "id": "601bf683f3b02796",
     "title": "蚂蚁灵波连续签约隆盛唯睿、德马科技等企业，具身大脑加速进产线",
     "url": "https://www.leiphone.com/category/industrynews/sDAmOLZ58Kpz8ZlD.html",
@@ -657,7 +1189,7 @@
     "url": "https://spectrum.ieee.org/mars-rover-distance-record",
     "source": "IEEE Spectrum Robotics",
     "date": "2026-10-13",
-    "summary": "On October 11 , the Perseverance rover completed a drive that brought its total distance traveled on Mars to 28.10 miles (45.22 kilometers). This is a new record for Mars rovers, enabled in large part by Perseverance’s ability to drive with much more autonomy than its predecesso…",
+    "summary": "On 11 October , the Perseverance rover completed a drive that brought its total distance traveled on Mars to 28.10 miles (45.22 kilometers). This is a new record for Mars rovers, enabled in large part by Perseverance ’s ability to drive with much more autonomy than its predecess…",
     "tags": [],
     "topics": [],
     "kinds": []
@@ -27330,30 +27862,6 @@
     "topics": [
       "感知与传感"
     ],
-    "kinds": []
-  },
-  {
-    "id": "10489dc2667f8f7e",
-    "title": "The Secret to Marathon-Winning Humanoid Robots",
-    "url": "https://spectrum.ieee.org/china-humanoid-robot-marathon",
-    "source": "IEEE Spectrum Robotics",
-    "date": "2026-06-17",
-    "summary": "On 19 April 2026, the Honor Lightning humanoid robot ran a half-marathon in 50 minutes and 26 seconds , beating the human world record by 7 minutes and the best robot time from 2025 by almost 2 hours. How did Honor do it? Is there some magical technology or technique that unlock…",
-    "tags": [],
-    "topics": [
-      "人形机器人"
-    ],
-    "kinds": []
-  },
-  {
-    "id": "c7b6e0d15e340e1a",
-    "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
-    "url": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
-    "source": "Hugging Face Blog",
-    "date": "2026-06-17",
-    "summary": "",
-    "tags": [],
-    "topics": [],
     "kinds": []
   }
 ]
