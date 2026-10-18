@@ -11,6 +11,67 @@
     "kinds": []
   },
   {
+    "id": "1f9b468e86423e35",
+    "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+    "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-10-16",
+    "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs coun…",
+    "tags": [
+      "NVIDIA"
+    ],
+    "topics": [],
+    "kinds": [
+      "产业动态",
+      "安全与可信"
+    ]
+  },
+  {
+    "id": "3ee888866ef9d7e3",
+    "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
+    "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-10-16",
+    "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs coun…",
+    "tags": [
+      "NVIDIA"
+    ],
+    "topics": [],
+    "kinds": [
+      "产业动态",
+      "安全与可信"
+    ]
+  },
+  {
+    "id": "b8f4f36ff32f03bf",
+    "title": "Video Friday: When Two Robots Become One",
+    "url": "https://spectrum.ieee.org/video-friday-reconfigurable-robots",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-10-16",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AU…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "570317871478c2bd",
+    "title": "Portable humanoid robot uses antenna eyebrows and lights to express emotions",
+    "url": "https://www.designboom.com/technology/portable-humanoid-robot-antenna-eyebrows-light-animations-sprout-fauna-robotics/",
+    "source": "Hacker News",
+    "date": "2026-10-16",
+    "summary": "",
+    "hn": {
+      "points": 3,
+      "comments": 0,
+      "discussion": "https://news.ycombinator.com/item?id=50117639"
+    },
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": []
+  },
+  {
     "id": "a29cda987c3c1dfb",
     "title": "全球首发：万拿NOVA21灵巧手，拓展灵巧操作研究边界",
     "url": "https://www.leiphone.com/category/industrynews/ep1fzlxxZTkWwo67.html",
@@ -27838,30 +27899,6 @@
     "summary": "Shinkei makes a refrigerator-sized robot called Poseidon to kill fish quickly and humanely.",
     "tags": [],
     "topics": [],
-    "kinds": []
-  },
-  {
-    "id": "dee73451952779c0",
-    "title": "Video Friday: Do Robots Even Need Legs?",
-    "url": "https://spectrum.ieee.org/video-friday-agentic-ai-robot",
-    "source": "IEEE Spectrum Robotics",
-    "date": "2026-06-19",
-    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. RSS 2026 : 13–17 July 2026, SYDNEY…",
-    "tags": [],
-    "topics": [],
-    "kinds": []
-  },
-  {
-    "id": "7be125b55e044a0a",
-    "title": "What Amazon’s Astro Taught Me About Giving Robots a Soul",
-    "url": "https://spectrum.ieee.org/amazon-astro-robot-sound",
-    "source": "IEEE Spectrum Robotics",
-    "date": "2026-06-19",
-    "summary": "In 2018, Amazon brought me in as the lead UX Sound Designer for Astro, its first consumer home robot . Astro used cameras and other sensors to map and navigate your home and workplace , and could proactively patrol, check up on loved ones, and transport small items using its bui…",
-    "tags": [],
-    "topics": [
-      "感知与传感"
-    ],
     "kinds": []
   }
 ]
