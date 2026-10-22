@@ -1,5 +1,591 @@
 [
   {
+    "id": "7a5c4c26ec9e655f",
+    "title": "靳玉志：自动驾驶将重构新的出行方式",
+    "url": "https://www.leiphone.com/category/industrynews/PlEsyIhjrOGsxbYo.html",
+    "source": "雷峰网",
+    "date": "2026-10-22",
+    "summary": "10月21日，2026世界智能网联汽车大会在北京举行。华为公司高级副总裁、引望公司CEO靳玉志出席巅峰对话环节，围绕智能化下半场的变化、引望在技术生态中的角色等话题分享了观点。 靳玉志指出， “智能化下半场”正发生三大变化。第一是产业加速从辅助驾驶迈向自动驾驶。 根据工信部统计数据，截至今年9月，L2及以上辅助驾驶搭载率已达到70%。工信部正有序开展L3级自动驾驶准入测试，强标也已正式发布，并将于2027年7月1日起正式落地实施，我认为这一政策给整个产业发展奠定了非常好的基础。 第二是自动驾驶对安全的要求更高。 L2级辅助驾驶阶段，事故的责任主体是驾驶…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "2de6d0c279c12d62",
+    "title": "具身记忆赛道持续升温，长记忆迎来新 SOTA",
+    "url": "https://www.leiphone.com/category/ai/jvyFCFgqJxJtOvjo.html",
+    "source": "雷峰网",
+    "date": "2026-10-22",
+    "summary": "IROS 2026 最佳论文启示录：没有长记忆的机器人，终将被淘汰。 作者丨 邓哲敏 编辑丨 齐铖湧 本月初在匹兹堡闭幕的 IROS 2026 将最佳论文奖颁给了 LT-Mem，这项研究让机器人重访同一空间时，能完整保留每个物体的位置变迁史，而非仅仅记住最新一次看到的样子。评委会从近两千篇收录论文中选中它，想必不仅是认可其扎实的工作，也是代表学界宣告： 具身长记忆（long-term embodied memory）已经从一个工程补丁，变成了机器人领域公认的科学问题。 从实际角度考虑，通用机器人要规模化落地，需要以小时、天乃至周为单位持续运行，而不只是…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "381130e24d54aa99",
+    "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
+    "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
+    "source": "NVIDIA Blog",
+    "date": "2026-10-22",
+    "summary": "To help developers rapidly build world models, which help physical AI systems understand and simulate the real world, NVIDIA has expanded the Cosmos platform with new training tools, simulation checkpoints and Cosmos Data Factory blueprints. Ranking top five on six different ope…",
+    "tags": [
+      "NVIDIA"
+    ],
+    "topics": [
+      "世界模型",
+      "仿真与Sim2Real"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "2316152895141c13",
+    "title": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
+    "url": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/",
+    "source": "NVIDIA Blog",
+    "date": "2026-10-22",
+    "summary": "European retailers are using open models and physical intelligence across use cases — from a commerce platform cutting inference costs by 90% to to a fulfillment center where collaboration of different robotic fleets is simulated inside a digital twin. Frontier Results With Open…",
+    "tags": [
+      "NVIDIA",
+      "Physical Intelligence"
+    ],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "67c2ded73cca7a32",
+    "title": "真机实干，产训一体：具身智能的下一座基础设施，为什么是“实景实训平台”？",
+    "url": "https://www.leiphone.com/category/industrynews/uxVZGVMwc8JuD0Px.html",
+    "source": "雷峰网",
+    "date": "2026-10-21",
+    "summary": "机器人在哪里练，练成后用在哪里？越来越多的探索指向同一个答案：把训练放进真实的工位，这就是“实景实训平台”。据中国信息通信研究院《具身智能训练场研究报告（2026年）》及多家机构测算，训练通用具身模型至少需要千万小时级真实交互数据，而目前全球可用的高质量真机具身语料仅在百万小时量级，相差约一个数量级。若主要依靠专家遥控真机采集，产出往往不过每天数十小时。缺的不是又一间展厅，而是能把采集、标注、训练、部署失败样本再送回去的数据流水线。在张江的觅蜂科技实训实验室，00后数据采集组长朱绵锐正与一台机器人并肩而立。“哪怕只是拿瓶子、放物件这样简单的小动作，我们…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "0e79694f27389b48",
+    "title": "Agentic World Action Models",
+    "url": "https://arxiv.org/abs/2610.30136v1",
+    "source": "arXiv",
+    "date": "2026-10-21",
+    "summary": "Recent world action models provide visual foresight and future prediction for robot manipulation, but lack explicit mechanisms for compositional skill reuse. Agentic robotics combines code-based planning and reasoning with reusable skills, but often lacks predictive grounding in…",
+    "tags": [],
+    "topics": [
+      "世界模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "NVIDIA",
+      "UC Berkeley"
+    ]
+  },
+  {
+    "id": "a189fbb111f4f821",
+    "title": "CW-WAM: A Structured Contact-Wrench World Action Model for Force-Sensitive Manipulation",
+    "url": "https://arxiv.org/abs/2610.30117v1",
+    "source": "arXiv",
+    "date": "2026-10-21",
+    "summary": "Force-sensitive manipulation requires contact and load information that is not provided explicitly by visual observations. We present CW-WAM, a world action model that jointly predicts video, motion, and contact wrench. Inspired by hybrid motion-force control, it contains a unif…",
+    "tags": [],
+    "topics": [
+      "世界模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "75a9c1252dc63e61",
+    "title": "Multimodal Embodied Agents: A Unified Capability-centric Perspective from Computer-Use to Robot-Use",
+    "url": "https://arxiv.org/abs/2610.30108v1",
+    "source": "arXiv",
+    "date": "2026-10-21",
+    "summary": "Multimodal agents (MMAs) sustain interaction through reasoning, memory, tools, and feedback, most visibly as computer-use agents, while robotic systems (RSs) couple sensing and actuation under physical dynamics. We define multimodal embodied agents (MMEAs) as goal-directed syste…",
+    "tags": [],
+    "topics": [
+      "感知与传感"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "06e6c81f56bde736",
+    "title": "Asymmetric On-Policy Distillation Learns In-Context Exploration",
+    "url": "https://arxiv.org/abs/2610.30105v1",
+    "source": "arXiv",
+    "date": "2026-10-21",
+    "summary": "Sequential decision-making under partial observability is difficult because agents must explore to infer hidden, task-relevant information before acting effectively. Learning such information-gathering behaviors tabula rasa via online reinforcement learning is sample-inefficient…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "b7891618c91dba90",
+    "title": "AtomicRL: Atomic Reinforcement Learning for Long-Horizon Robotic Manipulation",
+    "url": "https://arxiv.org/abs/2610.30097v1",
+    "source": "arXiv",
+    "date": "2026-10-21",
+    "summary": "Vision-language-action (VLA) models have shown promise in robotic manipulation, but imitation learning (IL) alone often struggles to master complex long-horizon skills. Reinforcement learning (RL) offers an effective avenue for further improving VLA policies. However, existing V…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "85ad07e6f73a0ba0",
+    "title": "Do Earth-Trained Humanoid Controllers Walk on the Moon? Gravity, Terrain, and Soil Transfer",
+    "url": "https://arxiv.org/abs/2610.30080v1",
+    "source": "arXiv",
+    "date": "2026-10-21",
+    "summary": "The Moon changes gravity, terrain, and soil at once. Learned locomotion has studied reduced gravity on rigid ground and granular terrain mostly at Earth gravity, but not humanoids under both, generalist-controller transfer, or the Earth cost of lunar adaptation. On a simulated U…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "Stanford"
+    ]
+  },
+  {
+    "id": "b2888e2d54c15561",
+    "title": "Test-Time Motion Steering for Perceptive Humanoid Fall Recovery",
+    "url": "https://arxiv.org/abs/2610.30061v1",
+    "source": "arXiv",
+    "date": "2026-10-21",
+    "summary": "Humanoid fall recovery requires selecting a motion that suits both the surrounding scene and the task. The same fallen pose can admit several ways to stand, with different routes, support transitions, and final headings. Yet reliable recovery alone does not provide control over…",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "afc4de624388e004",
+    "title": "From Reasoning to Action: Benchmarking Frontier AI Models on LIBERO-10 Robot Manipulation Tasks",
+    "url": "https://arxiv.org/abs/2610.30051v1",
+    "source": "arXiv",
+    "date": "2026-10-21",
+    "summary": "Recent advances in frontier AI models have demonstrated remarkable capabilities in visual understanding, reasoning, planning, and tool use, raising the possibility of using general-purpose AI models for robot manipulation without task-specific training. However, their manipulati…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "91ac5f35cc9c6be3",
+    "title": "SP-HLM: Sparse-Pose-Driven Motion Generation and Whole-Body Control for Humanoid Loco-Manipulation",
+    "url": "https://arxiv.org/abs/2610.30044v1",
+    "source": "arXiv",
+    "date": "2026-10-21",
+    "summary": "Humanoid loco-manipulation requires an effective interface between high-level task policies and whole-body control. Existing interfaces typically rely on a single action representation for both task intent and whole-body coordination. This may burden the high-level policy or lea…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "灵巧手与操作",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "上海交通大学",
+      "香港大学"
+    ]
+  },
+  {
+    "id": "a0eacaccd0de8937",
+    "title": "TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments",
+    "url": "https://arxiv.org/abs/2610.30043v1",
+    "source": "arXiv",
+    "date": "2026-10-21",
+    "summary": "Robots must act under physical and social constraints while adapting to changes in their environment and human needs. Existing embodied-agent systems often focus on specified goals or abstract execution into symbolic actions, limiting evaluation in an evolving world. We introduc…",
+    "tags": [],
+    "topics": [],
+    "kinds": [
+      "产业动态"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "83ae92240c8eb6fe",
+    "title": "DONIC: Generalist Dexterous Bimanual Tracking Control from Human Demonstrations",
+    "url": "https://arxiv.org/abs/2610.29997v1",
+    "source": "arXiv",
+    "date": "2026-10-21",
+    "summary": "Despite recent progress in dexterous reference tracking, existing models focus primarily on single-hand manipulation and a limited range of interactions, leaving the bimanual dexterous behaviors common in real life unaddressed. The scarcity of contact-rich bimanual manipulation…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "6b6ffeba5a22d42c",
+    "title": "Object- and Task-Aware Active Perception for Safe Navigation of Mobile Manipulators in Semi-Static Environments",
+    "url": "https://arxiv.org/abs/2610.29964v1",
+    "source": "arXiv",
+    "date": "2026-10-21",
+    "summary": "Mobile manipulators must navigate safely in cluttered, partially unknown environments across logistics, manufacturing, and service applications. Semi-static changes between robot visits can lead to outdated scene knowledge and increased collision risk. We propose an active perce…",
+    "tags": [],
+    "topics": [
+      "感知与传感",
+      "移动与四足"
+    ],
+    "kinds": [
+      "安全与可信"
+    ],
+    "affiliations": [
+      "TU München",
+      "University of Toronto"
+    ]
+  },
+  {
+    "id": "abb8679e6d91f096",
+    "title": "HuMiT: Low-Latency Whole-Body Humanoid Teleoperation via Compact Reference Tracking",
+    "url": "https://arxiv.org/abs/2610.29903v1",
+    "source": "arXiv",
+    "date": "2026-10-21",
+    "summary": "Real-time whole-body humanoid teleoperation remains challenging due to the computational latency introduced by optimization-based retargeting pipelines and future-frame conditioning. Existing motion tracking policies typically require dense reference targets including full joint…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "移动与四足",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "清华大学",
+      "香港中文大学",
+      "香港大学"
+    ]
+  },
+  {
+    "id": "e46adeadacf7f338",
+    "title": "Post-hoc Epistemic Uncertainty for Vision-Language-Action Policies",
+    "url": "https://arxiv.org/abs/2610.29730v1",
+    "source": "arXiv",
+    "date": "2026-10-21",
+    "summary": "Vision-language-action (VLA) policies need to recognize gaps in their training knowledge to request useful demonstrations or assistance in new situations, especially when failures are costly. Disagreement within an ensemble of independently trained policies can guide these decis…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "fe684df03233f560",
+    "title": "Reconstruction-Augmented Visuomotor Pre-Training of 3D-Grounded Bimanual Dexterity from RGB-Only Human Videos",
+    "url": "https://arxiv.org/abs/2610.29716v1",
+    "source": "arXiv",
+    "date": "2026-10-21",
+    "summary": "We present SpatialDex, a framework that learns 3D-grounded bimanual dexterity from RGB-only human videos through reconstruction-augmented visuomotor pre-training. The central idea is to learn human behavior together with its spatial context. From each video, we reconstruct the s…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "d35c91e89361aa99",
+    "title": "CausGround: Causal Interaction Grounding for Adaptive Embodied Planning",
+    "url": "https://arxiv.org/abs/2610.29702v1",
+    "source": "arXiv",
+    "date": "2026-10-21",
+    "summary": "Multimodal large language models (MLLMs) show promising reasoning capabilities, but reliable physical interaction requires planning that accounts for when actions are executable and how they change the world. These preconditions and effects are environment-dependent and often no…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "中科院",
+      "北京智源"
+    ]
+  },
+  {
+    "id": "97102227ceb831d0",
+    "title": "FlowVLA: Learning Flow-Aware Physical Completion for Quantitative Robotic Pouring",
+    "url": "https://arxiv.org/abs/2610.29692v1",
+    "source": "arXiv",
+    "date": "2026-10-21",
+    "summary": "During steady pouring, images and robot pose may remain nearly unchanged while transferred mass accumulates, making the return decision ambiguous for a whole-task vision-language-action (VLA) policy. We present FlowVLA, which separates motor generation from physical-completion e…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "上海AI实验室",
+      "浙江大学"
+    ]
+  },
+  {
+    "id": "d70ae18c4340b4ab",
+    "title": "Toward Recursive Self-Improvement in Physical AI",
+    "url": "https://arxiv.org/abs/2610.29677v1",
+    "source": "arXiv",
+    "date": "2026-10-21",
+    "summary": "Recursive self-improvement (RSI) describes a system that improves not only its behavior but also the process by which it improves. Recent digital agents test this idea by rewriting their own code and checking each version with executable tests. Bringing these mechanisms into the…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": [
+      "上海交通大学",
+      "华中科技大学",
+      "南洋理工",
+      "新加坡国立"
+    ]
+  },
+  {
+    "id": "742b230330e2b3dc",
+    "title": "Watch Your Step: Anticipated Perception for Humanoid Locomotion",
+    "url": "https://arxiv.org/abs/2610.29612v1",
+    "source": "arXiv",
+    "date": "2026-10-21",
+    "summary": "Perceptive locomotion policies typically observe a dense robot-centric elevation map, although only the terrain beneath and around the next footsteps informs the control decision. Learned encoders compress the whole visual input, leaving the policy to work out which inputs matte…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "感知与传感",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "ETH Zürich"
+    ]
+  },
+  {
+    "id": "5c0fb227c1face9a",
+    "title": "Joint-Angle Invariance of Jacobian-Based Performance Indices for Serial Robotic Manipulators",
+    "url": "https://arxiv.org/abs/2610.29570v1",
+    "source": "arXiv",
+    "date": "2026-10-21",
+    "summary": "This article investigates the joint-angle invariance (JAI) of Jacobian-based performance indices for serial robotic manipulators. We identify kinematic conditions under which representative performance indices, including manipulability, stiffness, and other Jacobian-derived indi…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": [
+      "东京大学",
+      "中国科学技术大学"
+    ]
+  },
+  {
+    "id": "8c2218eb03c00d25",
+    "title": "Mixture of Flow Matching and Particle Filter for Proprioception-Based Online Contact Estimation",
+    "url": "https://arxiv.org/abs/2610.29568v1",
+    "source": "arXiv",
+    "date": "2026-10-21",
+    "summary": "In this article, we propose ContactFlowFilter, a novel approach for contact estimation that determines the number of active contacts, their locations, and the associated force vectors. We consider a robot manipulator equipped with joint torque sensors and a base force/torque sen…",
+    "tags": [],
+    "topics": [
+      "感知与传感"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "2511f5ca81ce7938",
+    "title": "From VLM Planners to Robotic Agents: Self-Evolving Harnesses for History-Dependent Manipulation",
+    "url": "https://arxiv.org/abs/2610.29560v1",
+    "source": "arXiv",
+    "date": "2026-10-21",
+    "summary": "Vision-language-action (VLA) models achieve strong performance across embodied manipulation tasks by unifying visual understanding, language conditioning, and action generation. However, long-horizon tasks can involve non-Markovian dependencies: successful decisions may require…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "上海AI实验室",
+      "上海交通大学",
+      "中国科学技术大学",
+      "浙江大学"
+    ]
+  },
+  {
+    "id": "3c647fef73963072",
+    "title": "Make it Walk: Computational Design of LEGO Walkers",
+    "url": "https://arxiv.org/abs/2610.29505v1",
+    "source": "arXiv",
+    "date": "2026-10-21",
+    "summary": "LEGO walkers are walking automata constructed from modular LEGO Technic bricks. They exhibit intriguing locomotion and are also highly reconfigurable through the modular Technic bricks, making them widely applicable in education, recreation, and robotics research. However, exist…",
+    "tags": [],
+    "topics": [
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "香港中文大学",
+      "香港大学"
+    ]
+  },
+  {
+    "id": "10427e0f19d437d9",
+    "title": "S-Rolling: Steerable Rolling Gaits for Twistable Snake Robots in Low-Clearance Environments",
+    "url": "https://arxiv.org/abs/2610.29478v1",
+    "source": "arXiv",
+    "date": "2026-10-21",
+    "summary": "Snake robots can traverse complex environments with limbless locomotion, but maneuvering in low-clearance environments remains challenging because a gait must maintain a small swept height while also providing planar steering. Existing rolling gaits preserve a low swept height b…",
+    "tags": [],
+    "topics": [
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "上海交通大学"
+    ]
+  },
+  {
+    "id": "ed4dfa7ffde55e28",
+    "title": "Linear Twisting Sidewinding Gaits for Twistable Snake Robot Motion Planning on Complex Terrains",
+    "url": "https://arxiv.org/abs/2610.29461v1",
+    "source": "arXiv",
+    "date": "2026-10-21",
+    "summary": "Sidewinding is an efficient gait for snake robots to locomote on various terrains, by undulating the backbone curve and shifting the contact segments along it. However, relying solely on undulatory motion limits the locomotive capability of snake robots, and combining it with tw…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": [
+      "上海交通大学"
+    ]
+  },
+  {
+    "id": "f8fbba6d69093b71",
+    "title": "Distance Field Driven Reinforcement Learning for Reactive and Robust Collision Avoidance",
+    "url": "https://arxiv.org/abs/2610.29452v1",
+    "source": "arXiv",
+    "date": "2026-10-21",
+    "summary": "Robust and reactive collision avoidance remains a central challenge for deploying Reinforcement Learning (RL) policies on real robotic manipulators, particularly when transferring behaviours learned in simulation to the physical world. This paper presents an RL framework that in…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real"
+    ],
+    "kinds": [
+      "安全与可信"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "f5df49d7d2792855",
+    "title": "A2I-Calib++: A Kinematics-Driven Anti-noise Active Calibration Framework for Whole-Body Multi-IMU Systems on Legged Robots",
+    "url": "https://arxiv.org/abs/2610.29438v1",
+    "source": "arXiv",
+    "date": "2026-10-21",
+    "summary": "Recently, multi-node inertial measurement unit (multi-IMU) systems have shown promise for robust odometry in legged robots. Multi-IMU fusion can improve legged robot odometry but requires accurate spatiotemporal calibration among the sensors. Existing multi-IMU calibration metho…",
+    "tags": [],
+    "topics": [
+      "感知与传感",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "eba7bbeb5f6642be",
+    "title": "PRISM: Learning Realistic Depth via Physics-Grounded Noise Disentanglement with Semantic-Geometric Collaboration",
+    "url": "https://arxiv.org/abs/2610.29432v1",
+    "source": "arXiv",
+    "date": "2026-10-21",
+    "summary": "Real-world physical sensing exhibits complex, heterogeneous noise patterns that deviate significantly from idealized simulation, posing a fundamental bottleneck for sim-to-real transfer. Existing sensor modelings typically treat depth noise as a monolithic black-box process, ove…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real",
+      "感知与传感"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "复旦大学",
+      "浙江大学"
+    ]
+  },
+  {
+    "id": "41cccfe8ba15413e",
+    "title": "Plan First, Act Later: Streaming Reasoning for Executable Memory in Robot Control",
+    "url": "https://arxiv.org/abs/2610.29329v1",
+    "source": "arXiv",
+    "date": "2026-10-21",
+    "summary": "Long-horizon robot manipulation requires a robot to remember task-relevant information beyond its short observation window. Existing memory-augmented policies typically retrieve relevant information from history and reason over it at execution time, placing a heavy reasoning bur…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "UC Berkeley",
+      "北京大学",
+      "复旦大学"
+    ]
+  },
+  {
+    "id": "5395798619e5248e",
+    "title": "Relational Geometry Forcing for World Action Models",
+    "url": "https://arxiv.org/abs/2610.29282v1",
+    "source": "arXiv",
+    "date": "2026-10-21",
+    "summary": "World Action Models (WAMs) have shown strong potential for robot manipulation by jointly learning visual dynamics and executable actions. However, their video and action objectives do not explicitly constrain the 3D geometry that is crucial for precise manipulation. Recently, ge…",
+    "tags": [],
+    "topics": [
+      "世界模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "6ec4c467ad3bd5bd",
+    "title": "Tesla starts Optimus robot production in California as profit falls 43%",
+    "url": "https://techcrunch.com/2026/10/21/tesla-stars-optimus-robot-production-in-california-as-profit-falls-43/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-10-21",
+    "summary": "Tesla's revenue was flat and its expenses skyrocketed as it pressed the accelerator on its Optimus robots, AI, and autonomous driving.",
+    "tags": [
+      "Tesla Optimus"
+    ],
+    "topics": [],
+    "kinds": [
+      "产业动态"
+    ]
+  },
+  {
+    "id": "be11c18d48ff6273",
+    "title": "NVIDIA Open Models Advance Europe’s Sovereign Intelligence Across Industries",
+    "url": "https://blogs.nvidia.com/blog/open-models-europe-industry/",
+    "source": "NVIDIA Blog",
+    "date": "2026-10-21",
+    "summary": "NVIDIA is expanding its family of open models across language, robotics, biology, and quantum computing, giving developers, researchers and enterprises what they need to build applications tailored to local languages and industries The portfolio includes the new NVIDIA Nemotron…",
+    "tags": [
+      "NVIDIA"
+    ],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "d8fecd9b69c96f65",
+    "title": "GTC Berlin 2026: Live Updates From NVIDIA CEO Jensen Huang’s Keynote",
+    "url": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/",
+    "source": "NVIDIA Blog",
+    "date": "2026-10-21",
+    "summary": "Founded in a tent near the Berlin Wall in 1980, the Tempodrom moved several times before settling near Anhalter Bahnhof in 2001. Its permanent home has since hosted concerts, galas and political events. Today, it hosts a different kind of spectacle. GTC Berlin runs three days, w…",
+    "tags": [
+      "NVIDIA"
+    ],
+    "topics": [],
+    "kinds": []
+  },
+  {
     "id": "2bd40a05aa360bef",
     "title": "Microagi: Accelerating Embodied AGI",
     "url": "https://www.microagi.ai/",
@@ -8,8 +594,24 @@
     "summary": "",
     "hn": {
       "points": 8,
-      "comments": 8,
+      "comments": 10,
       "discussion": "https://news.ycombinator.com/item?id=50174448"
+    },
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "b0c1a6714aad98d2",
+    "title": "Show HN: Embodsi – Embodied Super Intelligence",
+    "url": "https://embodsi.com/",
+    "source": "Hacker News",
+    "date": "2026-10-21",
+    "summary": "",
+    "hn": {
+      "points": 3,
+      "comments": 0,
+      "discussion": "https://news.ycombinator.com/item?id=50188964"
     },
     "tags": [],
     "topics": [],
