@@ -1,5 +1,31 @@
 [
   {
+    "id": "6ff7ec2bbcb447f9",
+    "title": "具身智能军备竞赛，胜负手在工程生态",
+    "url": "https://www.leiphone.com/category/ai/D4SlkV6zQ4ill9MG.html",
+    "source": "雷峰网",
+    "date": "2026-10-28",
+    "summary": "开源工程底座 FluxVLA Engine 技术报告全解读。 作者丨 邓哲敏 编辑丨 齐铖湧 一个模型在论文中取得好成绩，距离它真正驱动机器人完成任务，还有多远？ 模型能否接入现有的数据与训练流程，推理速度能否跟上机器人的控制节奏，生成的动作能否连续、稳定地执行，实验结果又能否在不同机器人上得到验证——这些问题，未必能靠再提升几个百分点的模型成功率来解决。 过去半年，AI科技评论（雷峰网）在与业内人士交流时发现，一些反复出现的工程问题正在消耗大量研发资源：不同模型的数据格式难以统一，训练和评测流程各自为政，仿真中的结果到了真机上未必成立；好不容易跑通一…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "f8ba7008ee05866e",
+    "title": "0营收估值200亿美元，具身版OpenAI又融10亿美元",
+    "url": "https://www.qbitai.com/2026/10/506042.html",
+    "source": "量子位",
+    "date": "2026-10-28",
+    "summary": "斯坦福伯克利宗师组团，贝索斯红杉抢着送钱",
+    "tags": [
+      "OpenAI"
+    ],
+    "topics": [],
+    "kinds": []
+  },
+  {
     "id": "22877e781479b92d",
     "title": "iPhone Duo被曝屏幕亮线开裂！苹果客服回应：非硬件问题；宇树机器人侧空翻表演甩断腿，前一天刚演示「踢凹车门」",
     "url": "https://www.leiphone.com/category/zaobao/owgP45BwczuhdF3j.html",
@@ -31527,36 +31553,5 @@
     "kinds": [
       "产业动态"
     ]
-  },
-  {
-    "id": "d83437cb061453ab",
-    "title": "How Jaiveer Singh Is Helping Robots — and Developers — Move Faster",
-    "url": "https://blogs.nvidia.com/blog/nvidia-life-jaiveer-singh/",
-    "source": "NVIDIA Blog",
-    "date": "2026-06-30",
-    "summary": "When Jaiveer Singh talks about robots, he doesn’t begin with spectacle. He begins with infrastructure: the boards inside machines, the software that lets developers see through a robot’s cameras and the engineering required before a robot can leave a demo floor to do something u…",
-    "tags": [],
-    "topics": [],
-    "kinds": []
-  },
-  {
-    "id": "6036b8497c602eca",
-    "title": "China's humanoid robots captivated the world, a rental market shows their limits",
-    "url": "https://www.cnn.com/2026/06/30/tech/china-humanoid-robot-ai-rental-intl-hnk-dst",
-    "source": "Hacker News",
-    "date": "2026-06-30",
-    "summary": "",
-    "tags": [],
-    "topics": [
-      "人形机器人"
-    ],
-    "kinds": [
-      "产业动态"
-    ],
-    "hn": {
-      "points": 3,
-      "comments": 0,
-      "discussion": "https://news.ycombinator.com/item?id=48731998"
-    }
   }
 ]
