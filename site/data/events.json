@@ -1,5 +1,523 @@
 [
   {
+    "id": "d4ef3fc8ad67bf23",
+    "title": "瞬恒智能自研灵巧操作人形机器人SynDexy C1首次实现小批量交付",
+    "url": "https://www.leiphone.com/category/industrynews/CLO1sIKJzw59DmrI.html",
+    "source": "雷峰网",
+    "date": "2026-10-30",
+    "summary": "今日，瞬恒智能（SynDexy）宣布，自研灵巧操作人形机器人SynDexy C1完成首次小批量交付，产品正式从研发验证迈向工程化交付与场景应用新阶段，进一步推动具身智能在工业制造领域的商业化落地。 本次交付的机器人将应用于消费电子、电子元器件领域客户工厂的精密装配工序。此类工序对精度与稳定性要求极高，在此前测试中，SynDexy C1关键任务成功率超过 98%，展现出面向工业精细操作场景的应用潜力。 作为瞬恒智能首款灵巧操作人形机器人，SynDexy C1最大特点，在于融合了视触觉感知能力—— 硬件层面，搭载了自研视触觉传感器，具备微米级空间分辨率、高…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "616adec25212601b",
+    "title": "从学习人类到学习机器人同伴，清华大学联合无问芯穹、智元提出具身智能规模化落地新路径",
+    "url": "https://www.qbitai.com/2026/10/506662.html",
+    "source": "量子位",
+    "date": "2026-10-30",
+    "summary": "让机器人成为彼此的“老师”",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "99745529557e5ca4",
+    "title": "31岁女工程师猝死，其生前按ChatGPT指示减药，还被告知「完全没必要担心」；美国一公司招人遛机器狗：时薪20美元，不用铲屎但得扛狗回来",
+    "url": "https://www.leiphone.com/category/zaobao/ZWf8n2mgF0X5Rkfj.html",
+    "source": "雷峰网",
+    "date": "2026-10-29",
+    "summary": "要闻提示 1.31岁女工程师猝死，其生前按ChatGPT指示减药，还被告知“完全没有必要担心” 2.网友发视频称“医生用豆包开药”，涉事医院回应 3.米哈游通告：游戏泄密人员被判赔100万元 4.三家车企拟入选国家级名单：小米汽车位列第一 5.云鲸智能迎来品牌十周年：定位全球AI智能清洁专家，服务超600万家庭 6.阮瑜轮岗担任小度科技负责人，百度智能云事业群组进行组织调整 7.美国一公司招人遛机器狗：时薪 20 美元，不用铲屎但可能要扛狗回来 8.特朗普：将“正式禁用”AI一词 今日头条 31岁女工程师猝死，其生前按ChatGPT指示减药，还被告知“…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "f380e656c9a8e82b",
+    "title": "SwapBot: Tool-Centric Robot Manipulation via Interchangeable End-Effectors and Tactile Sensing",
+    "url": "https://arxiv.org/abs/2610.40646v1",
+    "source": "arXiv",
+    "date": "2026-10-29",
+    "summary": "Robot manipulation in everyday environments inherently involves substantial tool usage. Seemingly simple household tasks, such as cooking pan-fried tofu, require forceful cutting, delicate brushing, and precise placement using different tools under contact-rich interaction. Thus…",
+    "tags": [],
+    "topics": [
+      "感知与传感",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "University of Washington"
+    ]
+  },
+  {
+    "id": "92577cf84cf1234a",
+    "title": "Gym-Anything for Robotics: Scaling physical simulations with digital agents",
+    "url": "https://arxiv.org/abs/2610.40565v1",
+    "source": "arXiv",
+    "date": "2026-10-29",
+    "summary": "Realistic, fast robotics simulations could enable large-scale training of embodied AI models that transfer to the real world. However, despite decades of progress, available simulations cover only a narrow range of real-world tasks and physical phenomena. The core bottleneck is…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "CMU"
+    ]
+  },
+  {
+    "id": "4e75242922c1c732",
+    "title": "A Tutorial on Shape Servoing of Deformable Objects-Part I: Fundamentals",
+    "url": "https://arxiv.org/abs/2610.40559v1",
+    "source": "arXiv",
+    "date": "2026-10-29",
+    "summary": "In robotics, shape control (or shape servoing) refers to the automatic manipulation of a deformable object to achieve a desired shape. It involves a feedback loop that exploits the relation between robot motion and changes in the measured shape. This relation, known as the inter…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "66acad303aebcf30",
+    "title": "DAWN: Diffusion-based Alignment and unfastening Workflow Network",
+    "url": "https://arxiv.org/abs/2610.40537v1",
+    "source": "arXiv",
+    "date": "2026-10-29",
+    "summary": "We present DAWN (Diffusion-based Alignment and unfastening Workflow Network), a hierarchical robotic framework designed to perform real-world, unfastening tasks through multi-modal sensory integration. Autonomous robotic unfastening is crucial for improving recycling processes,…",
+    "tags": [],
+    "topics": [
+      "感知与传感"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "09ef9afea382b5c1",
+    "title": "BURGER: Benchmarking and Understanding Robotic Generalization via Embodied Drawing",
+    "url": "https://arxiv.org/abs/2610.40532v1",
+    "source": "arXiv",
+    "date": "2026-10-29",
+    "summary": "How effectively can vision-language-action (VLA) models learn diverse language-conditioned behaviors as training data scales? Investigating this question requires large and varied robot datasets, whose collection on physical robots remains costly. We introduce BURGER, a language…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "仿真与Sim2Real",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "清华大学"
+    ]
+  },
+  {
+    "id": "4f2d8e2eb3435fdd",
+    "title": "A Two-Wheeled Quadrotor with All-Clockwise Tilted Rotors for Level-Attitude Surface Locomotnion",
+    "url": "https://arxiv.org/abs/2610.40502v1",
+    "source": "arXiv",
+    "date": "2026-10-29",
+    "summary": "Conventional wheel-equipped quadrotor UAVs must tilt their bodies to generate lateral forces, limiting their ability to maintain a desired attitude during lateral motion. This paper proposes a wheeled quadrotor with all-clockwise tilted rotors that uses surface contact as a cons…",
+    "tags": [],
+    "topics": [],
+    "kinds": [
+      "无人机"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "5c351b2a25e69f6d",
+    "title": "Improving Fine-Grained Manipulation through Demonstration Expansion and Execution Design",
+    "url": "https://arxiv.org/abs/2610.40430v1",
+    "source": "arXiv",
+    "date": "2026-10-29",
+    "summary": "Fine-grained manipulation requires a robot policy to follow instructions, remain robust to visual variations, and translate predicted actions into precise robot control. We present Demonstration Expansion and Execution Design (DEED), a framework for adapting a pretrained vision-…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "49a685e2f96fc090",
+    "title": "Continuous-Action World Models: Learning Cross-Embodiment Spatiotemporal Dynamics Priors",
+    "url": "https://arxiv.org/abs/2610.40401v1",
+    "source": "arXiv",
+    "date": "2026-10-29",
+    "summary": "We introduce Continuous-Action World Models (CoAWM), a framework for learning cross-embodiment spatiotemporal dynamics priors that support robot action generation across embodiments and execution frequencies. At its core is a shared latent function space that captures the spatia…",
+    "tags": [],
+    "topics": [
+      "世界模型"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "690b837df78d09b6",
+    "title": "HiFOR: Hierarchical Foresight with Action-Guided World Grounding for Vision-Language-Action Model",
+    "url": "https://arxiv.org/abs/2610.40373v1",
+    "source": "arXiv",
+    "date": "2026-10-29",
+    "summary": "Vision-Language-Action (VLA) models have demonstrated promising capabilities in robotic manipulation by integrating visual perception, language understanding, and action generation. Recent advances have further incorporated future prediction to enhance the understanding of envir…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "感知与传感",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "中科院",
+      "新加坡国立",
+      "香港中文大学",
+      "香港大学"
+    ]
+  },
+  {
+    "id": "bda2715472c51bca",
+    "title": "TouchBridge: Tactile-Conditioned Human-to-Robot Transfer for Dexterous Manipulation",
+    "url": "https://arxiv.org/abs/2610.40349v1",
+    "source": "arXiv",
+    "date": "2026-10-29",
+    "summary": "Human demonstrations offer an efficient and scalable source of data for dexterous robot manipulation, but differences in sensing and hand morphology complicate the transfer of contact-rich interactions. We present TouchBridge, a hardware--software co-designed framework for human…",
+    "tags": [],
+    "topics": [
+      "感知与传感",
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "北京大学",
+      "南洋理工",
+      "浙江大学",
+      "清华大学"
+    ]
+  },
+  {
+    "id": "b371a3a4fc20d396",
+    "title": "AcrossDEX 1.0: From Human Motion Pretraining to Bimanual Dexterous Manipulation across Hand Embodiments",
+    "url": "https://arxiv.org/abs/2610.40210v1",
+    "source": "arXiv",
+    "date": "2026-10-29",
+    "summary": "Bimanual dexterous manipulation requires continuous coordination of wrist motion, finger contact, and object motion. Human videos provide rich manipulation experience. Using this experience for robot control requires aligning human poses with robot commands and accounting for em…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "da4b872d7e57cdab",
+    "title": "RoboAtom: Large-scale Atomic-Action Supervision for Robot Learning",
+    "url": "https://arxiv.org/abs/2610.40207v1",
+    "source": "arXiv",
+    "date": "2026-10-29",
+    "summary": "Fine-grained action annotations can support skill reuse and compositional generalization in robot policies. However, robot datasets typically provide task-level instructions without subtask annotations. Although some include subtask labels, inconsistent formats and conventions h…",
+    "tags": [],
+    "topics": [
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "上海AI实验室",
+      "上海交通大学",
+      "复旦大学",
+      "浙江大学",
+      "清华大学"
+    ]
+  },
+  {
+    "id": "4d42d4968ae861c0",
+    "title": "Coupled Guidance for Flow Matching",
+    "url": "https://arxiv.org/abs/2610.40109v1",
+    "source": "arXiv",
+    "date": "2026-10-29",
+    "summary": "Guidance methods are essential tools for steering the generation process in diffusion models, improving the generalizability of stochastic robotic controllers and enabling high-quality controlled image synthesis. Despite strong parallels between flow-matching and diffusion, inte…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": [
+      "华为"
+    ]
+  },
+  {
+    "id": "2bdc1d0e9fa79bc7",
+    "title": "Learning Safe Flow Matching Robot Policies from Binary Feasibility Oracles",
+    "url": "https://arxiv.org/abs/2610.40075v1",
+    "source": "arXiv",
+    "date": "2026-10-29",
+    "summary": "Robot foundation models increasingly rely on flow-based action generation for general-purpose manipulation, yet the generated actions are not guaranteed to satisfy physical constraints such as joint limits and collision avoidance. This problem is especially challenging when the…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [
+      "安全与可信"
+    ],
+    "affiliations": [
+      "上海交通大学"
+    ]
+  },
+  {
+    "id": "973151d4bfd87002",
+    "title": "RoboSeed: Multidimensional Evaluation of Vision-Language-Action and World-Action Models: Capability, Resource Affordability, and Research Evidence",
+    "url": "https://arxiv.org/abs/2610.40026v1",
+    "source": "arXiv",
+    "date": "2026-10-29",
+    "summary": "Choosing a robot action model requires evidence about task capability, adaptation cost, deployment requirements, and the reliability of reported conclusions. Success rates alone offer limited guidance to researchers with different computing budgets and goals. We propose RoboSeed…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [
+      "产业动态",
+      "安全与可信"
+    ],
+    "affiliations": [
+      "新加坡国立",
+      "香港大学"
+    ]
+  },
+  {
+    "id": "9193bdd2c4573701",
+    "title": "LOGIV: Graph-Verified Execution with Causal Local Repair for Long-Horizon Robot Tasks",
+    "url": "https://arxiv.org/abs/2610.40016v1",
+    "source": "arXiv",
+    "date": "2026-10-29",
+    "summary": "Agentic robots must turn a high-level goal into actions while keeping the physical conditions needed for future steps valid. A completed action does not ensure that its effects will persist: a later disturbance can invalidate support that the remaining plan still assumes. We pre…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "d66384128b747ff5",
+    "title": "Humanoid Dodgeball: Learning Fast Dynamic Obstacle Avoidance Motions for Humanoids",
+    "url": "https://arxiv.org/abs/2610.40003v1",
+    "source": "arXiv",
+    "date": "2026-10-29",
+    "summary": "Humanoids have become increasingly agile and capable in real-world environments. To operate safely in dynamic scenarios, they must rapidly evade fast-moving obstacles while maintaining stability and physically feasible whole-body motion. Learning such behaviors remains challengi…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "新加坡国立"
+    ]
+  },
+  {
+    "id": "676a822cbda212ba",
+    "title": "How Much Should a VLA Trust Its Reasoning? Step-Level Guidance as a Measured Action-Value Function",
+    "url": "https://arxiv.org/abs/2610.40002v1",
+    "source": "arXiv",
+    "date": "2026-10-29",
+    "summary": "Reasoning vision-language-action (VLA) policies write a reasoning trace and then decode the action from it. A wrong trace yields a wrong action, and even a correct-looking trace can mislead the plan. Existing remedies ask whether the reasoning is right. We ask how strongly it sh…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "首尔大学"
+    ]
+  },
+  {
+    "id": "a8ef5802bdcb84e6",
+    "title": "Compressed Orientation Reachability Maps for Sub-Second Robotic Needle Entry Point Planning",
+    "url": "https://arxiv.org/abs/2610.39879v1",
+    "source": "arXiv",
+    "date": "2026-10-29",
+    "summary": "In the context of multi-stage trajectory planning for robotic percutaneous liver interventions, identifying a kinematically feasible entry point remains a critical computational bottleneck. Existing methods rely on exhaustive inverse kinematics or randomized searches, incurring…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "e05dc9d34f40c0bf",
+    "title": "AI for Science in Space: Orbital Laboratories, Planetary Fieldwork, and Embodied Autonomy",
+    "url": "https://arxiv.org/abs/2610.39689v1",
+    "source": "arXiv",
+    "date": "2026-10-29",
+    "summary": "Artificial intelligence for science (AI4S) is extending from interpretation of existing data to the design and execution of experiments. Space offers distinctive scientific opportunities while restricting physical support. Microgravity and extraterrestrial environments expose ph…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": [
+      "北京大学",
+      "哈尔滨工业大学"
+    ]
+  },
+  {
+    "id": "6d61022f11e14c09",
+    "title": "Kinematic-Tactile Aligned Dexterous Retargeting with Contact Wrench Space Alignment",
+    "url": "https://arxiv.org/abs/2610.39582v1",
+    "source": "arXiv",
+    "date": "2026-10-29",
+    "summary": "Human demonstrations provide a natural and scalable source of data for learning dexterous manipulation policies. However, existing retargeting methods primarily transfer human kinematics, while the tactile information underlying physical interaction is rarely preserved across em…",
+    "tags": [],
+    "topics": [
+      "感知与传感",
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "26d622ea486add93",
+    "title": "From Reasoning to Action: Consequence-Grounded Alignment for Vision-Language-Action Models",
+    "url": "https://arxiv.org/abs/2610.39543v1",
+    "source": "arXiv",
+    "date": "2026-10-29",
+    "summary": "Reasoning informs decision-making by connecting intended actions with their expected consequences. Recent vision-language-action (VLA) models incorporate embodied chains of thought (ECoTs) to guide action generation. However, such guidance remains implicit, as actions are condit…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "北京大学"
+    ]
+  },
+  {
+    "id": "71668edd9580fa0e",
+    "title": "PRIME W0: Physical Priors from World Models for Embodied Manipulation",
+    "url": "https://arxiv.org/abs/2610.39528v1",
+    "source": "arXiv",
+    "date": "2026-10-29",
+    "summary": "Vision-Language-Action (VLA) models excel at instruction following, yet most remain feed-forward: they condition actions only on the current observation and discard both long-horizon temporal context and the hierarchical structure of VLM representations. We present PRIME W0, a h…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "世界模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "e5e40484b9f90d41",
+    "title": "Smooth Action Chunking Via Movement-Primitive Representations for Imitation Learning",
+    "url": "https://arxiv.org/abs/2610.39451v1",
+    "source": "arXiv",
+    "date": "2026-10-29",
+    "summary": "Imitation learning has become a widely adopted approach for vision-based robot policies, owing to its conceptual simplicity, scalability, and ability to leverage large-scale datasets. As these policies have grown more capable, action chunking has become their standard interface.…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "东京大学"
+    ]
+  },
+  {
+    "id": "d20a099f6adfe923",
+    "title": "Ask to Evolve: A Unified Harness for Lifelong Embodied Navigation with Hybrid Action Space and Persistent Memory",
+    "url": "https://arxiv.org/abs/2610.39446v1",
+    "source": "arXiv",
+    "date": "2026-10-29",
+    "summary": "Giving embodied agents the freedom to act autonomously, initiate interactions, and understand their surroundings through experience is a step toward bringing them to life in the physical world. Realizing this vision requires action, interaction, and memory to work together, so t…",
+    "tags": [],
+    "topics": [
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "af8b21a528829c61",
+    "title": "ScheduleGen: Demonstration Generation via Skill Scheduling for Multi-Arm Imitation Learning",
+    "url": "https://arxiv.org/abs/2610.39429v1",
+    "source": "arXiv",
+    "date": "2026-10-29",
+    "summary": "Multi-arm robot platforms, including bimanual and humanoid robots, have the capability to complete tasks with lower cycle times than single-arm systems, but they are more difficult to safely control due to the presence of multi-arm constraints. The paradigm of training generalis…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "人形机器人",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "NVIDIA",
+      "UT Austin"
+    ]
+  },
+  {
+    "id": "3253cf27c3ecf111",
+    "title": "UMI-Live for In-The-Wild Bimanual Robotics Data Collection",
+    "url": "https://arxiv.org/abs/2610.39385v1",
+    "source": "arXiv",
+    "date": "2026-10-29",
+    "summary": "Universal Manipulation Interface (UMI) devices allow human experts to demonstrate tasks for robot learning without teleoperating physical robots. Using these demonstrations as training data still requires a consistent hardware setup, calibration, and data processing. We present…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "CMU"
+    ]
+  },
+  {
+    "id": "5fb785ad1c0473a5",
+    "title": "Utility-WAM: Correcting Future-Induced Action Changes",
+    "url": "https://arxiv.org/abs/2610.39367v1",
+    "source": "arXiv",
+    "date": "2026-10-29",
+    "summary": "World Action Models (WAMs) can condition robot actions on generated visual futures, but this additional context is neither cost-free nor uniformly beneficial. We examine what a predicted future actually changes: the action delta $Δa$ between the future-conditioned and future-fre…",
+    "tags": [],
+    "topics": [
+      "世界模型"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "中科院",
+      "清华大学"
+    ]
+  },
+  {
+    "id": "172473ea0e1f08f8",
+    "title": "SONIC-K1: Porting a Universal Humanoid Motion Tracker to a Small Humanoid on a Single GPU",
+    "url": "https://arxiv.org/abs/2610.39327v1",
+    "source": "arXiv",
+    "date": "2026-10-29",
+    "summary": "We present SONIC-K1, to our knowledge the first open-weights whole-body motion tracker for the Booster K1 humanoid, obtained by adapting the SONIC framework to this smaller robot. The policy is trained from scratch on a single shared GPU with a small fraction of the compute repo…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "43af8b7304f6efdc",
+    "title": "Language-Grounded Force/Torque Pretraining for Extrinsic Contact Perception",
+    "url": "https://arxiv.org/abs/2610.39314v1",
+    "source": "arXiv",
+    "date": "2026-10-29",
+    "summary": "Fine manipulation requires robots to recognize when a grasped object makes or changes contact with its environment, yet such extrinsic contact is not always directly observable from vision or local contact geometry. Force and torque signals carry this information, but also vary…",
+    "tags": [],
+    "topics": [
+      "感知与传感",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
     "id": "6ff7ec2bbcb447f9",
     "title": "具身智能军备竞赛，胜负手在工程生态",
     "url": "https://www.leiphone.com/category/ai/D4SlkV6zQ4ill9MG.html",
@@ -31540,18 +32058,5 @@
       "comments": 0,
       "discussion": "https://news.ycombinator.com/item?id=48764851"
     }
-  },
-  {
-    "id": "78faf445905b5a9f",
-    "title": "Builders Stage agenda revealed: Practical strategies for scaling startups at TechCrunch Disrupt 2026",
-    "url": "https://techcrunch.com/2026/07/01/builders-stage-agenda-revealed-practical-strategies-for-scaling-startups-at-techcrunch-disrupt-2026/",
-    "source": "TechCrunch Robotics",
-    "date": "2026-07-01",
-    "summary": "The Builders Stage is returning to TechCrunch Disrupt 2026, bringing together 10,000+ founders, startup operators, and investors for practical conversations. and Q&A on what it takes to build and scale successful companies. Register now to save up to $330.",
-    "tags": [],
-    "topics": [],
-    "kinds": [
-      "产业动态"
-    ]
   }
 ]
