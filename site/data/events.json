@@ -11,12 +11,110 @@
     "kinds": []
   },
   {
+    "id": "c465dac278312093",
+    "title": "全行业两年攒下百万小时数据，影溯想 1 个月生产完：全国首个具身仿真数采中心落地杭州",
+    "url": "https://www.leiphone.com/category/academic/xPVWQgBN3Foj7fo5.html",
+    "source": "雷峰网",
+    "date": "2026-10-30",
+    "summary": "产能公式从“人×小时”，变成“环境配置数×并行算力”。 作者丨 幸丽娟 编辑丨 岑 峰 训练一个可用的具身智能模型， 需 要千 万小时 的多模态交互数据；而 现实仅有百万小时 ，剔除低质部分后，真正可用的更少。 缺数据，是具身智能行业的共识。 但只盯着“数据”这两个字，会错过更关键的问题： 一台机器人在固定货架前抓取，成功率可以很高。货架挪个方向，目标前多放一排饮料，换一侧伸手，成功率就往下掉。练过的，它能一遍遍做对；没练过的，它连手该从哪边伸都不知道。 行业缺的不只是数据量，还有“数据里的变化”。 过去两年，补缺口的主流办法是建场地、加采集人手。 据…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "63ad0d7e088bdb38",
+    "title": "IROS 2026 观察：从 Demo 到生产力工具，灵巧手还要跨过几道坎？",
+    "url": "https://www.leiphone.com/category/robot/jv4zJUmQr2wkoN0i.html",
+    "source": "雷峰网",
+    "date": "2026-10-30",
+    "summary": "灵巧手的设计逻辑，要由落地需求反推。 作者丨向 欣 编辑丨高景辉 今年 IROS，灵巧操作和触觉的热度比以往更盛，串珠子、插 USB、给帆布袋烫 logo、手内转笔、转球、调酒，各种演示在现场轮番上演。 从 ICRA，到 WRC，再到 IROS，我们追踪了今年几乎所有机器人领域的顶会，一个越来越清晰的感受是：对灵巧手而言，完成复杂动作已经越来越不是难事。 展示不再局限于简单的抓取和搬运，变得更强调 复杂接触（contact-rich）、动态调整、长时序操作 以及 可变形物体处理 等接近真实作业的任务。 整体来看，厂商对落地的需求越来越高，心态也更加务实…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "38e443aa89849c46",
+    "title": "伯牙智能刘欣：GPT-6 之后，轮到硬件拖机器人后腿了 | 物理AI 50人",
+    "url": "https://www.leiphone.com/category/robot/EnKFLg1RRmN9SaHJ.html",
+    "source": "雷峰网",
+    "date": "2026-10-30",
+    "summary": "灵巧手去年出货近 2 万只，大部分在「吃灰」 作者丨 向 欣 编辑丨 高景辉 去年，国内灵巧手公开可查的出货量是约两万只。在伯牙智能创始人刘欣的观察里，其中大部分灵巧手的归宿是跟着人形机器人表演几场，然后被搁在角落里， 「表演完就吃灰」 。 便宜的低自由度灵巧手多用于表演；操作能力更强的高自由度产品又容易损坏，有的因为贵，买回来供着不敢用，有的用一星期到两三个月就坏了——这是刘欣看到的灵巧手市场的现状。 在他看来，灵巧手行业连目标客户是谁、要解决什么问题、客户愿意为什么买单，都还没有明确答案。行业需要开辟 第三个市场 ：以可接受的成本，将科研级操作能力…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "3dcfe014625b4291",
+    "title": "具身的数据管线，到底应该怎么做？",
+    "url": "https://www.leiphone.com/category/robot/espiC5FlGhRbSj1b.html",
+    "source": "雷峰网",
+    "date": "2026-10-30",
+    "summary": "数据规模不断扩大，有效性却没有跟上。 作者丨向 欣 编辑丨高景辉 雷峰网：一家具身数据厂商告诉我们，他们向模型厂商交付了几万小时数据之后，对方反过来问了一句：能不能顺便帮忙把模型也训练出来，好让他们“交个差”，原因是模型厂商自己心里也没底，不知道这批数据喂进去能训出什么结果。 这种焦虑与无力，是当下不少模型厂商的真实状态，他们面临的真实困境是：虽然在不断花钱采集、购买数据，数据规模不断扩大，但数据的有效性却没有跟上。钱花出去了，效果却像打了水漂。 年初，不少具身公司声称今年要采集百万级别的数据。大半年过去，确实有公司宣称已经积累了百万数据，但模型能力上…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "8181ef2e2df38c82",
+    "title": "宇树最新财报：重金投入研发，上市后的考题变了",
+    "url": "https://www.leiphone.com/category/robot/9NTmjVmWkIyllzaj.html",
+    "source": "雷峰网",
+    "date": "2026-10-30",
+    "summary": "雷峰网 10月28日晚，宇树披露上市后的首份三季报。2026年前三季度，营收已经超过2025全年，公司实现营收18.17亿元，但毛利率明显回落，研发费用率大幅抬升，扣非利润实际下滑。 宇树的收入还在加速增长，利润却没有跟上。 不过，表面看，这是一份“增收不增利”的财报。实质上，这是宇树主动用过去两年赚到的硬件红利，去补贴具身大模型和算力投入的战略换挡。短期利润与现金流承压，是换挡的必然代价。 01 从财报看宇树 收入增长，利润承压，研发加码 本次三季报最值得关注的信息，可以归纳为三个核心结论。 结论一：营收仍在高速增长，但已从爆发式增长转向稳定放量，各…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
     "id": "616adec25212601b",
     "title": "从学习人类到学习机器人同伴，清华大学联合无问芯穹、智元提出具身智能规模化落地新路径",
     "url": "https://www.qbitai.com/2026/10/506662.html",
     "source": "量子位",
     "date": "2026-10-30",
     "summary": "让机器人成为彼此的“老师”",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "40aed769d1c2e6f7",
+    "title": "Skip the small talk: Make game-changing connections at TechCrunch Founder Summit with Braindate",
+    "url": "https://techcrunch.com/2026/10/30/skip-the-small-talk-make-game-changing-connections-at-techcrunch-founder-summit-with-braindate/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-10-30",
+    "summary": "At TechCrunch Founder Summit 2026, happening November 4 at SoWa Power Station in Boston, networking powered by Braindate is designed to make those conversations easier to find, whether they are in 1:1 or small-group on-site meetings. Register before the event starts to save up t…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "bf12c379974b4d2d",
+    "title": "Video Friday: Spot Plays to Show Its Whole-Body Manipulation",
+    "url": "https://spectrum.ieee.org/video-friday-whole-body-manipulation",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-10-30",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AU…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作",
+      "移动与四足"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "dadc0dd79829b09d",
+    "title": "China unveils 13-foot robot that can lift a cow",
+    "url": "https://www.the-independent.com/tech/china-robot-humanoid-neodradynamics-neo1-ai-b3074374.html",
+    "source": "Hacker News",
+    "date": "2026-10-30",
+    "summary": "",
+    "hn": {
+      "points": 4,
+      "comments": 1,
+      "discussion": "https://news.ycombinator.com/item?id=50308489"
+    },
     "tags": [],
     "topics": [],
     "kinds": []
@@ -1041,6 +1139,22 @@
     "topics": [],
     "kinds": [],
     "affiliations": []
+  },
+  {
+    "id": "1698e31ea5a4be3f",
+    "title": "Your Robot’s Safety Functions Already Work. What If the Input Lies?",
+    "url": "https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-10-27",
+    "summary": "This article is brought to you by VicOne . A mobile robot slows for someone in a hallway. A collaborative arm eases its movement as a worker approaches. A humanoid pauses to let a person pass. Each response depends on information about the robot or its surroundings: a distance r…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "移动与四足"
+    ],
+    "kinds": [
+      "安全与可信"
+    ]
   },
   {
     "id": "d17d13a0006a776d",
@@ -32040,23 +32154,5 @@
     "tags": [],
     "topics": [],
     "kinds": []
-  },
-  {
-    "id": "302cb2bdacd042af",
-    "title": "New humanoid robots from China look like creepy pop star action figures",
-    "url": "https://www.theregister.com/ai-and-ml/2026/07/02/new-humanoid-robots-from-china-look-like-creepy-pop-star-action-figures-complete-with-slightly-dodgy-lip-synch/5265490",
-    "source": "Hacker News",
-    "date": "2026-07-02",
-    "summary": "",
-    "tags": [],
-    "topics": [
-      "人形机器人"
-    ],
-    "kinds": [],
-    "hn": {
-      "points": 4,
-      "comments": 0,
-      "discussion": "https://news.ycombinator.com/item?id=48764851"
-    }
   }
 ]
