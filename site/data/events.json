@@ -1,5 +1,538 @@
 [
   {
+    "id": "12045bf363526ffa",
+    "title": "90 后北大副教授董豪：启元机器人，正在勇闯具身终局",
+    "url": "https://www.leiphone.com/category/ai/1mfsMzxNwaTmqZ7e.html",
+    "source": "雷峰网",
+    "date": "2026-11-02",
+    "summary": "做具身，不能一上来什么都干，也不能什么都不干。 作者丨 齐铖湧 编辑丨岑 峰 董豪是具身行业里一个十足的非典型选手。 大多数人对他的印象，停在 29 岁便是北大博导的年轻学者身份，以及最近任职启元机器人首席科学家、带队攻坚家用具身智能的产业标签。但很少有人知道，他读博之前曾有过一段三年创业最终折戟的经历，住过工厂的八人间宿舍；更少有人知道，智元刚创立时，他就是最早加入、陪着初创团队闯过无数关口的核心成员之一。 当行业还在热议大模型、通用机器人的宏大叙事时，他盯着的是另一个一点都不性感的真问题：靠上万台真机做后训练，成本高到难以落地，这条路要怎么破？ 他…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "36b372ceab935027",
+    "title": "产业资本继续押注具身：斯坦福双子星创办的黑马公司 RoboScience 机器科学，宣布完成 A2 轮融资",
+    "url": "https://www.leiphone.com/category/ai/GqrJT2vlPFBxElDY.html",
+    "source": "雷峰网",
+    "date": "2026-11-02",
+    "summary": "具身智能的资本筛选标准，正在从\"讲得动人\"转向\"兑现得动\"。 作者丨 齐铖湧 编辑丨岑 峰 AI 科技评论获悉，11 月 2 日，RoboScience 机器科学完成 A2 轮融资。 据悉，本轮由琥珀资本、鸿瑞达投资、上海半导体产投 联合领投，360 战投、爽资本、国联民生资本、金鼎资本及多家上市公司平台跟投，融资金额达到了数亿 元。 这意味着，这家 2025 年 3 月才正式开始运营的具身公司， 先后已完成五轮融资。 据 AI 科技评论了解，近期具身行业融资市场并不乐观。过去一年，这个赛道的融资叙事换了好几轮：最早讲世界模型就能拿到钱；后来光讲技术不…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "3405178feb3a7dc6",
+    "title": "Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations",
+    "url": "https://arxiv.org/abs/2611.03647v1",
+    "source": "arXiv",
+    "date": "2026-11-02",
+    "summary": "Sensorized human demonstrations offer scalable data for mobile manipulation, but embodiment differences complicate policy learning. We present Pixel-UMI, a pipeline for learning environment-aware whole-body policies from human data. We first introduce Environment-Aware Retargeti…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "感知与传感",
+      "灵巧手与操作",
+      "移动与四足",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "CMU"
+    ]
+  },
+  {
+    "id": "b82a6ac52f6cde77",
+    "title": "Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation",
+    "url": "https://arxiv.org/abs/2611.03648v1",
+    "source": "arXiv",
+    "date": "2026-11-02",
+    "summary": "General-purpose mobile manipulation requires a combination of capable robot hardware, scalable demonstration collection, expressive whole-body control, and effective policy learning. Yet these components are often developed independently, creating mismatches that limit the capab…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作",
+      "移动与四足",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "CMU"
+    ]
+  },
+  {
+    "id": "15af83148962c192",
+    "title": "D&A: Decoupling Description and Assessment Enables VLMs as Zero-Shot Robotic Reward Models",
+    "url": "https://arxiv.org/abs/2611.03622v1",
+    "source": "arXiv",
+    "date": "2026-11-02",
+    "summary": "Vision-Language Models (VLMs) hold promise for zero-shot video task-progress estimation in robot learning, yet existing frameworks frequently suffer from confirmation bias, hallucinating progress in failed executions due to implicit success assumptions or relative temporal ranki…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "NVIDIA",
+      "University of Washington"
+    ]
+  },
+  {
+    "id": "11c222dfdc29877b",
+    "title": "TAMPAgent: Agentic Belief-Space Planning for Mobile Manipulation",
+    "url": "https://arxiv.org/abs/2611.03584v1",
+    "source": "arXiv",
+    "date": "2026-11-02",
+    "summary": "Open-world robotic mobile manipulation requires acting in physical environments with only partial information. While recent Large Vision-Language Model (LVLM) agents show strong open-world reasoning capabilities, existing architectures that rely on direct tool calling struggle w…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "Georgia Tech",
+      "NVIDIA"
+    ]
+  },
+  {
+    "id": "e8d53043cac8636a",
+    "title": "PanoTac: A Dense Three-Axis Tactile Sensor for Robust Touch-Centric Manipulation",
+    "url": "https://arxiv.org/abs/2611.03520v1",
+    "source": "arXiv",
+    "date": "2026-11-02",
+    "summary": "Contact-rich manipulation benefits from tactile feedback that captures both detailed contact geometry and interaction forces. When scooping grains, contact patterns help infer spoon orientation, while resistance transmitted through the grasp guides motion. To provide these compl…",
+    "tags": [],
+    "topics": [
+      "感知与传感",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "0299865e1fd33965",
+    "title": "When Robots Outweigh Objects: How Inertia Mismatch Shapes Robot Policy Learning",
+    "url": "https://arxiv.org/abs/2611.03501v1",
+    "source": "arXiv",
+    "date": "2026-11-02",
+    "summary": "Conventional robot arms can be extremely heavy compared with the everyday objects they manipulate, creating a significant inertia mismatch at contact. Even a small accidental bump from a heavy arm can knock a light object out of place. Modern learning methods have nevertheless d…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "a70b776ef45ab389",
+    "title": "Exploring Proximity and Tactile Sensing for Robotic Manipulation",
+    "url": "https://arxiv.org/abs/2611.03489v1",
+    "source": "arXiv",
+    "date": "2026-11-02",
+    "summary": "Pre-touch sensing, or sensing information about an object before contact, is an attractive modality for robot hands as it can allow a robot to anticipate and respond to a contact before it happens. In this work, we introduce ToFTouch, a multimodal tactile sensor combining three…",
+    "tags": [],
+    "topics": [
+      "感知与传感",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "Columbia"
+    ]
+  },
+  {
+    "id": "80f833d2ff5b2cf3",
+    "title": "Clinician-AI Collaboration in Endovascular Neurointerventions: In-Vitro User Study of Copilot Assistance Modes for Robotic Navigation Across the Autonomy Spectrum",
+    "url": "https://arxiv.org/abs/2611.03446v1",
+    "source": "arXiv",
+    "date": "2026-11-02",
+    "summary": "Mechanical thrombectomy (MT) is an effective treatment for acute ischemic stroke, yet access remains limited by the availability of neurointerventional expertise. Telerobotic and AI-assisted systems may help address this challenge, but it remains unclear how clinicians interact…",
+    "tags": [],
+    "topics": [
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "ccffcbab770ed3d7",
+    "title": "ForceLDM: A Force-aware Latent Dynamics Model for Contact-Rich Manipulation",
+    "url": "https://arxiv.org/abs/2611.03294v1",
+    "source": "arXiv",
+    "date": "2026-11-02",
+    "summary": "Contact-rich manipulation requires fine-grained control and complex physical interactions with the environment, posing significant challenges for robot policy learning. Vision-only policies struggle with such tasks, as contact states and interaction forces are difficult to infer…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "世界模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "中国科学技术大学"
+    ]
+  },
+  {
+    "id": "14461f995df8e09b",
+    "title": "VerifLM: Physically Verified Image-Edit-Guided Goal Pose Generation for Robotic Manipulation",
+    "url": "https://arxiv.org/abs/2611.03268v1",
+    "source": "arXiv",
+    "date": "2026-11-02",
+    "summary": "Many manipulation goals are easier to visualize than to specify numerically through explicit geometric constraints. We present VerifLM, a framework that converts image-edited goal configurations into physically verified 6-DoF object poses for planning. Using an edited image, Ver…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "Georgia Tech"
+    ]
+  },
+  {
+    "id": "1b91e426e6c01d06",
+    "title": "Rollout then Recycle: 3,718 Labelled Real-Robot Episodes from Benchmarking 7 Policies on 12 Tasks",
+    "url": "https://arxiv.org/abs/2611.03168v1",
+    "source": "arXiv",
+    "date": "2026-11-02",
+    "summary": "We release all 3,718 episodes from the ArmnetBench v0.1 evaluation (arXiv:2607.24481), which contains 600 teleoperated demonstrations and 3,118 rollouts of seven imitation-learning and vision-language-action policies on 12 tabletop tasks, recorded on low-cost SO-101 arms; 73% of…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "仿真与Sim2Real",
+      "遥操作与数据采集"
+    ],
+    "kinds": [
+      "产业动态"
+    ],
+    "affiliations": [
+      "Imperial College"
+    ]
+  },
+  {
+    "id": "6362b25985e1eb08",
+    "title": "FineCraft: Enhancing VLA Models for Fine-Grained Manipulation",
+    "url": "https://arxiv.org/abs/2611.03163v1",
+    "source": "arXiv",
+    "date": "2026-11-02",
+    "summary": "Fine-grained manipulation couples instruction grounding, local visual precision, and sustained execution. We present FineCraft, a framework that adapts pretrained models for fine-grained manipulation in the MetaFine Challenge. A task-routed mixture of policies selects independen…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "哈尔滨工业大学"
+    ]
+  },
+  {
+    "id": "4acf0e11287bc4fc",
+    "title": "KlaskTron: An Open-Source Platform for Physical Adversarial Multi-Agent RL",
+    "url": "https://arxiv.org/abs/2611.03138v1",
+    "source": "arXiv",
+    "date": "2026-11-02",
+    "summary": "Progress in robot learning, particularly physical multi-agent reinforcement learning (MARL), is currently challenged by a limited availability of accessible, standardized benchmarks. While simulation-based MARL has produced remarkable emergent behaviors, from coordinated team pl…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "ETH Zürich"
+    ]
+  },
+  {
+    "id": "d5b36b3a8bb04903",
+    "title": "VLALagBench: Understanding When and Why VLA Inference Latency Matters",
+    "url": "https://arxiv.org/abs/2611.03103v1",
+    "source": "arXiv",
+    "date": "2026-11-02",
+    "summary": "Vision-language-action (VLA) models offer a promising path toward general-purpose robot manipulation. While inference latency can affect task success in a constantly evolving physical world, the relationship between latency and task success rate remains poorly understood. In thi…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "846f1d38ab362f5c",
+    "title": "KlaskTron-IL: A Contact-Rich Adversarial Imitation Learning Benchmark with a Validated Sim-to-Real Bridge",
+    "url": "https://arxiv.org/abs/2611.03091v1",
+    "source": "arXiv",
+    "date": "2026-11-02",
+    "summary": "KlaskTron is an open-hardware physical platform for two-player adversarial reinforcement learning, with a learned actuator model that supports zero-shot sim-to-real transfer of trained policies. Building on this platform, we contribute KlaskTron-IL: a multi-tier imitation learni…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "仿真与Sim2Real",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "ETH Zürich"
+    ]
+  },
+  {
+    "id": "65278b5ed72ca01c",
+    "title": "BeyondContact: A Reinforcement Learning Framework for Airflow-Based Non-Contact Manipulation",
+    "url": "https://arxiv.org/abs/2611.03059v1",
+    "source": "arXiv",
+    "date": "2026-11-02",
+    "summary": "Contact-based robotic manipulation is constrained by end-effector reachability and the mechanical properties of objects. Airflow can exert forces without direct robot-object contact, enabling manipulation of objects beyond the reach or when direct contact is undesirable. However…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "553b17999fab783a",
+    "title": "ReContact: Reconstruct and Retarget Human Contacts from Video for Contact-Rich Humanoid Manipulation",
+    "url": "https://arxiv.org/abs/2611.02968v1",
+    "source": "arXiv",
+    "date": "2026-11-02",
+    "summary": "Contact transitions allow humanoid robots to redistribute object support across the whole body, enabling manipulation beyond hand-only grasps. Human videos provide a scalable source of such transitions for robots to learn from. However, body occlusion disrupts object pose tracki…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "a1eb99f26f5a56c5",
+    "title": "Positive Safety Margins from Artificial Potential Field Reward Augmentation for Size-Robust Obstacle Avoidance under Partial Observability",
+    "url": "https://arxiv.org/abs/2611.02947v1",
+    "source": "arXiv",
+    "date": "2026-11-02",
+    "summary": "Collision-free reaching is central to manipulation, yet real cells often leave the size and exact position of an obstacle unobserved, which excludes reinforcement learning controllers that take obstacle geometry as input. A reward limited to a collision penalty does not depend o…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [
+      "安全与可信"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "eaa8562250ba34f1",
+    "title": "PointPilot: Unified Robotic Manipulation via Object-Centric 3D Point Flow Prediction",
+    "url": "https://arxiv.org/abs/2611.02930v1",
+    "source": "arXiv",
+    "date": "2026-11-02",
+    "summary": "Generalization remains a central challenge in robotics, calling for policies that address domain variations from multiple dimensions such as diverse embodiments, camera poses, and/or scene layouts. In order to approach this problem, we introduce PointPilot, a task-focused and 3D…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "香港中文大学",
+      "香港大学"
+    ]
+  },
+  {
+    "id": "57ddc82a1b4c2713",
+    "title": "ReGATE: Recurrent Gated Visual Fusion for Reactive Humanoid-Object Interaction",
+    "url": "https://arxiv.org/abs/2611.02871v1",
+    "source": "arXiv",
+    "date": "2026-11-02",
+    "summary": "Humanoid loco-manipulation requires coordinating object acquisition, transport, and release from onboard sensing while responding to user commands and incomplete visual observations. We present ReGATE, a whole-body controller that combines egocentric depth, proprioception, and o…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "感知与传感",
+      "灵巧手与操作",
+      "移动与四足"
+    ],
+    "kinds": [
+      "产业动态"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "3614ae92a5a79975",
+    "title": "SomaAlign: Reliability-Aware Multimodal Representation Learning for Soft Robotic Grasping",
+    "url": "https://arxiv.org/abs/2611.02794v1",
+    "source": "arXiv",
+    "date": "2026-11-02",
+    "summary": "Robust multimodal perception for soft robotic grasping is challenged by modality-dependent noise, semantic ambiguity, and limited coordinated multisensory data. We introduce Soma, a dataset containing 100 objects, 1,000 continuous grasping trajectories, and 74,914 multimodal sam…",
+    "tags": [],
+    "topics": [
+      "感知与传感",
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [
+      "安全与可信"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "5d193322cb44d54f",
+    "title": "Beyond Policy Patches: Distilling RL Specialists into Vision-Language-Action Policies",
+    "url": "https://arxiv.org/abs/2611.02777v1",
+    "source": "arXiv",
+    "date": "2026-11-02",
+    "summary": "Vision-language-action (VLA) policies can handle noncritical stages of long-horizon manipulation yet fail during short precision-critical phases. Lightweight reinforcement learning (RL) specialists can address these failures without directly applying RL to the full VLA, but reta…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "中科院",
+      "清华大学"
+    ]
+  },
+  {
+    "id": "92e6f0d29cf31278",
+    "title": "HeLM: Hierarchical Explicit Language Memory for Non-Markovian Manipulation",
+    "url": "https://arxiv.org/abs/2611.02660v1",
+    "source": "arXiv",
+    "date": "2026-11-02",
+    "summary": "Recent advances in Vision-Language-Action (VLA) models have enabled fine manipulation capabilities, yet performing tasks that require working memory remains a key challenge. Most existing VLA architectures operate under a Markovian assumption, mapping only the current observatio…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "首尔大学"
+    ]
+  },
+  {
+    "id": "b4f99b3e032c6d6e",
+    "title": "DexArena: A Unified Benchmark for Long-Horizon Dexterous Manipulation",
+    "url": "https://arxiv.org/abs/2611.02629v1",
+    "source": "arXiv",
+    "date": "2026-11-02",
+    "summary": "Long-horizon dexterous manipulation remains a fundamental challenge for robot learning, requiring the composition of multiple skills, precise bimanual coordination, generalizable visual understanding, and robust skill transitions. Yet existing manipulation benchmarks largely emp…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "Stanford",
+      "上海交通大学",
+      "南洋理工",
+      "新加坡国立",
+      "清华大学"
+    ]
+  },
+  {
+    "id": "de0e39d7e75f8f9e",
+    "title": "MAPO: Mixture of Experts with Alternating Policy Optimization for Universal Humanoid Motion Tracking",
+    "url": "https://arxiv.org/abs/2611.02613v1",
+    "source": "arXiv",
+    "date": "2026-11-02",
+    "summary": "Universal humanoid motion tracking is essential for enabling humanoid robots to perform diverse tasks in human environments. To capture the wide diversity of human motions, mixture-of-experts (MoE) policies have been widely adopted, leveraging dynamic routing to enhance policy e…",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "KAIST"
+    ]
+  },
+  {
+    "id": "9ec3f59837d2d386",
+    "title": "W2A: Distilling World Priors into Action Models for Real-Time Robotic Control",
+    "url": "https://arxiv.org/abs/2611.02600v1",
+    "source": "arXiv",
+    "date": "2026-11-02",
+    "summary": "World Action Models (WAMs) have recently shown great promise in robotic control, benefiting from the future imagination capability of large-scale pretrained video models. However, most existing WAMs require explicitly imagining future states at test time, incurring substantial c…",
+    "tags": [],
+    "topics": [
+      "世界模型"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "哈尔滨工业大学"
+    ]
+  },
+  {
+    "id": "780cc5dda316b520",
+    "title": "Sequential Recovery Updates for Learned Controllers under Successful-Trajectory Preservation",
+    "url": "https://arxiv.org/abs/2611.02555v1",
+    "source": "arXiv",
+    "date": "2026-11-02",
+    "summary": "A competent learned controller already recovers from many disturbances. Improving it means learning a correction, and learning when not to apply it. Freezing a skill's parameters does not settle the second half. In a controller that routes among frozen skills, a new entry rule c…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": [
+      "Georgia Tech"
+    ]
+  },
+  {
+    "id": "4b64fa1557b97e61",
+    "title": "Energy-Based Policy Orchestration",
+    "url": "https://arxiv.org/abs/2611.02546v1",
+    "source": "arXiv",
+    "date": "2026-11-02",
+    "summary": "Hierarchical control scales robot behavior by separating task-level planning from low-level control. In dynamic, high-dimensional tasks, however, a fixed planner-to-policy interface can fail when contacts, balance, or disturbances evolve faster than high-level policy updates. Ex…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": [
+      "CMU",
+      "UC Berkeley"
+    ]
+  },
+  {
+    "id": "7bf5a2fa4c8ff1fa",
+    "title": "Interactive 3D Cutaway Visualization for Subsurface Target Localization in Robot-Assisted Surgery",
+    "url": "https://arxiv.org/abs/2611.02537v1",
+    "source": "arXiv",
+    "date": "2026-11-02",
+    "summary": "Purpose: Blended augmented reality (AR) overlays can provide ambiguous depth cues in which subsurface anatomy floats above the tissue surface. We investigate whether an interactive 3D cutaway visualization can improve robot-assisted target localization. Methods: We propose Virtu…",
+    "tags": [],
+    "topics": [],
+    "kinds": [
+      "医疗应用"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "650f2a65d178cad5",
+    "title": "Neuro Inspired Robotics: What Robot Learning Can Borrow from the Sensorimotor Brain",
+    "url": "https://arxiv.org/abs/2611.02510v1",
+    "source": "arXiv",
+    "date": "2026-11-02",
+    "summary": "Robot policies still fail at everyday manipulation: an unfamiliar task, an object never held before, a scene that changes mid-motion, a skill that should improve with use. They fail despite pretraining on over a million trajectories, pooled from dozens of robots at great expense…",
+    "tags": [],
+    "topics": [
+      "感知与传感",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "f7151c69ed83cd04",
+    "title": "2 days till TechCrunch Founder Summit: Boston founders don’t need a Silicon Valley address to build something big",
+    "url": "https://techcrunch.com/2026/11/02/2-days-till-techcrunch-founder-summit-boston-founders-dont-need-a-silicon-valley-address-to-build-something-big/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-11-02",
+    "summary": "TechCrunch Founder Summit happens on November 4 in Boston for a founder-focused agenda and impactful connections. Save up to $100 or get discounts with group passes.",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
     "id": "1e1bc39a63b3ec02",
     "title": "TechCrunch Mobility: A new, bigger AV boom is here",
     "url": "https://techcrunch.com/2026/11/01/techcrunch-mobility-a-new-bigger-av-boom-is-here/",
