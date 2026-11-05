@@ -1,5 +1,453 @@
 [
   {
+    "id": "9a1d56effdd13eca",
+    "title": "清洁机器人出海患上「三高」：高库存、高税率、高门槛",
+    "url": "https://www.leiphone.com/category/weiwu/DGcLJU9RgJPPzGhP.html",
+    "source": "雷峰网",
+    "date": "2026-11-05",
+    "summary": "01 墙 “北美市场不搞了。老品接着卖，新品没有了。” 一位传感器企业负责人周铭最近拜访一家头部智能硬件公司时，对方如此表态。据他观察，几家清洁电器头部企业的新品规划，也都在往欧洲、澳洲挪。 让厂商按下暂停键的，是7月28日的一纸清单。美国联邦通信委员会（FCC）把“外国生产的先进机器人设备”列入受控清单。清单虽然没有点名具体产品，但对照定义——能自主移动、带传感器、能联网、使用导航软件——扫地机器人、无线割草机器人、无线泳池机器人基本都符合。 规则是“新老划断”：已获授权的老型号可以继续卖，安全软件更新豁免至少到2029年1月1日；新型号原则上拿不到…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "4165fe9712e546bc",
+    "title": "世界模型热潮里，百度重新亮出无人驾驶底牌",
+    "url": "https://www.leiphone.com/category/transportation/d85n0vUzY4Df9bd2.html",
+    "source": "雷峰网",
+    "date": "2026-11-05",
+    "summary": "10月17日，上海徐浦大桥上发生了一起令人揪心的事故，一辆平板货车先撞上了一辆白色小客车，然后车子驶入对向车道，又接连撞了4辆车，事故造成了1死2伤。 事故过后，网络上涌现了很多对于事故全过程的还原和讨论。如果白色小客车没有违规变道，或者货车早点刹车，结果会不会不同？ 现实世界中，人们从亲历的险情、看过的事故中记住一些教训，提升驾驶和决策水平。 而对于需要通过训练规避风险的无人车来说，研究这些问题，需要改变条件、反复比较，却不能在真实道路上重复制造危险。 随着无人驾驶的发展，仿真测试早就在做这部分工作。如今，百度、Waymo等企业都在用世界模型扩展虚拟…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "2c80f4f2730d5a1e",
+    "title": "以“真实工作”检验机器人价值，XROGO在CeMAT ASIA发布机器人到岗计划",
+    "url": "https://www.qbitai.com/2026/11/507767.html",
+    "source": "量子位",
+    "date": "2026-11-05",
+    "summary": "像雇人一样雇机器人",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "a7cbab617b2d944f",
+    "title": "超维动力全栈矩阵亮相2026香港金融科技周，具身智能硬科技引爆全场",
+    "url": "https://www.qbitai.com/2026/11/507574.html",
+    "source": "量子位",
+    "date": "2026-11-04",
+    "summary": "一场别开生面的具身智能科技盛宴",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "98fe774a304eb053",
+    "title": "Perceptive Humanoid Motion from Simulation",
+    "url": "https://arxiv.org/abs/2611.06908v1",
+    "source": "arXiv",
+    "date": "2026-11-04",
+    "summary": "Humanoid robots have the potential to automate a wide range of physical tasks. Progress toward generalist humanoid autonomy, however, remains constrained by a data bottleneck: mapping pixels and free-form language to low-level joint commands requires paired supervision, and no c…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "仿真与Sim2Real"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "d9d8a501d1289776",
+    "title": "VABAR: A Variational Automation Benchmark for Agentic Robotics",
+    "url": "https://arxiv.org/abs/2611.06881v1",
+    "source": "arXiv",
+    "date": "2026-11-04",
+    "summary": "For robots to operate reliably in commercial and industrial applications, they must persistently perform specific tasks with known variations in object shape and pose. We call this Variational Automation (VA) to differentiate these settings from fixed automation. Inspired by rec…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "NVIDIA",
+      "UC Berkeley"
+    ]
+  },
+  {
+    "id": "6ac2d2788952b265",
+    "title": "Rethinking Self-Repair in Code-as-Policy Agents: What Drives Retry Success?",
+    "url": "https://arxiv.org/abs/2611.06863v1",
+    "source": "arXiv",
+    "date": "2026-11-04",
+    "summary": "Code-as-policy agents often use execution feedback to retry failed programs. Additional sampling and task guidance can also improve success, leaving the contribution of failure-specific feedback unclear. We study this question in simulated robot manipulation. A fixed lookup sele…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "Stanford"
+    ]
+  },
+  {
+    "id": "95ff0a52fbb2437f",
+    "title": "PyRUA-REAL: Robot Exploration and Adaptive Learning through RSI in the Real World",
+    "url": "https://arxiv.org/abs/2611.06768v1",
+    "source": "arXiv",
+    "date": "2026-11-04",
+    "summary": "Coding agents powered by models such as GPT-6-Astra connect spatial reasoning with executable robot behavior, raising the question of how such agents can produce lasting improvements in robot capabilities from physical interaction. In this work, we study embodied recursive self-…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "5492c8f6750e7584",
+    "title": "Dexterous Robotic Hands in the Foundation-Model Era: A Full-Stack Survey of Hardware, Data, Cross-Embodiment Transfer, Learning, and Evaluation",
+    "url": "https://arxiv.org/abs/2611.06724v1",
+    "source": "arXiv",
+    "date": "2026-11-04",
+    "summary": "Dexterous robotic hands are increasingly coupled to large-scale human data and foundation models, yet progress in hardware, representation learning and evaluation is often assessed separately. This survey reviews work from January 2024 to early November 2026, with earlier studie…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [
+      "产业动态"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "61489f409d42dd7a",
+    "title": "Where Is VLA Inference Time Spent? Bottlenecks and Optimization Interactions Across GPUs",
+    "url": "https://arxiv.org/abs/2611.06710v1",
+    "source": "arXiv",
+    "date": "2026-11-04",
+    "summary": "Vision-language-action (VLA) models map camera observations and language instructions to robot actions. However, their large backbones and repeated action generation can make inference take longer than the robot's real-time requirements for its next action. To reduce the load of…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "89d503c4d490b960",
+    "title": "Compounding Physical RSI: Turning Execution Failure into Inherited Capability",
+    "url": "https://arxiv.org/abs/2611.06654v1",
+    "source": "arXiv",
+    "date": "2026-11-04",
+    "summary": "Generalist robot policies are trained on static offline datasets, yet physical manipulation unfolds sequentially across stages. Because a weakness in a downstream stage remains unobservable until the policy passes earlier ones, each resolved bottleneck exposes the next hidden fa…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "1a615edb3fc1db99",
+    "title": "Interactive World Simulation with Cosmos for Physical AI",
+    "url": "https://arxiv.org/abs/2611.06627v1",
+    "source": "arXiv",
+    "date": "2026-11-04",
+    "summary": "We present a shared framework that adapts Cosmos world foundation models for real-time interactive world simulation in Physical AI. By streaming visual observations in response to actions and scene controls, the framework enables users and embodied agents to interact with evolvi…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "仿真与Sim2Real"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "0f658ea6318e27c8",
+    "title": "Playing Soccer Like Humans Do: Learning Versatile and Agile Humanoid Soccer via Latent Motion Priors",
+    "url": "https://arxiv.org/abs/2611.06564v1",
+    "source": "arXiv",
+    "date": "2026-11-04",
+    "summary": "Humanoid soccer requires a robot to seamlessly combine agile locomotion, ball manipulation, and impact-rich contact dynamics across a continuous, dynamic behavioral spectrum. Yet existing approaches either cover only a limited set of skills, or forego motion priors entirely and…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "灵巧手与操作",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "上海交通大学",
+      "中国科学技术大学",
+      "北京大学"
+    ]
+  },
+  {
+    "id": "39ac06bfd74c6799",
+    "title": "H^2MARL: Hierarchical Heterogeneous Multi-agent Reinforcement Learning for Humanoid Robot Control",
+    "url": "https://arxiv.org/abs/2611.06523v1",
+    "source": "arXiv",
+    "date": "2026-11-04",
+    "summary": "Coordinated whole-body control of humanoid robots remains challenging due to high-dimensional coupled dynamics and substantial physical heterogeneity across joint degrees of freedom (JDoFs). Existing multi-agent reinforcement learning methods either employ coarse agent partition…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "中科院"
+    ]
+  },
+  {
+    "id": "38e79c7bf4a77def",
+    "title": "Robocasa-Mem: Benchmarking Environment and Process Memory in Long-Horizon Mobile Manipulation",
+    "url": "https://arxiv.org/abs/2611.06475v1",
+    "source": "arXiv",
+    "date": "2026-11-04",
+    "summary": "In the real world, mobile manipulation robots must perform complex object interactions and make multi-step decisions, often relying on task-relevant information that is no longer observable. However, existing benchmarks provide limited evaluation of such memory-dependent decisio…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real",
+      "灵巧手与操作",
+      "移动与四足"
+    ],
+    "kinds": [
+      "产业动态"
+    ],
+    "affiliations": [
+      "中国科学技术大学",
+      "香港中文大学",
+      "香港大学"
+    ]
+  },
+  {
+    "id": "1df34c8168694624",
+    "title": "$A^3$-VLA: Automatic Perception-Guided Attention Alignment for Robot Manipulation",
+    "url": "https://arxiv.org/abs/2611.06447v1",
+    "source": "arXiv",
+    "date": "2026-11-04",
+    "summary": "Vision-Language-Action Models (VLAs) enable robots to perform manipulation tasks by leveraging Vision-Language Models (VLMs) to process visual observations and language instructions. However, the action prediction objective itself lacks fine-grained task-specific perceptual supe…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "感知与传感",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "中国科学技术大学"
+    ]
+  },
+  {
+    "id": "477fe9e2429880a7",
+    "title": "TwinBridge: Digital Twin-Driven Policy and Reward Transfer for Real-World Reinforcement Learning in Laboratory Robotics",
+    "url": "https://arxiv.org/abs/2611.06442v1",
+    "source": "arXiv",
+    "date": "2026-11-04",
+    "summary": "Online reinforcement learning offers an effective approach to precise laboratory manipulation, yet costly real-world demonstrations and limited access to dense process rewards hinder its practical application. We present TwinBridge, a digital twin-driven framework that supplies…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "6d8bbe0d45093ffd",
+    "title": "Vortex-Induced Torque in Grasping Soft Objects: Influence of Geometry and Pneumatic Parameters",
+    "url": "https://arxiv.org/abs/2611.06359v1",
+    "source": "arXiv",
+    "date": "2026-11-04",
+    "summary": "Vortex grippers are commonly integrated into automated systems for handling objects with complex geometries in packaging, sorting, and assembling. However, their interaction with compliant objects remains difficult to predict, particularly with respect to the vortex-induced torq…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "d24a278f83b977d2",
+    "title": "Riemannian Optimization-based Whole-body Obstacle Avoidance for Mobile Continuum Robots in Cluttered Environments",
+    "url": "https://arxiv.org/abs/2611.06214v1",
+    "source": "arXiv",
+    "date": "2026-11-04",
+    "summary": "Inspired by the coordination of global motion and local shape adaptation in snakes, elephant trunks, and octopus arms, we propose a unified planning and control framework for mobile continuum robots in cluttered and confined environments. Existing approaches often address high-l…",
+    "tags": [],
+    "topics": [
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "Imperial College",
+      "香港大学"
+    ]
+  },
+  {
+    "id": "5ca1a15074578a28",
+    "title": "Beyond Terminal Constraints: Reliable Robot Control with Learned Safe Sets",
+    "url": "https://arxiv.org/abs/2611.06196v1",
+    "source": "arXiv",
+    "date": "2026-11-04",
+    "summary": "Ensuring safety in advanced robot control methods such as Model Predictive Control (MPC) and Reinforcement Learning remains an open challenge. A common approach relies on control-invariant sets, yet their exact computation for nonlinear systems is generally intractable, and nume…",
+    "tags": [],
+    "topics": [],
+    "kinds": [
+      "安全与可信"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "db73c6e669cfb86a",
+    "title": "Can Astra Solve RoboMME without Breaking the Bank?",
+    "url": "https://arxiv.org/abs/2611.06184v1",
+    "source": "arXiv",
+    "date": "2026-11-04",
+    "summary": "Robotic manipulation often requires remembering information that is no longer visible, such as an object's location before occlusion or the order of a demonstrated action sequence. A large vision-language planner can read this history, but calling it before every action chunk is…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "Stanford"
+    ]
+  },
+  {
+    "id": "2791f7847687aaef",
+    "title": "ReactWorld: Structuring Interaction Responses for Embodied Video Generation",
+    "url": "https://arxiv.org/abs/2611.06120v1",
+    "source": "arXiv",
+    "date": "2026-11-04",
+    "summary": "Embodied video world models predict scene changes caused by robot actions, yet generated object responses may remain inconsistent with task intent and contact dynamics. Critical responses in embodied scenes often concentrate in local regions and specific time intervals. Inspired…",
+    "tags": [],
+    "topics": [
+      "世界模型"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "华为",
+      "浙江大学"
+    ]
+  },
+  {
+    "id": "9fadd80bb602161b",
+    "title": "Online Adaptation to Latent Physical Properties for Learning from Demonstration",
+    "url": "https://arxiv.org/abs/2611.06118v1",
+    "source": "arXiv",
+    "date": "2026-11-04",
+    "summary": "Manipulating visually identical objects with different physical properties requires adapting actions based on information acquired through interaction. We address the problem of learning from demonstrations how to adapt manipulation actions, such as regrasping and changing conta…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "7ac0734755067a10",
+    "title": "Learning Object-Centric Motion Priors from Human for Robotic Dexterous Manipulation",
+    "url": "https://arxiv.org/abs/2611.05979v1",
+    "source": "arXiv",
+    "date": "2026-11-04",
+    "summary": "Manipulating diverse objects with multi-fingered dexterous hands is challenging due to the high dimensionality and complex dynamics. Human-Object Interaction (HOI) datasets provide rich knowledge about task information and embodied interactions. Instead of solely imitating the h…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "f5f0eb21b3299a64",
+    "title": "Robots in the City: Persona-Based Perceptions of Urban Robots",
+    "url": "https://arxiv.org/abs/2611.05954v1",
+    "source": "arXiv",
+    "date": "2026-11-04",
+    "summary": "Pedestrians increasingly encounter robots in urban public spaces without interacting with them, but how robots change the perceived safety of a street remains unclear. We examine how robot presence and type affect perceived safety across urban contexts. We generate 18 images of…",
+    "tags": [],
+    "topics": [
+      "感知与传感"
+    ],
+    "kinds": [
+      "安全与可信"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "3f062e889764f117",
+    "title": "LumiTac: Compact, High-Rate Six-Axis Optical Tactile Sensing for Human-Robot Interaction",
+    "url": "https://arxiv.org/abs/2611.05936v1",
+    "source": "arXiv",
+    "date": "2026-11-04",
+    "summary": "Integrating six-axis tactile feedback into robotic interfaces requires compact sensors with accurate load measurement and rapid online reconstruction. This paper presents LumiTac, a low-profile, camera-free optoelectronic tactile sensor combining spatially distributed illuminati…",
+    "tags": [],
+    "topics": [
+      "感知与传感"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "新加坡国立"
+    ]
+  },
+  {
+    "id": "812d920d41da34dc",
+    "title": "FWIK: Multi-Waypoint IK Selection via Lookahead Graph Search",
+    "url": "https://arxiv.org/abs/2611.05897v1",
+    "source": "arXiv",
+    "date": "2026-11-04",
+    "summary": "An ordered sequence of end-effector poses can give a redundant robot arm multiple valid joint configurations at each waypoint. Inverse kinematics (IK) computes these configurations. Choosing a configuration only for the next waypoint can leave the arm poorly placed for later way…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "0b22ba526dc7f155",
+    "title": "Time-to-Goal: Learned Temporal Metrics for Long-Horizon Planning with JEPA World Models",
+    "url": "https://arxiv.org/abs/2611.05847v1",
+    "source": "arXiv",
+    "date": "2026-11-04",
+    "summary": "Joint-Embedding Predictive Architectures (JEPAs) support planning by comparing predicted latent states with an encoded goal. For this comparison to guide temporal progress, states closer in time to the goal should receive lower costs. However, training representations for predic…",
+    "tags": [],
+    "topics": [
+      "世界模型"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "9629b9d628e69209",
+    "title": "TechCrunch Founder Summit 2026: Doors open at 9 a.m. ET in Boston",
+    "url": "https://techcrunch.com/2026/11/04/techcrunch-founder-summit-2026-todays-the-day/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-11-04",
+    "summary": "Today is the day to join TechCrunch Founder Summit 2026 in Boston's SoWa Power Station. Register now to join this founder-focused conference today.",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "3665ca3c2f99d85f",
+    "title": "Are Drone Ports the Next Annoying Tech Neighbor?",
+    "url": "https://spectrum.ieee.org/drone-delivery-noise",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-11-04",
+    "summary": "Rick and Marcia LeCompte loved to watch the Cooper’s hawks that frequented a sweet-gum tree in their yard in Baton Rouge, La. But this October, the hawks were gone. Marcia LeCompte is convinced the birds were scared away by the same flying robots that have been vexing the couple…",
+    "tags": [],
+    "topics": [],
+    "kinds": [
+      "无人机"
+    ]
+  },
+  {
     "id": "5f5608ab08f40a9c",
     "title": "AI教AI开车！百度Apollo World世界模型叩开无人驾驶产业“AGI时刻”",
     "url": "https://www.leiphone.com/category/industrynews/NVxn28w1vAG2qbFy.html",
@@ -513,6 +961,101 @@
       "安全与可信"
     ],
     "affiliations": []
+  },
+  {
+    "id": "9a42de45c0de4401",
+    "title": "GRASP: Gradient-Guided Sampling for Contact-Rich Physics-Based Motion Retargeting",
+    "url": "https://arxiv.org/abs/2611.05754v1",
+    "source": "arXiv",
+    "date": "2026-11-03",
+    "summary": "We study physics-based retargeting of human demonstrations for robot learning: finding robot controls that reproduce reference motions under contact dynamics. We propose GRASP (Gradient Recovery from Archived Samples for Proposals), which combines sampling-based exploration with…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "730c4e10d358cd22",
+    "title": "OdorSpaces: Visual-Olfactory Embodied Navigation in 3D Environments",
+    "url": "https://arxiv.org/abs/2611.05738v1",
+    "source": "arXiv",
+    "date": "2026-11-03",
+    "summary": "Olfaction provides critical information about airborne chemical cues, yet it remains largely underexplored in embodied AI, with limited prior machine olfaction work focusing primarily on semantic odor perception. We introduce OdorSpaces, a physics-based simulation platform and b…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real",
+      "感知与传感",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "0785d2d7c1836a37",
+    "title": "Correct Robots Before They Make Mistakes: Proactive Human-in-the-Loop Intervention via Preference Learning",
+    "url": "https://arxiv.org/abs/2611.05667v1",
+    "source": "arXiv",
+    "date": "2026-11-03",
+    "summary": "This paper presents Proactive Human-in-the-Loop (PHIL), a framework for proactive policy correction and preference-based post-training. PHIL enables operators to preview policy-predicted future motion and intervene before anticipated undesirable actions. During takeover, PHIL co…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "257699d37e27398e",
+    "title": "Contact-Implicit Whole-Body Trajectory Optimization for Dynamic Humanoid Locomotion on Parameterizable Uneven Terrain",
+    "url": "https://arxiv.org/abs/2611.05585v1",
+    "source": "arXiv",
+    "date": "2026-11-03",
+    "summary": "This letter presents a trajectory planner for humanoid robots to perform dynamic motions on complex, parameterizable terrains using a contact-implicit whole-body optimization framework. The planner generates feasible movements without predefined contact sequences, considering th…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "cac7c1f00cb477b6",
+    "title": "ELA: End-to-End Latent Action Policy Learning from Video Demonstrations",
+    "url": "https://arxiv.org/abs/2611.05571v1",
+    "source": "arXiv",
+    "date": "2026-11-03",
+    "summary": "Robot imitation learning is limited by the scarcity of action-labeled data, while action-free demonstrations such as videos are abundant. Recent latent-action methods learn action-relevant representations from observation transitions, but they do not optimize latent actions for…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "UT Austin"
+    ]
+  },
+  {
+    "id": "a746605abb625649",
+    "title": "MESA: An Evaluation Framework for Compositional, Semantic, and Spatial Generalization in Robotics",
+    "url": "https://arxiv.org/abs/2611.05567v1",
+    "source": "arXiv",
+    "date": "2026-11-03",
+    "summary": "Despite growing interest in foundation models for robotic manipulation, systematic evaluation of their capabilities remains elusive. Existing benchmarks are either narrow and saturated, offering little signal on SOTA methods, broadly scoped, providing diversity at the cost of co…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "仿真与Sim2Real",
+      "灵巧手与操作"
+    ],
+    "kinds": [
+      "产业动态"
+    ],
+    "affiliations": [
+      "Georgia Tech"
+    ]
   },
   {
     "id": "12045bf363526ffa",
@@ -33554,53 +34097,5 @@
     "kinds": [
       "产业动态"
     ]
-  },
-  {
-    "id": "7e1c285b513892b1",
-    "title": "The first American autonomous ground vehicles are fighting in Ukraine",
-    "url": "https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine/",
-    "source": "TechCrunch Robotics",
-    "date": "2026-07-07",
-    "summary": "Forterra has deployed more than 100 of its self-driving ATVs in conflict zones in Ukraine.",
-    "tags": [],
-    "topics": [],
-    "kinds": []
-  },
-  {
-    "id": "fbe5464e4eefbc92",
-    "title": "NVIDIA and Hugging Face Bring New Models and Frameworks to LeRobot for the Open Robotics Community",
-    "url": "https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics/",
-    "source": "NVIDIA Blog",
-    "date": "2026-07-07",
-    "summary": "Open source AI has shown how quickly developers can innovate when models, data and tools are shared. Robotics has the same opportunity, but advancements in physical AI development can still be gated by costly and fragmented resources, from large datasets and robot foundation mod…",
-    "tags": [
-      "NVIDIA"
-    ],
-    "topics": [
-      "遥操作与数据采集"
-    ],
-    "kinds": []
-  },
-  {
-    "id": "a9723771177ea764",
-    "title": "IEEE Honors Robotics Pioneer Toshio Fukuda",
-    "url": "https://spectrum.ieee.org/ieee-honors-toshio-fukuda",
-    "source": "IEEE Spectrum Robotics",
-    "date": "2026-07-07",
-    "summary": "Toshio Fukuda has been blazing trails for most of his career. He is considered to be one of the most prolific scholars in robotics , writing more than 2,000 research papers and authoring several books on the field. He’s an influential figure thanks to his pioneering work develop…",
-    "tags": [],
-    "topics": [],
-    "kinds": []
-  },
-  {
-    "id": "0a1d2bd6cc12857b",
-    "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
-    "url": "https://huggingface.co/blog/lerobot-release-v060",
-    "source": "Hugging Face Blog",
-    "date": "2026-07-07",
-    "summary": "",
-    "tags": [],
-    "topics": [],
-    "kinds": []
   }
 ]
