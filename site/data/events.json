@@ -1,5 +1,16 @@
 [
   {
+    "id": "9f862ab8cc63260e",
+    "title": "菜鸟发布与AI及具身智能产业合作计划",
+    "url": "https://www.leiphone.com/category/industrynews/DUZcuKBxESiGrXWu.html",
+    "source": "雷峰网",
+    "date": "2026-11-06",
+    "summary": "11月5日，菜鸟在香港智慧港举行AI及具身智能产业合作发布会，宣布向产业伙伴开放全球仓网，打造全球最大的AI及具身智能物流实景训练集群，支持技术训练、实景验证与产业落地；同时推出“科技出海三日达”服务，升级面向AI算力与机器人企业的出海基建，提供从样机测试、规模化交付到海外运营的全链路供应链服务，助力中国硬科技更高效地走向全球。 会上，菜鸟与多家AI及具身智能领域头部企业达成首批合作。近百家产业链企业代表到场，共同探讨物理AI产业化与全球化发展新机遇。 菜鸟国际总裁熊伟表示，“AI已成为新一代核心生产力引擎。过去十年菜鸟搭建起一张开放、高效、可持续的智…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
     "id": "9a1d56effdd13eca",
     "title": "清洁机器人出海患上「三高」：高库存、高税率、高门槛",
     "url": "https://www.leiphone.com/category/weiwu/DGcLJU9RgJPPzGhP.html",
@@ -31,6 +42,512 @@
     "tags": [],
     "topics": [],
     "kinds": []
+  },
+  {
+    "id": "33e0667175b00b1a",
+    "title": "OopsieRecover: Learning Transferable VLA Corrections from Semantic Interventions",
+    "url": "https://arxiv.org/abs/2611.08462v1",
+    "source": "arXiv",
+    "date": "2026-11-05",
+    "summary": "Vision-Language-Action (VLA) models can perform a wide range of robotic manipulation tasks, but often fail during deployment. Teaching them to recover from these failures requires substantial corrective data: existing approaches learn to recover from failures by directly associa…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "a707b1a96ccf3739",
+    "title": "Latent RL Priors for Data-Efficient Dexterous Manipulation",
+    "url": "https://arxiv.org/abs/2611.08458v1",
+    "source": "arXiv",
+    "date": "2026-11-05",
+    "summary": "Learning dexterous manipulation from limited visual demonstrations is challenging because policies must acquire both perceptual grounding and precise control, while reinforcement learning (RL) in simulation can acquire rich control behaviors from large-scale interaction with pri…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real",
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "UC Berkeley"
+    ]
+  },
+  {
+    "id": "5dce3e19e4daaa42",
+    "title": "Failure Prediction and Classification in Vision-Language-Action Models Via Calibrated Latent Probing",
+    "url": "https://arxiv.org/abs/2611.08425v1",
+    "source": "arXiv",
+    "date": "2026-11-05",
+    "summary": "Vision-Language-Action models (VLAs) enable general-purpose embodied intelligence, but their performance is brittle under distribution shift, where unanticipated failures can damage equipment or endanger people. Deploying VLAs in real-world systems therefore requires a runtime m…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "c1b21ffdf1fa27e3",
+    "title": "T3R: Training-Free Two-Stage Token Refinement Towards Efficient and Robust VLA Models",
+    "url": "https://arxiv.org/abs/2611.08413v1",
+    "source": "arXiv",
+    "date": "2026-11-05",
+    "summary": "Vision-Language-Action (VLA) models enable end-to-end robot control, but inference is increasingly expensive. Each decision processes hundreds of visual tokens, often across multiple cameras, leading to substantial computation while allowing irrelevant background content to dist…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "Georgia Tech",
+      "UIUC",
+      "UT Austin",
+      "香港科技大学"
+    ]
+  },
+  {
+    "id": "0c050a581d0d31fe",
+    "title": "Social Humanoid: Socially Responsive Human-Humanoid Interaction",
+    "url": "https://arxiv.org/abs/2611.08407v1",
+    "source": "arXiv",
+    "date": "2026-11-05",
+    "summary": "Humanoid robots are typically trained as solitary agents, leaving them unable to coordinate physically with human partners who naturally anticipate and adjust to one another. To bridge this gap, we present Social Humanoid, a hierarchical system that generates and executes social…",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "UC Berkeley"
+    ]
+  },
+  {
+    "id": "bbda6f2d09654433",
+    "title": "A Multimodal Haptic Interface for Simultaneous Softness and Thermal Modulation",
+    "url": "https://arxiv.org/abs/2611.08398v1",
+    "source": "arXiv",
+    "date": "2026-11-05",
+    "summary": "Haptic interactions, such as touching an object in virtual reality, involve detecting a plethora of sensations through the skin. Whilst tactile displays exist to simulate and manipulate all of these cues individually, little progress has been made constructing devices that can c…",
+    "tags": [],
+    "topics": [
+      "感知与传感"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "Imperial College",
+      "MIT"
+    ]
+  },
+  {
+    "id": "d3b13da824518a0f",
+    "title": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
+    "url": "https://arxiv.org/abs/2611.08373v1",
+    "source": "arXiv",
+    "date": "2026-11-05",
+    "summary": "Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often in…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "感知与传感",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "138e98fd0d20f007",
+    "title": "MOMASPLAT: Dynamic Novel-View Demonstration Augmentation for Mobile Manipulation",
+    "url": "https://arxiv.org/abs/2611.08372v1",
+    "source": "arXiv",
+    "date": "2026-11-05",
+    "summary": "Visuomotor policies trained through imitation learning are highly sensitive to changes in camera viewpoint. This is particularly problematic for mobile manipulation (MoMa), where robots rarely execute manipulation from the exact same base pose used during demonstration collectio…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作",
+      "移动与四足",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "UT Austin"
+    ]
+  },
+  {
+    "id": "9d31eaaf27f4e3d7",
+    "title": "GPWM: Modeling the World as 3D Particle Motion",
+    "url": "https://arxiv.org/abs/2611.08338v1",
+    "source": "arXiv",
+    "date": "2026-11-05",
+    "summary": "We introduce GPWM, a Generative Particle World Model that predicts how 3D scenes evolve by generating the motion of particles and rigid bodies over time. Unlike video world models that generate scene appearance, GPWM operates directly in 3D physical space. A single representatio…",
+    "tags": [],
+    "topics": [
+      "世界模型"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "84116632e050e742",
+    "title": "Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement",
+    "url": "https://arxiv.org/abs/2611.08318v1",
+    "source": "arXiv",
+    "date": "2026-11-05",
+    "summary": "Self-improving embodied agents are increasingly being developed and compared on robot simulation benchmarks. Several recent works expose the benchmark's success criteria to the learning agent, a practice we call Criteria Exposure (CE). These criteria, originally written to verif…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "b55d333ae101fe6c",
+    "title": "Aligning Policy Encoders with a Shape Teacher",
+    "url": "https://arxiv.org/abs/2611.08275v1",
+    "source": "arXiv",
+    "date": "2026-11-05",
+    "summary": "3D-aware representations can improve robotic manipulation by providing geometric information that is robust to changes in viewpoint, object position, and occlusion. However, using 3D inputs at deployment requires additional sensing and processing, making image-based policies mor…",
+    "tags": [],
+    "topics": [
+      "感知与传感",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "8f79acd4c8f5c921",
+    "title": "RoboARCade: Benchmarking Agentic Robot Control",
+    "url": "https://arxiv.org/abs/2611.08209v1",
+    "source": "arXiv",
+    "date": "2026-11-05",
+    "summary": "Improvements in multi-modal capabilities have enabled agents to act directly as robot policies, a setting we refer to as agentic robot control (ARC). We introduce RoboARCade, a benchmark of long-horizon manipulation tasks across three embodiments designed to test in-context adap…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "Stanford"
+    ]
+  },
+  {
+    "id": "87afb4041b66fa63",
+    "title": "La-JEPA: Compact Robot Policies with Latent World Modeling",
+    "url": "https://arxiv.org/abs/2611.08156v1",
+    "source": "arXiv",
+    "date": "2026-11-05",
+    "summary": "World-action models adapt pretrained video generators, and vision-language-action models build on pretrained vision-language backbones; both tie policy architecture and inference cost to large transformers designed for generation rather than control. It remains unclear how much…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "世界模型"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "University of Toronto",
+      "华为"
+    ]
+  },
+  {
+    "id": "eb8b161c3e11b5c4",
+    "title": "STEP: Spatiotemporal Training with Explicit Prediction for Perceptive Humanoid Locomotion",
+    "url": "https://arxiv.org/abs/2611.08097v1",
+    "source": "arXiv",
+    "date": "2026-11-05",
+    "summary": "For perceptive humanoid locomotion, the relevance of terrain geometry depends on the robot's body state and how both evolve under its actions. Existing work has advanced terrain-aware sensory fusion and cross-modal prediction, improving how visual and proprioceptive information…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "感知与传感",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "国防科技大学"
+    ]
+  },
+  {
+    "id": "5d27b88b6d493e7c",
+    "title": "Leave It Better Than Found: Value-Guided Cooperation in Sequential Tasks",
+    "url": "https://arxiv.org/abs/2611.08075v1",
+    "source": "arXiv",
+    "date": "2026-11-05",
+    "summary": "We consider the problem of sequential task continuation, where one robot acts in a workspace that has been affected by a previous robot. Current approaches in multi-robot cooperation rely heavily on co-training or co-optimization, assumingthat the robots have access to collectiv…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "5a9e3d236a2dfa95",
+    "title": "Terrain-Indexed Motion Priors and Geometric Support for Extreme Humanoid Parkour",
+    "url": "https://arxiv.org/abs/2611.08056v1",
+    "source": "arXiv",
+    "date": "2026-11-05",
+    "summary": "We present a progressive imitation framework that learns terrain-appropriate humanoid parkour skills and subsequently adapts their hand--knee support. Human demonstrations provide traversal behaviors, but their contact patterns need not suit a robot's proportions or the availabl…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "国防科技大学"
+    ]
+  },
+  {
+    "id": "1a9078bbc0097b39",
+    "title": "HITCH: Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness",
+    "url": "https://arxiv.org/abs/2611.08039v1",
+    "source": "arXiv",
+    "date": "2026-11-05",
+    "summary": "Enabling vision-language models (VLMs) to control humanoid robots requires both reliable whole-body interfaces and knowledge of how to use the body that carries over across tasks. We present HITCH (Harness Interfaces To Command Humanoids), a harness in which perception returns t…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "人形机器人",
+      "感知与传感",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "c4795182613ba067",
+    "title": "Time-Indexed Skill Success Models for Latency-Aware Skill Selection and Timing in Dynamic Manipulation",
+    "url": "https://arxiv.org/abs/2611.07964v1",
+    "source": "arXiv",
+    "date": "2026-11-05",
+    "summary": "Robots that manipulate moving objects act on observations that are outdated when the chosen skill starts, and the best skill can change within a few hundred milliseconds. Skill competence models, however, predict success for a launch at the moment of observation. We propose time…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "7fd6cc767f02b844",
+    "title": "Structure from Collision via Hypothesis-Space Reasoning",
+    "url": "https://arxiv.org/abs/2611.07900v1",
+    "source": "arXiv",
+    "date": "2026-11-05",
+    "summary": "Knowledge of the hidden interior structure of an object, including the presence and location of cavities, is essential for predictive simulation, robotic manipulation, and nondestructive inspection. However, such cavities leave no direct signature on the static visible surface,…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "11cf6f40562c5a57",
+    "title": "AffordJEV: Affordance Grounding by Confirming Candidate Regions",
+    "url": "https://arxiv.org/abs/2611.07896v1",
+    "source": "arXiv",
+    "date": "2026-11-05",
+    "summary": "Affordance grounding asks which visible part of an object performs a requested operation, a basic capability for embodied manipulation and human--robot interaction. Most existing methods follow a System Two paradigm: a multimodal language model first writes a chain of thought an…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "f55c2cf0a9c91118",
+    "title": "TactileLab: Sim-to-Real Dexterous Robot Manipulation with Efficient Shear-Sensitive Tactile Simulation",
+    "url": "https://arxiv.org/abs/2611.07881v1",
+    "source": "arXiv",
+    "date": "2026-11-05",
+    "summary": "Robotic simulators that represent shear within tactile sensing are becoming increasingly important for contact-rich manipulation. However, simulating contact shear with high-fidelity deformable or soft-body simulation is computationally demanding, limiting scalability to large-s…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real",
+      "感知与传感",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "91f875f39f7caaf7",
+    "title": "Learning Robotic World Models with Semantic and Visual Feedback",
+    "url": "https://arxiv.org/abs/2611.07850v1",
+    "source": "arXiv",
+    "date": "2026-11-05",
+    "summary": "Robot world models predict action-conditioned future visual states to support robotic planning and decision making. However, visual reconstruction does not fully capture task progress, semantic evaluation alone provides limited constraints on fine-grained visual errors, and homo…",
+    "tags": [],
+    "topics": [
+      "世界模型"
+    ],
+    "kinds": [
+      "产业动态"
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "786666b4312b37a1",
+    "title": "Generate-then-Rank: Learning Symbolic Goal Interpretation for Embodied Agents",
+    "url": "https://arxiv.org/abs/2611.07825v1",
+    "source": "arXiv",
+    "date": "2026-11-05",
+    "summary": "Goal interpretation is to translate a natural language instruction into a formal symbolic goal that a planner can execute. It is critical for embodied agents because any error here propagates to every downstream planning and action step. Doing it well requires both generating su…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "a7ad053cf1122dab",
+    "title": "Flexible Piezoelectric Tactile Sensing System for Intelligent Object Recognition",
+    "url": "https://arxiv.org/abs/2611.07779v1",
+    "source": "arXiv",
+    "date": "2026-11-05",
+    "summary": "Tactile sensing provides information about object properties that can improve robotic grasping and manipulation. However, accurate object recognition during the early stages of grasping remains challenging, particularly under strict real-time constraints. This study presents a f…",
+    "tags": [],
+    "topics": [
+      "感知与传感",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "18b137160aa29531",
+    "title": "Dual-Arm Tabletop Rearrangement with Movable Stacking and Gap-Aware Push Transfers",
+    "url": "https://arxiv.org/abs/2611.07726v1",
+    "source": "arXiv",
+    "date": "2026-11-05",
+    "summary": "Object rearrangement in cluttered tabletop scenes is challenging, especially in wide workspaces where dual-arm systems improve coverage and efficiency. Limited free space often necessitates buffering, while objects near or across the shared reachability region of the manipulator…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "052328661a6470e6",
+    "title": "AffectiveVLA: Safe and Intent-Aware VLA Control for Human-Humanoid Social Interaction",
+    "url": "https://arxiv.org/abs/2611.07712v1",
+    "source": "arXiv",
+    "date": "2026-11-05",
+    "summary": "Social touch interactions, such as handshakes, fist bumps, and hugs, require humanoid robots to infer human intent, generate contact-rich motions, and maintain safe physical contact. We present AffectiveVLA, an intent-gated Vision-Language-Action (VLA) pipeline deployed on a Uni…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "人形机器人",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "b9bc6daefb2d8623",
+    "title": "PhySA: Decoupling Aesthetic and Physical Rewards for Humanoid Locomotion",
+    "url": "https://arxiv.org/abs/2611.07679v1",
+    "source": "arXiv",
+    "date": "2026-11-05",
+    "summary": "Humanoid locomotion policies trained without an explicit smoothness objective tend to produce jerky, high-energy gaits that stress actuators. Vision-language models (VLMs) offer an appealing reward source: given a rendered rollout, a VLM returns an aesthetic quality score on [0,…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "人形机器人",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "上海交通大学"
+    ]
+  },
+  {
+    "id": "d787c40c242d719f",
+    "title": "GraspBench: Execution-Aware Cross-Robot Evaluation of 6-DoF Grasp Generation in MuJoCo",
+    "url": "https://arxiv.org/abs/2611.07651v1",
+    "source": "arXiv",
+    "date": "2026-11-05",
+    "summary": "Modern 6-DoF grasp generators are often evaluated using grasp scores, dataset-level metrics, or single-robot demonstrations, yet proposal quality alone does not determine whether a grasp is executable by a particular robot. We present GraspBench, a controlled MuJoCo protocol for…",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real",
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [
+      "产业动态"
+    ],
+    "affiliations": [
+      "NYU"
+    ]
+  },
+  {
+    "id": "5f01f47372cfab07",
+    "title": "Whole-Body Elasto-Geometrical Calibration of Wheeled Humanoid Robots Using a Shared-Waist Dual-Chain Model",
+    "url": "https://arxiv.org/abs/2611.07560v1",
+    "source": "arXiv",
+    "date": "2026-11-05",
+    "summary": "Wheeled humanoid robots carry both arms on one actuated waist, usually without torque sensors, so the accuracy of both end-effectors depends on a single waist model. After a first stage that estimates the tracker and target extrinsics, we identify the waist and both arms in one…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "感知与传感",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "智元"
+    ]
+  },
+  {
+    "id": "60e7a4e15d56e73d",
+    "title": "Semantics-to-Contact: A Stagewise Framework for Robust Contact-Rich Manipulation",
+    "url": "https://arxiv.org/abs/2611.07532v1",
+    "source": "arXiv",
+    "date": "2026-11-05",
+    "summary": "Contact-rich manipulation requires precise control under complex contact dynamics while remaining robust to diverse visual conditions. However, real-world reinforcement learning often overfits to the visual appearance of training scenes. We propose Semantics-to-Contact (S2C), a…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "香港中文大学",
+      "香港大学"
+    ]
+  },
+  {
+    "id": "20c66b35275dc3e5",
+    "title": "Serve Robotics launches new business to become the AWS for robots",
+    "url": "https://techcrunch.com/2026/11/05/serve-robotics-launches-new-business-to-become-the-aws-for-robots/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-11-05",
+    "summary": "Serve Robotics announced alonsgside its third-quarter earnings that it will launch a new business line called Physical AI Services to offer customers its connectivity and data tools.",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "956cb223c580c4f0",
+    "title": "Agility is the first pure humanoid robot company on the stock market. Are you buying?",
+    "url": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-11-05",
+    "summary": "Agility arrives on the Nasdaq today as the first publicly traded pure-play humanoid robotics company.",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": [
+      "产业动态"
+    ]
   },
   {
     "id": "a7cbab617b2d944f",
@@ -1055,6 +1572,26 @@
     ],
     "affiliations": [
       "Georgia Tech"
+    ]
+  },
+  {
+    "id": "1dbcbb409173d94d",
+    "title": "Infineon Targets Semiconductor Market for Humanoid Robotic Hands",
+    "url": "https://www.thelec.net/news/articleView.html?idxno=14713",
+    "source": "Hacker News",
+    "date": "2026-11-03",
+    "summary": "",
+    "hn": {
+      "points": 3,
+      "comments": 0,
+      "discussion": "https://news.ycombinator.com/item?id=50359263"
+    },
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": [
+      "产业动态"
     ]
   },
   {
@@ -34081,21 +34618,6 @@
     ],
     "kinds": [
       "无人机"
-    ]
-  },
-  {
-    "id": "ddd0e329481881ac",
-    "title": "This startup thinks robotics is about to have its ChatGPT moment",
-    "url": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/",
-    "source": "TechCrunch Robotics",
-    "date": "2026-07-08",
-    "summary": "General Intuition is betting millions of hours of video game data can train the foundation models for physical AI, making it easier to build smarter robots with minimal real-world data.",
-    "tags": [],
-    "topics": [
-      "VLA与基础模型"
-    ],
-    "kinds": [
-      "产业动态"
     ]
   }
 ]
