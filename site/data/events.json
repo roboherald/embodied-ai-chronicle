@@ -11,6 +11,63 @@
     "kinds": []
   },
   {
+    "id": "f3bfec28682f8e7d",
+    "title": "Physicl raises $10M to make the digital world real enough for robots",
+    "url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-11-06",
+    "summary": "Physicl is trying to solve the sim-to-real gap with a pipeline originally built to market goods online.",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real"
+    ],
+    "kinds": [
+      "产业动态"
+    ]
+  },
+  {
+    "id": "d3518bca05b97d46",
+    "title": "Video Friday: Room-Scale Cable-Driven Home Robot Tidies Up",
+    "url": "https://spectrum.ieee.org/video-friday-home-cable-robot",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-11-06",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AU…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "be1ba71e55b7f125",
+    "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+    "url": "https://huggingface.co/blog/allenai/toyblocks",
+    "source": "Hugging Face Blog",
+    "date": "2026-11-06",
+    "summary": "",
+    "tags": [],
+    "topics": [],
+    "kinds": [
+      "产业动态"
+    ]
+  },
+  {
+    "id": "e804e0e792890345",
+    "title": "I watched a humanoid robot clean my apartment. Like a taste of the future",
+    "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+    "source": "Hacker News",
+    "date": "2026-11-06",
+    "summary": "",
+    "hn": {
+      "points": 3,
+      "comments": 0,
+      "discussion": "https://news.ycombinator.com/item?id=50398702"
+    },
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": []
+  },
+  {
     "id": "9a1d56effdd13eca",
     "title": "清洁机器人出海患上「三高」：高库存、高税率、高门槛",
     "url": "https://www.leiphone.com/category/weiwu/DGcLJU9RgJPPzGhP.html",
