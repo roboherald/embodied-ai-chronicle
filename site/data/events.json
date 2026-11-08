@@ -1,5 +1,41 @@
 [
   {
+    "id": "e718c04c93cbd962",
+    "title": "China drafts lifetime ID codes for every robot it makes, not just humanoids",
+    "url": "https://asia-tech-news.ghost.io/china-drafts-lifetime-id-codes-for-every-robot-it-makes-not-just-humanoids/",
+    "source": "Hacker News",
+    "date": "2026-11-07",
+    "summary": "",
+    "hn": {
+      "points": 6,
+      "comments": 1,
+      "discussion": "https://news.ycombinator.com/item?id=50406482"
+    },
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "28e6afdbb3811392",
+    "title": "Six humanoid robots worked a 24-hour shift at a convenience store",
+    "url": "https://www.techspot.com/news/114445-six-humanoid-robots-worked-24-hour-shift-convenience.html",
+    "source": "Hacker News",
+    "date": "2026-11-07",
+    "summary": "",
+    "hn": {
+      "points": 3,
+      "comments": 1,
+      "discussion": "https://news.ycombinator.com/item?id=50402413"
+    },
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": []
+  },
+  {
     "id": "9f862ab8cc63260e",
     "title": "菜鸟发布与AI及具身智能产业合作计划",
     "url": "https://www.leiphone.com/category/industrynews/DUZcuKBxESiGrXWu.html",
@@ -34650,31 +34686,5 @@
       "comments": 0,
       "discussion": "https://news.ycombinator.com/item?id=48870031"
     }
-  },
-  {
-    "id": "6d65e9a1cde1430f",
-    "title": "Video Friday: A World Cup for Robots",
-    "url": "https://spectrum.ieee.org/video-friday-robot-world-cup",
-    "source": "IEEE Spectrum Robotics",
-    "date": "2026-07-10",
-    "summary": "Video Friday is your weekly selection of awesome robotics videos , collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. RSS 2026 : 13–17 July 2026, SYDNE…",
-    "tags": [],
-    "topics": [],
-    "kinds": []
-  },
-  {
-    "id": "c1fa51f65a335557",
-    "title": "Ground Robots Inherit the Kill Zone",
-    "url": "https://spectrum.ieee.org/ukraine-ground-drones",
-    "source": "IEEE Spectrum Robotics",
-    "date": "2026-07-10",
-    "summary": "Borys Drozhak has a vision: a front line almost free of humans, patrolled by flying drones and ground robots, and continuously monitored by AI-controlled sensor networks. And it’s not a pipe dream. Ukrainian roboticists have made major strides in that direction over the past fou…",
-    "tags": [],
-    "topics": [
-      "感知与传感"
-    ],
-    "kinds": [
-      "无人机"
-    ]
   }
 ]
