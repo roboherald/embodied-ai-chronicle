@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T07:17:47+00:00",
+  "updated": "2026-11-09T07:55:30+00:00",
   "sources": {
     "arXiv": 30,
     "TechCrunch Robotics": 20,
@@ -8,8 +8,10 @@
     "NVIDIA Blog": 1,
     "Hugging Face Blog": 23,
     "量子位": 10,
-    "雷峰网": 1,
+    "雷峰网": 0,
     "Hacker News": 10
   },
-  "dead": []
+  "dead": [
+    "雷峰网"
+  ]
 }
