@@ -1,11 +1,33 @@
 [
   {
+    "id": "34dcc0e759ee209b",
+    "title": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
+    "url": "https://blogs.nvidia.com/blog/ai-recycling-startups/",
+    "source": "NVIDIA Blog",
+    "date": "2026-11-11",
+    "summary": "Vision AI and robotics pick what’s worth recovering out of conveyor belts of used clothing, bottles and mixed recyclables, diverting thousands of tons of materials from landfills.",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
     "id": "6ea215fc0134acc4",
     "title": "从众筹爆款到现货开售，妙动科技Beni机器人开创影像新视角",
     "url": "https://www.leiphone.com/category/industrynews/Hh7kHix5gWd00cEC.html",
     "source": "雷峰网",
     "date": "2026-11-10",
     "summary": "2026 年 11 月 10 日，消费级机器人公司妙动科技宣布，旗下全球首款多地形跟拍机器人 Beni 正式开启现货发售：标准套装售价 4999 元、探索套装售价 5799 元，国内用户可通过京东商城购买，即买即发货。 一个月前，Beni 刚以筹资超 500 万美元、全球 7926 名支持者的成绩，创下Kickstarter 平台消费级机器人众筹金额历史第一的纪录。今天，它已从“众筹爆款”进入“现货开售”的阶段。对成立不到两年的妙动科技而言，此次Beni开售不止是面向全球用户推出首款产品，更意味着将前沿机器人技术与专业影像工程融合，探索出具身智能在消费…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "558ea01966709557",
+    "title": "Fable 5.2 “撞车”蚂蚁灵波触觉模型，CEO 朱兴：两类模型协同将加速具身产业成熟",
+    "url": "https://www.leiphone.com/category/industrynews/Qhv28gnFkgFPCbXV.html",
+    "source": "雷峰网",
+    "date": "2026-11-10",
+    "summary": "11 月 10 日，Claude Fable 5.2 发布同日，蚂蚁灵波科技开源触觉基础模型 LingBot-Touch。一款面向数字世界的通用大模型，一款面向物理操作闭环的具身基础模型，同一天走进公众视野。 这两条技术路线的关系，正是当下具身智能行业讨论的焦点。在蚂蚁灵波看来，通用大模型与具身基础模型更接近 1+1＞2 的协同关系：前者增强对任务和环境的理解与推理，后者补齐物理感知与闭环操作能力，两者齐头并进，才能共同加速具身产业成熟。 此次开源的 LingBot-Touch 基于近 5000 小时真实触觉数据预训练，覆盖磁触觉、视触觉和压阻式三类主…",
     "tags": [],
     "topics": [],
     "kinds": []
@@ -20,6 +42,348 @@
     "tags": [],
     "topics": [],
     "kinds": []
+  },
+  {
+    "id": "f574bb1b184a567e",
+    "title": "英伟达机器人开源撞上Fable 5.2发布！Jim Fan：不是寒冬是夏天",
+    "url": "https://www.qbitai.com/2026/11/509032.html",
+    "source": "量子位",
+    "date": "2026-11-10",
+    "summary": "",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "0b1421612257dce1",
+    "title": "Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies",
+    "url": "https://arxiv.org/abs/2611.14488v1",
+    "source": "arXiv",
+    "date": "2026-11-10",
+    "summary": "Memory-augmented vision-language-action (VLA) policies are meant to remember what happened. Many of them, however, fill memory by time: they sample frames uniformly across the episode and stamp each frame with its time step. Because time passes even when nothing happens, such a…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "南洋理工"
+    ]
+  },
+  {
+    "id": "5252a6f1a72b46b7",
+    "title": "TanCRAFT: Context-Reasoned Anticipatory Feedback for Assembly Tasks",
+    "url": "https://arxiv.org/abs/2611.14470v1",
+    "source": "arXiv",
+    "date": "2026-11-10",
+    "summary": "Preventing human error in physical assembly tasks requires assistance systems that can intervene before mistakes are made. This is especially challenging in settings where users are free to choose the construction order and correctness depends on the evolving assembly rather tha…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "University of Bonn"
+    ]
+  },
+  {
+    "id": "128f161620efc86e",
+    "title": "One Policy for 100 Household Tasks: Our Solution for the 2026 BEHAVIOR Challenge",
+    "url": "https://arxiv.org/abs/2611.14432v1",
+    "source": "arXiv",
+    "date": "2026-11-10",
+    "summary": "We describe our solution for the 2026 BEHAVIOR Challenge: 100 long-horizon household tasks in the OmniGibson simulator. We placed 9th on the final leaderboard, the only independent team in the top 10. The core of the solution is a single vision-language-action (VLA) model, one c…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "仿真与Sim2Real"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "8860e9fabd7b3208",
+    "title": "From Prediction to Action: Learning Physical Context for Deformable Linear Object Manipulation",
+    "url": "https://arxiv.org/abs/2611.14274v1",
+    "source": "arXiv",
+    "date": "2026-11-10",
+    "summary": "A representation that accurately predicts a deformable object's response is not necessarily the one most useful for choosing manipulation actions. We study this distinction between predictive utility and decision utility in planar single-grasp shape control of Deformable Linear…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "f7adca2e7f9c34c1",
+    "title": "Elastic-WAM: Adaptive Spatiotemporal Imagination for Efficient Robot Control",
+    "url": "https://arxiv.org/abs/2611.14257v1",
+    "source": "arXiv",
+    "date": "2026-11-10",
+    "summary": "World-Action Models improve robot control by predicting future visual dynamics, but iterative video denoising incurs substantial inference overhead. Recent approaches reduce this cost through partial future denoising, yet typically rely on fixed refinement budgets. Our empirical…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": [
+      "新加坡国立"
+    ]
+  },
+  {
+    "id": "72c11091aecbb4bd",
+    "title": "Personalized Affective Perception via Continual Learning in Human-Agent Negotiation",
+    "url": "https://arxiv.org/abs/2611.14247v1",
+    "source": "arXiv",
+    "date": "2026-11-10",
+    "summary": "Self-interested intelligent agents that negotiate with humans should interpret nonverbal expressions and adapt their behavior accordingly. However, generic facial-affect models degrade across individuals and contexts, creating a generalization gap. We introduce an affect-adaptiv…",
+    "tags": [],
+    "topics": [
+      "感知与传感"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "University of Cambridge"
+    ]
+  },
+  {
+    "id": "325847fefe4c09ca",
+    "title": "Koopman Model-Based Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2611.14186v1",
+    "source": "arXiv",
+    "date": "2026-11-10",
+    "summary": "We propose a Koopman model-based reinforcement learning (K-MBRL) algorithm for controlling nonlinear robotic systems with unknown dynamics. The K-MBRL learns a control policy by minimizing an approximate policy objective that combines the analytical immediate cost with an estima…",
+    "tags": [],
+    "topics": [
+      "世界模型"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "f7d77b2461595397",
+    "title": "LEASH: Stay Safe in Agentic Robotics",
+    "url": "https://arxiv.org/abs/2611.14115v1",
+    "source": "arXiv",
+    "date": "2026-11-10",
+    "summary": "Foundation models such as GPT and Claude have shown strong capabilities in spatial understanding and embodied intelligence. These advances make agentic robotics a promising path toward artificial general intelligence in robotics. However, we find that using foundation models to…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "新加坡国立"
+    ]
+  },
+  {
+    "id": "2a20ebf2b789a1bf",
+    "title": "Model-Free Runtime Measurement of Task-Relevant Information",
+    "url": "https://arxiv.org/abs/2611.14111v1",
+    "source": "arXiv",
+    "date": "2026-11-10",
+    "summary": "Autonomous systems increasingly monitor physical kinematics, environmental states and task completion outcomes. While existing work provides methods to plan information seeking actions and interpret acquired observations, current approaches do not monitor whether the live proces…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "e8bac04be6a18b9d",
+    "title": "DexSeed: Expanding Human Hand-Object Interactions into Robot Demonstrations for Dexterous Policy Learning",
+    "url": "https://arxiv.org/abs/2611.14092v1",
+    "source": "arXiv",
+    "date": "2026-11-10",
+    "summary": "We study how to generate diverse, physically executable robot demonstrations for dexterous vision-language-action (VLA) learning. Existing demonstration-generation methods typically rely on costly teleoperated examples. Meanwhile, human hand--object datasets provide a reusable s…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "浙江大学",
+      "香港大学"
+    ]
+  },
+  {
+    "id": "b2dd745ad49e4bac",
+    "title": "RedirectMimic: Local Motion Content Redaction for Humanoid Whole-Body Control",
+    "url": "https://arxiv.org/abs/2611.14049v1",
+    "source": "arXiv",
+    "date": "2026-11-10",
+    "summary": "Humanoid motion interfaces should accommodate application-specific movement constraints while retaining useful reference behavior. Local content redaction requires a controller to replace selected movements even when it continues to receive the original reference. Removing the t…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "448ea129b9dbf74f",
+    "title": "LaST0.5: A Generalist World Action Model with Interaction-Centric Latent Reasoning",
+    "url": "https://arxiv.org/abs/2611.14048v1",
+    "source": "arXiv",
+    "date": "2026-11-10",
+    "summary": "World Action Models (WAMs) have recently emerged as a promising paradigm for robotic manipulation, endowing policies with strong capabilities for modeling temporal and physical dynamics. Existing WAMs, encompassing both video-first action prediction and joint video-action modeli…",
+    "tags": [],
+    "topics": [
+      "世界模型",
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "386a9cf8c32c17b5",
+    "title": "ReACT: Reflection-Consistent Modulation and Cross-Load Consistency for Humanoid Velocity Tracking Under Asymmetric Loads",
+    "url": "https://arxiv.org/abs/2611.13929v1",
+    "source": "arXiv",
+    "date": "2026-11-10",
+    "summary": "In recent years, humanoid loco-manipulation has progressed to whole-body grasping, lifting, and transport. A basic requirement underlying these tasks is carrying the object to its destination, which depends on the locomotion controller accurately executing velocity commands from…",
+    "tags": [],
+    "topics": [
+      "人形机器人",
+      "灵巧手与操作",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "新加坡国立"
+    ]
+  },
+  {
+    "id": "278e63ccb74b8cfc",
+    "title": "WAM is capable in BEHAVIOR-1K: the 2nd-place solution to the 2026 BEHAVIOR Challenge",
+    "url": "https://arxiv.org/abs/2611.13818v1",
+    "source": "arXiv",
+    "date": "2026-11-10",
+    "summary": "This work presents the 2nd-place solution (Team IF1001) to the 2026 BEHAVIOR Challenge, which evaluates mobile manipulation across 100 household tasks. Our method is built on a powerful world action model (WAM), Cosmos 3. We improve Cosmos 3 by using richer visual history, task-…",
+    "tags": [],
+    "topics": [
+      "世界模型",
+      "灵巧手与操作",
+      "移动与四足"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "acc986518f87ed95",
+    "title": "Softness is something you also need! Why compliance helps control: information metrics of a passive walker with compliant ankle",
+    "url": "https://arxiv.org/abs/2611.13779v1",
+    "source": "arXiv",
+    "date": "2026-11-10",
+    "summary": "A great gap in adaptivity, flexibility, and dexterity still exists between intelligent robots, whether they are made of rigid or (partially) compliant components, and their naturally evolved animal and vegetal counterparts. One reason could be of `paradigm' nature. On the one ha…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "dc6bf08e782f8d87",
+    "title": "FAME-QP: A GPU-Accelerated Quadratic-Programming Solver for Real-Time Model Predictive Control",
+    "url": "https://arxiv.org/abs/2611.13766v1",
+    "source": "arXiv",
+    "date": "2026-11-10",
+    "summary": "We present FAME-QP, a GPU-accelerated solver for dense quadratic programs arising in linear model predictive control. FAME-QP combines constraint-dependent operator representations with fused single- and two-kernel iterations replayed through CUDA graphs, automatically selecting…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "d6ab481eb60b1ca0",
+    "title": "CIALLO: Learning Shared Intent Representations for Cross-Embodiment Manipulation",
+    "url": "https://arxiv.org/abs/2611.13732v1",
+    "source": "arXiv",
+    "date": "2026-11-10",
+    "summary": "Robot demonstrations contain reusable manipulation knowledge, but transferring this knowledge across embodiments requires representations that bridge differences in control interfaces. Action reconstruction alone does not ensure that similar behaviors across robots share a repre…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": [
+      "清华大学"
+    ]
+  },
+  {
+    "id": "4719459fc13f63bb",
+    "title": "Ego Guidance: Enhancing Robot Policy Learning with Action-Free Human Egocentric Videos",
+    "url": "https://arxiv.org/abs/2611.13685v1",
+    "source": "arXiv",
+    "date": "2026-11-10",
+    "summary": "In this paper, we investigate how human egocentric videos can benefit robot policy learning without action supervision. Building on a pretrained VLM, we propose Shared Prediction on Action and Representation (SPAR), an MoT architecture in which future visual state prediction can…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "64e8edf40b4cb5ac",
+    "title": "A computational framework for understanding embodied plans",
+    "url": "https://arxiv.org/abs/2611.13669v1",
+    "source": "arXiv",
+    "date": "2026-11-10",
+    "summary": "Reasoning about people's plans and goals based on their actions is fundamental to human social interaction and essential for cooperative, embodied artificial intelligence. Formalizing this capacity in naturalistic, embodied settings has been a longstanding challenge. Here, we pr…",
+    "tags": [],
+    "topics": [],
+    "kinds": [],
+    "affiliations": [
+      "Stanford"
+    ]
+  },
+  {
+    "id": "460390b6e9f97ec6",
+    "title": "From Egocentric Human Video to Robot Manipulation in the Era of Embodied Intelligence",
+    "url": "https://arxiv.org/abs/2611.13610v1",
+    "source": "arXiv",
+    "date": "2026-11-10",
+    "summary": "Egocentric human video (EHV) records close-range hand-object interaction (HOI) and the temporal structure of everyday activities, offering a potentially scalable source of experience for robot manipulation. Using this experience for robot control requires recovering useful super…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "340b89b4d8a76aad",
+    "title": "DeRep: Learning Depth Representations for End-to-End Navigation in Cluttered Environments",
+    "url": "https://arxiv.org/abs/2611.13499v1",
+    "source": "arXiv",
+    "date": "2026-11-10",
+    "summary": "End-to-end navigation in cluttered environments relies on compact visual representations to support collision avoidance and goal-directed motion. Existing methods typically learn these representations jointly with the policy or through observation reconstruction, which does not…",
+    "tags": [],
+    "topics": [
+      "感知与传感",
+      "移动与四足"
+    ],
+    "kinds": [
+      "安全与可信"
+    ],
+    "affiliations": [
+      "CMU"
+    ]
+  },
+  {
+    "id": "c5e9e08f64384a91",
+    "title": "Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot",
+    "url": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/",
+    "source": "TechCrunch Robotics",
+    "date": "2026-11-10",
+    "summary": "Amazon-owned Ring is pushing into robotics with the launch of a home security drone and a rolling robot designed to patrol and protect businesses.",
+    "tags": [],
+    "topics": [],
+    "kinds": [
+      "无人机"
+    ]
   },
   {
     "id": "ae7e040058e056e9",
@@ -493,6 +857,50 @@
     ]
   },
   {
+    "id": "95af7a1d44751f19",
+    "title": "AHEADance: Anticipatory Humanoid Dance from Streaming Audio",
+    "url": "https://arxiv.org/abs/2611.13370v1",
+    "source": "arXiv",
+    "date": "2026-11-09",
+    "summary": "A humanoid that dances to streamed music must commit each motion chunk before it has heard the music that chunk accompanies, and must continue from motion it has already committed. We present AHEADance, a robot-native streaming dance generator executed on a humanoid robot by a w…",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "f52e58506b6aa1fc",
+    "title": "Force-Closure Condition for Cooperative Multi-robot Pushing of Rectangular Objects",
+    "url": "https://arxiv.org/abs/2611.13268v1",
+    "source": "arXiv",
+    "date": "2026-11-09",
+    "summary": "In cooperative object manipulation, the placement of pushing contacts determines whether force closure can be achieved and agents can generate arbitrary forces and torques on the object correspondingly. This study derives a necessary and sufficient closed-form condition for the…",
+    "tags": [],
+    "topics": [
+      "灵巧手与操作"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
+    "id": "2b82d20cd81f657f",
+    "title": "How Much of Your VLA Is kNN",
+    "url": "https://arxiv.org/abs/2611.13160v1",
+    "source": "arXiv",
+    "date": "2026-11-09",
+    "summary": "Vision-language-action (VLA) models now exceed 95% success on the LIBERO simulation benchmark, yet it remains unclear how much of this performance requires generalization beyond the training demonstrations. In this work, we show that retrieving nearby demonstrations and reusing…",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型",
+      "仿真与Sim2Real",
+      "遥操作与数据采集"
+    ],
+    "kinds": [],
+    "affiliations": []
+  },
+  {
     "id": "dc742b2cbd8fb92b",
     "title": "Korea Advances Physical AI Across Industries With NVIDIA",
     "url": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/",
@@ -526,7 +934,7 @@
   },
   {
     "id": "cf83aea47cbb018a",
-    "title": "Can Agentic Robotics Solve Robotics’ Data Scaling Problem?",
+    "title": "Can Agentic Robotics Solve Robotics’ Data-Scaling Problem?",
     "url": "https://spectrum.ieee.org/agentic-robotics",
     "source": "IEEE Spectrum Robotics",
     "date": "2026-11-09",
@@ -536,6 +944,21 @@
       "遥操作与数据采集"
     ],
     "kinds": []
+  },
+  {
+    "id": "a98763b80c842ad2",
+    "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+    "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+    "source": "Google DeepMind",
+    "date": "2026-11-09",
+    "summary": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
+    "tags": [],
+    "topics": [
+      "VLA与基础模型"
+    ],
+    "kinds": [
+      "安全与可信"
+    ]
   },
   {
     "id": "9502b68739d7b0a4",
@@ -575,8 +998,8 @@
     "date": "2026-11-07",
     "summary": "",
     "hn": {
-      "points": 10,
-      "comments": 4,
+      "points": 19,
+      "comments": 17,
       "discussion": "https://news.ycombinator.com/item?id=50406482"
     },
     "tags": [],
@@ -35639,54 +36062,5 @@
       "comments": 0,
       "discussion": "https://news.ycombinator.com/item?id=48911203"
     }
-  },
-  {
-    "id": "4894bc6f8e68cc31",
-    "title": "Ondas acquires DZYNE for $875.8M, expanding its defense capabilities",
-    "url": "https://www.therobotreport.com/ondas-acquires-dzyne-875-8m-expanding-its-defense-capabilities/",
-    "source": "The Robot Report",
-    "date": "2026-07-13",
-    "summary": "DZYNE Technologies specializes in long-endurance autonomous aircraft, counter-drone systems, and autonomous effects. The post Ondas acquires DZYNE for $875.8M, expanding its defense capabilities appeared first on The Robot Report .",
-    "tags": [],
-    "topics": [],
-    "kinds": [
-      "产业动态",
-      "无人机"
-    ]
-  },
-  {
-    "id": "27149a199d2c6d1e",
-    "title": "Yaskawa America gets information security certification",
-    "url": "https://www.therobotreport.com/yaskawa-america-gets-information-seccurity-certification/",
-    "source": "The Robot Report",
-    "date": "2026-07-13",
-    "summary": "Yaskawa America said that independent ISO/IEC 27001:2022 certification shows its focus on protecting customer information. The post Yaskawa America gets information security certification appeared first on The Robot Report .",
-    "tags": [],
-    "topics": [],
-    "kinds": []
-  },
-  {
-    "id": "b0ce4fdc4c7eb432",
-    "title": "Building a Foundation Stack for General-Purpose Robots",
-    "url": "https://spectrum.ieee.org/x-square-robot-embodied-ai-stack",
-    "source": "IEEE Spectrum Robotics",
-    "date": "2026-07-13",
-    "summary": "This article is brought to you by X Square Robot . Large language models gave artificial intelligence a working recipe. Pretrain a large model on broad data, and general capability follows. Robotics has no such recipe. Robotics systems have long been assembled from separate perc…",
-    "tags": [],
-    "topics": [
-      "VLA与基础模型"
-    ],
-    "kinds": []
-  },
-  {
-    "id": "66188580349f59ed",
-    "title": "Empowering India’s next generation of innovators with ATL Saathi",
-    "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
-    "source": "Google DeepMind",
-    "date": "2026-07-13",
-    "summary": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.",
-    "tags": [],
-    "topics": [],
-    "kinds": []
   }
 ]
