@@ -1,5 +1,27 @@
 [
   {
+    "id": "c6472d283700a641",
+    "title": "灵光生态再扩容！新增微信 ClawBot、QQ机器人、瑞幸咖啡等六大连接器",
+    "url": "https://www.leiphone.com/category/industrynews/nKpbdFlkI7WUDqOl.html",
+    "source": "雷峰网",
+    "date": "2026-11-12",
+    "summary": "11月12日，灵光开放生态再次扩容，新增支持微信 ClawBot、QQ机器人、瑞幸咖啡、有道云笔记、滴答清单、腾讯新闻等六大连接器。连接器拓宽了灵光的能力边界，此次扩容让灵光的服务覆盖即时通讯、知识管理、任务协同等高频场景，外部连接服务增加到47项。 本次生态扩容后，灵光通过微信 ClawBot 和QQ机器人连接器，打通微信和QQ部分功能。用户可以在微信私聊中发送任务、接收回复，还能查询消息记录及发送状态。QQ机器人连接器则支持私聊和群聊消息处理、主动发送通知，以及经确认后的定时消息推送。例如，QQ群里只需一句“每天上午9点在群里推送今日提醒”，即可借…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "db66188bf728d717",
+    "title": "和大疆抢食，这家公司做了台桌面摄影机器人",
+    "url": "https://www.leiphone.com/category/weiwu/7us3N77Jwt0jzWda.html",
+    "source": "雷峰网",
+    "date": "2026-11-11",
+    "summary": "一个美食创作者想把镜头从餐桌全景慢慢推到一碗面上。这个动作不难，难的是他没有第二个人帮他推，也没有空间在桌上架一条滑轨。最后他切了一个固定机位，画面清楚，但缺少呼吸感。 这张桌子，是今天很多内容创作的真实现场。产品测评、美食、美妆、直播、带货，大量拍摄都发生在几平方米之内。 设备其实已经不差：手机能拍4K，口袋云台能稳住画面，相机的画质早已溢出大多数人的需求。可一旦镜头需要“动起来”，需要推、拉、环绕、升降，普通人手里那套东西就接不上了。 相机已经够好了，但运镜依然是一门需要多年训练的手艺。越千创新做的，就是把它变成一台机器能执行的动作。 创始人曾诚在…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
     "id": "34dcc0e759ee209b",
     "title": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
     "url": "https://blogs.nvidia.com/blog/ai-recycling-startups/",
@@ -9,6 +31,26 @@
     "tags": [],
     "topics": [],
     "kinds": []
+  },
+  {
+    "id": "bbba49edf46c0e30",
+    "title": "Humanoid robot startup backed by Eric Trump in talks with Israel's military",
+    "url": "https://www.ft.com/content/8117b912-ebc7-46b2-90cd-a1ec32e12c5a",
+    "source": "Hacker News",
+    "date": "2026-11-11",
+    "summary": "",
+    "hn": {
+      "points": 3,
+      "comments": 1,
+      "discussion": "https://news.ycombinator.com/item?id=50460744"
+    },
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": [
+      "产业动态"
+    ]
   },
   {
     "id": "6ea215fc0134acc4",
@@ -36014,53 +36056,5 @@
     ],
     "topics": [],
     "kinds": []
-  },
-  {
-    "id": "352dc4c462512c3e",
-    "title": "Key to Humanoid Progress: Managing the Power Behind the Robots",
-    "url": "https://www.therobotreport.com/key-to-humanoid-progress-managing-the-power-behind-the-robots/",
-    "source": "The Robot Report",
-    "date": "2026-07-14",
-    "summary": "Murata Power Solutions' John Quinlan on how advanced robotics converts, distributes and controls on-board power from battery to actuator. The post Key to Humanoid Progress: Managing the Power Behind the Robots appeared first on The Robot Report .",
-    "tags": [],
-    "topics": [
-      "人形机器人"
-    ],
-    "kinds": []
-  },
-  {
-    "id": "d45254fd5b45e7f8",
-    "title": "NVIDIA shares how to evaluate general-purpose robot policies for real-world deployment",
-    "url": "https://www.therobotreport.com/nvidia-shares-how-evaluate-general-purpose-robot-policies-real-world-deployment/",
-    "source": "The Robot Report",
-    "date": "2026-07-14",
-    "summary": "RoboLab research powers NVIDIA Isaac Lab-Arena, an open-source simulation framework for large-scale policy setup and evaluation. The post NVIDIA shares how to evaluate general-purpose robot policies for real-world deployment appeared first on The Robot Report .",
-    "tags": [
-      "NVIDIA"
-    ],
-    "topics": [
-      "仿真与Sim2Real"
-    ],
-    "kinds": [
-      "产业动态"
-    ]
-  },
-  {
-    "id": "31f4af5ab2d730d8",
-    "title": "Rural NY School District Will Be One of First to Bring Humanoid Robot into Class",
-    "url": "https://nysfocus.com/2026/07/14/new-york-humanoid-robot-teacher-salamanca-school-district",
-    "source": "Hacker News",
-    "date": "2026-07-14",
-    "summary": "",
-    "tags": [],
-    "topics": [
-      "人形机器人"
-    ],
-    "kinds": [],
-    "hn": {
-      "points": 3,
-      "comments": 0,
-      "discussion": "https://news.ycombinator.com/item?id=48911203"
-    }
   }
 ]
