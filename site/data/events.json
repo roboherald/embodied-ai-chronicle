@@ -11,6 +11,28 @@
     "kinds": []
   },
   {
+    "id": "51102f5176871319",
+    "title": "浙大彭思达：从元宇宙到具身智能，一个三维视觉研究者的八年 | 世界模型50人",
+    "url": "https://www.leiphone.com/category/ai/lpK3LQWqmpZP8jcG.html",
+    "source": "雷峰网",
+    "date": "2026-11-13",
+    "summary": "八年研究，两个落地系统，超六万GitHub Stars。 作者丨 李秋悦 编辑丨 吴 彤 一支女团跳舞，镜头不必再听导演安排，观众甚至能看到拍摄时不存在的机位。 传统MV拍摄，摄影机架在哪里，观众看到的就是哪个角度。现在用多台摄像机同时记录舞者动作，再重建出一个三维动态场景，镜头可以任意调换位置；从队形正面绕到侧面，穿过舞者之间，甚至换一个从未真正架设过的机位，重新观看刚才的表演。 今年10月，韩国SM娱乐创始人李秀满在新女团A2O LITE的出道活动上，展示了这项名为4D Gaussian Splatting（4DGS）的技术。 SM娱乐旗下女团A2…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "b0617c4d1d1de1a1",
+    "title": "40 亿参数模型拿下 6 个评测第一，西湖大学团队押注「概念世界模型」",
+    "url": "https://www.leiphone.com/category/academic/nhzldlwI6rJVyXIl.html",
+    "source": "雷峰网",
+    "date": "2026-11-13",
+    "summary": "西湖世界模型研究中心成立，施一公亲自揭牌。 作者丨 张岂萍 编辑丨 幸丽娟 世界模型赛道已经不缺创业公司。 海外李飞飞、Yann LeCun 等学术大佬亲自下场，国内极佳视界、逆矩阵、流形空间等创业公司高密度入场。 但最近几个月，入场的力量开始发生变化，下场的不再只是公司，高校和地方政府也开始组织力量，参与这场技术竞争。 今年 7 月，北京大学与逆矩阵科技成立世界模型联合实验室。10 月，由极佳视界牵头的通用世界模型北京市重点实验室揭牌。一个是高校与创业公司联合研发，一个是北京市支持建设的重点科研平台。 如今，西湖大学再落一子，成立世界模型研究中心。西…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
     "id": "03a1e051274dd4de",
     "title": "大模型都能控机器人，Human Data还得怎么卷？",
     "url": "https://www.qbitai.com/2026/11/509468.html",
@@ -19,6 +41,33 @@
     "summary": "让触觉教视觉，原来Human Data还能这么玩！",
     "tags": [],
     "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "0967f4990132ec51",
+    "title": "Video Friday: NASA PROMISEs a New Moon Rover",
+    "url": "https://spectrum.ieee.org/video-friday-moon-rover-promise",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-11-13",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids 2026 : 6–9 December 2026…",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": []
+  },
+  {
+    "id": "2427bacb74a96b4b",
+    "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+    "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+    "source": "Hugging Face Blog",
+    "date": "2026-11-13",
+    "summary": "",
+    "tags": [],
+    "topics": [
+      "仿真与Sim2Real",
+      "灵巧手与操作"
+    ],
     "kinds": []
   },
   {
@@ -35927,485 +35976,5 @@
       "comments": 0,
       "discussion": "https://news.ycombinator.com/item?id=48950620"
     }
-  },
-  {
-    "id": "745c16e5b4b25039",
-    "title": "RoboTTT: Context Scaling for Robot Policies",
-    "url": "https://arxiv.org/abs/2607.15275v1",
-    "source": "arXiv",
-    "date": "2026-07-16",
-    "summary": "Recent robot foundation models operate with single-step or short-history visuomotor context. We introduce Test-Time-Training Robot Policies (RoboTTT), a robot model and training recipe that scale visuomotor context to 8K timesteps, three orders of magnitude beyond state-of-the-a…",
-    "tags": [],
-    "topics": [
-      "VLA与基础模型"
-    ],
-    "kinds": [],
-    "affiliations": [
-      "NVIDIA",
-      "Stanford",
-      "UT Austin"
-    ]
-  },
-  {
-    "id": "d4a902eca97d21c2",
-    "title": "BadWAM: When World-Action Models Dream Right but Act Wrong",
-    "url": "https://arxiv.org/abs/2607.15207v1",
-    "source": "arXiv",
-    "date": "2026-07-16",
-    "summary": "World-action models (WAMs) are emerging as a promising foundation for embodied control: rather than predicting actions alone, they learn representations that couple action generation with future world prediction. This coupling is often viewed as a source of robustness, interpret…",
-    "tags": [],
-    "topics": [],
-    "kinds": [
-      "安全与可信"
-    ],
-    "affiliations": [
-      "新加坡国立"
-    ]
-  },
-  {
-    "id": "da899d6d3c58d9d2",
-    "title": "Scaling Behavior Foundation Model for Humanoid Robots",
-    "url": "https://arxiv.org/abs/2607.15163v1",
-    "source": "arXiv",
-    "date": "2026-07-16",
-    "summary": "Humanoid control requires natural whole-body coordination, precise real-time responses to control signals, and robust generalization across diverse environmental contexts, making it a cornerstone for generalist embodied agents. Behavior Foundation Models (BFMs) have recently eme…",
-    "tags": [],
-    "topics": [
-      "VLA与基础模型",
-      "人形机器人",
-      "移动与四足"
-    ],
-    "kinds": [],
-    "affiliations": []
-  },
-  {
-    "id": "6f0819d0c1a50b86",
-    "title": "DriftWorld: Fast World Modeling through Drifting",
-    "url": "https://arxiv.org/abs/2607.15065v1",
-    "source": "arXiv",
-    "date": "2026-07-16",
-    "summary": "Predictive world models enable robots to plan by imagining the outcomes of their actions, but their value for control hinges on generating many rollouts quickly. This creates a bottleneck for diffusion-based world models: multistep sampling makes each rollout expensive, limiting…",
-    "tags": [],
-    "topics": [
-      "世界模型"
-    ],
-    "kinds": [],
-    "affiliations": [
-      "MIT"
-    ]
-  },
-  {
-    "id": "42718436a23246e2",
-    "title": "SUFLECA: Scaling Up Feature Learning for CAD-to-image Alignment",
-    "url": "https://arxiv.org/abs/2607.15058v1",
-    "source": "arXiv",
-    "date": "2026-07-16",
-    "summary": "CAD-to-image alignment aims to estimate an object's 9D pose (rotation, translation, and anisotropic scale) from a single RGB image, enabling applications in robotics and augmented reality. Recent zero-shot methods use visual foundation models to match image regions to CAD models…",
-    "tags": [],
-    "topics": [
-      "VLA与基础模型"
-    ],
-    "kinds": [],
-    "affiliations": []
-  },
-  {
-    "id": "1dcfc7f7ee77de24",
-    "title": "Learning Agile Navigation in Crowded Environments for Quadruped Robots",
-    "url": "https://arxiv.org/abs/2607.15036v1",
-    "source": "arXiv",
-    "date": "2026-07-16",
-    "summary": "Navigating dynamic and crowded environments presents significant challenges for quadruped robots due to severe sensor occlusion and unpredictable human motion. Existing approaches face a trade-off: model-based methods, such as Velocity Obstacles (VO), theoretically guarantee saf…",
-    "tags": [],
-    "topics": [
-      "世界模型",
-      "感知与传感",
-      "移动与四足"
-    ],
-    "kinds": [],
-    "affiliations": [
-      "上海交通大学"
-    ]
-  },
-  {
-    "id": "1c041d47b743b6f7",
-    "title": "CosFly-VLA: A Spatially Aware Vision-Language-Action Model for UAV Tracking",
-    "url": "https://arxiv.org/abs/2607.15004v1",
-    "source": "arXiv",
-    "date": "2026-07-16",
-    "summary": "Dynamic target tracking is essential for Unmanned Aerial Vehicles (UAVs) operating in complex urban environments, where both the target and the camera viewpoint change continuously. Existing Vision-Language-Action (VLA) policies can track visible targets effectively, but their p…",
-    "tags": [],
-    "topics": [
-      "VLA与基础模型"
-    ],
-    "kinds": [
-      "无人机"
-    ],
-    "affiliations": [
-      "北京大学",
-      "香港大学"
-    ]
-  },
-  {
-    "id": "6dcdca6cea76399e",
-    "title": "AeroAct: Action-Centered World-Action Models for Language-Conditioned Quadrotor Flight",
-    "url": "https://arxiv.org/abs/2607.14997v1",
-    "source": "arXiv",
-    "date": "2026-07-16",
-    "summary": "Language-conditioned quadrotor flight requires a policy to ground semantic goals, anticipate the visual consequences of ego-motion, and output control references that remain smooth and dynamically executable under rapidly changing first-person views. Existing aerial vision-langu…",
-    "tags": [],
-    "topics": [
-      "VLA与基础模型"
-    ],
-    "kinds": [
-      "无人机"
-    ],
-    "affiliations": []
-  },
-  {
-    "id": "2bc18a530ef09acd",
-    "title": "Towards Human-like Physical Intelligence: LifelongVision-Language-Action Learning for Robotic Manipulation",
-    "url": "https://arxiv.org/abs/2607.14852v1",
-    "source": "arXiv",
-    "date": "2026-07-16",
-    "summary": "Similar to the natural capabilities of humans to sequentially learn new tasks, robots with Vision-Language-Action (VLA) models should possess lifelong learning ability to learn a new task when deployed in open-world environments. However, most recently proposed lifelong learning…",
-    "tags": [
-      "Physical Intelligence"
-    ],
-    "topics": [
-      "VLA与基础模型",
-      "灵巧手与操作"
-    ],
-    "kinds": [],
-    "affiliations": []
-  },
-  {
-    "id": "da8387d985f9d99e",
-    "title": "KineFuse: Kinematic-Aware Haptic Fusion for In-Hand Occluded-Object Pose Tracking",
-    "url": "https://arxiv.org/abs/2607.14842v1",
-    "source": "arXiv",
-    "date": "2026-07-16",
-    "summary": "Dexterous in-hand manipulation requires continuous 6D pose tracking, yet the manipulating fingers inevitably occlude the object from the camera. We study how to structure the sparse haptic signals already available on multi-fingered hands, including proprioception, proximal forc…",
-    "tags": [],
-    "topics": [
-      "灵巧手与操作"
-    ],
-    "kinds": [],
-    "affiliations": []
-  },
-  {
-    "id": "598f6d166c5e900d",
-    "title": "Hybrid Rigid-Soft Robotic Gripper with Shape Adaptation, Uniform Force Distribution, and Self-Locking Capabilities",
-    "url": "https://arxiv.org/abs/2607.14730v1",
-    "source": "arXiv",
-    "date": "2026-07-16",
-    "summary": "Conventional robotic grippers face a significant challenge in agricultural automation: the trade-off between compliant, adaptive grasping, pressure balancing among all joints, and high load capacity, often at the cost of high energy consumption. This paper presents a novel hybri…",
-    "tags": [],
-    "topics": [
-      "灵巧手与操作"
-    ],
-    "kinds": [],
-    "affiliations": []
-  },
-  {
-    "id": "a94751671334a66b",
-    "title": "BridgeFlow: Fast and Robust SE(2)-Equivariant Motion Planning with Flow Matching",
-    "url": "https://arxiv.org/abs/2607.14725v1",
-    "source": "arXiv",
-    "date": "2026-07-16",
-    "summary": "In robotic motion planning, equivariance to rigid body transformations is crucial for robust spatial generalization. However, current learning-based planners face a critical dilemma: they either lack inherent equivariance, treating transformed tasks as novel scenarios, or enforc…",
-    "tags": [],
-    "topics": [],
-    "kinds": [],
-    "affiliations": []
-  },
-  {
-    "id": "d022aff92afe5853",
-    "title": "Reinforcement Learning for the Full Strawberry Harvesting Process: Obstacle Separation, Detachment, and Placement",
-    "url": "https://arxiv.org/abs/2607.14708v1",
-    "source": "arXiv",
-    "date": "2026-07-16",
-    "summary": "Severe occlusions and deformable plant structures introduce complex contact dynamics that challenge robotic strawberry harvesting. A policy-driven reinforcement learning (RL) framework with heuristic phase coordination was developed, in which obstacle separation, fruit detachmen…",
-    "tags": [],
-    "topics": [],
-    "kinds": [],
-    "affiliations": []
-  },
-  {
-    "id": "7f323c8dea94f298",
-    "title": "Lights, Camera, Malfunction: When Illumination Robustness Leaves VLA Models Blind to Color",
-    "url": "https://arxiv.org/abs/2607.14698v1",
-    "source": "arXiv",
-    "date": "2026-07-16",
-    "summary": "Vision-Language-Action (VLA) models have emerged as a powerful paradigm for general-purpose robot manipulation; however, their transition to real-world environments reveals vulnerabilities to minor environmental perturbations. We propose FLARE, an optimized physical spotlight at…",
-    "tags": [],
-    "topics": [
-      "VLA与基础模型",
-      "灵巧手与操作"
-    ],
-    "kinds": [
-      "安全与可信"
-    ],
-    "affiliations": []
-  },
-  {
-    "id": "403f0d85a187588c",
-    "title": "Reflex: Real-Time VLA Control through Streaming Inference",
-    "url": "https://arxiv.org/abs/2607.14695v1",
-    "source": "arXiv",
-    "date": "2026-07-16",
-    "summary": "Flow matching Vision-Language-Action (VLA) models promise precise continuous control, but their iterative denoising nature introduces fundamental incompatibilities with real-time robotics: global timestep injection invalidates KV-caching, forcing a choice between slow $O(N^2)$ r…",
-    "tags": [],
-    "topics": [
-      "VLA与基础模型"
-    ],
-    "kinds": [],
-    "affiliations": []
-  },
-  {
-    "id": "d1cf1a6d123eaee9",
-    "title": "NavCMPO: Critic-Guided MeanFlow Policy Optimization for Adaptive Navigation",
-    "url": "https://arxiv.org/abs/2607.14643v1",
-    "source": "arXiv",
-    "date": "2026-07-16",
-    "summary": "End-to-end diffusion-based policies have demonstrated strong performance in mapless visual navigation, but their iterative denoising process introduces substantial inference latency, while behavior cloning limits performance to the quality of expert demonstrations. We present Na…",
-    "tags": [],
-    "topics": [
-      "VLA与基础模型",
-      "移动与四足",
-      "遥操作与数据采集"
-    ],
-    "kinds": [],
-    "affiliations": [
-      "浙江大学"
-    ]
-  },
-  {
-    "id": "e986ef89aae72848",
-    "title": "Action QFormer: Structured Representation Shaping under Action Supervision in Vision-Language-Action Models",
-    "url": "https://arxiv.org/abs/2607.14635v1",
-    "source": "arXiv",
-    "date": "2026-07-16",
-    "summary": "Action supervision in vision-language-action (VLA) models is often treated as a downstream objective for learning action prediction. In this paper, we study it instead as a force that shapes inherited multimodal representations. We show that this shaping has a dual effect: it is…",
-    "tags": [],
-    "topics": [
-      "VLA与基础模型"
-    ],
-    "kinds": [],
-    "affiliations": [
-      "UC Berkeley",
-      "清华大学",
-      "香港中文大学",
-      "香港大学"
-    ]
-  },
-  {
-    "id": "e0343d3af3a8c4e2",
-    "title": "Representation-Aligned Tactile Grounding for Contact-Rich Robotic Manipulation",
-    "url": "https://arxiv.org/abs/2607.14609v1",
-    "source": "arXiv",
-    "date": "2026-07-16",
-    "summary": "Tactile-enhanced vision-language-action (VLA) policies have been introduced for contact-rich manipulation, where critical interaction states are often hidden from vision. Future tactile prediction is a promising way to use touch because it turns tactile outcomes into supervision…",
-    "tags": [],
-    "topics": [
-      "VLA与基础模型",
-      "感知与传感",
-      "灵巧手与操作"
-    ],
-    "kinds": [],
-    "affiliations": [
-      "南洋理工",
-      "复旦大学"
-    ]
-  },
-  {
-    "id": "30898a15b4151c56",
-    "title": "SoftNav: Injecting 3D Scene Tokens into VLMs for Embodied Navigation",
-    "url": "https://arxiv.org/abs/2607.14586v1",
-    "source": "arXiv",
-    "date": "2026-07-16",
-    "summary": "In goal-directed embodied navigation, where an agent must locate a specified target in an unseen environment, 3D scene understanding and navigation reasoning must work in concert. Current approaches transmit 3D scene information to vision-language models (VLMs) through text, sug…",
-    "tags": [],
-    "topics": [
-      "VLA与基础模型",
-      "移动与四足"
-    ],
-    "kinds": [],
-    "affiliations": [
-      "浙江大学"
-    ]
-  },
-  {
-    "id": "8c6f2768c2a75691",
-    "title": "Beyond Implicit Force: Evaluating Explicit Force-Torque Proxies in Action Chunking with Transformers",
-    "url": "https://arxiv.org/abs/2607.14578v1",
-    "source": "arXiv",
-    "date": "2026-07-16",
-    "summary": "Contact-rich manipulation requires policies to infer interaction state from signals that are often weakly observable through vision and kinematics alone. Action Chunking with Transformers (ACT) has shown strong performance in fine-grained manipulation, but many deployments colle…",
-    "tags": [],
-    "topics": [
-      "灵巧手与操作"
-    ],
-    "kinds": [],
-    "affiliations": []
-  },
-  {
-    "id": "b27855772ab6f973",
-    "title": "SafeRelBench: A Spatial-Relation-Aware Benchmark for Process-Level Safety in VLM-Driven Embodied Agents",
-    "url": "https://arxiv.org/abs/2607.14543v1",
-    "source": "arXiv",
-    "date": "2026-07-16",
-    "summary": "Vision-language models (VLMs) are increasingly used as the reasoning backbone of embodied agents, enabling robots to interpret visual scenes, follow language instructions, and plan multi-step actions. In household environments, however, safety depends not only on recognizing obj…",
-    "tags": [],
-    "topics": [
-      "VLA与基础模型",
-      "仿真与Sim2Real"
-    ],
-    "kinds": [
-      "安全与可信"
-    ],
-    "affiliations": []
-  },
-  {
-    "id": "4f144e67e6829982",
-    "title": "Safe Execution of RL Policies Via Acceleration-Based CBF-QP Constraint Enforcement for Real-World Robotic Deployments",
-    "url": "https://arxiv.org/abs/2607.14488v1",
-    "source": "arXiv",
-    "date": "2026-07-16",
-    "summary": "Reinforcement Learning (RL) has demonstrated remarkable capabilities for solving complex robotic control problems, but its lack of safety guarantees severely limits deployment on hardware. In particular, as legged robots and manipulators often operate near safety-critical bounda…",
-    "tags": [],
-    "topics": [
-      "移动与四足"
-    ],
-    "kinds": [
-      "安全与可信"
-    ],
-    "affiliations": [
-      "东京大学"
-    ]
-  },
-  {
-    "id": "af936438b994d408",
-    "title": "MIDAS Hand: Modular low-Impedance Direct-drive Anthropomorphic Sensing Hand",
-    "url": "https://arxiv.org/abs/2607.14487v1",
-    "source": "arXiv",
-    "date": "2026-07-16",
-    "summary": "Dexterous manipulation is limited not only by algorithms but by a shortage of accessible hand hardware that combines human-scale morphology, ease of manufacturing or maintenance, tactile sensing, and practical cost. Existing dexterous hands tend to optimize some of these propert…",
-    "tags": [],
-    "topics": [
-      "感知与传感",
-      "灵巧手与操作"
-    ],
-    "kinds": [],
-    "affiliations": []
-  },
-  {
-    "id": "389890ddd67e2e96",
-    "title": "Active Real-World Factor-Based Evaluation for Generalist Robot Policies",
-    "url": "https://arxiv.org/abs/2607.14439v1",
-    "source": "arXiv",
-    "date": "2026-07-16",
-    "summary": "Generalist robot manipulation policies trained on large, diverse datasets have shown remarkable promise across a wide range of tasks. However, rigorously evaluating these policies remains a fundamental challenge. Real-world performance depends on a large combinatorial space of t…",
-    "tags": [],
-    "topics": [
-      "灵巧手与操作",
-      "遥操作与数据采集"
-    ],
-    "kinds": [
-      "产业动态"
-    ],
-    "affiliations": []
-  },
-  {
-    "id": "b55c14542cd3ec5d",
-    "title": "VTAP Gripper: Synergizing Fingertip Sensing and a Visuo-Tactile Active Palm for Dexterous In-Hand Manipulation",
-    "url": "https://arxiv.org/abs/2607.15448v1",
-    "source": "arXiv",
-    "date": "2026-07-16",
-    "summary": "This paper presents a tactile-reactive gripper that integrates a Visuo-Tactile Active Palm (VTAP) and compliant, reconfigurable fingers equipped with tactile array sensors. The design exploits structured finger-palm synergy and multi-modal perception to achieve both robust grasp…",
-    "tags": [],
-    "topics": [
-      "感知与传感",
-      "灵巧手与操作"
-    ],
-    "kinds": [],
-    "affiliations": []
-  },
-  {
-    "id": "b98bd3607bdb3a62",
-    "title": "NeuroCommitSSM: Decision-Centric Shared Autonomy for Safe Assistive Manipulation via EEG-EMG-ET Commit Readiness",
-    "url": "https://arxiv.org/abs/2607.15395v1",
-    "source": "arXiv",
-    "date": "2026-07-16",
-    "summary": "We present NeuroCommitSSM, a decision-centric framework that models when to execute, not just what to do, for safe commit-to-execute control in assistive robotic manipulation. NeuroCommitSSM predicts a continuous commit-readiness score c_t in [0,1] from synchronized electroencep…",
-    "tags": [],
-    "topics": [
-      "灵巧手与操作"
-    ],
-    "kinds": [],
-    "affiliations": []
-  },
-  {
-    "id": "db2e5bb70615677d",
-    "title": "Xiaomi-Robotics-1: Scaling Vision-Language-Action Models with over 100K Hours of Real-World Trajectories",
-    "url": "https://arxiv.org/abs/2607.15330v1",
-    "source": "arXiv",
-    "date": "2026-07-16",
-    "summary": "We present Xiaomi-Robotics-1, a foundational vision-language-action (VLA) model capable of (1) following diverse language instructions to perform a wide range of mobile manipulation tasks in unseen environments out-of-the-box, and (2) efficiently adapting to novel downstream tas…",
-    "tags": [],
-    "topics": [
-      "VLA与基础模型",
-      "灵巧手与操作",
-      "移动与四足"
-    ],
-    "kinds": [],
-    "affiliations": []
-  },
-  {
-    "id": "b6a4ff3f53a78e7e",
-    "title": "TerraFirma raises $115M to build robotic infrastructure for construction",
-    "url": "https://www.therobotreport.com/terrafirma-raises-115m-build-robotic-infrastructure-construction/",
-    "source": "The Robot Report",
-    "date": "2026-07-16",
-    "summary": "TerraFirma has developed a platform that combines AI-enabled software, a remote command-and-control center, and retrofitted heavy machinery. The post TerraFirma raises $115M to build robotic infrastructure for construction appeared first on The Robot Report .",
-    "tags": [],
-    "topics": [],
-    "kinds": [
-      "产业动态"
-    ]
-  },
-  {
-    "id": "e73176df709f1161",
-    "title": "Xpanner rolls out X1 Panel Lift for automated solar panel installation",
-    "url": "https://www.therobotreport.com/xpanner-rolls-out-x1-panel-lift-automated-solar-panel-installation/",
-    "source": "The Robot Report",
-    "date": "2026-07-16",
-    "summary": "X1 Panel Lift uses existing excavators and a single workflow so solar installation crews can focus on alignment, fastening, and quality. The post Xpanner rolls out X1 Panel Lift for automated solar panel installation appeared first on The Robot Report .",
-    "tags": [],
-    "topics": [],
-    "kinds": []
-  },
-  {
-    "id": "ac3dfdab9ac8ca80",
-    "title": "Lockheed Martin taps Machina’s robots for mission-critical missile parts",
-    "url": "https://www.therobotreport.com/lockheed-martin-taps-machinas-robots-for-mission-critical-missile-parts/",
-    "source": "The Robot Report",
-    "date": "2026-07-16",
-    "summary": "Machina Labs secured a Lockheed Martin contract to qualify robotically formed metal components for the JASSM missile program. The post Lockheed Martin taps Machina’s robots for mission-critical missile parts appeared first on The Robot Report .",
-    "tags": [],
-    "topics": [],
-    "kinds": []
-  },
-  {
-    "id": "9d62699b319a5080",
-    "title": "How to Make an Invisible Drone",
-    "url": "https://spectrum.ieee.org/invisible-spinning-drone",
-    "source": "IEEE Spectrum Robotics",
-    "date": "2026-07-16",
-    "summary": "There are many words that I would never, ever use to describe a drone. Stealthy. Subtle. Whatever the opposite of obnoxious is. Much of this is because of the giant angry bee sound that drones tend to make, but it’s also the way that they look in flight: With uncannily linear mo…",
-    "tags": [],
-    "topics": [],
-    "kinds": [
-      "无人机"
-    ]
   }
 ]
