@@ -1,5 +1,16 @@
 [
   {
+    "id": "9b3bd8fc2ee08d5c",
+    "title": "灵掌机器人太空灵巧手亮相世界智能制造博览会",
+    "url": "https://www.leiphone.com/category/industrynews/leaIWtsEkg58zaCy.html",
+    "source": "雷峰网",
+    "date": "2026-11-20",
+    "summary": "11月19日至21日，第十一届世界智能制造博览会（以下简称“智博会”）在南京国际博览中心举办。无锡灵掌机器人科技有限公司（以下简称“灵掌机器人”）携全系列共9款灵巧手产品参展，重点展示了灵巧手在工业制造、太空任务、特种作业、科研与人形机器人等行业领域的落地场景及解决方案。 灵掌机器人创始人兼首席执行官张超介绍，灵巧手是具身智能走向真实操作的重要一环，也是连接智能决策与物理执行的关键末端。当前灵巧手行业正进入快速发展期，逐步进入真实应用场景中，市场需求也在持续释放。从工业产线上的重物抓取搬运，到危险环境中的远程防爆作业，再到太空航天器维修，灵巧手的市场应…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
     "id": "b268c324f6e6fefc",
     "title": "昇腾算力训出了双榜SOTA的具身世界模型，华为云这次想把整套底座开放出来",
     "url": "https://www.qbitai.com/2026/11/511610.html",
@@ -20,6 +31,21 @@
     "tags": [],
     "topics": [],
     "kinds": []
+  },
+  {
+    "id": "4f39f4f6079ccf9f",
+    "title": "Video Friday: Drone Squeezes Itself to Fit Through Tight Spaces",
+    "url": "https://spectrum.ieee.org/video-friday-morphing-robots-quadrotor",
+    "source": "IEEE Spectrum Robotics",
+    "date": "2026-11-20",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids 2026 : 6–9 December 2026…",
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
+    "kinds": [
+      "无人机"
+    ]
   },
   {
     "id": "ed125c570e4f6ebf",
@@ -36543,256 +36569,5 @@
       "人形机器人"
     ],
     "kinds": []
-  },
-  {
-    "id": "f877cd64cb644871",
-    "title": "AXIS: A Growable Community-Driven Data Engine for Scalable Robot Manipulation",
-    "url": "https://arxiv.org/abs/2607.21588v1",
-    "source": "arXiv",
-    "date": "2026-07-23",
-    "summary": "Learning effective robot manipulation policies requires diverse, high-quality demonstrations, yet existing data pipelines are often difficult to scale because they rely on specialized hardware, centralized operators, or fixed task suites. We present AXIS, a growable community-dr…",
-    "tags": [],
-    "topics": [
-      "灵巧手与操作",
-      "遥操作与数据采集"
-    ],
-    "kinds": [],
-    "affiliations": [
-      "Georgia Tech",
-      "UC Berkeley",
-      "南洋理工",
-      "新加坡国立"
-    ]
-  },
-  {
-    "id": "a37b4818248a78be",
-    "title": "Beyond Episodic Evaluation: Memory Architectural Bottlenecks in Sequential Embodied Question Answering",
-    "url": "https://arxiv.org/abs/2607.21571v1",
-    "source": "arXiv",
-    "date": "2026-07-23",
-    "summary": "Embodied question answering (EQA) is traditionally evaluated under an episodic formulation, where agents solve each task independently and reset internal state between episodes. However, real-world robots operate continuously and must accumulate, retain, and selectively reuse in…",
-    "tags": [],
-    "topics": [],
-    "kinds": [
-      "产业动态"
-    ],
-    "affiliations": [
-      "UIUC",
-      "UT Austin"
-    ]
-  },
-  {
-    "id": "bafe4e5eea4bb7c7",
-    "title": "GS-Agent: Creating 4D Physical Worlds With Generative Simulation",
-    "url": "https://arxiv.org/abs/2607.21522v1",
-    "source": "arXiv",
-    "date": "2026-07-23",
-    "summary": "Creating dynamic and physically realistic 4D worlds from natural language descriptions is both fascinating and challenging. Traditional computer graphics methods rely on manual creation, requiring extensive human effort to fine-tune materials, motions, and visual fidelity. Recen…",
-    "tags": [],
-    "topics": [
-      "仿真与Sim2Real"
-    ],
-    "kinds": [],
-    "affiliations": []
-  },
-  {
-    "id": "c9a50bdd7f32ea2e",
-    "title": "VoLN: Vision-Only Long-Horizon Navigation---Paradigm, Benchmark, and Method",
-    "url": "https://arxiv.org/abs/2607.21400v1",
-    "source": "arXiv",
-    "date": "2026-07-23",
-    "summary": "Vision-and-Language Navigation (VLN) enables embodied agents to follow natural-language instructions. However, route-level instructions commonly encode spatial priors, such as orientation, distance, and layout, that are not explicitly available from onboard sensing at deployment…",
-    "tags": [],
-    "topics": [
-      "仿真与Sim2Real",
-      "感知与传感",
-      "移动与四足"
-    ],
-    "kinds": [],
-    "affiliations": [
-      "北京航空航天大学"
-    ]
-  },
-  {
-    "id": "831e668007002984",
-    "title": "Grasp, Handover, Rotate: Bimanual Object Reorientation via Compositional Diffusion and Energy-Based Optimization",
-    "url": "https://arxiv.org/abs/2607.21341v1",
-    "source": "arXiv",
-    "date": "2026-07-23",
-    "summary": "Bimanual object reorientation - picking an object, handing it over between two arms, and placing it in a desired target pose - is valuable when direct placement from the initial grasp is infeasible due to collisions, kinematic constraints, or poor final orientation. However, ach…",
-    "tags": [],
-    "topics": [
-      "灵巧手与操作"
-    ],
-    "kinds": [],
-    "affiliations": [
-      "香港科技大学"
-    ]
-  },
-  {
-    "id": "be9e0cd1e1b9f94d",
-    "title": "FORGE-plus: Force-Budgeted Recovery for Contact-Rich Assembly with a Frozen LLM Supervisor",
-    "url": "https://arxiv.org/abs/2607.21227v1",
-    "source": "arXiv",
-    "date": "2026-07-23",
-    "summary": "Force-conditioned reinforcement learning (RL) enables tight-clearance assembly under a commanded force ceiling, but practical deployment requires determining an appropriate force limit for each object and recovering from insertion failures without exceeding it. We present a two-…",
-    "tags": [],
-    "topics": [
-      "灵巧手与操作"
-    ],
-    "kinds": [],
-    "affiliations": []
-  },
-  {
-    "id": "a41a05c985387a45",
-    "title": "TransBiolab: A Real-World Multi-View Dataset of Cluttered Transparent Biomedical Objects",
-    "url": "https://arxiv.org/abs/2607.21071v1",
-    "source": "arXiv",
-    "date": "2026-07-23",
-    "summary": "Autonomous biomedical laboratories increasingly rely on visual perception to recognize, localize, and manipulate transparent plasticware, yet high-quality real-world datasets for this setting remain limited. The scarcity of domain-relevant data is particularly restrictive in clu…",
-    "tags": [],
-    "topics": [
-      "感知与传感",
-      "遥操作与数据采集"
-    ],
-    "kinds": [
-      "医疗应用"
-    ],
-    "affiliations": [
-      "华中科技大学"
-    ]
-  },
-  {
-    "id": "850febff419f2e62",
-    "title": "GuidedAttention: Interpretable and Correctable Visual Attention for OOD-Robust Robot Manipulation via Imitation Learning",
-    "url": "https://arxiv.org/abs/2607.21049v1",
-    "source": "arXiv",
-    "date": "2026-07-23",
-    "summary": "End-to-end visuomotor policies provide little opportunity for humans to understand or correct the policy's visual attention. We propose GuidedAttention, a visuomotor imitation learning framework that introduces interpretable and correctable visual attention as an explicit interm…",
-    "tags": [],
-    "topics": [
-      "VLA与基础模型",
-      "灵巧手与操作"
-    ],
-    "kinds": [],
-    "affiliations": []
-  },
-  {
-    "id": "4f442d207e7246f4",
-    "title": "TableVerse: A Large-scale Tabletop Dataset with Real-world Grounded Layouts for Generalizable Manipulation",
-    "url": "https://arxiv.org/abs/2607.21017v1",
-    "source": "arXiv",
-    "date": "2026-07-23",
-    "summary": "The development of generalizable robotic manipulation policies is inherently bounded by the availability of large-scale, high-fidelity scene data. While recent automated synthesis methods attempt to bridge this gap via text-to-layout hallucination or simplified procedural genera…",
-    "tags": [],
-    "topics": [
-      "灵巧手与操作",
-      "遥操作与数据采集"
-    ],
-    "kinds": [],
-    "affiliations": [
-      "字节跳动"
-    ]
-  },
-  {
-    "id": "85d67ed443ce3c84",
-    "title": "URF: A Unified Robot Control-Policy Framework for Stable Contact Aware Manipulation",
-    "url": "https://arxiv.org/abs/2607.20912v1",
-    "source": "arXiv",
-    "date": "2026-07-23",
-    "summary": "Learning-based manipulation policies usually predict robot actions from sensory observations and leave their execution to a separate low-level controller. In rigid contact, this separation can be problematic: the same motion to a virtual target or compliant motion command can le…",
-    "tags": [],
-    "topics": [
-      "感知与传感",
-      "灵巧手与操作"
-    ],
-    "kinds": [],
-    "affiliations": []
-  },
-  {
-    "id": "435d7af220c2cbe4",
-    "title": "Addressing the Orchestration Gap in Generalist Robots via Physical Agency",
-    "url": "https://arxiv.org/abs/2607.21725v1",
-    "source": "arXiv",
-    "date": "2026-07-23",
-    "summary": "General-purpose robots need to reason about their actions, combining perception, world knowledge, planning, success detection, recovery, and low-level control. Today's state-of-the-art models attempt to combine all these capabilities into the learned policy via large-scale pre-t…",
-    "tags": [],
-    "topics": [
-      "感知与传感"
-    ],
-    "kinds": [],
-    "affiliations": []
-  },
-  {
-    "id": "8943472b83c53323",
-    "title": "GuidedAttention: Interpretable and Correctable Visual Attention for OOD-Robust Robot Manipulation via Imitation Learning",
-    "url": "https://arxiv.org/abs/2607.21049v2",
-    "source": "arXiv",
-    "date": "2026-07-23",
-    "summary": "End-to-end visuomotor policies provide little opportunity for humans to understand or correct the policy's visual attention. We propose GuidedAttention, a visuomotor imitation learning framework that introduces interpretable and correctable visual attention as an explicit interm…",
-    "tags": [],
-    "topics": [
-      "VLA与基础模型",
-      "灵巧手与操作"
-    ],
-    "kinds": [],
-    "affiliations": []
-  },
-  {
-    "id": "b3e09a0d1b710214",
-    "title": "Holiday Robotics raises $105M for its FRIDAY wheeled humanoid",
-    "url": "https://www.therobotreport.com/holiday-robotics-raises-105m-wheeled-humanoid-friday/",
-    "source": "The Robot Report",
-    "date": "2026-07-23",
-    "summary": "Holiday's robot features a wheel-based mobile base, an upper body for dexterous manipulation, and hot-swappable batteries. The post Holiday Robotics raises $105M for its FRIDAY wheeled humanoid appeared first on The Robot Report .",
-    "tags": [],
-    "topics": [
-      "人形机器人",
-      "灵巧手与操作"
-    ],
-    "kinds": [
-      "产业动态"
-    ]
-  },
-  {
-    "id": "28eaddcf77752e31",
-    "title": "Uber co-founder raises $1.7B for new robotics startup ATOMS",
-    "url": "https://www.therobotreport.com/uber-co-founder-raises-1-7b-for-new-robotics-startup-atoms/",
-    "source": "The Robot Report",
-    "date": "2026-07-23",
-    "summary": "Travis Kalanick, the former CEO of Uber, said with ATOMS, he hopes to create physical automation to transform industry. The post Uber co-founder raises $1.7B for new robotics startup ATOMS appeared first on The Robot Report .",
-    "tags": [],
-    "topics": [],
-    "kinds": [
-      "产业动态"
-    ]
-  },
-  {
-    "id": "488f5aa644313d9d",
-    "title": "AMD unveils Kria module for real-time control, unified memory for robots",
-    "url": "https://www.therobotreport.com/amd-unveils-kria-module-real-time-control-unified-memory-robots/",
-    "source": "The Robot Report",
-    "date": "2026-07-23",
-    "summary": "AMD has launched the Ryzen AI Embedded X100 and Kria AI SoM, bringing unified memory and real-time control to challenge NVIDIA in robotics. The post AMD unveils Kria module for real-time control, unified memory for robots appeared first on The Robot Report .",
-    "tags": [
-      "NVIDIA"
-    ],
-    "topics": [],
-    "kinds": []
-  },
-  {
-    "id": "7a259cc76ff87c05",
-    "title": "Ropedia raises $22M to scale data collection for training robots",
-    "url": "https://www.therobotreport.com/ropedia-raises-22m-scale-data-collection-training-robots/",
-    "source": "The Robot Report",
-    "date": "2026-07-23",
-    "summary": "Ropdeia's HOMIE is a head-mounted device, equipped with a 360º camera view, that captures first-person data for training robots. The post Ropedia raises $22M to scale data collection for training robots appeared first on The Robot Report .",
-    "tags": [],
-    "topics": [
-      "遥操作与数据采集"
-    ],
-    "kinds": [
-      "产业动态"
-    ]
   }
 ]
