@@ -1,11 +1,55 @@
 [
   {
+    "id": "44a871db658d8e74",
+    "title": "刚刚，首个带跨任务空间记忆的原生基模开源！机器人端侧就能跑",
+    "url": "https://www.qbitai.com/2026/11/513227.html",
+    "source": "量子位",
+    "date": "2026-11-27",
+    "summary": "地图能随时修，记忆能跨任务用",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "4e6fb0ec623674ce",
+    "title": "具身公司抱团回应：通用大模型跨维打击？没那么简单",
+    "url": "https://www.qbitai.com/2026/11/513125.html",
+    "source": "量子位",
+    "date": "2026-11-27",
+    "summary": "",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "844d0257e50e51fd",
+    "title": "百亿具身独角兽破壁，玩家集体涌向它的牌桌",
+    "url": "https://www.qbitai.com/2026/11/513101.html",
+    "source": "量子位",
+    "date": "2026-11-27",
+    "summary": "",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
     "id": "bf76c753f6159652",
     "title": "机器人量产背后，物理AI开始算新账：研发底座何必各自建？",
     "url": "https://www.leiphone.com/category/chips/HQvbSEUnkDy0Tos9.html",
     "source": "雷峰网",
     "date": "2026-11-26",
     "summary": "2026年，人形机器人加速走出实验室。 但是让机器人在真实世界产生价值，依然复杂而成本高昂。 从数据采集、物理仿真到模型训练、真机验证，机器人每掌握一项新技能，背后都可能是一整套研发流程的反复运转。 更复杂的是，这些能力分散在不同的专业厂商手中。产业分工越来越细，如何将分散的技术能力组织起来，反而成了一道新的难题。 当机器人开始规模化交付，产业需要解决的不只是如何造出更多机器人，还有如何让更多企业以更低的成本训练机器人。 这也让物理AI产业出现了一个新的机会：谁有能力将分散的研发资源组织成可复用的基础设施，谁就有机会成为产业链上的重要组织者。 九章云极…",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "a9a0d77b488e5aa9",
+    "title": "深耕核心零部件，钛虎机器人轻量化关节模组Lite-1系列助力整机降本增效",
+    "url": "https://www.leiphone.com/category/industrynews/hYv4Caentt6byJhj.html",
+    "source": "雷峰网",
+    "date": "2026-11-26",
+    "summary": "近日，钛虎机器人科技（上海）有限公司（以下简称“钛虎机器人”）正式发布面向机器人批量落地场景的轻量化关节模组Lite-1系列。该产品通过结构精简，驱控板与编码器一体化设计，在压缩体积、提升集成度的同时保持控制精度与运行稳定性，为人形机器人整机设计与规模化生产提供了新的核心零部件选择。 当前，人形机器人产业正从“能走能动”的样机验证阶段，加速迈向“可批量、可交付、可落地”的产业化阶段。关节模组是机器人的核心运动部件，其体积、集成度、走线方式与装配一致性，直接影响整机结构、成本与量产节奏。 结构设计：轴向长度较上代至多缩短22.5% 据介绍，钛虎该系列采用…",
     "tags": [],
     "topics": [],
     "kinds": []
@@ -19,6 +63,35 @@
     "summary": "“灵巧手是人类最后的尊严”",
     "tags": [],
     "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "2a9ecf8432095540",
+    "title": "90 秒自动换装补能，具微科技“潘多拉”支撑机器人无人化值守",
+    "url": "https://www.qbitai.com/2026/11/512972.html",
+    "source": "量子位",
+    "date": "2026-11-26",
+    "summary": "全栈方案破解工业机器人连续作业难题",
+    "tags": [],
+    "topics": [],
+    "kinds": []
+  },
+  {
+    "id": "ddcfb50ce0c2d3d7",
+    "title": "Humanoid robots are coming–sooner than you think",
+    "url": "https://www.economist.com/briefing/2026/11/26/humanoid-robots-are-coming-sooner-than-you-think",
+    "source": "Hacker News",
+    "date": "2026-11-26",
+    "summary": "",
+    "hn": {
+      "points": 3,
+      "comments": 0,
+      "discussion": "https://news.ycombinator.com/item?id=50654226"
+    },
+    "tags": [],
+    "topics": [
+      "人形机器人"
+    ],
     "kinds": []
   },
   {
@@ -36930,394 +37003,5 @@
     "tags": [],
     "topics": [],
     "kinds": []
-  },
-  {
-    "id": "76634efcf7ad8d7a",
-    "title": "TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with <1 GB VRAM",
-    "url": "https://arxiv.org/abs/2607.27205v1",
-    "source": "arXiv",
-    "date": "2026-07-29",
-    "summary": "Vision-language-action (VLA) models commonly adopt an LLM-centric $V \\to L \\to A$ pathway, where visual observations are projected into the representation space of a large language model before being decoded into robot actions. Although effective, this design incurs substantial…",
-    "tags": [],
-    "topics": [
-      "VLA与基础模型"
-    ],
-    "kinds": [],
-    "affiliations": [
-      "华中科技大学",
-      "华为"
-    ]
-  },
-  {
-    "id": "6111fa99f64b5648",
-    "title": "HumanCLAW: Can Vision-Language Models Act Through a Body?",
-    "url": "https://arxiv.org/abs/2607.27180v1",
-    "source": "arXiv",
-    "date": "2026-07-29",
-    "summary": "Evaluating whether a vision-language model (VLM) can act through a physical body is challenging. The outcome of an action couples the VLM's decision with motor control. When a task fails, it is hard to tell whether the VLM made a bad choice or the motor controller simply failed…",
-    "tags": [],
-    "topics": [
-      "VLA与基础模型"
-    ],
-    "kinds": [],
-    "affiliations": []
-  },
-  {
-    "id": "04aa1e76119a37b5",
-    "title": "DLAM: Distributional Latent Actions with Temporal Constraints",
-    "url": "https://arxiv.org/abs/2607.27138v1",
-    "source": "arXiv",
-    "date": "2026-07-29",
-    "summary": "Vision-language-action (VLA) models remain constrained by scarce action-labeled robot data, whereas action-free videos offer abundant observations of physical change. Latent action models can extract such priors, but reconstruction-trained codes may predict future observations w…",
-    "tags": [],
-    "topics": [
-      "VLA与基础模型"
-    ],
-    "kinds": [],
-    "affiliations": []
-  },
-  {
-    "id": "51bd41310112bdd8",
-    "title": "RL$^2$-VLA: Adaptive RL Latent Compositional Steering with Test-Time Scaling for Vision-Language-Action Models",
-    "url": "https://arxiv.org/abs/2607.26991v1",
-    "source": "arXiv",
-    "date": "2026-07-29",
-    "summary": "Despite the impressive visuomotor capabilities enabled by Vision-Language-Action (VLA) models, their performance often degrades on challenging and out-of-domain tasks. Recent test-time steering and scaling methods improve performance without extensive data collection and retrain…",
-    "tags": [],
-    "topics": [
-      "VLA与基础模型",
-      "遥操作与数据采集"
-    ],
-    "kinds": [],
-    "affiliations": [
-      "University of Toronto",
-      "新加坡国立"
-    ]
-  },
-  {
-    "id": "6a907eb062f7214e",
-    "title": "SymmGrid: Super-Scaling On-Robot Learning with Parallelized Symmetries and Egocentric-Exocentric Visual Perception",
-    "url": "https://arxiv.org/abs/2607.26985v1",
-    "source": "arXiv",
-    "date": "2026-07-29",
-    "summary": "Deep reinforcement policy learning directly in physical robots (on-robot learning) remains bottlenecked by slow wall-clock training times. We present SymmGrid, a trajectory level augmentation framework inspired by parallelized symmetries that super-scales group transformations t…",
-    "tags": [],
-    "topics": [
-      "VLA与基础模型",
-      "感知与传感"
-    ],
-    "kinds": [],
-    "affiliations": [
-      "Lipscomb"
-    ]
-  },
-  {
-    "id": "33da04fec9ddeef2",
-    "title": "BioVLN: A Simulation Platform for Visual Language Navigation in Biomedical Laboratories",
-    "url": "https://arxiv.org/abs/2607.26914v1",
-    "source": "arXiv",
-    "date": "2026-07-29",
-    "summary": "Biomedical laboratory robots must navigate to instruments before performing experimental procedures. Existing embodied navigation platforms are designed for household environments and treat a target as an object center or an arbitrary nearby position. This representation is inad…",
-    "tags": [],
-    "topics": [
-      "仿真与Sim2Real",
-      "移动与四足"
-    ],
-    "kinds": [
-      "医疗应用"
-    ],
-    "affiliations": []
-  },
-  {
-    "id": "048345904203b10d",
-    "title": "From Passive Video to Editable Experience: Physically Grounded Experience Synthesis for Embodied Intelligence",
-    "url": "https://arxiv.org/abs/2607.26903v1",
-    "source": "arXiv",
-    "date": "2026-07-29",
-    "summary": "The key bottleneck in embodied AI is not model architecture but data. Although billions of human manipulation videos exist online, robots cannot directly learn from them due to the embodiment gap between human morphology and robot hardware. We introduce Pegasus, a low-resource f…",
-    "tags": [],
-    "topics": [
-      "灵巧手与操作"
-    ],
-    "kinds": [],
-    "affiliations": []
-  },
-  {
-    "id": "2d957c31e8c31ccd",
-    "title": "Practice Makes Policies: Bootstrapping and Consolidating Robotic Capabilities from Zero Human Demonstrations",
-    "url": "https://arxiv.org/abs/2607.26809v1",
-    "source": "arXiv",
-    "date": "2026-07-29",
-    "summary": "General-purpose robotic manipulation requires robots to perform diverse tasks in open-world environments while improving their skills over time. Despite recent progress in robotic manipulation, existing systems still primarily acquire manipulation skills in a static manner, wher…",
-    "tags": [],
-    "topics": [
-      "灵巧手与操作",
-      "遥操作与数据采集"
-    ],
-    "kinds": [],
-    "affiliations": []
-  },
-  {
-    "id": "46a75a57929b00ff",
-    "title": "Route by Kinematics, Act by Observation: Kinematics-Supervised Expert Routing in MoE-Augmented VLA",
-    "url": "https://arxiv.org/abs/2607.26807v1",
-    "source": "arXiv",
-    "date": "2026-07-29",
-    "summary": "While MoE augments VLA via expert specialization, router suffers from ineffective expert routing owing to the kinematic heterogeneity of actions across manipulation tasks and, even worse, the unavailability of the kinematic signals at inference time. In this work, we first obser…",
-    "tags": [],
-    "topics": [
-      "VLA与基础模型",
-      "灵巧手与操作"
-    ],
-    "kinds": [],
-    "affiliations": []
-  },
-  {
-    "id": "a6aacd061b98abba",
-    "title": "CheckVLA: Execution-Time Verification with Action-Conditioned World Model for Long-Horizon Mobile Manipulation",
-    "url": "https://arxiv.org/abs/2607.26789v1",
-    "source": "arXiv",
-    "date": "2026-07-29",
-    "summary": "Vision-language-action (VLA) policies commonly execute long-horizon mobile manipulation through open-loop action chunks, issuing multiple actions without receiving new high-level visual input. A committed chunk therefore implies how observations should evolve, but accidental dev…",
-    "tags": [],
-    "topics": [
-      "VLA与基础模型",
-      "世界模型",
-      "灵巧手与操作",
-      "移动与四足"
-    ],
-    "kinds": [
-      "安全与可信"
-    ],
-    "affiliations": []
-  },
-  {
-    "id": "f360b2cb7b3332f3",
-    "title": "ContactFlow: A video action conditioning that transfers across embodiments",
-    "url": "https://arxiv.org/abs/2607.26579v1",
-    "source": "arXiv",
-    "date": "2026-07-29",
-    "summary": "World models offer a promising route toward robot planning by enabling agents to imagine and verify the consequences of actions before execution. However, current video-based world models often struggle to capture the physical constraints that govern manipulation, particularly c…",
-    "tags": [],
-    "topics": [
-      "世界模型",
-      "灵巧手与操作"
-    ],
-    "kinds": [],
-    "affiliations": [
-      "University of Bonn"
-    ]
-  },
-  {
-    "id": "a8a2164073e7c667",
-    "title": "Speech2Grasp: Data-Efficient Transfer of Text-Conditioned Grasp Detection to Speech in Humanoid Robots",
-    "url": "https://arxiv.org/abs/2607.26567v1",
-    "source": "arXiv",
-    "date": "2026-07-29",
-    "summary": "Humanoid robots increasingly require multi-modal understanding for natural interaction with humans. Despite the prominence of vision-language models, they generally assume textual rather than the more natural speech inputs. In this paper, we investigate whether a well-establishe…",
-    "tags": [],
-    "topics": [
-      "VLA与基础模型",
-      "人形机器人",
-      "灵巧手与操作"
-    ],
-    "kinds": [],
-    "affiliations": []
-  },
-  {
-    "id": "eebb7f65d37a4137",
-    "title": "Explicit Kinematic Guidance from Analytic Concepts for Vision-Language-Action Models",
-    "url": "https://arxiv.org/abs/2607.26513v1",
-    "source": "arXiv",
-    "date": "2026-07-29",
-    "summary": "Current Vision-Language-Action (VLA) models rely mainly on 2D inputs, neglecting the rich object structural information and commonsense knowledge inherent in the 3D physical world. This deficiency restricts their spatial awareness and adaptability for complex, high-precision man…",
-    "tags": [],
-    "topics": [
-      "VLA与基础模型"
-    ],
-    "kinds": [],
-    "affiliations": [
-      "上海交通大学",
-      "复旦大学",
-      "浙江大学"
-    ]
-  },
-  {
-    "id": "ebd54a2d39f5ae0e",
-    "title": "RLMM-Flow: A Flow-based Mobile Manipulation Framework with Latent-Space Reinforcement Learning",
-    "url": "https://arxiv.org/abs/2607.26460v1",
-    "source": "arXiv",
-    "date": "2026-07-29",
-    "summary": "Mobile manipulation requires generating whole-body action chunks that jointly satisfy goal reaching, collision avoidance, base kinematic constraints, manipulator joint limits, and trajectory smoothness. Flow-based generative policies provide an efficient paradigm for learning mu…",
-    "tags": [],
-    "topics": [
-      "灵巧手与操作",
-      "移动与四足"
-    ],
-    "kinds": [
-      "安全与可信"
-    ],
-    "affiliations": []
-  },
-  {
-    "id": "87f9db327df58347",
-    "title": "Reinforcement Learning on Cost-Constrained Quadrupedal Hardware",
-    "url": "https://arxiv.org/abs/2607.26434v1",
-    "source": "arXiv",
-    "date": "2026-07-29",
-    "summary": "Deploying learned control policies on low-cost robotic platforms introduces transport latencies and noisy motor feedback that systematically widens the sim-to-real gap. The chasm of simulation to deployment in hardware lies in the delay of the actuator reaching the commanded pos…",
-    "tags": [],
-    "topics": [
-      "仿真与Sim2Real",
-      "移动与四足"
-    ],
-    "kinds": [],
-    "affiliations": [
-      "Stanford"
-    ]
-  },
-  {
-    "id": "b2edb5bfc177c9cd",
-    "title": "Time-delay Control Using a New Nonlinear Adaptive Law for Cable-Driven Robots",
-    "url": "https://arxiv.org/abs/2607.26383v1",
-    "source": "arXiv",
-    "date": "2026-07-29",
-    "summary": "Cable-driven manipulators exhibit strong nonlinearities and low structural stiffness, which make precise control challenging under time-varying uncertainties and external disturbances. This paper presents a time-delay-estimation (TDE)-based adaptive fractional-order nonsingular…",
-    "tags": [],
-    "topics": [],
-    "kinds": [],
-    "affiliations": []
-  },
-  {
-    "id": "fad0caeca2c05da8",
-    "title": "Failure Detection for Surgical Robot Imitation Policies via Flow-Matching World Modeling",
-    "url": "https://arxiv.org/abs/2607.27511v1",
-    "source": "arXiv",
-    "date": "2026-07-29",
-    "summary": "Imitation learning has shown increasing promise for autonomous robotic surgery, yet safe deployment remains challenging due to the safety-critical nature of surgical tasks and the complexity and variability of surgical environments. Failure detection is therefore an essential sa…",
-    "tags": [],
-    "topics": [
-      "VLA与基础模型",
-      "世界模型"
-    ],
-    "kinds": [
-      "医疗应用",
-      "安全与可信"
-    ],
-    "affiliations": [
-      "Georgia Tech"
-    ]
-  },
-  {
-    "id": "2c782e541d901282",
-    "title": "RL$^2$-VLA: Adaptive RL Latent Compositional Steering with Test-Time Scaling for Vision-Language-Action Models",
-    "url": "https://arxiv.org/abs/2607.26991v2",
-    "source": "arXiv",
-    "date": "2026-07-29",
-    "summary": "Despite the impressive visuomotor capabilities enabled by Vision-Language-Action (VLA) models, their performance often degrades on challenging and out-of-domain tasks. Recent test-time steering and scaling methods improve performance without extensive data collection and retrain…",
-    "tags": [],
-    "topics": [
-      "VLA与基础模型",
-      "遥操作与数据采集"
-    ],
-    "kinds": [],
-    "affiliations": [
-      "University of Toronto",
-      "新加坡国立"
-    ]
-  },
-  {
-    "id": "6a17316802622362",
-    "title": "It's Not Just More Demos: Counterfactual Action Sensitivity Coverage for Data-Efficient Robust Robot Imitation",
-    "url": "https://arxiv.org/abs/2607.27261v1",
-    "source": "arXiv",
-    "date": "2026-07-29",
-    "summary": "Visuomotor imitation learning has demonstrated success for manipulation tasks. However, the trained policies remain brittle to visual `nuisances', with even minor task-preserving variations such as lighting, distractions or changes in colour result in heavy degradation of the tr…",
-    "tags": [],
-    "topics": [
-      "VLA与基础模型",
-      "灵巧手与操作"
-    ],
-    "kinds": [],
-    "affiliations": []
-  },
-  {
-    "id": "f999a24d13599c31",
-    "title": "GMEX Robotics to acquire MediaMeta.ai for social intelligence",
-    "url": "https://www.therobotreport.com/gmex-robotics-to-acquire-mediameta-ai-social-intelligence/",
-    "source": "The Robot Report",
-    "date": "2026-07-29",
-    "summary": "GMEX Robotics has acquired shares in MediaMeta to incorporate social intelligence capabilities into its service robots. The post GMEX Robotics to acquire MediaMeta.ai for social intelligence appeared first on The Robot Report .",
-    "tags": [],
-    "topics": [],
-    "kinds": []
-  },
-  {
-    "id": "46f3ea6a8629ca37",
-    "title": "Experts react to FCC limits on U.S. imports of new humanoid and mobile robots",
-    "url": "https://www.therobotreport.com/industry-reacts-fcc-ban-u-s-imports-new-humanoid-quadruped-robots/",
-    "source": "The Robot Report",
-    "date": "2026-07-29",
-    "summary": "The FCC has banned some foreign humanoids, which industry experts say could help U.S. industry but hinder innovation. The post Experts react to FCC limits on U.S. imports of new humanoid and mobile robots appeared first on The Robot Report .",
-    "tags": [],
-    "topics": [
-      "人形机器人",
-      "移动与四足"
-    ],
-    "kinds": []
-  },
-  {
-    "id": "5d55eaad8c34ae20",
-    "title": "US government bans new foreign-made humanoids, robot dogs, and solar inverters, citing risks to national security",
-    "url": "https://techcrunch.com/2026/07/29/us-government-bans-new-foreign-made-humanoids-robot-dogs-and-solar-inverters-citing-risks-to-national-security/",
-    "source": "TechCrunch Robotics",
-    "date": "2026-07-29",
-    "summary": "The ban largely affects U.S. imports from China, which currently dominates the global market for making humanoid robots and solar inverters.",
-    "tags": [],
-    "topics": [
-      "人形机器人"
-    ],
-    "kinds": [
-      "产业动态",
-      "安全与可信"
-    ]
-  },
-  {
-    "id": "e0c0f703996268a0",
-    "title": "Trump administration bans new Chinese humanoid robots",
-    "url": "https://www.bbc.com/news/articles/cp9e2ex3ekyo",
-    "source": "Hacker News",
-    "date": "2026-07-29",
-    "summary": "",
-    "hn": {
-      "points": 25,
-      "comments": 14,
-      "discussion": "https://news.ycombinator.com/item?id=49092538"
-    },
-    "tags": [],
-    "topics": [
-      "人形机器人"
-    ],
-    "kinds": []
-  },
-  {
-    "id": "cba713cd541002ff",
-    "title": "US bans humanoid robots from China, citing 'unacceptable risks'",
-    "url": "https://www.theguardian.com/us-news/2026/jul/28/fcc-ban-humanoid-robots-china",
-    "source": "Hacker News",
-    "date": "2026-07-29",
-    "summary": "",
-    "hn": {
-      "points": 7,
-      "comments": 1,
-      "discussion": "https://news.ycombinator.com/item?id=49095067"
-    },
-    "tags": [],
-    "topics": [
-      "人形机器人"
-    ],
-    "kinds": [
-      "安全与可信"
-    ]
   }
 ]
